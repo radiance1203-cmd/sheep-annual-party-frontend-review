@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="112" height="112" viewBox="0 0 112 112" role="img" aria-labelledby="ui_cooldown_ring_title ui_cooldown_ring_desc">
+<title id="ui_cooldown_ring_title">可绑定进度的冷却圆环</title><desc id="ui_cooldown_ring_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.cooldown.ring&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [112, 112], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs></defs>
+<g id="track"><circle cx="56" cy="56" r="48" fill="none" stroke="#E7D3B0" stroke-width="8"/></g><g id="progress"><circle data-role="progress" cx="56" cy="56" r="48" fill="none" stroke="#D95B43" stroke-width="8" pathLength="100" stroke-dasharray="100 100" stroke-dashoffset="0" stroke-linecap="round" transform="rotate(-90 56 56)"/></g>
+</svg>

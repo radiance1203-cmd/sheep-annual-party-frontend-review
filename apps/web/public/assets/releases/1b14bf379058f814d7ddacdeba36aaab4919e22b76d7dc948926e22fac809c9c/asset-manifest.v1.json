@@ -1,0 +1,2467 @@
+{
+  "schema_version": "sheep-asset-manifest-1.0",
+  "art_version": "art-1.1.0",
+  "game_rule_version": "onsite-v2.1-candidate",
+  "path_base": "package root containing design/; all existing paths are relative to this root",
+  "status_definitions": {
+    "ready_ui_baseline": "Existing original SVG usable by real UI components; not proof of final device acceptance",
+    "placeholder": "Existing editable temporary gameplay art; replace before final plush-art acceptance",
+    "concept_reference": "Existing look/layout reference; not a production sprite or screenshot UI",
+    "planned": "Specification only; path must be null, expected_future_path is a future naming suggestion",
+    "rendered_candidate": "Actual original editable/rendered files with automated atlas checks; human visual and real-device acceptance pending"
+  },
+  "counts": {
+    "ready_ui_baseline": 30,
+    "placeholder": 11,
+    "concept_reference": 6,
+    "planned": 0,
+    "new_svg_assets": 41,
+    "delivered_3d_master_files": 3,
+    "delivered_production_animation_frames": 254,
+    "delivered_production_atlases": 6,
+    "rendered_candidate": 17,
+    "delivered_button_state_variants": 12
+  },
+  "source_register": "design/asset_specs/SOURCE_REGISTER.md",
+  "tokens": "design/design-tokens.json",
+  "camera_animation_spec": "design/asset_specs/CAMERAS_AND_ANIMATION.md",
+  "atlas_spec": "design/asset_specs/ATLAS_CONTRACT.md",
+  "acceptance_spec": "design/asset_specs/ACCEPTANCE.md",
+  "assets": [
+    {
+      "asset_id": "ui.button.primary",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/ui_button_primary.svg",
+      "kind": "surface",
+      "canvas_px": [
+        320,
+        88
+      ],
+      "pivot_px": null,
+      "layers": [
+        "shadow",
+        "surface",
+        "highlight"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1231,
+      "sha256": "413a8a624a1b2eb96d6d0591dde2308a4d1864505bd71baf7765b3961530fe65",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/ui_button_primary.svg"
+    },
+    {
+      "asset_id": "ui.button.secondary",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/ui_button_secondary.svg",
+      "kind": "surface",
+      "canvas_px": [
+        320,
+        80
+      ],
+      "pivot_px": null,
+      "layers": [
+        "shadow",
+        "surface"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1104,
+      "sha256": "8fb6e01f18604cf08ffe28211195552b8f93990fcc37ab174bdcfb25be1a0c18",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/ui_button_secondary.svg"
+    },
+    {
+      "asset_id": "ui.button.round",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/ui_button_round.svg",
+      "kind": "surface",
+      "canvas_px": [
+        96,
+        96
+      ],
+      "pivot_px": null,
+      "layers": [
+        "shadow",
+        "surface"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1037,
+      "sha256": "f640138fb412e83787e34cfaaada6eaadd37b904a361daa21bfa5dd593d7bdf9",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/ui_button_round.svg"
+    },
+    {
+      "asset_id": "ui.panel.cream",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/ui_panel_cream.svg",
+      "kind": "surface",
+      "canvas_px": [
+        320,
+        128
+      ],
+      "pivot_px": null,
+      "layers": [
+        "shadow",
+        "surface",
+        "highlight"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1212,
+      "sha256": "dbab90e0d7a79b9c934c83557d982935a977f77d1f941078587a4913a72dec17",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/ui_panel_cream.svg"
+    },
+    {
+      "asset_id": "ui.panel.card",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/ui_panel_card.svg",
+      "kind": "surface",
+      "canvas_px": [
+        360,
+        144
+      ],
+      "pivot_px": null,
+      "layers": [
+        "shadow",
+        "surface",
+        "highlight"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1205,
+      "sha256": "5daf968ed06c427cfa98dfb293d1083e91869076efa9655558106ac52d7f6a8b",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/ui_panel_card.svg"
+    },
+    {
+      "asset_id": "ui.hud.pill",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/ui_hud_pill.svg",
+      "kind": "surface",
+      "canvas_px": [
+        240,
+        80
+      ],
+      "pivot_px": null,
+      "layers": [
+        "shadow",
+        "surface",
+        "highlight"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1183,
+      "sha256": "7dfac569bee0dbf21248cc01c6f87e2e933896a9ea9b52b7c8b82f8599a4cfd7",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/ui_hud_pill.svg"
+    },
+    {
+      "asset_id": "ui.status.badge",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/ui_status_badge.svg",
+      "kind": "surface",
+      "canvas_px": [
+        192,
+        56
+      ],
+      "pivot_px": null,
+      "layers": [
+        "shadow",
+        "surface",
+        "highlight"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1214,
+      "sha256": "1489cd82b791e079e06f2da0b9eacbbaecb7367161cabb23e739d83646228857",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/ui_status_badge.svg"
+    },
+    {
+      "asset_id": "ui.banner.wood",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/ui_banner_wood.svg",
+      "kind": "surface",
+      "canvas_px": [
+        360,
+        112
+      ],
+      "pivot_px": null,
+      "layers": [
+        "shadow",
+        "surface",
+        "decor"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1465,
+      "sha256": "72df126075612a01f322a2ac7ef1f3fd94db1ce85727ba520b4a7db3fe795bea",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/ui_banner_wood.svg"
+    },
+    {
+      "asset_id": "ui.joystick.base",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/ui_joystick_base.svg",
+      "kind": "control_surface",
+      "canvas_px": [
+        144,
+        144
+      ],
+      "pivot_px": null,
+      "layers": [
+        "surface",
+        "direction_marks"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1093,
+      "sha256": "77de6c239d520abcd520a56639dcdc5b5b73d7f1802557bde0575a8485189fb9",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/ui_joystick_base.svg"
+    },
+    {
+      "asset_id": "ui.joystick.knob",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/ui_joystick_knob.svg",
+      "kind": "control_surface",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "shadow",
+        "surface"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1013,
+      "sha256": "62d99137eac11b07690e608c79c1529601ade7c1ccc9fae0b4203d9169db1314",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/ui_joystick_knob.svg"
+    },
+    {
+      "asset_id": "ui.cooldown.ring",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/ui_cooldown_ring.svg",
+      "kind": "control_surface",
+      "canvas_px": [
+        112,
+        112
+      ],
+      "pivot_px": null,
+      "layers": [
+        "track",
+        "progress"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1042,
+      "sha256": "a64db8c23fee9379bce9ec1a4873f5b9e90ab02d82a445e52538f6c3ac65647f",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/ui_cooldown_ring.svg"
+    },
+    {
+      "asset_id": "ui.icon.back",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_back.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "glyph"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 786,
+      "sha256": "6047f534f2e076bf015f252f2f49a77de9bd0529ff01122bfce7337da325662d",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_back.svg"
+    },
+    {
+      "asset_id": "ui.icon.chevron.right",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_chevron_right.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "glyph"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 831,
+      "sha256": "2cd258732751e9099b703828d3a973a647ee422ed63b39bf17550e0d7526d2f8",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_chevron_right.svg"
+    },
+    {
+      "asset_id": "ui.icon.sound.on",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_sound_on.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "speaker",
+        "waves"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 906,
+      "sha256": "ef36541503772c6039586473880aa9b28e2ff6cde94ba8a548b7b8e7ff95cdfd",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_sound_on.svg"
+    },
+    {
+      "asset_id": "ui.icon.sound.off",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_sound_off.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "speaker",
+        "mute"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 892,
+      "sha256": "ff529d18bc4371b2e5be2ed28921b8de7bce781291d36174ceb747ba5f940293",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_sound_off.svg"
+    },
+    {
+      "asset_id": "ui.icon.timer",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_timer.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "case",
+        "hands"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1069,
+      "sha256": "0ed74a1e9cedb988d5ddb7cb691eb31e93725c2a661e7a80c94b3ad4d3ef586d",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_timer.svg"
+    },
+    {
+      "asset_id": "ui.icon.score.star",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_score_star.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "star"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 994,
+      "sha256": "ee19f48faa4ee00166e9c7cce90f82456100e18b51300ee11e41889551edbbed",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_score_star.svg"
+    },
+    {
+      "asset_id": "ui.icon.ticket",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_ticket.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "ticket",
+        "star"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1070,
+      "sha256": "27a33bad82098deaaa6dff32736a46a179d499ba180d39f464945bfba05ca43d",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_ticket.svg"
+    },
+    {
+      "asset_id": "ui.icon.mistake",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_mistake.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "disc",
+        "cross"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 876,
+      "sha256": "ec445dc6538059a53941fef87eadff4aa9d9514d4fbeebb84b901f0c200096cd",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_mistake.svg"
+    },
+    {
+      "asset_id": "ui.icon.gift",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_gift.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "box",
+        "ribbon",
+        "bow"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1066,
+      "sha256": "f8e80982f29c5c53451c6ceb6f783139b49bc636cc93b5474e06a75aa58456f3",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_gift.svg"
+    },
+    {
+      "asset_id": "ui.icon.leaderboard",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_leaderboard.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "cup"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 939,
+      "sha256": "05cda602b40d348a588a1441cae7d512d7f20f3068ffe06da8df31b7644e8786",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_leaderboard.svg"
+    },
+    {
+      "asset_id": "ui.icon.home",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_home.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "barn"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 961,
+      "sha256": "2a91ced245d88b7be119a54c8e2ddd6dbb976e1927db74be2320058ffa9b82d7",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_home.svg"
+    },
+    {
+      "asset_id": "ui.icon.clover",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_clover.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "leaves",
+        "core"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1167,
+      "sha256": "b88eb4c449705952dbf19aeb367f572e5a3034379aebd3f6ee5808b6c0c2481d",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_clover.svg"
+    },
+    {
+      "asset_id": "ui.icon.bark",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_bark.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "megaphone",
+        "waves"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 947,
+      "sha256": "effc31ae349aee6f76513228551067b5e193a74bf0352c2dddb0b5d084986365",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_bark.svg"
+    },
+    {
+      "asset_id": "ui.icon.check",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_check.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "disc",
+        "check"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 855,
+      "sha256": "5a05c4ce499687e863ec6f0348945e59700af61e55d1d037930369acabaa1872",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_check.svg"
+    },
+    {
+      "asset_id": "ui.icon.info",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_info.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "disc",
+        "glyph"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 885,
+      "sha256": "f43bca6f50a519285519f0d95cd870523e2e3bd748958b9bd2d74b866482c695",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_info.svg"
+    },
+    {
+      "asset_id": "ui.icon.sheep",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_sheep.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "horns",
+        "wool",
+        "face",
+        "scarf",
+        "bell"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1444,
+      "sha256": "0bc9590a7e0d7e76b29ca7d9a80ca8a6b280937f2655cc4bcfebf70acde992f3",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_sheep.svg"
+    },
+    {
+      "asset_id": "ui.icon.arrow.up",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_arrow_up.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "arrow"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 802,
+      "sha256": "1065e78a3952aa06aa28774caf275dea9b273a9d1bce3ff43889ab79a47210e4",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_arrow_up.svg"
+    },
+    {
+      "asset_id": "ui.icon.stack",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_stack.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "bottom",
+        "middle",
+        "top"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1135,
+      "sha256": "55c40e529a23889b3edb4f4fe4078d2a2eb7b061bf09f5acfeb402dab2c3a70d",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_stack.svg"
+    },
+    {
+      "asset_id": "ui.icon.hurdle",
+      "status": "ready_ui_baseline",
+      "path": "design/ui_kit/icon_hurdle.svg",
+      "kind": "icon",
+      "canvas_px": [
+        64,
+        64
+      ],
+      "pivot_px": null,
+      "layers": [
+        "posts",
+        "beam"
+      ],
+      "runtime_usage": "ui_baseline",
+      "contains_baked_text": false,
+      "bytes": 1015,
+      "sha256": "61cbcfe4028147b17e50c5ce806f989b5a196e10b475ac47c9c91b53f27c9dca",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null,
+      "runtime_path": "/assets/ui/icon_hurdle.svg"
+    },
+    {
+      "asset_id": "placeholder.sheep.side.e",
+      "status": "placeholder",
+      "path": "design/source/placeholders/sheep_side_e.svg",
+      "kind": "character_source",
+      "canvas_px": [
+        256,
+        256
+      ],
+      "pivot_px": [
+        128,
+        224
+      ],
+      "layers": [
+        "rear_legs",
+        "body_wool",
+        "tail",
+        "face",
+        "horns",
+        "forelock",
+        "scarf",
+        "bell",
+        "front_legs"
+      ],
+      "runtime_usage": "placeholder_only",
+      "contains_baked_text": false,
+      "bytes": 2406,
+      "sha256": "54c7a91e970f93f855d528e7ea3261c6769d581cb41adf6f6ffbf3ac242e5638",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner"
+      ],
+      "camera_id": "side_v1",
+      "direction": 0,
+      "replacement_asset_id": "character.sheep.side"
+    },
+    {
+      "asset_id": "placeholder.sheep.iso.s",
+      "status": "placeholder",
+      "path": "design/source/placeholders/sheep_iso_s.svg",
+      "kind": "character_source",
+      "canvas_px": [
+        256,
+        256
+      ],
+      "pivot_px": [
+        128,
+        196
+      ],
+      "layers": [
+        "legs",
+        "body_wool",
+        "horns",
+        "face",
+        "forelock",
+        "scarf",
+        "bell"
+      ],
+      "runtime_usage": "placeholder_only",
+      "contains_baked_text": false,
+      "bytes": 2096,
+      "sha256": "54323b0616f7c6056079628f8a2262ac986ee8fbb93b25170444ea1e008333d8",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "herd"
+      ],
+      "camera_id": "iso8_v1",
+      "direction": 2,
+      "replacement_asset_id": "character.sheep.iso8"
+    },
+    {
+      "asset_id": "placeholder.sheep.iso.n",
+      "status": "placeholder",
+      "path": "design/source/placeholders/sheep_iso_n.svg",
+      "kind": "character_source",
+      "canvas_px": [
+        256,
+        256
+      ],
+      "pivot_px": [
+        128,
+        196
+      ],
+      "layers": [
+        "legs",
+        "head_back",
+        "horns",
+        "scarf",
+        "body_wool",
+        "tail"
+      ],
+      "runtime_usage": "placeholder_only",
+      "contains_baked_text": false,
+      "bytes": 1689,
+      "sha256": "ba26dc487f255119737cd9bf22d3cc776e4221e8a727077cd420f0e4c928834e",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "herd"
+      ],
+      "camera_id": "iso8_v1",
+      "direction": 6,
+      "replacement_asset_id": "character.sheep.iso8"
+    },
+    {
+      "asset_id": "placeholder.dog.iso.n",
+      "status": "placeholder",
+      "path": "design/source/placeholders/dog_iso_n.svg",
+      "kind": "character_source",
+      "canvas_px": [
+        256,
+        256
+      ],
+      "pivot_px": [
+        128,
+        196
+      ],
+      "layers": [
+        "legs",
+        "body",
+        "head",
+        "collar",
+        "tail"
+      ],
+      "runtime_usage": "placeholder_only",
+      "contains_baked_text": false,
+      "bytes": 1482,
+      "sha256": "300423a1a258507180b935d54ecddd0b0a9ca73e20c92422312d74c53a1f113c",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "herd"
+      ],
+      "camera_id": "iso8_v1",
+      "direction": 6,
+      "replacement_asset_id": "character.dog.iso8"
+    },
+    {
+      "asset_id": "placeholder.shadow.contact",
+      "status": "placeholder",
+      "path": "design/source/placeholders/shadow_contact.svg",
+      "kind": "shadow",
+      "canvas_px": [
+        128,
+        64
+      ],
+      "pivot_px": [
+        64,
+        32
+      ],
+      "layers": [
+        "shadow"
+      ],
+      "runtime_usage": "placeholder_only",
+      "contains_baked_text": false,
+      "bytes": 851,
+      "sha256": "f68b0a71b45fded6c874c16574c068261b4f07ed9929761858a6f530e29bd104",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null
+    },
+    {
+      "asset_id": "placeholder.hay.tray.side",
+      "status": "placeholder",
+      "path": "design/source/placeholders/hay_tray_side.svg",
+      "kind": "prop",
+      "canvas_px": [
+        448,
+        32
+      ],
+      "pivot_px": [
+        224,
+        8
+      ],
+      "layers": [
+        "base",
+        "top",
+        "straw"
+      ],
+      "runtime_usage": "placeholder_only",
+      "contains_baked_text": false,
+      "bytes": 1113,
+      "sha256": "c04439de01f8656108ec3fd4fea3326178f2c4495e064c92b722fc866a0c96fe",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack"
+      ],
+      "camera_id": "side_v1"
+    },
+    {
+      "asset_id": "placeholder.clover.outer",
+      "status": "placeholder",
+      "path": "design/source/placeholders/clover_outer.svg",
+      "kind": "prop",
+      "canvas_px": [
+        128,
+        128
+      ],
+      "pivot_px": [
+        64,
+        64
+      ],
+      "layers": [
+        "leaves"
+      ],
+      "runtime_usage": "placeholder_only",
+      "contains_baked_text": false,
+      "bytes": 1098,
+      "sha256": "7aa6a34f839f8e4e10908b57e638e0005e7a811c6a854f73e75cb04aceef37c8",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "runner"
+      ],
+      "camera_id": null
+    },
+    {
+      "asset_id": "placeholder.clover.core",
+      "status": "placeholder",
+      "path": "design/source/placeholders/clover_core.svg",
+      "kind": "prop",
+      "canvas_px": [
+        128,
+        128
+      ],
+      "pivot_px": [
+        64,
+        64
+      ],
+      "layers": [
+        "halo",
+        "core"
+      ],
+      "runtime_usage": "placeholder_only",
+      "contains_baked_text": false,
+      "bytes": 905,
+      "sha256": "7b0a6d24f547286b3d6a1c352220f4b4275a61214170d42af1cf87f8b0618975",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "runner"
+      ],
+      "camera_id": null
+    },
+    {
+      "asset_id": "placeholder.grass.tile",
+      "status": "placeholder",
+      "path": "design/source/placeholders/grass_tile.svg",
+      "kind": "environment",
+      "canvas_px": [
+        256,
+        256
+      ],
+      "pivot_px": [
+        128,
+        128
+      ],
+      "layers": [
+        "ground",
+        "grass_marks"
+      ],
+      "runtime_usage": "placeholder_only",
+      "contains_baked_text": false,
+      "bytes": 1015,
+      "sha256": "0bf35f2ecb4ac057bea364106fd32fcc889494252ba27559dfb0d8fd64c6698b",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null
+    },
+    {
+      "asset_id": "placeholder.dirt.tile",
+      "status": "placeholder",
+      "path": "design/source/placeholders/dirt_tile.svg",
+      "kind": "environment",
+      "canvas_px": [
+        256,
+        256
+      ],
+      "pivot_px": [
+        128,
+        128
+      ],
+      "layers": [
+        "ground",
+        "grain"
+      ],
+      "runtime_usage": "placeholder_only",
+      "contains_baked_text": false,
+      "bytes": 993,
+      "sha256": "c328bc5ac1c4106c41c0dfbf6d727c712ead06fc410618036e9fff6c6ff45ebf",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "camera_id": null
+    },
+    {
+      "asset_id": "placeholder.fence.side.segment",
+      "status": "placeholder",
+      "path": "design/source/placeholders/fence_side_segment.svg",
+      "kind": "environment",
+      "canvas_px": [
+        256,
+        128
+      ],
+      "pivot_px": [
+        128,
+        116
+      ],
+      "layers": [
+        "rails",
+        "posts",
+        "nails"
+      ],
+      "runtime_usage": "placeholder_only",
+      "contains_baked_text": false,
+      "bytes": 1152,
+      "sha256": "04e1523278f65a73c4532e1ef4be5cbfeb4cbdecfe8b392fc49a1c5350c8095f",
+      "source_id": "original_svg_baseline",
+      "production_art_accepted": false,
+      "license_note": "Original programmatic project baseline; no third-party raster, icon library or embedded font",
+      "shared_games": [
+        "stack",
+        "runner"
+      ],
+      "camera_id": "side_v1",
+      "note": "Placeholder decoration; do not stretch to define a logical hurdle hitbox or use as herd gate production art"
+    },
+    {
+      "asset_id": "reference.user",
+      "status": "concept_reference",
+      "path": "design/reference_user.png",
+      "kind": "reference_image",
+      "canvas_px": [
+        948,
+        1213
+      ],
+      "pivot_px": null,
+      "camera_id": null,
+      "bytes": 697919,
+      "sha256": "4af361cc4db05ec764a7befe14b31b917549fcad51a021204589b275d8f80a8d",
+      "source_id": "user_style_reference",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "runtime_usage": "not_runtime",
+      "production_art_accepted": false,
+      "note": "Third-party screenshot supplied by user; visual reference only, no extraction or implied IP license"
+    },
+    {
+      "asset_id": "reference.prototype.lobby",
+      "status": "concept_reference",
+      "path": "design/prototypes/00_lobby.png",
+      "kind": "reference_image",
+      "canvas_px": [
+        941,
+        1672
+      ],
+      "pivot_px": null,
+      "camera_id": null,
+      "bytes": 2013462,
+      "sha256": "ceada23aecff09c5c4e14ebfcf10a2a8cf171c1054ad861b5216d71e74da31f1",
+      "source_id": "project_prototypes",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "runtime_usage": "not_runtime",
+      "production_art_accepted": false,
+      "note": "Approved concept of lobby; no screenshot-as-UI implementation"
+    },
+    {
+      "asset_id": "reference.prototype.stack",
+      "status": "concept_reference",
+      "path": "design/prototypes/01_stack.png",
+      "kind": "reference_image",
+      "canvas_px": [
+        941,
+        1671
+      ],
+      "pivot_px": null,
+      "camera_id": null,
+      "bytes": 1996208,
+      "sha256": "94651ed5e2ca9039cc397c11395c31205f3b57ee0bd65858a45093d6ebe57652",
+      "source_id": "project_prototypes",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "runtime_usage": "not_runtime",
+      "production_art_accepted": false,
+      "note": "Stack sample 24/80; steady +2 and perfect extra +2"
+    },
+    {
+      "asset_id": "reference.prototype.runner",
+      "status": "concept_reference",
+      "path": "design/prototypes/02_runner.png",
+      "kind": "reference_image",
+      "canvas_px": [
+        941,
+        1672
+      ],
+      "pivot_px": null,
+      "camera_id": null,
+      "bytes": 1979171,
+      "sha256": "62358c3c1cf36921266292f9747c514683f994fb1ed7c15254c29b3b98554a85",
+      "source_id": "project_prototypes",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "runtime_usage": "not_runtime",
+      "production_art_accepted": false,
+      "note": "Runner sample 20/80, mistakes not lives"
+    },
+    {
+      "asset_id": "reference.prototype.herd",
+      "status": "concept_reference",
+      "path": "design/prototypes/03_herd.png",
+      "kind": "reference_image",
+      "canvas_px": [
+        941,
+        1672
+      ],
+      "pivot_px": null,
+      "camera_id": null,
+      "bytes": 2229792,
+      "sha256": "754351c13b62debd71fa342e9e1e366f9b34b0be7e35ae3b0d5af27494d8c50a",
+      "source_id": "project_prototypes",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "runtime_usage": "not_runtime",
+      "production_art_accepted": false,
+      "note": "Herd sample 4/8 = 24 performance points"
+    },
+    {
+      "asset_id": "reference.character.board",
+      "status": "concept_reference",
+      "path": "design/character_foundation_board.png",
+      "kind": "reference_image",
+      "canvas_px": [
+        1536,
+        1024
+      ],
+      "pivot_px": null,
+      "camera_id": null,
+      "bytes": 1543000,
+      "sha256": "836bf1f94e122bd5c98868b02d8577f2e8ea16d8acdce234094969e7510b1539",
+      "source_id": "project_character_board",
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "runtime_usage": "not_runtime",
+      "production_art_accepted": false,
+      "note": "Appearance reference only; lower oblique poses are not calibrated NE/SW views; not a sprite atlas or master model"
+    },
+    {
+      "asset_id": "master.sheep",
+      "status": "rendered_candidate",
+      "path": "art-source/sheep_master.blend",
+      "expected_future_path": "art-source/sheep_master.blend",
+      "kind": "blend_source",
+      "camera_id": null,
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/BLENDER_MASTER_SOURCE_TASK.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 3762406,
+      "sha256": "92e798e39da1e52dbfb8a25ebc3e70ca908c0c56ddb6f027f104219f3d967f76",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated"
+    },
+    {
+      "asset_id": "master.dog",
+      "status": "rendered_candidate",
+      "path": "art-source/dog_master.blend",
+      "expected_future_path": "art-source/dog_master.blend",
+      "kind": "blend_source",
+      "camera_id": null,
+      "shared_games": [
+        "herd"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/BLENDER_MASTER_SOURCE_TASK.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 3871306,
+      "sha256": "28057c5508036e5ce1773f0d1fcf59e38efebddc14299995b19e4a6e590efd72",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated"
+    },
+    {
+      "asset_id": "master.farm",
+      "status": "rendered_candidate",
+      "path": "art-source/farm_master.blend",
+      "expected_future_path": "art-source/farm_master.blend",
+      "kind": "blend_source",
+      "camera_id": null,
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/BLENDER_MASTER_SOURCE_TASK.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 4790559,
+      "sha256": "5b94f5714c54402c364a9687f28c8b1c2b7d54568f918484a1678467e99b3326",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated"
+    },
+    {
+      "asset_id": "character.sheep.side",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/characters/sheep_side_v1.png",
+      "expected_future_path": "assets/characters/sheep_side_v1.png",
+      "kind": "atlas_image",
+      "camera_id": "side_v1",
+      "shared_games": [
+        "stack",
+        "runner"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 431203,
+      "sha256": "7fe6603761abdb34b07d72f870b6df1fe23b060becd3e71238505cc30a3634f3",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "canvas_px": [
+        1024,
+        1024
+      ],
+      "frame_count": 38,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "animations": {
+        "idle.e": {
+          "frames": [
+            "sheep_side__idle__e__f000",
+            "sheep_side__idle__e__f001",
+            "sheep_side__idle__e__f002",
+            "sheep_side__idle__e__f003",
+            "sheep_side__idle__e__f004",
+            "sheep_side__idle__e__f005"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "run.e": {
+          "frames": [
+            "sheep_side__run__e__f000",
+            "sheep_side__run__e__f001",
+            "sheep_side__run__e__f002",
+            "sheep_side__run__e__f003",
+            "sheep_side__run__e__f004",
+            "sheep_side__run__e__f005",
+            "sheep_side__run__e__f006",
+            "sheep_side__run__e__f007"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "takeoff.e": {
+          "frames": [
+            "sheep_side__takeoff__e__f000",
+            "sheep_side__takeoff__e__f001",
+            "sheep_side__takeoff__e__f002"
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "air.e": {
+          "frames": [
+            "sheep_side__air__e__f000",
+            "sheep_side__air__e__f001"
+          ],
+          "fps": 6,
+          "loop": true
+        },
+        "land.e": {
+          "frames": [
+            "sheep_side__land__e__f000",
+            "sheep_side__land__e__f001",
+            "sheep_side__land__e__f002",
+            "sheep_side__land__e__f003"
+          ],
+          "fps": 20,
+          "loop": false
+        },
+        "steady.e": {
+          "frames": [
+            "sheep_side__steady__e__f000",
+            "sheep_side__steady__e__f001",
+            "sheep_side__steady__e__f002"
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "bump.e": {
+          "frames": [
+            "sheep_side__bump__e__f000",
+            "sheep_side__bump__e__f001",
+            "sheep_side__bump__e__f002",
+            "sheep_side__bump__e__f003"
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "celebrate.e": {
+          "frames": [
+            "sheep_side__celebrate__e__f000",
+            "sheep_side__celebrate__e__f001",
+            "sheep_side__celebrate__e__f002",
+            "sheep_side__celebrate__e__f003",
+            "sheep_side__celebrate__e__f004",
+            "sheep_side__celebrate__e__f005",
+            "sheep_side__celebrate__e__f006",
+            "sheep_side__celebrate__e__f007"
+          ],
+          "fps": 12,
+          "loop": true
+        }
+      },
+      "runtime_path": "/assets/characters/sheep_side_v1.png"
+    },
+    {
+      "asset_id": "character.sheep.side.metadata",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/characters/sheep_side_v1.atlas.json",
+      "expected_future_path": "assets/characters/sheep_side_v1.atlas.json",
+      "kind": "atlas_metadata",
+      "camera_id": "side_v1",
+      "shared_games": [
+        "stack",
+        "runner"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 18320,
+      "sha256": "b2c20e78ccb2234a58ccbd5f95c145236c435cc890c6daf442fe3538f4505e31",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "canvas_px": [
+        1024,
+        1024
+      ],
+      "frame_count": 38,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "runtime_path": "/assets/characters/sheep_side_v1.atlas.json"
+    },
+    {
+      "asset_id": "character.sheep.iso8",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/characters/sheep_iso8_v1.png",
+      "expected_future_path": "assets/characters/sheep_iso8_v1.png",
+      "kind": "atlas_image",
+      "camera_id": "iso8_v1",
+      "shared_games": [
+        "herd"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 810768,
+      "sha256": "aa1288147da8450e112b03e16ab6a3a0920f2b9565ee19a8d977c662a5d65273",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "canvas_px": [
+        2048,
+        2048
+      ],
+      "frame_count": 104,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "animations": {
+        "idle.e": {
+          "frames": [
+            "sheep_iso8__idle__e__f000",
+            "sheep_iso8__idle__e__f001",
+            "sheep_iso8__idle__e__f002",
+            "sheep_iso8__idle__e__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.se": {
+          "frames": [
+            "sheep_iso8__idle__se__f000",
+            "sheep_iso8__idle__se__f001",
+            "sheep_iso8__idle__se__f002",
+            "sheep_iso8__idle__se__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.s": {
+          "frames": [
+            "sheep_iso8__idle__s__f000",
+            "sheep_iso8__idle__s__f001",
+            "sheep_iso8__idle__s__f002",
+            "sheep_iso8__idle__s__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.sw": {
+          "frames": [
+            "sheep_iso8__idle__sw__f000",
+            "sheep_iso8__idle__sw__f001",
+            "sheep_iso8__idle__sw__f002",
+            "sheep_iso8__idle__sw__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.w": {
+          "frames": [
+            "sheep_iso8__idle__w__f000",
+            "sheep_iso8__idle__w__f001",
+            "sheep_iso8__idle__w__f002",
+            "sheep_iso8__idle__w__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.nw": {
+          "frames": [
+            "sheep_iso8__idle__nw__f000",
+            "sheep_iso8__idle__nw__f001",
+            "sheep_iso8__idle__nw__f002",
+            "sheep_iso8__idle__nw__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.n": {
+          "frames": [
+            "sheep_iso8__idle__n__f000",
+            "sheep_iso8__idle__n__f001",
+            "sheep_iso8__idle__n__f002",
+            "sheep_iso8__idle__n__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.ne": {
+          "frames": [
+            "sheep_iso8__idle__ne__f000",
+            "sheep_iso8__idle__ne__f001",
+            "sheep_iso8__idle__ne__f002",
+            "sheep_iso8__idle__ne__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "walk.e": {
+          "frames": [
+            "sheep_iso8__walk__e__f000",
+            "sheep_iso8__walk__e__f001",
+            "sheep_iso8__walk__e__f002",
+            "sheep_iso8__walk__e__f003",
+            "sheep_iso8__walk__e__f004",
+            "sheep_iso8__walk__e__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.se": {
+          "frames": [
+            "sheep_iso8__walk__se__f000",
+            "sheep_iso8__walk__se__f001",
+            "sheep_iso8__walk__se__f002",
+            "sheep_iso8__walk__se__f003",
+            "sheep_iso8__walk__se__f004",
+            "sheep_iso8__walk__se__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.s": {
+          "frames": [
+            "sheep_iso8__walk__s__f000",
+            "sheep_iso8__walk__s__f001",
+            "sheep_iso8__walk__s__f002",
+            "sheep_iso8__walk__s__f003",
+            "sheep_iso8__walk__s__f004",
+            "sheep_iso8__walk__s__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.sw": {
+          "frames": [
+            "sheep_iso8__walk__sw__f000",
+            "sheep_iso8__walk__sw__f001",
+            "sheep_iso8__walk__sw__f002",
+            "sheep_iso8__walk__sw__f003",
+            "sheep_iso8__walk__sw__f004",
+            "sheep_iso8__walk__sw__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.w": {
+          "frames": [
+            "sheep_iso8__walk__w__f000",
+            "sheep_iso8__walk__w__f001",
+            "sheep_iso8__walk__w__f002",
+            "sheep_iso8__walk__w__f003",
+            "sheep_iso8__walk__w__f004",
+            "sheep_iso8__walk__w__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.nw": {
+          "frames": [
+            "sheep_iso8__walk__nw__f000",
+            "sheep_iso8__walk__nw__f001",
+            "sheep_iso8__walk__nw__f002",
+            "sheep_iso8__walk__nw__f003",
+            "sheep_iso8__walk__nw__f004",
+            "sheep_iso8__walk__nw__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.n": {
+          "frames": [
+            "sheep_iso8__walk__n__f000",
+            "sheep_iso8__walk__n__f001",
+            "sheep_iso8__walk__n__f002",
+            "sheep_iso8__walk__n__f003",
+            "sheep_iso8__walk__n__f004",
+            "sheep_iso8__walk__n__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.ne": {
+          "frames": [
+            "sheep_iso8__walk__ne__f000",
+            "sheep_iso8__walk__ne__f001",
+            "sheep_iso8__walk__ne__f002",
+            "sheep_iso8__walk__ne__f003",
+            "sheep_iso8__walk__ne__f004",
+            "sheep_iso8__walk__ne__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "enter.e": {
+          "frames": [
+            "sheep_iso8__enter__e__f000",
+            "sheep_iso8__enter__e__f001",
+            "sheep_iso8__enter__e__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "enter.se": {
+          "frames": [
+            "sheep_iso8__enter__se__f000",
+            "sheep_iso8__enter__se__f001",
+            "sheep_iso8__enter__se__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "enter.s": {
+          "frames": [
+            "sheep_iso8__enter__s__f000",
+            "sheep_iso8__enter__s__f001",
+            "sheep_iso8__enter__s__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "enter.sw": {
+          "frames": [
+            "sheep_iso8__enter__sw__f000",
+            "sheep_iso8__enter__sw__f001",
+            "sheep_iso8__enter__sw__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "enter.w": {
+          "frames": [
+            "sheep_iso8__enter__w__f000",
+            "sheep_iso8__enter__w__f001",
+            "sheep_iso8__enter__w__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "enter.nw": {
+          "frames": [
+            "sheep_iso8__enter__nw__f000",
+            "sheep_iso8__enter__nw__f001",
+            "sheep_iso8__enter__nw__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "enter.n": {
+          "frames": [
+            "sheep_iso8__enter__n__f000",
+            "sheep_iso8__enter__n__f001",
+            "sheep_iso8__enter__n__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "enter.ne": {
+          "frames": [
+            "sheep_iso8__enter__ne__f000",
+            "sheep_iso8__enter__ne__f001",
+            "sheep_iso8__enter__ne__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        }
+      },
+      "runtime_path": "/assets/characters/sheep_iso8_v1.png"
+    },
+    {
+      "asset_id": "character.sheep.iso8.metadata",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/characters/sheep_iso8_v1.atlas.json",
+      "expected_future_path": "assets/characters/sheep_iso8_v1.atlas.json",
+      "kind": "atlas_metadata",
+      "camera_id": "iso8_v1",
+      "shared_games": [
+        "herd"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 49210,
+      "sha256": "70576891e573d1f558325a884a8a33eda3d87a1eab6c0d3c4775bc6cad00459a",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "canvas_px": [
+        2048,
+        2048
+      ],
+      "frame_count": 104,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "runtime_path": "/assets/characters/sheep_iso8_v1.atlas.json"
+    },
+    {
+      "asset_id": "character.dog.iso8",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/characters/dog_iso8_v1.png",
+      "expected_future_path": "assets/characters/dog_iso8_v1.png",
+      "kind": "atlas_image",
+      "camera_id": "iso8_v1",
+      "shared_games": [
+        "herd"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 646440,
+      "sha256": "b577985efd661f97b1bf070bb40e8efc208952465115438aca943fa40b339a80",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "canvas_px": [
+        2048,
+        2048
+      ],
+      "frame_count": 112,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "animations": {
+        "idle.e": {
+          "frames": [
+            "dog_iso8__idle__e__f000",
+            "dog_iso8__idle__e__f001",
+            "dog_iso8__idle__e__f002",
+            "dog_iso8__idle__e__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.se": {
+          "frames": [
+            "dog_iso8__idle__se__f000",
+            "dog_iso8__idle__se__f001",
+            "dog_iso8__idle__se__f002",
+            "dog_iso8__idle__se__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.s": {
+          "frames": [
+            "dog_iso8__idle__s__f000",
+            "dog_iso8__idle__s__f001",
+            "dog_iso8__idle__s__f002",
+            "dog_iso8__idle__s__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.sw": {
+          "frames": [
+            "dog_iso8__idle__sw__f000",
+            "dog_iso8__idle__sw__f001",
+            "dog_iso8__idle__sw__f002",
+            "dog_iso8__idle__sw__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.w": {
+          "frames": [
+            "dog_iso8__idle__w__f000",
+            "dog_iso8__idle__w__f001",
+            "dog_iso8__idle__w__f002",
+            "dog_iso8__idle__w__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.nw": {
+          "frames": [
+            "dog_iso8__idle__nw__f000",
+            "dog_iso8__idle__nw__f001",
+            "dog_iso8__idle__nw__f002",
+            "dog_iso8__idle__nw__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.n": {
+          "frames": [
+            "dog_iso8__idle__n__f000",
+            "dog_iso8__idle__n__f001",
+            "dog_iso8__idle__n__f002",
+            "dog_iso8__idle__n__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.ne": {
+          "frames": [
+            "dog_iso8__idle__ne__f000",
+            "dog_iso8__idle__ne__f001",
+            "dog_iso8__idle__ne__f002",
+            "dog_iso8__idle__ne__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "walk.e": {
+          "frames": [
+            "dog_iso8__walk__e__f000",
+            "dog_iso8__walk__e__f001",
+            "dog_iso8__walk__e__f002",
+            "dog_iso8__walk__e__f003",
+            "dog_iso8__walk__e__f004",
+            "dog_iso8__walk__e__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.se": {
+          "frames": [
+            "dog_iso8__walk__se__f000",
+            "dog_iso8__walk__se__f001",
+            "dog_iso8__walk__se__f002",
+            "dog_iso8__walk__se__f003",
+            "dog_iso8__walk__se__f004",
+            "dog_iso8__walk__se__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.s": {
+          "frames": [
+            "dog_iso8__walk__s__f000",
+            "dog_iso8__walk__s__f001",
+            "dog_iso8__walk__s__f002",
+            "dog_iso8__walk__s__f003",
+            "dog_iso8__walk__s__f004",
+            "dog_iso8__walk__s__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.sw": {
+          "frames": [
+            "dog_iso8__walk__sw__f000",
+            "dog_iso8__walk__sw__f001",
+            "dog_iso8__walk__sw__f002",
+            "dog_iso8__walk__sw__f003",
+            "dog_iso8__walk__sw__f004",
+            "dog_iso8__walk__sw__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.w": {
+          "frames": [
+            "dog_iso8__walk__w__f000",
+            "dog_iso8__walk__w__f001",
+            "dog_iso8__walk__w__f002",
+            "dog_iso8__walk__w__f003",
+            "dog_iso8__walk__w__f004",
+            "dog_iso8__walk__w__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.nw": {
+          "frames": [
+            "dog_iso8__walk__nw__f000",
+            "dog_iso8__walk__nw__f001",
+            "dog_iso8__walk__nw__f002",
+            "dog_iso8__walk__nw__f003",
+            "dog_iso8__walk__nw__f004",
+            "dog_iso8__walk__nw__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.n": {
+          "frames": [
+            "dog_iso8__walk__n__f000",
+            "dog_iso8__walk__n__f001",
+            "dog_iso8__walk__n__f002",
+            "dog_iso8__walk__n__f003",
+            "dog_iso8__walk__n__f004",
+            "dog_iso8__walk__n__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.ne": {
+          "frames": [
+            "dog_iso8__walk__ne__f000",
+            "dog_iso8__walk__ne__f001",
+            "dog_iso8__walk__ne__f002",
+            "dog_iso8__walk__ne__f003",
+            "dog_iso8__walk__ne__f004",
+            "dog_iso8__walk__ne__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "bark.e": {
+          "frames": [
+            "dog_iso8__bark__e__f000",
+            "dog_iso8__bark__e__f001",
+            "dog_iso8__bark__e__f002",
+            "dog_iso8__bark__e__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "bark.se": {
+          "frames": [
+            "dog_iso8__bark__se__f000",
+            "dog_iso8__bark__se__f001",
+            "dog_iso8__bark__se__f002",
+            "dog_iso8__bark__se__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "bark.s": {
+          "frames": [
+            "dog_iso8__bark__s__f000",
+            "dog_iso8__bark__s__f001",
+            "dog_iso8__bark__s__f002",
+            "dog_iso8__bark__s__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "bark.sw": {
+          "frames": [
+            "dog_iso8__bark__sw__f000",
+            "dog_iso8__bark__sw__f001",
+            "dog_iso8__bark__sw__f002",
+            "dog_iso8__bark__sw__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "bark.w": {
+          "frames": [
+            "dog_iso8__bark__w__f000",
+            "dog_iso8__bark__w__f001",
+            "dog_iso8__bark__w__f002",
+            "dog_iso8__bark__w__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "bark.nw": {
+          "frames": [
+            "dog_iso8__bark__nw__f000",
+            "dog_iso8__bark__nw__f001",
+            "dog_iso8__bark__nw__f002",
+            "dog_iso8__bark__nw__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "bark.n": {
+          "frames": [
+            "dog_iso8__bark__n__f000",
+            "dog_iso8__bark__n__f001",
+            "dog_iso8__bark__n__f002",
+            "dog_iso8__bark__n__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "bark.ne": {
+          "frames": [
+            "dog_iso8__bark__ne__f000",
+            "dog_iso8__bark__ne__f001",
+            "dog_iso8__bark__ne__f002",
+            "dog_iso8__bark__ne__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        }
+      },
+      "runtime_path": "/assets/characters/dog_iso8_v1.png"
+    },
+    {
+      "asset_id": "character.dog.iso8.metadata",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/characters/dog_iso8_v1.atlas.json",
+      "expected_future_path": "assets/characters/dog_iso8_v1.atlas.json",
+      "kind": "atlas_metadata",
+      "camera_id": "iso8_v1",
+      "shared_games": [
+        "herd"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 52269,
+      "sha256": "43f77665ff268a2dec0e29659156d3f09bd274689818e323c24461522e678eff",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "canvas_px": [
+        2048,
+        2048
+      ],
+      "frame_count": 112,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "runtime_path": "/assets/characters/dog_iso8_v1.atlas.json"
+    },
+    {
+      "asset_id": "environment.side",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/environment/farm_side_v1.png",
+      "expected_future_path": "assets/environment/farm_side_v1.png",
+      "kind": "atlas_image",
+      "camera_id": "side_v1",
+      "shared_games": [
+        "stack",
+        "runner"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 38484,
+      "sha256": "c670faacf7be6985ddd1695c9fe98947d430d3b9e0125a453910b6e9e7dc9ebc",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "canvas_px": [
+        1024,
+        1024
+      ],
+      "frame_count": 11,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "animations": {},
+      "runtime_path": "/assets/environment/farm_side_v1.png"
+    },
+    {
+      "asset_id": "environment.side.metadata",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/environment/farm_side_v1.atlas.json",
+      "expected_future_path": "assets/environment/farm_side_v1.atlas.json",
+      "kind": "atlas_metadata",
+      "camera_id": "side_v1",
+      "shared_games": [
+        "stack",
+        "runner"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 4894,
+      "sha256": "8501d9b095a7ea3b60e25f983fbd012469a589a922361abd38966b61b2039f35",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "canvas_px": [
+        1024,
+        1024
+      ],
+      "frame_count": 11,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "runtime_path": "/assets/environment/farm_side_v1.atlas.json"
+    },
+    {
+      "asset_id": "environment.iso",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/environment/farm_iso_v1.png",
+      "expected_future_path": "assets/environment/farm_iso_v1.png",
+      "kind": "atlas_image",
+      "camera_id": "iso8_v1",
+      "shared_games": [
+        "herd"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 42905,
+      "sha256": "b6fced7d8348a99ed759e1e52666179fec5ad4744fd3c44d43ef38103b65ad0d",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "canvas_px": [
+        1024,
+        1024
+      ],
+      "frame_count": 11,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "animations": {},
+      "runtime_path": "/assets/environment/farm_iso_v1.png"
+    },
+    {
+      "asset_id": "environment.iso.metadata",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/environment/farm_iso_v1.atlas.json",
+      "expected_future_path": "assets/environment/farm_iso_v1.atlas.json",
+      "kind": "atlas_metadata",
+      "camera_id": "iso8_v1",
+      "shared_games": [
+        "herd"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 4881,
+      "sha256": "8e13fd3d59f65c56e0c9ef43907458dc5ae6cb64a4ab504ab1232cd251c8a05e",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "canvas_px": [
+        1024,
+        1024
+      ],
+      "frame_count": 11,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "runtime_path": "/assets/environment/farm_iso_v1.atlas.json"
+    },
+    {
+      "asset_id": "hero.lobby",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/hero/lobby_sheep_v1.webp",
+      "expected_future_path": "assets/hero/lobby_sheep_v1.webp",
+      "kind": "hero_image",
+      "camera_id": null,
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 120524,
+      "sha256": "2075d2d7cc6c8c812ab475212e06611154d2c9584fbb911eebf1fa8b9f15ad7e",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "canvas_px": [
+        768,
+        768
+      ],
+      "runtime_path": "/assets/hero/lobby_sheep_v1.webp"
+    },
+    {
+      "asset_id": "effects.shared",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/effects/shared_v1.png",
+      "expected_future_path": "assets/effects/shared_v1.png",
+      "kind": "atlas_image",
+      "camera_id": null,
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 13558,
+      "sha256": "e7ca467d404e96cd9534890907740f8cdf3f775a39785a8f4281ec583e0dfc7c",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "canvas_px": [
+        512,
+        512
+      ],
+      "frame_count": 5,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "animations": {},
+      "runtime_path": "/assets/effects/shared_v1.png"
+    },
+    {
+      "asset_id": "effects.shared.metadata",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/effects/shared_v1.atlas.json",
+      "expected_future_path": "assets/effects/shared_v1.atlas.json",
+      "kind": "atlas_metadata",
+      "camera_id": null,
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "source_id": "original_blender_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 2508,
+      "sha256": "d2d088f7db7012a2576a65eea14f4f14fbddaaa71827f9e7c58481cb7626d526",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "canvas_px": [
+        512,
+        512
+      ],
+      "frame_count": 5,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "runtime_path": "/assets/effects/shared_v1.atlas.json"
+    },
+    {
+      "asset_id": "audio.shared",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/audio/audio-manifest.json",
+      "expected_future_path": "assets/audio/",
+      "kind": "audio_bundle",
+      "camera_id": null,
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "source_id": "original_synth_cues_20261027",
+      "production_art_accepted": false,
+      "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
+      "note": "Actual rendered original asset; final visual and real-device acceptance pending",
+      "bytes": 1243,
+      "sha256": "1ab42d6c3243feac08781df968897c51f3349dfce9564dd64597800d8dd0da87",
+      "version": "1.1.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "runtime_path": "/assets/audio/audio-manifest.json"
+    }
+  ],
+  "runtime_budget_report": "art-source/atlas-validation.json",
+  "ui_state_manifest": "design/ui_kit/button-states.json",
+  "runtime_ui_state_manifest": "/assets/ui/button-states.json"
+}

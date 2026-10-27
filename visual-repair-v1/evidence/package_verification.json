@@ -1,0 +1,17 @@
+{
+  "scope": "Static supplement files only; no user-app tests",
+  "status": "PASS",
+  "reference_images": 5,
+  "static_art_sources": 4,
+  "runtime_webp_images": 4,
+  "runtime_total_bytes": 111230,
+  "capture_case_groups": 13,
+  "acceptance_cases": 26,
+  "repair_tasks": 10,
+  "tasks_acyclic": true,
+  "acceptance_coverage_complete": true,
+  "app_integration_tested": false,
+  "gameplay_art_created_this_turn": false,
+  "actual_device_tested": false,
+  "human_playtest_performed": false
+}

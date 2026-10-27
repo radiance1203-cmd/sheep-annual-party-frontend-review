@@ -1,0 +1,37 @@
+{
+  "name": "sheep-annual-party-frontend-review",
+  "version": "2.2.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/web",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=24.12.0 <25"
+  },
+  "scripts": {
+    "dev": "npm run dev -w @sheep/web --",
+    "build": "npm run build -w @sheep/web",
+    "typecheck": "node node_modules/typescript/bin/tsc -p tsconfig.json",
+    "test": "node node_modules/vitest/vitest.mjs run",
+    "contracts:check": "node scripts/contracts.mjs --check",
+    "rules:check": "node --import tsx scripts/rules.mjs --check",
+    "review:lobby": "node --import tsx review/tools/capture.mts lobby-review",
+    "review:games": "node --import tsx review/tools/capture-games.mts games-review"
+  },
+  "dependencies": {
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "tsx": "4.23.15",
+    "vitest": "5.0.5",
+    "@types/node": "26.6.5",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@playwright/test": "1.64.1",
+    "openapi-typescript": "7.13.0",
+    "yaml": "2.9.1"
+  }
+}

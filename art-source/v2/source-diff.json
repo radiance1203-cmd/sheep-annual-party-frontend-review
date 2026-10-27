@@ -1,0 +1,61 @@
+{
+  "status": "PRODUCTION_EXPORTED_FINAL_RUNTIME_VISUAL_PENDING",
+  "method": "load original masters and edit named geometry/materials; v1 unchanged",
+  "seed": 5012026,
+  "sources": [
+    {
+      "source": "sheep_master.blend",
+      "before": {
+        "sha256": "92e798e39da1e52dbfb8a25ebc3e70ca908c0c56ddb6f027f104219f3d967f76",
+        "objects": 120,
+        "actions": 66
+      },
+      "after": {
+        "objects": 340,
+        "actions": 66
+      },
+      "edits": {
+        "compact_body_y": 0.405,
+        "face_linear_rgb": [
+          0.98,
+          0.75,
+          0.48
+        ],
+        "wool_hair_world_length": 0.022,
+        "wool_hair_per_mesh": 1000,
+        "wool_children": 0,
+        "single_bell": true
+      },
+      "samples": [
+        "art-source/v2/samples/sheep_back_512.png",
+        "art-source/v2/samples/sheep_diagonal_512.png",
+        "art-source/v2/samples/sheep_front_512.png",
+        "art-source/v2/samples/sheep_side_512.png"
+      ]
+    },
+    {
+      "source": "dog_master.blend",
+      "before": {
+        "sha256": "28057c5508036e5ce1773f0d1fcf59e38efebddc14299995b19e4a6e590efd72",
+        "objects": 120,
+        "actions": 84
+      },
+      "after": {
+        "objects": 147,
+        "actions": 84
+      },
+      "edits": {
+        "controller_and_animation_retained": true,
+        "fur_shader_scale": 25,
+        "additional_chest_tufts": 27,
+        "real_short_hair": true
+      },
+      "samples": [
+        "art-source/v2/samples/dog_back_512.png",
+        "art-source/v2/samples/dog_diagonal_512.png",
+        "art-source/v2/samples/dog_front_512.png",
+        "art-source/v2/samples/dog_side_512.png"
+      ]
+    }
+  ]
+}

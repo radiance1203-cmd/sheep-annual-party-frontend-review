@@ -1,0 +1,154 @@
+{
+  "schema_version": "sheep-atlas-1.0",
+  "asset_id": "effects.shared",
+  "version": "art-1.1.0",
+  "status": "rendered_candidate",
+  "image": "shared_v1.png",
+  "size_px": [
+    512,
+    512
+  ],
+  "color_space": "srgb",
+  "alpha_mode": "straight",
+  "camera_id": "iso8_v1",
+  "source_frame_px": [
+    256,
+    256
+  ],
+  "runtime_frame_px": [
+    128,
+    128
+  ],
+  "extrusion_px": 2,
+  "padding_px": 2,
+  "frames": {
+    "sparkle": {
+      "rect": [
+        4,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": null
+    },
+    "dust": {
+      "rect": [
+        140,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": null
+    },
+    "bark_wave": {
+      "rect": [
+        276,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": null
+    },
+    "entry_ring": {
+      "rect": [
+        4,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": null
+    },
+    "confetti": {
+      "rect": [
+        140,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": null
+    }
+  },
+  "animations": {},
+  "source": "art-source/render_assets.py",
+  "production_art_accepted": false
+}

@@ -1,0 +1,59 @@
+{
+  "schema_version": "sheep-atlas-1.0",
+  "asset_id": "environment.backdrop.herd",
+  "version": "art-1.3.0-visual-repair",
+  "status": "rendered_candidate",
+  "image": "backdrop_herd_v3.png",
+  "size_px": [
+    720,
+    840
+  ],
+  "scene_size_px": [
+    360,
+    420
+  ],
+  "color_space": "srgb",
+  "alpha_mode": "straight",
+  "camera_id": "backdrop_herd_v3",
+  "source_frame_px": [
+    720,
+    840
+  ],
+  "runtime_frame_px": [
+    720,
+    840
+  ],
+  "extrusion_px": 0,
+  "padding_px": 0,
+  "frames": {
+    "backdrop_herd": {
+      "rect": [
+        0,
+        0,
+        720,
+        840
+      ],
+      "source_size": [
+        720,
+        840
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        720,
+        840
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        0,
+        0
+      ],
+      "direction": null
+    }
+  },
+  "animations": {},
+  "source": "art-source/v3/backdrop_herd_v3.blend",
+  "production_art_accepted": false,
+  "purpose": "Independent static scenery only; no moving actors, HUD, live platform/hurdles/pickups, or herd gate line"
+}

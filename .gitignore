@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env.*
+.local/
+output/
+test-results/
+__pycache__/
+*.log
+*.blend
+*.blend1
+*.zip

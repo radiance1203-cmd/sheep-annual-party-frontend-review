@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="icon_ticket_title icon_ticket_desc">
+<title id="icon_ticket_title">正式机会票券</title><desc id="icon_ticket_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.icon.ticket&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [64, 64], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs></defs>
+<g id="ticket"><rect x="6" y="15" width="52" height="34" rx="7" fill="#D95B43" stroke="#A64A2F" stroke-width="2"/><path d="M45 20V44" stroke="#F8E7C4" stroke-width="2" stroke-dasharray="3 3"/></g><g id="star"><polygon points="27.00,19.00 30.53,27.15 39.36,27.98 32.71,33.85 34.64,42.52 27.00,38.00 19.36,42.52 21.29,33.85 14.64,27.98 23.47,27.15" fill="#F2D38A" stroke="#A76F2C" stroke-width="1.5"/></g>
+</svg>

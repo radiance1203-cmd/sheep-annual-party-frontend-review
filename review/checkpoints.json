@@ -1,0 +1,1603 @@
+{
+  "stack": {
+    "inputs": [
+      {
+        "tick": 35,
+        "seq": 1,
+        "type": "DROP",
+        "value": null
+      },
+      {
+        "tick": 90,
+        "seq": 2,
+        "type": "DROP",
+        "value": null
+      },
+      {
+        "tick": 143,
+        "seq": 3,
+        "type": "DROP",
+        "value": null
+      },
+      {
+        "tick": 198,
+        "seq": 4,
+        "type": "DROP",
+        "value": null
+      },
+      {
+        "tick": 242,
+        "seq": 5,
+        "type": "DROP",
+        "value": null
+      },
+      {
+        "tick": 293,
+        "seq": 6,
+        "type": "DROP",
+        "value": null
+      },
+      {
+        "tick": 337,
+        "seq": 7,
+        "type": "DROP",
+        "value": null
+      },
+      {
+        "tick": 388,
+        "seq": 8,
+        "type": "DROP",
+        "value": null
+      }
+    ],
+    "tick": 407,
+    "view": {
+      "game_id": "stack",
+      "tick": 407,
+      "accepted_actions_count": 8,
+      "conclusion": null,
+      "stats": {
+        "success_layers": 8,
+        "perfect_layers": 4,
+        "misses": 0
+      },
+      "placed_layers": [
+        {
+          "layer_no": 1,
+          "center": {
+            "x_u": 186000,
+            "y_u": 386000
+          },
+          "perfect": true
+        },
+        {
+          "layer_no": 2,
+          "center": {
+            "x_u": 180000,
+            "y_u": 342000
+          },
+          "perfect": true
+        },
+        {
+          "layer_no": 3,
+          "center": {
+            "x_u": 186000,
+            "y_u": 298000
+          },
+          "perfect": true
+        },
+        {
+          "layer_no": 4,
+          "center": {
+            "x_u": 180000,
+            "y_u": 254000
+          },
+          "perfect": true
+        },
+        {
+          "layer_no": 5,
+          "center": {
+            "x_u": 204250,
+            "y_u": 210000
+          },
+          "perfect": false
+        },
+        {
+          "layer_no": 6,
+          "center": {
+            "x_u": 179200,
+            "y_u": 166000
+          },
+          "perfect": false
+        },
+        {
+          "layer_no": 7,
+          "center": {
+            "x_u": 204250,
+            "y_u": 122000
+          },
+          "perfect": false
+        },
+        {
+          "layer_no": 8,
+          "center": {
+            "x_u": 179200,
+            "y_u": 78000
+          },
+          "perfect": false
+        }
+      ],
+      "top_support": {
+        "center": {
+          "x_u": 179200,
+          "y_u": 78000
+        },
+        "width_u": 112000
+      },
+      "moving_tray": {
+        "center": {
+          "x_u": 284300,
+          "y_u": -54000
+        },
+        "width_u": 112000,
+        "phase": "SWING",
+        "phase_ticks_remaining": 0
+      }
+    },
+    "performance": 24,
+    "provenance": "actual pure-core accepted synthetic prefix"
+  },
+  "herd": {
+    "inputs": [
+      {
+        "tick": 1,
+        "seq": 1,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 0,
+          "y": -1000
+        }
+      },
+      {
+        "tick": 1,
+        "seq": 2,
+        "type": "BARK",
+        "value": null
+      },
+      {
+        "tick": 2,
+        "seq": 3,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 0,
+          "y": -999
+        }
+      },
+      {
+        "tick": 3,
+        "seq": 4,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 0,
+          "y": -999
+        }
+      },
+      {
+        "tick": 4,
+        "seq": 5,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 0,
+          "y": -999
+        }
+      },
+      {
+        "tick": 5,
+        "seq": 6,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 0,
+          "y": -999
+        }
+      },
+      {
+        "tick": 6,
+        "seq": 7,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 0,
+          "y": -999
+        }
+      },
+      {
+        "tick": 7,
+        "seq": 8,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1,
+          "y": -999
+        }
+      },
+      {
+        "tick": 8,
+        "seq": 9,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 0,
+          "y": -999
+        }
+      },
+      {
+        "tick": 9,
+        "seq": 10,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1,
+          "y": -999
+        }
+      },
+      {
+        "tick": 10,
+        "seq": 11,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 0,
+          "y": -999
+        }
+      },
+      {
+        "tick": 11,
+        "seq": 12,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1,
+          "y": -999
+        }
+      },
+      {
+        "tick": 12,
+        "seq": 13,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 0,
+          "y": -999
+        }
+      },
+      {
+        "tick": 13,
+        "seq": 14,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 0,
+          "y": -999
+        }
+      },
+      {
+        "tick": 14,
+        "seq": 15,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 2,
+          "y": -999
+        }
+      },
+      {
+        "tick": 15,
+        "seq": 16,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 3,
+          "y": -999
+        }
+      },
+      {
+        "tick": 16,
+        "seq": 17,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 3,
+          "y": -999
+        }
+      },
+      {
+        "tick": 17,
+        "seq": 18,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 3,
+          "y": -999
+        }
+      },
+      {
+        "tick": 18,
+        "seq": 19,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 4,
+          "y": -999
+        }
+      },
+      {
+        "tick": 19,
+        "seq": 20,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 9,
+          "y": -999
+        }
+      },
+      {
+        "tick": 20,
+        "seq": 21,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 9,
+          "y": -999
+        }
+      },
+      {
+        "tick": 21,
+        "seq": 22,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 9,
+          "y": -999
+        }
+      },
+      {
+        "tick": 22,
+        "seq": 23,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 8,
+          "y": -999
+        }
+      },
+      {
+        "tick": 23,
+        "seq": 24,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 6,
+          "y": -999
+        }
+      },
+      {
+        "tick": 24,
+        "seq": 25,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 5,
+          "y": -999
+        }
+      },
+      {
+        "tick": 25,
+        "seq": 26,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 0,
+          "y": -999
+        }
+      },
+      {
+        "tick": 26,
+        "seq": 27,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -7,
+          "y": -999
+        }
+      },
+      {
+        "tick": 27,
+        "seq": 28,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -7,
+          "y": -999
+        }
+      },
+      {
+        "tick": 28,
+        "seq": 29,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -6,
+          "y": -999
+        }
+      },
+      {
+        "tick": 29,
+        "seq": 30,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -7,
+          "y": -999
+        }
+      },
+      {
+        "tick": 30,
+        "seq": 31,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -27,
+          "y": -627
+        }
+      },
+      {
+        "tick": 31,
+        "seq": 32,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -3,
+          "y": -622
+        }
+      },
+      {
+        "tick": 32,
+        "seq": 33,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -2,
+          "y": -623
+        }
+      },
+      {
+        "tick": 33,
+        "seq": 34,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -4,
+          "y": -623
+        }
+      },
+      {
+        "tick": 34,
+        "seq": 35,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -3,
+          "y": -623
+        }
+      },
+      {
+        "tick": 35,
+        "seq": 36,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -4,
+          "y": -623
+        }
+      },
+      {
+        "tick": 36,
+        "seq": 37,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -3,
+          "y": -623
+        }
+      },
+      {
+        "tick": 37,
+        "seq": 38,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -4,
+          "y": -623
+        }
+      },
+      {
+        "tick": 38,
+        "seq": 39,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -4,
+          "y": -623
+        }
+      },
+      {
+        "tick": 39,
+        "seq": 40,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -4,
+          "y": -623
+        }
+      },
+      {
+        "tick": 40,
+        "seq": 41,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -5,
+          "y": -623
+        }
+      },
+      {
+        "tick": 41,
+        "seq": 42,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -4,
+          "y": -623
+        }
+      },
+      {
+        "tick": 42,
+        "seq": 43,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -5,
+          "y": -623
+        }
+      },
+      {
+        "tick": 43,
+        "seq": 44,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -38,
+          "y": -554
+        }
+      },
+      {
+        "tick": 44,
+        "seq": 45,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -4,
+          "y": -623
+        }
+      },
+      {
+        "tick": 45,
+        "seq": 46,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 15,
+          "y": -545
+        }
+      },
+      {
+        "tick": 46,
+        "seq": 47,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -5,
+          "y": -622
+        }
+      },
+      {
+        "tick": 47,
+        "seq": 48,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -39,
+          "y": -554
+        }
+      },
+      {
+        "tick": 48,
+        "seq": 49,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -5,
+          "y": -622
+        }
+      },
+      {
+        "tick": 49,
+        "seq": 50,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -6,
+          "y": -622
+        }
+      },
+      {
+        "tick": 50,
+        "seq": 51,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -6,
+          "y": -621
+        }
+      },
+      {
+        "tick": 51,
+        "seq": 52,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -2,
+          "y": -476
+        }
+      },
+      {
+        "tick": 52,
+        "seq": 53,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -24,
+          "y": -621
+        }
+      },
+      {
+        "tick": 53,
+        "seq": 54,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -7,
+          "y": -621
+        }
+      },
+      {
+        "tick": 54,
+        "seq": 55,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -40,
+          "y": -553
+        }
+      },
+      {
+        "tick": 55,
+        "seq": 56,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -5,
+          "y": -620
+        }
+      },
+      {
+        "tick": 56,
+        "seq": 57,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -23,
+          "y": -620
+        }
+      },
+      {
+        "tick": 57,
+        "seq": 58,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 29,
+          "y": -543
+        }
+      },
+      {
+        "tick": 58,
+        "seq": 59,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -39,
+          "y": -552
+        }
+      },
+      {
+        "tick": 59,
+        "seq": 60,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -77,
+          "y": -616
+        }
+      },
+      {
+        "tick": 60,
+        "seq": 61,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -115,
+          "y": -547
+        }
+      },
+      {
+        "tick": 61,
+        "seq": 62,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -5,
+          "y": -619
+        }
+      },
+      {
+        "tick": 62,
+        "seq": 63,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -76,
+          "y": -616
+        }
+      },
+      {
+        "tick": 63,
+        "seq": 64,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -118,
+          "y": -537
+        }
+      },
+      {
+        "tick": 64,
+        "seq": 65,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -20,
+          "y": -619
+        }
+      },
+      {
+        "tick": 65,
+        "seq": 66,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -112,
+          "y": -539
+        }
+      },
+      {
+        "tick": 66,
+        "seq": 67,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -94,
+          "y": -614
+        }
+      },
+      {
+        "tick": 67,
+        "seq": 68,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 32,
+          "y": -538
+        }
+      },
+      {
+        "tick": 68,
+        "seq": 69,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -88,
+          "y": -616
+        }
+      },
+      {
+        "tick": 69,
+        "seq": 70,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -37,
+          "y": -536
+        }
+      },
+      {
+        "tick": 70,
+        "seq": 71,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -92,
+          "y": -614
+        }
+      },
+      {
+        "tick": 71,
+        "seq": 72,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 21,
+          "y": -537
+        }
+      },
+      {
+        "tick": 72,
+        "seq": 73,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -86,
+          "y": -616
+        }
+      },
+      {
+        "tick": 73,
+        "seq": 74,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -13,
+          "y": -614
+        }
+      },
+      {
+        "tick": 74,
+        "seq": 75,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -150,
+          "y": -538
+        }
+      },
+      {
+        "tick": 75,
+        "seq": 76,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 46,
+          "y": -536
+        }
+      },
+      {
+        "tick": 76,
+        "seq": 77,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -79,
+          "y": -615
+        }
+      },
+      {
+        "tick": 77,
+        "seq": 78,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -3,
+          "y": -613
+        }
+      },
+      {
+        "tick": 78,
+        "seq": 79,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -138,
+          "y": -542
+        }
+      },
+      {
+        "tick": 79,
+        "seq": 80,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -69,
+          "y": -555
+        }
+      },
+      {
+        "tick": 80,
+        "seq": 81,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 15,
+          "y": -615
+        }
+      },
+      {
+        "tick": 81,
+        "seq": 82,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -62,
+          "y": -540
+        }
+      },
+      {
+        "tick": 82,
+        "seq": 83,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -110,
+          "y": -615
+        }
+      },
+      {
+        "tick": 83,
+        "seq": 84,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -113,
+          "y": -540
+        }
+      },
+      {
+        "tick": 84,
+        "seq": 85,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -86,
+          "y": -557
+        }
+      },
+      {
+        "tick": 85,
+        "seq": 86,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -82,
+          "y": -543
+        }
+      },
+      {
+        "tick": 86,
+        "seq": 87,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -187,
+          "y": -475
+        }
+      },
+      {
+        "tick": 87,
+        "seq": 88,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -14,
+          "y": -554
+        }
+      },
+      {
+        "tick": 88,
+        "seq": 89,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 647,
+          "y": 761
+        }
+      },
+      {
+        "tick": 89,
+        "seq": 90,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -185,
+          "y": -235
+        }
+      },
+      {
+        "tick": 90,
+        "seq": 91,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -65,
+          "y": -290
+        }
+      },
+      {
+        "tick": 91,
+        "seq": 92,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -76,
+          "y": -173
+        }
+      },
+      {
+        "tick": 92,
+        "seq": 93,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -11,
+          "y": -192
+        }
+      },
+      {
+        "tick": 93,
+        "seq": 94,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -157,
+          "y": -72
+        }
+      },
+      {
+        "tick": 94,
+        "seq": 95,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -124,
+          "y": -194
+        }
+      },
+      {
+        "tick": 95,
+        "seq": 96,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 92,
+          "y": -140
+        }
+      },
+      {
+        "tick": 96,
+        "seq": 97,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -19,
+          "y": -98
+        }
+      },
+      {
+        "tick": 97,
+        "seq": 98,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 76,
+          "y": -288
+        }
+      },
+      {
+        "tick": 98,
+        "seq": 99,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -973,
+          "y": 229
+        }
+      },
+      {
+        "tick": 99,
+        "seq": 100,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -994,
+          "y": 107
+        }
+      },
+      {
+        "tick": 100,
+        "seq": 101,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -975,
+          "y": -56
+        }
+      },
+      {
+        "tick": 101,
+        "seq": 102,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -368,
+          "y": 929
+        }
+      },
+      {
+        "tick": 102,
+        "seq": 103,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -5,
+          "y": 198
+        }
+      },
+      {
+        "tick": 103,
+        "seq": 104,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 158,
+          "y": -211
+        }
+      },
+      {
+        "tick": 104,
+        "seq": 105,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 178,
+          "y": -229
+        }
+      },
+      {
+        "tick": 105,
+        "seq": 106,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 135,
+          "y": -105
+        }
+      },
+      {
+        "tick": 106,
+        "seq": 107,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 44,
+          "y": -142
+        }
+      },
+      {
+        "tick": 107,
+        "seq": 108,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 79,
+          "y": -227
+        }
+      }
+    ],
+    "tick": 107,
+    "view": {
+      "game_id": "herd",
+      "tick": 107,
+      "accepted_actions_count": 108,
+      "conclusion": null,
+      "stats": {
+        "penned_count": 4,
+        "final_goal_tick": null,
+        "time_bonus_points": 0
+      },
+      "dog": {
+        "center": {
+          "x_u": 165012,
+          "y_u": 146891
+        },
+        "facing_index": 6
+      },
+      "sheep": [
+        {
+          "sheep_id": 1,
+          "center": {
+            "x_u": 138286,
+            "y_u": 86000
+          },
+          "facing_index": 0,
+          "in_pen": false
+        },
+        {
+          "sheep_id": 2,
+          "center": {
+            "x_u": 172171,
+            "y_u": 65951
+          },
+          "facing_index": 6,
+          "in_pen": true
+        },
+        {
+          "sheep_id": 3,
+          "center": {
+            "x_u": 203693,
+            "y_u": 65787
+          },
+          "facing_index": 6,
+          "in_pen": true
+        },
+        {
+          "sheep_id": 4,
+          "center": {
+            "x_u": 211277,
+            "y_u": 86000
+          },
+          "facing_index": 4,
+          "in_pen": false
+        },
+        {
+          "sheep_id": 5,
+          "center": {
+            "x_u": 104794,
+            "y_u": 87781
+          },
+          "facing_index": 7,
+          "in_pen": false
+        },
+        {
+          "sheep_id": 6,
+          "center": {
+            "x_u": 163438,
+            "y_u": 65282
+          },
+          "facing_index": 6,
+          "in_pen": true
+        },
+        {
+          "sheep_id": 7,
+          "center": {
+            "x_u": 180701,
+            "y_u": 64331
+          },
+          "facing_index": 7,
+          "in_pen": true
+        },
+        {
+          "sheep_id": 8,
+          "center": {
+            "x_u": 254651,
+            "y_u": 136242
+          },
+          "facing_index": 4,
+          "in_pen": false
+        }
+      ],
+      "bark_ticks_remaining": 0,
+      "bark_cooldown_ticks_remaining": 44
+    },
+    "performance": 24,
+    "provenance": "actual golden synthetic prefix; seed47"
+  },
+  "runner": {
+    "inputs": [
+      {
+        "tick": 154,
+        "seq": 1,
+        "type": "JUMP",
+        "value": null
+      },
+      {
+        "tick": 232,
+        "seq": 2,
+        "type": "JUMP",
+        "value": null
+      },
+      {
+        "tick": 291,
+        "seq": 3,
+        "type": "JUMP",
+        "value": null
+      },
+      {
+        "tick": 374,
+        "seq": 4,
+        "type": "JUMP",
+        "value": null
+      },
+      {
+        "tick": 419,
+        "seq": 5,
+        "type": "JUMP",
+        "value": null
+      },
+      {
+        "tick": 493,
+        "seq": 6,
+        "type": "JUMP",
+        "value": null
+      },
+      {
+        "tick": 568,
+        "seq": 7,
+        "type": "JUMP",
+        "value": null
+      }
+    ],
+    "tick": 583,
+    "view": {
+      "game_id": "runner",
+      "tick": 583,
+      "accepted_actions_count": 7,
+      "conclusion": null,
+      "stats": {
+        "safe_passed": 6,
+        "collision_count": 1,
+        "outer_collected": 1,
+        "inner_collected": 1
+      },
+      "distance_u": 1452400,
+      "sheep_foot": {
+        "x_u": 88000,
+        "y_u": 88800
+      },
+      "sheep_vy_u_per_tick": 300,
+      "on_ground": false,
+      "obstacles": [
+        {
+          "obstacle_id": 1,
+          "bounds": {
+            "min_x_u": -954400,
+            "max_x_u": -946400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": true
+        },
+        {
+          "obstacle_id": 2,
+          "bounds": {
+            "min_x_u": -788800,
+            "max_x_u": -780800,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": true
+        },
+        {
+          "obstacle_id": 3,
+          "bounds": {
+            "min_x_u": -623200,
+            "max_x_u": -615200,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": true
+        },
+        {
+          "obstacle_id": 4,
+          "bounds": {
+            "min_x_u": -524800,
+            "max_x_u": -516800,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": true,
+          "passed": true
+        },
+        {
+          "obstacle_id": 5,
+          "bounds": {
+            "min_x_u": -426400,
+            "max_x_u": -418400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": true
+        },
+        {
+          "obstacle_id": 6,
+          "bounds": {
+            "min_x_u": -318400,
+            "max_x_u": -310400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": true
+        },
+        {
+          "obstacle_id": 7,
+          "bounds": {
+            "min_x_u": -126000,
+            "max_x_u": -108000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": true
+        },
+        {
+          "obstacle_id": 8,
+          "bounds": {
+            "min_x_u": 78400,
+            "max_x_u": 96400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 9,
+          "bounds": {
+            "min_x_u": 274400,
+            "max_x_u": 292400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 10,
+          "bounds": {
+            "min_x_u": 392000,
+            "max_x_u": 410000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 11,
+          "bounds": {
+            "min_x_u": 501200,
+            "max_x_u": 519200,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 12,
+          "bounds": {
+            "min_x_u": 621600,
+            "max_x_u": 639600,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 13,
+          "bounds": {
+            "min_x_u": 826000,
+            "max_x_u": 844000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 14,
+          "bounds": {
+            "min_x_u": 1032800,
+            "max_x_u": 1060800,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 15,
+          "bounds": {
+            "min_x_u": 1260000,
+            "max_x_u": 1288000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 16,
+          "bounds": {
+            "min_x_u": 1391200,
+            "max_x_u": 1419200,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 17,
+          "bounds": {
+            "min_x_u": 1522400,
+            "max_x_u": 1550400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 18,
+          "bounds": {
+            "min_x_u": 1660000,
+            "max_x_u": 1688000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 19,
+          "bounds": {
+            "min_x_u": 1880800,
+            "max_x_u": 1908800,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 20,
+          "bounds": {
+            "min_x_u": 2095200,
+            "max_x_u": 2123200,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        }
+      ],
+      "grass": [
+        {
+          "grass_id": 1,
+          "center": {
+            "x_u": -784800,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 2,
+          "center": {
+            "x_u": -520800,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 3,
+          "center": {
+            "x_u": -314400,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 4,
+          "center": {
+            "x_u": 87400,
+            "y_u": 69000
+          },
+          "outer_collected": true,
+          "inner_collected": true
+        },
+        {
+          "grass_id": 5,
+          "center": {
+            "x_u": 401000,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 6,
+          "center": {
+            "x_u": 630600,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 7,
+          "center": {
+            "x_u": 1046800,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 8,
+          "center": {
+            "x_u": 1405200,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 9,
+          "center": {
+            "x_u": 1674000,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 10,
+          "center": {
+            "x_u": 2109200,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        }
+      ]
+    },
+    "performance": 20,
+    "provenance": "actual pure-core accepted synthetic prefix; bounded deterministic timing search",
+    "attempt": 243
+  }
+}

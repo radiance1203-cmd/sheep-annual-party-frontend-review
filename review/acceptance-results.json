@@ -1,0 +1,322 @@
+{
+  "schema": "sheep-visual-acceptance-v1",
+  "scope": "actual visual-repair-v1 local execution",
+  "status": "REVIEW",
+  "pass_rule": "A named scope can PASS only when every applicable required criterion is PASS with actual evidence. Any applicable FAIL, BLOCKED or NOT_RUN forbids scope PASS. NOT_APPLICABLE requires a specific reviewed reason. VA-25 passing only means honest issue reporting and never clears the issues it records. A lobby pass does not pass game art/G5/G6.",
+  "no_automatic_aesthetic_score": true,
+  "cases": [
+    {
+      "id": "VA-01",
+      "group": "scope",
+      "expected": "Actual project located; existing user changes and file ownership recorded",
+      "method": "file_review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-02",
+      "group": "scope",
+      "expected": "Old planned entries reconciled with actual current sources and assets",
+      "method": "file_review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-03",
+      "group": "scope",
+      "expected": "Game core and frozen gameplay rules unchanged. Only necessary asset-interface adaptation may be reviewed by root with producer/consumer mapping and regression; visual-task rationale does not authorize business/API/backend changes.",
+      "method": "diff_review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-04",
+      "group": "assets",
+      "expected": "Four static resources mapped to one existing runtime manifest and actually load",
+      "method": "browser_network",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-05",
+      "group": "assets",
+      "expected": "No clipped title, sheep, dog, hurdle or gate at all tested card/hero sizes",
+      "method": "screenshot_review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-06",
+      "group": "assets",
+      "expected": "Static banner/covers not treated as gameplay sprites, animations or formal field state",
+      "method": "integration_review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-07",
+      "group": "lobby",
+      "expected": "Farm environment, main sheep and fixed title recover hierarchy and richness of reference",
+      "method": "screenshot_review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-08",
+      "group": "lobby",
+      "expected": "Three covers independently communicate stack/jump/herd without relying on tiny icons",
+      "method": "screenshot_review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-09",
+      "group": "lobby",
+      "expected": "Cream panels, wood labels, red controls, icons and shadows share material/lighting quality",
+      "method": "screenshot_review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-10",
+      "group": "layout",
+      "expected": "No page/image/world stretching; reference pixels distinguished from CSS pixels",
+      "method": "metrics_and_review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-11",
+      "group": "layout",
+      "expected": "320/360/390/430 layouts wrap/scroll without horizontal overflow or hidden last card",
+      "method": "browser_metrics",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-12",
+      "group": "layout",
+      "expected": "Body>=16 CSS px; key numbers>=24; targets>=48x48; accessible names/focus available",
+      "method": "browser_metrics",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-13",
+      "group": "state",
+      "expected": "Unbound/check-in/playing/draining show correct distinct CTA and real state; no internal slot jargon",
+      "method": "state_review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-14",
+      "group": "state",
+      "expected": "Fixed art title has semantic heading; dynamic phase/score/opportunity/button labels remain state-driven",
+      "method": "DOM_review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-15",
+      "group": "game_art",
+      "expected": "Current sheep/dog master or production frames reviewed; identity/motion not inferred from frame count",
+      "method": "asset_and_motion_review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-16",
+      "group": "game_art",
+      "expected": "Stack scene restores character/scene/UI quality, keeps fixed tray and legitimate visual movement",
+      "method": "game_screenshot_review",
+      "status": "REVIEW",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Local scene/geometry/layout/motion checked; formal character/material acceptance remains candidate REVIEW"
+    },
+    {
+      "id": "VA-17",
+      "group": "game_art",
+      "expected": "Runner restores scene/readability and separate grass rings, shows mistakes without lives",
+      "method": "game_screenshot_review",
+      "status": "REVIEW",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Local scene/geometry/layout/motion checked; formal character/material acceptance remains candidate REVIEW"
+    },
+    {
+      "id": "VA-18",
+      "group": "game_art",
+      "expected": "Herd restores sheep/dog/scene quality; gate, sorting and direction remain logical and clear",
+      "method": "game_screenshot_review",
+      "status": "REVIEW",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Local scene/geometry/layout/motion checked; formal character/material acceptance remains candidate REVIEW"
+    },
+    {
+      "id": "VA-19",
+      "group": "runtime",
+      "expected": "Same accepted reference inputs before/after visual change preserve score/end tick for impacted game host/assets",
+      "method": "deterministic_regression",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-20",
+      "group": "runtime",
+      "expected": "Affected start/resource precheck/countdown/input cancel/HUD hit areas/scene cleanup remain correct",
+      "method": "targeted_regression",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-21",
+      "group": "shared",
+      "expected": "Result/rank/gifts/claim shared controls preserve true states, loading/error/disabled behavior",
+      "method": "smoke_test",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-22",
+      "group": "performance",
+      "expected": "Actual decode dimensions/download and texture costs recorded; keep/reconcile existing runtime budgets",
+      "method": "asset_metrics",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-23",
+      "group": "evidence",
+      "expected": "Same-state screenshots include viewport/DPR/build/asset/font/decode and actual human-or-agent visual inspection",
+      "method": "evidence_review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-24",
+      "group": "evidence",
+      "expected": "Fixtures, browser viewport checks, real API, real device and onsite tests separately labeled",
+      "method": "evidence_review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-25",
+      "group": "closure",
+      "expected": "Each must-fix issue is closed with evidence or truthfully recorded as BLOCKED. This reporting criterion does not clear an unresolved visual blocker or permit the affected scope to pass; no arbitrary similarity PASS.",
+      "method": "review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    },
+    {
+      "id": "VA-26",
+      "group": "closure",
+      "expected": "Lobby, three games, shared pages and entire G5/G6 statuses reported separately",
+      "method": "review",
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual evidence scoped by report; no onsite or backend reacceptance inferred"
+    }
+  ],
+  "at": "2026-10-27T05:49:23.163073+00:00"
+}

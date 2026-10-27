@@ -1,0 +1,18 @@
+* text=auto eol=lf
+*.png -text
+*.jpg -text
+*.webp -text
+*.wav -text
+*.blend -text
+*.docx -text
+*.pdf -text
+*.zip -text
+# These files participate in byte-level release/asset hashes. Preserve their
+# actual bytes on every platform, including JSON and SVG line endings.
+config/game_rules.v2.1.json -text whitespace=cr-at-eol
+rules/** -text whitespace=cr-at-eol
+apps/web/public/assets/** -text whitespace=cr-at-eol
+design/** -text whitespace=cr-at-eol
+art-source/** -text whitespace=cr-at-eol
+# Third-party license texts stay verbatim, including their original whitespace.
+docs/licenses/** -text -whitespace

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="icon_home_title icon_home_desc">
+<title id="icon_home_title">游园会大厅</title><desc id="icon_home_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.icon.home&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [64, 64], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs></defs>
+<g id="barn"><path d="M8 29 32 8 56 29" fill="#D95B43" stroke="#8D4F31" stroke-width="3" stroke-linejoin="round"/><path d="M14 27V56H50V27" fill="#E98E63" stroke="#8D4F31" stroke-width="3"/><path d="M26 56V38H38V56" fill="#FFF8E9"/><path d="M28 40 36 54 M36 40 28 54" stroke="#D8AC4B" stroke-width="2"/></g>
+</svg>

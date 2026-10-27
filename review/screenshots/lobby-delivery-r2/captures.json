@@ -1,0 +1,4620 @@
+{
+  "batch": "lobby-delivery-r2",
+  "at": "2026-10-27T05:31:34.659Z",
+  "manifestHash": "bdf93f4c26c9ed6e108f5af5a718edd7997a86936da85404485a68e1eeb8d234",
+  "assetVersion": "art-1.3.0-visual-repair",
+  "captures": [
+    {
+      "id": "LC-01",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 25
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CHECK_IN",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-01-320-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-01-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 1410,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 320,
+              "h": 160
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "绑定身份",
+            "tag": "A",
+            "w": 254,
+            "h": 50.796875,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 1001.375
+        }
+      }
+    },
+    {
+      "id": "LC-02",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CHECK_IN",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-02-320-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-02-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 1466,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 320,
+              "h": 160
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 254,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 79.328125,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 2可挑战",
+            "tag": "A",
+            "w": 79.328125,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 3可挑战",
+            "tag": "A",
+            "w": 79.34375,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 959.578125
+        }
+      }
+    },
+    {
+      "id": "LC-03",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-03-320-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-03-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 1376,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 320,
+              "h": 160
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 254,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 79.328125,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 2可挑战",
+            "tag": "A",
+            "w": 79.328125,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 3可挑战",
+            "tag": "A",
+            "w": 79.34375,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 959.578125
+        }
+      }
+    },
+    {
+      "id": "LC-04",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-04-320-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-04-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 1376,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 320,
+              "h": 160
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 254,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 79.328125,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 289 分",
+            "tag": "A",
+            "w": 79.328125,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 389 分",
+            "tag": "A",
+            "w": 79.34375,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 959.578125
+        }
+      }
+    },
+    {
+      "id": "LC-05",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "DRAINING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-05-320-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-05-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 1466,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 320,
+              "h": 160
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 254,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 79.328125,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 289 分",
+            "tag": "A",
+            "w": 79.328125,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 389 分",
+            "tag": "A",
+            "w": 79.34375,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 959.578125
+        }
+      }
+    },
+    {
+      "id": "LC-01",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 25
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CHECK_IN",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-01-360-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-01-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 1430,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 360,
+              "h": 180
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "绑定身份",
+            "tag": "A",
+            "w": 294,
+            "h": 50.796875,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 1021.375
+        }
+      }
+    },
+    {
+      "id": "LC-02",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CHECK_IN",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-02-360-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-02-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 1486,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 360,
+              "h": 180
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 294,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 92.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 2可挑战",
+            "tag": "A",
+            "w": 92.671875,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 3可挑战",
+            "tag": "A",
+            "w": 92.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 979.578125
+        }
+      }
+    },
+    {
+      "id": "LC-03",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-03-360-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-03-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 1396,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 360,
+              "h": 180
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 294,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 92.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 2可挑战",
+            "tag": "A",
+            "w": 92.671875,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 3可挑战",
+            "tag": "A",
+            "w": 92.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 979.578125
+        }
+      }
+    },
+    {
+      "id": "LC-04",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-04-360-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-04-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 1396,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 360,
+              "h": 180
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 294,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 92.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 289 分",
+            "tag": "A",
+            "w": 92.671875,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 389 分",
+            "tag": "A",
+            "w": 92.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 979.578125
+        }
+      }
+    },
+    {
+      "id": "LC-05",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "DRAINING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-05-360-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-05-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 1486,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 360,
+              "h": 180
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 294,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 92.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 289 分",
+            "tag": "A",
+            "w": 92.671875,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 389 分",
+            "tag": "A",
+            "w": 92.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 979.578125
+        }
+      }
+    },
+    {
+      "id": "LC-01",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 25
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CHECK_IN",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-01-390-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-01-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 1430,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 390,
+              "h": 195
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "绑定身份",
+            "tag": "A",
+            "w": 324,
+            "h": 50.796875,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 176,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 176,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 1021.25
+        }
+      }
+    },
+    {
+      "id": "LC-02",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CHECK_IN",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-02-390-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-02-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 1486,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 390,
+              "h": 195
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 176,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 176,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 324,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 102.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 2可挑战",
+            "tag": "A",
+            "w": 102.671875,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 3可挑战",
+            "tag": "A",
+            "w": 102.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 979.453125
+        }
+      }
+    },
+    {
+      "id": "LC-03",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-03-390-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-03-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 1396,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 390,
+              "h": 195
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 176,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 176,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 324,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 102.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 2可挑战",
+            "tag": "A",
+            "w": 102.671875,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 3可挑战",
+            "tag": "A",
+            "w": 102.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 979.453125
+        }
+      }
+    },
+    {
+      "id": "LC-04",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-04-390-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-04-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 1396,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 390,
+              "h": 195
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 176,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 176,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 324,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 102.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 289 分",
+            "tag": "A",
+            "w": 102.671875,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 389 分",
+            "tag": "A",
+            "w": 102.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 979.453125
+        }
+      }
+    },
+    {
+      "id": "LC-05",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "DRAINING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-05-390-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-05-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 1486,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 390,
+              "h": 195
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 176,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 176,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 324,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 102.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 289 分",
+            "tag": "A",
+            "w": 102.671875,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 389 分",
+            "tag": "A",
+            "w": 102.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 979.453125
+        }
+      }
+    },
+    {
+      "id": "LC-01",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 25
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CHECK_IN",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-01-430-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-01-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 1483,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 430,
+              "h": 215
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "绑定身份",
+            "tag": "A",
+            "w": 364,
+            "h": 50.796875,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 1074.703125
+        }
+      }
+    },
+    {
+      "id": "LC-02",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CHECK_IN",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-02-430-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-02-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 1539,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 430,
+              "h": 215
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 364,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 116,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 2可挑战",
+            "tag": "A",
+            "w": 116,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 3可挑战",
+            "tag": "A",
+            "w": 116,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 1032.90625
+        }
+      }
+    },
+    {
+      "id": "LC-03",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-03-430-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-03-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 1449,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 430,
+              "h": 215
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 364,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 116,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 2可挑战",
+            "tag": "A",
+            "w": 116,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 3可挑战",
+            "tag": "A",
+            "w": 116,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 1032.90625
+        }
+      }
+    },
+    {
+      "id": "LC-04",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-04-430-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-04-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 1449,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 430,
+              "h": 215
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 364,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 116,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 289 分",
+            "tag": "A",
+            "w": 116,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 389 分",
+            "tag": "A",
+            "w": 116,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 1032.90625
+        }
+      }
+    },
+    {
+      "id": "LC-05",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "DRAINING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/lobby-delivery-r2/LC-05-430-first.png",
+      "full": "output/visual-repair-v1/lobby-delivery-r2/LC-05-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 1539,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 430,
+              "h": 215
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 364,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 116,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 289 分",
+            "tag": "A",
+            "w": 116,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 389 分",
+            "tag": "A",
+            "w": 116,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 1032.90625
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3086 @@
+{
+  "schema_version": "sheep-atlas-1.0",
+  "asset_id": "character.dog.iso8",
+  "version": "art-1.1.0",
+  "status": "rendered_candidate",
+  "image": "dog_iso8_v1.png",
+  "size_px": [
+    2048,
+    2048
+  ],
+  "color_space": "srgb",
+  "alpha_mode": "straight",
+  "camera_id": "iso8_v1",
+  "source_frame_px": [
+    256,
+    256
+  ],
+  "runtime_frame_px": [
+    128,
+    128
+  ],
+  "extrusion_px": 2,
+  "padding_px": 2,
+  "frames": {
+    "dog_iso8__bark__e__f000": {
+      "rect": [
+        4,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 0
+    },
+    "dog_iso8__bark__e__f001": {
+      "rect": [
+        140,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 0
+    },
+    "dog_iso8__bark__e__f002": {
+      "rect": [
+        276,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 0
+    },
+    "dog_iso8__bark__e__f003": {
+      "rect": [
+        412,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 0
+    },
+    "dog_iso8__bark__n__f000": {
+      "rect": [
+        548,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 6
+    },
+    "dog_iso8__bark__n__f001": {
+      "rect": [
+        684,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 6
+    },
+    "dog_iso8__bark__n__f002": {
+      "rect": [
+        820,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 6
+    },
+    "dog_iso8__bark__n__f003": {
+      "rect": [
+        956,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 6
+    },
+    "dog_iso8__bark__ne__f000": {
+      "rect": [
+        1092,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 7
+    },
+    "dog_iso8__bark__ne__f001": {
+      "rect": [
+        1228,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 7
+    },
+    "dog_iso8__bark__ne__f002": {
+      "rect": [
+        1364,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 7
+    },
+    "dog_iso8__bark__ne__f003": {
+      "rect": [
+        1500,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 7
+    },
+    "dog_iso8__bark__nw__f000": {
+      "rect": [
+        1636,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 5
+    },
+    "dog_iso8__bark__nw__f001": {
+      "rect": [
+        1772,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 5
+    },
+    "dog_iso8__bark__nw__f002": {
+      "rect": [
+        1908,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 5
+    },
+    "dog_iso8__bark__nw__f003": {
+      "rect": [
+        4,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 5
+    },
+    "dog_iso8__bark__s__f000": {
+      "rect": [
+        140,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 2
+    },
+    "dog_iso8__bark__s__f001": {
+      "rect": [
+        276,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 2
+    },
+    "dog_iso8__bark__s__f002": {
+      "rect": [
+        412,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 2
+    },
+    "dog_iso8__bark__s__f003": {
+      "rect": [
+        548,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 2
+    },
+    "dog_iso8__bark__se__f000": {
+      "rect": [
+        684,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 1
+    },
+    "dog_iso8__bark__se__f001": {
+      "rect": [
+        820,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 1
+    },
+    "dog_iso8__bark__se__f002": {
+      "rect": [
+        956,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 1
+    },
+    "dog_iso8__bark__se__f003": {
+      "rect": [
+        1092,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 1
+    },
+    "dog_iso8__bark__sw__f000": {
+      "rect": [
+        1228,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 3
+    },
+    "dog_iso8__bark__sw__f001": {
+      "rect": [
+        1364,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 3
+    },
+    "dog_iso8__bark__sw__f002": {
+      "rect": [
+        1500,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 3
+    },
+    "dog_iso8__bark__sw__f003": {
+      "rect": [
+        1636,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 3
+    },
+    "dog_iso8__bark__w__f000": {
+      "rect": [
+        1772,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 4
+    },
+    "dog_iso8__bark__w__f001": {
+      "rect": [
+        1908,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 4
+    },
+    "dog_iso8__bark__w__f002": {
+      "rect": [
+        4,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 4
+    },
+    "dog_iso8__bark__w__f003": {
+      "rect": [
+        140,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 4
+    },
+    "dog_iso8__idle__e__f000": {
+      "rect": [
+        276,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 0
+    },
+    "dog_iso8__idle__e__f001": {
+      "rect": [
+        412,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 0
+    },
+    "dog_iso8__idle__e__f002": {
+      "rect": [
+        548,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 0
+    },
+    "dog_iso8__idle__e__f003": {
+      "rect": [
+        684,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 0
+    },
+    "dog_iso8__idle__n__f000": {
+      "rect": [
+        820,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 6
+    },
+    "dog_iso8__idle__n__f001": {
+      "rect": [
+        956,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 6
+    },
+    "dog_iso8__idle__n__f002": {
+      "rect": [
+        1092,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 6
+    },
+    "dog_iso8__idle__n__f003": {
+      "rect": [
+        1228,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 6
+    },
+    "dog_iso8__idle__ne__f000": {
+      "rect": [
+        1364,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 7
+    },
+    "dog_iso8__idle__ne__f001": {
+      "rect": [
+        1500,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 7
+    },
+    "dog_iso8__idle__ne__f002": {
+      "rect": [
+        1636,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 7
+    },
+    "dog_iso8__idle__ne__f003": {
+      "rect": [
+        1772,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 7
+    },
+    "dog_iso8__idle__nw__f000": {
+      "rect": [
+        1908,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 5
+    },
+    "dog_iso8__idle__nw__f001": {
+      "rect": [
+        4,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 5
+    },
+    "dog_iso8__idle__nw__f002": {
+      "rect": [
+        140,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 5
+    },
+    "dog_iso8__idle__nw__f003": {
+      "rect": [
+        276,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 5
+    },
+    "dog_iso8__idle__s__f000": {
+      "rect": [
+        412,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 2
+    },
+    "dog_iso8__idle__s__f001": {
+      "rect": [
+        548,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 2
+    },
+    "dog_iso8__idle__s__f002": {
+      "rect": [
+        684,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 2
+    },
+    "dog_iso8__idle__s__f003": {
+      "rect": [
+        820,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 2
+    },
+    "dog_iso8__idle__se__f000": {
+      "rect": [
+        956,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 1
+    },
+    "dog_iso8__idle__se__f001": {
+      "rect": [
+        1092,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 1
+    },
+    "dog_iso8__idle__se__f002": {
+      "rect": [
+        1228,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 1
+    },
+    "dog_iso8__idle__se__f003": {
+      "rect": [
+        1364,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 1
+    },
+    "dog_iso8__idle__sw__f000": {
+      "rect": [
+        1500,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 3
+    },
+    "dog_iso8__idle__sw__f001": {
+      "rect": [
+        1636,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 3
+    },
+    "dog_iso8__idle__sw__f002": {
+      "rect": [
+        1772,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 3
+    },
+    "dog_iso8__idle__sw__f003": {
+      "rect": [
+        1908,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 3
+    },
+    "dog_iso8__idle__w__f000": {
+      "rect": [
+        4,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 4
+    },
+    "dog_iso8__idle__w__f001": {
+      "rect": [
+        140,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 4
+    },
+    "dog_iso8__idle__w__f002": {
+      "rect": [
+        276,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 4
+    },
+    "dog_iso8__idle__w__f003": {
+      "rect": [
+        412,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 4
+    },
+    "dog_iso8__walk__e__f000": {
+      "rect": [
+        548,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 0
+    },
+    "dog_iso8__walk__e__f001": {
+      "rect": [
+        684,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 0
+    },
+    "dog_iso8__walk__e__f002": {
+      "rect": [
+        820,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 0
+    },
+    "dog_iso8__walk__e__f003": {
+      "rect": [
+        956,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 0
+    },
+    "dog_iso8__walk__e__f004": {
+      "rect": [
+        1092,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 0
+    },
+    "dog_iso8__walk__e__f005": {
+      "rect": [
+        1228,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 0
+    },
+    "dog_iso8__walk__n__f000": {
+      "rect": [
+        1364,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 6
+    },
+    "dog_iso8__walk__n__f001": {
+      "rect": [
+        1500,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 6
+    },
+    "dog_iso8__walk__n__f002": {
+      "rect": [
+        1636,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 6
+    },
+    "dog_iso8__walk__n__f003": {
+      "rect": [
+        1772,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 6
+    },
+    "dog_iso8__walk__n__f004": {
+      "rect": [
+        1908,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 6
+    },
+    "dog_iso8__walk__n__f005": {
+      "rect": [
+        4,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 6
+    },
+    "dog_iso8__walk__ne__f000": {
+      "rect": [
+        140,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 7
+    },
+    "dog_iso8__walk__ne__f001": {
+      "rect": [
+        276,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 7
+    },
+    "dog_iso8__walk__ne__f002": {
+      "rect": [
+        412,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 7
+    },
+    "dog_iso8__walk__ne__f003": {
+      "rect": [
+        548,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 7
+    },
+    "dog_iso8__walk__ne__f004": {
+      "rect": [
+        684,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 7
+    },
+    "dog_iso8__walk__ne__f005": {
+      "rect": [
+        820,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 7
+    },
+    "dog_iso8__walk__nw__f000": {
+      "rect": [
+        956,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 5
+    },
+    "dog_iso8__walk__nw__f001": {
+      "rect": [
+        1092,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 5
+    },
+    "dog_iso8__walk__nw__f002": {
+      "rect": [
+        1228,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 5
+    },
+    "dog_iso8__walk__nw__f003": {
+      "rect": [
+        1364,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 5
+    },
+    "dog_iso8__walk__nw__f004": {
+      "rect": [
+        1500,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 5
+    },
+    "dog_iso8__walk__nw__f005": {
+      "rect": [
+        1636,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 5
+    },
+    "dog_iso8__walk__s__f000": {
+      "rect": [
+        1772,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 2
+    },
+    "dog_iso8__walk__s__f001": {
+      "rect": [
+        1908,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 2
+    },
+    "dog_iso8__walk__s__f002": {
+      "rect": [
+        4,
+        820,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 2
+    },
+    "dog_iso8__walk__s__f003": {
+      "rect": [
+        140,
+        820,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 2
+    },
+    "dog_iso8__walk__s__f004": {
+      "rect": [
+        276,
+        820,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 2
+    },
+    "dog_iso8__walk__s__f005": {
+      "rect": [
+        412,
+        820,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 2
+    },
+    "dog_iso8__walk__se__f000": {
+      "rect": [
+        548,
+        820,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 1
+    },
+    "dog_iso8__walk__se__f001": {
+      "rect": [
+        684,
+        820,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 1
+    },
+    "dog_iso8__walk__se__f002": {
+      "rect": [
+        820,
+        820,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 1
+    },
+    "dog_iso8__walk__se__f003": {
+      "rect": [
+        956,
+        820,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 1
+    },
+    "dog_iso8__walk__se__f004": {
+      "rect": [
+        1092,
+        820,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 1
+    },
+    "dog_iso8__walk__se__f005": {
+      "rect": [
+        1228,
+        820,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 1
+    },
+    "dog_iso8__walk__sw__f000": {
+      "rect": [
+        1364,
+        820,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 3
+    },
+    "dog_iso8__walk__sw__f001": {
+      "rect": [
+        1500,
+        820,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 3
+    },
+    "dog_iso8__walk__sw__f002": {
+      "rect": [
+        1636,
+        820,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 3
+    },
+    "dog_iso8__walk__sw__f003": {
+      "rect": [
+        1772,
+        820,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 3
+    },
+    "dog_iso8__walk__sw__f004": {
+      "rect": [
+        1908,
+        820,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 3
+    },
+    "dog_iso8__walk__sw__f005": {
+      "rect": [
+        4,
+        956,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 3
+    },
+    "dog_iso8__walk__w__f000": {
+      "rect": [
+        140,
+        956,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 4
+    },
+    "dog_iso8__walk__w__f001": {
+      "rect": [
+        276,
+        956,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 4
+    },
+    "dog_iso8__walk__w__f002": {
+      "rect": [
+        412,
+        956,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 4
+    },
+    "dog_iso8__walk__w__f003": {
+      "rect": [
+        548,
+        956,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 4
+    },
+    "dog_iso8__walk__w__f004": {
+      "rect": [
+        684,
+        956,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 4
+    },
+    "dog_iso8__walk__w__f005": {
+      "rect": [
+        820,
+        956,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "direction": 4
+    }
+  },
+  "animations": {
+    "idle.e": {
+      "frames": [
+        "dog_iso8__idle__e__f000",
+        "dog_iso8__idle__e__f001",
+        "dog_iso8__idle__e__f002",
+        "dog_iso8__idle__e__f003"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "idle.se": {
+      "frames": [
+        "dog_iso8__idle__se__f000",
+        "dog_iso8__idle__se__f001",
+        "dog_iso8__idle__se__f002",
+        "dog_iso8__idle__se__f003"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "idle.s": {
+      "frames": [
+        "dog_iso8__idle__s__f000",
+        "dog_iso8__idle__s__f001",
+        "dog_iso8__idle__s__f002",
+        "dog_iso8__idle__s__f003"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "idle.sw": {
+      "frames": [
+        "dog_iso8__idle__sw__f000",
+        "dog_iso8__idle__sw__f001",
+        "dog_iso8__idle__sw__f002",
+        "dog_iso8__idle__sw__f003"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "idle.w": {
+      "frames": [
+        "dog_iso8__idle__w__f000",
+        "dog_iso8__idle__w__f001",
+        "dog_iso8__idle__w__f002",
+        "dog_iso8__idle__w__f003"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "idle.nw": {
+      "frames": [
+        "dog_iso8__idle__nw__f000",
+        "dog_iso8__idle__nw__f001",
+        "dog_iso8__idle__nw__f002",
+        "dog_iso8__idle__nw__f003"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "idle.n": {
+      "frames": [
+        "dog_iso8__idle__n__f000",
+        "dog_iso8__idle__n__f001",
+        "dog_iso8__idle__n__f002",
+        "dog_iso8__idle__n__f003"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "idle.ne": {
+      "frames": [
+        "dog_iso8__idle__ne__f000",
+        "dog_iso8__idle__ne__f001",
+        "dog_iso8__idle__ne__f002",
+        "dog_iso8__idle__ne__f003"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "walk.e": {
+      "frames": [
+        "dog_iso8__walk__e__f000",
+        "dog_iso8__walk__e__f001",
+        "dog_iso8__walk__e__f002",
+        "dog_iso8__walk__e__f003",
+        "dog_iso8__walk__e__f004",
+        "dog_iso8__walk__e__f005"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "walk.se": {
+      "frames": [
+        "dog_iso8__walk__se__f000",
+        "dog_iso8__walk__se__f001",
+        "dog_iso8__walk__se__f002",
+        "dog_iso8__walk__se__f003",
+        "dog_iso8__walk__se__f004",
+        "dog_iso8__walk__se__f005"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "walk.s": {
+      "frames": [
+        "dog_iso8__walk__s__f000",
+        "dog_iso8__walk__s__f001",
+        "dog_iso8__walk__s__f002",
+        "dog_iso8__walk__s__f003",
+        "dog_iso8__walk__s__f004",
+        "dog_iso8__walk__s__f005"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "walk.sw": {
+      "frames": [
+        "dog_iso8__walk__sw__f000",
+        "dog_iso8__walk__sw__f001",
+        "dog_iso8__walk__sw__f002",
+        "dog_iso8__walk__sw__f003",
+        "dog_iso8__walk__sw__f004",
+        "dog_iso8__walk__sw__f005"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "walk.w": {
+      "frames": [
+        "dog_iso8__walk__w__f000",
+        "dog_iso8__walk__w__f001",
+        "dog_iso8__walk__w__f002",
+        "dog_iso8__walk__w__f003",
+        "dog_iso8__walk__w__f004",
+        "dog_iso8__walk__w__f005"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "walk.nw": {
+      "frames": [
+        "dog_iso8__walk__nw__f000",
+        "dog_iso8__walk__nw__f001",
+        "dog_iso8__walk__nw__f002",
+        "dog_iso8__walk__nw__f003",
+        "dog_iso8__walk__nw__f004",
+        "dog_iso8__walk__nw__f005"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "walk.n": {
+      "frames": [
+        "dog_iso8__walk__n__f000",
+        "dog_iso8__walk__n__f001",
+        "dog_iso8__walk__n__f002",
+        "dog_iso8__walk__n__f003",
+        "dog_iso8__walk__n__f004",
+        "dog_iso8__walk__n__f005"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "walk.ne": {
+      "frames": [
+        "dog_iso8__walk__ne__f000",
+        "dog_iso8__walk__ne__f001",
+        "dog_iso8__walk__ne__f002",
+        "dog_iso8__walk__ne__f003",
+        "dog_iso8__walk__ne__f004",
+        "dog_iso8__walk__ne__f005"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "bark.e": {
+      "frames": [
+        "dog_iso8__bark__e__f000",
+        "dog_iso8__bark__e__f001",
+        "dog_iso8__bark__e__f002",
+        "dog_iso8__bark__e__f003"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "bark.se": {
+      "frames": [
+        "dog_iso8__bark__se__f000",
+        "dog_iso8__bark__se__f001",
+        "dog_iso8__bark__se__f002",
+        "dog_iso8__bark__se__f003"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "bark.s": {
+      "frames": [
+        "dog_iso8__bark__s__f000",
+        "dog_iso8__bark__s__f001",
+        "dog_iso8__bark__s__f002",
+        "dog_iso8__bark__s__f003"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "bark.sw": {
+      "frames": [
+        "dog_iso8__bark__sw__f000",
+        "dog_iso8__bark__sw__f001",
+        "dog_iso8__bark__sw__f002",
+        "dog_iso8__bark__sw__f003"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "bark.w": {
+      "frames": [
+        "dog_iso8__bark__w__f000",
+        "dog_iso8__bark__w__f001",
+        "dog_iso8__bark__w__f002",
+        "dog_iso8__bark__w__f003"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "bark.nw": {
+      "frames": [
+        "dog_iso8__bark__nw__f000",
+        "dog_iso8__bark__nw__f001",
+        "dog_iso8__bark__nw__f002",
+        "dog_iso8__bark__nw__f003"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "bark.n": {
+      "frames": [
+        "dog_iso8__bark__n__f000",
+        "dog_iso8__bark__n__f001",
+        "dog_iso8__bark__n__f002",
+        "dog_iso8__bark__n__f003"
+      ],
+      "fps": 12,
+      "loop": false
+    },
+    "bark.ne": {
+      "frames": [
+        "dog_iso8__bark__ne__f000",
+        "dog_iso8__bark__ne__f001",
+        "dog_iso8__bark__ne__f002",
+        "dog_iso8__bark__ne__f003"
+      ],
+      "fps": 12,
+      "loop": false
+    }
+  },
+  "source": "art-source/render_assets.py",
+  "production_art_accepted": false
+}

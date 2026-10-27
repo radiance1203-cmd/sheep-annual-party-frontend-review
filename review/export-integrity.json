@@ -1,0 +1,39 @@
+{
+  "source_copy_integrity": "PASS",
+  "adapted_original_files": [
+    "docs/THIRD_PARTY_NOTICES.md",
+    "docs/releases/release-notes.md",
+    "docs/visual-repair-v1-report.md",
+    "package-lock.json"
+  ],
+  "credential_scan": "PASS",
+  "secret_match_files": 0,
+  "private_runtime_or_database_files": 0,
+  "current_runtime_asset_hashes_verified": 53,
+  "archived_manifests_verified": 2,
+  "server_workspace_absent": true,
+  "files": 396,
+  "bytes": 45648220,
+  "largest_files": [
+    {
+      "path": "visual-repair-v1/references/03_herd.png",
+      "bytes": 2229792
+    },
+    {
+      "path": "visual-repair-v1/static-assets/cover_herd_static.png",
+      "bytes": 2215038
+    },
+    {
+      "path": "visual-repair-v1/static-assets/lobby_hero_static.png",
+      "bytes": 2060380
+    },
+    {
+      "path": "visual-repair-v1/references/00_lobby.png",
+      "bytes": 2013462
+    },
+    {
+      "path": "visual-repair-v1/references/01_stack.png",
+      "bytes": 1996208
+    }
+  ]
+}

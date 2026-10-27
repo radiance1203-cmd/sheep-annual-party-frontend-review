@@ -1,0 +1,22 @@
+{
+  "name": "@sheep/web",
+  "version": "2.2.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@sheep/contracts": "2.2.0",
+    "@sheep/game-core": "2.2.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "ajv": "8.20.0",
+    "openapi-fetch": "0.17.0",
+    "phaser": "4.2.1",
+    "qrcode-generator": "2.0.4",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "vite": "8.3.5"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5175 --strictPort",
+    "build": "vite build"
+  }
+}

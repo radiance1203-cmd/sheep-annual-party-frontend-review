@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="56" viewBox="0 0 192 56" role="img" aria-labelledby="ui_status_badge_title ui_status_badge_desc">
+<title id="ui_status_badge_title">状态标签底板</title><desc id="ui_status_badge_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.status.badge&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [192, 56], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs><linearGradient id="ui_status_badge_cream" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFDF7"/><stop offset="1" stop-color="#FBEACA"/></linearGradient></defs>
+<g id="shadow"><rect x="5" y="8" width="182" height="44" rx="24" fill="#87603C" opacity=".1"/></g><g id="surface"><rect x="3" y="3" width="186" height="44" rx="24" fill="url(#ui_status_badge_cream)" stroke="#E8D5B5" stroke-width="1.5"/></g><g id="highlight"><path d="M24 7 H168" stroke="#FFFFFF" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/></g>
+</svg>

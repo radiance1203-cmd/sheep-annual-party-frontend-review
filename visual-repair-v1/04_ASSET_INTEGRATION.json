@@ -1,0 +1,161 @@
+{
+  "schema": "sheep-static-asset-import-v1",
+  "art_revision": "visual-repair-v1",
+  "role": "Import instructions; not a second runtime manifest",
+  "source_method": "Built-in imagegen, four independent reference-guided generations",
+  "runtime_merge": [
+    "Inspect existing runtime manifest/schema and actual resource path first.",
+    "Reuse equivalent existing keys; add new keys only through current manifest/type mechanism.",
+    "Suggested runtime keys are mappings, not instructions to replace whole manifest.",
+    "Keep originals in supplement; copy/derive into current art-owned runtime directory. Preserve source and SHA provenance.",
+    "Record source pixels and derived pixel/download/decode sizes; PNG availability is not a performance PASS.",
+    "Hero fixed title may remain baked; no current phase, score, opportunity or button is baked.",
+    "Never use these illustrations as gameplay sprite atlases or an interactive field."
+  ],
+  "assets": [
+    {
+      "supplement_asset_id": "lobby_hero_static",
+      "suggested_runtime_key": "hero.lobby",
+      "source_path": "static-assets/lobby_hero_static.png",
+      "source_pixels": [
+        1774,
+        887
+      ],
+      "mode": "RGB",
+      "transparent": false,
+      "source_sha256": "a199948e29c482a169828f7cfa2fd002d228e312ac9e8e69677075d1b0ae7d75",
+      "source_bytes": 2060380,
+      "status": "static_source_available_visual_reviewed_app_integration_not_run",
+      "purpose": "lobby hero",
+      "gameplay_asset": false,
+      "editable_3d_delivered": false,
+      "target_container_aspect_ratio": "1774/887",
+      "object_fit": "contain",
+      "object_position": "50% 50%",
+      "crop_policy": "none; preserve all critical subjects",
+      "text_safe_area": null,
+      "baked_text": "羊年游园会 (fixed brand only)",
+      "dynamic_overlay": "No dynamic overlay on image; phase/account/actions in sibling DOM",
+      "alt_policy": "Semantic h1 names fixed brand; avoid duplicate announcement",
+      "delivery_note": "Original PNG plus proportionally resized WebP provided. Inspect the encoded appearance in actual UI and keep current runtime budgets; pixel dimensions and file bytes alone do not prove device performance.",
+      "ready_in_user_app": false,
+      "runtime_path": "static-assets/runtime/lobby_hero_static.webp",
+      "runtime_pixels": [
+        860,
+        430
+      ],
+      "runtime_bytes": 45996,
+      "runtime_sha256": "1b3be9b75988f5d75249118619f65cf9d3d03483794358a3bd54818b8d81b1ee",
+      "recommended_import": "runtime_path",
+      "encoding": "ImageMagick/libwebp: proportional resize, quality90, method6; no scene/content edits"
+    },
+    {
+      "supplement_asset_id": "cover_stack_static",
+      "suggested_runtime_key": "cover.stack",
+      "source_path": "static-assets/cover_stack_static.png",
+      "source_pixels": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "transparent": false,
+      "source_sha256": "08c682f97d5dbf707f05a0b0278c4a66fb7f15060e16832e22302f5a674058cb",
+      "source_bytes": 1960736,
+      "status": "static_source_available_visual_reviewed_app_integration_not_run",
+      "purpose": "lobby game entry illustration",
+      "gameplay_asset": false,
+      "editable_3d_delivered": false,
+      "target_container_aspect_ratio": "1254/1254",
+      "object_fit": "contain",
+      "object_position": "50% 50%",
+      "crop_policy": "none; preserve all critical subjects",
+      "text_safe_area": null,
+      "baked_text": null,
+      "dynamic_overlay": "No dynamic overlay on image; phase/account/actions in sibling DOM",
+      "alt_policy": "Descriptive alt or equivalent adjacent linked title; no new redundant focus target",
+      "delivery_note": "Original PNG plus proportionally resized WebP provided. Inspect the encoded appearance in actual UI and keep current runtime budgets; pixel dimensions and file bytes alone do not prove device performance.",
+      "ready_in_user_app": false,
+      "runtime_path": "static-assets/runtime/cover_stack_static.webp",
+      "runtime_pixels": [
+        384,
+        384
+      ],
+      "runtime_bytes": 20308,
+      "runtime_sha256": "5d94b4e44142086d0692aef5f9dc7411427b71d5e1bff921b67e19ebdd03e859",
+      "recommended_import": "runtime_path",
+      "encoding": "ImageMagick/libwebp: proportional resize, quality90, method6; no scene/content edits"
+    },
+    {
+      "supplement_asset_id": "cover_runner_static",
+      "suggested_runtime_key": "cover.runner",
+      "source_path": "static-assets/cover_runner_static.png",
+      "source_pixels": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "transparent": false,
+      "source_sha256": "11296b69d302ad9c7e53565cee593331a5ee20a5e2a55724bd45acf85d95d093",
+      "source_bytes": 1915608,
+      "status": "static_source_available_visual_reviewed_app_integration_not_run",
+      "purpose": "lobby game entry illustration",
+      "gameplay_asset": false,
+      "editable_3d_delivered": false,
+      "target_container_aspect_ratio": "1254/1254",
+      "object_fit": "contain",
+      "object_position": "50% 50%",
+      "crop_policy": "none; preserve all critical subjects",
+      "text_safe_area": null,
+      "baked_text": null,
+      "dynamic_overlay": "No dynamic overlay on image; phase/account/actions in sibling DOM",
+      "alt_policy": "Descriptive alt or equivalent adjacent linked title; no new redundant focus target",
+      "delivery_note": "Original PNG plus proportionally resized WebP provided. Inspect the encoded appearance in actual UI and keep current runtime budgets; pixel dimensions and file bytes alone do not prove device performance.",
+      "ready_in_user_app": false,
+      "runtime_path": "static-assets/runtime/cover_runner_static.webp",
+      "runtime_pixels": [
+        384,
+        384
+      ],
+      "runtime_bytes": 18876,
+      "runtime_sha256": "f395af4bf80ca339ed8d960fdbc70faf9a84aab55a2a9536082bc8b6a1a5b0f5",
+      "recommended_import": "runtime_path",
+      "encoding": "ImageMagick/libwebp: proportional resize, quality90, method6; no scene/content edits"
+    },
+    {
+      "supplement_asset_id": "cover_herd_static",
+      "suggested_runtime_key": "cover.herd",
+      "source_path": "static-assets/cover_herd_static.png",
+      "source_pixels": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "transparent": false,
+      "source_sha256": "c56c36368a894cd98d84423f4283a4bd9d7f742b9b1864c0e03486b457c41835",
+      "source_bytes": 2215038,
+      "status": "static_source_available_visual_reviewed_app_integration_not_run",
+      "purpose": "lobby game entry illustration",
+      "gameplay_asset": false,
+      "editable_3d_delivered": false,
+      "target_container_aspect_ratio": "1254/1254",
+      "object_fit": "contain",
+      "object_position": "50% 50%",
+      "crop_policy": "none; preserve all critical subjects",
+      "text_safe_area": null,
+      "baked_text": null,
+      "dynamic_overlay": "No dynamic overlay on image; phase/account/actions in sibling DOM",
+      "alt_policy": "Descriptive alt or equivalent adjacent linked title; no new redundant focus target",
+      "delivery_note": "Original PNG plus proportionally resized WebP provided. Inspect the encoded appearance in actual UI and keep current runtime budgets; pixel dimensions and file bytes alone do not prove device performance.",
+      "ready_in_user_app": false,
+      "runtime_path": "static-assets/runtime/cover_herd_static.webp",
+      "runtime_pixels": [
+        384,
+        384
+      ],
+      "runtime_bytes": 26050,
+      "runtime_sha256": "a8601b03ca39f3fd94029c40cc65a171d72d90c3c95f7ab0e16c605fd0762757",
+      "recommended_import": "runtime_path",
+      "encoding": "ImageMagick/libwebp: proportional resize, quality90, method6; no scene/content edits"
+    }
+  ]
+}

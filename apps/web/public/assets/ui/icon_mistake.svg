@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="icon_mistake_title icon_mistake_desc">
+<title id="icon_mistake_title">失误次数</title><desc id="icon_mistake_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.icon.mistake&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [64, 64], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs></defs>
+<g id="disc"><circle cx="32" cy="32" r="25" fill="#D95B43" stroke="#AC422C" stroke-width="2"/></g><g id="cross" stroke="#FFF8E9" stroke-width="7" stroke-linecap="round"><path d="M23 23 41 41 M41 23 23 41"/></g>
+</svg>

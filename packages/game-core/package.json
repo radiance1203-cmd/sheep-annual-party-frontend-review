@@ -1,0 +1,8 @@
+{
+  "name": "@sheep/game-core",
+  "version": "2.2.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {},
+  "exports": "./src/index.ts"
+}

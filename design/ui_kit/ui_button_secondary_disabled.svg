@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80" role="img" aria-labelledby="ui_button_secondary_title_disabled ui_button_secondary_desc_disabled">
+<title id="ui_button_secondary_title_disabled">奶油次操作底板</title><desc id="ui_button_secondary_desc_disabled">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.button.secondary.disabled&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [320, 80], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs><linearGradient id="secondary_cream_disabled" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFDF5"/><stop offset="1" stop-color="#F8E6C5"/></linearGradient></defs>
+<g id="shadow_disabled"><rect x="7" y="10" width="306" height="64" rx="30" fill="#8B6846" opacity=".12"/></g><g id="surface_disabled"><rect x="4" y="4" width="312" height="64" rx="30" fill="url(#secondary_cream_disabled)" stroke="#D8AC4B" stroke-width="2"/></g>
+</svg>

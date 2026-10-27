@@ -1,0 +1,43 @@
+{
+  "schema": "sheep-static-art-provenance-v1",
+  "date": "2026-10-27",
+  "method": "built-in imagegen; reference-guided generation",
+  "role": "Four static runtime illustration sources for lobby only; not sprites or 3D source",
+  "jobs": [
+    {
+      "asset_id": "lobby_hero_static",
+      "prompt": "Use case: stylized-concept. This is a finished static runtime illustration for the SAME Chinese company year-of-the-sheep annual-party H5 game, not a new style proposal. Reference 1 is the locked character design: compact round cream-white plush sheep, large warm light-cream face, shiny black bean eyes, peach nose, warm tan curled horns, short brown hooves, red scarf, exactly one gold bell. Preserve that identity and soft tactile wool. Reference 2 is the existing visual target: warm polished soft-3D toy-farm rendering, honey wood, fresh green grass, cream and vermilion accents, soft upper-left daylight, consistent gentle shadows. Do not create a low-poly, flat-vector or long-bodied sheep. No watermark or UI controls. Asset: a wide landscape 2:1 HERO BANNER only, not a complete page. Reconstruct the upper hero portion of reference 2 as a coherent static illustration. On the LEFT, a large beautifully textured honey-brown wooden celebration sign with a vermilion rim, tiny leaves and restrained lantern decoration. The sign must read exactly the two-line fixed brand title '羊年' then '游园会' in large cream-gold softly raised Chinese characters. On the RIGHT, the complete front-three-quarter reference sheep smiling toward the viewer, with full horns, scarf, bell and hooves visible. Behind it is a coral-red farm barn, stacked hay and wooden fence. Foreground has gentle grass and a few small flowers. Rich scenery with readable depth, no clutter. Title and sheep are both primary, neither tiny. Keep the title inside the left 45%, sheep inside right 45%, keep all critical elements at least 6% from edges. Reserve a quiet thin band at the bottom for a separate DOM phase label; do not draw any status label, button, score, counter, QR, date or extra words. Fixed brand title is the ONLY text. This is one static branded banner, no grid, no panels.",
+      "reference_files": [
+        "references/character_foundation_board.png",
+        "references/00_lobby.png"
+      ]
+    },
+    {
+      "asset_id": "cover_stack_static",
+      "prompt": "Use case: stylized-concept. This is a finished static runtime illustration for the SAME Chinese company year-of-the-sheep annual-party H5 game, not a new style proposal. Reference 1 is the locked character design: compact round cream-white plush sheep, large warm light-cream face, shiny black bean eyes, peach nose, warm tan curled horns, short brown hooves, red scarf, exactly one gold bell. Preserve that identity and soft tactile wool. Reference 2 is the existing visual target: warm polished soft-3D toy-farm rendering, honey wood, fresh green grass, cream and vermilion accents, soft upper-left daylight, consistent gentle shadows. Do not create a low-poly, flat-vector or long-bodied sheep. No watermark or UI controls. Asset: SQUARE 1:1 static thumbnail illustration for the stacking game. Three identical reference sheep arranged clearly in a vertical stack, each supported by a thin honey-coloured hay platform, playful but stable. A complete little tower centrally visible, all sheep faces and hooves intact. Warm farm pasture, distant fence and soft blue sky with clouds, restrained flower details. All action fits in central 80% of the square so it is legible at 144 CSS pixels wide. Visually communicate STACKING without any text, icons, number, border or button. No cropped sheep, no giant different mascot, no fourth disconnected sheep. One full illustration, no collage.",
+      "reference_files": [
+        "references/character_foundation_board.png",
+        "references/00_lobby.png",
+        "references/01_stack.png"
+      ]
+    },
+    {
+      "asset_id": "cover_runner_static",
+      "prompt": "Use case: stylized-concept. This is a finished static runtime illustration for the SAME Chinese company year-of-the-sheep annual-party H5 game, not a new style proposal. Reference 1 is the locked character design: compact round cream-white plush sheep, large warm light-cream face, shiny black bean eyes, peach nose, warm tan curled horns, short brown hooves, red scarf, exactly one gold bell. Preserve that identity and soft tactile wool. Reference 2 is the existing visual target: warm polished soft-3D toy-farm rendering, honey wood, fresh green grass, cream and vermilion accents, soft upper-left daylight, consistent gentle shadows. Do not create a low-poly, flat-vector or long-bodied sheep. No watermark or UI controls. Asset: SQUARE 1:1 static thumbnail illustration for the hurdle-jumping game. One identical reference sheep in a clear rightward airborne leap over ONE honey-wood hurdle with a vermilion-and-cream crossbar on a sunny farm path. Full sheep and entire hurdle visible, hooves clear of crossbar. Beautiful fluffy rounded character, dynamic but calm happy face, red scarf and gold bell visible. Grass, fence, small flowers, a soft distant coral farm barn. Keep the sheep and hurdle relation central inside 80% and readable at 144 CSS pixels wide. Visually communicate JUMPING A HURDLE without text, symbols, interface, scores or buttons. One illustration, no collage.",
+      "reference_files": [
+        "references/character_foundation_board.png",
+        "references/00_lobby.png",
+        "references/02_runner.png"
+      ]
+    },
+    {
+      "asset_id": "cover_herd_static",
+      "prompt": "Use case: stylized-concept. This is a finished static runtime illustration for the SAME Chinese company year-of-the-sheep annual-party H5 game, not a new style proposal. Reference 1 is the locked character design: compact round cream-white plush sheep, large warm light-cream face, shiny black bean eyes, peach nose, warm tan curled horns, short brown hooves, red scarf, exactly one gold bell. Preserve that identity and soft tactile wool. Reference 2 is the existing visual target: warm polished soft-3D toy-farm rendering, honey wood, fresh green grass, cream and vermilion accents, soft upper-left daylight, consistent gentle shadows. Do not create a low-poly, flat-vector or long-bodied sheep. No watermark or UI controls. Asset: SQUARE 1:1 static thumbnail illustration for the sheep-herding game. A charming brown-and-white sheepdog with long dark ears and a red collar, visibly behind a small group of THREE identical reference sheep, guides them toward a clearly OPEN wooden sheep-pen gate. Compose the DOG in lower-left, three SHEEP in centre moving toward a wide open gateway on upper-right, with connected fence segments enclosing a small grassy pen. Camera is a readable three-quarter overhead story view, matching the third reference's farm. Dog is visually different from sheep, its face/body silhouette recognizable; sheep have red scarves and gold bells where front-facing. Clearly show dog-behind-sheep and the unobstructed route into the pen. This is an entry-card illustration, not a playable field snapshot, so three illustrative sheep are intentional and no gameplay count is implied. All subjects visible and central within 80%, usable at 144 CSS pixels wide. No arrows, no bark icon, no text, no numbers, no UI. One polished illustration, no collage.",
+      "reference_files": [
+        "references/character_foundation_board.png",
+        "references/00_lobby.png",
+        "references/03_herd.png"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "status": "SUPERSEDED_BY_APPROVED_PRODUCTION_REPORT",
+  "source": "art-source/v2/farm_master_v2.blend",
+  "source_sha256": "fac58d96901764596905690c39939b8c1bdedd04d061973a144bdd8a6b65b3e8",
+  "seed": 5012026,
+  "scenes": [
+    {
+      "game": "runner",
+      "source": "art-source/v3/backdrop_runner_v3.blend",
+      "production_px": [
+        720,
+        440
+      ],
+      "scene_size_px": [
+        360,
+        220
+      ],
+      "preview": "art-source/v3/preview_runner_360.png",
+      "projection": "orthographic separate scenic farm, no gameplay geometry"
+    }
+  ],
+  "excluded": [
+    "moving characters",
+    "HUD/text",
+    "real hay tray/platform",
+    "actual hurdles and pickups",
+    "herd gate line/entry markers",
+    "physics or scoring geometry"
+  ],
+  "scope": "Last single-game preview build receipt; all three final clean scenery sources are in production-render-report.json",
+  "final_source_report": "art-source/v3/production-render-report.json"
+}

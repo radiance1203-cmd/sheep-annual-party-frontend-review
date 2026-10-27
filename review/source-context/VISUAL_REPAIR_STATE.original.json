@@ -1,0 +1,225 @@
+{
+  "schema": "sheep-visual-tasks-v1",
+  "no_fixed_time_or_round_count": true,
+  "existing_backlog_mapping": {
+    "VR-06": [
+      "T-050",
+      "T-051"
+    ],
+    "VR-07": [
+      "T-052"
+    ],
+    "VR-10": [
+      "T-066"
+    ],
+    "note": "Map to actual current tasks; do not overwrite already-completed evidence or infer G5 from old handoff status."
+  },
+  "tasks": [
+    {
+      "id": "VR-01",
+      "owner": "root",
+      "depends_on": [],
+      "output": "Locate actual project, capture baseline and source/resource inventory",
+      "acceptance": [
+        "VA-01",
+        "VA-02"
+      ],
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual local scope completed; VR-10 reports outstanding formal/onsite gates without clearing them"
+    },
+    {
+      "id": "VR-02",
+      "owner": "root",
+      "depends_on": [
+        "VR-01"
+      ],
+      "output": "Merge scoped visual guidance and single-manifest mapping; protect existing rules",
+      "acceptance": [
+        "VA-03",
+        "VA-06"
+      ],
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual local scope completed; VR-10 reports outstanding formal/onsite gates without clearing them"
+    },
+    {
+      "id": "VR-03",
+      "owner": "art",
+      "depends_on": [
+        "VR-02"
+      ],
+      "output": "Inspect four supplied illustrations, adapt transport/format if needed, register actual runtime assets",
+      "acceptance": [
+        "VA-04",
+        "VA-22"
+      ],
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual local scope completed; VR-10 reports outstanding formal/onsite gates without clearing them"
+    },
+    {
+      "id": "VR-04",
+      "owner": "frontend",
+      "depends_on": [
+        "VR-02",
+        "VR-03"
+      ],
+      "output": "Restore lobby components/layout/states with real data and accessible controls",
+      "acceptance": [
+        "VA-07",
+        "VA-08",
+        "VA-09",
+        "VA-10",
+        "VA-11",
+        "VA-12",
+        "VA-13",
+        "VA-14"
+      ],
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual local scope completed; VR-10 reports outstanding formal/onsite gates without clearing them"
+    },
+    {
+      "id": "VR-05",
+      "owner": "root",
+      "depends_on": [
+        "VR-04"
+      ],
+      "output": "Capture and visually review lobby fixtures plus necessary actual-service interaction, including actual hero/card clipping at all tested widths",
+      "acceptance": [
+        "VA-05",
+        "VA-23",
+        "VA-24"
+      ],
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual local scope completed; VR-10 reports outstanding formal/onsite gates without clearing them"
+    },
+    {
+      "id": "VR-06",
+      "owner": "art",
+      "depends_on": [
+        "VR-02"
+      ],
+      "output": "Inspect/reuse current character/environment sources, repair identity/material/motion; produce missing assets only when confirmed missing",
+      "acceptance": [
+        "VA-15",
+        "VA-22"
+      ],
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual local scope completed; VR-10 reports outstanding formal/onsite gates without clearing them"
+    },
+    {
+      "id": "VR-07",
+      "owner": "frontend",
+      "depends_on": [
+        "VR-05",
+        "VR-06"
+      ],
+      "output": "Restore stack/runner/herd presentation with same logical core and proper runtime assets",
+      "acceptance": [
+        "VA-16",
+        "VA-17",
+        "VA-18"
+      ],
+      "status": "REVIEW",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Implemented and locally verified; final art signature pending"
+    },
+    {
+      "id": "VR-08",
+      "owner": "frontend",
+      "depends_on": [
+        "VR-04"
+      ],
+      "output": "Propagate shared UI quality to result/rank/gifts/claim without changing transactions",
+      "acceptance": [
+        "VA-21"
+      ],
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual local scope completed; VR-10 reports outstanding formal/onsite gates without clearing them"
+    },
+    {
+      "id": "VR-09",
+      "owner": "root",
+      "depends_on": [
+        "VR-07",
+        "VR-08"
+      ],
+      "output": "Run relevant deterministic/input/resource/lifecycle regressions based on actual changes",
+      "acceptance": [
+        "VA-19",
+        "VA-20"
+      ],
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual local scope completed; VR-10 reports outstanding formal/onsite gates without clearing them"
+    },
+    {
+      "id": "VR-10",
+      "owner": "root",
+      "depends_on": [
+        "VR-05",
+        "VR-07",
+        "VR-08",
+        "VR-09"
+      ],
+      "output": "Inspect screenshots/motion; fix named defects, report scope status and outstanding gates",
+      "acceptance": [
+        "VA-23",
+        "VA-24",
+        "VA-25",
+        "VA-26"
+      ],
+      "status": "PASS",
+      "evidence": [
+        "docs/visual-repair-v1-report.md",
+        "output/visual-repair-v1/integration-evidence.json"
+      ],
+      "note": "Actual local scope completed; VR-10 reports outstanding formal/onsite gates without clearing them"
+    }
+  ],
+  "at": "2026-10-27T05:49:23.163073+00:00",
+  "baseline_commit": "9d652fb3fef2ede55ebc462d46445cc855b98dd1",
+  "scope_status": {
+    "lobby": "PASS",
+    "stack": "REVIEW",
+    "runner": "REVIEW",
+    "herd": "REVIEW",
+    "game_art": "REVIEW",
+    "shared_pages": "PASS",
+    "runtime_regression": "PASS",
+    "g5": "REVIEW",
+    "g6": "BLOCKED"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "schema": "sheep-visual-layout-v1",
+  "status": "implementation_starting_targets_not_measured_current_app",
+  "units": "CSS px unless named otherwise",
+  "baseline_viewport": {
+    "width": 390,
+    "height": 844,
+    "dpr": 1,
+    "zoom_percent": 100
+  },
+  "source_reference": {
+    "file": "references/00_lobby.png",
+    "pixels": [
+      941,
+      1672
+    ],
+    "height_when_scaled_to_width_390": 692.9649309245483,
+    "do_not_stretch_to_viewport": true
+  },
+  "page": {
+    "mobile_max_width": 430,
+    "content_margin": 16,
+    "vertical_flow": "document_scroll",
+    "background": "warm farm green/cream treatment; match approved static art",
+    "bottom_padding": "bottom navigation actual height + env(safe-area-inset-bottom) + 16px"
+  },
+  "hero": {
+    "width": "100% of mobile container",
+    "height": "auto from actual asset aspect ratio",
+    "preferred_source_ratio": "2:1",
+    "fit": "contain",
+    "stretch": false,
+    "crop": "none by default; do not clip title, horns, hooves or bell",
+    "phase_badge": "separate DOM row below hero; min-height 32; grows on wrap",
+    "account_action": "optional DOM action above hero, at least 48x48; no duplicate large developer header"
+  },
+  "identity_panel": {
+    "margin_top": 12,
+    "padding": 16,
+    "min_height": 88,
+    "height": "auto",
+    "unbound": "short explanation + binding action; no invented balance or 3/3",
+    "bound": "honor score and remaining formal opportunities; show balance separately only where needed"
+  },
+  "game_section": {
+    "heading_min_line_height": 32,
+    "gap_after_heading": 12,
+    "card_gap": 12,
+    "cards": 3
+  },
+  "game_card": {
+    "padding": 12,
+    "gap": 12,
+    "border_radius": 24,
+    "min_height_at_390": 176,
+    "height": "auto",
+    "grid": "minmax(104px, 44%) minmax(0, 1fr)",
+    "cover_aspect_ratio": "1 / 1",
+    "cover_fit": "contain",
+    "crop": "none; all sheep/dog/hurdle/gate stay visible",
+    "title_font": 22,
+    "title_line_height": 1.2,
+    "body_font": 16,
+    "body_line_height": 1.45,
+    "cta_min_height": 48,
+    "cta_min_width": 96,
+    "cta_font": 24,
+    "cta_font_weight": 700,
+    "cta_label": "short label that matches current action; grow/wrap if needed; do not alter navigation behavior",
+    "narrow_rule": "320px width: allow title/body wrap and card height growth; keep min-width:0 for text and no horizontal overflow"
+  },
+  "footer": {
+    "rules_panel": "16px readable text, natural wrap",
+    "navigation": "real DOM; content min-height 64 plus safe-area; each item min 48x48; reserve page padding; verify no covered last card"
+  },
+  "typography": {
+    "body_min": 16,
+    "key_number_min": 24,
+    "system_body_font": "reuse available licensed font with Chinese fallback",
+    "fixed_brand_title": "artwork allowed with equivalent accessible heading",
+    "do_not_scale_entire_page_to_fit": true
+  },
+  "viewports": [
+    {
+      "width": 320,
+      "height": 740
+    },
+    {
+      "width": 360,
+      "height": 800
+    },
+    {
+      "width": 390,
+      "height": 844
+    },
+    {
+      "width": 430,
+      "height": 932
+    }
+  ],
+  "gameplay": {
+    "world_scale": "uniform, from existing core/host mapping",
+    "extra_vertical_space": "decorative background or normal UI spacing",
+    "never_change": [
+      "collision sizes",
+      "gate coordinates",
+      "jump arc",
+      "input sampling",
+      "time scale",
+      "score"
+    ]
+  },
+  "adjustments": "These numbers are construction starts. Record actual DOM metrics and explain responsive changes; pass hierarchy/readability/scene checks, not arbitrary pixel similarity."
+}

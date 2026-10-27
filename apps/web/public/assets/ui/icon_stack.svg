@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="icon_stack_title icon_stack_desc">
+<title id="icon_stack_title">层数</title><desc id="icon_stack_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.icon.stack&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [64, 64], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs></defs>
+<g id="bottom"><path d="M12 39 32 30 52 39 32 49Z" fill="#F2D38A"/><path d="M12 39V49L32 59V49Z" fill="#D8AC4B"/><path d="M52 39V49L32 59V49Z" fill="#AF7B35"/></g><g id="middle"><path d="M14 24 32 16 50 24 32 33Z" fill="#F2D38A"/><path d="M14 24V34L32 43V33Z" fill="#D8AC4B"/><path d="M50 24V34L32 43V33Z" fill="#AF7B35"/></g><g id="top"><path d="M17 10 32 4 47 10 32 18Z" fill="#F2D38A"/><path d="M17 10V20L32 28V18Z" fill="#D8AC4B"/><path d="M47 10V20L32 28V18Z" fill="#AF7B35"/></g>
+</svg>

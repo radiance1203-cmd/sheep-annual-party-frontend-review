@@ -1,0 +1,2055 @@
+{
+  "synthetic": true,
+  "rule_version": "onsite-v2.1-candidate",
+  "seed": 47,
+  "generated_by_strategy": "centroid_behind_55_bark",
+  "config_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+  "expected": {
+    "in_pen": 8,
+    "end_tick": 225,
+    "end": "GOAL_REACHED",
+    "base_performance": 48,
+    "time_bonus": 32,
+    "performance": 80,
+    "credit": 100
+  },
+  "inputs": [
+    {
+      "tick": 1,
+      "seq": 1,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -1000
+      }
+    },
+    {
+      "tick": 1,
+      "seq": 2,
+      "type": "BARK",
+      "value": null
+    },
+    {
+      "tick": 2,
+      "seq": 3,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -999
+      }
+    },
+    {
+      "tick": 3,
+      "seq": 4,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -999
+      }
+    },
+    {
+      "tick": 4,
+      "seq": 5,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -999
+      }
+    },
+    {
+      "tick": 5,
+      "seq": 6,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -999
+      }
+    },
+    {
+      "tick": 6,
+      "seq": 7,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -999
+      }
+    },
+    {
+      "tick": 7,
+      "seq": 8,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 1,
+        "y": -999
+      }
+    },
+    {
+      "tick": 8,
+      "seq": 9,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -999
+      }
+    },
+    {
+      "tick": 9,
+      "seq": 10,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 1,
+        "y": -999
+      }
+    },
+    {
+      "tick": 10,
+      "seq": 11,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -999
+      }
+    },
+    {
+      "tick": 11,
+      "seq": 12,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 1,
+        "y": -999
+      }
+    },
+    {
+      "tick": 12,
+      "seq": 13,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -999
+      }
+    },
+    {
+      "tick": 13,
+      "seq": 14,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -999
+      }
+    },
+    {
+      "tick": 14,
+      "seq": 15,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 2,
+        "y": -999
+      }
+    },
+    {
+      "tick": 15,
+      "seq": 16,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 3,
+        "y": -999
+      }
+    },
+    {
+      "tick": 16,
+      "seq": 17,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 3,
+        "y": -999
+      }
+    },
+    {
+      "tick": 17,
+      "seq": 18,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 3,
+        "y": -999
+      }
+    },
+    {
+      "tick": 18,
+      "seq": 19,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 4,
+        "y": -999
+      }
+    },
+    {
+      "tick": 19,
+      "seq": 20,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 9,
+        "y": -999
+      }
+    },
+    {
+      "tick": 20,
+      "seq": 21,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 9,
+        "y": -999
+      }
+    },
+    {
+      "tick": 21,
+      "seq": 22,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 9,
+        "y": -999
+      }
+    },
+    {
+      "tick": 22,
+      "seq": 23,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 8,
+        "y": -999
+      }
+    },
+    {
+      "tick": 23,
+      "seq": 24,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 6,
+        "y": -999
+      }
+    },
+    {
+      "tick": 24,
+      "seq": 25,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 5,
+        "y": -999
+      }
+    },
+    {
+      "tick": 25,
+      "seq": 26,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -999
+      }
+    },
+    {
+      "tick": 26,
+      "seq": 27,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -7,
+        "y": -999
+      }
+    },
+    {
+      "tick": 27,
+      "seq": 28,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -7,
+        "y": -999
+      }
+    },
+    {
+      "tick": 28,
+      "seq": 29,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -6,
+        "y": -999
+      }
+    },
+    {
+      "tick": 29,
+      "seq": 30,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -7,
+        "y": -999
+      }
+    },
+    {
+      "tick": 30,
+      "seq": 31,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -27,
+        "y": -627
+      }
+    },
+    {
+      "tick": 31,
+      "seq": 32,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -3,
+        "y": -622
+      }
+    },
+    {
+      "tick": 32,
+      "seq": 33,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -2,
+        "y": -623
+      }
+    },
+    {
+      "tick": 33,
+      "seq": 34,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -4,
+        "y": -623
+      }
+    },
+    {
+      "tick": 34,
+      "seq": 35,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -3,
+        "y": -623
+      }
+    },
+    {
+      "tick": 35,
+      "seq": 36,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -4,
+        "y": -623
+      }
+    },
+    {
+      "tick": 36,
+      "seq": 37,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -3,
+        "y": -623
+      }
+    },
+    {
+      "tick": 37,
+      "seq": 38,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -4,
+        "y": -623
+      }
+    },
+    {
+      "tick": 38,
+      "seq": 39,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -4,
+        "y": -623
+      }
+    },
+    {
+      "tick": 39,
+      "seq": 40,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -4,
+        "y": -623
+      }
+    },
+    {
+      "tick": 40,
+      "seq": 41,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -5,
+        "y": -623
+      }
+    },
+    {
+      "tick": 41,
+      "seq": 42,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -4,
+        "y": -623
+      }
+    },
+    {
+      "tick": 42,
+      "seq": 43,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -5,
+        "y": -623
+      }
+    },
+    {
+      "tick": 43,
+      "seq": 44,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -38,
+        "y": -554
+      }
+    },
+    {
+      "tick": 44,
+      "seq": 45,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -4,
+        "y": -623
+      }
+    },
+    {
+      "tick": 45,
+      "seq": 46,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 15,
+        "y": -545
+      }
+    },
+    {
+      "tick": 46,
+      "seq": 47,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -5,
+        "y": -622
+      }
+    },
+    {
+      "tick": 47,
+      "seq": 48,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -39,
+        "y": -554
+      }
+    },
+    {
+      "tick": 48,
+      "seq": 49,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -5,
+        "y": -622
+      }
+    },
+    {
+      "tick": 49,
+      "seq": 50,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -6,
+        "y": -622
+      }
+    },
+    {
+      "tick": 50,
+      "seq": 51,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -6,
+        "y": -621
+      }
+    },
+    {
+      "tick": 51,
+      "seq": 52,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -2,
+        "y": -476
+      }
+    },
+    {
+      "tick": 52,
+      "seq": 53,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -24,
+        "y": -621
+      }
+    },
+    {
+      "tick": 53,
+      "seq": 54,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -7,
+        "y": -621
+      }
+    },
+    {
+      "tick": 54,
+      "seq": 55,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -40,
+        "y": -553
+      }
+    },
+    {
+      "tick": 55,
+      "seq": 56,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -5,
+        "y": -620
+      }
+    },
+    {
+      "tick": 56,
+      "seq": 57,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -23,
+        "y": -620
+      }
+    },
+    {
+      "tick": 57,
+      "seq": 58,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 29,
+        "y": -543
+      }
+    },
+    {
+      "tick": 58,
+      "seq": 59,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -39,
+        "y": -552
+      }
+    },
+    {
+      "tick": 59,
+      "seq": 60,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -77,
+        "y": -616
+      }
+    },
+    {
+      "tick": 60,
+      "seq": 61,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -115,
+        "y": -547
+      }
+    },
+    {
+      "tick": 61,
+      "seq": 62,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -5,
+        "y": -619
+      }
+    },
+    {
+      "tick": 62,
+      "seq": 63,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -76,
+        "y": -616
+      }
+    },
+    {
+      "tick": 63,
+      "seq": 64,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -118,
+        "y": -537
+      }
+    },
+    {
+      "tick": 64,
+      "seq": 65,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -20,
+        "y": -619
+      }
+    },
+    {
+      "tick": 65,
+      "seq": 66,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -112,
+        "y": -539
+      }
+    },
+    {
+      "tick": 66,
+      "seq": 67,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -94,
+        "y": -614
+      }
+    },
+    {
+      "tick": 67,
+      "seq": 68,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 32,
+        "y": -538
+      }
+    },
+    {
+      "tick": 68,
+      "seq": 69,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -88,
+        "y": -616
+      }
+    },
+    {
+      "tick": 69,
+      "seq": 70,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -37,
+        "y": -536
+      }
+    },
+    {
+      "tick": 70,
+      "seq": 71,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -92,
+        "y": -614
+      }
+    },
+    {
+      "tick": 71,
+      "seq": 72,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 21,
+        "y": -537
+      }
+    },
+    {
+      "tick": 72,
+      "seq": 73,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -86,
+        "y": -616
+      }
+    },
+    {
+      "tick": 73,
+      "seq": 74,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -13,
+        "y": -614
+      }
+    },
+    {
+      "tick": 74,
+      "seq": 75,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -150,
+        "y": -538
+      }
+    },
+    {
+      "tick": 75,
+      "seq": 76,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 46,
+        "y": -536
+      }
+    },
+    {
+      "tick": 76,
+      "seq": 77,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -79,
+        "y": -615
+      }
+    },
+    {
+      "tick": 77,
+      "seq": 78,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -3,
+        "y": -613
+      }
+    },
+    {
+      "tick": 78,
+      "seq": 79,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -138,
+        "y": -542
+      }
+    },
+    {
+      "tick": 79,
+      "seq": 80,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -69,
+        "y": -555
+      }
+    },
+    {
+      "tick": 80,
+      "seq": 81,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 15,
+        "y": -615
+      }
+    },
+    {
+      "tick": 81,
+      "seq": 82,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -62,
+        "y": -540
+      }
+    },
+    {
+      "tick": 82,
+      "seq": 83,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -110,
+        "y": -615
+      }
+    },
+    {
+      "tick": 83,
+      "seq": 84,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -113,
+        "y": -540
+      }
+    },
+    {
+      "tick": 84,
+      "seq": 85,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -86,
+        "y": -557
+      }
+    },
+    {
+      "tick": 85,
+      "seq": 86,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -82,
+        "y": -543
+      }
+    },
+    {
+      "tick": 86,
+      "seq": 87,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -187,
+        "y": -475
+      }
+    },
+    {
+      "tick": 87,
+      "seq": 88,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -14,
+        "y": -554
+      }
+    },
+    {
+      "tick": 88,
+      "seq": 89,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 647,
+        "y": 761
+      }
+    },
+    {
+      "tick": 89,
+      "seq": 90,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -185,
+        "y": -235
+      }
+    },
+    {
+      "tick": 90,
+      "seq": 91,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -65,
+        "y": -290
+      }
+    },
+    {
+      "tick": 91,
+      "seq": 92,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -76,
+        "y": -173
+      }
+    },
+    {
+      "tick": 92,
+      "seq": 93,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -11,
+        "y": -192
+      }
+    },
+    {
+      "tick": 93,
+      "seq": 94,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -157,
+        "y": -72
+      }
+    },
+    {
+      "tick": 94,
+      "seq": 95,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -124,
+        "y": -194
+      }
+    },
+    {
+      "tick": 95,
+      "seq": 96,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 92,
+        "y": -140
+      }
+    },
+    {
+      "tick": 96,
+      "seq": 97,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -19,
+        "y": -98
+      }
+    },
+    {
+      "tick": 97,
+      "seq": 98,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 76,
+        "y": -288
+      }
+    },
+    {
+      "tick": 98,
+      "seq": 99,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -973,
+        "y": 229
+      }
+    },
+    {
+      "tick": 99,
+      "seq": 100,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -994,
+        "y": 107
+      }
+    },
+    {
+      "tick": 100,
+      "seq": 101,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -975,
+        "y": -56
+      }
+    },
+    {
+      "tick": 101,
+      "seq": 102,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -368,
+        "y": 929
+      }
+    },
+    {
+      "tick": 102,
+      "seq": 103,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -5,
+        "y": 198
+      }
+    },
+    {
+      "tick": 103,
+      "seq": 104,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 158,
+        "y": -211
+      }
+    },
+    {
+      "tick": 104,
+      "seq": 105,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 178,
+        "y": -229
+      }
+    },
+    {
+      "tick": 105,
+      "seq": 106,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 135,
+        "y": -105
+      }
+    },
+    {
+      "tick": 106,
+      "seq": 107,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 44,
+        "y": -142
+      }
+    },
+    {
+      "tick": 107,
+      "seq": 108,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 79,
+        "y": -227
+      }
+    },
+    {
+      "tick": 108,
+      "seq": 109,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 771,
+        "y": 636
+      }
+    },
+    {
+      "tick": 109,
+      "seq": 110,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 772,
+        "y": 635
+      }
+    },
+    {
+      "tick": 110,
+      "seq": 111,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 778,
+        "y": 626
+      }
+    },
+    {
+      "tick": 111,
+      "seq": 112,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 394,
+        "y": 70
+      }
+    },
+    {
+      "tick": 112,
+      "seq": 113,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 115,
+        "y": -164
+      }
+    },
+    {
+      "tick": 113,
+      "seq": 114,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 78,
+        "y": -150
+      }
+    },
+    {
+      "tick": 114,
+      "seq": 115,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 91,
+        "y": -166
+      }
+    },
+    {
+      "tick": 115,
+      "seq": 116,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 34,
+        "y": -160
+      }
+    },
+    {
+      "tick": 116,
+      "seq": 117,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 105,
+        "y": -310
+      }
+    },
+    {
+      "tick": 117,
+      "seq": 118,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 100,
+        "y": -310
+      }
+    },
+    {
+      "tick": 118,
+      "seq": 119,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 7,
+        "y": -157
+      }
+    },
+    {
+      "tick": 119,
+      "seq": 120,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 93,
+        "y": -307
+      }
+    },
+    {
+      "tick": 120,
+      "seq": 121,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 70,
+        "y": -302
+      }
+    },
+    {
+      "tick": 121,
+      "seq": 122,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -18,
+        "y": -140
+      }
+    },
+    {
+      "tick": 122,
+      "seq": 123,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 39,
+        "y": -286
+      }
+    },
+    {
+      "tick": 123,
+      "seq": 124,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 35,
+        "y": -284
+      }
+    },
+    {
+      "tick": 124,
+      "seq": 125,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -41,
+        "y": -127
+      }
+    },
+    {
+      "tick": 125,
+      "seq": 126,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -56,
+        "y": -423
+      }
+    },
+    {
+      "tick": 126,
+      "seq": 127,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -917,
+        "y": 397
+      }
+    },
+    {
+      "tick": 127,
+      "seq": 128,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -925,
+        "y": 378
+      }
+    },
+    {
+      "tick": 128,
+      "seq": 129,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -933,
+        "y": 359
+      }
+    },
+    {
+      "tick": 129,
+      "seq": 130,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -414,
+        "y": 115
+      }
+    },
+    {
+      "tick": 130,
+      "seq": 131,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 399,
+        "y": -135
+      }
+    },
+    {
+      "tick": 131,
+      "seq": 132,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 400,
+        "y": -135
+      }
+    },
+    {
+      "tick": 132,
+      "seq": 133,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 397,
+        "y": -135
+      }
+    },
+    {
+      "tick": 133,
+      "seq": 134,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 414,
+        "y": -152
+      }
+    },
+    {
+      "tick": 134,
+      "seq": 135,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 429,
+        "y": -134
+      }
+    },
+    {
+      "tick": 135,
+      "seq": 136,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 537,
+        "y": -133
+      }
+    },
+    {
+      "tick": 136,
+      "seq": 137,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 635,
+        "y": -354
+      }
+    },
+    {
+      "tick": 137,
+      "seq": 138,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 848,
+        "y": 529
+      }
+    },
+    {
+      "tick": 138,
+      "seq": 139,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 895,
+        "y": 444
+      }
+    },
+    {
+      "tick": 139,
+      "seq": 140,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 939,
+        "y": 343
+      }
+    },
+    {
+      "tick": 140,
+      "seq": 141,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 974,
+        "y": 226
+      }
+    },
+    {
+      "tick": 141,
+      "seq": 142,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 995,
+        "y": 92
+      }
+    },
+    {
+      "tick": 142,
+      "seq": 143,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 998,
+        "y": -58
+      }
+    },
+    {
+      "tick": 143,
+      "seq": 144,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 973,
+        "y": -227
+      }
+    },
+    {
+      "tick": 144,
+      "seq": 145,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 907,
+        "y": -419
+      }
+    },
+    {
+      "tick": 145,
+      "seq": 146,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 540,
+        "y": -429
+      }
+    },
+    {
+      "tick": 146,
+      "seq": 147,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 360,
+        "y": -341
+      }
+    },
+    {
+      "tick": 147,
+      "seq": 148,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 354,
+        "y": -342
+      }
+    },
+    {
+      "tick": 148,
+      "seq": 149,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 350,
+        "y": -359
+      }
+    },
+    {
+      "tick": 149,
+      "seq": 150,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 344,
+        "y": -360
+      }
+    },
+    {
+      "tick": 150,
+      "seq": 151,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 255,
+        "y": -186
+      }
+    },
+    {
+      "tick": 151,
+      "seq": 152,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 168,
+        "y": 0
+      }
+    },
+    {
+      "tick": 151,
+      "seq": 153,
+      "type": "BARK",
+      "value": null
+    },
+    {
+      "tick": 152,
+      "seq": 154,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -46,
+        "y": -308
+      }
+    },
+    {
+      "tick": 153,
+      "seq": 155,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -93,
+        "y": -156
+      }
+    },
+    {
+      "tick": 154,
+      "seq": 156,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -206,
+        "y": 32
+      }
+    },
+    {
+      "tick": 155,
+      "seq": 157,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -204,
+        "y": 51
+      }
+    },
+    {
+      "tick": 156,
+      "seq": 158,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -754,
+        "y": 151
+      }
+    },
+    {
+      "tick": 157,
+      "seq": 159,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -750,
+        "y": 134
+      }
+    },
+    {
+      "tick": 158,
+      "seq": 160,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -763,
+        "y": 135
+      }
+    },
+    {
+      "tick": 159,
+      "seq": 161,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 160,
+      "seq": 162,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 161,
+      "seq": 163,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 162,
+      "seq": 164,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 163,
+      "seq": 165,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 164,
+      "seq": 166,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -392,
+        "y": 83
+      }
+    },
+    {
+      "tick": 165,
+      "seq": 167,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -375,
+        "y": 84
+      }
+    },
+    {
+      "tick": 166,
+      "seq": 168,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -375,
+        "y": 84
+      }
+    },
+    {
+      "tick": 167,
+      "seq": 169,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -375,
+        "y": 83
+      }
+    },
+    {
+      "tick": 168,
+      "seq": 170,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -391,
+        "y": 84
+      }
+    },
+    {
+      "tick": 169,
+      "seq": 171,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -375,
+        "y": 67
+      }
+    },
+    {
+      "tick": 170,
+      "seq": 172,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -375,
+        "y": 67
+      }
+    },
+    {
+      "tick": 171,
+      "seq": 173,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -375,
+        "y": 66
+      }
+    },
+    {
+      "tick": 172,
+      "seq": 174,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -392,
+        "y": 50
+      }
+    },
+    {
+      "tick": 173,
+      "seq": 175,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -375,
+        "y": 50
+      }
+    },
+    {
+      "tick": 174,
+      "seq": 176,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -643,
+        "y": -270
+      }
+    },
+    {
+      "tick": 175,
+      "seq": 177,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -670,
+        "y": -10
+      }
+    },
+    {
+      "tick": 176,
+      "seq": 178,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -649,
+        "y": 0
+      }
+    },
+    {
+      "tick": 177,
+      "seq": 179,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -644,
+        "y": 0
+      }
+    },
+    {
+      "tick": 178,
+      "seq": 180,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -625,
+        "y": -16
+      }
+    },
+    {
+      "tick": 179,
+      "seq": 181,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -637,
+        "y": -17
+      }
+    },
+    {
+      "tick": 180,
+      "seq": 182,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -599,
+        "y": -34
+      }
+    },
+    {
+      "tick": 181,
+      "seq": 183,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 182,
+      "seq": 184,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 183,
+      "seq": 185,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 184,
+      "seq": 186,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 185,
+      "seq": 187,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 186,
+      "seq": 188,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 187,
+      "seq": 189,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 188,
+      "seq": 190,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 189,
+      "seq": 191,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 190,
+      "seq": 192,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 191,
+      "seq": 193,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 192,
+      "seq": 194,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 193,
+      "seq": 195,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 194,
+      "seq": 196,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 195,
+      "seq": 197,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 196,
+      "seq": 198,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 197,
+      "seq": 199,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 198,
+      "seq": 200,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 199,
+      "seq": 201,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 200,
+      "seq": 202,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 201,
+      "seq": 203,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 202,
+      "seq": 204,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 203,
+      "seq": 205,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 204,
+      "seq": 206,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 205,
+      "seq": 207,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 206,
+      "seq": 208,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 207,
+      "seq": 209,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 208,
+      "seq": 210,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 209,
+      "seq": 211,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 210,
+      "seq": 212,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 127,
+        "y": -297
+      }
+    },
+    {
+      "tick": 211,
+      "seq": 213,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 121,
+        "y": -295
+      }
+    },
+    {
+      "tick": 212,
+      "seq": 214,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 80,
+        "y": -293
+      }
+    },
+    {
+      "tick": 213,
+      "seq": 215,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 72,
+        "y": -272
+      }
+    },
+    {
+      "tick": 214,
+      "seq": 216,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 48,
+        "y": -286
+      }
+    },
+    {
+      "tick": 215,
+      "seq": 217,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -203,
+        "y": -591
+      }
+    },
+    {
+      "tick": 216,
+      "seq": 218,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -255,
+        "y": -602
+      }
+    },
+    {
+      "tick": 217,
+      "seq": 219,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -287,
+        "y": -598
+      }
+    },
+    {
+      "tick": 218,
+      "seq": 220,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -354,
+        "y": -592
+      }
+    },
+    {
+      "tick": 219,
+      "seq": 221,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -435,
+        "y": -620
+      }
+    },
+    {
+      "tick": 220,
+      "seq": 222,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -551,
+        "y": -645
+      }
+    },
+    {
+      "tick": 221,
+      "seq": 223,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -931,
+        "y": -365
+      }
+    },
+    {
+      "tick": 222,
+      "seq": 224,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -904,
+        "y": -426
+      }
+    },
+    {
+      "tick": 223,
+      "seq": 225,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -872,
+        "y": -488
+      }
+    },
+    {
+      "tick": 224,
+      "seq": 226,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -834,
+        "y": -550
+      }
+    },
+    {
+      "tick": 225,
+      "seq": 227,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -792,
+        "y": -610
+      }
+    }
+  ]
+}

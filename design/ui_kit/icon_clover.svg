@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="icon_clover_title icon_clover_desc">
+<title id="icon_clover_title">福草</title><desc id="icon_clover_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.icon.clover&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [64, 64], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs></defs>
+<g id="leaves" fill="#7EAA50" stroke="#587C46" stroke-width="2"><ellipse cx="24" cy="22" rx="11" ry="14" transform="rotate(-35 24 22)"/><ellipse cx="40" cy="22" rx="11" ry="14" transform="rotate(35 40 22)"/><ellipse cx="23" cy="39" rx="11" ry="13" transform="rotate(40 23 39)"/><ellipse cx="41" cy="39" rx="11" ry="13" transform="rotate(-40 41 39)"/><path d="M32 40Q39 51 27 58" fill="none" stroke-width="4"/></g><g id="core"><circle cx="32" cy="31" r="6" fill="#D8AC4B" stroke="#9B6824" stroke-width="1.5"/></g>
+</svg>

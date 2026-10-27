@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="88" viewBox="0 0 320 88" role="img" aria-labelledby="ui_button_primary_title_loading ui_button_primary_desc_loading">
+<title id="ui_button_primary_title_loading">朱红主操作底板</title><desc id="ui_button_primary_desc_loading">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.button.primary.loading&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [320, 88], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs><linearGradient id="primary_red_loading" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D95B43"/><stop offset="1" stop-color="#BA3827"/></linearGradient></defs>
+<g id="shadow_loading"><rect x="7" y="12" width="306" height="70" rx="35" fill="#8D3E25" opacity=".18"/></g><g id="surface_loading"><rect x="4" y="4" width="312" height="72" rx="36" fill="url(#primary_red_loading)" stroke="#F0A074" stroke-width="2"/></g><g id="highlight_loading"><path d="M33 13 Q160 -1 287 13" fill="none" stroke="#FFF8E9" stroke-opacity=".32" stroke-width="3" stroke-linecap="round"/></g>
+<g id="loading_dots" fill="#493B2D"><circle cx="24" cy="34" r="3"/><circle cx="34" cy="34" r="3"/><circle cx="44" cy="34" r="3"/></g></svg>

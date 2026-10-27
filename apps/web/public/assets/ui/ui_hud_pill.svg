@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="80" viewBox="0 0 240 80" role="img" aria-labelledby="ui_hud_pill_title ui_hud_pill_desc">
+<title id="ui_hud_pill_title">HUD胶囊底板</title><desc id="ui_hud_pill_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.hud.pill&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [240, 80], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs><linearGradient id="ui_hud_pill_cream" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFDF7"/><stop offset="1" stop-color="#FBEACA"/></linearGradient></defs>
+<g id="shadow"><rect x="5" y="8" width="230" height="68" rx="36" fill="#87603C" opacity=".1"/></g><g id="surface"><rect x="3" y="3" width="234" height="68" rx="36" fill="url(#ui_hud_pill_cream)" stroke="#E8D5B5" stroke-width="1.5"/></g><g id="highlight"><path d="M36 7 H204" stroke="#FFFFFF" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/></g>
+</svg>

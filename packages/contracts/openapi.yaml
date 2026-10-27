@@ -1,0 +1,5712 @@
+openapi: 3.1.0
+info:
+  title: 羊年现场三游戏 V2.2 技术契约基线
+  version: 2.2.0-baseline
+  description: 已确定的交付 OpenAPI 契约基线，尚未实现/运行；总控初始化记录基线commit、适配已有工程并生成唯一源，无需另问用户确认既定规则。玩法仍唯一
+    onsite-v2.1-candidate。03/07 与本目录 AUTH_AND_TRANSACTIONS、database/SCHEMA 定义跨请求事务不变量。新补场阶段澄清见
+    M01/M02；原 51 案不变。
+servers:
+  - url: /
+    description: 同源 Web/API；本地开发通过 Vite proxy。同源 URL 不代表已部署。
+tags:
+  - name: Public
+  - name: Participant
+  - name: Admin
+security:
+  - sessionCookie: []
+x-contract-status: established-baseline-awaiting-implementation
+x-rule-version: onsite-v2.1-candidate
+x-api-instance-count: 1
+x-request-conventions:
+  - 所有 JSON 业务响应 no-store 并产生新的 server_now；不可变 rules 资源除外。
+  - 所有写请求 application/json，允许 Origin 白名单；认证写接口另需 X-CSRF-Token。
+  - 新业务检查之前先认证/权限/归属/旧业务摘要查回；当前状态可为 VOIDED/CANCELLED/CLAIMED。
+  - 普通错误不得暴露 SQL、凭据、他人对象；跨所有者资源按 404 或统一权限策略隐藏。
+  - 有限 503/429 重试必须复用业务键；COMMIT_STATUS_UNKNOWN 先按原对象/原键查回。
+  - start/恢复身份/导入的业务摘要使用 secret 的 SHA-256；finish 和 abandon 摘要排除 secret。finish 另排除 client_summary
+    和新服务器时刻。
+paths:
+  /api/event:
+    get:
+      operationId: getEvent
+      summary: 读取活动与新服务器时刻
+      description: "匿名只读公开活动状态。Cache-Control: no-store；不能缓存旧 server_now。正式活动身份和写操作均从认证会话确定 event。"
+      tags:
+        - Public
+      security: []
+      x-roles: []
+      x-acceptance-cases:
+        - P09
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EventPublicResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/EventId"
+  /api/rules/{rules_hash}:
+    get:
+      operationId: getPublishedRules
+      summary: 按摘要获取不可变规则字节
+      security: []
+      tags:
+        - Public
+      parameters:
+        - $ref: "#/components/parameters/RulesHash"
+      responses:
+        "200":
+          description: 已发布的唯一规范规则 JSON 字节，SHA-256 必须等于路径。允许 public immutable 缓存；该资源不含 server_now。
+          content:
+            application/json:
+              schema:
+                type: object
+                description: 字段权威来自 config/game_rules.v2.1.json 及总控实现的完整 config schema；不是自由修改参数的接口。
+        "404":
+          $ref: "#/components/responses/Error404"
+  /api/auth/login:
+    post:
+      operationId: login
+      summary: 个人码登录或原 nonce 恢复
+      description: 严格验证 JSON Content-Type 和 Origin；同邀请码+login_nonce 恢复原身份/未撤销会话，不新建额度。新 nonce 不能二领；Secure
+        HttpOnly Cookie。角色来自数据库，不从请求设置。
+      tags:
+        - Public
+      security: []
+      x-roles: []
+      x-acceptance-cases:
+        - A03
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/IdentityResponse"
+          headers:
+            Set-Cookie:
+              description: __Host-sheep_session=<opaque>; Path=/; Secure; HttpOnly; SameSite=Lax。仅 localhost 显式
+                dev 可用不同名称非 Secure cookie。
+              schema:
+                type: string
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/LoginRequest"
+  /api/auth/logout:
+    post:
+      operationId: logout
+      summary: 撤销当前认证会话
+      description: 撤销立即生效，不能继续控制原局；不自动返槽。重复已撤销 token 返回 401，可在 UI 视为已退出。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - PARTICIPANT
+        - REDEEMER
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/OkResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+  /api/me:
+    get:
+      operationId: getMe
+      summary: 本人身份 三槽 当前局与 CSRF
+      description: 所有者查询；无控制 secret。每次 server_now 新采样。工作人员没有 PARTICIPANT 角色时 tickets=[]。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - PARTICIPANT
+        - REDEEMER
+        - ORGANIZER
+      x-acceptance-cases:
+        - C01
+        - C02
+        - A01
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/IdentityResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+  /api/sessions/start:
+    post:
+      operationId: startSession
+      summary: 普通开局或指定原槽补场预约
+      description: 认证/归属/旧摘要查回先行。新普通场仅 PLAYING 且 created_at<challenge_closes_at；带 grant 场可 PLAYING 或
+        DRAINING，created_at<grant.admission_deadline。都需入口开启/未封榜/无另一未封存局。不能消费 grant
+        保留槽作为普通场。锁齐成功准入时采样 created_at；+3000ms 开赛、再+45000ms结束、开赛+60000ms截止。
+      tags:
+        - Participant
+      security:
+        - sessionCookie: []
+      x-roles:
+        - PARTICIPANT
+      x-acceptance-cases:
+        - P01
+        - P02
+        - P03
+        - P04
+        - P05
+        - P06
+        - E01
+        - E03
+        - M01
+        - M02
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SessionResponse"
+        "201":
+          description: 首次业务已创建。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SessionResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/StartRequest"
+  /api/sessions/{id}:
+    get:
+      operationId: getSession
+      summary: 查询本人的局次当前状态
+      description: 根据当前服务端时间推导状态；即使跨阶段、截止或 VOIDED，授权所有者仍可只读查询。不能恢复未上传的中途输入。
+      tags:
+        - Participant
+      security:
+        - sessionCookie: []
+      x-roles:
+        - PARTICIPANT
+      x-acceptance-cases:
+        - P04
+        - P09
+        - I04
+        - I05
+        - C01
+        - F02
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SessionResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Id"
+  /api/sessions/{id}/finish:
+    post:
+      operationId: finishSession
+      summary: 封存完整过程并受理重放
+      description: 完整受限 body 同步到达时先登记 UNCLASSIFIED，再异步认证/查库；202 必须日志和唯一任务已提交。认证/归属/摘要后先查既有封存；相同返回当前状态，异则
+        PROCESS_ALREADY_SEALED。首次 play_started_at<=received_at<=submit_deadline；highest_input_tick 与
+        end_tick 均不超过未来上限。无客户端分数入账。
+      tags:
+        - Participant
+      security:
+        - sessionCookie: []
+      x-roles:
+        - PARTICIPANT
+      x-acceptance-cases:
+        - P07
+        - P08
+        - I06
+        - I07
+        - C01
+        - C02
+        - F01
+        - F02
+        - F03
+        - F04
+        - F05
+        - F06
+        - F07
+        - E06
+        - E07
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SessionResponse"
+        "202":
+          description: 已持久受理，最终结果待核验。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SessionResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Id"
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/FinishRequest"
+  /api/sessions/{id}/abandon:
+    post:
+      operationId: abandonSession
+      summary: 原控制端主动放弃
+      description: 首次写核对当前
+        auth_session/client_instance/epoch/secret。预约中取消同样消耗槽、0分。有已封存或可能有效首次受理时返回该状态，不覆盖它。新写按统一锁序。
+      tags:
+        - Participant
+      security:
+        - sessionCookie: []
+      x-roles:
+        - PARTICIPANT
+      x-acceptance-cases:
+        - P06
+        - C01
+        - C02
+        - F04
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SessionResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Id"
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AbandonRequest"
+  /api/leaderboard:
+    get:
+      operationId: getLeaderboard
+      summary: 有效总积分荣誉榜
+      description: 只含至少一份有效已核验贡献的参与者。总分同分并列 1/2/2/4，UID 只稳定展示；兑换不改荣誉分。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - PARTICIPANT
+        - REDEEMER
+        - ORGANIZER
+      x-acceptance-cases:
+        - S02
+        - S03
+        - S04
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/LeaderboardResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Offset"
+        - $ref: "#/components/parameters/Limit"
+  /api/gifts:
+    get:
+      operationId: getGifts
+      summary: 礼品与可用库存
+      description: 展示价/库存不是预留承诺；下单事务重新检查。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - PARTICIPANT
+        - REDEEMER
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GiftListResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+  /api/redemptions:
+    post:
+      operationId: createRedemption
+      summary: 扣分并预留一件礼品
+      description: 既有幂等订单先查回。新单仅 REDEEMING 且锁齐时刻<claim_closes_at；资格/余额/库存/一人一件全在事务里。RESERVED+CLAIMED 占限额。
+      tags:
+        - Participant
+      security:
+        - sessionCookie: []
+      x-roles:
+        - PARTICIPANT
+      x-acceptance-cases:
+        - G01
+        - G05
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedemptionResponse"
+        "201":
+          description: 首次业务已创建。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedemptionResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/RedemptionCreateRequest"
+    get:
+      operationId: listMyRedemptions
+      summary: 本人订单历史
+      description: 包括 CANCELLED/CLAIMED，便于原单查回。
+      tags:
+        - Participant
+      security:
+        - sessionCookie: []
+      x-roles:
+        - PARTICIPANT
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PageOrderResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Offset"
+        - $ref: "#/components/parameters/Limit"
+  /api/redemptions/{id}:
+    get:
+      operationId: getMyRedemption
+      summary: 本人凭证与当前核销记录
+      description: CLOSED/过截止/冻结后仍可查询。到期 RESERVED 由共享取消事务处理，不继续标记可领取；不能把 GET 直接当核销。
+      tags:
+        - Participant
+      security:
+        - sessionCookie: []
+      x-roles:
+        - PARTICIPANT
+      x-acceptance-cases:
+        - G04
+        - G06
+        - A01
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedemptionResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Id"
+  /api/redemptions/{id}/cancel:
+    post:
+      operationId: cancelRedemption
+      summary: 本人或主办方取消待领取订单
+      description: 参与者仅本人；主办方同 event 可审计取消。CANCELLED 查回；CLAIMED 返回 ORDER_ALREADY_CLAIMED 且不退款。RESERVED
+        原价退款与库存恢复同事务；CLOSED 仍可取消。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - PARTICIPANT
+        - ORGANIZER
+      x-acceptance-cases:
+        - G02
+        - G04
+        - G07
+        - A01
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RedemptionResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Id"
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CancelRequest"
+  /api/admin/event/status:
+    get:
+      operationId: getAdminStatus
+      summary: 主办方运行与封榜关口
+      description: 区分普通 HTTP 请求与可能改变贡献的入口阻塞；显示待核验/复核/授权/恢复关口。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AdminStatusResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+  /api/admin/event/config:
+    patch:
+      operationId: updateEventConfig
+      summary: 配置真实活动及领取截止
+      description: 业务摘要先查回，再检查 revision/阶段。领取截止未配不得开兑；开兑后仅审计延长。不能修改正在使用的玩法快照。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases:
+        - E04
+        - A02
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EventPublicResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/EventConfigRequest"
+  /api/admin/event/release:
+    post:
+      operationId: bindRelease
+      summary: 绑定已校验的候选发布快照
+      description: 仅 CHECK_IN。服务端验证构建/规则/资源摘要及实际验收记录；规则冻结与榜单冻结不同。此接口不能替代真人或工程测试。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases:
+        - V01
+        - V02
+        - A02
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EventPublicResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ReleaseRequest"
+  /api/admin/event/entry:
+    post:
+      operationId: setEntrySwitch
+      summary: 暂停或恢复新开入口
+      description: 不改变任何已有局时间或挑战截止；入口开启不绕过阶段。练习入口亦按 CHECK_IN/PLAYING 与该 flag 限制。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases:
+        - E05
+        - A02
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EventPublicResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/EntryRequest"
+  /api/admin/event/challenge-deadline:
+    post:
+      operationId: extendChallengeDeadline
+      summary: PLAYING 内审计延长普通准入
+      description: 只允许比现有普通截止更晚；已 DRAINING 不可重开。补场 grant 用自己的截止。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases:
+        - E03
+        - A02
+        - M01
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EventPublicResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ChallengeDeadlineRequest"
+  /api/admin/event/phase:
+    post:
+      operationId: changePhase
+      summary: 推进活动阶段并在关口封榜
+      description: 只走 CHECK_IN→PLAYING→DRAINING→REDEEMING→CLOSED。DRAINING→REDEEMING 执行 07 完整屏障；event
+        排他锁下有潜在入口时立即回滚，不等它归零；最终 COMMIT 前同步重扫。已成功同键先查回当前活动。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases:
+        - E01
+        - E02
+        - E03
+        - E04
+        - E06
+        - E07
+        - A02
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EventPublicResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PhaseRequest"
+  /api/admin/event/recovery/resolve:
+    post:
+      operationId: resolveRecoveryIncident
+      summary: 审计完成进程事故恢复检查
+      description: 只解除经核实的 recovery_review_required；不能清除尚未确定的入口提交或跳过任务/复核，也不自动打开新入口。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases:
+        - F07
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EventPublicResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/RecoveryResolveRequest"
+  /api/admin/participants:
+    get:
+      operationId: listParticipants
+      summary: 主办方名单及资格状态
+      description: 同 event；外部员工标识仅此受限管理响应。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PageParticipantResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Offset"
+        - $ref: "#/components/parameters/Limit"
+  /api/admin/participants/import:
+    post:
+      operationId: importParticipants
+      summary: 导入名单及个人码哈希
+      description: 仅CHECK_IN批量新增；同external_ref不可再领额度。初始工作人员由安全CLI签发；后续ORGANIZER经staff-roles审计配置。邀请码不入日志/公开导出。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RosterImportResultResponse"
+        "201":
+          description: 首次业务已创建。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/RosterImportResultResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/RosterImportRequest"
+  /api/admin/participants/{id}/recover-identity:
+    post:
+      operationId: recoverIdentity
+      summary: 同一人恢复登录并撤销旧控制权
+      description: 身份/三槽/订单保持原对象；旧会话与邀请码撤销，控制 epoch 提升。新码由调用方预先安全持有，服务端仅存哈希。新设备没有完整日志不能接续旧局。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases:
+        - C02
+        - A03
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/IdentityRecoveryResultResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Id"
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/IdentityRecoveryRequest"
+  /api/admin/sessions:
+    get:
+      operationId: listSessions
+      summary: 按人员和状态定位局次
+      description: 管理员只读必要过程摘要与当前状态，不下发控制 secret。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PageSessionResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Offset"
+        - $ref: "#/components/parameters/Limit"
+        - $ref: "#/components/parameters/ParticipantFilter"
+        - $ref: "#/components/parameters/SessionStateFilter"
+  /api/admin/reviews:
+    get:
+      operationId: listReviews
+      summary: 读取待复核与处置记录
+      description: 同 event；原槽补偿和更正都需明确对象。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PageReviewResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Offset"
+        - $ref: "#/components/parameters/Limit"
+    post:
+      operationId: openReview
+      summary: 冻结领取资格并开启成绩复核
+      description: 按 event→participant 锁，冻结新兑换和已 RESERVED 凭证。此前核验结果在结论前保留审计；不能直接设分。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases:
+        - G05
+        - G07
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ReviewResponse"
+        "201":
+          description: 首次业务已创建。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ReviewResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ReviewCreateRequest"
+  /api/admin/reviews/{id}/resolve:
+    post:
+      operationId: resolveReview
+      summary: 按真实重放结果解决复核或作废
+      description: 重跑限已封存过程；保留需已有有效服务端结果；作废全额冲正。冻结后更正从 event 排他锁开始并增 rank_revision；资格明确/无未决/余额>=0 才解除领取冻结。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases:
+        - S02
+        - G05
+        - G07
+        - J02
+        - E03
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ReviewResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Id"
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ReviewResolveRequest"
+  /api/admin/sessions/{id}/compensate:
+    post:
+      operationId: compensateOriginalSlot
+      summary: 系统故障作废并授权原槽重赛
+      description: 仅未封榜 PLAYING/DRAINING。替换同一当前绑定，全额冲正并使旧任务失效，原槽变 RESERVED_FOR_MAKEUP。带 grant 的 start
+        两阶段可用；同键返回当前原 grant/尝试，不另给机会。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases:
+        - F05
+        - F06
+        - E01
+        - E03
+        - J02
+        - M01
+        - M02
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CompensationResultResponse"
+        "201":
+          description: 首次业务已创建。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CompensationResultResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Id"
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CompensateRequest"
+  /api/admin/makeup-grants/{id}/cancel:
+    post:
+      operationId: cancelMakeupGrant
+      summary: 审计取消未用补场授权
+      description: 取消不赠新槽；已消费授权不可撤回成另一份机会。到期/取消授权不阻塞封榜。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases:
+        - E02
+        - M02
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MakeupGrantResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Id"
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/GrantCancelRequest"
+  /api/admin/event/emergency-stop:
+    post:
+      operationId: createEmergencyStop
+      summary: 关闭入口并处置所选故障原局
+      description: 先持久化入口关闭和明确所选对象的处置任务，再按稳定顺序逐对象处理。每个成功替换给原槽 grant；未完成处置阻塞封榜。状态可恢复，不能调用未等待批处理却宣称全员已补偿。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases:
+        - E05
+        - F05
+        - F06
+        - M01
+        - M02
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EmergencyOperationResponse"
+        "202":
+          description: 已持久受理，最终结果待核验。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EmergencyOperationResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/EmergencyStopRequest"
+  /api/admin/operations/{id}:
+    get:
+      operationId: getAdminOperation
+      summary: 查询紧急处置任务的当前结果
+      description: 幂等原操作读取；未决对象保留 REVIEW，不静默跳过。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/EmergencyOperationResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Id"
+  /api/admin/gifts:
+    get:
+      operationId: listAdminGifts
+      summary: 管理礼品价与四类库存
+      description: total=available+reserved+claimed；包括停用礼品。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GiftAdminListResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+    post:
+      operationId: createGift
+      summary: 配置真实礼品
+      description: 与活动关联，操作审计；不能以此直接补偿已领差额。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GiftAdminResponse"
+        "201":
+          description: 首次业务已创建。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GiftAdminResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/GiftCreateRequest"
+  /api/admin/gifts/{id}:
+    patch:
+      operationId: updateGift
+      summary: 更新后续报价 库存或停用
+      description: CAS revision+gift 锁；价格/名称只影响新订单，历史快照保留；总量>=reserved+claimed。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases:
+        - G01
+        - G07
+        - A02
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GiftAdminResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Id"
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/GiftUpdateRequest"
+  /api/admin/redemptions/lookup:
+    post:
+      operationId: lookupClaim
+      summary: 扫码或订单号查询领取必要信息
+      description: 只读 POST 防止凭证进 URL；同 event 身份核验最小字段。不做领取副作用。已领取即使后续截止/冻结也返回原记录。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - REDEEMER
+        - ORGANIZER
+      x-acceptance-cases:
+        - G06
+        - A02
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ClaimViewResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ClaimLookupRequest"
+  /api/admin/redemptions/redeem:
+    post:
+      operationId: redeemOrder
+      summary: 核销已预留礼品
+      description: 认证/权限/归属/旧摘要先查回当前单。CLAIMED/CANCELLED 直接显示原终态，不再按新领取截止检查。仅 RESERVED
+        才锁齐重查无冻结、REDEEMING/CLOSED、now<claim_closes_at。成功提交后才交实物；丢响应查原单。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - REDEEMER
+        - ORGANIZER
+      x-acceptance-cases:
+        - G02
+        - G03
+        - G04
+        - G05
+        - G06
+        - G07
+        - A02
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ClaimViewResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ClaimRequest"
+  /api/admin/exports:
+    get:
+      operationId: exportEventLedger
+      summary: 主办方导出活动对账 CSV
+      description: 仅同 event ORGANIZER。导出类型限制白名单；不含邀请码、认证 cookie、控制 secret、核销 token。对以 = + - @
+        开头的表格文本做安全转义；导出动作审计。
+        参与/局次/库存使用明确列白名单；匿名试玩仅隔离开发event，稳定匿名编号不连接正式身份，含source_kind/verification_status与完整过程摘要。试玩credited_points列仅核验终态有值，pending/observation为空，observed_points另列；AUTOMATED绝不冒充真人。
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      tags:
+        - Admin
+      parameters:
+        - name: kind
+          in: query
+          required: true
+          schema:
+            type: string
+            enum:
+              - scores
+              - ledger
+              - redemptions
+              - audit
+              - participants
+              - sessions
+              - inventory
+              - playtests
+      responses:
+        "200":
+          description: UTF-8 CSV；记录导出快照/修订号。
+          content:
+            text/csv:
+              schema:
+                type: string
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "503":
+          $ref: "#/components/responses/Error503"
+  /api/display:
+    get:
+      operationId: getPublicDisplay
+      summary: 公开只读活动大屏
+      description: 仅公开活动信息、掩码荣誉榜与人数。不得包含个人ID、邀请码、控制信息、订单或核销凭证。
+      security: []
+      tags:
+        - Public
+      responses:
+        "200":
+          description: 公开脱敏大屏数据
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DisplayResponse"
+  /api/sessions:
+    get:
+      operationId: listMySessions
+      summary: 本人所有槽位尝试历史
+      description: 仅本人完整尝试历史，包含被原槽补场替代的VOIDED记录；offset/limit分页，不暴露其他人的控制凭证。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - PARTICIPANT
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PageSessionResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Offset"
+        - $ref: "#/components/parameters/Limit"
+  /api/admin/redemptions:
+    get:
+      operationId: listAdminRedemptions
+      summary: 主办方订单列表
+      description: 仅同活动ORGANIZER的订单管理分页查询；核销员使用领取查询接口，不获得全量订单。
+      tags:
+        - Participant
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PageOrderResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Offset"
+        - $ref: "#/components/parameters/Limit"
+  /api/admin/participants/{id}/staff-roles:
+    patch:
+      operationId: updateStaffRoles
+      summary: 审计配置工作人员授权
+      description: 保留目标原有PARTICIPANT位、身份和三槽。新增工作人员授权仅CHECK_IN；撤销任意阶段可用。禁止自改本人、防撤最后主办方。变更撤销目标所有旧认证/邀请码并提升control_epoch；新角色非空时仅存调用方预存替换码哈希，空角色纯staff停止登录。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StaffRolesResultResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Id"
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/StaffRolesRequest"
+  /api/admin/event/operations:
+    get:
+      operationId: getOperationsConfig
+      summary: 采购预算与数据保留策略
+      description: ""
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/OperationsConfigResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters: []
+    patch:
+      operationId: updateOperationsConfig
+      summary: 配置预算与人工保留复核策略
+      description: 仅明确字段变更，使用event revision CAS/审计；不得变更游戏规则/分值或自动删除现有记录。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/OperationsConfigResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/OperationsConfigRequest"
+  /api/admin/redemptions/{id}/discrepancy:
+    get:
+      operationId: getOrderDiscrepancy
+      summary: 查询已领取原单的积分短缺与处置记录
+      description: 仅CLAIMED原单的当前积分短缺=max(0,-真实钱包)，不是人民币债务，也不是全额冲正数额。保留原订单/库存/账本；人工备注不改变任何资金、积分、资格冻结。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/OrderDiscrepancyResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Id"
+  /api/admin/redemptions/{id}/exception-notes:
+    post:
+      operationId: appendOrderDiscrepancyNote
+      summary: 追加已领异常人工处置记录
+      description: 仅追加有操作者/时间的人工处置记录；ACKNOWLEDGED表示已记录处置，不表示已追回/补款/清零或解除冻结。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/OrderDiscrepancyResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Id"
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/DiscrepancyNoteRequest"
+  /api/admin/playtests:
+    get:
+      operationId: listPlaytestRuns
+      summary: 隔离活动匿名试玩原始记录
+      description: ""
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PagePlaytestResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - name: batch_id
+          in: query
+          required: false
+          schema: &a6
+            type: string
+            minLength: 1
+            maxLength: 80
+            pattern: ^[A-Za-z0-9][A-Za-z0-9_-]{0,79}$
+        - name: offset
+          in: query
+          required: false
+          schema:
+            type: integer
+            minimum: 0
+            maximum: 9007199254740991
+        - name: limit
+          in: query
+          required: false
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 500
+    post:
+      operationId: createPlaytestRun
+      summary: 记录独立试玩观察及可选完整核验过程
+      description: 只在隔离is_development活动由主办方记录实际观察；绝不自动造真人样本、不写正式身份/三槽/局/流水。PRACTICE仅trial=1，TEST为1/2/3；同batch/anon的分组与版本保持一致，唯一试次不可覆盖。无完整过程只记OBSERVATION_ONLY/verified_points=null；有过程经与正式局共用有限worker池/同game-core重放，固定seed，不信任observed_points。
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PlaytestRunResponse"
+        "202":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PlaytestRunResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/CSRF"
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/PlaytestRunCreateRequest"
+  /api/admin/playtests/{id}:
+    get:
+      operationId: getPlaytestRun
+      summary: 查询原试玩记录与公共核验证结论
+      description: ""
+      tags:
+        - Admin
+      security:
+        - sessionCookie: []
+      x-roles:
+        - ORGANIZER
+      x-acceptance-cases: []
+      responses:
+        "200":
+          description: 当前对象状态；幂等查回不重做副作用。
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/PlaytestRunResponse"
+        "400":
+          $ref: "#/components/responses/Error400"
+        "401":
+          $ref: "#/components/responses/Error401"
+        "403":
+          $ref: "#/components/responses/Error403"
+        "404":
+          $ref: "#/components/responses/Error404"
+        "409":
+          $ref: "#/components/responses/Error409"
+        "413":
+          $ref: "#/components/responses/Error413"
+        "422":
+          $ref: "#/components/responses/Error422"
+        "429":
+          $ref: "#/components/responses/Error429"
+        "503":
+          $ref: "#/components/responses/Error503"
+      parameters:
+        - $ref: "#/components/parameters/Id"
+components:
+  securitySchemes:
+    sessionCookie:
+      type: apiKey
+      in: cookie
+      name: __Host-sheep_session
+      description: 生产 Secure/HttpOnly/SameSite=Lax/Path=/；每次查撤销与 event 角色。浏览器自动发送，不允许脚本读取。
+  parameters:
+    EventId:
+      name: event_id
+      in: query
+      required: true
+      schema:
+        $ref: "#/components/schemas/Uuid"
+      description: 公开活动入口的事件标识；不作为鉴权。
+    Id:
+      name: id
+      in: path
+      required: true
+      schema:
+        $ref: "#/components/schemas/Uuid"
+    RulesHash:
+      name: rules_hash
+      in: path
+      required: true
+      schema:
+        $ref: "#/components/schemas/Sha256"
+    Offset:
+      name: offset
+      in: query
+      schema:
+        type: integer
+        minimum: 0
+        maximum: 9007199254740991
+      description: 默认 0。
+    Limit:
+      name: limit
+      in: query
+      schema:
+        type: integer
+        minimum: 1
+        maximum: 500
+      description: 默认 100。
+    ParticipantFilter:
+      name: participant_id
+      in: query
+      schema:
+        $ref: "#/components/schemas/Uuid"
+    SessionStateFilter:
+      name: state
+      in: query
+      schema:
+        $ref: "#/components/schemas/SessionState"
+    CSRF:
+      name: X-CSRF-Token
+      in: header
+      required: true
+      schema:
+        type: string
+        minLength: 43
+        maxLength: 43
+      description: GET /me 或 login 返回；同时验证允许 Origin。
+  schemas:
+    Uuid:
+      type: string
+      format: uuid
+    UtcMillis:
+      type: string
+      format: date-time
+      pattern: ^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$
+      description: UTC，精确毫秒；服务器生成。客户端墙钟无判定权。
+    Sha256:
+      type: string
+      pattern: ^[0-9a-f]{64}$
+    IdempotencyKey:
+      type: string
+      minLength: 16
+      maxLength: 128
+      pattern: ^[A-Za-z0-9_-]+$
+      description: 客户端在首次发送前持久化；一次业务始终复用同键。UUID 的连字符允许。
+    Secret:
+      type: string
+      minLength: 43
+      maxLength: 43
+      pattern: ^[A-Za-z0-9_-]{43}$
+      writeOnly: true
+      description: 安全随机 32 字节的无填充 base64url；仅哈希落库，日志脱敏。
+    ClientNonce:
+      type: string
+      minLength: 43
+      maxLength: 43
+      pattern: ^[A-Za-z0-9_-]{43}$
+      description: 安全随机 32 字节，首次请求前持久化，不以时间戳生成。
+    GameId:
+      type: string
+      enum:
+        - stack
+        - runner
+        - herd
+    Phase:
+      type: string
+      enum:
+        - CHECK_IN
+        - PLAYING
+        - DRAINING
+        - REDEEMING
+        - CLOSED
+    Role:
+      type: string
+      enum:
+        - PARTICIPANT
+        - REDEEMER
+        - ORGANIZER
+    SessionState:
+      type: string
+      enum:
+        - SCHEDULED
+        - RUNNING
+        - AWAITING_SUBMISSION
+        - VERIFYING
+        - SETTLED
+        - REVIEW
+        - ABANDONED
+        - TIMED_OUT
+        - VOIDED
+    SlotNo:
+      type: integer
+      minimum: 1
+      maximum: 3
+    InputTick:
+      type: integer
+      minimum: 1
+      maximum: 1350
+    BuildBinding:
+      type: object
+      additionalProperties: false
+      properties:
+        rule_version:
+          const: onsite-v2.1-candidate
+          type: string
+        rules_hash:
+          $ref: "#/components/schemas/Sha256"
+        simulator_version:
+          type: string
+          minLength: 1
+          maxLength: 96
+        client_version:
+          type: string
+          minLength: 1
+          maxLength: 96
+      required:
+        - rule_version
+        - rules_hash
+        - simulator_version
+        - client_version
+    BlockerCounts:
+      type: object
+      additionalProperties: false
+      properties:
+        scheduled:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        running:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        awaiting_submission:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        ingress_pending:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        verifying:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        review:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        unused_makeup_grants:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        recovery_review:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        pending_compensation:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+      required:
+        - scheduled
+        - running
+        - awaiting_submission
+        - ingress_pending
+        - verifying
+        - review
+        - unused_makeup_grants
+        - recovery_review
+        - pending_compensation
+    ErrorDetails:
+      type: object
+      additionalProperties: false
+      properties:
+        field_errors:
+          type: array
+          items:
+            type: object
+            additionalProperties: false
+            properties:
+              path:
+                type: string
+              message:
+                type: string
+            required:
+              - path
+              - message
+          minItems: 0
+          maxItems: 100
+        blockers:
+          $ref: "#/components/schemas/BlockerCounts"
+        current_session_id:
+          $ref: "#/components/schemas/Uuid"
+        current_event_revision:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        action_required:
+          type: string
+          maxLength: 200
+      required: []
+    ErrorCode:
+      type: string
+      enum:
+        - BAD_REQUEST
+        - UNAUTHENTICATED
+        - FORBIDDEN
+        - NOT_FOUND
+        - RATE_LIMITED
+        - IDEMPOTENCY_CONFLICT
+        - VALIDATION_FAILED
+        - SERVER_BUSY
+        - DATABASE_UNAVAILABLE
+        - COMMIT_STATUS_UNKNOWN
+        - PHASE_NOT_ALLOWED
+        - ENTRY_PAUSED
+        - ADMISSION_CLOSED
+        - ACTIVE_SESSION_EXISTS
+        - NO_TICKET_SLOT
+        - MAKEUP_INVALID
+        - RANK_FROZEN
+        - VERSION_MISMATCH
+        - RELEASE_NOT_READY
+        - IDENTITY_INELIGIBLE
+        - STALE_EVENT_REVISION
+        - CONTROL_NOT_OWNER
+        - CONTROL_REVOKED
+        - SESSION_REPLACED
+        - SESSION_TERMINAL
+        - PROCESS_ALREADY_SEALED
+        - BEFORE_PLAY_START
+        - SUBMISSION_EXPIRED
+        - FUTURE_TICK
+        - INVALID_INPUT
+        - INVALID_TERMINAL
+        - RECEIPT_PENDING
+        - SEAL_BLOCKED
+        - RECOVERY_REVIEW_REQUIRED
+        - INSUFFICIENT_POINTS
+        - OUT_OF_STOCK
+        - PERSON_LIMIT_REACHED
+        - CLAIMS_FROZEN
+        - CLAIM_WINDOW_CLOSED
+        - ORDER_ALREADY_CLAIMED
+        - OPEN_CONFIG_INVALID
+        - INVITE_INVALID
+        - INVITE_ALREADY_USED
+        - REVIEW_ACTION_INVALID
+    ErrorEnvelope:
+      type: object
+      additionalProperties: false
+      properties:
+        error:
+          type: object
+          additionalProperties: false
+          properties:
+            code:
+              $ref: "#/components/schemas/ErrorCode"
+            message:
+              type: string
+              maxLength: 300
+            retryable:
+              type: boolean
+            details:
+              $ref: "#/components/schemas/ErrorDetails"
+          required:
+            - code
+            - message
+            - retryable
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+      required:
+        - error
+        - server_now
+        - request_id
+    EventPublic:
+      type: object
+      additionalProperties: false
+      properties:
+        event_id:
+          $ref: "#/components/schemas/Uuid"
+        name:
+          type: string
+          maxLength: 100
+        phase:
+          $ref: "#/components/schemas/Phase"
+        accepting_new_sessions:
+          type: boolean
+        challenge_closes_at:
+          oneOf:
+            - $ref: "#/components/schemas/UtcMillis"
+            - type: "null"
+        claim_closes_at:
+          oneOf:
+            - $ref: "#/components/schemas/UtcMillis"
+            - type: "null"
+        rank_frozen_at:
+          oneOf:
+            - $ref: "#/components/schemas/UtcMillis"
+            - type: "null"
+        rank_revision:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        event_revision:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        release:
+          oneOf:
+            - $ref: "#/components/schemas/ReleaseBinding"
+            - type: "null"
+        practice_allowed:
+          type: boolean
+        ordinary_start_allowed:
+          type: boolean
+        recovery_review_required:
+          type: boolean
+      required:
+        - event_id
+        - name
+        - phase
+        - accepting_new_sessions
+        - challenge_closes_at
+        - claim_closes_at
+        - rank_frozen_at
+        - rank_revision
+        - event_revision
+        - release
+        - practice_allowed
+        - ordinary_start_allowed
+        - recovery_review_required
+      description: 布尔值供 UI 提示；每个新副作用仍在事务内重查。claim_closes_at 未配置不得开兑。
+    ReleaseBinding:
+      type: object
+      additionalProperties: false
+      properties:
+        build:
+          $ref: "#/components/schemas/BuildBinding"
+        asset_manifest_hash:
+          $ref: "#/components/schemas/Sha256"
+        asset_base_url:
+          type: string
+        rules_url:
+          type: string
+        published_at:
+          $ref: "#/components/schemas/UtcMillis"
+      required:
+        - build
+        - asset_manifest_hash
+        - asset_base_url
+        - rules_url
+        - published_at
+    ParticipantPublic:
+      type: object
+      additionalProperties: false
+      properties:
+        participant_id:
+          $ref: "#/components/schemas/Uuid"
+        display_uid:
+          type: string
+          maxLength: 32
+        display_name:
+          type: string
+          maxLength: 80
+        roles:
+          type: array
+          items:
+            $ref: "#/components/schemas/Role"
+          minItems: 1
+          maxItems: 3
+        eligible:
+          type: boolean
+        claims_frozen:
+          type: boolean
+        honor_total:
+          type: integer
+          minimum: 0
+          maximum: 300
+        wallet_balance:
+          type: integer
+          minimum: -2147483648
+          maximum: 2147483647
+      required:
+        - participant_id
+        - display_uid
+        - display_name
+        - roles
+        - eligible
+        - claims_frozen
+        - honor_total
+        - wallet_balance
+    Ticket:
+      type: object
+      additionalProperties: false
+      properties:
+        slot_no:
+          $ref: "#/components/schemas/SlotNo"
+        state:
+          type: string
+          enum:
+            - AVAILABLE
+            - BOUND
+            - RESERVED_FOR_MAKEUP
+            - SPENT
+        binding_version:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        current_session_id:
+          oneOf:
+            - $ref: "#/components/schemas/Uuid"
+            - type: "null"
+        current_contribution_points:
+          type: integer
+          minimum: 0
+          maximum: 100
+        makeup_grant:
+          oneOf:
+            - $ref: "#/components/schemas/MakeupGrant"
+            - type: "null"
+      required:
+        - slot_no
+        - state
+        - binding_version
+        - current_session_id
+        - current_contribution_points
+        - makeup_grant
+      description: 服务端恰好返回槽 1/2/3；保留槽普通 start 不可消费；旧尝试留在历史。
+    MakeupGrant:
+      type: object
+      additionalProperties: false
+      properties:
+        makeup_grant_id:
+          $ref: "#/components/schemas/Uuid"
+        participant_id:
+          $ref: "#/components/schemas/Uuid"
+        original_slot_no:
+          $ref: "#/components/schemas/SlotNo"
+        replaced_session_id:
+          $ref: "#/components/schemas/Uuid"
+        ticket_binding_version:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        admission_deadline:
+          $ref: "#/components/schemas/UtcMillis"
+        status:
+          type: string
+          enum:
+            - ACTIVE
+            - USED
+            - CANCELLED
+            - EXPIRED
+        used_session_id:
+          oneOf:
+            - $ref: "#/components/schemas/Uuid"
+            - type: "null"
+        created_at:
+          $ref: "#/components/schemas/UtcMillis"
+        reason:
+          type: string
+          maxLength: 500
+      required:
+        - makeup_grant_id
+        - participant_id
+        - original_slot_no
+        - replaced_session_id
+        - ticket_binding_version
+        - admission_deadline
+        - status
+        - used_session_id
+        - created_at
+        - reason
+      description: V2.2 澄清：未封榜 PLAYING/DRAINING 均可消费；只占原槽，按独立授权截止。
+    Me:
+      type: object
+      additionalProperties: false
+      properties:
+        participant:
+          $ref: "#/components/schemas/ParticipantPublic"
+        tickets:
+          type: array
+          items:
+            $ref: "#/components/schemas/Ticket"
+          minItems: 3
+          maxItems: 3
+        active_session:
+          oneOf:
+            - $ref: "#/components/schemas/Session"
+            - type: "null"
+        csrf_token:
+          type: string
+          minLength: 43
+          maxLength: 43
+        auth_expires_at:
+          $ref: "#/components/schemas/UtcMillis"
+      required:
+        - participant
+        - tickets
+        - active_session
+        - csrf_token
+        - auth_expires_at
+      description: PARTICIPANT 账号恰好返回槽1/2/3；无参与者角色的工作人员按 StaffMe 返回。控制 secret 不返回。
+    StaffMe:
+      type: object
+      additionalProperties: false
+      properties:
+        participant:
+          $ref: "#/components/schemas/ParticipantPublic"
+        tickets:
+          type: array
+          items:
+            $ref: "#/components/schemas/Ticket"
+          minItems: 0
+          maxItems: 0
+        active_session:
+          type: "null"
+        csrf_token:
+          type: string
+          minLength: 43
+          maxLength: 43
+        auth_expires_at:
+          $ref: "#/components/schemas/UtcMillis"
+      required:
+        - participant
+        - tickets
+        - active_session
+        - csrf_token
+        - auth_expires_at
+    LoginRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        event_id:
+          $ref: "#/components/schemas/Uuid"
+        invite_token:
+          $ref: "#/components/schemas/Secret"
+        login_nonce:
+          $ref: "#/components/schemas/ClientNonce"
+      required:
+        - event_id
+        - invite_token
+        - login_nonce
+    StartRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        game_id:
+          $ref: "#/components/schemas/GameId"
+        client_instance_id:
+          $ref: "#/components/schemas/Uuid"
+        controller_secret:
+          $ref: "#/components/schemas/Secret"
+        build:
+          $ref: "#/components/schemas/BuildBinding"
+        makeup_grant_id:
+          $ref: "#/components/schemas/Uuid"
+      required:
+        - idempotency_key
+        - game_id
+        - client_instance_id
+        - controller_secret
+        - build
+    DropInput:
+      type: object
+      additionalProperties: false
+      properties:
+        tick:
+          $ref: "#/components/schemas/InputTick"
+        seq:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        type:
+          type: string
+          const: DROP
+        value:
+          type: "null"
+      required:
+        - tick
+        - seq
+        - type
+      description: value 可省略；摘要与模拟前规范化为 null。
+    JumpInput:
+      type: object
+      additionalProperties: false
+      properties:
+        tick:
+          $ref: "#/components/schemas/InputTick"
+        seq:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        type:
+          type: string
+          const: JUMP
+        value:
+          type: "null"
+      required:
+        - tick
+        - seq
+        - type
+      description: value 可省略；摘要与模拟前规范化为 null。
+    BarkInput:
+      type: object
+      additionalProperties: false
+      properties:
+        tick:
+          $ref: "#/components/schemas/InputTick"
+        seq:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        type:
+          type: string
+          const: BARK
+        value:
+          type: "null"
+      required:
+        - tick
+        - seq
+        - type
+      description: value 可省略；摘要与模拟前规范化为 null。
+    DogMoveInput:
+      type: object
+      additionalProperties: false
+      properties:
+        tick:
+          $ref: "#/components/schemas/InputTick"
+        seq:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        type:
+          type: string
+          const: DOG_MOVE
+        value:
+          type: object
+          additionalProperties: false
+          properties:
+            x:
+              type: integer
+              minimum: -1000
+              maximum: 1000
+            y:
+              type: integer
+              minimum: -1000
+              maximum: 1000
+          required:
+            - x
+            - y
+      required:
+        - tick
+        - seq
+        - type
+        - value
+    GameInput:
+      oneOf:
+        - $ref: "#/components/schemas/DropInput"
+        - $ref: "#/components/schemas/JumpInput"
+        - $ref: "#/components/schemas/BarkInput"
+        - $ref: "#/components/schemas/DogMoveInput"
+    ClientSummary:
+      type: object
+      additionalProperties: false
+      properties:
+        performance_points:
+          type: integer
+          minimum: 0
+          maximum: 80
+        accepted_actions_count:
+          type: integer
+          minimum: 0
+          maximum: 4096
+        predicted_points:
+          type: integer
+          minimum: 0
+          maximum: 100
+      required: []
+      description: 仅诊断，不作为成绩或余额依据，不进入过程业务摘要。
+    FinishRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        game_id:
+          $ref: "#/components/schemas/GameId"
+        build:
+          $ref: "#/components/schemas/BuildBinding"
+        client_instance_id:
+          $ref: "#/components/schemas/Uuid"
+        controller_epoch:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        ticket_binding_version:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        controller_secret:
+          $ref: "#/components/schemas/Secret"
+        end_tick:
+          $ref: "#/components/schemas/InputTick"
+        end_reason: &a28
+          type: string
+          enum:
+            - THREE_MISSES
+            - GOAL_REACHED
+            - TIME_LIMIT
+        inputs:
+          type: array
+          items:
+            $ref: "#/components/schemas/GameInput"
+          minItems: 0
+          maxItems: 4096
+        client_summary:
+          $ref: "#/components/schemas/ClientSummary"
+      required:
+        - game_id
+        - build
+        - client_instance_id
+        - controller_epoch
+        - ticket_binding_version
+        - end_tick
+        - end_reason
+        - inputs
+      description: 首次写必须提供当前 controller_secret；已有同摘要查回可省略 secret。服务器校验游戏/type/结束原因对应关系、原始条数、去重后顺序/范围。完整
+        body 最多 262144 原始 UTF-8 字节。finish 没有新的幂等键，session_id+首次规范过程摘要唯一。
+    AbandonRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        controller_epoch:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        client_instance_id:
+          $ref: "#/components/schemas/Uuid"
+        controller_secret:
+          $ref: "#/components/schemas/Secret"
+        reason:
+          type: string
+          enum:
+            - USER_RETURN
+            - USER_CANCEL
+      required:
+        - idempotency_key
+        - controller_epoch
+        - client_instance_id
+        - reason
+      description: 首次放弃需 secret；原幂等业务查回不恢复写权限。有首次有效受理时返回受理中/已提交，不覆盖为放弃。
+    StackStats:
+      type: object
+      additionalProperties: false
+      properties:
+        success_layers:
+          type: integer
+          minimum: 0
+          maximum: 20
+        perfect_layers:
+          type: integer
+          minimum: 0
+          maximum: 20
+        misses:
+          type: integer
+          minimum: 0
+          maximum: 3
+      required:
+        - success_layers
+        - perfect_layers
+        - misses
+    RunnerStats:
+      type: object
+      additionalProperties: false
+      properties:
+        safe_passed:
+          type: integer
+          minimum: 0
+          maximum: 20
+        collision_count:
+          type: integer
+          minimum: 0
+          maximum: 20
+        outer_collected:
+          type: integer
+          minimum: 0
+          maximum: 10
+        inner_collected:
+          type: integer
+          minimum: 0
+          maximum: 10
+      required:
+        - safe_passed
+        - collision_count
+        - outer_collected
+        - inner_collected
+    HerdStats:
+      type: object
+      additionalProperties: false
+      properties:
+        penned_count:
+          type: integer
+          minimum: 0
+          maximum: 8
+        final_goal_tick:
+          oneOf:
+            - $ref: "#/components/schemas/InputTick"
+            - type: "null"
+        time_bonus_points:
+          type: integer
+          minimum: 0
+          maximum: 32
+      required:
+        - penned_count
+        - final_goal_tick
+        - time_bonus_points
+    StackConclusion:
+      type: object
+      additionalProperties: false
+      properties:
+        game_id:
+          type: string
+          const: stack
+        end_tick:
+          $ref: "#/components/schemas/InputTick"
+        end_reason:
+          type: string
+          enum:
+            - THREE_MISSES
+            - GOAL_REACHED
+            - TIME_LIMIT
+        accepted_actions_count:
+          type: integer
+          minimum: 0
+          maximum: 4096
+        stats:
+          $ref: "#/components/schemas/StackStats"
+        performance_points:
+          type: integer
+          minimum: 0
+          maximum: 80
+      required:
+        - game_id
+        - end_tick
+        - end_reason
+        - accepted_actions_count
+        - stats
+        - performance_points
+    RunnerConclusion:
+      type: object
+      additionalProperties: false
+      properties:
+        game_id:
+          type: string
+          const: runner
+        end_tick:
+          type: integer
+          const: 1350
+        end_reason:
+          type: string
+          enum:
+            - TIME_LIMIT
+        accepted_actions_count:
+          type: integer
+          minimum: 0
+          maximum: 4096
+        stats:
+          $ref: "#/components/schemas/RunnerStats"
+        performance_points:
+          type: integer
+          minimum: 0
+          maximum: 80
+      required:
+        - game_id
+        - end_tick
+        - end_reason
+        - accepted_actions_count
+        - stats
+        - performance_points
+    HerdConclusion:
+      type: object
+      additionalProperties: false
+      properties:
+        game_id:
+          type: string
+          const: herd
+        end_tick:
+          $ref: "#/components/schemas/InputTick"
+        end_reason:
+          type: string
+          enum:
+            - GOAL_REACHED
+            - TIME_LIMIT
+        accepted_actions_count:
+          type: integer
+          minimum: 0
+          maximum: 4096
+        stats:
+          $ref: "#/components/schemas/HerdStats"
+        performance_points:
+          type: integer
+          minimum: 0
+          maximum: 80
+      required:
+        - game_id
+        - end_tick
+        - end_reason
+        - accepted_actions_count
+        - stats
+        - performance_points
+    NaturalConclusion:
+      oneOf:
+        - $ref: "#/components/schemas/StackConclusion"
+        - $ref: "#/components/schemas/RunnerConclusion"
+        - $ref: "#/components/schemas/HerdConclusion"
+    Settlement:
+      type: object
+      additionalProperties: false
+      properties:
+        validation:
+          type: string
+          enum:
+            - VERIFIED
+            - INVALID_PROCESS
+        eligibility_reason:
+          type: string
+          enum:
+            - VERIFIED
+            - NO_ACCEPTED_ACTION
+            - INVALID_PROCESS
+            - VOIDED
+        eligible_currently:
+          type: boolean
+        original_awarded_points:
+          type: integer
+          minimum: 0
+          maximum: 100
+        current_contribution_points:
+          type: integer
+          minimum: 0
+          maximum: 100
+        settled_at:
+          $ref: "#/components/schemas/UtcMillis"
+        conclusion:
+          oneOf:
+            - $ref: "#/components/schemas/NaturalConclusion"
+            - type: "null"
+      required:
+        - validation
+        - eligibility_reason
+        - eligible_currently
+        - original_awarded_points
+        - current_contribution_points
+        - settled_at
+        - conclusion
+      description: original_awarded_points 仅历史；当前到账/荣誉读取 current_contribution_points 和当前状态。VOIDED 不播放历史已到账。
+    Session:
+      type: object
+      additionalProperties: false
+      properties:
+        session_id:
+          $ref: "#/components/schemas/Uuid"
+        event_id:
+          $ref: "#/components/schemas/Uuid"
+        participant_id:
+          $ref: "#/components/schemas/Uuid"
+        slot_no:
+          $ref: "#/components/schemas/SlotNo"
+        game_id:
+          $ref: "#/components/schemas/GameId"
+        seed:
+          type: integer
+          minimum: 1
+          maximum: 4294967295
+        session_nonce:
+          $ref: "#/components/schemas/ClientNonce"
+        build:
+          $ref: "#/components/schemas/BuildBinding"
+        controller_epoch:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        ticket_binding_version:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        client_instance_id:
+          $ref: "#/components/schemas/Uuid"
+        created_at:
+          $ref: "#/components/schemas/UtcMillis"
+        play_started_at:
+          $ref: "#/components/schemas/UtcMillis"
+        play_ends_at:
+          $ref: "#/components/schemas/UtcMillis"
+        submit_deadline:
+          $ref: "#/components/schemas/UtcMillis"
+        state:
+          $ref: "#/components/schemas/SessionState"
+        first_received_at:
+          oneOf:
+            - $ref: "#/components/schemas/UtcMillis"
+            - type: "null"
+        process_digest:
+          oneOf:
+            - $ref: "#/components/schemas/Sha256"
+            - type: "null"
+        settlement:
+          oneOf:
+            - $ref: "#/components/schemas/Settlement"
+            - type: "null"
+        current_contribution_points:
+          type: integer
+          minimum: 0
+          maximum: 100
+        is_current_binding:
+          type: boolean
+        has_unsealed_receipt:
+          type: boolean
+        can_attempt_control:
+          type: boolean
+        terminal_reason:
+          oneOf:
+            - type: string
+              maxLength: 100
+            - type: "null"
+      required:
+        - session_id
+        - event_id
+        - participant_id
+        - slot_no
+        - game_id
+        - seed
+        - session_nonce
+        - build
+        - controller_epoch
+        - ticket_binding_version
+        - client_instance_id
+        - created_at
+        - play_started_at
+        - play_ends_at
+        - submit_deadline
+        - state
+        - first_received_at
+        - process_digest
+        - settlement
+        - current_contribution_points
+        - is_current_binding
+        - has_unsealed_receipt
+        - can_attempt_control
+        - terminal_reason
+      description: 状态按服务端时间推导；周期任务负责物化。can_attempt_control 只说明当前认证会话匹配，首次写仍要 secret/epoch。GET 不能恢复未上传输入。
+    LeaderboardRow:
+      type: object
+      additionalProperties: false
+      properties:
+        rank:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        display_uid:
+          type: string
+          maxLength: 32
+        display_name:
+          type: string
+          maxLength: 80
+        honor_total:
+          type: integer
+          minimum: 20
+          maximum: 300
+      required:
+        - rank
+        - display_uid
+        - display_name
+        - honor_total
+    Leaderboard:
+      type: object
+      additionalProperties: false
+      properties:
+        rank_revision:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        is_frozen:
+          type: boolean
+        total_entries:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        offset:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        limit:
+          type: integer
+          minimum: 1
+          maximum: 500
+        rows:
+          type: array
+          items:
+            $ref: "#/components/schemas/LeaderboardRow"
+          minItems: 0
+          maxItems: 500
+        me:
+          oneOf:
+            - $ref: "#/components/schemas/LeaderboardRow"
+            - type: "null"
+      required:
+        - rank_revision
+        - is_frozen
+        - total_entries
+        - offset
+        - limit
+        - rows
+        - me
+      description: 窗口排名只 ORDER BY honor_total DESC，外层同分 display_uid。有效榜排除无有效参与成绩者。每页一个数据库快照；实时榜翻页可变化，冻结后
+        revision 变化需重取。
+    Gift:
+      type: object
+      additionalProperties: false
+      properties:
+        gift_id:
+          $ref: "#/components/schemas/Uuid"
+        name:
+          type: string
+          minLength: 1
+          maxLength: 100
+        description:
+          type: string
+          maxLength: 1000
+        image_asset_key:
+          oneOf:
+            - type: string
+              maxLength: 160
+            - type: "null"
+        price_points:
+          type: integer
+          minimum: 1
+          maximum: 300
+        active:
+          type: boolean
+        available_count:
+          type: integer
+          minimum: 0
+          maximum: 2147483647
+      required:
+        - gift_id
+        - name
+        - description
+        - image_asset_key
+        - price_points
+        - active
+        - available_count
+    GiftAdmin:
+      type: object
+      additionalProperties: false
+      properties:
+        gift_id:
+          $ref: "#/components/schemas/Uuid"
+        name:
+          type: string
+          minLength: 1
+          maxLength: 100
+        description:
+          type: string
+          maxLength: 1000
+        image_asset_key:
+          oneOf:
+            - type: string
+              maxLength: 160
+            - type: "null"
+        price_points:
+          type: integer
+          minimum: 1
+          maximum: 300
+        active:
+          type: boolean
+        available_count:
+          type: integer
+          minimum: 0
+          maximum: 2147483647
+        total_count:
+          type: integer
+          minimum: 0
+          maximum: 2147483647
+        reserved_count:
+          type: integer
+          minimum: 0
+          maximum: 2147483647
+        claimed_count:
+          type: integer
+          minimum: 0
+          maximum: 2147483647
+        revision:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        purchase_unit_cost_cents: &a1
+          oneOf:
+            - type: integer
+              minimum: 0
+              maximum: 100000000
+            - type: "null"
+      required:
+        - gift_id
+        - name
+        - description
+        - image_asset_key
+        - price_points
+        - active
+        - available_count
+        - total_count
+        - reserved_count
+        - claimed_count
+        - revision
+        - purchase_unit_cost_cents
+      description: 采购单价仅管理端提供，null明确未配置；不会进入公开Gift响应，不影响积分价或历史订单。
+    Redemption:
+      type: object
+      additionalProperties: false
+      properties:
+        redemption_id:
+          $ref: "#/components/schemas/Uuid"
+        event_id:
+          $ref: "#/components/schemas/Uuid"
+        participant_id:
+          $ref: "#/components/schemas/Uuid"
+        gift_id:
+          $ref: "#/components/schemas/Uuid"
+        gift_name_snapshot:
+          type: string
+          maxLength: 100
+        price_points_snapshot:
+          type: integer
+          minimum: 1
+          maximum: 300
+        status:
+          type: string
+          enum:
+            - RESERVED
+            - CLAIMED
+            - CANCELLED
+        created_at:
+          $ref: "#/components/schemas/UtcMillis"
+        claim_closes_at:
+          $ref: "#/components/schemas/UtcMillis"
+        claims_frozen:
+          type: boolean
+        claimed_at:
+          oneOf:
+            - $ref: "#/components/schemas/UtcMillis"
+            - type: "null"
+        claimed_by_display_name:
+          oneOf:
+            - type: string
+              maxLength: 80
+            - type: "null"
+        cancelled_at:
+          oneOf:
+            - $ref: "#/components/schemas/UtcMillis"
+            - type: "null"
+        cancellation_reason:
+          oneOf:
+            - type: string
+              maxLength: 200
+            - type: "null"
+        voucher_token:
+          oneOf:
+            - type: string
+              minLength: 43
+              maxLength: 43
+              pattern: ^[A-Za-z0-9_-]{43}$
+            - type: "null"
+      required:
+        - redemption_id
+        - event_id
+        - participant_id
+        - gift_id
+        - gift_name_snapshot
+        - price_points_snapshot
+        - status
+        - created_at
+        - claim_closes_at
+        - claims_frozen
+        - claimed_at
+        - claimed_by_display_name
+        - cancelled_at
+        - cancellation_reason
+        - voucher_token
+      description: 仅本人/授权工作人员响应。voucher_token 非登录凭证，只对 RESERVED 本人凭证页提供；员工查询响应该字段为
+        null。核销仍需工作人员角色。截止使用当前已公布值，只可审计延长。
+    RedemptionCreateRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        gift_id:
+          $ref: "#/components/schemas/Uuid"
+      required:
+        - idempotency_key
+        - gift_id
+    CancelRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        reason:
+          type: string
+          minLength: 1
+          maxLength: 500
+      required:
+        - idempotency_key
+        - reason
+    ClaimLookupRequest:
+      oneOf:
+        - type: object
+          additionalProperties: false
+          properties:
+            redemption_id:
+              $ref: "#/components/schemas/Uuid"
+          required:
+            - redemption_id
+        - type: object
+          additionalProperties: false
+          properties:
+            voucher_token:
+              $ref: "#/components/schemas/Secret"
+          required:
+            - voucher_token
+    ClaimRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        redemption_id:
+          $ref: "#/components/schemas/Uuid"
+      required:
+        - idempotency_key
+        - redemption_id
+    ClaimView:
+      type: object
+      additionalProperties: false
+      properties:
+        order:
+          $ref: "#/components/schemas/Redemption"
+        participant_display_name:
+          type: string
+          maxLength: 80
+        participant_display_uid:
+          type: string
+          maxLength: 32
+        claim_action:
+          type: string
+          enum:
+            - CAN_CLAIM
+            - ALREADY_CLAIMED
+            - CANCELLED
+            - FROZEN
+            - EXPIRED
+            - PHASE_BLOCKED
+      required:
+        - order
+        - participant_display_name
+        - participant_display_uid
+        - claim_action
+      description: 核对必要身份后再核销。ALREADY_CLAIMED 只能查原记录，不能再交实物。
+    AdminReason:
+      type: string
+      minLength: 1
+      maxLength: 500
+    PhaseRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        expected_event_revision:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        target_phase:
+          $ref: "#/components/schemas/Phase"
+        reason:
+          $ref: "#/components/schemas/AdminReason"
+      required:
+        - idempotency_key
+        - expected_event_revision
+        - target_phase
+        - reason
+    EntryRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        expected_event_revision:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        accepting_new_sessions:
+          type: boolean
+        reason:
+          $ref: "#/components/schemas/AdminReason"
+      required:
+        - idempotency_key
+        - expected_event_revision
+        - accepting_new_sessions
+        - reason
+    EventConfigRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        expected_event_revision:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        name:
+          type: string
+          minLength: 1
+          maxLength: 100
+        challenge_window_seconds:
+          type: integer
+          minimum: 1
+          maximum: 86400
+        claim_closes_at:
+          oneOf:
+            - $ref: "#/components/schemas/UtcMillis"
+            - type: "null"
+        reason:
+          $ref: "#/components/schemas/AdminReason"
+      required:
+        - idempotency_key
+        - expected_event_revision
+        - reason
+      description: 仅明确提供的字段变更；挑战窗口只在首次 PLAYING 前配置。开兑后领取截止仅可延长，不可取消/缩短。不得借配置修改固定玩法参数。
+    ChallengeDeadlineRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        expected_event_revision:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        challenge_closes_at:
+          $ref: "#/components/schemas/UtcMillis"
+        reason:
+          $ref: "#/components/schemas/AdminReason"
+      required:
+        - idempotency_key
+        - expected_event_revision
+        - challenge_closes_at
+        - reason
+      description: 仅尚处 PLAYING 时审计延长；进入 DRAINING 后不可借延长重开普通场。
+    ReleaseRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        expected_event_revision:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        build:
+          $ref: "#/components/schemas/BuildBinding"
+        asset_manifest_hash:
+          $ref: "#/components/schemas/Sha256"
+        readiness_record_id:
+          $ref: "#/components/schemas/Uuid"
+        reason:
+          $ref: "#/components/schemas/AdminReason"
+      required:
+        - idempotency_key
+        - expected_event_revision
+        - build
+        - asset_manifest_hash
+        - readiness_record_id
+        - reason
+      description: CHECK_IN 时绑定已由服务端加载/校验的构建、资源与真实验收记录；不能由前端布尔值宣称通过真人/运行验收。旧局版本仍保留。
+    RecoveryResolveRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        expected_event_revision:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        incident_id:
+          $ref: "#/components/schemas/Uuid"
+        resolution_note:
+          $ref: "#/components/schemas/AdminReason"
+      required:
+        - idempotency_key
+        - expected_event_revision
+        - incident_id
+        - resolution_note
+      description: 核对受影响原局、补传和任务后审计解除恢复阻塞；不回填无法证明的 received_at。
+    AdminStatus:
+      type: object
+      additionalProperties: false
+      properties:
+        event:
+          $ref: "#/components/schemas/EventPublic"
+        blockers:
+          $ref: "#/components/schemas/BlockerCounts"
+        reserved_orders:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        claimed_orders:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        expired_reserved_orders:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        worker_pending:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        worker_running:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        worker_pool_size:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        api_instance_count:
+          type: integer
+          const: 1
+      required:
+        - event
+        - blockers
+        - reserved_orders
+        - claimed_orders
+        - expired_reserved_orders
+        - worker_pending
+        - worker_running
+        - worker_pool_size
+        - api_instance_count
+    ParticipantAdmin:
+      type: object
+      additionalProperties: false
+      properties:
+        participant_id:
+          $ref: "#/components/schemas/Uuid"
+        display_uid:
+          type: string
+          maxLength: 32
+        display_name:
+          type: string
+          maxLength: 80
+        roles:
+          type: array
+          items:
+            $ref: "#/components/schemas/Role"
+          minItems: 0
+          maxItems: 3
+          uniqueItems: true
+        eligible:
+          type: boolean
+        claims_frozen:
+          type: boolean
+        honor_total:
+          type: integer
+          minimum: 0
+          maximum: 300
+        wallet_balance:
+          type: integer
+          minimum: -2147483648
+          maximum: 2147483647
+        external_ref:
+          type: string
+          maxLength: 100
+        control_epoch:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        open_review_count:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        tickets:
+          type: array
+          items:
+            $ref: "#/components/schemas/Ticket"
+          minItems: 0
+          maxItems: 3
+      required:
+        - participant_id
+        - display_uid
+        - display_name
+        - roles
+        - eligible
+        - claims_frozen
+        - honor_total
+        - wallet_balance
+        - external_ref
+        - control_epoch
+        - open_review_count
+        - tickets
+      description: 纯工作人员撤销所有授权可返回roles=[]且无有效认证；PARTICIPANT成员位和三槽不由staff-roles修改。
+    RosterEntry:
+      type: object
+      additionalProperties: false
+      properties:
+        external_ref:
+          type: string
+          minLength: 1
+          maxLength: 100
+        display_name:
+          type: string
+          minLength: 1
+          maxLength: 80
+        invite_token:
+          $ref: "#/components/schemas/Secret"
+      required:
+        - external_ref
+        - display_name
+        - invite_token
+      description: 原始随机码在调用方预先生成并安全保存；服务端只落哈希。此接口仅创建 PARTICIPANT，不从 CSV 提升管理员。
+    RosterImportRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        entries:
+          type: array
+          items:
+            $ref: "#/components/schemas/RosterEntry"
+          minItems: 1
+          maxItems: 1000
+        reason:
+          $ref: "#/components/schemas/AdminReason"
+      required:
+        - idempotency_key
+        - entries
+        - reason
+      description: CHECK_IN 下严格批量新增；重复 external_ref 不覆盖已有参与者，不重置三槽。整批验证失败不部分导入；既有身份变更单独审核。
+    RosterImportResult:
+      type: object
+      additionalProperties: false
+      properties:
+        import_id:
+          $ref: "#/components/schemas/Uuid"
+        created_count:
+          type: integer
+          minimum: 1
+          maximum: 1000
+        participant_ids:
+          type: array
+          items:
+            $ref: "#/components/schemas/Uuid"
+          minItems: 1
+          maxItems: 1000
+      required:
+        - import_id
+        - created_count
+        - participant_ids
+    IdentityRecoveryRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        replacement_invite_token:
+          $ref: "#/components/schemas/Secret"
+        reason:
+          $ref: "#/components/schemas/AdminReason"
+      required:
+        - idempotency_key
+        - replacement_invite_token
+        - reason
+      description: 调用方首次请求前持久化新随机码，响应不回显。撤销旧邀请码/认证会话，提高控制版本；不新增身份或三槽，不自动恢复旧输入或赠机会。
+    IdentityRecoveryResult:
+      type: object
+      additionalProperties: false
+      properties:
+        recovery_id:
+          $ref: "#/components/schemas/Uuid"
+        participant:
+          $ref: "#/components/schemas/ParticipantAdmin"
+        revoked_auth_session_count:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+      required:
+        - recovery_id
+        - participant
+        - revoked_auth_session_count
+    Review:
+      type: object
+      additionalProperties: false
+      properties:
+        review_id:
+          $ref: "#/components/schemas/Uuid"
+        session_id:
+          $ref: "#/components/schemas/Uuid"
+        participant_id:
+          $ref: "#/components/schemas/Uuid"
+        kind:
+          type: string
+          enum:
+            - INFRASTRUCTURE
+            - ELIGIBILITY
+            - SYSTEM_FAULT
+        state:
+          type: string
+          enum:
+            - OPEN
+            - REPLAYING
+            - RESOLVED
+        reason:
+          type: string
+          maxLength: 500
+        resolution:
+          oneOf:
+            - type: string
+              enum:
+                - REPLAY_VERIFIED
+                - KEEP_VERIFIED_RESULT
+                - INVALIDATED
+            - type: "null"
+        created_at:
+          $ref: "#/components/schemas/UtcMillis"
+        resolved_at:
+          oneOf:
+            - $ref: "#/components/schemas/UtcMillis"
+            - type: "null"
+      required:
+        - review_id
+        - session_id
+        - participant_id
+        - kind
+        - state
+        - reason
+        - resolution
+        - created_at
+        - resolved_at
+    ReviewCreateRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        session_id:
+          $ref: "#/components/schemas/Uuid"
+        kind:
+          type: string
+          enum:
+            - ELIGIBILITY
+            - SYSTEM_FAULT
+        reason:
+          $ref: "#/components/schemas/AdminReason"
+      required:
+        - idempotency_key
+        - session_id
+        - kind
+        - reason
+    ReviewResolveRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        action:
+          type: string
+          enum:
+            - RETRY_REPLAY
+            - KEEP_VERIFIED_RESULT
+            - INVALIDATE
+        reason:
+          $ref: "#/components/schemas/AdminReason"
+      required:
+        - idempotency_key
+        - action
+        - reason
+      description: 不接受任意分数。RETRY_REPLAY 仅已封存的基础设施复核；KEEP 需已有有效服务端结果；INVALIDATE 全额冲正。冻结后不产生补场。
+    CompensateRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        expected_ticket_binding_version:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        admission_deadline:
+          $ref: "#/components/schemas/UtcMillis"
+        reason:
+          $ref: "#/components/schemas/AdminReason"
+      required:
+        - idempotency_key
+        - expected_ticket_binding_version
+        - admission_deadline
+        - reason
+      description: 未封榜 PLAYING/DRAINING 的确认系统故障；同事务旧局 VOIDED、全额冲正、绑定提升、原槽保留及单次 grant。有效首次受理未定时先返回
+        RECEIPT_PENDING。
+    CompensationResult:
+      type: object
+      additionalProperties: false
+      properties:
+        voided_session:
+          $ref: "#/components/schemas/Session"
+        grant:
+          $ref: "#/components/schemas/MakeupGrant"
+        ticket:
+          $ref: "#/components/schemas/Ticket"
+      required:
+        - voided_session
+        - grant
+        - ticket
+    GrantCancelRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        reason:
+          $ref: "#/components/schemas/AdminReason"
+      required:
+        - idempotency_key
+        - reason
+      description: 仅未消费授权；取消后原故障槽标为已处置而非重新普通可用，避免绕过授权或反复返槽。
+    EmergencyStopRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        expected_event_revision:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        session_ids:
+          type: array
+          items:
+            $ref: "#/components/schemas/Uuid"
+          minItems: 1
+          maxItems: 1000
+        admission_deadline:
+          $ref: "#/components/schemas/UtcMillis"
+        reason:
+          $ref: "#/components/schemas/AdminReason"
+      required:
+        - idempotency_key
+        - expected_event_revision
+        - session_ids
+        - admission_deadline
+        - reason
+      description: 先关闭新入口；明确选中受影响且未封存的原局。逐对象持久处置并给原槽授权；已封存不自动批量作废。任务状态可查询，不冒称整批单事务成功。
+    EmergencyOperation:
+      type: object
+      additionalProperties: false
+      properties:
+        operation_id:
+          $ref: "#/components/schemas/Uuid"
+        state:
+          type: string
+          enum:
+            - PENDING
+            - RUNNING
+            - DONE
+            - REVIEW
+        requested_count:
+          type: integer
+          minimum: 1
+          maximum: 1000
+        processed_count:
+          type: integer
+          minimum: 0
+          maximum: 1000
+        pending_session_ids:
+          type: array
+          items:
+            $ref: "#/components/schemas/Uuid"
+          minItems: 0
+          maxItems: 1000
+        failed_session_ids:
+          type: array
+          items:
+            $ref: "#/components/schemas/Uuid"
+          minItems: 0
+          maxItems: 1000
+        created_at:
+          $ref: "#/components/schemas/UtcMillis"
+      required:
+        - operation_id
+        - state
+        - requested_count
+        - processed_count
+        - pending_session_ids
+        - failed_session_ids
+        - created_at
+    GiftCreateRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        name:
+          type: string
+          minLength: 1
+          maxLength: 100
+        description:
+          type: string
+          maxLength: 1000
+        image_asset_key:
+          oneOf:
+            - type: string
+              maxLength: 160
+            - type: "null"
+        price_points:
+          type: integer
+          minimum: 1
+          maximum: 300
+        total_count:
+          type: integer
+          minimum: 0
+          maximum: 2147483647
+        active:
+          type: boolean
+        reason:
+          $ref: "#/components/schemas/AdminReason"
+        purchase_unit_cost_cents: *a1
+      required:
+        - idempotency_key
+        - name
+        - description
+        - image_asset_key
+        - price_points
+        - total_count
+        - active
+        - reason
+    GiftUpdateRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key:
+          $ref: "#/components/schemas/IdempotencyKey"
+        expected_revision:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        name:
+          type: string
+          minLength: 1
+          maxLength: 100
+        description:
+          type: string
+          maxLength: 1000
+        image_asset_key:
+          oneOf:
+            - type: string
+              maxLength: 160
+            - type: "null"
+        price_points:
+          type: integer
+          minimum: 1
+          maximum: 300
+        total_count:
+          type: integer
+          minimum: 0
+          maximum: 2147483647
+        active:
+          type: boolean
+        reason:
+          $ref: "#/components/schemas/AdminReason"
+        purchase_unit_cost_cents: *a1
+      required:
+        - idempotency_key
+        - expected_revision
+        - reason
+      description: 新价格只作用新订单；历史价/名称快照不改。库存下调不得低于预留+已领，不能删历史。
+    PageParticipant:
+      type: object
+      additionalProperties: false
+      properties:
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/ParticipantAdmin"
+          minItems: 0
+          maxItems: 500
+        total:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        offset:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        limit:
+          type: integer
+          minimum: 1
+          maximum: 500
+      required:
+        - items
+        - total
+        - offset
+        - limit
+    PageSession:
+      type: object
+      additionalProperties: false
+      properties:
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/Session"
+          minItems: 0
+          maxItems: 500
+        total:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        offset:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        limit:
+          type: integer
+          minimum: 1
+          maximum: 500
+      required:
+        - items
+        - total
+        - offset
+        - limit
+    PageReview:
+      type: object
+      additionalProperties: false
+      properties:
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/Review"
+          minItems: 0
+          maxItems: 500
+        total:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        offset:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        limit:
+          type: integer
+          minimum: 1
+          maximum: 500
+      required:
+        - items
+        - total
+        - offset
+        - limit
+    PageOrder:
+      type: object
+      additionalProperties: false
+      properties:
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/Redemption"
+          minItems: 0
+          maxItems: 500
+        total:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        offset:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        limit:
+          type: integer
+          minimum: 1
+          maximum: 500
+      required:
+        - items
+        - total
+        - offset
+        - limit
+    Ok:
+      type: object
+      additionalProperties: false
+      properties:
+        ok:
+          type: boolean
+          const: true
+      required:
+        - ok
+    EventPublicResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/EventPublic"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    AdminStatusResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/AdminStatus"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    MeResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/Me"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    StaffMeResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/StaffMe"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    SessionResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/Session"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    LeaderboardResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/Leaderboard"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    RedemptionResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/Redemption"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    ClaimViewResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/ClaimView"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    ParticipantAdminResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/ParticipantAdmin"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    RosterImportResultResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/RosterImportResult"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    IdentityRecoveryResultResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/IdentityRecoveryResult"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    ReviewResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/Review"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    CompensationResultResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/CompensationResult"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    MakeupGrantResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/MakeupGrant"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    EmergencyOperationResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/EmergencyOperation"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    GiftAdminResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/GiftAdmin"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    PageParticipantResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/PageParticipant"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    PageSessionResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/PageSession"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    PageReviewResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/PageReview"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    PageOrderResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/PageOrder"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    OkResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/Ok"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    IdentityResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          oneOf:
+            - $ref: "#/components/schemas/Me"
+            - $ref: "#/components/schemas/StaffMe"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    GiftListResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/Gift"
+          minItems: 0
+          maxItems: 1000
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    GiftAdminListResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/GiftAdmin"
+          minItems: 0
+          maxItems: 1000
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    Display:
+      type: object
+      additionalProperties: false
+      properties:
+        event:
+          $ref: "#/components/schemas/EventPublic"
+        leaderboard:
+          $ref: "#/components/schemas/Leaderboard"
+        participant_count:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+      required:
+        - event
+        - leaderboard
+        - participant_count
+    DisplayResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/Display"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    MoneyCentsString:
+      type: string
+      pattern: ^(0|[1-9][0-9]{0,29})$
+      maxLength: 30
+      description: 人民币分的非负十进制整数字符串；不得用浮点金额计算。
+    StaffRolesRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key: &a2
+          $ref: "#/components/schemas/IdempotencyKey"
+        expected_control_epoch:
+          type: integer
+          minimum: 1
+          maximum: 9007199254740991
+        staff_roles:
+          type: array
+          items:
+            type: string
+            enum:
+              - ORGANIZER
+              - REDEEMER
+          uniqueItems: true
+          maxItems: 2
+        replacement_invite_token:
+          $ref: "#/components/schemas/Secret"
+        reason: &a3
+          $ref: "#/components/schemas/AdminReason"
+      required:
+        - idempotency_key
+        - expected_control_epoch
+        - staff_roles
+        - replacement_invite_token
+        - reason
+      description: 保留目标原有PARTICIPANT位、身份和三槽。新增工作人员授权仅CHECK_IN；撤销任意阶段可用。禁止自改本人、防撤最后主办方。变更撤销目标所有旧认证/邀请码并提升control_epoch；新角色非空时仅存调用方预存替换码哈希，空角色纯staff停止登录。
+    StaffRolesResult:
+      type: object
+      additionalProperties: false
+      properties:
+        participant:
+          $ref: "#/components/schemas/ParticipantAdmin"
+        revoked_auth_session_count:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        replacement_invite_issued:
+          type: boolean
+      required:
+        - participant
+        - revoked_auth_session_count
+        - replacement_invite_issued
+    StaffRolesResultResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/StaffRolesResult"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    RetentionPolicy:
+      type: object
+      additionalProperties: false
+      properties:
+        review_after_days:
+          type: integer
+          minimum: 1
+          maximum: 3650
+        review_due_at: &a5
+          $ref: "#/components/schemas/UtcMillis"
+        responsible_person:
+          type: string
+          minLength: 1
+          maxLength: 80
+          pattern: \S
+        scope:
+          type: array
+          items:
+            type: string
+            enum:
+              - IDENTITY
+              - GAME_LOGS
+              - ORDERS_LEDGER
+              - AUDIT
+              - PLAYTESTS
+          minItems: 1
+          maxItems: 5
+          uniqueItems: true
+        notes:
+          type: string
+          minLength: 0
+          maxLength: 2000
+        automatic_deletion:
+          type: boolean
+          const: false
+      required:
+        - review_after_days
+        - review_due_at
+        - responsible_person
+        - scope
+        - notes
+        - automatic_deletion
+      description: 人工复核与处置策略，只保存期限/责任人/范围与到期提醒，不自动删除账本、审计、业务或试玩原始数据。
+    ProcurementSummary:
+      type: object
+      additionalProperties: false
+      properties:
+        priced_stock_cost_cents:
+          $ref: "#/components/schemas/MoneyCentsString"
+        extra_cost_cents:
+          $ref: "#/components/schemas/MoneyCentsString"
+        known_total_cost_cents:
+          $ref: "#/components/schemas/MoneyCentsString"
+        reserved_stock_cost_cents:
+          $ref: "#/components/schemas/MoneyCentsString"
+        claimed_stock_cost_cents:
+          $ref: "#/components/schemas/MoneyCentsString"
+        budget_limit_cents:
+          oneOf:
+            - $ref: "#/components/schemas/MoneyCentsString"
+            - type: "null"
+        unpriced_gift_count:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        unpriced_stock_count:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        is_complete:
+          type: boolean
+        exceeds_budget:
+          oneOf:
+            - type: boolean
+            - type: "null"
+      required:
+        - priced_stock_cost_cents
+        - extra_cost_cents
+        - known_total_cost_cents
+        - reserved_stock_cost_cents
+        - claimed_stock_cost_cents
+        - budget_limit_cents
+        - unpriced_gift_count
+        - unpriced_stock_count
+        - is_complete
+        - exceeds_budget
+      description: 按全部礼品（含停用）Σ库存总量×当前采购单价估算，不代表已采购/已付款。null成本不当免费；已知部分超过上限可报true，不完整且尚未超过为null。物流包装另列。不混入积分账本。
+    OperationsConfig:
+      type: object
+      additionalProperties: false
+      properties:
+        event_id: &a4
+          $ref: "#/components/schemas/Uuid"
+        event_revision:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        procurement:
+          $ref: "#/components/schemas/ProcurementSummary"
+        retention_policy:
+          oneOf:
+            - $ref: "#/components/schemas/RetentionPolicy"
+            - type: "null"
+        retention_review_due:
+          type: boolean
+      required:
+        - event_id
+        - event_revision
+        - procurement
+        - retention_policy
+        - retention_review_due
+    OperationsConfigResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/OperationsConfig"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    OperationsConfigRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key: *a2
+        expected_event_revision:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        procurement_budget_cents:
+          oneOf:
+            - $ref: "#/components/schemas/MoneyCentsString"
+            - type: "null"
+        procurement_extra_cost_cents:
+          $ref: "#/components/schemas/MoneyCentsString"
+        retention_policy:
+          oneOf:
+            - $ref: "#/components/schemas/RetentionPolicy"
+            - type: "null"
+        reason: *a3
+      required:
+        - idempotency_key
+        - expected_event_revision
+        - reason
+      description: 仅明确字段变更，使用event revision CAS/审计；不得变更游戏规则/分值或自动删除现有记录。
+    DiscrepancyNote:
+      type: object
+      additionalProperties: false
+      properties:
+        note_id: *a4
+        state:
+          type: string
+          enum:
+            - OPEN
+            - ACKNOWLEDGED
+        note:
+          type: string
+          minLength: 1
+          maxLength: 2000
+        created_by_display_name:
+          type: string
+          minLength: 0
+          maxLength: 80
+        created_at: *a5
+      required:
+        - note_id
+        - state
+        - note
+        - created_by_display_name
+        - created_at
+    OrderDiscrepancy:
+      type: object
+      additionalProperties: false
+      properties:
+        redemption_id: *a4
+        participant_id: *a4
+        original_price_points:
+          type: integer
+          minimum: 1
+          maximum: 300
+        honor_total:
+          type: integer
+          minimum: 0
+          maximum: 300
+        wallet_balance:
+          type: integer
+          minimum: -2147483648
+          maximum: 2147483647
+        shortfall_points:
+          type: integer
+          minimum: 0
+          maximum: 2147483648
+        eligible:
+          type: boolean
+        claims_frozen:
+          type: boolean
+        open_review_ids:
+          type: array
+          items: *a4
+        reversed_session_ids:
+          type: array
+          items: *a4
+        notes:
+          type: array
+          items:
+            $ref: "#/components/schemas/DiscrepancyNote"
+      required:
+        - redemption_id
+        - participant_id
+        - original_price_points
+        - honor_total
+        - wallet_balance
+        - shortfall_points
+        - eligible
+        - claims_frozen
+        - open_review_ids
+        - reversed_session_ids
+        - notes
+      description: 仅CLAIMED原单的当前积分短缺=max(0,-真实钱包)，不是人民币债务，也不是全额冲正数额。保留原订单/库存/账本；人工备注不改变任何资金、积分、资格冻结。
+    OrderDiscrepancyResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/OrderDiscrepancy"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    DiscrepancyNoteRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key: *a2
+        state:
+          type: string
+          enum:
+            - OPEN
+            - ACKNOWLEDGED
+        note:
+          type: string
+          minLength: 1
+          maxLength: 2000
+          pattern: \S
+        reason: *a3
+      required:
+        - idempotency_key
+        - state
+        - note
+        - reason
+      description: 仅追加有操作者/时间的人工处置记录；ACKNOWLEDGED表示已记录处置，不表示已追回/补款/清零或解除冻结。
+    PlaytestProcess:
+      type: object
+      additionalProperties: false
+      properties:
+        end_tick:
+          $ref: "#/components/schemas/InputTick"
+        end_reason:
+          type: string
+          enum:
+            - THREE_MISSES
+            - GOAL_REACHED
+            - TIME_LIMIT
+        inputs:
+          type: array
+          items:
+            $ref: "#/components/schemas/GameInput"
+          minItems: 0
+          maxItems: 4096
+      required:
+        - end_tick
+        - end_reason
+        - inputs
+    PlaytestRunCreateRequest:
+      type: object
+      additionalProperties: false
+      properties:
+        idempotency_key: *a2
+        batch_id: *a6
+        anon_id: &a7
+          type: string
+          minLength: 1
+          maxLength: 64
+          pattern: ^[A-Za-z0-9][A-Za-z0-9_-]{0,63}$
+        skill_group: &a8
+          type: string
+          enum:
+            - novice
+            - intermediate
+            - experienced
+        game_order: &a9
+          type: string
+          enum:
+            - stack-runner-herd
+            - stack-herd-runner
+            - runner-stack-herd
+            - runner-herd-stack
+            - herd-stack-runner
+            - herd-runner-stack
+        game_id: &a10
+          $ref: "#/components/schemas/GameId"
+        run_kind: &a11
+          type: string
+          enum:
+            - PRACTICE
+            - TEST
+        trial: &a12
+          type: integer
+          minimum: 1
+          maximum: 3
+        source_kind: &a13
+          type: string
+          enum:
+            - HUMAN_OBSERVED
+            - AUTOMATED
+        device_id: &a14
+          type: string
+          minLength: 1
+          maxLength: 100
+          pattern: \S
+        network_label: &a15
+          type: string
+          minLength: 1
+          maxLength: 200
+          pattern: \S
+        build: &a16
+          $ref: "#/components/schemas/BuildBinding"
+        ended_at: *a5
+        help_count: &a17
+          type: integer
+          minimum: 0
+          maximum: 1000
+        tutorial_replays: &a18
+          type: integer
+          minimum: 0
+          maximum: 1000
+        observed_points: &a19
+          oneOf:
+            - type: integer
+              minimum: 0
+              maximum: 100
+            - type: "null"
+        invalid_reason: &a20
+          oneOf:
+            - type: string
+              minLength: 1
+              maxLength: 500
+              pattern: \S
+            - type: "null"
+        observations: &a21
+          type: string
+          minLength: 0
+          maxLength: 2000
+        process:
+          oneOf:
+            - $ref: "#/components/schemas/PlaytestProcess"
+            - type: "null"
+        reason: *a3
+        started_at: &a22
+          $ref: "#/components/schemas/UtcMillis"
+        entry_label: &a23
+          type: string
+          minLength: 1
+          maxLength: 200
+          pattern: \S
+        browser_label: &a24
+          type: string
+          minLength: 1
+          maxLength: 200
+          pattern: \S
+        seed: &a25
+          type: integer
+          minimum: 1
+          maximum: 4294967295
+        interruption_reason: &a26
+          oneOf:
+            - type: string
+              minLength: 1
+              maxLength: 500
+              pattern: \S
+            - type: "null"
+        final_zero_reason: &a27
+          oneOf:
+            - type: string
+              enum:
+                - ABANDONED
+                - TIMED_OUT
+                - TECHNICAL_FAILURE
+            - type: "null"
+      required:
+        - idempotency_key
+        - batch_id
+        - anon_id
+        - skill_group
+        - game_order
+        - game_id
+        - run_kind
+        - trial
+        - source_kind
+        - device_id
+        - network_label
+        - build
+        - ended_at
+        - help_count
+        - tutorial_replays
+        - observed_points
+        - invalid_reason
+        - observations
+        - process
+        - reason
+        - started_at
+        - entry_label
+        - browser_label
+        - seed
+        - interruption_reason
+        - final_zero_reason
+      description: 只在隔离is_development活动由主办方记录实际观察；绝不自动造真人样本、不写正式身份/三槽/局/流水。PRACTICE仅trial=1，TEST为1/2/3；同batch/anon的分组与版本保持一致，唯一试次不可覆盖。无完整过程只记OBSERVATION_ONLY/verified_points=null；有过程经与正式局共用有限worker池/同game-core重放，固定seed，不信任observed_points。
+        必须记录实际started_at/ended_at、入口/浏览器/网络和真实观察，不能用导入created_at或结束时刻反推开始。seed必须匹配冻结规则。无过程且确有已开始试次的放弃/超时/技术失败可明确final_zero_reason，必须observed_points=0、invalid_reason非空，作为有审计的FINAL_ZERO/OPERATOR_FINAL_ZERO保留主分母；不能冒充自然终局core验证，不能任意填正分。有process时final_zero_reason必须null。
+    PlaytestRun:
+      type: object
+      additionalProperties: false
+      properties:
+        record_id: *a4
+        batch_id: *a6
+        anon_id: *a7
+        skill_group: *a8
+        game_order: *a9
+        game_id: *a10
+        run_kind: *a11
+        trial: *a12
+        source_kind: *a13
+        device_id: *a14
+        network_label: *a15
+        build: *a16
+        ended_at: *a5
+        help_count: *a17
+        tutorial_replays: *a18
+        observed_points: *a19
+        invalid_reason: *a20
+        observations: *a21
+        verification_status:
+          type: string
+          enum:
+            - OBSERVATION_ONLY
+            - PENDING
+            - VERIFYING
+            - VERIFIED
+            - INVALID
+            - REVIEW
+            - FINAL_ZERO
+        verified_points:
+          oneOf:
+            - type: integer
+              minimum: 0
+              maximum: 100
+            - type: "null"
+        process_digest:
+          oneOf:
+            - type: string
+              pattern: ^[a-f0-9]{64}$
+              minLength: 64
+              maxLength: 64
+            - type: "null"
+        stats:
+          oneOf:
+            - type: object
+              additionalProperties: true
+            - type: "null"
+        kernel_failure_reason:
+          oneOf:
+            - type: string
+              minLength: 0
+              maxLength: 200
+            - type: "null"
+        created_at: *a5
+        started_at: *a22
+        entry_label: *a23
+        browser_label: *a24
+        seed: *a25
+        interruption_reason: *a26
+        final_zero_reason: *a27
+        game_position:
+          type: integer
+          minimum: 1
+          maximum: 3
+        declared_end_tick:
+          oneOf:
+            - $ref: "#/components/schemas/InputTick"
+            - type: "null"
+        declared_end_reason:
+          oneOf:
+            - *a28
+            - type: "null"
+        end_tick:
+          oneOf:
+            - $ref: "#/components/schemas/InputTick"
+            - type: "null"
+        end_reason:
+          oneOf:
+            - *a28
+            - type: "null"
+        accepted_actions_count:
+          oneOf:
+            - type: integer
+              minimum: 0
+              maximum: 4096
+            - type: "null"
+        performance_points:
+          oneOf:
+            - type: integer
+              minimum: 0
+              maximum: 80
+            - type: "null"
+        participation_points:
+          oneOf:
+            - type: integer
+              minimum: 0
+              maximum: 20
+            - type: "null"
+        score_source:
+          oneOf:
+            - type: string
+              enum:
+                - CORE_REPLAY
+                - OPERATOR_FINAL_ZERO
+            - type: "null"
+        sheep_entry_ticks:
+          oneOf:
+            - type: array
+              maxItems: 8
+              items:
+                type: object
+                additionalProperties: false
+                properties:
+                  sheep_id:
+                    type: integer
+                    minimum: 1
+                    maximum: 8
+                  tick:
+                    $ref: "#/components/schemas/InputTick"
+                required:
+                  - sheep_id
+                  - tick
+            - type: "null"
+      required:
+        - record_id
+        - batch_id
+        - anon_id
+        - skill_group
+        - game_order
+        - game_id
+        - run_kind
+        - trial
+        - source_kind
+        - device_id
+        - network_label
+        - build
+        - ended_at
+        - help_count
+        - tutorial_replays
+        - observed_points
+        - invalid_reason
+        - observations
+        - verification_status
+        - verified_points
+        - process_digest
+        - stats
+        - kernel_failure_reason
+        - created_at
+        - started_at
+        - entry_label
+        - browser_label
+        - seed
+        - interruption_reason
+        - final_zero_reason
+        - game_position
+        - declared_end_tick
+        - declared_end_reason
+        - end_tick
+        - end_reason
+        - accepted_actions_count
+        - performance_points
+        - participation_points
+        - score_source
+        - sheep_entry_ticks
+      description: 试玩独立分数，不入正式余额/榜单；待核验分数null，非法过程核实后才0。AUTOMATED必须保留标签，不得混作真人。
+        规则核直接输出结论分拆/有效操作/各羊入圈tick，纯观察时核验字段null。FINAL_ZERO只表示主办方记录已开始试次的明确零分结案，score_source为OPERATOR_FINAL_ZERO，不是CORE_REPLAY。
+    PlaytestRunResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/PlaytestRun"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+    PagePlaytest:
+      type: object
+      additionalProperties: false
+      properties:
+        total:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        offset:
+          type: integer
+          minimum: 0
+          maximum: 9007199254740991
+        limit:
+          type: integer
+          minimum: 1
+          maximum: 500
+        items:
+          type: array
+          items:
+            $ref: "#/components/schemas/PlaytestRun"
+      required:
+        - total
+        - offset
+        - limit
+        - items
+    PagePlaytestResponse:
+      type: object
+      additionalProperties: false
+      properties:
+        data:
+          $ref: "#/components/schemas/PagePlaytest"
+        server_now:
+          $ref: "#/components/schemas/UtcMillis"
+        request_id:
+          type: string
+          minLength: 1
+          maxLength: 128
+        idempotent_replay:
+          type: boolean
+      required:
+        - data
+        - server_now
+        - request_id
+  responses:
+    Error400:
+      description: 输入/schema/业务参数非法；没有产生新副作用。
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+    Error401:
+      description: 会话缺失、过期或已撤销。
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+    Error403:
+      description: 角色/对象归属/来源/控制权不足。
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+    Error404:
+      description: 不存在或不向当前账号披露该对象。
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+    Error409:
+      description: 幂等摘要、阶段、绑定、资源或并发状态冲突；详见 error.code。
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+    Error413:
+      description: 原始请求体超过限制，不能泄漏入口阻塞登记。
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+    Error422:
+      description: 输入过程或业务前提不满足。
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+    Error429:
+      description: 请求受限；Retry-After 指示退避，不应重造业务键。
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+    Error503:
+      description: 基础设施暂不可用或提交状态未明；按原键查回/重试。
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/ErrorEnvelope"
+x-contract-baseline-id: sheep-handoff-contracts-v2.2.0

@@ -1,0 +1,5948 @@
+{
+  "batch": "shared-final",
+  "at": "2026-10-27T04:50:11.050Z",
+  "manifestHash": "7e908b0f44d46cefa2ba11cabc4135538f766634267cc160008ca8e5c4d97990",
+  "assetVersion": "art-1.2.0-visual-repair",
+  "captures": [
+    {
+      "id": "BC-01-verified",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 41
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-01-verified-320-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-01-verified-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 1198,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_score_star.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "返回大厅，查看剩余机会",
+            "tag": "A",
+            "w": 254,
+            "h": 98,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "看看荣誉榜",
+            "tag": "A",
+            "w": 254,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-01-pending",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 26
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-01-pending-320-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-01-pending-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 1162,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_info.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "返回大厅，查看剩余机会",
+            "tag": "A",
+            "w": 254,
+            "h": 98,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "看看荣誉榜",
+            "tag": "A",
+            "w": 254,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-open",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 35
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "REDEEMING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-open-320-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-open-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 1145,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "确认扣除 20 分兑换",
+            "tag": "BUTTON",
+            "w": 254,
+            "h": 64,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-closed",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 35
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CLOSED",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-closed-320-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-closed-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 1259,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "确认扣除 20 分兑换",
+            "tag": "BUTTON",
+            "w": 254,
+            "h": 64,
+            "font": "24px",
+            "disabled": ""
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-frozen",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 34
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CLOSED",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-frozen-320-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-frozen-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 949,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "取消未领取订单并退回原价",
+            "tag": "BUTTON",
+            "w": 230,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-claimed",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 34
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CLOSED",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-claimed-320-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-claimed-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 893,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-03-tied",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 24
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-03-tied-320-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-03-tied-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 919,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "上一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "下一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-03-empty",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 24
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-03-empty-320-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-03-empty-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 740,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "上一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "下一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "EC-01-error",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": null,
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/EC-01-error-320-first.png",
+      "full": "output/visual-repair-v1/shared-final/EC-01-error-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 740,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "EC-01-loading",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": null,
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/EC-01-loading-320-first.png",
+      "full": "output/visual-repair-v1/shared-final/EC-01-loading-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 740,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "EC-01-offline",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/EC-01-offline-320-first.png",
+      "full": "output/visual-repair-v1/shared-final/EC-01-offline-320-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 320,
+        "scrollWidth": 320,
+        "bodyHeight": 1478,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 320,
+              "h": 160
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 115.265625,
+              "h": 115.265625
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 288,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 254,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 79.328125,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 2可挑战",
+            "tag": "A",
+            "w": 79.328125,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 360 分",
+            "tag": "A",
+            "w": 79.34375,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 98.671875,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 98.65625,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 1061.578125
+        }
+      }
+    },
+    {
+      "id": "BC-01-verified",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 41
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-01-verified-360-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-01-verified-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 1174,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_score_star.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "返回大厅，查看剩余机会",
+            "tag": "A",
+            "w": 294,
+            "h": 98,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "看看荣誉榜",
+            "tag": "A",
+            "w": 294,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-01-pending",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 26
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-01-pending-360-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-01-pending-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 1114,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_info.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "返回大厅，查看剩余机会",
+            "tag": "A",
+            "w": 294,
+            "h": 98,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "看看荣誉榜",
+            "tag": "A",
+            "w": 294,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-open",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 35
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "REDEEMING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-open-360-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-open-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 1093,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "确认扣除 20 分兑换",
+            "tag": "BUTTON",
+            "w": 294,
+            "h": 64,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-closed",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 35
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CLOSED",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-closed-360-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-closed-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 1207,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "确认扣除 20 分兑换",
+            "tag": "BUTTON",
+            "w": 294,
+            "h": 64,
+            "font": "24px",
+            "disabled": ""
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-frozen",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 34
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CLOSED",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-frozen-360-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-frozen-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 897,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "取消未领取订单并退回原价",
+            "tag": "BUTTON",
+            "w": 230,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-claimed",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 34
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CLOSED",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-claimed-360-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-claimed-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 841,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-03-tied",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 24
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-03-tied-360-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-03-tied-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 919,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "上一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "下一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-03-empty",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 24
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-03-empty-360-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-03-empty-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 800,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "上一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "下一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "EC-01-error",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": null,
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/EC-01-error-360-first.png",
+      "full": "output/visual-repair-v1/shared-final/EC-01-error-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 800,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "EC-01-loading",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": null,
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/EC-01-loading-360-first.png",
+      "full": "output/visual-repair-v1/shared-final/EC-01-loading-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 800,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "EC-01-offline",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/EC-01-offline-360-first.png",
+      "full": "output/visual-repair-v1/shared-final/EC-01-offline-360-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 360,
+        "scrollWidth": 360,
+        "bodyHeight": 1498,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 360,
+              "h": 180
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 132.875,
+              "h": 132.875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 328,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 294,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 92.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 2可挑战",
+            "tag": "A",
+            "w": 92.671875,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 360 分",
+            "tag": "A",
+            "w": 92.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 112,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 1081.578125
+        }
+      }
+    },
+    {
+      "id": "BC-01-verified",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 41
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-01-verified-390-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-01-verified-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 1044,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_score_star.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "返回大厅，查看剩余机会",
+            "tag": "A",
+            "w": 324,
+            "h": 64,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "看看荣誉榜",
+            "tag": "A",
+            "w": 324,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-01-pending",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 26
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-01-pending-390-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-01-pending-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 1032,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_info.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "返回大厅，查看剩余机会",
+            "tag": "A",
+            "w": 324,
+            "h": 64,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "看看荣誉榜",
+            "tag": "A",
+            "w": 324,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-open",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 35
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "REDEEMING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-open-390-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-open-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 1093,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "确认扣除 20 分兑换",
+            "tag": "BUTTON",
+            "w": 324,
+            "h": 64,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-closed",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 35
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CLOSED",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-closed-390-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-closed-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 1207,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "确认扣除 20 分兑换",
+            "tag": "BUTTON",
+            "w": 324,
+            "h": 64,
+            "font": "24px",
+            "disabled": ""
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-frozen",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 34
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CLOSED",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-frozen-390-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-frozen-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 873,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "取消未领取订单并退回原价",
+            "tag": "BUTTON",
+            "w": 230,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-claimed",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 34
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CLOSED",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-claimed-390-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-claimed-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 844,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-03-tied",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 24
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-03-tied-390-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-03-tied-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 895,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "上一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "下一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-03-empty",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 24
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-03-empty-390-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-03-empty-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 844,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "上一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "下一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "EC-01-error",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": null,
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/EC-01-error-390-first.png",
+      "full": "output/visual-repair-v1/shared-final/EC-01-error-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 844,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "EC-01-loading",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": null,
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/EC-01-loading-390-first.png",
+      "full": "output/visual-repair-v1/shared-final/EC-01-loading-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 844,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "EC-01-offline",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/EC-01-offline-390-first.png",
+      "full": "output/visual-repair-v1/shared-final/EC-01-offline-390-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 390,
+        "scrollWidth": 390,
+        "bodyHeight": 1498,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 390,
+              "h": 195
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 146.078125,
+              "h": 146.078125
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 176,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 176,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 358,
+            "h": 183.5625,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 324,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 102.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 2可挑战",
+            "tag": "A",
+            "w": 102.671875,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 360 分",
+            "tag": "A",
+            "w": 102.65625,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 122,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 1081.453125
+        }
+      }
+    },
+    {
+      "id": "BC-01-verified",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 41
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-01-verified-430-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-01-verified-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 1044,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_score_star.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "返回大厅，查看剩余机会",
+            "tag": "A",
+            "w": 364,
+            "h": 64,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "看看荣誉榜",
+            "tag": "A",
+            "w": 364,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-01-pending",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 26
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-01-pending-430-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-01-pending-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 1008,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_info.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "返回大厅，查看剩余机会",
+            "tag": "A",
+            "w": 364,
+            "h": 64,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "看看荣誉榜",
+            "tag": "A",
+            "w": 364,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-open",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 35
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "REDEEMING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-open-430-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-open-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 1093,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "确认扣除 20 分兑换",
+            "tag": "BUTTON",
+            "w": 364,
+            "h": 64,
+            "font": "24px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-closed",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 35
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CLOSED",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-closed-430-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-closed-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 1207,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "确认扣除 20 分兑换",
+            "tag": "BUTTON",
+            "w": 364,
+            "h": 64,
+            "font": "24px",
+            "disabled": ""
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-frozen",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 35
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CLOSED",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-frozen-430-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-frozen-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 932,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "取消未领取订单并退回原价",
+            "tag": "BUTTON",
+            "w": 230,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-02-claimed",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 35
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "CLOSED",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-02-claimed-430-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-02-claimed-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 932,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 80,
+              "h": 80
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-03-tied",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 24
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-03-tied-430-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-03-tied-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 932,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "上一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "下一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "BC-03-empty",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 24
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/BC-03-empty-430-first.png",
+      "full": "output/visual-repair-v1/shared-final/BC-03-empty-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 932,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "上一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "下一页",
+            "tag": "BUTTON",
+            "w": 86,
+            "h": 56,
+            "font": "16px",
+            "disabled": ""
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "EC-01-error",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": null,
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/EC-01-error-430-first.png",
+      "full": "output/visual-repair-v1/shared-final/EC-01-error-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 932,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "EC-01-loading",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": null,
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/EC-01-loading-430-first.png",
+      "full": "output/visual-repair-v1/shared-final/EC-01-loading-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 932,
+        "headings": [],
+        "images": [
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "♧ 牧场",
+            "tag": "A",
+            "w": 48,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": null
+      }
+    },
+    {
+      "id": "EC-01-offline",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "browser": "156.0.8078.4",
+      "zoom": 1,
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "actualFonts": {
+        "fonts": [
+          {
+            "familyName": "Microsoft YaHei",
+            "postScriptName": "MicrosoftYaHei",
+            "isCustomFont": false,
+            "glyphCount": 10
+          }
+        ]
+      },
+      "scope": "isolated-schema-validated-view-fixture; not real API/device",
+      "phase": "PLAYING",
+      "mutations": 0,
+      "first": "output/visual-repair-v1/shared-final/EC-01-offline-430-first.png",
+      "full": "output/visual-repair-v1/shared-final/EC-01-offline-430-full.png",
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "system-ui, -apple-system, BlinkMacSystemFont, \"PingFang SC\", \"Microsoft YaHei\", sans-serif",
+        "width": 430,
+        "scrollWidth": 430,
+        "bodyHeight": 1551,
+        "headings": [
+          "羊年游园会"
+        ],
+        "images": [
+          {
+            "src": "/assets/hero/lobby_hero_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 860,
+            "height": 430,
+            "rect": {
+              "w": 430,
+              "h": 215
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_stack_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_runner_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/covers/cover_herd_v2.webp",
+            "complete": true,
+            "decoded": true,
+            "width": 384,
+            "height": 384,
+            "rect": {
+              "w": 163.671875,
+              "h": 163.671875
+            },
+            "fit": "contain"
+          },
+          {
+            "src": "/assets/ui/icon_home.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_leaderboard.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          },
+          {
+            "src": "/assets/ui/icon_gift.svg",
+            "complete": true,
+            "decoded": true,
+            "width": 64,
+            "height": 64,
+            "rect": {
+              "w": 24,
+              "h": 24
+            },
+            "fit": "fill"
+          }
+        ],
+        "controls": [
+          {
+            "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+            "tag": "A",
+            "w": 398,
+            "h": 189.671875,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "完整活动规则",
+            "tag": "A",
+            "w": 96,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "我的机会与记录",
+            "tag": "A",
+            "w": 112,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "身份与活动规则",
+            "tag": "SUMMARY",
+            "w": 364,
+            "h": 48,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 1可挑战",
+            "tag": "A",
+            "w": 116,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 2可挑战",
+            "tag": "A",
+            "w": 116,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "机会 360 分",
+            "tag": "A",
+            "w": 116,
+            "h": 66,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "退出当前身份",
+            "tag": "BUTTON",
+            "w": 134,
+            "h": 56,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "游园会",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "荣誉榜",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          },
+          {
+            "text": "兑换礼品",
+            "tag": "A",
+            "w": 135.328125,
+            "h": 59,
+            "font": "16px",
+            "disabled": null
+          }
+        ],
+        "smallText": [],
+        "lastCard": {
+          "bottom": 1134.90625
+        }
+      }
+    }
+  ]
+}

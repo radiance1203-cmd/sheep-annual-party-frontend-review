@@ -1,0 +1,31 @@
+{
+  "schema": "sheep-visual-integration-evidence-v1",
+  "status": "NOT_RUN",
+  "actual_project_root": null,
+  "baseline_commit": null,
+  "user_changes_preserved": null,
+  "actual_paths": {
+    "lobby_component": null,
+    "shared_styles": null,
+    "runtime_manifest": null,
+    "art_sources": null,
+    "asset_loader": null
+  },
+  "inventory": [],
+  "old_instruction_conflicts_and_resolutions": [],
+  "runtime_asset_mapping": [],
+  "captures": [],
+  "actual_dom_metrics": [],
+  "visual_findings": [],
+  "regressions": [],
+  "scope_status": {
+    "lobby": "NOT_RUN",
+    "game_art": "NOT_RUN",
+    "shared_pages": "NOT_RUN",
+    "g5": "NOT_EVALUATED",
+    "g6": "NOT_EVALUATED"
+  },
+  "blockers": [],
+  "next_actions": [],
+  "note": "Populate only with actual observations. Do not copy package static PASS into app verification."
+}

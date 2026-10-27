@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="icon_leaderboard_title icon_leaderboard_desc">
+<title id="icon_leaderboard_title">排行榜奖杯</title><desc id="icon_leaderboard_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.icon.leaderboard&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [64, 64], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs></defs>
+<g id="cup" fill="#D8AC4B" stroke="#9B6824" stroke-width="2.5" stroke-linejoin="round"><path d="M18 9H46V24Q46 39 32 43Q18 39 18 24Z"/><path d="M18 14H8V24Q8 35 22 35 M46 14H56V24Q56 35 42 35" fill="none"/><path d="M29 43H35V52H46V57H18V52H29Z"/></g>
+</svg>

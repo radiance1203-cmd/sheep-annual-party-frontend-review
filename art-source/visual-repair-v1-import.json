@@ -1,0 +1,154 @@
+{
+  "scope": "VR-03",
+  "status": "STATIC_IMPORT_VERIFIED_APP_REVIEW_PENDING",
+  "archive_sha256": "1b14bf379058f814d7ddacdeba36aaab4919e22b76d7dc948926e22fac809c9c",
+  "current_manifest_sha256": "7e908b0f44d46cefa2ba11cabc4135538f766634267cc160008ca8e5c4d97990",
+  "runtime_bytes": 111230,
+  "decoded_rgba_bytes": 3248672,
+  "assets": [
+    {
+      "asset_id": "hero.lobby",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/hero/lobby_hero_v2.webp",
+      "expected_future_path": "assets/hero/lobby_hero_v2.webp",
+      "runtime_path": "/assets/hero/lobby_hero_v2.webp",
+      "kind": "hero_image",
+      "camera_id": null,
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "source_id": "visual_repair_supplied_imagegen_20261027",
+      "source_path": "visual-repair-v1/static-assets/lobby_hero_static.png",
+      "source_sha256": "a199948e29c482a169828f7cfa2fd002d228e312ac9e8e69677075d1b0ae7d75",
+      "source_pixels": [
+        1774,
+        887
+      ],
+      "bytes": 45996,
+      "sha256": "1b3be9b75988f5d75249118619f65cf9d3d03483794358a3bd54818b8d81b1ee",
+      "canvas_px": [
+        860,
+        430
+      ],
+      "decoded_rgba_bytes": 1479200,
+      "version": "2.0.0",
+      "production_art_accepted": false,
+      "license_note": "Supplied project-owned built-in imagegen illustration; original supplement retained",
+      "purpose": "lobby hero",
+      "gameplay_asset": false,
+      "object_fit": "contain",
+      "crop_policy": "none; preserve all critical subjects",
+      "note": "Supplied WebP copied byte for byte; visually opened; application/device acceptance tracked separately"
+    },
+    {
+      "asset_id": "cover.stack",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/covers/cover_stack_v2.webp",
+      "expected_future_path": "assets/covers/cover_stack_v2.webp",
+      "runtime_path": "/assets/covers/cover_stack_v2.webp",
+      "kind": "hero_image",
+      "camera_id": null,
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "source_id": "visual_repair_supplied_imagegen_20261027",
+      "source_path": "visual-repair-v1/static-assets/cover_stack_static.png",
+      "source_sha256": "08c682f97d5dbf707f05a0b0278c4a66fb7f15060e16832e22302f5a674058cb",
+      "source_pixels": [
+        1254,
+        1254
+      ],
+      "bytes": 20308,
+      "sha256": "5d94b4e44142086d0692aef5f9dc7411427b71d5e1bff921b67e19ebdd03e859",
+      "canvas_px": [
+        384,
+        384
+      ],
+      "decoded_rgba_bytes": 589824,
+      "version": "2.0.0",
+      "production_art_accepted": false,
+      "license_note": "Supplied project-owned built-in imagegen illustration; original supplement retained",
+      "purpose": "lobby game entry illustration",
+      "gameplay_asset": false,
+      "object_fit": "contain",
+      "crop_policy": "none; preserve all critical subjects",
+      "note": "Supplied WebP copied byte for byte; visually opened; application/device acceptance tracked separately"
+    },
+    {
+      "asset_id": "cover.runner",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/covers/cover_runner_v2.webp",
+      "expected_future_path": "assets/covers/cover_runner_v2.webp",
+      "runtime_path": "/assets/covers/cover_runner_v2.webp",
+      "kind": "hero_image",
+      "camera_id": null,
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "source_id": "visual_repair_supplied_imagegen_20261027",
+      "source_path": "visual-repair-v1/static-assets/cover_runner_static.png",
+      "source_sha256": "11296b69d302ad9c7e53565cee593331a5ee20a5e2a55724bd45acf85d95d093",
+      "source_pixels": [
+        1254,
+        1254
+      ],
+      "bytes": 18876,
+      "sha256": "f395af4bf80ca339ed8d960fdbc70faf9a84aab55a2a9536082bc8b6a1a5b0f5",
+      "canvas_px": [
+        384,
+        384
+      ],
+      "decoded_rgba_bytes": 589824,
+      "version": "2.0.0",
+      "production_art_accepted": false,
+      "license_note": "Supplied project-owned built-in imagegen illustration; original supplement retained",
+      "purpose": "lobby game entry illustration",
+      "gameplay_asset": false,
+      "object_fit": "contain",
+      "crop_policy": "none; preserve all critical subjects",
+      "note": "Supplied WebP copied byte for byte; visually opened; application/device acceptance tracked separately"
+    },
+    {
+      "asset_id": "cover.herd",
+      "status": "rendered_candidate",
+      "path": "apps/web/public/assets/covers/cover_herd_v2.webp",
+      "expected_future_path": "assets/covers/cover_herd_v2.webp",
+      "runtime_path": "/assets/covers/cover_herd_v2.webp",
+      "kind": "hero_image",
+      "camera_id": null,
+      "shared_games": [
+        "stack",
+        "runner",
+        "herd"
+      ],
+      "source_id": "visual_repair_supplied_imagegen_20261027",
+      "source_path": "visual-repair-v1/static-assets/cover_herd_static.png",
+      "source_sha256": "c56c36368a894cd98d84423f4283a4bd9d7f742b9b1864c0e03486b457c41835",
+      "source_pixels": [
+        1254,
+        1254
+      ],
+      "bytes": 26050,
+      "sha256": "a8601b03ca39f3fd94029c40cc65a171d72d90c3c95f7ab0e16c605fd0762757",
+      "canvas_px": [
+        384,
+        384
+      ],
+      "decoded_rgba_bytes": 589824,
+      "version": "2.0.0",
+      "production_art_accepted": false,
+      "license_note": "Supplied project-owned built-in imagegen illustration; original supplement retained",
+      "purpose": "lobby game entry illustration",
+      "gameplay_asset": false,
+      "object_fit": "contain",
+      "crop_policy": "none; preserve all critical subjects",
+      "note": "Supplied WebP copied byte for byte; visually opened; application/device acceptance tracked separately"
+    }
+  ]
+}

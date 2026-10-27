@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="icon_score_star_title icon_score_star_desc">
+<title id="icon_score_star_title">表现分星星</title><desc id="icon_score_star_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.icon.score.star&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [64, 64], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs></defs>
+<g id="star"><polygon points="32.00,7.00 39.05,22.29 55.78,24.27 43.41,35.71 46.69,52.23 32.00,44.00 17.31,52.23 20.59,35.71 8.22,24.27 24.95,22.29" fill="#D8AC4B" stroke="#9B6824" stroke-width="2.5" stroke-linejoin="round"/><path d="M23 24 30 11" stroke="#FFF0BC" stroke-width="2" stroke-linecap="round"/></g>
+</svg>

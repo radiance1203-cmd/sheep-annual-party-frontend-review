@@ -1,0 +1,1066 @@
+{
+  "schema_version": "sheep-atlas-1.0",
+  "asset_id": "character.sheep.side",
+  "version": "art-1.1.0",
+  "status": "rendered_candidate",
+  "image": "sheep_side_v1.png",
+  "size_px": [
+    1024,
+    1024
+  ],
+  "color_space": "srgb",
+  "alpha_mode": "straight",
+  "camera_id": "side_v1",
+  "source_frame_px": [
+    256,
+    256
+  ],
+  "runtime_frame_px": [
+    128,
+    128
+  ],
+  "extrusion_px": 2,
+  "padding_px": 2,
+  "frames": {
+    "sheep_side__air__e__f000": {
+      "rect": [
+        4,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__air__e__f001": {
+      "rect": [
+        140,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__bump__e__f000": {
+      "rect": [
+        276,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__bump__e__f001": {
+      "rect": [
+        412,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__bump__e__f002": {
+      "rect": [
+        548,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__bump__e__f003": {
+      "rect": [
+        684,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__celebrate__e__f000": {
+      "rect": [
+        820,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__celebrate__e__f001": {
+      "rect": [
+        4,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__celebrate__e__f002": {
+      "rect": [
+        140,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__celebrate__e__f003": {
+      "rect": [
+        276,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__celebrate__e__f004": {
+      "rect": [
+        412,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__celebrate__e__f005": {
+      "rect": [
+        548,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__celebrate__e__f006": {
+      "rect": [
+        684,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__celebrate__e__f007": {
+      "rect": [
+        820,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__idle__e__f000": {
+      "rect": [
+        4,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__idle__e__f001": {
+      "rect": [
+        140,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__idle__e__f002": {
+      "rect": [
+        276,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__idle__e__f003": {
+      "rect": [
+        412,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__idle__e__f004": {
+      "rect": [
+        548,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__idle__e__f005": {
+      "rect": [
+        684,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__land__e__f000": {
+      "rect": [
+        820,
+        276,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__land__e__f001": {
+      "rect": [
+        4,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__land__e__f002": {
+      "rect": [
+        140,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__land__e__f003": {
+      "rect": [
+        276,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__run__e__f000": {
+      "rect": [
+        412,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__run__e__f001": {
+      "rect": [
+        548,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__run__e__f002": {
+      "rect": [
+        684,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__run__e__f003": {
+      "rect": [
+        820,
+        412,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__run__e__f004": {
+      "rect": [
+        4,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__run__e__f005": {
+      "rect": [
+        140,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__run__e__f006": {
+      "rect": [
+        276,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__run__e__f007": {
+      "rect": [
+        412,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__steady__e__f000": {
+      "rect": [
+        548,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__steady__e__f001": {
+      "rect": [
+        684,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__steady__e__f002": {
+      "rect": [
+        820,
+        548,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__takeoff__e__f000": {
+      "rect": [
+        4,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__takeoff__e__f001": {
+      "rect": [
+        140,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    },
+    "sheep_side__takeoff__e__f002": {
+      "rect": [
+        276,
+        684,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": 0
+    }
+  },
+  "animations": {
+    "idle.e": {
+      "frames": [
+        "sheep_side__idle__e__f000",
+        "sheep_side__idle__e__f001",
+        "sheep_side__idle__e__f002",
+        "sheep_side__idle__e__f003",
+        "sheep_side__idle__e__f004",
+        "sheep_side__idle__e__f005"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "run.e": {
+      "frames": [
+        "sheep_side__run__e__f000",
+        "sheep_side__run__e__f001",
+        "sheep_side__run__e__f002",
+        "sheep_side__run__e__f003",
+        "sheep_side__run__e__f004",
+        "sheep_side__run__e__f005",
+        "sheep_side__run__e__f006",
+        "sheep_side__run__e__f007"
+      ],
+      "fps": 12,
+      "loop": true
+    },
+    "takeoff.e": {
+      "frames": [
+        "sheep_side__takeoff__e__f000",
+        "sheep_side__takeoff__e__f001",
+        "sheep_side__takeoff__e__f002"
+      ],
+      "fps": 15,
+      "loop": false
+    },
+    "air.e": {
+      "frames": [
+        "sheep_side__air__e__f000",
+        "sheep_side__air__e__f001"
+      ],
+      "fps": 6,
+      "loop": true
+    },
+    "land.e": {
+      "frames": [
+        "sheep_side__land__e__f000",
+        "sheep_side__land__e__f001",
+        "sheep_side__land__e__f002",
+        "sheep_side__land__e__f003"
+      ],
+      "fps": 20,
+      "loop": false
+    },
+    "steady.e": {
+      "frames": [
+        "sheep_side__steady__e__f000",
+        "sheep_side__steady__e__f001",
+        "sheep_side__steady__e__f002"
+      ],
+      "fps": 15,
+      "loop": false
+    },
+    "bump.e": {
+      "frames": [
+        "sheep_side__bump__e__f000",
+        "sheep_side__bump__e__f001",
+        "sheep_side__bump__e__f002",
+        "sheep_side__bump__e__f003"
+      ],
+      "fps": 15,
+      "loop": false
+    },
+    "celebrate.e": {
+      "frames": [
+        "sheep_side__celebrate__e__f000",
+        "sheep_side__celebrate__e__f001",
+        "sheep_side__celebrate__e__f002",
+        "sheep_side__celebrate__e__f003",
+        "sheep_side__celebrate__e__f004",
+        "sheep_side__celebrate__e__f005",
+        "sheep_side__celebrate__e__f006",
+        "sheep_side__celebrate__e__f007"
+      ],
+      "fps": 12,
+      "loop": true
+    }
+  },
+  "source": "art-source/render_assets.py",
+  "production_art_accepted": false
+}

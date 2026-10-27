@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="ui_joystick_knob_title ui_joystick_knob_desc">
+<title id="ui_joystick_knob_title">摇杆帽</title><desc id="ui_joystick_knob_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.joystick.knob&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [64, 64], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs><linearGradient id="knob" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFDF7"/><stop offset="1" stop-color="#F4DDB6"/></linearGradient></defs>
+<g id="shadow"><circle cx="32" cy="35" r="26" fill="#715033" opacity=".14"/></g><g id="surface"><circle cx="32" cy="30" r="26" fill="url(#knob)" stroke="#FFFDF7" stroke-width="2"/></g>
+</svg>

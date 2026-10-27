@@ -1,0 +1,735 @@
+{
+  "status": "PASS",
+  "scope": "Actual PNG/hash/atlas/source/compatibility checks; integrated visual/device/onsite review remains separate",
+  "manifest_sha256": "bdf93f4c26c9ed6e108f5af5a718edd7997a86936da85404485a68e1eeb8d234",
+  "previous_manifest_sha256": "c94d522416e41bc9eddf937563bda44bf28d4e217c956bbb030980eba3ff35b7",
+  "checks": [
+    {
+      "check": "previous_manifest_original_bytes",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.button.primary",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.button.primary",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.button.secondary",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.button.secondary",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.button.round",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.button.round",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.panel.cream",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.panel.cream",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.panel.card",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.panel.card",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.hud.pill",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.hud.pill",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.status.badge",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.status.badge",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.banner.wood",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.banner.wood",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.joystick.base",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.joystick.base",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.joystick.knob",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.joystick.knob",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.cooldown.ring",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.cooldown.ring",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.back",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.back",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.chevron.right",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.chevron.right",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.sound.on",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.sound.on",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.sound.off",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.sound.off",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.timer",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.timer",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.score.star",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.score.star",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.ticket",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.ticket",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.mistake",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.mistake",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.gift",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.gift",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.leaderboard",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.leaderboard",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.home",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.home",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.clover",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.clover",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.bark",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.bark",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.check",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.check",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.info",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.info",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.sheep",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.sheep",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.arrow.up",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.arrow.up",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.stack",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.stack",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:ui.icon.hurdle",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:ui.icon.hurdle",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:placeholder.sheep.side.e",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:placeholder.sheep.side.e",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:placeholder.sheep.iso.s",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:placeholder.sheep.iso.s",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:placeholder.sheep.iso.n",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:placeholder.sheep.iso.n",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:placeholder.dog.iso.n",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:placeholder.dog.iso.n",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:placeholder.shadow.contact",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:placeholder.shadow.contact",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:placeholder.hay.tray.side",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:placeholder.hay.tray.side",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:placeholder.clover.outer",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:placeholder.clover.outer",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:placeholder.clover.core",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:placeholder.clover.core",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:placeholder.grass.tile",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:placeholder.grass.tile",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:placeholder.dirt.tile",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:placeholder.dirt.tile",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:placeholder.fence.side.segment",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:placeholder.fence.side.segment",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:reference.user",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:reference.user",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:reference.prototype.lobby",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:reference.prototype.lobby",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:reference.prototype.stack",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:reference.prototype.stack",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:reference.prototype.runner",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:reference.prototype.runner",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:reference.prototype.herd",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:reference.prototype.herd",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:reference.character.board",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:reference.character.board",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:master.sheep",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:master.sheep",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:master.dog",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:master.dog",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:master.farm",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:master.farm",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:character.sheep.side",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:character.sheep.side",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:character.sheep.side.metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:character.sheep.side.metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:character.sheep.iso8",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:character.sheep.iso8",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:character.sheep.iso8.metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:character.sheep.iso8.metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:character.dog.iso8",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:character.dog.iso8",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:character.dog.iso8.metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:character.dog.iso8.metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:environment.side",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:environment.side",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:environment.side.metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:environment.side.metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:environment.iso",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:environment.iso",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:environment.iso.metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:environment.iso.metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:hero.lobby",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:hero.lobby",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:effects.shared",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:effects.shared",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:effects.shared.metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:effects.shared.metadata",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:audio.shared",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:audio.shared",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:cover.stack",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:cover.stack",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:cover.runner",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:cover.runner",
+      "status": "PASS"
+    },
+    {
+      "check": "previous_record_unchanged:cover.herd",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_and_supplied_bytes_unchanged:cover.herd",
+      "status": "PASS"
+    },
+    {
+      "check": "unique_asset_ids",
+      "status": "PASS"
+    },
+    {
+      "check": "full_required_atlas_lists",
+      "status": "PASS"
+    },
+    {
+      "check": "runtime_hashes:stack",
+      "status": "PASS"
+    },
+    {
+      "check": "opaque_2x_rgba:stack",
+      "status": "PASS"
+    },
+    {
+      "check": "scene_ratio_2x:stack",
+      "status": "PASS"
+    },
+    {
+      "check": "single_static_frame:stack",
+      "status": "PASS"
+    },
+    {
+      "check": "full_rect_origin_pivot:stack",
+      "status": "PASS"
+    },
+    {
+      "check": "relative_png_name:stack",
+      "status": "PASS"
+    },
+    {
+      "check": "required_page_and_metadata:stack:character.sheep.side",
+      "status": "PASS"
+    },
+    {
+      "check": "required_page_and_metadata:stack:environment.side",
+      "status": "PASS"
+    },
+    {
+      "check": "required_page_and_metadata:stack:effects.shared",
+      "status": "PASS"
+    },
+    {
+      "check": "required_page_and_metadata:stack:environment.backdrop.stack",
+      "status": "PASS"
+    },
+    {
+      "check": "runtime_hashes:runner",
+      "status": "PASS"
+    },
+    {
+      "check": "opaque_2x_rgba:runner",
+      "status": "PASS"
+    },
+    {
+      "check": "scene_ratio_2x:runner",
+      "status": "PASS"
+    },
+    {
+      "check": "single_static_frame:runner",
+      "status": "PASS"
+    },
+    {
+      "check": "full_rect_origin_pivot:runner",
+      "status": "PASS"
+    },
+    {
+      "check": "relative_png_name:runner",
+      "status": "PASS"
+    },
+    {
+      "check": "required_page_and_metadata:runner:character.sheep.side",
+      "status": "PASS"
+    },
+    {
+      "check": "required_page_and_metadata:runner:environment.side",
+      "status": "PASS"
+    },
+    {
+      "check": "required_page_and_metadata:runner:effects.shared",
+      "status": "PASS"
+    },
+    {
+      "check": "required_page_and_metadata:runner:environment.backdrop.runner",
+      "status": "PASS"
+    },
+    {
+      "check": "runtime_hashes:herd",
+      "status": "PASS"
+    },
+    {
+      "check": "opaque_2x_rgba:herd",
+      "status": "PASS"
+    },
+    {
+      "check": "scene_ratio_2x:herd",
+      "status": "PASS"
+    },
+    {
+      "check": "single_static_frame:herd",
+      "status": "PASS"
+    },
+    {
+      "check": "full_rect_origin_pivot:herd",
+      "status": "PASS"
+    },
+    {
+      "check": "relative_png_name:herd",
+      "status": "PASS"
+    },
+    {
+      "check": "required_page_and_metadata:herd:character.sheep.iso8",
+      "status": "PASS"
+    },
+    {
+      "check": "required_page_and_metadata:herd:character.dog.iso8",
+      "status": "PASS"
+    },
+    {
+      "check": "required_page_and_metadata:herd:environment.iso",
+      "status": "PASS"
+    },
+    {
+      "check": "required_page_and_metadata:herd:effects.shared",
+      "status": "PASS"
+    },
+    {
+      "check": "required_page_and_metadata:herd:environment.backdrop.herd",
+      "status": "PASS"
+    },
+    {
+      "check": "scenery_only_source_receipt:stack",
+      "status": "PASS"
+    },
+    {
+      "check": "source_receipt_matches_actual_mother:stack",
+      "status": "PASS"
+    },
+    {
+      "check": "scenery_only_source_receipt:runner",
+      "status": "PASS"
+    },
+    {
+      "check": "source_receipt_matches_actual_mother:runner",
+      "status": "PASS"
+    },
+    {
+      "check": "scenery_only_source_receipt:herd",
+      "status": "PASS"
+    },
+    {
+      "check": "source_receipt_matches_actual_mother:herd",
+      "status": "PASS"
+    }
+  ],
+  "errors": [],
+  "backgrounds": [
+    {
+      "game": "stack",
+      "png_bytes": 651458,
+      "metadata_bytes": 1171,
+      "additional_rgba_bytes": 2764800
+    },
+    {
+      "game": "runner",
+      "png_bytes": 332225,
+      "metadata_bytes": 1176,
+      "additional_rgba_bytes": 1267200
+    },
+    {
+      "game": "herd",
+      "png_bytes": 557231,
+      "metadata_bytes": 1166,
+      "additional_rgba_bytes": 2419200
+    }
+  ],
+  "game_texture_base_bytes_including_effects_and_backdrop": {
+    "stack": 12201984,
+    "runner": 10704384,
+    "herd": 41216512
+  },
+  "excludes_from_texture_total": [
+    "UI",
+    "framebuffer",
+    "browser decode copies"
+  ]
+}

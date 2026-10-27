@@ -1,0 +1,34 @@
+{
+  "version": "1.1.0",
+  "states": {
+    "primary": {
+      "normal": "ui_button_primary.svg",
+      "pressed": "ui_button_primary_pressed.svg",
+      "focus": "ui_button_primary_focus.svg",
+      "disabled": "ui_button_primary_disabled.svg",
+      "loading": "ui_button_primary_loading.svg"
+    },
+    "secondary": {
+      "normal": "ui_button_secondary.svg",
+      "pressed": "ui_button_secondary_pressed.svg",
+      "focus": "ui_button_secondary_focus.svg",
+      "disabled": "ui_button_secondary_disabled.svg",
+      "loading": "ui_button_secondary_loading.svg"
+    },
+    "round": {
+      "normal": "ui_button_round.svg",
+      "pressed": "ui_button_round_pressed.svg",
+      "focus": "ui_button_round_focus.svg",
+      "disabled": "ui_button_round_disabled.svg",
+      "loading": "ui_button_round_loading.svg"
+    }
+  },
+  "labels": "Live DOM text; loading label should remain readable, aria-busy on control",
+  "disabled": "Use actual disabled semantics and readable reason, not opacity alone",
+  "target_min_css_px": [
+    48,
+    48
+  ],
+  "inline_svg_ids": "Prefix every instance, including state assets",
+  "focus": "Also apply a real DOM :focus-visible ring"
+}

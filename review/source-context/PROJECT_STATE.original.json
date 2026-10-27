@@ -1,0 +1,1173 @@
+{
+  "schema_version": "1.0",
+  "handoff_version": "2.2",
+  "purpose": "实际本地工程与交付状态；所有PASS以真实工件限定范围，原始模板另存。",
+  "updated_at": "2026-10-27T05:49:23.163073+00:00",
+  "project_root": "D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2",
+  "repository": {
+    "url": null,
+    "branch": "main",
+    "base_commit": "a9201a23a19643a79b418fb63bc2ba66b204bc21",
+    "dirty_files_reviewed": true,
+    "note": "Initial input is not a Git repository; all existing package files preserved.",
+    "integration_checkpoint_ref": "HEAD after local integration commit; inspect git log -1 (no remote or push)"
+  },
+  "rule_snapshot": {
+    "rule_version": "onsite-v2.1-candidate",
+    "source": "config/game_rules.v2.1.json",
+    "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+    "simulator_version": "sheep-core-2.2.0",
+    "client_version": "sheep-web-2.2.0",
+    "asset_version": "art-1.3.0-visual-repair",
+    "official_logic_seed_by_game": {
+      "stack": 1,
+      "runner": 1,
+      "herd": 47
+    },
+    "changed_by_this_handoff": false,
+    "runtime_clarification": "V2.2明确原槽grant可在未封榜PLAYING/DRAINING创建并使用；普通start跳过grant保留槽；不改玩法/seed/积分。取消/到期grant不把原槽变为普通可用。",
+    "original_file_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83"
+  },
+  "source_of_truth": {
+    "product": "docs/PRD.md",
+    "precise_games": "02_GAME_RULES.txt",
+    "runtime_protocol": "07_RUNTIME_AND_OPERATIONS.txt",
+    "human_gate": "06_AUDIT_AND_BALANCE.txt",
+    "technical_handoff": "docs/TECHNICAL_HANDOFF.md",
+    "contracts": "packages/contracts/openapi.yaml (live); contracts/ (input baseline read-only)",
+    "assets": "design/ASSET_FOUNDATION.md",
+    "asset_manifest": "apps/web/public/assets/asset-manifest.v1.json",
+    "backlog": "planning/BACKLOG.csv",
+    "acceptance": "planning/ACCEPTANCE_MATRIX.csv",
+    "business_wireframes": "design/wireframes/",
+    "visual_repair": "docs/visual-repair-v1-report.md"
+  },
+  "environment": {
+    "os": "Windows",
+    "shell": "PowerShell",
+    "node_version": "24.12.0",
+    "package_manager": "npm 11.6.2",
+    "postgres_version": "17.6",
+    "database_mode": "Docker PostgreSQL, loopback 55432, healthy",
+    "api_instances": 1,
+    "worker_pool_size": 4,
+    "environment_report": "docs/environment-check.md",
+    "database_pool_max": 10,
+    "python_qa_requirements": "requirements-dev.txt",
+    "browser": "Chromium 156.0.8078.4 via pinned Node Playwright executable discovery",
+    "migrations_applied": 5
+  },
+  "execution_mode": {
+    "kind": "shared-checkout-native-subagents",
+    "checkout": "D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_requested": "high",
+    "verification": "Explicit spawn arguments plus inspected global agents defaults; spawn receipts expose task names only, no independent server-side model metadata.",
+    "file_ownership": "planning/OWNERSHIP.csv; root owns integration/dependencies/Git; no concurrent index writes"
+  },
+  "ownership": {
+    "root": {
+      "writes": [
+        "packages/game-core/**",
+        "contracts/**",
+        "workspace root configuration and lockfiles",
+        "integration planning and release records"
+      ],
+      "owns": [
+        "rule/schema/contracts",
+        "game-core",
+        "cross-agent integration",
+        "acceptance interpretation"
+      ],
+      "cannot_delegate_unsupervised": [
+        "rule or seed changes",
+        "shared contract drift",
+        "release claims without evidence"
+      ]
+    },
+    "frontend": {
+      "writes": [
+        "apps/web/src/**",
+        "assigned frontend local tests",
+        "assigned frontend runtime documentation"
+      ],
+      "reads": [
+        "contracts/**",
+        "packages/game-core/**",
+        "design/**",
+        "apps/web/public/assets/**"
+      ],
+      "excludes": [
+        "packages/game-core/**",
+        "contracts/**",
+        "root lockfiles",
+        "art-source/**",
+        "design production sources/specs/asset metadata",
+        "apps/web/public/assets/**"
+      ]
+    },
+    "backend": {
+      "writes": [
+        "apps/server/**"
+      ],
+      "reads": [
+        "contracts/**",
+        "packages/game-core/**"
+      ],
+      "excludes": [
+        "packages/game-core/**",
+        "contracts/**",
+        "root lockfiles"
+      ]
+    },
+    "art": {
+      "writes": [
+        "art-source/**",
+        "design/source/**",
+        "design/ui_kit/**",
+        "assigned design/asset_specs/**",
+        "assigned design asset metadata",
+        "apps/web/public/assets/**"
+      ],
+      "reads": [
+        "design/**",
+        "contracts/**"
+      ],
+      "excludes": [
+        "apps/web/src/**",
+        "apps/server/**",
+        "packages/game-core/**",
+        "contracts/**",
+        "rule JSON",
+        "root lockfiles"
+      ]
+    },
+    "organizer": {
+      "responsible_for": [
+        "real event data",
+        "people/roles",
+        "gift stock and budget",
+        "human participant recruitment",
+        "onsite operation confirmation"
+      ]
+    },
+    "shared_generated_outputs": "由root安排串行构建；不让frontend与art同时写同一输出；不另设根assets运行副本。"
+  },
+  "status_vocabulary": {
+    "task": [
+      "TODO",
+      "IN_PROGRESS",
+      "BLOCKED",
+      "DONE"
+    ],
+    "case": [
+      "NOT_RUN",
+      "PASS",
+      "FAIL",
+      "BLOCKED",
+      "REVIEW"
+    ],
+    "gate": [
+      "NOT_RUN",
+      "BLOCKED",
+      "REVIEW",
+      "PASS"
+    ],
+    "rule": "DONE/PASS必须附真实证据；已有Python数学证据与未来TS/数据库/真人验收分开。"
+  },
+  "current_phase": "M5–M6 LOCAL_FUNCTIONAL_DELIVERY / FINAL VISUAL REVIEW",
+  "current_task_id": "T-071",
+  "next_task_ids": [
+    "T-051",
+    "T-066",
+    "T-071",
+    "T-062",
+    "T-065",
+    "T-072"
+  ],
+  "task_state": {
+    "T-001": {
+      "status": "DONE",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/environment-check.md"
+      ],
+      "blocker_ids": []
+    },
+    "T-002": {
+      "status": "DONE",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "acceptance/package_verification.json;docs/contract-adoption.md"
+      ],
+      "blocker_ids": []
+    },
+    "T-003": {
+      "status": "DONE",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "README.md;docs/evidence/all-tests.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-010": {
+      "status": "DONE",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "packages/contracts/openapi.yaml;packages/contracts/src;docs/contract-adoption.md"
+      ],
+      "blocker_ids": []
+    },
+    "T-011": {
+      "status": "DONE",
+      "owner": "backend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "apps/server/db/migrations;docs/evidence/backend-tests.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-012": {
+      "status": "DONE",
+      "owner": "art",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "apps/web/public/assets/asset-manifest.v1.json;docs/art-report.md"
+      ],
+      "blocker_ids": []
+    },
+    "T-020": {
+      "status": "DONE",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "apps/web/tests;packages/game-core/test/core.test.ts;docs/evidence/all-tests.json",
+        "docs/evidence/browser-lost-prefix.json;acceptance/browser_lost_prefix.py",
+        "docs/evidence/browser-sealed-retry.json;acceptance/browser_sealed_retry.py",
+        "docs/evidence/browser-visibility.json;acceptance/browser_visibility.py",
+        "packages/game-core/test/core.test.ts;docs/evidence/all-tests.json",
+        "packages/game-core/test/core.test.ts;docs/evidence/backend-tests.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-021": {
+      "status": "DONE",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "packages/game-core/test/core.test.ts;packages/game-core/test/differential.test.ts"
+      ],
+      "blocker_ids": []
+    },
+    "T-022": {
+      "status": "DONE",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "packages/game-core/test/differential.test.ts"
+      ],
+      "blocker_ids": []
+    },
+    "T-023": {
+      "status": "DONE",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "packages/game-core/test/differential.test.ts"
+      ],
+      "blocker_ids": []
+    },
+    "T-024": {
+      "status": "DONE",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/core-determinism.json;acceptance/browser_determinism.py",
+        "docs/evidence/core-determinism.json;packages/game-core/test/differential.test.ts"
+      ],
+      "blocker_ids": []
+    },
+    "T-025": {
+      "status": "DONE",
+      "owner": "frontend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/browser-smoke.json;docs/evidence/browser-live-flow.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-030": {
+      "status": "DONE",
+      "owner": "backend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/backend-tests.json",
+        "docs/evidence/backend-tests.json;apps/server/test/protocol.test.ts;docs/runtime-validation.md"
+      ],
+      "blocker_ids": []
+    },
+    "T-031": {
+      "status": "DONE",
+      "owner": "backend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/backend-tests.json;apps/server/test/protocol.test.ts;docs/runtime-validation.md"
+      ],
+      "blocker_ids": []
+    },
+    "T-032": {
+      "status": "DONE",
+      "owner": "frontend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "apps/web/tests;docs/evidence/all-tests.json;docs/frontend-report.md",
+        "apps/web/tests;docs/evidence/browser-smoke.json;docs/frontend-report.md",
+        "docs/evidence/backend-tests.json;apps/server/test/protocol.test.ts;docs/runtime-validation.md",
+        "docs/evidence/browser-live-flow.json;apps/web/tests"
+      ],
+      "blocker_ids": []
+    },
+    "T-033": {
+      "status": "DONE",
+      "owner": "frontend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "apps/web/tests;docs/evidence/all-tests.json;docs/frontend-report.md",
+        "apps/web/tests;packages/game-core/test/core.test.ts;docs/evidence/all-tests.json",
+        "docs/evidence/browser-lost-prefix.json;acceptance/browser_lost_prefix.py",
+        "docs/evidence/browser-sealed-retry.json;acceptance/browser_sealed_retry.py",
+        "docs/evidence/browser-visibility.json;acceptance/browser_visibility.py"
+      ],
+      "blocker_ids": []
+    },
+    "T-034": {
+      "status": "DONE",
+      "owner": "backend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "apps/web/tests;packages/game-core/test/core.test.ts;docs/evidence/all-tests.json",
+        "docs/evidence/backend-tests.json;apps/server/test/protocol.test.ts;docs/runtime-validation.md",
+        "docs/evidence/browser-lost-prefix.json;acceptance/browser_lost_prefix.py",
+        "docs/evidence/browser-sealed-retry.json;acceptance/browser_sealed_retry.py",
+        "docs/evidence/browser-visibility.json;acceptance/browser_visibility.py",
+        "docs/evidence/process-restart.json;acceptance/process_restart.mjs;docs/evidence/backend-tests.json",
+        "packages/game-core/test/core.test.ts;docs/evidence/backend-tests.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-035": {
+      "status": "DONE",
+      "owner": "backend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/backend-tests.json;apps/server/test/protocol.test.ts;docs/runtime-validation.md",
+        "docs/evidence/process-restart.json;acceptance/process_restart.mjs;docs/evidence/backend-tests.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-036": {
+      "status": "DONE",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/browser-live-flow.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-040": {
+      "status": "DONE",
+      "owner": "frontend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/browser-live-flow.json;docs/evidence/core-determinism.json",
+        "docs/evidence/browser-smoke.json;docs/frontend-report.md"
+      ],
+      "blocker_ids": []
+    },
+    "T-041": {
+      "status": "DONE",
+      "owner": "frontend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/page-states.json",
+        "docs/frontend-report.md",
+        "docs/evidence/backend-tests.json",
+        "docs/evidence/browser-redemption-flow.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-042": {
+      "status": "DONE",
+      "owner": "backend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/backend-tests.json;apps/server/test/protocol.test.ts;docs/runtime-validation.md",
+        "docs/evidence/backend-tests.json;docs/runtime-validation.md",
+        "docs/evidence/process-restart.json;acceptance/process_restart.mjs;docs/evidence/backend-tests.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-043": {
+      "status": "DONE",
+      "owner": "backend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/backend-tests.json;apps/server/test/protocol.test.ts;docs/runtime-validation.md",
+        "docs/evidence/backend-tests.json;docs/evidence/browser-redemption-flow.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-044": {
+      "status": "DONE",
+      "owner": "backend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/backend-tests.json;apps/server/test/protocol.test.ts;docs/runtime-validation.md",
+        "docs/evidence/backend-tests.json;docs/backend-operations.md",
+        "docs/evidence/browser-redemption-flow.json;docs/evidence/backend-tests.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-045": {
+      "status": "DONE",
+      "owner": "frontend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/admin-supplement-live.json",
+        "docs/evidence/backend-tests.json",
+        "docs/evidence/t048-completion.json",
+        "docs/evidence/development-migration.json",
+        "docs/evidence/backup-restore-final.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-046": {
+      "status": "DONE",
+      "owner": "frontend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/page-states.json",
+        "docs/frontend-report.md",
+        "docs/evidence/backend-tests.json",
+        "docs/evidence/browser-redemption-flow.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-047": {
+      "status": "DONE",
+      "owner": "backend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/backend-tests.json;apps/server/test/protocol.test.ts;docs/runtime-validation.md",
+        "docs/evidence/backend-tests.json;docs/evidence/login-rate-limit-tests.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-048": {
+      "status": "DONE",
+      "owner": "backend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/admin-supplement-live.json",
+        "docs/evidence/backend-tests.json",
+        "docs/evidence/t048-completion.json",
+        "docs/evidence/development-migration.json",
+        "docs/evidence/backup-restore-final.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-050": {
+      "status": "DONE",
+      "owner": "art",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "art-source/README.md;art-source/runtime-validation.json;docs/art-report.md"
+      ],
+      "blocker_ids": []
+    },
+    "T-051": {
+      "status": "IN_PROGRESS",
+      "owner": "art",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "apps/web/public/assets/asset-manifest.v1.json;art-source/runtime-validation.json;docs/art-report.md"
+      ],
+      "blocker_ids": [
+        "真实运行图集已交付；最终视觉签认待验"
+      ]
+    },
+    "T-052": {
+      "status": "IN_PROGRESS",
+      "owner": "frontend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "apps/web/tests;docs/evidence/browser-smoke.json;docs/frontend-report.md",
+        "docs/evidence/browser-smoke.json;docs/evidence/browser-resources.json;docs/frontend-report.md",
+        "docs/evidence/load-report.json;docs/evidence/browser-smoke.json;docs/evidence/browser-resources.json"
+      ],
+      "blocker_ids": [
+        "资源接入技术通过；依赖T-051正式视觉验收"
+      ]
+    },
+    "T-060": {
+      "status": "IN_PROGRESS",
+      "owner": "backend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "apps/web/tests;docs/evidence/all-tests.json;docs/frontend-report.md",
+        "apps/web/tests;docs/evidence/browser-smoke.json;docs/frontend-report.md",
+        "apps/web/tests;packages/game-core/test/core.test.ts;docs/evidence/all-tests.json",
+        "docs/evidence/backend-tests.json;apps/server/test/protocol.test.ts;docs/runtime-validation.md",
+        "docs/evidence/browser-lost-prefix.json;acceptance/browser_lost_prefix.py",
+        "docs/evidence/browser-sealed-retry.json;acceptance/browser_sealed_retry.py",
+        "docs/evidence/browser-visibility.json;acceptance/browser_visibility.py",
+        "docs/evidence/core-determinism.json;acceptance/browser_determinism.py",
+        "docs/evidence/load-report.json;docs/evidence/browser-smoke.json;docs/evidence/browser-resources.json",
+        "docs/evidence/process-restart.json;acceptance/process_restart.mjs;docs/evidence/backend-tests.json",
+        "docs/runtime-validation.md;docs/evidence/backend-tests.json;docs/test-report.md",
+        "packages/game-core/test/core.test.ts;docs/evidence/backend-tests.json"
+      ],
+      "blocker_ids": [
+        "53协议实际自动化范围已过；待T-052/T-064正式资产依赖验收"
+      ]
+    },
+    "T-061": {
+      "status": "DONE",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/playtest-protocol.md;acceptance/playtest_statistics.py;acceptance/test_playtest_statistics.py"
+      ],
+      "blocker_ids": []
+    },
+    "T-062": {
+      "status": "BLOCKED",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/playtest-report.md;docs/playtest-statistics.json"
+      ],
+      "blocker_ids": [
+        "B-HUMAN"
+      ]
+    },
+    "T-063": {
+      "status": "BLOCKED",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/playtest-report.md;docs/playtest-statistics.json"
+      ],
+      "blocker_ids": [
+        "B-HUMAN"
+      ]
+    },
+    "T-064": {
+      "status": "IN_PROGRESS",
+      "owner": "backend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/load-report.json;docs/evidence/browser-smoke.json;docs/evidence/browser-resources.json",
+        "docs/evidence/load-report.json;docs/runtime-validation.md"
+      ],
+      "blocker_ids": [
+        "更新后实际本机容量P95=3914.62ms已过；待T-052正式资产依赖验收"
+      ]
+    },
+    "T-065": {
+      "status": "BLOCKED",
+      "owner": "frontend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/release-gate.md"
+      ],
+      "blocker_ids": [
+        "B-DEVICE"
+      ]
+    },
+    "T-066": {
+      "status": "IN_PROGRESS",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/art-report.md;docs/evidence/visual-preview.json;docs/release-gate.md"
+      ],
+      "blocker_ids": [
+        "最终视觉签认待验；页面状态专项已通过"
+      ]
+    },
+    "T-067": {
+      "status": "IN_PROGRESS",
+      "owner": "art",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/THIRD_PARTY_NOTICES.md;design/asset_specs/SOURCE_REGISTER.md;art-source/README.md"
+      ],
+      "blocker_ids": [
+        "许可已归档；依赖T-051最终资产定稿"
+      ]
+    },
+    "T-070": {
+      "status": "DONE",
+      "owner": "backend",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/evidence/admin-supplement-live.json",
+        "docs/evidence/backend-tests.json",
+        "docs/evidence/t048-completion.json",
+        "docs/evidence/development-migration.json",
+        "docs/evidence/backup-restore-final.json"
+      ],
+      "blocker_ids": []
+    },
+    "T-071": {
+      "status": "IN_PROGRESS",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/test-report.md;docs/release-gate.md"
+      ],
+      "blocker_ids": [
+        "最终视觉签认/正式资产验收仍REVIEW"
+      ]
+    },
+    "T-072": {
+      "status": "BLOCKED",
+      "owner": "organizer",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/release-gate.md"
+      ],
+      "blocker_ids": [
+        "B-EVENT"
+      ]
+    },
+    "T-073": {
+      "status": "BLOCKED",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/release-gate.md"
+      ],
+      "blocker_ids": [
+        "B-HUMAN",
+        "B-DEVICE",
+        "B-EVENT",
+        "T-071"
+      ]
+    },
+    "T-074": {
+      "status": "BLOCKED",
+      "owner": "root",
+      "branch_or_agent": "/root (integrated; all subagents returned)",
+      "commit": "local integration checkpoint; resolve with git log",
+      "evidence": [
+        "docs/release-gate.md"
+      ],
+      "blocker_ids": [
+        "B-HUMAN",
+        "B-DEVICE",
+        "B-EVENT",
+        "T-071"
+      ]
+    }
+  },
+  "validation": {
+    "matrix_path": "planning/ACCEPTANCE_MATRIX.csv",
+    "total_cases": 104,
+    "original_protocol_cases": 51,
+    "product_and_delivery_cases": 51,
+    "initial_status": "NOT_RUN",
+    "executed_count": 91,
+    "pass_count": 88,
+    "fail_count": 0,
+    "latest_report": "docs/test-report.md",
+    "protocol_ids": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "I01",
+      "I02",
+      "I03",
+      "I04",
+      "I05",
+      "I06",
+      "I07",
+      "C01",
+      "C02",
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "E01",
+      "E02",
+      "E03",
+      "E04",
+      "E05",
+      "E06",
+      "E07",
+      "J01",
+      "J02",
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "G07",
+      "A01",
+      "A02",
+      "A03",
+      "V01",
+      "V02",
+      "V03",
+      "M01",
+      "M02"
+    ],
+    "runtime_clarification_cases": 2,
+    "protocol_cases_total": 53,
+    "review_count": 3,
+    "not_run_count": 13,
+    "automated_tests": {
+      "passed": 312,
+      "failed": 0,
+      "core": 196,
+      "backend": 100,
+      "frontend": 16,
+      "report": "docs/evidence/all-tests.json"
+    },
+    "counts": {
+      "PASS": 88,
+      "REVIEW": 3,
+      "NOT_RUN": 13
+    },
+    "view_state_checks": {
+      "passed": 196,
+      "failed": 0,
+      "baseline": 145,
+      "new_or_affected": 51,
+      "strategy": "latest actual result per case; not one new full run",
+      "backend_business_acceptance": false,
+      "report": "docs/evidence/page-state-coverage.json"
+    }
+  },
+  "gates": [
+    {
+      "id": "G0-BASELINE",
+      "status": "PASS",
+      "meaning": "真实环境与需求基线",
+      "evidence": [
+        "docs/test-report.md",
+        "planning/ACCEPTANCE_MATRIX.csv",
+        "docs/release-gate.md"
+      ]
+    },
+    {
+      "id": "G1-CONTRACT",
+      "status": "PASS",
+      "meaning": "单一契约/迁移/资产接口",
+      "evidence": [
+        "docs/test-report.md",
+        "planning/ACCEPTANCE_MATRIX.csv",
+        "docs/release-gate.md"
+      ]
+    },
+    {
+      "id": "G2-CORE_GRAYBOX",
+      "status": "PASS",
+      "meaning": "三款core一致且灰盒可玩",
+      "evidence": [
+        "docs/test-report.md",
+        "planning/ACCEPTANCE_MATRIX.csv",
+        "docs/release-gate.md"
+      ]
+    },
+    {
+      "id": "G3-STACK_E2E",
+      "status": "PASS",
+      "meaning": "叠高高真实数据库闭环",
+      "evidence": [
+        "docs/test-report.md",
+        "planning/ACCEPTANCE_MATRIX.csv",
+        "docs/release-gate.md"
+      ]
+    },
+    {
+      "id": "G4-FEATURE_COMPLETE",
+      "status": "PASS",
+      "meaning": "三款全部页面与后台功能",
+      "evidence": [
+        "docs/test-report.md",
+        "planning/ACCEPTANCE_MATRIX.csv",
+        "docs/release-gate.md"
+      ]
+    },
+    {
+      "id": "G5-DEVELOPMENT_COMPLETE",
+      "status": "REVIEW",
+      "meaning": "开发完成：运行协议/资产/容量/手册等开发证据通过",
+      "evidence": [
+        "docs/test-report.md",
+        "planning/ACCEPTANCE_MATRIX.csv",
+        "docs/release-gate.md"
+      ]
+    },
+    {
+      "id": "G6-ONSITE_ENABLE",
+      "status": "BLOCKED",
+      "meaning": "现场启用：另需真人/真机网络/真实配置/人员演练",
+      "evidence": [
+        "docs/test-report.md",
+        "planning/ACCEPTANCE_MATRIX.csv",
+        "docs/release-gate.md"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "id": "B-HUMAN",
+      "scope": "onsite_enable",
+      "reason": "至少24人的实际配对试玩尚未执行",
+      "blocks_tasks": [
+        "T-062",
+        "T-063",
+        "T-074"
+      ],
+      "continue": "继续core、真实后台、前端、资产和自动化验收；不得合成填真人数据"
+    },
+    {
+      "id": "B-EVENT",
+      "scope": "onsite_enable",
+      "reason": "真实公司/日期/名单/礼品价格库存/领取截止/现场规模未填",
+      "blocks_tasks": [
+        "T-072",
+        "T-073",
+        "T-074"
+      ],
+      "continue": "隔离开发event可用明确开发数据；不编正式承诺"
+    },
+    {
+      "id": "B-DEVICE",
+      "scope": "onsite_enable",
+      "reason": "实际手机/微信与现场网络尚无证据",
+      "blocks_tasks": [
+        "T-065",
+        "T-073",
+        "T-074"
+      ],
+      "continue": "自动化浏览器和移动视口测试可继续，分别报告"
+    },
+    {
+      "id": "B-ASSET",
+      "scope": "development_complete",
+      "reason": "原创Blender母源、254帧和运行图集已交付并技术通过；rendered_candidate尚未完成正式视觉签认。",
+      "blocks_tasks": [
+        "T-051",
+        "T-052",
+        "T-066",
+        "T-071"
+      ],
+      "continue": "保留候选状态，继续逐页面/视觉验收；不需重新制作已存在的母源。"
+    }
+  ],
+  "real_event_configuration": {
+    "company": null,
+    "event_date": null,
+    "timezone": null,
+    "expected_participants": null,
+    "challenge_closes_at": null,
+    "claim_closes_at": null,
+    "roles_confirmed": false,
+    "roster_confirmed": false,
+    "gifts_confirmed": false,
+    "budget_confirmed": false,
+    "onsite_network_confirmed": false,
+    "retention_policy_confirmed": false,
+    "not_for_secrets": true
+  },
+  "decisions": [
+    {
+      "id": "D-001",
+      "decision": "Use Windows Node24.12/npm11.6 workspaces and loopback ports Web5175/API3100/PG55432."
+    },
+    {
+      "id": "D-002",
+      "decision": "Keep input contracts/ as historical read-only baseline; packages/contracts/openapi.yaml is live sole HTTP source."
+    },
+    {
+      "id": "D-003",
+      "decision": "DB statuses text+CHECK; cyclic composite FKs DEFERRABLE; events.is_development internal flag defaults false."
+    },
+    {
+      "id": "D-004",
+      "decision": "Add public GET /api/display to satisfy D01; no personal identifiers/credentials."
+    },
+    {
+      "id": "D-005",
+      "decision": "Pin TypeScript5.9.3 because openapi-typescript7.13 peer dependency requires 5.x; do not bypass peer dependencies."
+    },
+    {
+      "id": "D-006",
+      "decision": "4 replay workers / PG pool10 after real mixed-load P95 3933.88ms; retain previous 2-worker failing evidence."
+    },
+    {
+      "id": "D-007",
+      "decision": "Local CHECK_IN practice demo is separate from production; demo:new preserves all historical activities/slots and refuses while API is running."
+    },
+    {
+      "id": "D-008",
+      "decision": "Runtime assets rendered_candidate remain distinct from final visual acceptance; no fabricated human/device/event gate."
+    },
+    {
+      "id": "D-009",
+      "decision": "Bounded login invitation20/min, original nonce120/min, shared IP1500/min; actual300 same-IP HTTP/PG logins passed."
+    },
+    {
+      "id": "D-010",
+      "decision": "Preserve raw release/asset bytes with -text attributes; Git blob hashes verified before committing."
+    },
+    {
+      "id": "D-011",
+      "decision": "Playtests stay in isolated development tables; common core and existing finite pool verify full logs, final operator zero has a distinct audited source."
+    },
+    {
+      "id": "D-012",
+      "decision": "Confirmed event write revisions form the UI revision floor; stale GET never overrides a known newer version, while server CAS remains authoritative."
+    }
+  ],
+  "open_questions": [],
+  "last_handoff": {
+    "completed_task_ids": [
+      "T-001",
+      "T-002",
+      "T-003",
+      "T-010",
+      "T-011",
+      "T-012",
+      "T-020",
+      "T-021",
+      "T-022",
+      "T-023",
+      "T-024",
+      "T-025",
+      "T-030",
+      "T-031",
+      "T-032",
+      "T-033",
+      "T-034",
+      "T-035",
+      "T-036",
+      "T-040",
+      "T-041",
+      "T-042",
+      "T-043",
+      "T-044",
+      "T-045",
+      "T-046",
+      "T-047",
+      "T-048",
+      "T-050",
+      "T-061",
+      "T-070"
+    ],
+    "base_commit": "a9201a23a19643a79b418fb63bc2ba66b204bc21",
+    "integration_ref": "HEAD; git log -1",
+    "changed_files": [
+      "git show --stat HEAD",
+      "docs/delivery-manifest.json"
+    ],
+    "commands_run": [
+      "npm test -- --reporter=json --outputFile=docs/evidence/all-tests.json",
+      "npm run typecheck",
+      "npm run build",
+      "npm run contracts:check",
+      "npm run rules:check",
+      "npm run test:e2e",
+      "npm run db:migrate",
+      "node --env-file=.env.local --import tsx acceptance/admin_supplement_flow.mjs",
+      "node --env-file=.env.local --import tsx apps/server/scripts/load.ts",
+      "python acceptance/verify_package.py",
+      "python -m unittest discover -s acceptance -p test_playtest_statistics.py"
+    ],
+    "results": [
+      "312/312 Vitest (196core/100backend/16web)",
+      "typecheck/build/contracts/rules exit0",
+      "27 Chromium/Node summaries and 10 practice switches PASS",
+      "Actual three-game formal scoring and redemption flow PASS",
+      "Actual administrative supplement 8flows PASS with no original dev/invite changes",
+      "5 non-destructive development migrations and fresh restore PASS",
+      "Updated 4worker local settlement P95 3914.62ms, credits100/errors0",
+      "12 statistical checks PASS; human CSV remains header only",
+      "IR-01–IR-09 CLOSED"
+    ],
+    "unverified": [
+      "N30/N45 final visual and corresponding formal asset acceptance",
+      "N34–42 real 24-person paired difficulty/subgroups",
+      "N44 physical phones/WeChat/onsite network",
+      "N49–51 real company/event/gift configuration, staff rehearsal and onsite enable"
+    ],
+    "next_steps": [
+      "Continue this existing checkout and persistent PostgreSQL history; never reconstruct from the original empty template.",
+      "Review final visual against the supplied references; keep rendered_candidate until it passes, then evaluate remaining G5 dependencies.",
+      "Collect actual human/device/event/staff evidence for G6 only when available; do not synthesize records or reuse automated samples."
+    ]
+  },
+  "completion": {
+    "development_complete": false,
+    "onsite_enable_eligible": false,
+    "publicly_deployed": false,
+    "actual_event_phase": null,
+    "note": "三款游戏/共用真实PG后台/兑奖与补充管理流程的本地功能版已运行；G4通过。G5最终视觉和正式资产验收仍REVIEW；G6真人/真机/现场/真实配置/演练未放行。",
+    "local_functional_delivery_complete": true
+  },
+  "local_delivery": {
+    "web_url": "http://127.0.0.1:5175/",
+    "api_url": "http://127.0.0.1:3100/",
+    "event_id": "239f0af7-2929-4d96-b8a2-6bf71f93f65d",
+    "phase": "CHECK_IN",
+    "practice_enabled": true,
+    "formal_play_requires_development_organizer": true,
+    "credentials_location": ".local/development-accounts.json (private, ignored)",
+    "default_demo_invites_unused": true,
+    "historical_events_retained": true,
+    "server_shutdown": "Ctrl+C via supervisor IPC; PostgreSQL separate db:stop",
+    "readiness_evidence": "docs/evidence/local-readiness.json",
+    "current_migration_evidence": "docs/evidence/development-migration.json"
+  },
+  "supplemental_work": {
+    "status": "DONE",
+    "requirements": [
+      "RQ-03 staff roles",
+      "RQ-17 procurement costs/budget",
+      "RQ-20 claimed-order discrepancies",
+      "RQ-28/RQ-33 playtest and complete exports/retention"
+    ],
+    "root_owns": "OpenAPI/DTO/schema and final integration",
+    "backend_owns": "004 migration, backend HTTP/PG/jobs/tests",
+    "frontend_owns": "admin UI and view fixtures",
+    "review_semantics": "No financial mutation for discrepancies; no extra slots; no fake human data; playtests development-only",
+    "contract_sha256": "76e3f54fcae9f308fc764981096cdb5b99e1864de643a725769847e52bbf6a2f",
+    "contract_status": "FROZEN_AND_GENERATED",
+    "semantics": "docs/admin-contract-supplement.md",
+    "statistics_checks": {
+      "passed": 12,
+      "failed": 0,
+      "human_csv_rows": 0,
+      "guards": [
+        "source_kind",
+        "verification_status",
+        "invalid-zero",
+        "skill-label"
+      ]
+    },
+    "integration_verification": "PASS: 312 tests/typecheck/build/contracts/rules, actual HTTP/PG browser 8flows, 5 migrations, 4worker capacity P95 3914.62ms",
+    "core_checks": {
+      "passed": 196,
+      "failed": 0,
+      "diagnostics": "Optional actual sheep entry events; no state/scoring/hash change"
+    },
+    "migrations": [
+      "004_admin_completion.sql",
+      "005_playtest_raw_diagnostics.sql"
+    ],
+    "actual_browser_status": "PASS 8 workflows / 0 page errors, original development event unchanged"
+  },
+  "visual_repair_v1": {
+    "baseline_commit": "9d652fb3fef2ede55ebc462d46445cc855b98dd1",
+    "stage": "local implementation and targeted verification delivered; formal art REVIEW",
+    "record": "docs/visual-repair-v1-report.md",
+    "task_state": "planning/VISUAL_REPAIR_STATE.json",
+    "evidence": "output/visual-repair-v1/integration-evidence.json",
+    "asset_version": "art-1.3.0-visual-repair",
+    "asset_manifest_hash": "bdf93f4c26c9ed6e108f5af5a718edd7997a86936da85404485a68e1eeb8d234",
+    "scope_status": {
+      "lobby": "PASS",
+      "stack": "REVIEW",
+      "runner": "REVIEW",
+      "herd": "REVIEW",
+      "game_art": "REVIEW",
+      "shared_pages": "PASS",
+      "runtime_regression": "PASS",
+      "g5": "REVIEW",
+      "g6": "BLOCKED"
+    },
+    "local_game_scene_checks": {
+      "stack": "PASS",
+      "runner": "PASS",
+      "herd": "PASS",
+      "meaning": "actual local rendering/layout/motion and protected geometry; not formal art signature"
+    },
+    "regression": {
+      "core_web_unit_passed": 223,
+      "lobby_shared_view_passed": 56,
+      "lifecycle_view_passed": 19,
+      "browser_golden_comparisons": 27,
+      "real_practice_switches": 10,
+      "real_browser_api_writes": 0
+    },
+    "current_service_state": "output/visual-repair-v1/service-state-final.json",
+    "next_task": "Review/refine fine wool, side facial expression and dog material against actual comparisons using delivered editable masters; do not rebuild gameplay",
+    "rules_backend_contract_dependencies_changed": false,
+    "user_changes_preserved": true
+  }
+}

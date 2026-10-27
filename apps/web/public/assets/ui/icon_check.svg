@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="icon_check_title icon_check_desc">
+<title id="icon_check_title">完成</title><desc id="icon_check_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.icon.check&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [64, 64], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs></defs>
+<g id="disc"><circle cx="32" cy="32" r="25" fill="#587C46"/></g><g id="check" fill="none" stroke="#FFF8E9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"><path d="M19 33 28 42 46 23"/></g>
+</svg>

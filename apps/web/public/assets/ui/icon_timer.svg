@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="icon_timer_title icon_timer_desc">
+<title id="icon_timer_title">倒计时</title><desc id="icon_timer_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.icon.timer&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [64, 64], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs></defs>
+<g id="case"><rect x="27" y="4" width="10" height="8" rx="3" fill="#D8AC4B"/><path d="M12 19 19 12 M45 12 52 19" stroke="#D95B43" stroke-width="7" stroke-linecap="round"/><circle cx="32" cy="36" r="22" fill="#FFF8E9" stroke="#D95B43" stroke-width="5"/></g><g id="hands" fill="none" stroke="#493B2D" stroke-width="4" stroke-linecap="round"><path d="M32 22V36L41 41"/><circle cx="32" cy="36" r="2" fill="#493B2D"/></g>
+</svg>

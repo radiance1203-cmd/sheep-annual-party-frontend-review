@@ -1,0 +1,42 @@
+{
+  "version": "1.1.0",
+  "source": "art-source/package_assets.py",
+  "license_note": "Original procedural synthesized optional cues; no samples, no external source",
+  "files": [
+    {
+      "path": "bark.wav",
+      "bytes": 7982,
+      "sha256": "e4538f83bf5089d9d2f5f8d9baf4995ed589f021373c980b0d0c2550a7a1c56b"
+    },
+    {
+      "path": "celebrate.wav",
+      "bytes": 22094,
+      "sha256": "9be453fbb0d80224672e2f1675c7150696984ad7ac77bc1b1ebf20a4b87ca004"
+    },
+    {
+      "path": "click.wav",
+      "bytes": 3130,
+      "sha256": "6dc75ec36e86716d2262587026a11c5faa4163806fdf7962cd421888b4d5f18c"
+    },
+    {
+      "path": "enter.wav",
+      "bytes": 11068,
+      "sha256": "550f99a7219f80a1ebbc4334971049969e9adb6a982ea16095cae4214de8b75b"
+    },
+    {
+      "path": "jump.wav",
+      "bytes": 5336,
+      "sha256": "3ad76af7936d6319f95d0131e600a2b43dc91c454491bdfbd24b2067f67920d9"
+    },
+    {
+      "path": "mistake.wav",
+      "bytes": 7982,
+      "sha256": "a2c91f38d81e362ef7e5c61c5b577e60f756eb0270c61707c651e87e21120130"
+    },
+    {
+      "path": "success.wav",
+      "bytes": 9746,
+      "sha256": "6a4d9d618f0d54c51c8f7f912de69f1e870c805fdae5e41ce47fa193c3ebac70"
+    }
+  ]
+}

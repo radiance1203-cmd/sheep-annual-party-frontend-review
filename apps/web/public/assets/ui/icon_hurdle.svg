@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="icon_hurdle_title icon_hurdle_desc">
+<title id="icon_hurdle_title">跨栏进度</title><desc id="icon_hurdle_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.icon.hurdle&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [64, 64], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs></defs>
+<g id="posts" fill="#B7804D" stroke="#805735" stroke-width="2"><rect x="9" y="10" width="9" height="47" rx="3"/><rect x="46" y="10" width="9" height="47" rx="3"/></g><g id="beam"><rect x="17" y="22" width="30" height="12" rx="2" fill="#FFF8E9" stroke="#B7804D" stroke-width="1.5"/><path d="M24 22H33L29 34H20Z M42 22H47V30L46 34H38Z" fill="#D95B43"/></g>
+</svg>

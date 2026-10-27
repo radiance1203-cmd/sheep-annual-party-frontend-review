@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "scope": "same three full accepted synthetic golden logs, conclusions, end ticks and final state hashes in Node",
+  "baseline": "baseline/core-node-results.json",
+  "after": "core-node-final.json",
+  "same_inputs_and_results": true
+}

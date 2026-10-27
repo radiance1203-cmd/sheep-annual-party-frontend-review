@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="icon_sound_on_title icon_sound_on_desc">
+<title id="icon_sound_on_title">声音开启</title><desc id="icon_sound_on_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.icon.sound.on&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [64, 64], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs></defs>
+<g id="speaker" fill="#493B2D"><path d="M10 25H22L35 14V50L22 39H10Z"/></g><g id="waves" fill="none" stroke="#493B2D" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"><path d="M43 23Q52 32 43 41 M49 14Q65 32 49 50"/></g>
+</svg>

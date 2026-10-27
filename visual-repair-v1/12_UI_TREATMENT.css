@@ -1,0 +1,123 @@
+/* Visual material recipe, not a replacement for the app stylesheet.
+ * Map to existing components; opt in only inside data-visual-repair="v1".
+ * Do not replace event handlers, semantics, routes, business state or game input.
+ * Actual browser visual/contrast/target-size validation is still required.
+ */
+[data-visual-repair="v1"] {
+  --vr-ink: #493b2d;
+  --vr-title: #6b3219;
+  --vr-cream: #fff8e9;
+  --vr-red: #d95b43;
+  --vr-red-bottom: #ba3827;
+  --vr-edge: #ead4ad;
+  color: var(--vr-ink);
+}
+
+[data-visual-repair="v1"] .vr-panel,
+[data-visual-repair="v1"] .vr-game-card {
+  box-sizing: border-box;
+  border: 1px solid var(--vr-edge);
+  border-radius: 24px;
+  background: linear-gradient(145deg, #fffdf7 0%, #fff5e2 65%, #f9e7c6 100%);
+  box-shadow:
+    inset 0 2px 0 rgba(255, 255, 255, .95),
+    inset 0 -2px 0 rgba(200, 154, 87, .12),
+    0 6px 14px rgba(105, 69, 24, .14);
+}
+
+[data-visual-repair="v1"] .vr-panel { padding: 16px; }
+
+[data-visual-repair="v1"] .vr-game-card {
+  display: grid;
+  grid-template-columns: minmax(104px, 44%) minmax(0, 1fr);
+  gap: 12px;
+  padding: 12px;
+  min-height: 176px;
+  align-items: center;
+}
+
+[data-visual-repair="v1"] .vr-card-copy { min-width: 0; }
+[data-visual-repair="v1"] .vr-card-copy p {
+  margin-block: 8px;
+  font-size: 16px;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+[data-visual-repair="v1"] .vr-cover {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  border-radius: 16px;
+}
+
+[data-visual-repair="v1"] .vr-hero {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+[data-visual-repair="v1"] .vr-wood-label {
+  margin: 0;
+  padding: 6px 10px;
+  color: var(--vr-title);
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.2;
+  overflow-wrap: anywhere;
+  border: 1px solid #dfb574;
+  border-radius: 12px;
+  background:
+    repeating-linear-gradient(2deg, transparent 0 6px, rgba(156, 94, 31, .045) 6px 8px),
+    linear-gradient(#f8dca9, #edc58b);
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, .6), 0 2px 3px rgba(113, 71, 24, .13);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, .55);
+}
+
+[data-visual-repair="v1"] .vr-primary-button {
+  box-sizing: border-box;
+  min-width: 96px;
+  min-height: 48px;
+  max-width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #b8412d;
+  border-radius: 20px;
+  color: var(--vr-cream);
+  background: linear-gradient(var(--vr-red), #ce4d35);
+  font: inherit;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, .3), 0 4px 0 var(--vr-red-bottom), 0 7px 10px rgba(140, 58, 29, .2);
+  cursor: pointer;
+}
+
+[data-visual-repair="v1"] .vr-primary-button:focus-visible {
+  outline: 3px solid var(--vr-ink);
+  outline-offset: 4px;
+}
+
+[data-visual-repair="v1"] .vr-primary-button:active:not(:disabled):not([aria-disabled="true"]) {
+  transform: translateY(2px);
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, .2), 0 2px 0 var(--vr-red-bottom);
+}
+
+[data-visual-repair="v1"] .vr-primary-button:disabled,
+[data-visual-repair="v1"] .vr-primary-button[aria-disabled="true"] {
+  color: var(--vr-ink);
+  background: #eee1c9;
+  border-color: #c9b698;
+  box-shadow: inset 0 1px 0 white;
+  cursor: not-allowed;
+}
+/* aria-disabled styling does NOT block action: the existing component must
+ * implement its disabled behavior and accessible description in code. */
+
+@media (prefers-reduced-motion: reduce) {
+  [data-visual-repair="v1"] .vr-primary-button:active { transform: none; }
+}

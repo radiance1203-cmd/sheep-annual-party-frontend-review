@@ -1,0 +1,24 @@
+{
+  "status": "SOURCE_EDITED_RENDER_REVIEW_PENDING",
+  "source_sha256": "5b94f5714c54402c364a9687f28c8b1c2b7d54568f918484a1678467e99b3326",
+  "retained_props": [
+    "hay_tray",
+    "fence_segment",
+    "hurdle",
+    "clover_outer",
+    "clover_core",
+    "grass_tile",
+    "dirt_tile",
+    "barn",
+    "gate_marker",
+    "flower",
+    "shadow_contact"
+  ],
+  "additional_props": [
+    "bush",
+    "tree",
+    "lantern"
+  ],
+  "rule_geometry_changes": false,
+  "master": "art-source/v2/farm_master_v2.blend"
+}

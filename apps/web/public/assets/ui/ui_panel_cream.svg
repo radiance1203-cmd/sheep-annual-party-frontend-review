@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="128" viewBox="0 0 320 128" role="img" aria-labelledby="ui_panel_cream_title ui_panel_cream_desc">
+<title id="ui_panel_cream_title">奶油信息面板</title><desc id="ui_panel_cream_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.panel.cream&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [320, 128], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs><linearGradient id="ui_panel_cream_cream" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFDF7"/><stop offset="1" stop-color="#FBEACA"/></linearGradient></defs>
+<g id="shadow"><rect x="5" y="8" width="310" height="116" rx="24" fill="#87603C" opacity=".1"/></g><g id="surface"><rect x="3" y="3" width="314" height="116" rx="24" fill="url(#ui_panel_cream_cream)" stroke="#E8D5B5" stroke-width="1.5"/></g><g id="highlight"><path d="M24 7 H296" stroke="#FFFFFF" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/></g>
+</svg>

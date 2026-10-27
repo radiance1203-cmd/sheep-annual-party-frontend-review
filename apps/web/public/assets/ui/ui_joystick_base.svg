@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144" role="img" aria-labelledby="ui_joystick_base_title ui_joystick_base_desc">
+<title id="ui_joystick_base_title">摇杆透明底座</title><desc id="ui_joystick_base_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.joystick.base&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [144, 144], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs></defs>
+<g id="surface"><circle cx="72" cy="72" r="66" fill="#FFF8E9" fill-opacity=".3" stroke="#FFF8E9" stroke-opacity=".85" stroke-width="3"/><circle cx="72" cy="72" r="48" fill="#A9C76B" fill-opacity=".12"/></g><g id="direction_marks" fill="#FFF8E9" fill-opacity=".85"><path d="M72 17 65 27 79 27Z"/><path d="M127 72 117 65 117 79Z"/><path d="M72 127 65 117 79 117Z"/><path d="M17 72 27 65 27 79Z"/></g>
+</svg>

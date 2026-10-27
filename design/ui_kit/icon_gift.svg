@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="icon_gift_title icon_gift_desc">
+<title id="icon_gift_title">礼品</title><desc id="icon_gift_desc">原创可编辑UI基底；文字、数字、交互与状态由真实组件渲染。</desc>
+<metadata>{&quot;asset_id&quot;: &quot;ui.icon.gift&quot;, &quot;status&quot;: &quot;ready_ui_baseline&quot;, &quot;version&quot;: &quot;1.0.0&quot;, &quot;canvas_px&quot;: [64, 64], &quot;pivot_px&quot;: null, &quot;no_physics_geometry&quot;: true, &quot;source&quot;: &quot;original_programmatic_svg&quot;}</metadata>
+<defs></defs>
+<g id="box"><rect x="12" y="27" width="40" height="29" rx="3" fill="#D8AC4B" stroke="#8A592F" stroke-width="2"/><rect x="8" y="20" width="48" height="12" rx="3" fill="#D95B43" stroke="#8A592F" stroke-width="2"/></g><g id="ribbon" fill="none" stroke="#FFF8E9" stroke-width="5"><path d="M32 20V56"/></g><g id="bow" fill="none" stroke="#8A592F" stroke-width="3"><path d="M31 19C6 18 14 0 26 10L32 20C57 18 49 0 38 10Z"/></g>
+</svg>

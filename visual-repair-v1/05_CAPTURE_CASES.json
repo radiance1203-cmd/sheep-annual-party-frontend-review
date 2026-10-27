@@ -1,0 +1,212 @@
+{
+  "schema": "sheep-visual-capture-v1",
+  "execution_status": "NOT_RUN",
+  "evidence_type": "planned_app_case_groups",
+  "rules": [
+    "event_phases contains existing legal activity phases only. view_state_description is human guidance, never a new business enum. Expand each group into individually recorded legal captures, not a Cartesian product of all flags.",
+    "Formal play is only valid in PLAYING unless an actual permitted original-slot replacement grant applies; practice uses existing CHECK_IN/PLAYING rules. Gift creation is only in permitted REDEEMING; CLOSED may show already-existing claim orders under their actual deadline. Frozen is a separate business restriction, not a new phase.",
+    "Use an isolated development event or development-only component/scene visual fixture; never modify production records or stage gates for a screenshot.",
+    "Fixtures must not generate formal scores, slots, ledger writes, gift reservations or real claim codes. Do not fake human/device/onsite PASS to reach PLAYING.",
+    "fixture is not real API evidence. Use actual permitted service scenarios separately for business interaction checks.",
+    "Record CSS viewport, DPR, browser zoom, case ID, app build, asset version, font-loaded status, decode status and screenshot scope.",
+    "Capture both first viewport and full-page for lobby. For games record deterministic replay/checkpoint or explicitly visual-only view fixture. A display fixture is not a legal replay test.",
+    "Freeze decorative animation only in fixtures; do not change production time or input logic. Separate motion review uses actual running animation.",
+    "No production credentials, personal identity, complete QR claim tokens or private data in screenshots. Staff/claim samples use isolated nonredeemable fixtures.",
+    "Compare the same business state; 941x1672 reference may be scaled uniformly for side-by-side, never stretched to 390x844."
+  ],
+  "cases": [
+    {
+      "id": "LC-01",
+      "page": "lobby",
+      "identity_state": "unbound",
+      "event_phases": [
+        "CHECK_IN"
+      ],
+      "view_state_description": "normal for stated event phase",
+      "display": "binding CTA; no fabricated personal score",
+      "reference": "references/00_lobby.png",
+      "allowed_difference": "Identity block may differ; keep hero/cards/quality",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "id": "LC-02",
+      "page": "lobby",
+      "identity_state": "bound",
+      "event_phases": [
+        "CHECK_IN"
+      ],
+      "view_state_description": "normal for stated event phase",
+      "display": "practice entry; real available opportunities",
+      "reference": "references/00_lobby.png",
+      "allowed_difference": "Phase/CTA use practice wording",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "id": "LC-03",
+      "page": "lobby",
+      "identity_state": "bound",
+      "event_phases": [
+        "PLAYING"
+      ],
+      "view_state_description": "normal for stated event phase",
+      "display": "0 honor points, 3 available opportunities as isolated sample",
+      "reference": "references/00_lobby.png",
+      "allowed_difference": "Main composition reference state; sample only",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "id": "LC-04",
+      "page": "lobby",
+      "identity_state": "bound",
+      "event_phases": [
+        "PLAYING"
+      ],
+      "view_state_description": "normal for stated event phase",
+      "display": "178 honor points, 1 opportunity as isolated sample",
+      "reference": "references/00_lobby.png",
+      "allowed_difference": "Longer numbers must not change layout or crop",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "id": "LC-05",
+      "page": "lobby",
+      "identity_state": "bound",
+      "event_phases": [
+        "DRAINING"
+      ],
+      "view_state_description": "normal for stated event phase",
+      "display": "ordinary starts unavailable; show actual closing status",
+      "reference": "references/00_lobby.png",
+      "allowed_difference": "No fake start affordance; authorized replacement only if actual grant permits",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "id": "GC-01",
+      "page": "stack",
+      "identity_state": "bound",
+      "event_phases": [
+        "PLAYING"
+      ],
+      "view_state_description": "normal for stated event phase",
+      "display": "sample view: performance24/80; successful8; perfect4; mistakes0",
+      "reference": "references/01_stack.png",
+      "allowed_difference": "A coherent visual fixture, not asserted reachable exact screenshot tick",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "id": "GC-02",
+      "page": "runner",
+      "identity_state": "bound",
+      "event_phases": [
+        "PLAYING"
+      ],
+      "view_state_description": "normal for stated event phase",
+      "display": "sample view: performance20/80; safe6; outer1; inner1; mistakes1",
+      "reference": "references/02_runner.png",
+      "allowed_difference": "No life hearts; keep real separate outer/inner meaning",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "id": "GC-03",
+      "page": "herd",
+      "identity_state": "bound",
+      "event_phases": [
+        "PLAYING"
+      ],
+      "view_state_description": "normal for stated event phase",
+      "display": "sample view: 4 inside, 4 outside, performance24/80; one dog",
+      "reference": "references/03_herd.png",
+      "allowed_difference": "Gate/actors follow logical geometry, not exact AI picture positions",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "id": "GC-04",
+      "page": "all_games",
+      "identity_state": "bound",
+      "event_phases": [
+        "CHECK_IN",
+        "PLAYING"
+      ],
+      "view_state_description": "practice_and_running",
+      "display": "idle/run/jump/land/stack/mistake/herd-in/cooldown from actual available state",
+      "reference": "all three",
+      "allowed_difference": "Capture several representative frames or video; not only one flattering still",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "id": "BC-01",
+      "page": "result",
+      "identity_state": "bound",
+      "event_phases": [
+        "PLAYING",
+        "DRAINING"
+      ],
+      "view_state_description": "verified_and_pending",
+      "display": "verified sample 20+24=44; pending shows no credited points",
+      "reference": "none",
+      "allowed_difference": "Reuse visual system; never claim placeholder balance is API result",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "id": "BC-02",
+      "page": "gifts_and_claim",
+      "identity_state": "bound",
+      "event_phases": [
+        "REDEEMING",
+        "CLOSED"
+      ],
+      "view_state_description": "open_closed_frozen",
+      "display": "live labels/disabled states/long gift names",
+      "reference": "none",
+      "allowed_difference": "Shared-component smoke; no production claims or inventory writes for screenshots",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "id": "BC-03",
+      "page": "leaderboard",
+      "identity_state": "bound",
+      "event_phases": [
+        "CHECK_IN",
+        "PLAYING",
+        "DRAINING",
+        "REDEEMING",
+        "CLOSED"
+      ],
+      "view_state_description": "ranked_and_empty",
+      "display": "tied rank and empty/loading layouts",
+      "reference": "none",
+      "allowed_difference": "Preserve business rankings; fixed fixture only for visual inspection",
+      "status": "NOT_RUN",
+      "evidence": []
+    },
+    {
+      "id": "EC-01",
+      "page": "shared_views",
+      "identity_state": "mixed",
+      "event_phases": [
+        "CHECK_IN",
+        "PLAYING",
+        "DRAINING",
+        "REDEEMING",
+        "CLOSED"
+      ],
+      "view_state_description": "error_states",
+      "display": "resource failure/offline/long text/disabled action/reduced motion",
+      "reference": "none",
+      "allowed_difference": "No silent missing-asset fallback counted as final visual",
+      "status": "NOT_RUN",
+      "evidence": []
+    }
+  ]
+}
