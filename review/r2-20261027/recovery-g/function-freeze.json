@@ -1,0 +1,173 @@
+{
+  "baseline": "608e2a5bbe24e306a15019a73cf0cdb956ec5d56",
+  "scope": "every existing apps/web/src file and web package/vite configuration; Git normalized source comparison",
+  "files": 33,
+  "changed": [],
+  "results": [
+    {
+      "path": "apps/web/src/api.ts",
+      "sha256": "916568ee63fc62d43274dfeb676fa86efdfe4f2b7a54a6992ad3db529ec865f3",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/App.tsx",
+      "sha256": "a422ac1fe6578b94811d8331b9fd6e1c18b9e6b68661360228b713de395b1691",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/LobbyIllustration.tsx",
+      "sha256": "61adc6bf7c8befc2342e6807318b6ee0925059a310d8f58ea43df6557cd296ba",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/main.tsx",
+      "sha256": "d6410d6ec676de8b4d3032d3cdfd5d7bc1641803f158547072b34e51b664beca",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/styles.css",
+      "sha256": "a380b9269ae915ebd0d06ad45d0e038a82668ba85d3d90b4b14df87cd9ff72bc",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/ui.tsx",
+      "sha256": "9e00776ef7a2390aa6de65f57ae993b7f42f9c9afd06b06e5c151e9c1160dce6",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/visual-repair.css",
+      "sha256": "b77e0b59d50cc6702c22ef5382f7109a567b9a7397982b4b9bf3805767b1ef7c",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/game/assets.test.ts",
+      "sha256": "23302c49adfe86307e5c02cd05df0288f2d961e16f79d264427d81ac983abb63",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/game/assets.ts",
+      "sha256": "a007d29770408f03562a6b6fff189deb376d0078351c32de6142fa17e5c6879a",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/game/GamePage.tsx",
+      "sha256": "be08d0c2e786770c0ef49ff724007cada86e1431c5fc47be61af4948ee4ee515",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/game/keyboard.ts",
+      "sha256": "62d91939374a970eb2eaafc73bedb88e4d5facb02d96e5e30ed4468b38ed437a",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/game/presentation.test.ts",
+      "sha256": "47b3e7b77e93ed1b014324d1b873e4f6f09af8b6d7f38d42a9d0b550dc606709",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/game/presentation.ts",
+      "sha256": "35a026ac74d28f7d7fe457c85f9b23c38ffad584836d181dd394f51b789a3262",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/game/presenter-state.test.ts",
+      "sha256": "6e76f8ed3dbad01b9b6d31511045f78e04a0c453e3cd5ebbfe6bb96512f81ee6",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/game/presenter-state.ts",
+      "sha256": "b016a2438f4b04e8d63a24ef04d89caa9bdb0b5800932c773ca3e2e7ac1b18bf",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/game/renderer.ts",
+      "sha256": "0190a9f894ab0ef83296bed25f2af6b007c37d81d6f4687deb2b1265c3de72e8",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/game/storage.ts",
+      "sha256": "a89eb0b95f335eb7cc1fe64340d01020017b09e2936593d8203731a192c519c7",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/game/timeline.ts",
+      "sha256": "52c1921e94170ed58908208a47a38c107283b65eee4040301a8a42ab2c8f802d",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/game/tutorial-model.test.ts",
+      "sha256": "7990de56482d1997aa9b6edd344b759322696022d21a5464dee481aab8afbb0e",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/game/tutorial-model.ts",
+      "sha256": "ac09fb030da3d22dfefbd20c2148084e1a9fc4dabfd38059e9feb2dac4c67cf1",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/game/TutorialScene.tsx",
+      "sha256": "41cc7aea5b83dad7b3528e2a5985c6f3aa79d02e4f2e97422f6c8496e666bccc",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/pages/admin-requests.ts",
+      "sha256": "215b8ad0411b059108397a06df2a7f9e6d53121f61c28bee4d6a16851ca9ebb3",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/pages/AdminPage.tsx",
+      "sha256": "2986154b9a159bcb1939519a0edf5106d5a75e415d52acdb4d8031878b1f1f18",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/pages/operations-model.ts",
+      "sha256": "d10fccb91693ae17dc87e60ac68797f25758353ef897e8d9fe7218c9e384ccdb",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/pages/OperationsPanels.tsx",
+      "sha256": "3937331b657d81af892d20e87a1cb87fd58a2c1f1c98fe7aeeac034df1365d4d",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/pages/ParticipantPages.tsx",
+      "sha256": "58ef8a2bc337f538fa995c42e84139b3bbd446dfb3546a2488b199479998292c",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/pages/playtest-json.ts",
+      "sha256": "9f630b20f14141299b04b1c4cd660fcbf57103e0a7ed4cc3a0a04e691cdfc061",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/repair-state/admission.ts",
+      "sha256": "6646aac32305074bdd17db2fa1a8f215a548010936de34d6d89f2b16637166e7",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/repair-state/redemption.ts",
+      "sha256": "4fd5fff61400f9d4a97bd24df70e0071ab4f9989f2c0b2fc5f12430e8e618d03",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/repair-state/result-presentation.ts",
+      "sha256": "a8321195f1af27020f31ad16681e94db18efe37dbec5e2da2d53ac9cd0904749",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/src/repair-state/VoucherScanner.tsx",
+      "sha256": "a08b4623a2b04c0c5fa915721ac9bd1d350d58743b8485325b38d422e4e90a76",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/package.json",
+      "sha256": "8019cacaceedb84ebba8bd12236c86fea678ad6a2cdbb6b72d1d965a23d70066",
+      "matches_608e2a5": true
+    },
+    {
+      "path": "apps/web/vite.config.ts",
+      "sha256": "d5f7f138abfba878f43c185b01d215fa43d0ba49fb22bb4523f293cb041eb52d",
+      "matches_608e2a5": true
+    }
+  ]
+}

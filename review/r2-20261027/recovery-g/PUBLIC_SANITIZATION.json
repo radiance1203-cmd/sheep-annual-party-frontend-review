@@ -1,0 +1,51 @@
+{
+  "scope": "four exported native G3/G4 PNG previews only; no local source/candidate/runtime pixel changes",
+  "png": [
+    {
+      "path": "art-source/r2/r2g/history/g3/sheep_front_512.png",
+      "source_sha256": "a45fc04701f2b9369b529e5fa3816115642be28e00418be53e2e14da77b3e71f",
+      "export_sha256": "ac37ec0599fc6041f5a60e3e7c14a07b28d18a0029f047419215b3d2b9e0e845",
+      "pixel_rgba_sha256": "7c1d00136a8b8b7fbb6098a3563aca9432beb31242250e1f120a408e240ef227",
+      "idat_chunks_byte_identical": true,
+      "removed_chunk_types": [
+        "eXIf",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "art-source/r2/r2g/history/g3/sheep_stack_512.png",
+      "source_sha256": "4e58ce54ed0dd9c9298135aa8b70ecb7c9c94a0ea2cf44530903ee4a1d836c4e",
+      "export_sha256": "0035b47b3c4e0212a24d606e27279998e02b9f0c761f60fd89ad7799cf35e798",
+      "pixel_rgba_sha256": "680026988dfd7604cee98204115979fbe885f800bbf4b3fefd7d6cb51c8ef556",
+      "idat_chunks_byte_identical": true,
+      "removed_chunk_types": [
+        "eXIf",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "art-source/r2/r2g/sheep_front_512.png",
+      "source_sha256": "c0b5d96a0967d0706c4957d4f0cd7eb60037b9455c89c68c641cec78be736e85",
+      "export_sha256": "10167fed0b24b605097b5750818c1546de9bf14c9715141b52f29ab98c475faa",
+      "pixel_rgba_sha256": "f5fff89e622fe4184109bdfed019c19405314bec1444ba4c9ef0b06d22e7e6f0",
+      "idat_chunks_byte_identical": true,
+      "removed_chunk_types": [
+        "eXIf",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "art-source/r2/r2g/sheep_stack_512.png",
+      "source_sha256": "f056dbdb548300f39e0e276f7050dca8531e00c4c1b315aaf0e041d923d8f4dc",
+      "export_sha256": "c75a0536522f2d1486adbd2438b16bb8f12287c4d85548a12b425393010c5544",
+      "pixel_rgba_sha256": "40f877948ef933bd0dde3080d54c8515f3f55c5a4251e1f6cf9995b9f88fec46",
+      "idat_chunks_byte_identical": true,
+      "removed_chunk_types": [
+        "eXIf",
+        "tEXt"
+      ]
+    }
+  ],
+  "public_g4_manifest_sha256": "cf6a38593029b2407d83c34a36fda7303c2b86a045bcd261d8d11073573d20a9",
+  "cloud_reference_uploaded": false
+}

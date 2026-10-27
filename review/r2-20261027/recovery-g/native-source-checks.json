@@ -1,0 +1,152 @@
+{
+  "status": "SOURCE_VERIFIED",
+  "production_art_accepted": false,
+  "same_light_color_and_formal_camera_as_f2": true,
+  "snapshot": {
+    "camera": {
+      "location": [
+        0.0,
+        -8.0,
+        1.399999976158142
+      ],
+      "rotation": [
+        1.3975508213043213,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.0
+    },
+    "lights": {
+      "key": {
+        "location": [
+          -3.0,
+          -4.0,
+          7.0
+        ],
+        "energy": 480.0,
+        "size": 5.5,
+        "color": [
+          1.0,
+          0.9200000166893005,
+          0.800000011920929
+        ]
+      },
+      "fill": {
+        "location": [
+          4.0,
+          -1.0,
+          4.0
+        ],
+        "energy": 430.0,
+        "size": 7.0,
+        "color": [
+          1.0,
+          0.9399999976158142,
+          0.8199999928474426
+        ]
+      },
+      "rim": {
+        "location": [
+          0.0,
+          4.0,
+          5.0
+        ],
+        "energy": 270.0,
+        "size": 4.0,
+        "color": [
+          1.0,
+          0.949999988079071,
+          0.8199999928474426
+        ]
+      }
+    },
+    "color": {
+      "view_transform": "AgX",
+      "look": "AgX - Medium High Contrast",
+      "exposure": 0.4000000059604645
+    },
+    "world": {
+      "strength": 0.3499999940395355,
+      "color": [
+        1.0,
+        0.9599999785423279,
+        0.8600000143051147,
+        1.0
+      ]
+    }
+  },
+  "face_control_vertex_count_unchanged": 640,
+  "horn_control_vertex_count_each_unchanged": 4824,
+  "old_37_bundle_cages_retained_hidden": true,
+  "welded_vertices": 49650,
+  "actual_concave_vertices_sculpted": 10067,
+  "mother_sha256": "e6875118a2cca427b380bf40838d679ac9b742d80ab7fff2e117058cb058feff",
+  "protected_cage_hashes_unchanged_from_g1": {
+    "face": "72c0a78c0f1ddbb0d1dea60938f797e822d0a52b6edbb33643a7f37c88e28f5d",
+    "welded_body": "df173ec239c6447b32ad856386b9274179d2a213f2267ccb7fd6dc20e0e07996",
+    "left_horn_protected_prefix": "402bc9c7a8c124776ca0862cfb017e0c93e8b6ad1a90e2abc6cca58548c46ed6",
+    "right_horn_protected_prefix": "082221fe487af18df908f2012ed3bc8d40ec399401c0a6f3d27ad9dd0461d829"
+  },
+  "horn_protected_prefix_sections": 176,
+  "g1_source_sha256": "916c2bc10cc748af836b367cbfc46425f29cb229b9e828bd133960a2a06f79e0",
+  "g2_final_tip_radius": 0.0003,
+  "g3_applied_weights": {
+    "point_attributes": [
+      "r2g3_bundle_crest",
+      "r2g3_bundle_root",
+      "r2g3_shape_preserve",
+      "r2g3_fiber_length",
+      "r2g3_fiber_flow"
+    ],
+    "attribute_entries_each": 49650,
+    "old_fibers": 4440,
+    "new_fibers": 4440,
+    "fibers_with_changed_existing_points": 4440,
+    "length_range": [
+      0.007000000681728125,
+      0.01699943095445633
+    ],
+    "body_geometry_hash_same_as_g2": "df173ec239c6447b32ad856386b9274179d2a213f2267ccb7fd6dc20e0e07996"
+  },
+  "g4_scope_and_actual_curvature": {
+    "all_nonhorn_meshes_byte_identical_to_g3": true,
+    "existing_body_fiber_curves_byte_identical_to_g3": true,
+    "verified_nonhorn_mesh_count": 472,
+    "verified_body_fiber_curve_count": 37,
+    "actual_reopened_horn_samples": {
+      "-1": {
+        "actual_max_section_over_discrete_curve_radius": 0.42586544071698473,
+        "endpoints": [
+          [
+            -0.4229504466056824,
+            0.6315194964408875,
+            1.0954887866973877
+          ],
+          [
+            -0.4160000681877136,
+            0.6500002145767212,
+            1.0890002250671387
+          ]
+        ]
+      },
+      "1": {
+        "actual_max_section_over_discrete_curve_radius": 0.42652105298198595,
+        "endpoints": [
+          [
+            0.4229503870010376,
+            0.6315194964408875,
+            1.0954890251159668
+          ],
+          [
+            0.4160006046295166,
+            0.6500000953674316,
+            1.0890002250671387
+          ]
+        ]
+      }
+    },
+    "local_crossing_pairs": 0,
+    "dense_samples_per_side": 1001,
+    "center_endpoints_same_as_g3": true
+  }
+}

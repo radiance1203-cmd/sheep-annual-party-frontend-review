@@ -1,0 +1,378 @@
+{
+  "timestamp": "2026-10-27T18:18:50.520667+00:00",
+  "base": "608e2a5bbe24e306a15019a73cf0cdb956ec5d56",
+  "selected": [
+    {
+      "path": "art-source/r2/r2g/apply_transport_and_fiber_weights.py",
+      "sha256": "79aba54f1cd58f7a52cb74e125e022c0af4fa35ab97144ab8f03f8025d9869a0",
+      "bytes": 10382
+    },
+    {
+      "path": "art-source/r2/r2g/edit_existing_meshes.py",
+      "sha256": "371181cc0e7bc098cd9400317de4b9e349f3288f369a0355a32c0e717d7b0249",
+      "bytes": 11268
+    },
+    {
+      "path": "art-source/r2/r2g/fix_curvature_and_section_overlap.py",
+      "sha256": "caad5f392a09f239362e88eaca48176804dfa9dd2d31130570e6392a032c9436",
+      "bytes": 11554
+    },
+    {
+      "path": "art-source/r2/r2g/g1-g2-tip-evidence.json",
+      "sha256": "52214b38780f6c0c829db6ac37d41f311ab1bd77e4855905e724adb025fce5aa",
+      "bytes": 13276
+    },
+    {
+      "path": "art-source/r2/r2g/g2-g3-weight-evidence.json",
+      "sha256": "da91a7487a6bf1575d894d424db30f0b8ced53077e23bb1b971918bce11b2417",
+      "bytes": 59549
+    },
+    {
+      "path": "art-source/r2/r2g/g3-curve-inspection.json",
+      "sha256": "2435a69cf8a96128c2e38bce0f4fc38766764c793b31d24d6481cc9dcc207181",
+      "bytes": 6110
+    },
+    {
+      "path": "art-source/r2/r2g/g3-g4-curvature-evidence.json",
+      "sha256": "4bda6c7ed776f5a0d2bcf68bc011c587ef1041e5b3ffd55eb8e3fb9e3a60c3ec",
+      "bytes": 62751
+    },
+    {
+      "path": "art-source/r2/r2g/g4-overlap-failure-evidence.json",
+      "sha256": "b66ccedbfd67deeb18eb6e520516d2df0892e652dce6801ba81d05f9b6212cea",
+      "bytes": 20113
+    },
+    {
+      "path": "art-source/r2/r2g/g4-search-side-1.json",
+      "sha256": "5ac88d3e00016694a1ba11e12694ce3ffbf3c3399eb98802bc7c60e73c59d54e",
+      "bytes": 1628
+    },
+    {
+      "path": "art-source/r2/r2g/g4-search-side1.json",
+      "sha256": "34a57568687299e9d5114f715e56ab78208ffe13830d4f5f42482de386d0c5dd",
+      "bytes": 1628
+    },
+    {
+      "path": "art-source/r2/r2g/history/g3/candidate-manifest.r2g.json",
+      "sha256": "a2710eaa77703b2ab98f6aed4c311af0a50b4f133f3ac9777b53c1eb58d17455",
+      "bytes": 3242
+    },
+    {
+      "path": "art-source/r2/r2g/history/g3/g2-g3-weight-evidence.json",
+      "sha256": "da91a7487a6bf1575d894d424db30f0b8ced53077e23bb1b971918bce11b2417",
+      "bytes": 59549
+    },
+    {
+      "path": "art-source/r2/r2g/history/g3/hashes.json",
+      "sha256": "d40e7e3cd6b55b3b7cd3667d240cf6ac88967add5e124054cd738b854e15214a",
+      "bytes": 877
+    },
+    {
+      "path": "art-source/r2/r2g/history/g3/mesh-edit-evidence.json",
+      "sha256": "e02446e17cc49bc5a75e2684920db6e8bb2988561de9d7ab1b44eab8e2989743",
+      "bytes": 178366
+    },
+    {
+      "path": "art-source/r2/r2g/history/g3/sample-report.json",
+      "sha256": "6ad16dc0feac5d712d8c50412e9f58a9afbad3d240ce0d90835e7fc3cd54669d",
+      "bytes": 2414
+    },
+    {
+      "path": "art-source/r2/r2g/history/g3/sheep_front_512.png",
+      "sha256": "ac37ec0599fc6041f5a60e3e7c14a07b28d18a0029f047419215b3d2b9e0e845",
+      "bytes": 133704
+    },
+    {
+      "path": "art-source/r2/r2g/history/g3/sheep_stack_512.png",
+      "sha256": "0035b47b3c4e0212a24d606e27279998e02b9f0c761f60fd89ad7799cf35e798",
+      "bytes": 64760
+    },
+    {
+      "path": "art-source/r2/r2g/history/g3/sheep_stack_r2g.atlas.json",
+      "sha256": "84cb03679b9445a2028d289049fdc91f5ac86cbd91086e95010e9abce22b9bde",
+      "bytes": 936
+    },
+    {
+      "path": "art-source/r2/r2g/history/g3/sheep_stack_r2g.png",
+      "sha256": "1e85b8c3be6dc141f1bfded5a86efc58f48d05e5143dc87b3bbd394119417f32",
+      "bytes": 34288
+    },
+    {
+      "path": "art-source/r2/r2g/inspect_g3_curve.py",
+      "sha256": "58fe4a40c9fa515624fe33df6f3aa42a8dae0689cf89b7ad51a4854e710e6bcd",
+      "bytes": 552
+    },
+    {
+      "path": "art-source/r2/r2g/mesh-edit-evidence.json",
+      "sha256": "17695711b386148ff7b84213f2de436167c7fa7eb9ea64f6a012602c20644850",
+      "bytes": 247524
+    },
+    {
+      "path": "art-source/r2/r2g/package_and_compare.py",
+      "sha256": "33cac7a54f73fb7e5eb4bd62cfb1c0f861d311c6069d85139605fb0d35c33771",
+      "bytes": 4180
+    },
+    {
+      "path": "art-source/r2/r2g/refine_existing_tips.py",
+      "sha256": "9d0473a3e060de5fe2b3b3a201cd432bbbbea548e10d2123e5a89afb10d8380d",
+      "bytes": 4814
+    },
+    {
+      "path": "art-source/r2/r2g/sample-report.json",
+      "sha256": "b198895cabed20b84414d7493a04263ae36b04ab9eb50bde5095cd12fba878d9",
+      "bytes": 2621
+    },
+    {
+      "path": "art-source/r2/r2g/sheep_front_512.png",
+      "sha256": "10167fed0b24b605097b5750818c1546de9bf14c9715141b52f29ab98c475faa",
+      "bytes": 133840
+    },
+    {
+      "path": "art-source/r2/r2g/sheep_stack_512.png",
+      "sha256": "c75a0536522f2d1486adbd2438b16bb8f12287c4d85548a12b425393010c5544",
+      "bytes": 64731
+    },
+    {
+      "path": "art-source/r2/r2g/verify_native.py",
+      "sha256": "8b0e647fb13ca54e1ec5b32b2a41c92cabfe80d2ca36e1fffa2a359777a966c0",
+      "bytes": 7499
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r2/r2g/candidate-manifest.r2g.json",
+      "sha256": "cf6a38593029b2407d83c34a36fda7303c2b86a045bcd261d8d11073573d20a9",
+      "bytes": 3462
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r2/r2g/sheep_stack_r2g.atlas.json",
+      "sha256": "84cb03679b9445a2028d289049fdc91f5ac86cbd91086e95010e9abce22b9bde",
+      "bytes": 936
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r2/r2g/sheep_stack_r2g.png",
+      "sha256": "aff830064b3c1813d03e9fcd8432ff2009b37c18d4bfb4cfdbfd8166e139c757",
+      "bytes": 34210
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/art-report.md",
+      "sha256": "21e89f86432d393f39365293a033db3ba502c76b5adee76504ce167735ce1ea9",
+      "bytes": 10391
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/candidate-static-report.json",
+      "sha256": "cf6a38593029b2407d83c34a36fda7303c2b86a045bcd261d8d11073573d20a9",
+      "bytes": 3462
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/cloud-reference-register.json",
+      "sha256": "858a0e2e222db85187dd3ccb5edc3f49123056e0628bf22dcec52bc57c22f9ec",
+      "bytes": 2201
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/f2-g-same-camera-native64.png",
+      "sha256": "91932b7507d9944a8da8ae43fdcb675cd1adf3dbd24aaf7c807a44499de50ff7",
+      "bytes": 302099
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/function-freeze.json",
+      "sha256": "534c6f5d47f3dfd8408ad6a5910a93224f411191f1547580a77aaf3d3b17de2c",
+      "bytes": 6072
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/g1-g2-tip-evidence.json",
+      "sha256": "b61d9aba85e611aa68c70219468b920775a11ee83182d934e5458717a2eb5003",
+      "bytes": 12643
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/g2-g3-weight-evidence.json",
+      "sha256": "b77705fb9b3cca7200c23e3b2f9ffc39bbab89475b513d111a0b4c663076dba0",
+      "bytes": 57032
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/g3-g4-curvature-evidence.json",
+      "sha256": "ef8470d2233c118293c0a6cf416dd497f6d138053f34f82f6ce4a70de446e2d7",
+      "bytes": 60610
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/g4-overlap-failure-evidence.json",
+      "sha256": "cc14462c99c8aab41e5cc8b1f52a9813266b1181e478f73f15cdf2f3b8351871",
+      "bytes": 19239
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/imagegen-diagnostic.md",
+      "sha256": "ba761c73e56c97fa94d5969c7fc85e408e71486dabb65bf093f1674b3e72ded2",
+      "bytes": 5267
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/mesh-edit-evidence.json",
+      "sha256": "17695711b386148ff7b84213f2de436167c7fa7eb9ea64f6a012602c20644850",
+      "bytes": 247524
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/native-source-checks.json",
+      "sha256": "83e7cf59ea13f4fe31f6981e53aa769b5d26f608b1aced4e7e0a127f30bc4896",
+      "bytes": 3976
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/phase-summary.json",
+      "sha256": "a51cbc331a89e481b6cb0dbf0845bdbecefb928ebabb00a373d9cfa23f3aea6f",
+      "bytes": 1990
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/root-asset-check.json",
+      "sha256": "b1c4afd29e8a745fad618ad6c339ee580d6858ee1332fd829747b08dd065c509",
+      "bytes": 814
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/runtime/results.json",
+      "sha256": "91c47fb42952980fa1d70def38bd2d99a4bda6f26de8f1e711af8cd20e55226e",
+      "bytes": 34207
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/runtime/stack-r2g-320.png",
+      "sha256": "65ed7369ea3c9dd18e612fe1ab94605f0ee2149115ccb02b52fac9492b0d8d34",
+      "bytes": 475316
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/runtime/stack-r2g-390.png",
+      "sha256": "febe431f6aeaf76edc72a5600f323fa5e2555148416c60279cfe2824f3eb8b67",
+      "bytes": 653712
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/runtime/stack-r2g-430.png",
+      "sha256": "cb5d32abd2c1dd22d34dfcd93f8c3a14da2426666f82d7b0637c81121b9fa816",
+      "bytes": 834793
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/runtime-capture.mts",
+      "sha256": "bcf49bbb9b4585ed0448f607b169dd4e13cbf9f57d9db66680c1538953460547",
+      "bytes": 4093
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/runtime-g3/results.json",
+      "sha256": "351d9819683925e298961e88dfbf136aea7907f108013f2b8407f72d2d762ff0",
+      "bytes": 34207
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/runtime-g3/stack-r2g-320.png",
+      "sha256": "06811ca255be82ff2eecd470ec6fa1de7302792ad8a4d9788f2eaa62befaf57a",
+      "bytes": 475291
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/runtime-g3/stack-r2g-390.png",
+      "sha256": "8cc6e9432fecec1a48f0edb9bc30a8fb0c0035a314087ab6cd2be0beaea1395c",
+      "bytes": 653703
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/runtime-g3/stack-r2g-430.png",
+      "sha256": "24ae3aa5a34c5601b14c8b4035b9ee07bf82df4ebbecd47e6d5ecf6deec0da9b",
+      "bytes": 834823
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/static-checks.json",
+      "sha256": "be99f6885ced42dc87ea095d837c3e6a959c2edc87b89cce1a86829fa77b229f",
+      "bytes": 700
+    },
+    {
+      "path": "docs/r2g-recovery-report.md",
+      "sha256": "79bd08a0f2923d247d109dd27a87240801ab0eabe94ce246472d44cb51860aa5",
+      "bytes": 8144
+    },
+    {
+      "path": "review/r2-20261027/recovery-g/PUBLIC_SANITIZATION.json",
+      "sha256": "dad1c8a5d504f36ee73744717609d4bbde0f3753c268ac436b4f1185d8edc20a",
+      "bytes": 2112
+    }
+  ],
+  "excluded": [
+    {
+      "path": "art-source/r2/r2g/g2-render.log",
+      "bytes": 100701,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/g3-render.log",
+      "bytes": 97909,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/g4-boundary-overlap-failure.log",
+      "bytes": 826,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/g4-continuous-boundary.log",
+      "bytes": 101006,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/g4-diagnostic.log",
+      "bytes": 826,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/g4-first-curvature-failure.log",
+      "bytes": 788,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/g4-render.log",
+      "bytes": 826,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/g4-second-overlap-failure.log",
+      "bytes": 826,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/history/g3/sheep_master_r2g.blend",
+      "bytes": 29804455,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/render.log",
+      "bytes": 101068,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/sheep_master_r2g.blend",
+      "bytes": 29804455,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/sheep_master_r2g.blend1",
+      "bytes": 29804455,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/verify-g2-final.log",
+      "bytes": 587,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/verify-g2.log",
+      "bytes": 421,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/verify-g3.log",
+      "bytes": 908,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/verify-g4.log",
+      "bytes": 1074,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    },
+    {
+      "path": "art-source/r2/r2g/verify.log",
+      "bytes": 421,
+      "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+    }
+  ],
+  "private_pattern_hits": 0,
+  "function_source_changes": 0,
+  "production_art_accepted": false,
+  "png_metadata_sanitization": "review/r2-20261027/recovery-g/PUBLIC_SANITIZATION.json",
+  "hash_scope": "sanitized working files; exact staged Git bytes independently recorded in INDEXED_SHA256.json"
+}

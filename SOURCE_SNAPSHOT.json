@@ -13933,11 +13933,352 @@
       "path": "review/r2-state.json",
       "sha256": "d4e1789258b414c06f972c68d3849cd8e8cca20f6999ca223ee494f4281e5e80",
       "bytes": 2979
+    },
+    {
+      "source": "art-source/r2/r2g/apply_transport_and_fiber_weights.py",
+      "path": "art-source/r2/r2g/apply_transport_and_fiber_weights.py",
+      "sha256": "79aba54f1cd58f7a52cb74e125e022c0af4fa35ab97144ab8f03f8025d9869a0",
+      "bytes": 10382
+    },
+    {
+      "source": "art-source/r2/r2g/edit_existing_meshes.py",
+      "path": "art-source/r2/r2g/edit_existing_meshes.py",
+      "sha256": "371181cc0e7bc098cd9400317de4b9e349f3288f369a0355a32c0e717d7b0249",
+      "bytes": 11268
+    },
+    {
+      "source": "art-source/r2/r2g/fix_curvature_and_section_overlap.py",
+      "path": "art-source/r2/r2g/fix_curvature_and_section_overlap.py",
+      "sha256": "caad5f392a09f239362e88eaca48176804dfa9dd2d31130570e6392a032c9436",
+      "bytes": 11554
+    },
+    {
+      "source": "art-source/r2/r2g/g1-g2-tip-evidence.json",
+      "path": "art-source/r2/r2g/g1-g2-tip-evidence.json",
+      "sha256": "52214b38780f6c0c829db6ac37d41f311ab1bd77e4855905e724adb025fce5aa",
+      "bytes": 13276
+    },
+    {
+      "source": "art-source/r2/r2g/g2-g3-weight-evidence.json",
+      "path": "art-source/r2/r2g/g2-g3-weight-evidence.json",
+      "sha256": "da91a7487a6bf1575d894d424db30f0b8ced53077e23bb1b971918bce11b2417",
+      "bytes": 59549
+    },
+    {
+      "source": "art-source/r2/r2g/g3-curve-inspection.json",
+      "path": "art-source/r2/r2g/g3-curve-inspection.json",
+      "sha256": "2435a69cf8a96128c2e38bce0f4fc38766764c793b31d24d6481cc9dcc207181",
+      "bytes": 6110
+    },
+    {
+      "source": "art-source/r2/r2g/g3-g4-curvature-evidence.json",
+      "path": "art-source/r2/r2g/g3-g4-curvature-evidence.json",
+      "sha256": "4bda6c7ed776f5a0d2bcf68bc011c587ef1041e5b3ffd55eb8e3fb9e3a60c3ec",
+      "bytes": 62751
+    },
+    {
+      "source": "art-source/r2/r2g/g4-overlap-failure-evidence.json",
+      "path": "art-source/r2/r2g/g4-overlap-failure-evidence.json",
+      "sha256": "b66ccedbfd67deeb18eb6e520516d2df0892e652dce6801ba81d05f9b6212cea",
+      "bytes": 20113
+    },
+    {
+      "source": "art-source/r2/r2g/g4-search-side-1.json",
+      "path": "art-source/r2/r2g/g4-search-side-1.json",
+      "sha256": "5ac88d3e00016694a1ba11e12694ce3ffbf3c3399eb98802bc7c60e73c59d54e",
+      "bytes": 1628
+    },
+    {
+      "source": "art-source/r2/r2g/g4-search-side1.json",
+      "path": "art-source/r2/r2g/g4-search-side1.json",
+      "sha256": "34a57568687299e9d5114f715e56ab78208ffe13830d4f5f42482de386d0c5dd",
+      "bytes": 1628
+    },
+    {
+      "source": "art-source/r2/r2g/history/g3/candidate-manifest.r2g.json",
+      "path": "art-source/r2/r2g/history/g3/candidate-manifest.r2g.json",
+      "sha256": "be8b715d221d93b57a045c9cb0a064d789beb01ef3a7336bf6e8f279f9787bfa",
+      "bytes": 2720
+    },
+    {
+      "source": "art-source/r2/r2g/history/g3/g2-g3-weight-evidence.json",
+      "path": "art-source/r2/r2g/history/g3/g2-g3-weight-evidence.json",
+      "sha256": "da91a7487a6bf1575d894d424db30f0b8ced53077e23bb1b971918bce11b2417",
+      "bytes": 59549
+    },
+    {
+      "source": "art-source/r2/r2g/history/g3/hashes.json",
+      "path": "art-source/r2/r2g/history/g3/hashes.json",
+      "sha256": "d40e7e3cd6b55b3b7cd3667d240cf6ac88967add5e124054cd738b854e15214a",
+      "bytes": 877
+    },
+    {
+      "source": "art-source/r2/r2g/history/g3/mesh-edit-evidence.json",
+      "path": "art-source/r2/r2g/history/g3/mesh-edit-evidence.json",
+      "sha256": "c0e1ee6a528447c1ab0ce36428bfbc36c4927b27936ad1e9a23f283f0ab07e3d",
+      "bytes": 185057
+    },
+    {
+      "source": "art-source/r2/r2g/history/g3/sample-report.json",
+      "path": "art-source/r2/r2g/history/g3/sample-report.json",
+      "sha256": "02ceac5005aa1330c03c16e94ffddbccebfcd8952a4a6a7cdac65c058612d3f1",
+      "bytes": 1847
+    },
+    {
+      "source": "art-source/r2/r2g/history/g3/sheep_front_512.png",
+      "path": "art-source/r2/r2g/history/g3/sheep_front_512.png",
+      "sha256": "a45fc04701f2b9369b529e5fa3816115642be28e00418be53e2e14da77b3e71f",
+      "bytes": 134273
+    },
+    {
+      "source": "art-source/r2/r2g/history/g3/sheep_stack_512.png",
+      "path": "art-source/r2/r2g/history/g3/sheep_stack_512.png",
+      "sha256": "4e58ce54ed0dd9c9298135aa8b70ecb7c9c94a0ea2cf44530903ee4a1d836c4e",
+      "bytes": 65320
+    },
+    {
+      "source": "art-source/r2/r2g/history/g3/sheep_stack_r2g.atlas.json",
+      "path": "art-source/r2/r2g/history/g3/sheep_stack_r2g.atlas.json",
+      "sha256": "84cb03679b9445a2028d289049fdc91f5ac86cbd91086e95010e9abce22b9bde",
+      "bytes": 936
+    },
+    {
+      "source": "art-source/r2/r2g/history/g3/sheep_stack_r2g.png",
+      "path": "art-source/r2/r2g/history/g3/sheep_stack_r2g.png",
+      "sha256": "1e85b8c3be6dc141f1bfded5a86efc58f48d05e5143dc87b3bbd394119417f32",
+      "bytes": 34288
+    },
+    {
+      "source": "art-source/r2/r2g/inspect_g3_curve.py",
+      "path": "art-source/r2/r2g/inspect_g3_curve.py",
+      "sha256": "58fe4a40c9fa515624fe33df6f3aa42a8dae0689cf89b7ad51a4854e710e6bcd",
+      "bytes": 552
+    },
+    {
+      "source": "art-source/r2/r2g/mesh-edit-evidence.json",
+      "path": "art-source/r2/r2g/mesh-edit-evidence.json",
+      "sha256": "bd1bdd0e6e02ac3ca06d6621229fbd9aa1cf0f94d451a5badce3759ee91838c1",
+      "bytes": 256379
+    },
+    {
+      "source": "art-source/r2/r2g/package_and_compare.py",
+      "path": "art-source/r2/r2g/package_and_compare.py",
+      "sha256": "33cac7a54f73fb7e5eb4bd62cfb1c0f861d311c6069d85139605fb0d35c33771",
+      "bytes": 4180
+    },
+    {
+      "source": "art-source/r2/r2g/refine_existing_tips.py",
+      "path": "art-source/r2/r2g/refine_existing_tips.py",
+      "sha256": "9d0473a3e060de5fe2b3b3a201cd432bbbbea548e10d2123e5a89afb10d8380d",
+      "bytes": 4814
+    },
+    {
+      "source": "art-source/r2/r2g/sample-report.json",
+      "path": "art-source/r2/r2g/sample-report.json",
+      "sha256": "cd1c058063b09c41488174a701d4361a42770c8cda1dcd58e3e0f457b9ec481f",
+      "bytes": 2079
+    },
+    {
+      "source": "art-source/r2/r2g/sheep_front_512.png",
+      "path": "art-source/r2/r2g/sheep_front_512.png",
+      "sha256": "c0b5d96a0967d0706c4957d4f0cd7eb60037b9455c89c68c641cec78be736e85",
+      "bytes": 134409
+    },
+    {
+      "source": "art-source/r2/r2g/sheep_stack_512.png",
+      "path": "art-source/r2/r2g/sheep_stack_512.png",
+      "sha256": "f056dbdb548300f39e0e276f7050dca8531e00c4c1b315aaf0e041d923d8f4dc",
+      "bytes": 65291
+    },
+    {
+      "source": "art-source/r2/r2g/verify_native.py",
+      "path": "art-source/r2/r2g/verify_native.py",
+      "sha256": "8b0e647fb13ca54e1ec5b32b2a41c92cabfe80d2ca36e1fffa2a359777a966c0",
+      "bytes": 7499
+    },
+    {
+      "source": "apps/web/public/assets/candidates/r2/r2g/candidate-manifest.r2g.json",
+      "path": "apps/web/public/assets/candidates/r2/r2g/candidate-manifest.r2g.json",
+      "sha256": "43982e3e874fcfc93ae81bf5b2ade145ac018085cb7c139c8c815884561d62c4",
+      "bytes": 2952
+    },
+    {
+      "source": "apps/web/public/assets/candidates/r2/r2g/sheep_stack_r2g.atlas.json",
+      "path": "apps/web/public/assets/candidates/r2/r2g/sheep_stack_r2g.atlas.json",
+      "sha256": "84cb03679b9445a2028d289049fdc91f5ac86cbd91086e95010e9abce22b9bde",
+      "bytes": 936
+    },
+    {
+      "source": "apps/web/public/assets/candidates/r2/r2g/sheep_stack_r2g.png",
+      "path": "apps/web/public/assets/candidates/r2/r2g/sheep_stack_r2g.png",
+      "sha256": "aff830064b3c1813d03e9fcd8432ff2009b37c18d4bfb4cfdbfd8166e139c757",
+      "bytes": 34210
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/art-report.md",
+      "path": "review/r2-20261027/recovery-g/art-report.md",
+      "sha256": "21e89f86432d393f39365293a033db3ba502c76b5adee76504ce167735ce1ea9",
+      "bytes": 10391
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/candidate-static-report.json",
+      "path": "review/r2-20261027/recovery-g/candidate-static-report.json",
+      "sha256": "43982e3e874fcfc93ae81bf5b2ade145ac018085cb7c139c8c815884561d62c4",
+      "bytes": 2952
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/cloud-reference-register.json",
+      "path": "review/r2-20261027/recovery-g/cloud-reference-register.json",
+      "sha256": "a705625f7a5dfa4085bc16e6eaa6acb0a47752774fca8adad4afeaadf5a178fd",
+      "bytes": 2257
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/f2-g-same-camera-native64.png",
+      "path": "review/r2-20261027/recovery-g/f2-g-same-camera-native64.png",
+      "sha256": "91932b7507d9944a8da8ae43fdcb675cd1adf3dbd24aaf7c807a44499de50ff7",
+      "bytes": 302099
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/function-freeze.json",
+      "path": "review/r2-20261027/recovery-g/function-freeze.json",
+      "sha256": "3497f50c5d4bbf5451e0b2d4aad5624c8dc077cb1ec9e1835f67419169684f38",
+      "bytes": 6244
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/g1-g2-tip-evidence.json",
+      "path": "review/r2-20261027/recovery-g/g1-g2-tip-evidence.json",
+      "sha256": "52214b38780f6c0c829db6ac37d41f311ab1bd77e4855905e724adb025fce5aa",
+      "bytes": 13276
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/g2-g3-weight-evidence.json",
+      "path": "review/r2-20261027/recovery-g/g2-g3-weight-evidence.json",
+      "sha256": "da91a7487a6bf1575d894d424db30f0b8ced53077e23bb1b971918bce11b2417",
+      "bytes": 59549
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/g3-g4-curvature-evidence.json",
+      "path": "review/r2-20261027/recovery-g/g3-g4-curvature-evidence.json",
+      "sha256": "4bda6c7ed776f5a0d2bcf68bc011c587ef1041e5b3ffd55eb8e3fb9e3a60c3ec",
+      "bytes": 62751
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/g4-overlap-failure-evidence.json",
+      "path": "review/r2-20261027/recovery-g/g4-overlap-failure-evidence.json",
+      "sha256": "b66ccedbfd67deeb18eb6e520516d2df0892e652dce6801ba81d05f9b6212cea",
+      "bytes": 20113
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/imagegen-diagnostic.md",
+      "path": "review/r2-20261027/recovery-g/imagegen-diagnostic.md",
+      "sha256": "63b240101ce4633788f74753d5f48e979fe07b672ecccba968fc4c978e65dba7",
+      "bytes": 5286
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/mesh-edit-evidence.json",
+      "path": "review/r2-20261027/recovery-g/mesh-edit-evidence.json",
+      "sha256": "bd1bdd0e6e02ac3ca06d6621229fbd9aa1cf0f94d451a5badce3759ee91838c1",
+      "bytes": 256379
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/native-source-checks.json",
+      "path": "review/r2-20261027/recovery-g/native-source-checks.json",
+      "sha256": "410af22c2828e6ba959e8543328a2e8d4b1edbb2b667a69cc307c09933ae19b3",
+      "bytes": 4128
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/phase-summary.json",
+      "path": "review/r2-20261027/recovery-g/phase-summary.json",
+      "sha256": "86b84f692b6a5a07cc85997ee8357fb3804dd88eaa446b88bf0ebd9828e425b6",
+      "bytes": 1889
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/root-asset-check.json",
+      "path": "review/r2-20261027/recovery-g/root-asset-check.json",
+      "sha256": "2dca8293810f86969fbdc909a7bd6be70ae2a027f717ce5f1177019590274c30",
+      "bytes": 697
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/runtime/results.json",
+      "path": "review/r2-20261027/recovery-g/runtime/results.json",
+      "sha256": "91c47fb42952980fa1d70def38bd2d99a4bda6f26de8f1e711af8cd20e55226e",
+      "bytes": 34207
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/runtime/stack-r2g-320.png",
+      "path": "review/r2-20261027/recovery-g/runtime/stack-r2g-320.png",
+      "sha256": "65ed7369ea3c9dd18e612fe1ab94605f0ee2149115ccb02b52fac9492b0d8d34",
+      "bytes": 475316
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/runtime/stack-r2g-390.png",
+      "path": "review/r2-20261027/recovery-g/runtime/stack-r2g-390.png",
+      "sha256": "febe431f6aeaf76edc72a5600f323fa5e2555148416c60279cfe2824f3eb8b67",
+      "bytes": 653712
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/runtime/stack-r2g-430.png",
+      "path": "review/r2-20261027/recovery-g/runtime/stack-r2g-430.png",
+      "sha256": "cb5d32abd2c1dd22d34dfcd93f8c3a14da2426666f82d7b0637c81121b9fa816",
+      "bytes": 834793
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/runtime-capture.mts",
+      "path": "review/r2-20261027/recovery-g/runtime-capture.mts",
+      "sha256": "0cc82bf768b2d305050f0a90f3adf26419e6eb20e32f1435b25ae8786ac4377f",
+      "bytes": 4093
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/runtime-g3/results.json",
+      "path": "review/r2-20261027/recovery-g/runtime-g3/results.json",
+      "sha256": "351d9819683925e298961e88dfbf136aea7907f108013f2b8407f72d2d762ff0",
+      "bytes": 34207
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/runtime-g3/stack-r2g-320.png",
+      "path": "review/r2-20261027/recovery-g/runtime-g3/stack-r2g-320.png",
+      "sha256": "06811ca255be82ff2eecd470ec6fa1de7302792ad8a4d9788f2eaa62befaf57a",
+      "bytes": 475291
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/runtime-g3/stack-r2g-390.png",
+      "path": "review/r2-20261027/recovery-g/runtime-g3/stack-r2g-390.png",
+      "sha256": "8cc6e9432fecec1a48f0edb9bc30a8fb0c0035a314087ab6cd2be0beaea1395c",
+      "bytes": 653703
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/runtime-g3/stack-r2g-430.png",
+      "path": "review/r2-20261027/recovery-g/runtime-g3/stack-r2g-430.png",
+      "sha256": "24ae3aa5a34c5601b14c8b4035b9ee07bf82df4ebbecd47e6d5ecf6deec0da9b",
+      "bytes": 834823
+    },
+    {
+      "source": "output/r2-20261027/recovery-g/static-checks.json",
+      "path": "review/r2-20261027/recovery-g/static-checks.json",
+      "sha256": "79eb67faded5303c5dad7fbf612f61159f9147eaf5344d99051b5fde4dd6cf82",
+      "bytes": 575
+    },
+    {
+      "source": "docs/r2g-recovery-report.md",
+      "path": "docs/r2g-recovery-report.md",
+      "sha256": "48a88730973f4235e2f89324ff76c2518b6a0a1866a5c7713d67ed093e1c7924",
+      "bytes": 7635
     }
   ],
   "adapted_original_paths": [
+    "apps/web/public/assets/candidates/r2/r2g/candidate-manifest.r2g.json",
+    "art-source/r2/r2g/history/g3/candidate-manifest.r2g.json",
+    "art-source/r2/r2g/history/g3/mesh-edit-evidence.json",
+    "art-source/r2/r2g/history/g3/sample-report.json",
+    "art-source/r2/r2g/history/g3/sheep_front_512.png",
+    "art-source/r2/r2g/history/g3/sheep_stack_512.png",
+    "art-source/r2/r2g/mesh-edit-evidence.json",
+    "art-source/r2/r2g/sample-report.json",
+    "art-source/r2/r2g/sheep_front_512.png",
+    "art-source/r2/r2g/sheep_stack_512.png",
     "docs/THIRD_PARTY_NOTICES.md",
     "docs/r2-20261027-report.md",
+    "docs/r2g-recovery-report.md",
     "docs/releases/release-notes.md",
     "docs/repair-20261027-report.md",
     "docs/visual-repair-v1-report.md",
@@ -13947,6 +14288,19 @@
     "review/r2-20261027/checks/package.txt",
     "review/r2-20261027/checks/unit.json",
     "review/r2-20261027/frontend/REPORT.md",
+    "review/r2-20261027/recovery-g/candidate-static-report.json",
+    "review/r2-20261027/recovery-g/cloud-reference-register.json",
+    "review/r2-20261027/recovery-g/function-freeze.json",
+    "review/r2-20261027/recovery-g/g1-g2-tip-evidence.json",
+    "review/r2-20261027/recovery-g/g2-g3-weight-evidence.json",
+    "review/r2-20261027/recovery-g/g3-g4-curvature-evidence.json",
+    "review/r2-20261027/recovery-g/g4-overlap-failure-evidence.json",
+    "review/r2-20261027/recovery-g/mesh-edit-evidence.json",
+    "review/r2-20261027/recovery-g/native-source-checks.json",
+    "review/r2-20261027/recovery-g/phase-summary.json",
+    "review/r2-20261027/recovery-g/root-asset-check.json",
+    "review/r2-20261027/recovery-g/runtime-capture.mts",
+    "review/r2-20261027/recovery-g/static-checks.json",
     "review/r2-state.json",
     "review/repair-20261027/findings.json",
     "review/tools/capture-games.mts",
@@ -20032,5 +20386,98 @@
       "reason": "full main-project history not re-exported; latest R2 report contains the relevant update"
     }
   ],
-  "r2_current_manifest_unchanged": true
+  "r2_current_manifest_unchanged": true,
+  "r2g_recovery": {
+    "review_base": "608e2a5bbe24e306a15019a73cf0cdb956ec5d56",
+    "scope": "new limited art sources/candidate/evidence/report only; no functional change",
+    "excluded": [
+      {
+        "path": "art-source/r2/r2g/g2-render.log",
+        "bytes": 100701,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/g3-render.log",
+        "bytes": 97909,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/g4-boundary-overlap-failure.log",
+        "bytes": 826,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/g4-continuous-boundary.log",
+        "bytes": 101006,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/g4-diagnostic.log",
+        "bytes": 826,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/g4-first-curvature-failure.log",
+        "bytes": 788,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/g4-render.log",
+        "bytes": 826,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/g4-second-overlap-failure.log",
+        "bytes": 826,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/history/g3/sheep_master_r2g.blend",
+        "bytes": 29804455,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/render.log",
+        "bytes": 101068,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/sheep_master_r2g.blend",
+        "bytes": 29804455,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/sheep_master_r2g.blend1",
+        "bytes": 29804455,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/verify-g2-final.log",
+        "bytes": 587,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/verify-g2.log",
+        "bytes": 421,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/verify-g3.log",
+        "bytes": 908,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/verify-g4.log",
+        "bytes": 1074,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      },
+      {
+        "path": "art-source/r2/r2g/verify.log",
+        "bytes": 421,
+        "reason": "editable native source/large raw logs remain local; source hashes and recipes included"
+      }
+    ],
+    "production_art_accepted": false,
+    "metadata_sanitization": "review/r2-20261027/recovery-g/PUBLIC_SANITIZATION.json"
+  }
 }

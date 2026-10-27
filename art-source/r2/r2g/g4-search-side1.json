@@ -1,0 +1,78 @@
+{
+  "candidate_count": 648,
+  "passing_count": 10,
+  "best_max_ratio_candidates": [
+    {
+      "max_ratio": 0.4249423885025408,
+      "h0scale": 1.4,
+      "h1scale": 0.2,
+      "taper_power": 12.0
+    },
+    {
+      "max_ratio": 0.42644875650532893,
+      "h0scale": 1.8,
+      "h1scale": 0.2,
+      "taper_power": 12.0
+    },
+    {
+      "max_ratio": 0.42797473420432314,
+      "h0scale": 1.4,
+      "h1scale": 0.4,
+      "taper_power": 12.0
+    },
+    {
+      "max_ratio": 0.600068891190179,
+      "h0scale": 1.8,
+      "h1scale": 0.4,
+      "taper_power": 12.0
+    },
+    {
+      "max_ratio": 0.6099993399244644,
+      "h0scale": 2.2,
+      "h1scale": 0.2,
+      "taper_power": 12.0
+    },
+    {
+      "max_ratio": 0.616335235145814,
+      "h0scale": 1.0,
+      "h1scale": 0.6,
+      "taper_power": 12.0
+    },
+    {
+      "max_ratio": 0.6229939872178549,
+      "h0scale": 1.0,
+      "h1scale": 0.4,
+      "taper_power": 12.0
+    },
+    {
+      "max_ratio": 0.6714570422585642,
+      "h0scale": 1.0,
+      "h1scale": 0.2,
+      "taper_power": 12.0
+    },
+    {
+      "max_ratio": 0.6875924318876512,
+      "h0scale": 1.4,
+      "h1scale": 0.2,
+      "taper_power": 8.0
+    },
+    {
+      "max_ratio": 0.6964203958310284,
+      "h0scale": 1.4,
+      "h1scale": 0.6,
+      "taper_power": 12.0
+    },
+    {
+      "max_ratio": 0.7013334491420219,
+      "h0scale": 1.0,
+      "h1scale": 0.1,
+      "taper_power": 12.0
+    },
+    {
+      "max_ratio": 0.7867578674491736,
+      "h0scale": 0.8,
+      "h1scale": 0.6,
+      "taper_power": 12.0
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "static source/hash/atlas/clearance only",
+  "mother_sha256": "e6875118a2cca427b380bf40838d679ac9b742d80ab7fff2e117058cb058feff",
+  "manifest_sha256": "cf6a38593029b2407d83c34a36fda7303c2b86a045bcd261d8d11073573d20a9",
+  "image_sha256": "aff830064b3c1813d03e9fcd8432ff2009b37c18d4bfb4cfdbfd8166e139c757",
+  "alpha_height_world": 30.75,
+  "alpha_width_world": 42.5,
+  "source_f2_preserved": true,
+  "current_manifest_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "production_art_accepted": false,
+  "source_manifest_sha256": "43982e3e874fcfc93ae81bf5b2ade145ac018085cb7c139c8c815884561d62c4",
+  "public_png_metadata_sanitized": true
+}

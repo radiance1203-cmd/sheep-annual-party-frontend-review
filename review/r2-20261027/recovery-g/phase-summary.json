@@ -1,0 +1,38 @@
+{
+  "scope": "R2g focused local art recovery, same two views",
+  "function_baseline": "608e2a5bbe24e306a15019a73cf0cdb956ec5d56",
+  "function_files_verified_unchanged": 33,
+  "current_status": "G4_LOCAL_VERIFIED; authorized sanitized review synchronization proceeding independently of cloud reference",
+  "cloud_reference_identity": "libfile_3407db15e99881918104ce7820e2092e",
+  "cloud_reference_pixels_reviewed_here": false,
+  "cloud_reference_local_materialized": false,
+  "production_art_accepted": false,
+  "art_signoff": null,
+  "production_manifest_unchanged": true,
+  "new_actions_or_directions": 0,
+  "real_device": "NOT_RUN",
+  "next": "publish sanitized G3/G4 review artifacts; cloud pixel reference remains PENDING and excluded",
+  "source_sha256": "e6875118a2cca427b380bf40838d679ac9b742d80ab7fff2e117058cb058feff",
+  "candidate_sha256": "aff830064b3c1813d03e9fcd8432ff2009b37c18d4bfb4cfdbfd8166e139c757",
+  "git_sync_status": "READY_FOR_G3_G4_ONLY_EXPORT",
+  "g4_attempt_status": {
+    "saved_candidate": true,
+    "completed_failed_commands": 2,
+    "failure_status": "exit1 before source save/render; G3 remains current",
+    "diagnosis_from_art_worker": "dense curve constraint solved; triangle intersections concentrate at frozen172/173 to new175–177 seam; trying continuous section orientation only within175–200",
+    "scope": "local horn centerline/section correction, no other mesh or function changes",
+    "final_exit_code": 0,
+    "local_triangle_crossing_pairs": 0,
+    "g3_baseline_local_crossing_pairs": 164,
+    "actual_reopened_radius_ratio_max": 0.42653,
+    "visual_result": "dark seam weaker but inner curl thinner/open loop remains; overall art target unmet"
+  },
+  "manifest_sha256": "cf6a38593029b2407d83c34a36fda7303c2b86a045bcd261d8d11073573d20a9",
+  "runtime_widths_verified": [
+    320,
+    390,
+    430
+  ],
+  "source_manifest_sha256": "43982e3e874fcfc93ae81bf5b2ade145ac018085cb7c139c8c815884561d62c4",
+  "public_png_metadata_sanitized": true
+}

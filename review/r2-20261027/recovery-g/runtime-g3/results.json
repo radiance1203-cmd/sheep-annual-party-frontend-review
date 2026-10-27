@@ -1,0 +1,1213 @@
+{
+  "scope": "new G static sample, unchanged real renderer/core, evidence-only document route, not full animation or device test",
+  "imagePath": "apps/web/public/assets/candidates/r2/r2g/sheep_stack_r2g.png",
+  "metadataPath": "apps/web/public/assets/candidates/r2/r2g/sheep_stack_r2g.atlas.json",
+  "results": [
+    {
+      "width": 320,
+      "height": 844,
+      "requestedDpr": 2,
+      "imageHash": "1e85b8c3be6dc141f1bfded5a86efc58f48d05e5143dc87b3bbd394119417f32",
+      "metaHash": "84cb03679b9445a2028d289049fdc91f5ac86cbd91086e95010e9abce22b9bde",
+      "apiRequests": 0,
+      "errors": [],
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 150,
+        "accepted_actions_count": 3,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 2,
+          "perfect_layers": 2,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 342000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 210000
+          },
+          "width_u": 112000,
+          "phase": "FALL",
+          "phase_ticks_remaining": 9
+        }
+      },
+      "diagnostics": {
+        "version": "4.2.1",
+        "layout": {
+          "cssWidth": 303.99609375,
+          "cssHeight": 405.328125,
+          "bufferWidth": 608,
+          "bufferHeight": 811,
+          "effectiveDpr": 2,
+          "requestedDpr": 2,
+          "zoom": 1.6888888888888889,
+          "offsetX": 0,
+          "offsetY": 0.16666666666668561
+        },
+        "mode": "paused",
+        "displayTime": 500,
+        "events": [
+          {
+            "id": "recovery-g-evidence:0:37:0",
+            "eventIndex": 0,
+            "event": {
+              "event_key": "stack:37:DROP_ACCEPTED:0",
+              "tick": 37,
+              "type": "DROP_ACCEPTED",
+              "entity_id": null
+            },
+            "snapshot": {
+              "game_id": "stack",
+              "tick": 37,
+              "accepted_actions_count": 1,
+              "conclusion": null,
+              "stats": {
+                "success_layers": 0,
+                "perfect_layers": 0,
+                "misses": 0
+              },
+              "placed_layers": [],
+              "top_support": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 430000
+                },
+                "width_u": 112000
+              },
+              "moving_tray": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 298000
+                },
+                "width_u": 112000,
+                "phase": "FALL",
+                "phase_ticks_remaining": 12
+              }
+            },
+            "timeMs": 0,
+            "decorationOmitted": "expired"
+          },
+          {
+            "id": "recovery-g-evidence:0:49:0",
+            "eventIndex": 0,
+            "event": {
+              "event_key": "stack:49:LAYER_LANDED:1",
+              "tick": 49,
+              "type": "LAYER_LANDED",
+              "entity_id": 1
+            },
+            "snapshot": {
+              "game_id": "stack",
+              "tick": 49,
+              "accepted_actions_count": 1,
+              "conclusion": null,
+              "stats": {
+                "success_layers": 1,
+                "perfect_layers": 1,
+                "misses": 0
+              },
+              "placed_layers": [
+                {
+                  "layer_no": 1,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 386000
+                  },
+                  "perfect": true
+                }
+              ],
+              "top_support": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 386000
+                },
+                "width_u": 112000
+              },
+              "moving_tray": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 254000
+                },
+                "width_u": 112000,
+                "phase": "SETTLE",
+                "phase_ticks_remaining": 6
+              }
+            },
+            "timeMs": 0,
+            "decorationOmitted": "expired"
+          },
+          {
+            "id": "recovery-g-evidence:0:92:0",
+            "eventIndex": 0,
+            "event": {
+              "event_key": "stack:92:DROP_ACCEPTED:0",
+              "tick": 92,
+              "type": "DROP_ACCEPTED",
+              "entity_id": null
+            },
+            "snapshot": {
+              "game_id": "stack",
+              "tick": 92,
+              "accepted_actions_count": 2,
+              "conclusion": null,
+              "stats": {
+                "success_layers": 1,
+                "perfect_layers": 1,
+                "misses": 0
+              },
+              "placed_layers": [
+                {
+                  "layer_no": 1,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 386000
+                  },
+                  "perfect": true
+                }
+              ],
+              "top_support": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 386000
+                },
+                "width_u": 112000
+              },
+              "moving_tray": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 254000
+                },
+                "width_u": 112000,
+                "phase": "FALL",
+                "phase_ticks_remaining": 12
+              }
+            },
+            "timeMs": 0,
+            "decorationOmitted": "expired"
+          },
+          {
+            "id": "recovery-g-evidence:0:104:0",
+            "eventIndex": 0,
+            "event": {
+              "event_key": "stack:104:LAYER_LANDED:2",
+              "tick": 104,
+              "type": "LAYER_LANDED",
+              "entity_id": 2
+            },
+            "snapshot": {
+              "game_id": "stack",
+              "tick": 104,
+              "accepted_actions_count": 2,
+              "conclusion": null,
+              "stats": {
+                "success_layers": 2,
+                "perfect_layers": 2,
+                "misses": 0
+              },
+              "placed_layers": [
+                {
+                  "layer_no": 1,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 386000
+                  },
+                  "perfect": true
+                },
+                {
+                  "layer_no": 2,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 342000
+                  },
+                  "perfect": true
+                }
+              ],
+              "top_support": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 342000
+                },
+                "width_u": 112000
+              },
+              "moving_tray": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 210000
+                },
+                "width_u": 112000,
+                "phase": "SETTLE",
+                "phase_ticks_remaining": 6
+              }
+            },
+            "timeMs": 0
+          },
+          {
+            "id": "recovery-g-evidence:0:147:0",
+            "eventIndex": 0,
+            "event": {
+              "event_key": "stack:147:DROP_ACCEPTED:0",
+              "tick": 147,
+              "type": "DROP_ACCEPTED",
+              "entity_id": null
+            },
+            "snapshot": {
+              "game_id": "stack",
+              "tick": 147,
+              "accepted_actions_count": 3,
+              "conclusion": null,
+              "stats": {
+                "success_layers": 2,
+                "perfect_layers": 2,
+                "misses": 0
+              },
+              "placed_layers": [
+                {
+                  "layer_no": 1,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 386000
+                  },
+                  "perfect": true
+                },
+                {
+                  "layer_no": 2,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 342000
+                  },
+                  "perfect": true
+                }
+              ],
+              "top_support": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 342000
+                },
+                "width_u": 112000
+              },
+              "moving_tray": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 210000
+                },
+                "width_u": 112000,
+                "phase": "FALL",
+                "phase_ticks_remaining": 12
+              }
+            },
+            "timeMs": 0,
+            "decorationOmitted": "no-decoration"
+          }
+        ],
+        "decorationOmitted": 0,
+        "textures": 5,
+        "coreTick": 150,
+        "scene": {
+          "spriteCreated": 8,
+          "sprites": [
+            {
+              "id": "bounded:tray:foundation",
+              "instance": "r2-sprite-1",
+              "frame": "hay_tray_thin",
+              "x": 180,
+              "y": 432
+            },
+            {
+              "id": "actor:foundation",
+              "instance": "r2-sprite-2",
+              "frame": "stack_sample",
+              "action": "stack_idle",
+              "facing": "e",
+              "phaseTicks": 0,
+              "x": 180,
+              "y": 428
+            },
+            {
+              "id": "bounded:tray:moving",
+              "instance": "r2-sprite-3",
+              "frame": "hay_tray_thin",
+              "x": 180,
+              "y": 234
+            },
+            {
+              "id": "actor:moving",
+              "instance": "r2-sprite-4",
+              "frame": "sheep_side__stack_air__e__f000",
+              "action": "stack_air",
+              "facing": "e",
+              "phaseTicks": 0,
+              "x": 180,
+              "y": 230
+            },
+            {
+              "id": "bounded:tray:layer-1",
+              "instance": "r2-sprite-5",
+              "frame": "hay_tray_thin",
+              "x": 180,
+              "y": 388
+            },
+            {
+              "id": "actor:layer-1",
+              "instance": "r2-sprite-6",
+              "frame": "stack_sample",
+              "action": "stack_idle",
+              "facing": "e",
+              "phaseTicks": 0,
+              "x": 180,
+              "y": 384
+            },
+            {
+              "id": "bounded:tray:layer-2",
+              "instance": "r2-sprite-7",
+              "frame": "hay_tray_thin",
+              "x": 180,
+              "y": 344
+            },
+            {
+              "id": "actor:layer-2",
+              "instance": "r2-sprite-8",
+              "frame": "stack_sample",
+              "action": "stack_idle",
+              "facing": "e",
+              "phaseTicks": 0,
+              "x": 180,
+              "y": 340
+            }
+          ],
+          "effects": 1,
+          "pooledEffects": 0
+        }
+      },
+      "version": "R2g-two-static-views"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "requestedDpr": 2,
+      "imageHash": "1e85b8c3be6dc141f1bfded5a86efc58f48d05e5143dc87b3bbd394119417f32",
+      "metaHash": "84cb03679b9445a2028d289049fdc91f5ac86cbd91086e95010e9abce22b9bde",
+      "apiRequests": 0,
+      "errors": [],
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 150,
+        "accepted_actions_count": 3,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 2,
+          "perfect_layers": 2,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 342000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 210000
+          },
+          "width_u": 112000,
+          "phase": "FALL",
+          "phase_ticks_remaining": 9
+        }
+      },
+      "diagnostics": {
+        "version": "4.2.1",
+        "layout": {
+          "cssWidth": 373.9921875,
+          "cssHeight": 498.65625,
+          "bufferWidth": 748,
+          "bufferHeight": 997,
+          "effectiveDpr": 2,
+          "requestedDpr": 2,
+          "zoom": 2.0770833333333334,
+          "offsetX": 0.125,
+          "offsetY": 0
+        },
+        "mode": "paused",
+        "displayTime": 500,
+        "events": [
+          {
+            "id": "recovery-g-evidence:0:37:0",
+            "eventIndex": 0,
+            "event": {
+              "event_key": "stack:37:DROP_ACCEPTED:0",
+              "tick": 37,
+              "type": "DROP_ACCEPTED",
+              "entity_id": null
+            },
+            "snapshot": {
+              "game_id": "stack",
+              "tick": 37,
+              "accepted_actions_count": 1,
+              "conclusion": null,
+              "stats": {
+                "success_layers": 0,
+                "perfect_layers": 0,
+                "misses": 0
+              },
+              "placed_layers": [],
+              "top_support": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 430000
+                },
+                "width_u": 112000
+              },
+              "moving_tray": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 298000
+                },
+                "width_u": 112000,
+                "phase": "FALL",
+                "phase_ticks_remaining": 12
+              }
+            },
+            "timeMs": 0,
+            "decorationOmitted": "expired"
+          },
+          {
+            "id": "recovery-g-evidence:0:49:0",
+            "eventIndex": 0,
+            "event": {
+              "event_key": "stack:49:LAYER_LANDED:1",
+              "tick": 49,
+              "type": "LAYER_LANDED",
+              "entity_id": 1
+            },
+            "snapshot": {
+              "game_id": "stack",
+              "tick": 49,
+              "accepted_actions_count": 1,
+              "conclusion": null,
+              "stats": {
+                "success_layers": 1,
+                "perfect_layers": 1,
+                "misses": 0
+              },
+              "placed_layers": [
+                {
+                  "layer_no": 1,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 386000
+                  },
+                  "perfect": true
+                }
+              ],
+              "top_support": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 386000
+                },
+                "width_u": 112000
+              },
+              "moving_tray": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 254000
+                },
+                "width_u": 112000,
+                "phase": "SETTLE",
+                "phase_ticks_remaining": 6
+              }
+            },
+            "timeMs": 0,
+            "decorationOmitted": "expired"
+          },
+          {
+            "id": "recovery-g-evidence:0:92:0",
+            "eventIndex": 0,
+            "event": {
+              "event_key": "stack:92:DROP_ACCEPTED:0",
+              "tick": 92,
+              "type": "DROP_ACCEPTED",
+              "entity_id": null
+            },
+            "snapshot": {
+              "game_id": "stack",
+              "tick": 92,
+              "accepted_actions_count": 2,
+              "conclusion": null,
+              "stats": {
+                "success_layers": 1,
+                "perfect_layers": 1,
+                "misses": 0
+              },
+              "placed_layers": [
+                {
+                  "layer_no": 1,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 386000
+                  },
+                  "perfect": true
+                }
+              ],
+              "top_support": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 386000
+                },
+                "width_u": 112000
+              },
+              "moving_tray": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 254000
+                },
+                "width_u": 112000,
+                "phase": "FALL",
+                "phase_ticks_remaining": 12
+              }
+            },
+            "timeMs": 0,
+            "decorationOmitted": "expired"
+          },
+          {
+            "id": "recovery-g-evidence:0:104:0",
+            "eventIndex": 0,
+            "event": {
+              "event_key": "stack:104:LAYER_LANDED:2",
+              "tick": 104,
+              "type": "LAYER_LANDED",
+              "entity_id": 2
+            },
+            "snapshot": {
+              "game_id": "stack",
+              "tick": 104,
+              "accepted_actions_count": 2,
+              "conclusion": null,
+              "stats": {
+                "success_layers": 2,
+                "perfect_layers": 2,
+                "misses": 0
+              },
+              "placed_layers": [
+                {
+                  "layer_no": 1,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 386000
+                  },
+                  "perfect": true
+                },
+                {
+                  "layer_no": 2,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 342000
+                  },
+                  "perfect": true
+                }
+              ],
+              "top_support": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 342000
+                },
+                "width_u": 112000
+              },
+              "moving_tray": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 210000
+                },
+                "width_u": 112000,
+                "phase": "SETTLE",
+                "phase_ticks_remaining": 6
+              }
+            },
+            "timeMs": 0
+          },
+          {
+            "id": "recovery-g-evidence:0:147:0",
+            "eventIndex": 0,
+            "event": {
+              "event_key": "stack:147:DROP_ACCEPTED:0",
+              "tick": 147,
+              "type": "DROP_ACCEPTED",
+              "entity_id": null
+            },
+            "snapshot": {
+              "game_id": "stack",
+              "tick": 147,
+              "accepted_actions_count": 3,
+              "conclusion": null,
+              "stats": {
+                "success_layers": 2,
+                "perfect_layers": 2,
+                "misses": 0
+              },
+              "placed_layers": [
+                {
+                  "layer_no": 1,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 386000
+                  },
+                  "perfect": true
+                },
+                {
+                  "layer_no": 2,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 342000
+                  },
+                  "perfect": true
+                }
+              ],
+              "top_support": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 342000
+                },
+                "width_u": 112000
+              },
+              "moving_tray": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 210000
+                },
+                "width_u": 112000,
+                "phase": "FALL",
+                "phase_ticks_remaining": 12
+              }
+            },
+            "timeMs": 0,
+            "decorationOmitted": "no-decoration"
+          }
+        ],
+        "decorationOmitted": 0,
+        "textures": 5,
+        "coreTick": 150,
+        "scene": {
+          "spriteCreated": 8,
+          "sprites": [
+            {
+              "id": "bounded:tray:foundation",
+              "instance": "r2-sprite-1",
+              "frame": "hay_tray_thin",
+              "x": 180,
+              "y": 432
+            },
+            {
+              "id": "actor:foundation",
+              "instance": "r2-sprite-2",
+              "frame": "stack_sample",
+              "action": "stack_idle",
+              "facing": "e",
+              "phaseTicks": 0,
+              "x": 180,
+              "y": 428
+            },
+            {
+              "id": "bounded:tray:moving",
+              "instance": "r2-sprite-3",
+              "frame": "hay_tray_thin",
+              "x": 180,
+              "y": 234
+            },
+            {
+              "id": "actor:moving",
+              "instance": "r2-sprite-4",
+              "frame": "sheep_side__stack_air__e__f000",
+              "action": "stack_air",
+              "facing": "e",
+              "phaseTicks": 0,
+              "x": 180,
+              "y": 230
+            },
+            {
+              "id": "bounded:tray:layer-1",
+              "instance": "r2-sprite-5",
+              "frame": "hay_tray_thin",
+              "x": 180,
+              "y": 388
+            },
+            {
+              "id": "actor:layer-1",
+              "instance": "r2-sprite-6",
+              "frame": "stack_sample",
+              "action": "stack_idle",
+              "facing": "e",
+              "phaseTicks": 0,
+              "x": 180,
+              "y": 384
+            },
+            {
+              "id": "bounded:tray:layer-2",
+              "instance": "r2-sprite-7",
+              "frame": "hay_tray_thin",
+              "x": 180,
+              "y": 344
+            },
+            {
+              "id": "actor:layer-2",
+              "instance": "r2-sprite-8",
+              "frame": "stack_sample",
+              "action": "stack_idle",
+              "facing": "e",
+              "phaseTicks": 0,
+              "x": 180,
+              "y": 340
+            }
+          ],
+          "effects": 1,
+          "pooledEffects": 0
+        }
+      },
+      "version": "R2g-two-static-views"
+    },
+    {
+      "width": 430,
+      "height": 844,
+      "requestedDpr": 2,
+      "imageHash": "1e85b8c3be6dc141f1bfded5a86efc58f48d05e5143dc87b3bbd394119417f32",
+      "metaHash": "84cb03679b9445a2028d289049fdc91f5ac86cbd91086e95010e9abce22b9bde",
+      "apiRequests": 0,
+      "errors": [],
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 150,
+        "accepted_actions_count": 3,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 2,
+          "perfect_layers": 2,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 342000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 210000
+          },
+          "width_u": 112000,
+          "phase": "FALL",
+          "phase_ticks_remaining": 9
+        }
+      },
+      "diagnostics": {
+        "version": "4.2.1",
+        "layout": {
+          "cssWidth": 413.99999999999994,
+          "cssHeight": 552,
+          "bufferWidth": 828,
+          "bufferHeight": 1104,
+          "effectiveDpr": 2,
+          "requestedDpr": 2,
+          "zoom": 2.3,
+          "offsetX": 5.684341886080802e-14,
+          "offsetY": 0
+        },
+        "mode": "paused",
+        "displayTime": 500,
+        "events": [
+          {
+            "id": "recovery-g-evidence:0:37:0",
+            "eventIndex": 0,
+            "event": {
+              "event_key": "stack:37:DROP_ACCEPTED:0",
+              "tick": 37,
+              "type": "DROP_ACCEPTED",
+              "entity_id": null
+            },
+            "snapshot": {
+              "game_id": "stack",
+              "tick": 37,
+              "accepted_actions_count": 1,
+              "conclusion": null,
+              "stats": {
+                "success_layers": 0,
+                "perfect_layers": 0,
+                "misses": 0
+              },
+              "placed_layers": [],
+              "top_support": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 430000
+                },
+                "width_u": 112000
+              },
+              "moving_tray": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 298000
+                },
+                "width_u": 112000,
+                "phase": "FALL",
+                "phase_ticks_remaining": 12
+              }
+            },
+            "timeMs": 0,
+            "decorationOmitted": "expired"
+          },
+          {
+            "id": "recovery-g-evidence:0:49:0",
+            "eventIndex": 0,
+            "event": {
+              "event_key": "stack:49:LAYER_LANDED:1",
+              "tick": 49,
+              "type": "LAYER_LANDED",
+              "entity_id": 1
+            },
+            "snapshot": {
+              "game_id": "stack",
+              "tick": 49,
+              "accepted_actions_count": 1,
+              "conclusion": null,
+              "stats": {
+                "success_layers": 1,
+                "perfect_layers": 1,
+                "misses": 0
+              },
+              "placed_layers": [
+                {
+                  "layer_no": 1,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 386000
+                  },
+                  "perfect": true
+                }
+              ],
+              "top_support": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 386000
+                },
+                "width_u": 112000
+              },
+              "moving_tray": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 254000
+                },
+                "width_u": 112000,
+                "phase": "SETTLE",
+                "phase_ticks_remaining": 6
+              }
+            },
+            "timeMs": 0,
+            "decorationOmitted": "expired"
+          },
+          {
+            "id": "recovery-g-evidence:0:92:0",
+            "eventIndex": 0,
+            "event": {
+              "event_key": "stack:92:DROP_ACCEPTED:0",
+              "tick": 92,
+              "type": "DROP_ACCEPTED",
+              "entity_id": null
+            },
+            "snapshot": {
+              "game_id": "stack",
+              "tick": 92,
+              "accepted_actions_count": 2,
+              "conclusion": null,
+              "stats": {
+                "success_layers": 1,
+                "perfect_layers": 1,
+                "misses": 0
+              },
+              "placed_layers": [
+                {
+                  "layer_no": 1,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 386000
+                  },
+                  "perfect": true
+                }
+              ],
+              "top_support": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 386000
+                },
+                "width_u": 112000
+              },
+              "moving_tray": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 254000
+                },
+                "width_u": 112000,
+                "phase": "FALL",
+                "phase_ticks_remaining": 12
+              }
+            },
+            "timeMs": 0,
+            "decorationOmitted": "expired"
+          },
+          {
+            "id": "recovery-g-evidence:0:104:0",
+            "eventIndex": 0,
+            "event": {
+              "event_key": "stack:104:LAYER_LANDED:2",
+              "tick": 104,
+              "type": "LAYER_LANDED",
+              "entity_id": 2
+            },
+            "snapshot": {
+              "game_id": "stack",
+              "tick": 104,
+              "accepted_actions_count": 2,
+              "conclusion": null,
+              "stats": {
+                "success_layers": 2,
+                "perfect_layers": 2,
+                "misses": 0
+              },
+              "placed_layers": [
+                {
+                  "layer_no": 1,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 386000
+                  },
+                  "perfect": true
+                },
+                {
+                  "layer_no": 2,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 342000
+                  },
+                  "perfect": true
+                }
+              ],
+              "top_support": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 342000
+                },
+                "width_u": 112000
+              },
+              "moving_tray": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 210000
+                },
+                "width_u": 112000,
+                "phase": "SETTLE",
+                "phase_ticks_remaining": 6
+              }
+            },
+            "timeMs": 0
+          },
+          {
+            "id": "recovery-g-evidence:0:147:0",
+            "eventIndex": 0,
+            "event": {
+              "event_key": "stack:147:DROP_ACCEPTED:0",
+              "tick": 147,
+              "type": "DROP_ACCEPTED",
+              "entity_id": null
+            },
+            "snapshot": {
+              "game_id": "stack",
+              "tick": 147,
+              "accepted_actions_count": 3,
+              "conclusion": null,
+              "stats": {
+                "success_layers": 2,
+                "perfect_layers": 2,
+                "misses": 0
+              },
+              "placed_layers": [
+                {
+                  "layer_no": 1,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 386000
+                  },
+                  "perfect": true
+                },
+                {
+                  "layer_no": 2,
+                  "center": {
+                    "x_u": 180000,
+                    "y_u": 342000
+                  },
+                  "perfect": true
+                }
+              ],
+              "top_support": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 342000
+                },
+                "width_u": 112000
+              },
+              "moving_tray": {
+                "center": {
+                  "x_u": 180000,
+                  "y_u": 210000
+                },
+                "width_u": 112000,
+                "phase": "FALL",
+                "phase_ticks_remaining": 12
+              }
+            },
+            "timeMs": 0,
+            "decorationOmitted": "no-decoration"
+          }
+        ],
+        "decorationOmitted": 0,
+        "textures": 5,
+        "coreTick": 150,
+        "scene": {
+          "spriteCreated": 8,
+          "sprites": [
+            {
+              "id": "bounded:tray:foundation",
+              "instance": "r2-sprite-1",
+              "frame": "hay_tray_thin",
+              "x": 180,
+              "y": 432
+            },
+            {
+              "id": "actor:foundation",
+              "instance": "r2-sprite-2",
+              "frame": "stack_sample",
+              "action": "stack_idle",
+              "facing": "e",
+              "phaseTicks": 0,
+              "x": 180,
+              "y": 428
+            },
+            {
+              "id": "bounded:tray:moving",
+              "instance": "r2-sprite-3",
+              "frame": "hay_tray_thin",
+              "x": 180,
+              "y": 234
+            },
+            {
+              "id": "actor:moving",
+              "instance": "r2-sprite-4",
+              "frame": "sheep_side__stack_air__e__f000",
+              "action": "stack_air",
+              "facing": "e",
+              "phaseTicks": 0,
+              "x": 180,
+              "y": 230
+            },
+            {
+              "id": "bounded:tray:layer-1",
+              "instance": "r2-sprite-5",
+              "frame": "hay_tray_thin",
+              "x": 180,
+              "y": 388
+            },
+            {
+              "id": "actor:layer-1",
+              "instance": "r2-sprite-6",
+              "frame": "stack_sample",
+              "action": "stack_idle",
+              "facing": "e",
+              "phaseTicks": 0,
+              "x": 180,
+              "y": 384
+            },
+            {
+              "id": "bounded:tray:layer-2",
+              "instance": "r2-sprite-7",
+              "frame": "hay_tray_thin",
+              "x": 180,
+              "y": 344
+            },
+            {
+              "id": "actor:layer-2",
+              "instance": "r2-sprite-8",
+              "frame": "stack_sample",
+              "action": "stack_idle",
+              "facing": "e",
+              "phaseTicks": 0,
+              "x": 180,
+              "y": 340
+            }
+          ],
+          "effects": 1,
+          "pooledEffects": 0
+        }
+      },
+      "version": "R2g-two-static-views"
+    }
+  ]
+}

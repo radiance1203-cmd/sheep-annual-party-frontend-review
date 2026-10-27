@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "scope": "independent root static/source/hash/clearance check; no aesthetic score",
+  "version": "R2g-g4-c1-curvature-and-crossing-repair",
+  "image_sha256": "aff830064b3c1813d03e9fcd8432ff2009b37c18d4bfb4cfdbfd8166e139c757",
+  "manifest_sha256": "cf6a38593029b2407d83c34a36fda7303c2b86a045bcd261d8d11073573d20a9",
+  "mother_sha256": "e6875118a2cca427b380bf40838d679ac9b742d80ab7fff2e117058cb058feff",
+  "alpha_bbox": [
+    47,
+    102,
+    217,
+    225
+  ],
+  "height_at_css64": 30.75,
+  "width_at_css64": 42.5,
+  "f2_source_preserved": true,
+  "runtime_manifest_preserved": true,
+  "function_files_unchanged": 33,
+  "production_art_accepted": false,
+  "source_manifest_sha256": "43982e3e874fcfc93ae81bf5b2ade145ac018085cb7c139c8c815884561d62c4",
+  "public_png_metadata_sanitized": true
+}

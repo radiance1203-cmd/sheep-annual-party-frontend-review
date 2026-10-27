@@ -1,0 +1,85 @@
+{
+  "version": "R2g-g3-transport-and-applied-flow-weights",
+  "status": "REVIEW",
+  "production_art_accepted": false,
+  "art_signoff": null,
+  "source": "art-source/r2/r2f2/sheep_master_r2f2.blend",
+  "source_sha256": "f81da818d36358ed33935071f4a520ef0357f20d881832e8af24ccf346260227",
+  "mother": "art-source/r2/r2g/history/g3/sheep_master_r2g.blend",
+  "mother_sha256": "ccb371663a7375801b7531d34c963ff8f35bd82ea552ff41256cad39850f1b72",
+  "outputs": [
+    {
+      "path": "art-source/r2/r2g/history/g3/sheep_front_512.png",
+      "sha256": "ac37ec0599fc6041f5a60e3e7c14a07b28d18a0029f047419215b3d2b9e0e845",
+      "seconds": 4.395,
+      "camera": "R2g_review_close",
+      "camera_location": [
+        0.0,
+        -6.0,
+        2.200000047683716
+      ],
+      "ortho_scale": 2.049999952316284,
+      "exposure": 0.4000000059604645,
+      "source_output_sha256": "a45fc04701f2b9369b529e5fa3816115642be28e00418be53e2e14da77b3e71f",
+      "source_output_path": "art-source/r2/r2g/sheep_front_512.png"
+    },
+    {
+      "path": "art-source/r2/r2g/history/g3/sheep_stack_512.png",
+      "sha256": "0035b47b3c4e0212a24d606e27279998e02b9f0c761f60fd89ad7799cf35e798",
+      "seconds": 2.468,
+      "camera": "side_v1",
+      "camera_location": [
+        0.0,
+        -8.0,
+        1.399999976158142
+      ],
+      "ortho_scale": 4.0,
+      "exposure": 0.4000000059604645,
+      "source_output_sha256": "4e58ce54ed0dd9c9298135aa8b70ecb7c9c94a0ea2cf44530903ee4a1d836c4e",
+      "source_output_path": "art-source/r2/r2g/sheep_stack_512.png"
+    }
+  ],
+  "scope": "two original static views only; formal camera/pivot/root unchanged; no production registration",
+  "evidence": "art-source/r2/r2g/mesh-edit-evidence.json",
+  "g1_source": "art-source/r2/r2g/history/g1/sheep_master_r2g.blend",
+  "g1_source_sha256": "916c2bc10cc748af836b367cbfc46425f29cb229b9e828bd133960a2a06f79e0",
+  "g1_g2_evidence": "art-source/r2/r2g/g1-g2-tip-evidence.json",
+  "g2_source": "art-source/r2/r2g/history/g2/sheep_master_r2g.blend",
+  "g2_source_sha256": "a59136a7cb6b79fa7c4ace8c9fbcc0220e2240ff9ede8d9ecbe799687f6f66b0",
+  "g2_g3_evidence": "art-source/r2/r2g/g2-g3-weight-evidence.json",
+  "asset": {
+    "image": "art-source/r2/r2g/history/g3/sheep_stack_r2g.png",
+    "image_sha256": "1e85b8c3be6dc141f1bfded5a86efc58f48d05e5143dc87b3bbd394119417f32",
+    "metadata": "art-source/r2/r2g/history/g3/sheep_stack_r2g.atlas.json",
+    "metadata_sha256": "84cb03679b9445a2028d289049fdc91f5ac86cbd91086e95010e9abce22b9bde",
+    "alpha1_bbox": [
+      47,
+      102,
+      217,
+      225
+    ],
+    "runtime_frame_css_px": 64,
+    "alpha_height_world": 30.75,
+    "alpha_width_world": 42.5,
+    "pivot_px": [
+      128,
+      224
+    ],
+    "source_crop": [
+      128,
+      32,
+      256,
+      256
+    ]
+  },
+  "production_replacement_allowed": false,
+  "reference": {
+    "path": "design/character_foundation_board.png",
+    "sha256": "836bf1f94e122bd5c98868b02d8577f2e8ea16d8acdce234094969e7510b1539"
+  },
+  "review_export_metadata": {
+    "source_document_sha256": "be8b715d221d93b57a045c9cb0a064d789beb01ef3a7336bf6e8f279f9787bfa",
+    "source_pixels_unchanged": true,
+    "png_metadata_receipt": "review/r2-20261027/recovery-g/PUBLIC_SANITIZATION.json"
+  }
+}

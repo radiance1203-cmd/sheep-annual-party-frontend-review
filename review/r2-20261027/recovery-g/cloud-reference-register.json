@@ -1,0 +1,56 @@
+{
+  "source_kind": "built-in imagegen reference edit by parent cloud task",
+  "name": "sheep_reference_edit_r2.png",
+  "library_file_id": "libfile_3407db15e99881918104ce7820e2092e",
+  "file_id": "file_000000002e9c822fa4ce42d97e733f78",
+  "parent_reported_version": 0,
+  "library_read_version_id": null,
+  "dimensions_px": [
+    1254,
+    1254
+  ],
+  "size_bytes_from_library": 985561,
+  "library_artifact_type": "image_gen",
+  "local_materialized": false,
+  "view_attempts": [
+    {
+      "mode": "image_file",
+      "include_images": true,
+      "include_text": true,
+      "result": "image_asset_pointer and caption; no MCP image pixel block"
+    },
+    {
+      "mode": "image_file",
+      "include_images": true,
+      "include_text": false,
+      "result": "image_asset_pointer only; no MCP image pixel block"
+    },
+    {
+      "mode": "image_file",
+      "ref_id_kind": "returned file_id",
+      "include_images": true,
+      "include_text": false,
+      "result": "requested file reference not currently visible; no pixels returned; branch stopped"
+    }
+  ],
+  "pixels_reviewed_by_this_executor": false,
+  "parent_observations_not_remeasured": {
+    "rgba_and_true_transparency": true,
+    "horn_fleece_face_closer_to_character_board": true,
+    "scale_and_pose_changed": true,
+    "strict_foot_pivot_camera_preservation": false
+  },
+  "usage": "reference-only local shape/material calibration after pixel inspection; no direct production frame replacement",
+  "not_blender_output": true,
+  "not_golden": true,
+  "production_art_accepted": false,
+  "remaining_input_blocker": "Need a pixel-bearing supported image result/attachment or an authorized fixed image URL; do not retry Windows download helper, infer pixels from caption, or guess cloud filesystem paths.",
+  "git_coordination": {
+    "status": "HOLD_RELEASED_G4_ONLY_SYNC",
+    "review_head": "608e2a5bbe24e306a15019a73cf0cdb956ec5d56",
+    "checkout_clean": true,
+    "parent_to_publish_reference_first": true,
+    "next": "synchronize existing G3/G4 evidence only; do not upload cloud PNG through any other route",
+    "parent_reference_publication": "create_blob extra confirmation not completed; no tree/commit/ref update"
+  }
+}

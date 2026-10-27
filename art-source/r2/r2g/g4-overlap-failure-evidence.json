@@ -1,0 +1,875 @@
+{
+  "status": "FAILED_NO_SAVE_NO_RENDER",
+  "side": -1,
+  "source_sha256": "ccb371663a7375801b7531d34c963ff8f35bd82ea552ff41256cad39850f1b72",
+  "fixed_center_endpoint_distance": 0.020783303926096362,
+  "start_section_radius": 0.0285413710406679,
+  "selected_handle_scales": [
+    1.4,
+    0.2
+  ],
+  "selected_taper_power": 8.0,
+  "dense_max_ratio": 0.6875985127707144,
+  "baseline_g3_triangle_test": {
+    "method": "BVH triangle candidates + bounded edge/triangle intersection; shared-vertex and immediate-neighbor boundaries excluded",
+    "nonadjacent_candidate_pairs_tested": 164,
+    "actual_crossing_pairs": 164,
+    "crossing_examples": [
+      {
+        "triangle_a": 8617,
+        "triangle_b": 8710,
+        "ring_a": 179,
+        "ring_b": 181
+      },
+      {
+        "triangle_a": 9028,
+        "triangle_b": 9125,
+        "ring_a": 188,
+        "ring_b": 190
+      },
+      {
+        "triangle_a": 9029,
+        "triangle_b": 9124,
+        "ring_a": 188,
+        "ring_b": 190
+      },
+      {
+        "triangle_a": 9029,
+        "triangle_b": 9125,
+        "ring_a": 188,
+        "ring_b": 190
+      },
+      {
+        "triangle_a": 8672,
+        "triangle_b": 9155,
+        "ring_a": 180,
+        "ring_b": 190
+      },
+      {
+        "triangle_a": 8673,
+        "triangle_b": 9152,
+        "ring_a": 180,
+        "ring_b": 190
+      },
+      {
+        "triangle_a": 8673,
+        "triangle_b": 9155,
+        "ring_a": 180,
+        "ring_b": 190
+      },
+      {
+        "triangle_a": 8673,
+        "triangle_b": 9200,
+        "ring_a": 180,
+        "ring_b": 191
+      },
+      {
+        "triangle_a": 8673,
+        "triangle_b": 9153,
+        "ring_a": 180,
+        "ring_b": 190
+      },
+      {
+        "triangle_a": 8816,
+        "triangle_b": 9154,
+        "ring_a": 183,
+        "ring_b": 190
+      },
+      {
+        "triangle_a": 8816,
+        "triangle_b": 9152,
+        "ring_a": 183,
+        "ring_b": 190
+      },
+      {
+        "triangle_a": 8816,
+        "triangle_b": 9155,
+        "ring_a": 183,
+        "ring_b": 190
+      }
+    ]
+  },
+  "candidate_triangle_test": {
+    "method": "BVH triangle candidates + bounded edge/triangle intersection; shared-vertex and immediate-neighbor boundaries excluded",
+    "nonadjacent_candidate_pairs_tested": 41,
+    "actual_crossing_pairs": 41,
+    "crossing_examples": [
+      {
+        "triangle_a": 8330,
+        "triangle_b": 8474,
+        "ring_a": 173,
+        "ring_b": 176
+      },
+      {
+        "triangle_a": 8330,
+        "triangle_b": 8427,
+        "ring_a": 173,
+        "ring_b": 175
+      },
+      {
+        "triangle_a": 8331,
+        "triangle_b": 8427,
+        "ring_a": 173,
+        "ring_b": 175
+      },
+      {
+        "triangle_a": 8282,
+        "triangle_b": 8474,
+        "ring_a": 172,
+        "ring_b": 176
+      },
+      {
+        "triangle_a": 8283,
+        "triangle_b": 8474,
+        "ring_a": 172,
+        "ring_b": 176
+      },
+      {
+        "triangle_a": 8295,
+        "triangle_b": 8484,
+        "ring_a": 172,
+        "ring_b": 176
+      },
+      {
+        "triangle_a": 8295,
+        "triangle_b": 8487,
+        "ring_a": 172,
+        "ring_b": 176
+      },
+      {
+        "triangle_a": 8295,
+        "triangle_b": 8486,
+        "ring_a": 172,
+        "ring_b": 176
+      },
+      {
+        "triangle_a": 8342,
+        "triangle_b": 8486,
+        "ring_a": 173,
+        "ring_b": 176
+      },
+      {
+        "triangle_a": 8342,
+        "triangle_b": 8489,
+        "ring_a": 173,
+        "ring_b": 176
+      },
+      {
+        "triangle_a": 8290,
+        "triangle_b": 8530,
+        "ring_a": 172,
+        "ring_b": 177
+      },
+      {
+        "triangle_a": 8291,
+        "triangle_b": 8530,
+        "ring_a": 172,
+        "ring_b": 177
+      }
+    ]
+  },
+  "candidate_sections": [
+    {
+      "ring": 175,
+      "before_center": [
+        -0.42295045,
+        0.6315195,
+        1.09548879
+      ],
+      "after_center": [
+        -0.42295045,
+        0.6315195,
+        1.09548879
+      ],
+      "before_radius": 0.0285413710406679,
+      "after_radius": 0.0285413710406679,
+      "curve_radius": 0.1197282856088457,
+      "section_over_curve_radius": 0.2383845295664972,
+      "before_vertex0": [
+        -0.40408993,
+        0.63151956,
+        1.07288647
+      ],
+      "after_vertex0": [
+        -0.40408993,
+        0.63151956,
+        1.07288647
+      ]
+    },
+    {
+      "ring": 176,
+      "before_center": [
+        -0.42375016,
+        0.63397241,
+        1.09522188
+      ],
+      "after_center": [
+        -0.42393449,
+        0.63461924,
+        1.09507644
+      ],
+      "before_radius": 0.028695264461211095,
+      "after_radius": 0.027618480681626742,
+      "curve_radius": 0.08742522482445941,
+      "section_over_curve_radius": 0.3159097472964093,
+      "before_vertex0": [
+        -0.40592599,
+        0.63397235,
+        1.07162547
+      ],
+      "after_vertex0": [
+        -0.4068566,
+        0.63675016,
+        1.07347584
+      ]
+    },
+    {
+      "ring": 177,
+      "before_center": [
+        -0.42450845,
+        0.63635749,
+        1.09500623
+      ],
+      "after_center": [
+        -0.42470413,
+        0.6373564,
+        1.09468091
+      ],
+      "before_radius": 0.028871614126383602,
+      "after_radius": 0.024890221745005218,
+      "curve_radius": 0.062487596257732876,
+      "section_over_curve_radius": 0.39832259897379296,
+      "before_vertex0": [
+        -0.40775859,
+        0.63635749,
+        1.07044506
+      ],
+      "after_vertex0": [
+        -0.40909463,
+        0.6384961,
+        1.07532716
+      ]
+    },
+    {
+      "ring": 178,
+      "before_center": [
+        -0.42522344,
+        0.63867044,
+        1.094836
+      ],
+      "after_center": [
+        -0.42527348,
+        0.63975269,
+        1.09430206
+      ],
+      "before_radius": 0.029069376905379394,
+      "after_radius": 0.020983563663599956,
+      "curve_radius": 0.043644221266414415,
+      "section_over_curve_radius": 0.48078675835482165,
+      "before_vertex0": [
+        -0.40958112,
+        0.63867038,
+        1.06934607
+      ],
+      "after_vertex0": [
+        -0.41192135,
+        0.63989794,
+        1.07811534
+      ]
+    },
+    {
+      "ring": 179,
+      "before_center": [
+        -0.42589292,
+        0.64090663,
+        1.09470654
+      ],
+      "after_center": [
+        -0.42565686,
+        0.64182967,
+        1.09393895
+      ],
+      "before_radius": 0.029287488539638737,
+      "after_radius": 0.016603246618073393,
+      "curve_radius": 0.029758823831169644,
+      "section_over_curve_radius": 0.5579268425482264,
+      "before_vertex0": [
+        -0.41139501,
+        0.64090651,
+        1.0683223
+      ],
+      "after_vertex0": [
+        -0.4149439,
+        0.64113402,
+        1.08127344
+      ]
+    },
+    {
+      "ring": 180,
+      "before_center": [
+        -0.42651606,
+        0.64306158,
+        1.09461379
+      ],
+      "after_center": [
+        -0.42586851,
+        0.64360911,
+        1.09359121
+      ],
+      "before_radius": 0.02952457839364658,
+      "after_radius": 0.012365772757265551,
+      "curve_radius": 0.019826795018482654,
+      "section_over_curve_radius": 0.623689948160462,
+      "before_vertex0": [
+        -0.41319758,
+        0.64306158,
+        1.06737339
+      ],
+      "after_vertex0": [
+        -0.41780031,
+        0.64232349,
+        1.08430874
+      ]
+    },
+    {
+      "ring": 181,
+      "before_center": [
+        -0.42709225,
+        0.64513189,
+        1.09455192
+      ],
+      "after_center": [
+        -0.42592272,
+        0.64511234,
+        1.09325814
+      ],
+      "before_radius": 0.029779173806235626,
+      "after_radius": 0.008697747445184048,
+      "curve_radius": 0.012972488843300508,
+      "section_over_curve_radius": 0.670476386624599,
+      "before_vertex0": [
+        -0.41590464,
+        0.64753097,
+        1.0670588
+      ],
+      "after_vertex0": [
+        -0.42022514,
+        0.6435169,
+        1.08688295
+      ]
+    },
+    {
+      "ring": 182,
+      "before_center": [
+        -0.42762133,
+        0.64711332,
+        1.09451771
+      ],
+      "after_center": [
+        -0.42583373,
+        0.64636129,
+        1.09293938
+      ],
+      "before_radius": 0.03004966597878321,
+      "after_radius": 0.005807832775702395,
+      "curve_radius": 0.008447380787948775,
+      "section_over_curve_radius": 0.6875305993057613,
+      "before_vertex0": [
+        -0.41638932,
+        0.6497497,
+        1.06677103
+      ],
+      "after_vertex0": [
+        -0.42207372,
+        0.64470792,
+        1.08883333
+      ]
+    },
+    {
+      "ring": 183,
+      "before_center": [
+        -0.42807707,
+        0.64894605,
+        1.0945158
+      ],
+      "after_center": [
+        -0.42561579,
+        0.64737731,
+        1.0926342
+      ],
+      "before_radius": 0.03033411027058208,
+      "after_radius": 0.0037172788179230007,
+      "curve_radius": 0.005630038764642688,
+      "section_over_curve_radius": 0.6602581213592974,
+      "before_vertex0": [
+        -0.41677639,
+        0.65175712,
+        1.06650591
+      ],
+      "after_vertex0": [
+        -0.42331174,
+        0.64585334,
+        1.09014678
+      ]
+    },
+    {
+      "ring": 184,
+      "before_center": [
+        -0.42850834,
+        0.65072548,
+        1.09452224
+      ],
+      "after_center": [
+        -0.42528316,
+        0.64818245,
+        1.09234226
+      ],
+      "before_radius": 0.030630421636726704,
+      "after_radius": 0.0023220870871804153,
+      "curve_radius": 0.004029262193585226,
+      "section_over_curve_radius": 0.5763057789779198,
+      "before_vertex0": [
+        -0.41711411,
+        0.65363359,
+        1.06623912
+      ],
+      "after_vertex0": [
+        -0.42398441,
+        0.64689577,
+        1.09091055
+      ]
+    },
+    {
+      "ring": 185,
+      "before_center": [
+        -0.42890117,
+        0.65241843,
+        1.09454083
+      ],
+      "after_center": [
+        -0.42485014,
+        0.64879787,
+        1.09206283
+      ],
+      "before_radius": 0.030936302757355986,
+      "after_radius": 0.001460109190281196,
+      "curve_radius": 0.003290171698514738,
+      "section_over_curve_radius": 0.44377902555672827,
+      "before_vertex0": [
+        -0.41741216,
+        0.65543759,
+        1.06597614
+      ],
+      "after_vertex0": [
+        -0.42418346,
+        0.64777744,
+        1.091259
+      ]
+    },
+    {
+      "ring": 186,
+      "before_center": [
+        -0.42925209,
+        0.6540125,
+        1.09457052
+      ],
+      "after_center": [
+        -0.42433092,
+        0.6492455,
+        1.09179521
+      ],
+      "before_radius": 0.031249397164687883,
+      "after_radius": 0.0009645639826214326,
+      "curve_radius": 0.00319833022308723,
+      "section_over_curve_radius": 0.301583612492138,
+      "before_vertex0": [
+        -0.417658,
+        0.65711319,
+        1.0657177
+      ],
+      "after_vertex0": [
+        -0.42402342,
+        0.64845693,
+        1.09133255
+      ]
+    },
+    {
+      "ring": 187,
+      "before_center": [
+        -0.42956015,
+        0.65550166,
+        1.09460735
+      ],
+      "after_center": [
+        -0.42373988,
+        0.64954692,
+        1.09153926
+      ],
+      "before_radius": 0.03156715936616237,
+      "after_radius": 0.0006961723299460013,
+      "curve_radius": 0.0036728687639481306,
+      "section_over_curve_radius": 0.18954456984127432,
+      "before_vertex0": [
+        -0.41783074,
+        0.65854859,
+        1.06545913
+      ],
+      "after_vertex0": [
+        -0.42362091,
+        0.64892495,
+        1.09125006
+      ]
+    },
+    {
+      "ring": 188,
+      "before_center": [
+        -0.42981404,
+        0.65687025,
+        1.09464312
+      ],
+      "after_center": [
+        -0.42309108,
+        0.64972377,
+        1.09129405
+      ],
+      "before_radius": 0.03188721797645205,
+      "after_radius": 0.0005550482276651752,
+      "curve_radius": 0.004751548427984125,
+      "section_over_curve_radius": 0.11681417880458349,
+      "before_vertex0": [
+        -0.41786593,
+        0.65939069,
+        1.06518662
+      ],
+      "after_vertex0": [
+        -0.42306995,
+        0.64920747,
+        1.09109139
+      ]
+    },
+    {
+      "ring": 189,
+      "before_center": [
+        -0.42997539,
+        0.65807599,
+        1.09465909
+      ],
+      "after_center": [
+        -0.42239898,
+        0.64979756,
+        1.09105921
+      ],
+      "before_radius": 0.03220718987782376,
+      "after_radius": 0.0004785087209025205,
+      "curve_radius": 0.0066039746313071865,
+      "section_over_curve_radius": 0.07245768610831335,
+      "before_vertex0": [
+        -0.41768911,
+        0.65877569,
+        1.06489575
+      ],
+      "after_vertex0": [
+        -0.42243126,
+        0.64934689,
+        1.09090173
+      ]
+    },
+    {
+      "ring": 190,
+      "before_center": [
+        -0.42997894,
+        0.65904927,
+        1.09462643
+      ],
+      "after_center": [
+        -0.42167771,
+        0.64979005,
+        1.09083426
+      ],
+      "before_radius": 0.03194468782934872,
+      "after_radius": 0.0004320458834902707,
+      "curve_radius": 0.009672865249367595,
+      "section_over_curve_radius": 0.044665760594413066,
+      "before_vertex0": [
+        -0.41792518,
+        0.65490758,
+        1.06533432
+      ],
+      "after_vertex0": [
+        -0.42174023,
+        0.64938337,
+        1.09070241
+      ]
+    },
+    {
+      "ring": 191,
+      "before_center": [
+        -0.42975926,
+        0.65972102,
+        1.09451556
+      ],
+      "after_center": [
+        -0.42094159,
+        0.64972281,
+        1.09061849
+      ],
+      "before_radius": 0.031159210788282724,
+      "after_radius": 0.0003991443720000854,
+      "curve_radius": 0.015360932017811694,
+      "section_over_curve_radius": 0.025984385031927716,
+      "before_vertex0": [
+        -0.42183608,
+        0.64571244,
+        1.0678345
+      ],
+      "after_vertex0": [
+        -0.42102015,
+        0.64934897,
+        1.09050286
+      ]
+    },
+    {
+      "ring": 192,
+      "before_center": [
+        -0.42927858,
+        0.66004944,
+        1.09430921
+      ],
+      "after_center": [
+        -0.42020485,
+        0.64961755,
+        1.09041142
+      ],
+      "before_radius": 0.02985696263741636,
+      "after_radius": 0.000373087982111231,
+      "curve_radius": 0.03102998852713686,
+      "section_over_curve_radius": 0.01202346503560425,
+      "before_vertex0": [
+        -0.43282017,
+        0.63889015,
+        1.07354426
+      ],
+      "after_vertex0": [
+        -0.42028958,
+        0.6492697,
+        1.09030652
+      ]
+    },
+    {
+      "ring": 193,
+      "before_center": [
+        -0.42852604,
+        0.66002029,
+        1.09400034
+      ],
+      "after_center": [
+        -0.41948178,
+        0.64949578,
+        1.09021235
+      ],
+      "before_radius": 0.028047511984510148,
+      "after_radius": 0.00035166103374183416,
+      "curve_radius": 1.4709232444322835,
+      "section_over_curve_radius": 0.0002390750401646967,
+      "before_vertex0": [
+        -0.43980718,
+        0.6401208,
+        1.07777035
+      ],
+      "after_vertex0": [
+        -0.41956511,
+        0.64916849,
+        1.09011436
+      ]
+    },
+    {
+      "ring": 194,
+      "before_center": [
+        -0.42750239,
+        0.65963078,
+        1.09358788
+      ],
+      "after_center": [
+        -0.41878659,
+        0.64937925,
+        1.0900209
+      ],
+      "before_radius": 0.02574277355694024,
+      "after_radius": 0.00033431217943808,
+      "curve_radius": 0.024448153430383375,
+      "section_over_curve_radius": 0.013674332517179297,
+      "before_vertex0": [
+        -0.44129691,
+        0.64260304,
+        1.08008015
+      ],
+      "after_vertex0": [
+        -0.41886193,
+        0.64906746,
+        1.08992672
+      ]
+    },
+    {
+      "ring": 195,
+      "before_center": [
+        -0.42621022,
+        0.65888083,
+        1.0930717
+      ],
+      "after_center": [
+        -0.41813362,
+        0.64928949,
+        1.0898366
+      ],
+      "before_radius": 0.022954718392076117,
+      "after_radius": 0.0003208986652408163,
+      "curve_radius": 0.009945547866604062,
+      "section_over_curve_radius": 0.03226555937841845,
+      "before_vertex0": [
+        -0.44008699,
+        0.64459556,
+        1.08165741
+      ],
+      "after_vertex0": [
+        -0.41819388,
+        0.6489886,
+        1.08974278
+      ]
+    },
+    {
+      "ring": 196,
+      "before_center": [
+        -0.42465204,
+        0.65777051,
+        1.09245086
+      ],
+      "after_center": [
+        -0.417537,
+        0.64924818,
+        1.0896585
+      ],
+      "before_radius": 0.019691561692956265,
+      "after_radius": 0.00031123492851348097,
+      "curve_radius": 0.0049343977339012255,
+      "section_over_curve_radius": 0.06307455241704096,
+      "before_vertex0": [
+        -0.43734887,
+        0.64607602,
+        1.08297515
+      ],
+      "after_vertex0": [
+        -0.4175725,
+        0.64895487,
+        1.08956063
+      ]
+    },
+    {
+      "ring": 197,
+      "before_center": [
+        -0.42283449,
+        0.65630555,
+        1.0917269
+      ],
+      "after_center": [
+        -0.41701108,
+        0.64927703,
+        1.0894866
+      ],
+      "before_radius": 0.01594919080845977,
+      "after_radius": 0.0003049654312040011,
+      "curve_radius": 0.002578393236412887,
+      "section_over_curve_radius": 0.1182773158481734,
+      "before_vertex0": [
+        -0.43351635,
+        0.64715219,
+        1.08421063
+      ],
+      "after_vertex0": [
+        -0.41700724,
+        0.64899206,
+        1.089378
+      ]
+    },
+    {
+      "ring": 198,
+      "before_center": [
+        -0.42078802,
+        0.65452528,
+        1.09091163
+      ],
+      "after_center": [
+        -0.41657013,
+        0.64939755,
+        1.08931983
+      ],
+      "before_radius": 0.011690219582779438,
+      "after_radius": 0.00030153811331546445,
+      "curve_radius": 0.001471018172526706,
+      "section_over_curve_radius": 0.20498598790083275,
+      "before_vertex0": [
+        -0.42878237,
+        0.64795852,
+        1.08546805
+      ],
+      "after_vertex0": [
+        -0.41650751,
+        0.64913267,
+        1.08919001
+      ]
+    },
+    {
+      "ring": 199,
+      "before_center": [
+        -0.41859877,
+        0.65254802,
+        1.09003901
+      ],
+      "after_center": [
+        -0.41622841,
+        0.64963138,
+        1.08915794
+      ],
+      "before_radius": 0.006769449752205351,
+      "after_radius": 0.00030020062347588624,
+      "curve_radius": 0.0011198416310877468,
+      "section_over_curve_radius": 0.26807417686757135,
+      "before_vertex0": [
+        -0.42333815,
+        0.64884615,
+        1.08693075
+      ],
+      "after_vertex0": [
+        -0.41609612,
+        0.64941651,
+        1.08899534
+      ]
+    },
+    {
+      "ring": 200,
+      "before_center": [
+        -0.4160001,
+        0.65000021,
+        1.08900023
+      ],
+      "after_center": [
+        -0.4160001,
+        0.65000021,
+        1.08900023
+      ],
+      "before_radius": 0.000299999361138159,
+      "after_radius": 0.0003,
+      "curve_radius": 0.0013962460739724864,
+      "section_over_curve_radius": 0.21486183960859007,
+      "before_vertex0": [
+        -0.41621289,
+        0.64983875,
+        1.08886361
+      ],
+      "after_vertex0": [
+        -0.4158189,
+        0.64986324,
+        1.08880424
+      ]
+    }
+  ]
+}
