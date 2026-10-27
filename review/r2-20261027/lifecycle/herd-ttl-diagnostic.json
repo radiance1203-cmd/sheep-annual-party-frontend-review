@@ -1,0 +1,961 @@
+{
+  "tick": 432,
+  "time": 2039,
+  "beforeCatchupTick": 52,
+  "oldDecorations": [
+    {
+      "id": "r2-sample:herd:0:60:1",
+      "eventIndex": 1,
+      "event": {
+        "event_key": "herd:60:BARK_TRIGGERED:0",
+        "tick": 60,
+        "type": "BARK_TRIGGERED",
+        "entity_id": null
+      },
+      "snapshot": {
+        "game_id": "herd",
+        "tick": 60,
+        "accepted_actions_count": 61,
+        "conclusion": null,
+        "stats": {
+          "penned_count": 0,
+          "final_goal_tick": null,
+          "time_bonus_points": 0
+        },
+        "dog": {
+          "center": {
+            "x_u": 182772,
+            "y_u": 205739
+          },
+          "facing_index": 6
+        },
+        "sheep": [
+          {
+            "sheep_id": 1,
+            "center": {
+              "x_u": 132104,
+              "y_u": 141797
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 2,
+            "center": {
+              "x_u": 158357,
+              "y_u": 127354
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 3,
+            "center": {
+              "x_u": 207413,
+              "y_u": 128000
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 4,
+            "center": {
+              "x_u": 232060,
+              "y_u": 144576
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 5,
+            "center": {
+              "x_u": 101544,
+              "y_u": 182298
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 6,
+            "center": {
+              "x_u": 169676,
+              "y_u": 144966
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 7,
+            "center": {
+              "x_u": 191381,
+              "y_u": 145259
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 8,
+            "center": {
+              "x_u": 261638,
+              "y_u": 176239
+            },
+            "facing_index": 6,
+            "in_pen": false
+          }
+        ],
+        "bark_ticks_remaining": 12,
+        "bark_cooldown_ticks_remaining": 150
+      },
+      "timeMs": 1943,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:herd:0:101:1",
+      "eventIndex": 1,
+      "event": {
+        "event_key": "herd:101:SHEEP_PENNED:6",
+        "tick": 101,
+        "type": "SHEEP_PENNED",
+        "entity_id": 6
+      },
+      "snapshot": {
+        "game_id": "herd",
+        "tick": 101,
+        "accepted_actions_count": 102,
+        "conclusion": null,
+        "stats": {
+          "penned_count": 1,
+          "final_goal_tick": null,
+          "time_bonus_points": 0
+        },
+        "dog": {
+          "center": {
+            "x_u": 183636,
+            "y_u": 146413
+          },
+          "facing_index": 6
+        },
+        "sheep": [
+          {
+            "sheep_id": 1,
+            "center": {
+              "x_u": 129034,
+              "y_u": 86000
+            },
+            "facing_index": 0,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 2,
+            "center": {
+              "x_u": 154000,
+              "y_u": 66685
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 3,
+            "center": {
+              "x_u": 205635,
+              "y_u": 84012
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 4,
+            "center": {
+              "x_u": 235895,
+              "y_u": 86000
+            },
+            "facing_index": 4,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 5,
+            "center": {
+              "x_u": 97547,
+              "y_u": 145687
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 6,
+            "center": {
+              "x_u": 173656,
+              "y_u": 64926
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 7,
+            "center": {
+              "x_u": 192026,
+              "y_u": 67960
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 8,
+            "center": {
+              "x_u": 263462,
+              "y_u": 120311
+            },
+            "facing_index": 6,
+            "in_pen": false
+          }
+        ],
+        "bark_ticks_remaining": 0,
+        "bark_cooldown_ticks_remaining": 109
+      },
+      "timeMs": 1943,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:herd:0:103:1",
+      "eventIndex": 1,
+      "event": {
+        "event_key": "herd:103:SHEEP_PENNED:7",
+        "tick": 103,
+        "type": "SHEEP_PENNED",
+        "entity_id": 7
+      },
+      "snapshot": {
+        "game_id": "herd",
+        "tick": 103,
+        "accepted_actions_count": 104,
+        "conclusion": null,
+        "stats": {
+          "penned_count": 2,
+          "final_goal_tick": null,
+          "time_bonus_points": 0
+        },
+        "dog": {
+          "center": {
+            "x_u": 186052,
+            "y_u": 147814
+          },
+          "facing_index": 6
+        },
+        "sheep": [
+          {
+            "sheep_id": 1,
+            "center": {
+              "x_u": 130024,
+              "y_u": 86000
+            },
+            "facing_index": 0,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 2,
+            "center": {
+              "x_u": 154512,
+              "y_u": 66994
+            },
+            "facing_index": 1,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 3,
+            "center": {
+              "x_u": 204677,
+              "y_u": 80132
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 4,
+            "center": {
+              "x_u": 234122,
+              "y_u": 86000
+            },
+            "facing_index": 4,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 5,
+            "center": {
+              "x_u": 97636,
+              "y_u": 145095
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 6,
+            "center": {
+              "x_u": 173656,
+              "y_u": 64926
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 7,
+            "center": {
+              "x_u": 190013,
+              "y_u": 64508
+            },
+            "facing_index": 5,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 8,
+            "center": {
+              "x_u": 263584,
+              "y_u": 116315
+            },
+            "facing_index": 6,
+            "in_pen": false
+          }
+        ],
+        "bark_ticks_remaining": 0,
+        "bark_cooldown_ticks_remaining": 107
+      },
+      "timeMs": 1943,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:herd:0:111:1",
+      "eventIndex": 1,
+      "event": {
+        "event_key": "herd:111:SHEEP_PENNED:2",
+        "tick": 111,
+        "type": "SHEEP_PENNED",
+        "entity_id": 2
+      },
+      "snapshot": {
+        "game_id": "herd",
+        "tick": 111,
+        "accepted_actions_count": 112,
+        "conclusion": null,
+        "stats": {
+          "penned_count": 3,
+          "final_goal_tick": null,
+          "time_bonus_points": 0
+        },
+        "dog": {
+          "center": {
+            "x_u": 176564,
+            "y_u": 147486
+          },
+          "facing_index": 6
+        },
+        "sheep": [
+          {
+            "sheep_id": 1,
+            "center": {
+              "x_u": 134626,
+              "y_u": 86000
+            },
+            "facing_index": 0,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 2,
+            "center": {
+              "x_u": 158327,
+              "y_u": 64647
+            },
+            "facing_index": 7,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 3,
+            "center": {
+              "x_u": 197178,
+              "y_u": 66019
+            },
+            "facing_index": 5,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 4,
+            "center": {
+              "x_u": 226122,
+              "y_u": 86000
+            },
+            "facing_index": 4,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 5,
+            "center": {
+              "x_u": 94368,
+              "y_u": 131223
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 6,
+            "center": {
+              "x_u": 173656,
+              "y_u": 64926
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 7,
+            "center": {
+              "x_u": 190013,
+              "y_u": 64508
+            },
+            "facing_index": 5,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 8,
+            "center": {
+              "x_u": 261214,
+              "y_u": 115980
+            },
+            "facing_index": 4,
+            "in_pen": false
+          }
+        ],
+        "bark_ticks_remaining": 0,
+        "bark_cooldown_ticks_remaining": 99
+      },
+      "timeMs": 1943,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:herd:0:117:1",
+      "eventIndex": 1,
+      "event": {
+        "event_key": "herd:117:SHEEP_PENNED:3",
+        "tick": 117,
+        "type": "SHEEP_PENNED",
+        "entity_id": 3
+      },
+      "snapshot": {
+        "game_id": "herd",
+        "tick": 117,
+        "accepted_actions_count": 118,
+        "conclusion": null,
+        "stats": {
+          "penned_count": 4,
+          "final_goal_tick": null,
+          "time_bonus_points": 0
+        },
+        "dog": {
+          "center": {
+            "x_u": 186603,
+            "y_u": 150679
+          },
+          "facing_index": 6
+        },
+        "sheep": [
+          {
+            "sheep_id": 1,
+            "center": {
+              "x_u": 140626,
+              "y_u": 86000
+            },
+            "facing_index": 0,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 2,
+            "center": {
+              "x_u": 158327,
+              "y_u": 64647
+            },
+            "facing_index": 7,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 3,
+            "center": {
+              "x_u": 196455,
+              "y_u": 65628
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 4,
+            "center": {
+              "x_u": 220122,
+              "y_u": 86000
+            },
+            "facing_index": 4,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 5,
+            "center": {
+              "x_u": 94902,
+              "y_u": 129510
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 6,
+            "center": {
+              "x_u": 173656,
+              "y_u": 64926
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 7,
+            "center": {
+              "x_u": 190013,
+              "y_u": 64508
+            },
+            "facing_index": 5,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 8,
+            "center": {
+              "x_u": 260178,
+              "y_u": 109880
+            },
+            "facing_index": 4,
+            "in_pen": false
+          }
+        ],
+        "bark_ticks_remaining": 0,
+        "bark_cooldown_ticks_remaining": 93
+      },
+      "timeMs": 1943,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:herd:0:143:1",
+      "eventIndex": 1,
+      "event": {
+        "event_key": "herd:143:SHEEP_PENNED:1",
+        "tick": 143,
+        "type": "SHEEP_PENNED",
+        "entity_id": 1
+      },
+      "snapshot": {
+        "game_id": "herd",
+        "tick": 143,
+        "accepted_actions_count": 144,
+        "conclusion": null,
+        "stats": {
+          "penned_count": 6,
+          "final_goal_tick": null,
+          "time_bonus_points": 0
+        },
+        "dog": {
+          "center": {
+            "x_u": 181175,
+            "y_u": 144546
+          },
+          "facing_index": 6
+        },
+        "sheep": [
+          {
+            "sheep_id": 1,
+            "center": {
+              "x_u": 166946,
+              "y_u": 65485
+            },
+            "facing_index": 7,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 2,
+            "center": {
+              "x_u": 158327,
+              "y_u": 64647
+            },
+            "facing_index": 7,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 3,
+            "center": {
+              "x_u": 196455,
+              "y_u": 65628
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 4,
+            "center": {
+              "x_u": 201962,
+              "y_u": 64295
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 5,
+            "center": {
+              "x_u": 100671,
+              "y_u": 121299
+            },
+            "facing_index": 0,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 6,
+            "center": {
+              "x_u": 173656,
+              "y_u": 64926
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 7,
+            "center": {
+              "x_u": 190013,
+              "y_u": 64508
+            },
+            "facing_index": 5,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 8,
+            "center": {
+              "x_u": 252928,
+              "y_u": 101733
+            },
+            "facing_index": 6,
+            "in_pen": false
+          }
+        ],
+        "bark_ticks_remaining": 0,
+        "bark_cooldown_ticks_remaining": 67
+      },
+      "timeMs": 1943,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:herd:0:143:2",
+      "eventIndex": 2,
+      "event": {
+        "event_key": "herd:143:SHEEP_PENNED:4",
+        "tick": 143,
+        "type": "SHEEP_PENNED",
+        "entity_id": 4
+      },
+      "snapshot": {
+        "game_id": "herd",
+        "tick": 143,
+        "accepted_actions_count": 144,
+        "conclusion": null,
+        "stats": {
+          "penned_count": 6,
+          "final_goal_tick": null,
+          "time_bonus_points": 0
+        },
+        "dog": {
+          "center": {
+            "x_u": 181175,
+            "y_u": 144546
+          },
+          "facing_index": 6
+        },
+        "sheep": [
+          {
+            "sheep_id": 1,
+            "center": {
+              "x_u": 166946,
+              "y_u": 65485
+            },
+            "facing_index": 7,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 2,
+            "center": {
+              "x_u": 158327,
+              "y_u": 64647
+            },
+            "facing_index": 7,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 3,
+            "center": {
+              "x_u": 196455,
+              "y_u": 65628
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 4,
+            "center": {
+              "x_u": 201962,
+              "y_u": 64295
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 5,
+            "center": {
+              "x_u": 100671,
+              "y_u": 121299
+            },
+            "facing_index": 0,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 6,
+            "center": {
+              "x_u": 173656,
+              "y_u": 64926
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 7,
+            "center": {
+              "x_u": 190013,
+              "y_u": 64508
+            },
+            "facing_index": 5,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 8,
+            "center": {
+              "x_u": 252928,
+              "y_u": 101733
+            },
+            "facing_index": 6,
+            "in_pen": false
+          }
+        ],
+        "bark_ticks_remaining": 0,
+        "bark_cooldown_ticks_remaining": 67
+      },
+      "timeMs": 1943,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:herd:0:210:1",
+      "eventIndex": 1,
+      "event": {
+        "event_key": "herd:210:BARK_TRIGGERED:0",
+        "tick": 210,
+        "type": "BARK_TRIGGERED",
+        "entity_id": null
+      },
+      "snapshot": {
+        "game_id": "herd",
+        "tick": 210,
+        "accepted_actions_count": 212,
+        "conclusion": null,
+        "stats": {
+          "penned_count": 6,
+          "final_goal_tick": null,
+          "time_bonus_points": 0
+        },
+        "dog": {
+          "center": {
+            "x_u": 171684,
+            "y_u": 166008
+          },
+          "facing_index": 0
+        },
+        "sheep": [
+          {
+            "sheep_id": 1,
+            "center": {
+              "x_u": 166946,
+              "y_u": 65485
+            },
+            "facing_index": 7,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 2,
+            "center": {
+              "x_u": 158327,
+              "y_u": 64647
+            },
+            "facing_index": 7,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 3,
+            "center": {
+              "x_u": 196455,
+              "y_u": 65628
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 4,
+            "center": {
+              "x_u": 201962,
+              "y_u": 64295
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 5,
+            "center": {
+              "x_u": 106518,
+              "y_u": 102208
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 6,
+            "center": {
+              "x_u": 173656,
+              "y_u": 64926
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 7,
+            "center": {
+              "x_u": 190013,
+              "y_u": 64508
+            },
+            "facing_index": 5,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 8,
+            "center": {
+              "x_u": 245806,
+              "y_u": 116414
+            },
+            "facing_index": 6,
+            "in_pen": false
+          }
+        ],
+        "bark_ticks_remaining": 12,
+        "bark_cooldown_ticks_remaining": 150
+      },
+      "timeMs": 1943,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:herd:0:360:1",
+      "eventIndex": 1,
+      "event": {
+        "event_key": "herd:360:BARK_TRIGGERED:0",
+        "tick": 360,
+        "type": "BARK_TRIGGERED",
+        "entity_id": null
+      },
+      "snapshot": {
+        "game_id": "herd",
+        "tick": 360,
+        "accepted_actions_count": 327,
+        "conclusion": null,
+        "stats": {
+          "penned_count": 6,
+          "final_goal_tick": null,
+          "time_bonus_points": 0
+        },
+        "dog": {
+          "center": {
+            "x_u": 192082,
+            "y_u": 146714
+          },
+          "facing_index": 4
+        },
+        "sheep": [
+          {
+            "sheep_id": 1,
+            "center": {
+              "x_u": 166946,
+              "y_u": 65485
+            },
+            "facing_index": 7,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 2,
+            "center": {
+              "x_u": 158327,
+              "y_u": 64647
+            },
+            "facing_index": 7,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 3,
+            "center": {
+              "x_u": 196455,
+              "y_u": 65628
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 4,
+            "center": {
+              "x_u": 201962,
+              "y_u": 64295
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 5,
+            "center": {
+              "x_u": 118450,
+              "y_u": 96620
+            },
+            "facing_index": 6,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 6,
+            "center": {
+              "x_u": 173656,
+              "y_u": 64926
+            },
+            "facing_index": 6,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 7,
+            "center": {
+              "x_u": 190013,
+              "y_u": 64508
+            },
+            "facing_index": 5,
+            "in_pen": true
+          },
+          {
+            "sheep_id": 8,
+            "center": {
+              "x_u": 248914,
+              "y_u": 86000
+            },
+            "facing_index": 4,
+            "in_pen": false
+          }
+        ],
+        "bark_ticks_remaining": 12,
+        "bark_cooldown_ticks_remaining": 150
+      },
+      "timeMs": 1943,
+      "decorationOmitted": "expired"
+    }
+  ]
+}

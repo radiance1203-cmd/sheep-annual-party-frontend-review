@@ -1,0 +1,1410 @@
+{
+  "scope": "real GamePage/renderer/core; isolated GET API fixture; browser viewport only; screenshot display phases recorded, no accepted golden",
+  "writes": 0,
+  "results": [
+    {
+      "game": "stack",
+      "width": 320,
+      "height": 568,
+      "cycle": 0,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 71,
+          "width": 304,
+          "height": 50.296875,
+          "bottom": 121.296875
+        },
+        "stage": {
+          "x": 8,
+          "y": 125.296875,
+          "width": 304,
+          "height": 198,
+          "bottom": 323.296875
+        },
+        "controls": {
+          "x": 8,
+          "y": 392.296875,
+          "width": 304,
+          "height": 60.390625,
+          "bottom": 452.6875
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 468.28125,
+          "width": 304,
+          "height": 64,
+          "bottom": 532.28125
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 297,
+          "height": 396,
+          "css": {
+            "x": 86,
+            "y": 126.296875,
+            "width": 148.5,
+            "height": 198,
+            "bottom": 324.296875
+          }
+        },
+        "tick": "13",
+        "displayPhase": "466.70",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "runner",
+      "width": 320,
+      "height": 568,
+      "cycle": 0,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 71,
+          "width": 304,
+          "height": 50.296875,
+          "bottom": 121.296875
+        },
+        "stage": {
+          "x": 8,
+          "y": 125.296875,
+          "width": 304,
+          "height": 198,
+          "bottom": 323.296875
+        },
+        "controls": {
+          "x": 8,
+          "y": 392.296875,
+          "width": 304,
+          "height": 60.390625,
+          "bottom": 452.6875
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 468.28125,
+          "width": 304,
+          "height": 64,
+          "bottom": 532.28125
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 608,
+          "height": 372,
+          "css": {
+            "x": 9,
+            "y": 132.296875,
+            "width": 304,
+            "height": 186,
+            "bottom": 318.296875
+          }
+        },
+        "tick": "12",
+        "displayPhase": "416.60",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "herd",
+      "width": 320,
+      "height": 568,
+      "cycle": 0,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 71,
+          "width": 304,
+          "height": 50.296875,
+          "bottom": 121.296875
+        },
+        "stage": {
+          "x": 8,
+          "y": 125.296875,
+          "width": 304,
+          "height": 198,
+          "bottom": 323.296875
+        },
+        "controls": {
+          "x": 8,
+          "y": 392.296875,
+          "width": 304,
+          "height": 80,
+          "bottom": 472.296875
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 487.890625,
+          "width": 304,
+          "height": 64,
+          "bottom": 551.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 339,
+          "height": 396,
+          "css": {
+            "x": 76,
+            "y": 126.296875,
+            "width": 169.5,
+            "height": 198,
+            "bottom": 324.296875
+          }
+        },
+        "tick": "15",
+        "displayPhase": "533.30",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "stack",
+      "width": 320,
+      "height": 568,
+      "cycle": 1,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 71,
+          "width": 304,
+          "height": 50.296875,
+          "bottom": 121.296875
+        },
+        "stage": {
+          "x": 8,
+          "y": 125.296875,
+          "width": 304,
+          "height": 198,
+          "bottom": 323.296875
+        },
+        "controls": {
+          "x": 8,
+          "y": 392.296875,
+          "width": 304,
+          "height": 60.390625,
+          "bottom": 452.6875
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 468.28125,
+          "width": 304,
+          "height": 64,
+          "bottom": 532.28125
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 297,
+          "height": 396,
+          "css": {
+            "x": 86,
+            "y": 126.296875,
+            "width": 148.5,
+            "height": 198,
+            "bottom": 324.296875
+          }
+        },
+        "tick": "12",
+        "displayPhase": "433.30",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "runner",
+      "width": 320,
+      "height": 568,
+      "cycle": 1,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 71,
+          "width": 304,
+          "height": 50.296875,
+          "bottom": 121.296875
+        },
+        "stage": {
+          "x": 8,
+          "y": 125.296875,
+          "width": 304,
+          "height": 198,
+          "bottom": 323.296875
+        },
+        "controls": {
+          "x": 8,
+          "y": 392.296875,
+          "width": 304,
+          "height": 60.390625,
+          "bottom": 452.6875
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 468.28125,
+          "width": 304,
+          "height": 64,
+          "bottom": 532.28125
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 608,
+          "height": 372,
+          "css": {
+            "x": 9,
+            "y": 132.296875,
+            "width": 304,
+            "height": 186,
+            "bottom": 318.296875
+          }
+        },
+        "tick": "13",
+        "displayPhase": "416.60",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "herd",
+      "width": 320,
+      "height": 568,
+      "cycle": 1,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 71,
+          "width": 304,
+          "height": 50.296875,
+          "bottom": 121.296875
+        },
+        "stage": {
+          "x": 8,
+          "y": 125.296875,
+          "width": 304,
+          "height": 198,
+          "bottom": 323.296875
+        },
+        "controls": {
+          "x": 8,
+          "y": 392.296875,
+          "width": 304,
+          "height": 80,
+          "bottom": 472.296875
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 487.890625,
+          "width": 304,
+          "height": 64,
+          "bottom": 551.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 339,
+          "height": 396,
+          "css": {
+            "x": 76,
+            "y": 126.296875,
+            "width": 169.5,
+            "height": 198,
+            "bottom": 324.296875
+          }
+        },
+        "tick": "15",
+        "displayPhase": "516.60",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "stack",
+      "width": 320,
+      "height": 568,
+      "cycle": 2,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 71,
+          "width": 304,
+          "height": 50.296875,
+          "bottom": 121.296875
+        },
+        "stage": {
+          "x": 8,
+          "y": 125.296875,
+          "width": 304,
+          "height": 198,
+          "bottom": 323.296875
+        },
+        "controls": {
+          "x": 8,
+          "y": 392.296875,
+          "width": 304,
+          "height": 60.390625,
+          "bottom": 452.6875
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 468.28125,
+          "width": 304,
+          "height": 64,
+          "bottom": 532.28125
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 297,
+          "height": 396,
+          "css": {
+            "x": 86,
+            "y": 126.296875,
+            "width": 148.5,
+            "height": 198,
+            "bottom": 324.296875
+          }
+        },
+        "tick": "13",
+        "displayPhase": "449.90",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "runner",
+      "width": 320,
+      "height": 568,
+      "cycle": 2,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 71,
+          "width": 304,
+          "height": 50.296875,
+          "bottom": 121.296875
+        },
+        "stage": {
+          "x": 8,
+          "y": 125.296875,
+          "width": 304,
+          "height": 198,
+          "bottom": 323.296875
+        },
+        "controls": {
+          "x": 8,
+          "y": 392.296875,
+          "width": 304,
+          "height": 60.390625,
+          "bottom": 452.6875
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 468.28125,
+          "width": 304,
+          "height": 64,
+          "bottom": 532.28125
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 608,
+          "height": 372,
+          "css": {
+            "x": 9,
+            "y": 132.296875,
+            "width": 304,
+            "height": 186,
+            "bottom": 318.296875
+          }
+        },
+        "tick": "13",
+        "displayPhase": "450.00",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "herd",
+      "width": 320,
+      "height": 568,
+      "cycle": 2,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 71,
+          "width": 304,
+          "height": 50.296875,
+          "bottom": 121.296875
+        },
+        "stage": {
+          "x": 8,
+          "y": 125.296875,
+          "width": 304,
+          "height": 198,
+          "bottom": 323.296875
+        },
+        "controls": {
+          "x": 8,
+          "y": 392.296875,
+          "width": 304,
+          "height": 80,
+          "bottom": 472.296875
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 487.890625,
+          "width": 304,
+          "height": 64,
+          "bottom": 551.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 339,
+          "height": 396,
+          "css": {
+            "x": 76,
+            "y": 126.296875,
+            "width": 169.5,
+            "height": 198,
+            "bottom": 324.296875
+          }
+        },
+        "tick": "15",
+        "displayPhase": "516.70",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "stack",
+      "width": 390,
+      "height": 844,
+      "cycle": 0,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 374,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 374,
+          "height": 364,
+          "bottom": 535.890625
+        },
+        "controls": {
+          "x": 8,
+          "y": 612.890625,
+          "width": 374,
+          "height": 92,
+          "bottom": 704.890625
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 728.890625,
+          "width": 374,
+          "height": 80,
+          "bottom": 808.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 546,
+          "height": 728,
+          "css": {
+            "x": 59,
+            "y": 172.890625,
+            "width": 273,
+            "height": 364,
+            "bottom": 536.890625
+          }
+        },
+        "tick": "13",
+        "displayPhase": "466.60",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "runner",
+      "width": 390,
+      "height": 844,
+      "cycle": 0,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 374,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 374,
+          "height": 228.546875,
+          "bottom": 400.4375
+        },
+        "controls": {
+          "x": 8,
+          "y": 477.4375,
+          "width": 374,
+          "height": 92,
+          "bottom": 569.4375
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 593.4375,
+          "width": 374,
+          "height": 80,
+          "bottom": 673.4375
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 748,
+          "height": 457,
+          "css": {
+            "x": 9,
+            "y": 172.890625,
+            "width": 374,
+            "height": 228.5,
+            "bottom": 401.390625
+          }
+        },
+        "tick": "13",
+        "displayPhase": "433.30",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "herd",
+      "width": 390,
+      "height": 844,
+      "cycle": 0,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 374,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 374,
+          "height": 304,
+          "bottom": 475.890625
+        },
+        "controls": {
+          "x": 8,
+          "y": 552.890625,
+          "width": 374,
+          "height": 164,
+          "bottom": 716.890625
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 740.890625,
+          "width": 374,
+          "height": 80,
+          "bottom": 820.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 521,
+          "height": 608,
+          "css": {
+            "x": 65,
+            "y": 172.890625,
+            "width": 260.5,
+            "height": 304,
+            "bottom": 476.890625
+          }
+        },
+        "tick": "15",
+        "displayPhase": "550.10",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "stack",
+      "width": 390,
+      "height": 844,
+      "cycle": 1,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 374,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 374,
+          "height": 364,
+          "bottom": 535.890625
+        },
+        "controls": {
+          "x": 8,
+          "y": 612.890625,
+          "width": 374,
+          "height": 92,
+          "bottom": 704.890625
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 728.890625,
+          "width": 374,
+          "height": 80,
+          "bottom": 808.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 546,
+          "height": 728,
+          "css": {
+            "x": 59,
+            "y": 172.890625,
+            "width": 273,
+            "height": 364,
+            "bottom": 536.890625
+          }
+        },
+        "tick": "12",
+        "displayPhase": "433.20",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "runner",
+      "width": 390,
+      "height": 844,
+      "cycle": 1,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 374,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 374,
+          "height": 228.546875,
+          "bottom": 400.4375
+        },
+        "controls": {
+          "x": 8,
+          "y": 477.4375,
+          "width": 374,
+          "height": 92,
+          "bottom": 569.4375
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 593.4375,
+          "width": 374,
+          "height": 80,
+          "bottom": 673.4375
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 748,
+          "height": 457,
+          "css": {
+            "x": 9,
+            "y": 172.890625,
+            "width": 374,
+            "height": 228.5,
+            "bottom": 401.390625
+          }
+        },
+        "tick": "13",
+        "displayPhase": "466.70",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "herd",
+      "width": 390,
+      "height": 844,
+      "cycle": 1,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 374,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 374,
+          "height": 304,
+          "bottom": 475.890625
+        },
+        "controls": {
+          "x": 8,
+          "y": 552.890625,
+          "width": 374,
+          "height": 164,
+          "bottom": 716.890625
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 740.890625,
+          "width": 374,
+          "height": 80,
+          "bottom": 820.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 521,
+          "height": 608,
+          "css": {
+            "x": 65,
+            "y": 172.890625,
+            "width": 260.5,
+            "height": 304,
+            "bottom": 476.890625
+          }
+        },
+        "tick": "15",
+        "displayPhase": "516.70",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "stack",
+      "width": 390,
+      "height": 844,
+      "cycle": 2,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 374,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 374,
+          "height": 364,
+          "bottom": 535.890625
+        },
+        "controls": {
+          "x": 8,
+          "y": 612.890625,
+          "width": 374,
+          "height": 92,
+          "bottom": 704.890625
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 728.890625,
+          "width": 374,
+          "height": 80,
+          "bottom": 808.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 546,
+          "height": 728,
+          "css": {
+            "x": 59,
+            "y": 172.890625,
+            "width": 273,
+            "height": 364,
+            "bottom": 536.890625
+          }
+        },
+        "tick": "13",
+        "displayPhase": "450.00",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "runner",
+      "width": 390,
+      "height": 844,
+      "cycle": 2,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 374,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 374,
+          "height": 228.546875,
+          "bottom": 400.4375
+        },
+        "controls": {
+          "x": 8,
+          "y": 477.4375,
+          "width": 374,
+          "height": 92,
+          "bottom": 569.4375
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 593.4375,
+          "width": 374,
+          "height": 80,
+          "bottom": 673.4375
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 748,
+          "height": 457,
+          "css": {
+            "x": 9,
+            "y": 172.890625,
+            "width": 374,
+            "height": 228.5,
+            "bottom": 401.390625
+          }
+        },
+        "tick": "12",
+        "displayPhase": "416.60",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "herd",
+      "width": 390,
+      "height": 844,
+      "cycle": 2,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 374,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 374,
+          "height": 304,
+          "bottom": 475.890625
+        },
+        "controls": {
+          "x": 8,
+          "y": 552.890625,
+          "width": 374,
+          "height": 164,
+          "bottom": 716.890625
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 740.890625,
+          "width": 374,
+          "height": 80,
+          "bottom": 820.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 521,
+          "height": 608,
+          "css": {
+            "x": 65,
+            "y": 172.890625,
+            "width": 260.5,
+            "height": 304,
+            "bottom": 476.890625
+          }
+        },
+        "tick": "15",
+        "displayPhase": "533.30",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "stack",
+      "width": 430,
+      "height": 932,
+      "cycle": 0,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 414,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 414,
+          "height": 452,
+          "bottom": 623.890625
+        },
+        "controls": {
+          "x": 8,
+          "y": 700.890625,
+          "width": 414,
+          "height": 92,
+          "bottom": 792.890625
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 816.890625,
+          "width": 414,
+          "height": 80,
+          "bottom": 896.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 678,
+          "height": 904,
+          "css": {
+            "x": 46,
+            "y": 172.890625,
+            "width": 339,
+            "height": 452,
+            "bottom": 624.890625
+          }
+        },
+        "tick": "13",
+        "displayPhase": "483.30",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "runner",
+      "width": 430,
+      "height": 932,
+      "cycle": 0,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 414,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 414,
+          "height": 253,
+          "bottom": 424.890625
+        },
+        "controls": {
+          "x": 8,
+          "y": 501.890625,
+          "width": 414,
+          "height": 92,
+          "bottom": 593.890625
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 617.890625,
+          "width": 414,
+          "height": 80,
+          "bottom": 697.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 828,
+          "height": 506,
+          "css": {
+            "x": 9,
+            "y": 172.890625,
+            "width": 414,
+            "height": 253,
+            "bottom": 425.890625
+          }
+        },
+        "tick": "13",
+        "displayPhase": "433.30",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "herd",
+      "width": 430,
+      "height": 932,
+      "cycle": 0,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 414,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 414,
+          "height": 392,
+          "bottom": 563.890625
+        },
+        "controls": {
+          "x": 8,
+          "y": 640.890625,
+          "width": 414,
+          "height": 164,
+          "bottom": 804.890625
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 828.890625,
+          "width": 414,
+          "height": 80,
+          "bottom": 908.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 672,
+          "height": 784,
+          "css": {
+            "x": 48,
+            "y": 172.890625,
+            "width": 336,
+            "height": 392,
+            "bottom": 564.890625
+          }
+        },
+        "tick": "15",
+        "displayPhase": "516.60",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "stack",
+      "width": 430,
+      "height": 932,
+      "cycle": 1,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 414,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 414,
+          "height": 452,
+          "bottom": 623.890625
+        },
+        "controls": {
+          "x": 8,
+          "y": 700.890625,
+          "width": 414,
+          "height": 92,
+          "bottom": 792.890625
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 816.890625,
+          "width": 414,
+          "height": 80,
+          "bottom": 896.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 678,
+          "height": 904,
+          "css": {
+            "x": 46,
+            "y": 172.890625,
+            "width": 339,
+            "height": 452,
+            "bottom": 624.890625
+          }
+        },
+        "tick": "13",
+        "displayPhase": "449.90",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "runner",
+      "width": 430,
+      "height": 932,
+      "cycle": 1,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 414,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 414,
+          "height": 253,
+          "bottom": 424.890625
+        },
+        "controls": {
+          "x": 8,
+          "y": 501.890625,
+          "width": 414,
+          "height": 92,
+          "bottom": 593.890625
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 617.890625,
+          "width": 414,
+          "height": 80,
+          "bottom": 697.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 828,
+          "height": 506,
+          "css": {
+            "x": 9,
+            "y": 172.890625,
+            "width": 414,
+            "height": 253,
+            "bottom": 425.890625
+          }
+        },
+        "tick": "13",
+        "displayPhase": "466.70",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "herd",
+      "width": 430,
+      "height": 932,
+      "cycle": 1,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 414,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 414,
+          "height": 392,
+          "bottom": 563.890625
+        },
+        "controls": {
+          "x": 8,
+          "y": 640.890625,
+          "width": 414,
+          "height": 164,
+          "bottom": 804.890625
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 828.890625,
+          "width": 414,
+          "height": 80,
+          "bottom": 908.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 672,
+          "height": 784,
+          "css": {
+            "x": 48,
+            "y": 172.890625,
+            "width": 336,
+            "height": 392,
+            "bottom": 564.890625
+          }
+        },
+        "tick": "15",
+        "displayPhase": "516.60",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "stack",
+      "width": 430,
+      "height": 932,
+      "cycle": 2,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 414,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 414,
+          "height": 452,
+          "bottom": 623.890625
+        },
+        "controls": {
+          "x": 8,
+          "y": 700.890625,
+          "width": 414,
+          "height": 92,
+          "bottom": 792.890625
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 816.890625,
+          "width": 414,
+          "height": 80,
+          "bottom": 896.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 678,
+          "height": 904,
+          "css": {
+            "x": 46,
+            "y": 172.890625,
+            "width": 339,
+            "height": 452,
+            "bottom": 624.890625
+          }
+        },
+        "tick": "14",
+        "displayPhase": "516.70",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "runner",
+      "width": 430,
+      "height": 932,
+      "cycle": 2,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 414,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 414,
+          "height": 253,
+          "bottom": 424.890625
+        },
+        "controls": {
+          "x": 8,
+          "y": 501.890625,
+          "width": 414,
+          "height": 92,
+          "bottom": 593.890625
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 617.890625,
+          "width": 414,
+          "height": 80,
+          "bottom": 697.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 828,
+          "height": 506,
+          "css": {
+            "x": 9,
+            "y": 172.890625,
+            "width": 414,
+            "height": 253,
+            "bottom": 425.890625
+          }
+        },
+        "tick": "13",
+        "displayPhase": "433.30",
+        "scrollY": 8
+      },
+      "errors": []
+    },
+    {
+      "game": "herd",
+      "width": 430,
+      "height": 932,
+      "cycle": 2,
+      "metrics": {
+        "hud": {
+          "x": 8,
+          "y": 100,
+          "width": 414,
+          "height": 63.890625,
+          "bottom": 163.890625
+        },
+        "stage": {
+          "x": 8,
+          "y": 171.890625,
+          "width": 414,
+          "height": 392,
+          "bottom": 563.890625
+        },
+        "controls": {
+          "x": 8,
+          "y": 640.890625,
+          "width": 414,
+          "height": 164,
+          "bottom": 804.890625
+        },
+        "toolbar": {
+          "x": 8,
+          "y": 828.890625,
+          "width": 414,
+          "height": 80,
+          "bottom": 908.890625
+        },
+        "canvasCount": 1,
+        "canvas": {
+          "width": 672,
+          "height": 784,
+          "css": {
+            "x": 48,
+            "y": 172.890625,
+            "width": 336,
+            "height": 392,
+            "bottom": 564.890625
+          }
+        },
+        "tick": "15",
+        "displayPhase": "566.70",
+        "scrollY": 8
+      },
+      "errors": []
+    }
+  ]
+}

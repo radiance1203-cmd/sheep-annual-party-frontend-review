@@ -1,0 +1,28 @@
+{
+  "status": "SOURCE_VERIFIED",
+  "production_art_accepted": false,
+  "mother_sha256": "991018b86d52d1a0a5e5398a739a3187e816e6dc6dfa752c4bb90c9893abd7db",
+  "face": "D ten-ring face preserved",
+  "crown_surfaces": 7,
+  "fiber_curve_objects": 8,
+  "explicit_surface_flow_strands": 6650,
+  "noise_bump_nodes": 0,
+  "warm_fill": {
+    "energy": 430.0,
+    "size": 7.0
+  },
+  "world_strength": 0.3499999940395355,
+  "root": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "side_camera": {
+    "location": [
+      0.0,
+      -8.0,
+      1.399999976158142
+    ],
+    "ortho_scale": 4.0
+  }
+}

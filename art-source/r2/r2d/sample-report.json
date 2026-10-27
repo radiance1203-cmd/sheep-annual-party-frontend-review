@@ -1,0 +1,30 @@
+{
+  "version": "R2d-structural-two-frame",
+  "status": "REVIEW",
+  "production_art_accepted": false,
+  "source": "art-source/r2/r2c/sheep_master_r2c.blend",
+  "source_sha256": "93bf28d826e89a7401b962b328a053d8856105148b4feb0169483ba2532a14c8",
+  "mother": "art-source/r2/r2d/sheep_master_r2d.blend",
+  "mother_sha256": "d8776c5de96737cdce9c04fd532d18d18cb5d6c7516030cccc84e049e94ec973",
+  "outputs": [
+    {
+      "path": "art-source/r2/r2d/sheep_front_512.png",
+      "sha256": "f714646669d3e02fddc7fc9f62712c23f2d174f8621b70973aa8905d136ff44d",
+      "seconds": 5.904,
+      "camera": "R2d_review_close"
+    },
+    {
+      "path": "art-source/r2/r2d/sheep_stack_512.png",
+      "sha256": "dd936593f6980dd3724c8292fe36cdda6e404b5cbb820b312ca364dcf717a532",
+      "seconds": 3.691,
+      "camera": "side_v1"
+    }
+  ],
+  "structural_changes": [
+    "ten-ring subdivided cheek/chin cage with vertex blush",
+    "bevelled heart-nose mesh and surface-positioned mouth",
+    "arc-length horn taper/grooves",
+    "irregular multi-lobed crown control surfaces and directional fine material"
+  ],
+  "unproduced": "All additional directions/actions; no production registration"
+}

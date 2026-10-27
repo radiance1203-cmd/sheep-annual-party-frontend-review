@@ -1,0 +1,105 @@
+{
+  "phase": "after",
+  "scope": "Chromium viewport fixture; not physical phone; no business writes",
+  "checks": [
+    {
+      "game": "stack",
+      "scope": "short-start",
+      "bounds": {
+        "x": 8,
+        "y": 125.296875,
+        "width": 304,
+        "height": 238
+      },
+      "hud": {
+        "x": 8,
+        "y": 71,
+        "width": 304,
+        "height": 50.296875
+      },
+      "scroll": 8
+    },
+    {
+      "game": "stack",
+      "scope": "restart",
+      "restartHud": {
+        "x": 8,
+        "y": 71,
+        "width": 304,
+        "height": 50.296875
+      }
+    },
+    {
+      "game": "stack",
+      "scope": "tutorial-pause",
+      "teaching": "真实操作演示 · 第 2 步\n\n真实放下已触发：观察下落与接触。\n继续演示\n重播演示\n继续到练习\n\n本地合法输入回放 · 不占正式机会、不入账。对齐、下落、叠稳均来自唯一规则内核。\n\nDROP_ACCEPTED",
+      "pausedText": "真实操作演示 · 第 2 步\n\n真实放下已触发：观察下落与接触。"
+    },
+    {
+      "game": "runner",
+      "scope": "short-start",
+      "bounds": {
+        "x": 8,
+        "y": 125.296875,
+        "width": 304,
+        "height": 238
+      },
+      "hud": {
+        "x": 8,
+        "y": 71,
+        "width": 304,
+        "height": 50.296875
+      },
+      "scroll": 8
+    },
+    {
+      "game": "runner",
+      "scope": "restart",
+      "restartHud": {
+        "x": 8,
+        "y": 71,
+        "width": 304,
+        "height": 50.296875
+      }
+    },
+    {
+      "game": "runner",
+      "scope": "tutorial-pause",
+      "teaching": "真实操作演示 · 第 1 步\n\n小羊自动向前跑，等待合适起跳点。\n继续演示\n重播演示\n继续到练习\n\n本地合法输入回放 · 不占正式机会、不入账。持续回放至外圈与金芯分别采集；不在 240 tick 重置。",
+      "pausedText": "真实操作演示 · 第 1 步\n\n小羊自动向前跑，等待合适起跳点。"
+    },
+    {
+      "game": "herd",
+      "scope": "short-start",
+      "bounds": {
+        "x": 8,
+        "y": 125.296875,
+        "width": 304,
+        "height": 238
+      },
+      "hud": {
+        "x": 8,
+        "y": 71,
+        "width": 304,
+        "height": 50.296875
+      },
+      "scroll": 8
+    },
+    {
+      "game": "herd",
+      "scope": "restart",
+      "restartHud": {
+        "x": 8,
+        "y": 71,
+        "width": 304,
+        "height": 50.296875
+      }
+    },
+    {
+      "game": "herd",
+      "scope": "tutorial-pause",
+      "teaching": "真实操作演示 · 第 1 步\n\n牧羊犬先绕到羊群后方，引导它们朝上方入口移动。\n继续演示\n重播演示\n继续到练习\n\n本地合法输入回放 · 不占正式机会、不入账。使用固定 seed 的绕后引导回放，成功以真实过门事件确认。\n\nDOG_MOVED",
+      "pausedText": "真实操作演示 · 第 2 步\n\n已真实吠叫：看羊群逐只穿过上方真实门线。"
+    }
+  ]
+}

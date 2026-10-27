@@ -1,0 +1,80 @@
+{
+  "version": "R2c-two-frame",
+  "status": "REVIEW",
+  "production_art_accepted": false,
+  "source_sha256": "2f43e6365d13cc5d3bafd9e973a3ab36f20fd87d3b91a6c5bcbba5acb9a68011",
+  "source": "art-source\\r2\\sheep_master_r2a.blend",
+  "mother": "art-source\\r2\\r2c\\sheep_master_r2c.blend",
+  "mother_sha256": "93bf28d826e89a7401b962b328a053d8856105148b4feb0169483ba2532a14c8",
+  "outputs": [
+    {
+      "path": "art-source/r2/r2c/sheep_front_512.png",
+      "sha256": "69a421ff398aa3973bfc5b08bbbe1359ccb9af96520fffe4505f52e49e966b02",
+      "seconds": 4.926,
+      "camera": "R2c_review_close",
+      "root": [
+        0.0,
+        0.0,
+        3.1415927410125732
+      ],
+      "head_yaw": 0.0
+    },
+    {
+      "path": "art-source/r2/r2c/sheep_stack_512.png",
+      "sha256": "8e73754fe065d31ad4a8566141d00ade76cbea39d61e7a68c99245aaf9d3d095",
+      "seconds": 3.375,
+      "camera": "side_v1",
+      "root": [
+        0.0,
+        0.0,
+        -1.5707963705062866
+      ],
+      "head_yaw": -1.0471975803375244
+    }
+  ],
+  "missing": "All other frames intentionally not generated; no production manifest change",
+  "asset": {
+    "image": "apps/web/public/assets/candidates/r2/r2c/sheep_stack_r2c.png",
+    "image_sha256": "e84dc1ecce2288ddd3af0422ae401ccc8186fb74917c0489bb85569ad61001c6",
+    "metadata": "apps/web/public/assets/candidates/r2/r2c/sheep_stack_r2c.atlas.json",
+    "metadata_sha256": "51ec3c1cdbe17a3dca3e2db116fbc3de1ea6558e6e8cfbd82f6add0fe6802224",
+    "alpha1_bbox": [
+      47,
+      94,
+      220,
+      226
+    ],
+    "runtime_frame_css_px": 64,
+    "alpha_height_world": 33.0,
+    "alpha_width_world": 43.25,
+    "pivot_px": [
+      128,
+      224
+    ],
+    "source_crop": [
+      128,
+      32,
+      256,
+      256
+    ],
+    "camera": {
+      "location": [
+        0,
+        -8,
+        1.4
+      ],
+      "look_at": [
+        0,
+        0,
+        0
+      ],
+      "ortho_scale": 4,
+      "source_px": [
+        512,
+        512
+      ]
+    }
+  },
+  "art_signoff": null,
+  "production_replacement_allowed": false
+}

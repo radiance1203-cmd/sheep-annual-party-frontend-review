@@ -1,0 +1,49 @@
+{
+  "schema_version": "atlas-1.0",
+  "asset_id": "r2c.sheep.stack.sample",
+  "image": "sheep_stack_r2c.png",
+  "camera_id": "side_v1",
+  "size_px": [
+    256,
+    256
+  ],
+  "frames": {
+    "stack_sample": {
+      "rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "pivot_px": [
+        128,
+        224
+      ],
+      "source_size": [
+        256,
+        256
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "trimmed": false,
+      "rotated": false
+    }
+  },
+  "animations": {
+    "stack_idle.e": {
+      "frames": [
+        "stack_sample"
+      ],
+      "fps": 8,
+      "loop": false
+    }
+  },
+  "version": "R2c-two-frame",
+  "status": "rendered_candidate",
+  "production_art_accepted": false,
+  "missing_actions": "Only this static stack frame exists. No silent fallback or production replacement permitted."
+}

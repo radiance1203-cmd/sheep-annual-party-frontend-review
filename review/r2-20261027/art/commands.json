@@ -1,0 +1,19 @@
+{
+  "scope": "R2 finite offline art samples only; engine and human acceptance excluded",
+  "commands": [
+    {"command": ".local/tools/blender-4.5.9-windows-x64/blender.exe --version", "exit_code": 0, "result": "4.5.9 LTS / 8bf95cbd38d1"},
+    {"command": "blender -b --python art-source/r2/sample_mothers.py -- --actor sheep --first", "exit_code": 0, "result": "1 finite first frame, reviewed then refined"},
+    {"command": "blender -b --python art-source/r2/sample_mothers.py -- --actor sheep", "exit_code": 0, "result": "7 finite frames; rerun same scope after face yaw refinement"},
+    {"command": "blender -b --python art-source/r2/sample_mothers.py -- --actor dog", "exit_code": 0, "result": "9 finite frames; native walk+bark Actions retained"},
+    {"command": "blender -b --python art-source/r2/sample_environment.py", "exit_code": 0, "result": "1 herd scenery experiment; first visible plane-edge defect corrected and rerendered"},
+    {"command": "python art-source/r2/package_samples.py", "exit_code": 0, "result": "4 candidate assets / 11 limited atlas frames; production_art_accepted=false"},
+    {"command": "blender -b --python art-source/r2/r2b/sample_two.py", "exit_code": 0, "result": "2 static source frames; preserved after root review"},
+    {"command": "blender -b --python art-source/r2/r2c/sample_two.py", "exit_code": 0, "result": "2 static source frames; source + output hashes in r2c/sample-report.json"},
+    {"command": "python art-source/r2/r2c/package_two.py", "exit_code": 0, "result": "native CSS comparison; alpha height33 width43.25 at64 frame; manifest 0a0481e80a1404e22d7554ded8c4da561857d96a55ef4c3cf5682848c9f3f0e7"},
+    {"command": "python art-source/r2/verify_samples.py", "exit_code": 0, "result": "68 limited offline source/atlas checks PASS"},
+    {"command": "blender -b --python art-source/r2/verify_native.py", "exit_code": 0, "result": "3 native sources verified including dog composite Actions and fixed cameras"},
+    {"command": "Python hash assertions for R2c source, mother, outputs and current manifest", "exit_code": 0, "result": "PASS; current manifest remains49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c"}
+  ],
+  "not_run": ["real renderer integration", "three gameplay clips", "physical devices", "human art acceptance", "human gameplay/onsite"],
+  "production_art_accepted": false
+}

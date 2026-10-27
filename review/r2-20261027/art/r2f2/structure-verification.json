@@ -1,0 +1,25 @@
+{
+  "status": "SOURCE_VERIFIED",
+  "production_art_accepted": false,
+  "mother_sha256": "f81da818d36358ed33935071f4a520ef0357f20d881832e8af24ccf346260227",
+  "surface_bands": 4,
+  "medium_bundle_meshes": 37,
+  "bundle_flow_fibers": 4440,
+  "face": "D640 control cage retained",
+  "crown": "E7 eccentric cages retained",
+  "wool_noise_bump_nodes": 0,
+  "source_scope": "two static frames only; no animation production",
+  "root": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "side_camera": {
+    "position": [
+      0.0,
+      -8.0,
+      1.399999976158142
+    ],
+    "ortho_scale": 4.0
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "phase": "before",
+  "scope": "Chromium viewport fixture; not physical phone; no business writes",
+  "checks": [
+    {
+      "game": "stack",
+      "scope": "short-start",
+      "bounds": {
+        "x": 8,
+        "y": -109.109375,
+        "width": 304,
+        "height": 405.328125
+      },
+      "hud": {
+        "x": 8,
+        "y": -181,
+        "width": 304,
+        "height": 63.890625
+      },
+      "scroll": 289
+    },
+    {
+      "game": "stack",
+      "scope": "restart",
+      "restartHud": {
+        "x": 8,
+        "y": -181,
+        "width": 304,
+        "height": 63.890625
+      }
+    },
+    {
+      "game": "stack",
+      "scope": "tutorial-pause",
+      "teaching": "教学演示 · 不占正式机会、不入账\n\n继续演示",
+      "pausedText": "12 秒教程 · 第 2 步\n\n点击放下。羊的大小保持不变，稳稳托住才成功。"
+    },
+    {
+      "game": "runner",
+      "scope": "short-start",
+      "bounds": {
+        "x": 8,
+        "y": 109.890625,
+        "width": 304,
+        "height": 185.765625
+      },
+      "hud": {
+        "x": 8,
+        "y": 38,
+        "width": 304,
+        "height": 63.890625
+      },
+      "scroll": 70
+    },
+    {
+      "game": "runner",
+      "scope": "restart",
+      "restartHud": {
+        "x": 8,
+        "y": 75,
+        "width": 304,
+        "height": 63.890625
+      }
+    },
+    {
+      "game": "runner",
+      "scope": "tutorial-pause",
+      "teaching": "教学演示 · 不占正式机会、不入账\n\n继续演示",
+      "pausedText": "12 秒教程 · 第 2 步\n\n点击跳跃越栏；碰到栏杆也会继续，不会扣掉生命。"
+    },
+    {
+      "game": "herd",
+      "scope": "short-start",
+      "bounds": {
+        "x": 8,
+        "y": -83.109375,
+        "width": 304,
+        "height": 354.65625
+      },
+      "hud": {
+        "x": 8,
+        "y": -155,
+        "width": 304,
+        "height": 63.890625
+      },
+      "scroll": 263
+    },
+    {
+      "game": "herd",
+      "scope": "restart",
+      "restartHud": {
+        "x": 8,
+        "y": -155,
+        "width": 304,
+        "height": 63.890625
+      }
+    },
+    {
+      "game": "herd",
+      "scope": "tutorial-pause",
+      "teaching": "教学演示 · 不占正式机会、不入账\n\n继续演示",
+      "pausedText": "12 秒教程 · 第 2 步\n\n从后面慢慢接近，让羊朝上方围栏入口移动。"
+    }
+  ]
+}

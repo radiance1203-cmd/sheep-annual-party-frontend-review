@@ -1,0 +1,177 @@
+{
+  "phase": "final",
+  "scope": "Chromium viewport fixture; not physical phone; no business writes",
+  "checks": [
+    {
+      "game": "stack",
+      "scope": "short-start",
+      "bounds": {
+        "x": 8,
+        "y": 125.296875,
+        "width": 304,
+        "height": 198
+      },
+      "hud": {
+        "x": 8,
+        "y": 71,
+        "width": 304,
+        "height": 50.296875
+      },
+      "actionBox": {
+        "x": 23.203125,
+        "y": 396.296875,
+        "width": 273.59375,
+        "height": 52.390625
+      },
+      "scroll": 8
+    },
+    {
+      "game": "stack",
+      "scope": "restart",
+      "restartHud": {
+        "x": 8,
+        "y": 71,
+        "width": 304,
+        "height": 50.296875
+      }
+    },
+    {
+      "game": "stack",
+      "scope": "tutorial-pause",
+      "teaching": "真实操作演示 · 第 1 步\n\n看托盘靠近下层，等待对齐。\n继续演示\n重播演示\n继续到练习\n\n教学示范 · 不占正式机会、不计积分。看准对齐，再放下叠稳。",
+      "pausedText": "真实操作演示 · 第 1 步\n\n看托盘靠近下层，等待对齐。"
+    },
+    {
+      "game": "stack",
+      "scope": "real-teaching-complete",
+      "tick": "49",
+      "events": "DROP_ACCEPTED,LAYER_LANDED",
+      "controls": {
+        "x": 33,
+        "y": 386.6875,
+        "width": 254,
+        "height": 48
+      },
+      "nav": {
+        "x": 0,
+        "y": 488,
+        "width": 320,
+        "height": 80
+      }
+    },
+    {
+      "game": "runner",
+      "scope": "short-start",
+      "bounds": {
+        "x": 8,
+        "y": 125.296875,
+        "width": 304,
+        "height": 198
+      },
+      "hud": {
+        "x": 8,
+        "y": 71,
+        "width": 304,
+        "height": 50.296875
+      },
+      "actionBox": {
+        "x": 23.203125,
+        "y": 396.296875,
+        "width": 273.59375,
+        "height": 52.390625
+      },
+      "scroll": 8
+    },
+    {
+      "game": "runner",
+      "scope": "restart",
+      "restartHud": {
+        "x": 8,
+        "y": 71,
+        "width": 304,
+        "height": 50.296875
+      }
+    },
+    {
+      "game": "runner",
+      "scope": "tutorial-pause",
+      "teaching": "真实操作演示 · 第 1 步\n\n小羊自动向前跑，等待合适起跳点。\n继续演示\n重播演示\n继续到练习\n\n教学示范 · 不占正式机会、不计积分。观察外圈与金芯分别采集。",
+      "pausedText": "真实操作演示 · 第 1 步\n\n小羊自动向前跑，等待合适起跳点。"
+    },
+    {
+      "game": "runner",
+      "scope": "real-teaching-complete",
+      "tick": "241",
+      "events": "JUMP_ACCEPTED,OBSTACLE_PASSED,GRASS_OUTER,GRASS_INNER",
+      "controls": {
+        "x": 33,
+        "y": 410.6875,
+        "width": 254,
+        "height": 48
+      },
+      "nav": {
+        "x": 0,
+        "y": 488,
+        "width": 320,
+        "height": 80
+      }
+    },
+    {
+      "game": "herd",
+      "scope": "short-start",
+      "bounds": {
+        "x": 8,
+        "y": 125.296875,
+        "width": 304,
+        "height": 198
+      },
+      "hud": {
+        "x": 8,
+        "y": 71,
+        "width": 304,
+        "height": 50.296875
+      },
+      "actionBox": {
+        "x": 203,
+        "y": 396.296875,
+        "width": 72,
+        "height": 72
+      },
+      "scroll": 8
+    },
+    {
+      "game": "herd",
+      "scope": "restart",
+      "restartHud": {
+        "x": 8,
+        "y": 71,
+        "width": 304,
+        "height": 50.296875
+      }
+    },
+    {
+      "game": "herd",
+      "scope": "tutorial-pause",
+      "teaching": "真实操作演示 · 第 1 步\n\n牧羊犬先绕到羊群后方，引导它们朝上方入口移动。\n继续演示\n重播演示\n继续到练习\n\n教学示范 · 不占正式机会、不计积分。羊群穿过上方入口后确认入圈。\n\nDOG_MOVED",
+      "pausedText": "真实操作演示 · 第 1 步\n\n牧羊犬先绕到羊群后方，引导它们朝上方入口移动。"
+    },
+    {
+      "game": "herd",
+      "scope": "real-teaching-complete",
+      "tick": "101",
+      "events": "DOG_MOVED,BARK_TRIGGERED,SHEEP_PENNED",
+      "controls": {
+        "x": 33,
+        "y": 410.6875,
+        "width": 254,
+        "height": 48
+      },
+      "nav": {
+        "x": 0,
+        "y": 488,
+        "width": 320,
+        "height": 80
+      }
+    }
+  ]
+}

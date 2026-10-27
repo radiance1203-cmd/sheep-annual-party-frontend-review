@@ -29,6 +29,7 @@ async function acquireLock(id: string): Promise<() => void> {
 export function GamePage({ game, practice, event, me, onUpdate }: { game: Schema<'GameId'>; practice: boolean; event: Schema<'EventPublic'>; me: Schema<'Me'> | Schema<'StaffMe'> | undefined; onUpdate: () => void }) {
   const container = useRef<HTMLDivElement>(null);
   const renderer = useRef<Renderer | null>(null);
+  const restartEpoch = useRef(0);
   const runtime = useRef<Runtime | null>(null);
   const mounted = useRef(true);
   const [current, setCurrent] = useState<GameView>(() => view(createState(createContext(game))));
@@ -47,6 +48,7 @@ export function GamePage({ game, practice, event, me, onUpdate }: { game: Schema
   const [silent, setSilent] = useState(true);
   const silentRef = useRef(true);
   const audio = useRef(new Map<string, HTMLAudioElement>());
+  useEffect(() => { if(!feedback) return; const timer=window.setTimeout(()=>setFeedback(''),2200); return ()=>window.clearTimeout(timer); },[feedback]);
   const [practiceDone, setPracticeDone] = useState(false);
   const [practicePaused, setPracticePaused] = useState(false);
   const participantId = me?.participant.participant_id;
@@ -156,12 +158,23 @@ export function GamePage({ game, practice, event, me, onUpdate }: { game: Schema
       runtimeOwnsLock = true;
       // The validated preview already owns the decoded textures and canvas.
       // Starting/restoring changes the view, never boots a second Phaser instance.
+      renderer.current?.beginSession(record?.session?.session_id ?? `practice:${game}`,restartEpoch.current);
+      renderer.current?.setMode(recover ? 'recovering' : 'running');
       renderer.current?.render(view(state));
+      renderer.current?.setMode('running');
       setCurrent(view(state)); setStarted(true); setStatus(practice ? '练习中 · 不占正式机会，不产生正式积分' : record?.sealed ? '发现已封存过程，只重传原完整请求。' : '原局日志已恢复，按服务端原时轴继续。');
       if (record?.sealed) { r.stopped = true; await submit(r); }
     } catch (cause) { if (mounted.current) { setError(message(cause)); setStatus(practice ? '练习准备未完成，可修复连接后重试；未使用正式机会。' : '预检或恢复未完成。开局响应不明时请恢复原请求。'); } }
     finally { if (!runtimeOwnsLock) releaseLock(); if (!mounted.current && pendingCreated && !startSent) await putRecord(storageKey, null).catch(() => {}); if (mounted.current) setBusy(false); }
   }
+  useEffect(() => {
+    // Only an explicit start/restart transition aligns the play surface. Core
+    // updates, pause and dialogs never scroll a page under the player's hand.
+    if (!started || !container.current) return;
+    const page=container.current.closest<HTMLElement>('.game-page');
+    if(page) window.scrollTo({top:Math.max(0,window.scrollY+page.getBoundingClientRect().top),behavior:'instant'});
+    container.current.focus({preventScroll:true});
+  },[started]);
   useEffect(() => {
     let active = true;
     let preview: Renderer | undefined;
@@ -175,6 +188,7 @@ export function GamePage({ game, practice, event, me, onUpdate }: { game: Schema
         const initial = view(createState(createContext(game)));
         renderer.current?.destroy();
         preview = createRenderer(container.current, initial, assets);
+        preview.beginSession(`preparation:${game}`,restartEpoch.current); preview.setMode('ready');
         assets = undefined;
         renderer.current = preview;
         const drawn = await preview.ready;
@@ -194,25 +208,31 @@ export function GamePage({ game, practice, event, me, onUpdate }: { game: Schema
           const now = performance.now(); setCountdown(Math.max(0, Math.ceil((r.startMs - clock.now(now)) / 1000)));
           if (!r.stopped && !r.state.conclusion) {
             const target = clock.tick(r.startMs, now, r.state.tick);
+            const feedbackBatch: string[]=[];
             for (let tick = r.state.tick + 1; tick <= target && !r.state.conclusion; tick++) {
               const inputs = r.queue.consume(tick);
               const previous = r.state;
               const output = step(createContext(game), r.state, { tick, inputs });
               if (r.record) r.record.inputs.push(...inputs); else r.practiceInputs.push(...inputs); r.state = output.state;
-              const feedbackEvent = output.events.find(event => feedbackText[event.type]);
+              renderer.current?.presentStep(output.view,output.events);
+              for (const feedbackEvent of output.events) {
               if (feedbackEvent && alive) {
                 const landed = feedbackEvent.type === 'LAYER_LANDED' && output.state.game_id === 'stack' && previous.game_id === 'stack';
-                setFeedback(landed ? output.state.stats.perfect_layers > previous.stats.perfect_layers ? '完美！叠稳 +2 · 完美再 +2' : '叠稳 +2' : feedbackText[feedbackEvent.type] ?? '');
+                const text=landed ? output.state.stats.perfect_layers > previous.stats.perfect_layers ? '完美！叠稳 +2 · 完美再 +2' : '叠稳 +2' : feedbackText[feedbackEvent.type];
+                if(text) feedbackBatch.push(text);
                 if (!silentRef.current) {
                   const sound = ({ LAYER_LANDED: 'success', LAYER_MISSED: 'mistake', OBSTACLE_COLLISION: 'mistake', OBSTACLE_PASSED: 'success', GRASS_OUTER: 'success', GRASS_INNER: 'success', SHEEP_PENNED: 'enter', BARK_TRIGGERED: 'bark', GAME_ENDED: 'celebrate' } as Partial<Record<SimulationEvent['type'], string>>)[feedbackEvent.type];
                   if (sound) { let player = audio.current.get(sound); if (!player) { player = new Audio(`/assets/audio/${sound}.wav`); player.volume = .2; audio.current.set(sound, player); } player.currentTime = 0; void player.play().catch(() => {}); }
                 }
               }
+              }
             }
+            if(alive && feedbackBatch.length) setFeedback(feedbackBatch.join(' · '));
             if (r.record && target > r.record.processedTick) await save(r);
             if (alive) { const snapshot = view(r.state); setCurrent(snapshot); setPerformance(performancePoints(r.state)); renderer.current?.render(snapshot); }
           }
           if (r.state.conclusion) {
+            renderer.current?.setMode('ended');
             r.stopped = true;
             if (!r.record) { r.practiceMetadata.ended_at ??= new Date(clock.now(performance.now())).toISOString(); if (alive) { setPracticeDone(true); setStatus('练习结束；预测表现不入账，不占正式机会。'); } return; }
             if (!r.record.sealed && r.record.session) {
@@ -225,7 +245,7 @@ export function GamePage({ game, practice, event, me, onUpdate }: { game: Schema
         } catch (cause) { if (alive) setError(message(cause)); } finally { r.busy = false; }
       })();
     }, 33);
-    const visibility = () => { if (document.hidden) clear(); };
+    const visibility = () => { if (document.hidden) { clear(); renderer.current?.setMode('paused'); } else renderer.current?.setMode(runtime.current?.state.conclusion?'ended':runtime.current?.pausedAt!==null && runtime.current?'paused':runtime.current?'running':'ready'); };
     const direction = () => { const r = runtime.current, tick = candidateTick(); if (game === 'herd' && r && tick) { const { x, y } = held.current.vector(); r.queue.direction(x, y, tick); } };
     const keyboard = (e: KeyboardEvent) => { const target = e.target instanceof Element ? e.target.closest('button,a,input,textarea,select,summary,[contenteditable],[role=dialog]') ?? e.target : null; if (!permitsGameplayKey(target?.tagName ?? '', confirmReturnRef.current || Boolean(target?.closest('[role=dialog],[contenteditable]')), e.repeat)) return; if ([' ', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) e.preventDefault(); if (e.key === ' ') action(); if (held.current.press(e.key)) direction(); };
     const keyup = (e: KeyboardEvent) => { if (held.current.release(e.key)) direction(); };
@@ -249,8 +269,8 @@ export function GamePage({ game, practice, event, me, onUpdate }: { game: Schema
     const r = runtime.current; if (!practice || !r) return;
     clear();
     const now = clock.now(performance.now());
-    if (r.pausedAt === null) { r.pausedAt = now; setPracticePaused(true); }
-    else { r.startMs += now - r.pausedAt; r.pausedAt = null; setPracticePaused(false); }
+    if (r.pausedAt === null) { r.pausedAt = now; setPracticePaused(true); renderer.current?.setMode('paused'); }
+    else { r.startMs += now - r.pausedAt; r.pausedAt = null; setPracticePaused(false); renderer.current?.setMode('running'); }
   }
   function downloadPractice(): void {
     const r = runtime.current; if (!practice || !r || r.record || !r.state.conclusion || !r.practiceMetadata.ended_at) return;
@@ -261,9 +281,11 @@ export function GamePage({ game, practice, event, me, onUpdate }: { game: Schema
   function resetPractice(): void {
     if (!practice) return;
     clear(); runtime.current?.releaseLock(); runtime.current = null;
+    restartEpoch.current++;
+    renderer.current?.beginSession(`practice:${game}`,restartEpoch.current); renderer.current?.setMode('ready');
     const initial = view(createState(context)); renderer.current?.render(initial);
     setCurrent(initial); setPerformance(0); setFeedback(''); setPracticeDone(false); setPracticePaused(false); setStarted(false); setError(''); setStatus('练习可重新开始，不影响正式机会。');
     if (preparedBinding !== sceneBinding) { setSceneReady(false); setSceneRevision(value => value + 1); }
   }
-  return <section className="game-page"><div className="game-top"><button aria-label="返回" onClick={() => started && !practiceDone ? (confirmReturnRef.current = true, clear(), setConfirmReturn(true)) : navigate('/')}>‹</button><div><h1>{gameNames[game]}</h1><span className="mode-badge">{practice ? '自由练习 · 不入账' : '正式挑战'}</span></div><button aria-label={silent ? '开启音效' : '关闭音效'} onClick={() => { silentRef.current = !silent; setSilent(!silent); if (!silent) for (const player of audio.current.values()) player.pause(); }}>{silent ? '静音' : '音效'}</button></div><div className="hud"><div><small>剩余时间</small><strong>{Math.ceil((RULES.common.max_ticks - current.tick) / RULES.common.tick_hz)}秒</strong></div><div><small>局内表现</small><strong>{livePoints}<small> /80</small></strong></div><div><small>{current.game_id === 'stack' ? '失误' : current.game_id === 'runner' ? '失误次数' : '已入圈'}</small><strong>{current.game_id === 'stack' ? `${current.stats.misses}/3` : current.game_id === 'runner' ? current.stats.collision_count : `${current.stats.penned_count}/8`}</strong></div></div><div className={`game-stage stage-${game}`} ref={container} data-game-tick={current.tick} data-accepted-actions={current.accepted_actions_count} onPointerDown={game === 'herd' ? undefined : action} aria-label={`${gameNames[game]}游戏画面`} />{started && countdown > 0 && <div className="countdown" role="status">{countdown}<small>按原服务端时刻开赛</small></div>}<div className="game-feedback" role="status">{feedback || (current.game_id === 'stack' ? `已叠稳 ${current.stats.success_layers} 层 · 完美 ${current.stats.perfect_layers} 层` : current.game_id === 'runner' ? `已越栏 ${current.stats.safe_passed} · 外圈 ${current.stats.outer_collected} · 金芯 ${current.stats.inner_collected}` : '绕到羊后方，赶它们进入上方围栏入口')}</div>{!started ? <Panel><Notice>{status}</Notice>{error && <Notice error>{error}{!sceneReady && <button onClick={() => setSceneRevision(value => value + 1)}>重试场景加载</button>}</Notice>}<div className="action-stack"><button className="primary" disabled={busy || !sceneReady || preparedBinding !== sceneBinding || !practice && admission.kind !== 'ordinary' && admission.kind !== 'makeup'} onClick={() => void bootstrap(false)}>{busy ? '正在预检……' : practice ? '开始不计分练习' : admission.kind === 'ordinary' ? '预检并预约 · 使用 1 次机会' : admission.label}</button>{!practice && <button disabled={busy || !sceneReady || preparedBinding !== sceneBinding || !participantId} onClick={() => void bootstrap(true)}>恢复原局 / 重试原开局请求</button>}</div></Panel> : <><p className="small game-status">{status}</p>{error && <Notice error>{error}</Notice>}{!practiceDone && !current.conclusion && <div className="game-controls" onKeyDown={e => { if (e.repeat && (e.key === ' ' || e.key === 'Enter')) e.preventDefault(); }}>{game === 'herd' ? <><div className="joystick" tabIndex={0} role="group" aria-label="拖动摇杆移动牧羊犬" onPointerDown={e => { e.currentTarget.setPointerCapture(e.pointerId); const rect = e.currentTarget.getBoundingClientRect(); runtime.current?.queue.direction((e.clientX - rect.left - rect.width / 2) / (rect.width / 2) * 1000, (e.clientY - rect.top - rect.height / 2) / (rect.height / 2) * 1000, candidateTick()); }} onPointerMove={e => { if (!e.currentTarget.hasPointerCapture(e.pointerId)) return; const rect = e.currentTarget.getBoundingClientRect(); runtime.current?.queue.direction((e.clientX - rect.left - rect.width / 2) / (rect.width / 2) * 1000, (e.clientY - rect.top - rect.height / 2) / (rect.height / 2) * 1000, candidateTick()); }} onPointerUp={clear} onPointerCancel={clear} onLostPointerCapture={clear}><span>↑<br />← ● →<br />↓</span></div><button className="primary bark" disabled={countdown > 0 || current.game_id === 'herd' && current.bark_cooldown_ticks_remaining > 0} onClick={action}>吠叫{current.game_id === 'herd' && current.bark_cooldown_ticks_remaining > 0 && <small>冷却 {Math.ceil(current.bark_cooldown_ticks_remaining / RULES.common.tick_hz)} 秒</small>}</button></> : <button className="primary gameplay-action" disabled={countdown > 0} onClick={action}>{game === 'stack' ? '点击放下' : '点击跳跃'}</button>}</div>}{practice && <div className="practice-toolbar"><button onClick={pausePractice} disabled={practiceDone}>{practicePaused ? '继续练习' : '暂停练习'}</button><button onClick={resetPractice}>重新练习</button></div>}{practiceDone && <Panel><h2>练习完成</h2><p>表现预测 {current.conclusion?.performance_points} /80，正式积分未入账。</p><button onClick={downloadPractice}>下载本局完整练习过程（不含分数）</button><p className="small">仅保存本局实际输入和自然终局，不自动上传。请另记录实际匿名参与者与设备情况。</p><a className="button primary" href={`#/tutorial/${game}`}>回到玩法，准备正式挑战</a></Panel>}</>}{confirmReturn && <div className="modal-backdrop"><div className="modal" role="dialog" aria-modal="true" aria-labelledby="leave-title"><h2 id="leave-title">{practice ? '结束这次练习？' : '放弃本局？'}</h2><p>{practice ? '练习不影响正式机会。' : '本次机会已使用，放弃计 0 分；确认框打开时，原局仍按原时轴计时。'}</p><button className="primary" onClick={() => (confirmReturnRef.current = false, setConfirmReturn(false))}>继续挑战</button><button disabled={busy} onClick={() => void abandon()}>确认放弃，返回大厅</button></div></div>}</section>;
+  return <section className="game-page" data-play-state={started ? practiceDone ? 'ended' : 'running' : 'ready'}><div className="game-top"><button aria-label="返回" onClick={() => started && !practiceDone ? (confirmReturnRef.current = true, clear(), setConfirmReturn(true)) : navigate('/')}>‹</button><div><h1>{gameNames[game]}</h1><span className="mode-badge">{practice ? '自由练习 · 不入账' : '正式挑战'}</span></div><button aria-label={silent ? '开启音效' : '关闭音效'} onClick={() => { silentRef.current = !silent; setSilent(!silent); if (!silent) for (const player of audio.current.values()) player.pause(); }}>{silent ? '静音' : '音效'}</button></div><div className="hud"><div><small>剩余时间</small><strong>{Math.ceil((RULES.common.max_ticks - current.tick) / RULES.common.tick_hz)}秒</strong></div><div><small>局内表现</small><strong>{livePoints}<small> /80</small></strong></div><div><small>{current.game_id === 'stack' ? '失误' : current.game_id === 'runner' ? '失误次数' : '已入圈'}</small><strong>{current.game_id === 'stack' ? `${current.stats.misses}/3` : current.game_id === 'runner' ? current.stats.collision_count : `${current.stats.penned_count}/8`}</strong></div></div><div className={`game-stage stage-${game}`} ref={container} tabIndex={-1} data-game-tick={current.tick} data-accepted-actions={current.accepted_actions_count} onPointerDown={game === 'herd' ? undefined : action} aria-label={`${gameNames[game]}游戏画面`} />{started && countdown > 0 && <div className="countdown" role="status">{countdown}<small>按原服务端时刻开赛</small></div>}<div className="game-cumulative" aria-label="本局累计统计">{current.game_id === 'stack' ? `已叠稳 ${current.stats.success_layers} 层 · 完美 ${current.stats.perfect_layers} 层` : current.game_id === 'runner' ? `距离 ${Math.round(current.distance_u / 1000)} · 越栏 ${current.stats.safe_passed} · 外圈 ${current.stats.outer_collected} · 金芯 ${current.stats.inner_collected}` : `已入圈 ${current.stats.penned_count}/8 · 从后方引导羊群`}</div><div className="game-feedback" role="status">{feedback || '看准时机，按下方按钮操作'}</div>{!started ? <Panel><Notice>{status}</Notice>{error && <Notice error>{error}{!sceneReady && <button onClick={() => setSceneRevision(value => value + 1)}>重试场景加载</button>}</Notice>}<div className="action-stack"><button className="primary" disabled={busy || !sceneReady || preparedBinding !== sceneBinding || !practice && admission.kind !== 'ordinary' && admission.kind !== 'makeup'} onClick={() => void bootstrap(false)}>{busy ? '正在预检……' : practice ? '开始不计分练习' : admission.kind === 'ordinary' ? '预检并预约 · 使用 1 次机会' : admission.label}</button>{!practice && <button disabled={busy || !sceneReady || preparedBinding !== sceneBinding || !participantId} onClick={() => void bootstrap(true)}>恢复原局 / 重试原开局请求</button>}</div></Panel> : <><p className="small game-status">{status}</p>{error && <Notice error>{error}</Notice>}{!practiceDone && !current.conclusion && <div className="game-controls" onKeyDown={e => { if (e.repeat && (e.key === ' ' || e.key === 'Enter')) e.preventDefault(); }}>{game === 'herd' ? <><div className="joystick" tabIndex={0} role="group" aria-label="拖动摇杆移动牧羊犬" onPointerDown={e => { e.currentTarget.setPointerCapture(e.pointerId); const rect = e.currentTarget.getBoundingClientRect(); runtime.current?.queue.direction((e.clientX - rect.left - rect.width / 2) / (rect.width / 2) * 1000, (e.clientY - rect.top - rect.height / 2) / (rect.height / 2) * 1000, candidateTick()); }} onPointerMove={e => { if (!e.currentTarget.hasPointerCapture(e.pointerId)) return; const rect = e.currentTarget.getBoundingClientRect(); runtime.current?.queue.direction((e.clientX - rect.left - rect.width / 2) / (rect.width / 2) * 1000, (e.clientY - rect.top - rect.height / 2) / (rect.height / 2) * 1000, candidateTick()); }} onPointerUp={clear} onPointerCancel={clear} onLostPointerCapture={clear}><span>↑<br />← ● →<br />↓</span></div><button className="primary bark" disabled={countdown > 0 || current.game_id === 'herd' && current.bark_cooldown_ticks_remaining > 0} onClick={action}>吠叫{current.game_id === 'herd' && current.bark_cooldown_ticks_remaining > 0 && <small>冷却 {Math.ceil(current.bark_cooldown_ticks_remaining / RULES.common.tick_hz)} 秒</small>}</button></> : <button className="primary gameplay-action" disabled={countdown > 0} onClick={action}>{game === 'stack' ? '点击放下' : '点击跳跃'}</button>}</div>}{practice && <div className="practice-toolbar"><button onClick={pausePractice} disabled={practiceDone}>{practicePaused ? '继续练习' : '暂停练习'}</button><button onClick={resetPractice}>重新练习</button></div>}{practiceDone && <Panel><h2>练习完成</h2><p>表现预测 {current.conclusion?.performance_points} /80，正式积分未入账。</p><button onClick={downloadPractice}>下载本局完整练习过程（不含分数）</button><p className="small">仅保存本局实际输入和自然终局，不自动上传。请另记录实际匿名参与者与设备情况。</p><a className="button primary" href={`#/tutorial/${game}`}>回到玩法，准备正式挑战</a></Panel>}</>}{confirmReturn && <div className="modal-backdrop"><div className="modal" role="dialog" aria-modal="true" aria-labelledby="leave-title"><h2 id="leave-title">{practice ? '结束这次练习？' : '放弃本局？'}</h2><p>{practice ? '练习不影响正式机会。' : '本次机会已使用，放弃计 0 分；确认框打开时，原局仍按原时轴计时。'}</p><button className="primary" onClick={() => (confirmReturnRef.current = false, setConfirmReturn(false))}>继续挑战</button><button disabled={busy} onClick={() => void abandon()}>确认放弃，返回大厅</button></div></div>}</section>;
 }

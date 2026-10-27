@@ -1,0 +1,125 @@
+{
+  "results": [
+    {
+      "game": "stack",
+      "catchupMs": 100,
+      "tick": 3,
+      "eventCount": 0
+    },
+    {
+      "game": "stack",
+      "catchupMs": 250,
+      "tick": 11,
+      "eventCount": 0
+    },
+    {
+      "game": "stack",
+      "catchupMs": 1000,
+      "tick": 42,
+      "eventCount": 1
+    },
+    {
+      "game": "stack",
+      "endTick": 966,
+      "terminalHashes": [
+        "970dfb6124a91ebca5da3c5032606a8224fe72cda936530ceed21ef40b25b8c1",
+        "42229a0a4fa33cfa7beff89e41c23bc232a926c892942630fca8b5574925f1c2",
+        "c396fa4477b4dbd4358301da7a450878df820af03a5446ef497c87ca6da2d626"
+      ],
+      "coreStable": true,
+      "duplicateBatchSuppressed": true,
+      "restartCleared": true,
+      "persistentSpriteRefs": true,
+      "textureCount": 4,
+      "resetTextureCount": 4
+    },
+    {
+      "game": "runner",
+      "catchupMs": 100,
+      "tick": 2,
+      "eventCount": 0
+    },
+    {
+      "game": "runner",
+      "catchupMs": 250,
+      "tick": 9,
+      "eventCount": 0
+    },
+    {
+      "game": "runner",
+      "catchupMs": 1000,
+      "tick": 39,
+      "eventCount": 0
+    },
+    {
+      "game": "runner",
+      "endTick": 1350,
+      "terminalHashes": [
+        "7f46b3bb2971e77a3e665f5f02a5a46cbccd19a85ffda07416c934c550870387",
+        "ac6642beb77bd53df1a36fe487649cd72c8da795d5377b57fc13658d347c2332",
+        "4a93c7a3384d1f8c15b8f48a4ce63f192ce09b70709455490612f8bb588ba882"
+      ],
+      "coreStable": true,
+      "duplicateBatchSuppressed": true,
+      "restartCleared": true,
+      "persistentSpriteRefs": true,
+      "textureCount": 4,
+      "resetTextureCount": 4
+    },
+    {
+      "game": "herd",
+      "catchupMs": 100,
+      "tick": 2,
+      "eventCount": 2
+    },
+    {
+      "game": "herd",
+      "catchupMs": 250,
+      "tick": 11,
+      "eventCount": 11
+    },
+    {
+      "game": "herd",
+      "catchupMs": 1000,
+      "tick": 42,
+      "eventCount": 42
+    },
+    {
+      "lastTickTypes": [
+        "DOG_MOVED",
+        "SHEEP_PENNED",
+        "GAME_ENDED"
+      ]
+    },
+    {
+      "game": "herd",
+      "endTick": 432,
+      "terminalHashes": [
+        "033dee0e46e528a2db89b799b6f61e3b34dbaa11d8481c22712f01d6b520044f",
+        "83931376ce9badffa2bd810d0c5a34dcbde88b7f3e39dc08d452ca154f8697eb",
+        "2cee8c3a54f1106e256693f83e32978bd83e12d0d73da657c5de87ad1d99adcd"
+      ],
+      "coreStable": true,
+      "duplicateBatchSuppressed": true,
+      "restartCleared": true,
+      "persistentSpriteRefs": true,
+      "textureCount": 5,
+      "resetTextureCount": 5
+    },
+    {
+      "candidate": true,
+      "dog": {
+        "id": "actor:dog",
+        "instance": "r2-sprite-15",
+        "frame": "dog_iso_r2a__walk_bark__se__f000",
+        "action": "walk_bark",
+        "facing": "se",
+        "phaseTicks": 0,
+        "x": 189.036,
+        "y": 359.036
+      },
+      "tick": 63,
+      "scope": "r2a SE only, controlled legal prefix, other directions v4"
+    }
+  ]
+}

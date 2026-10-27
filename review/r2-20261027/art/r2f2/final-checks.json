@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "F2 static source/hash/atlas/clearance only",
+  "mother_sha256": "f81da818d36358ed33935071f4a520ef0357f20d881832e8af24ccf346260227",
+  "manifest_sha256": "13c6ba5aeb21050e612ebc263bcfb376894bde074cdb43364b52dfb07ac64e84",
+  "image_sha256": "f1af920ea8f084116a9c1991c08bef6f1728e4d4f8ac94ac6a9da90e60b6013c",
+  "alpha_height_world": 30.75,
+  "current_manifest_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c"
+}

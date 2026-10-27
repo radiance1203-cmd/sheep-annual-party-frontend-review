@@ -1,0 +1,2064 @@
+{
+  "tick": 966,
+  "time": 1982,
+  "beforeCatchupTick": 51,
+  "oldDecorations": [
+    {
+      "id": "r2-sample:stack:0:104:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:104:LAYER_LANDED:2",
+        "tick": 104,
+        "type": "LAYER_LANDED",
+        "entity_id": 2
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 104,
+        "accepted_actions_count": 2,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 2,
+          "perfect_layers": 2,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 342000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 210000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:159:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:159:LAYER_LANDED:3",
+        "tick": 159,
+        "type": "LAYER_LANDED",
+        "entity_id": 3
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 159,
+        "accepted_actions_count": 3,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 3,
+          "perfect_layers": 3,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 298000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 166000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:214:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:214:LAYER_LANDED:4",
+        "tick": 214,
+        "type": "LAYER_LANDED",
+        "entity_id": 4
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 214,
+        "accepted_actions_count": 4,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 4,
+          "perfect_layers": 4,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 4,
+            "center": {
+              "x_u": 180000,
+              "y_u": 254000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 254000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 122000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:265:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:265:LAYER_LANDED:5",
+        "tick": 265,
+        "type": "LAYER_LANDED",
+        "entity_id": 5
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 265,
+        "accepted_actions_count": 5,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 5,
+          "perfect_layers": 5,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 4,
+            "center": {
+              "x_u": 180000,
+              "y_u": 254000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 5,
+            "center": {
+              "x_u": 180800,
+              "y_u": 210000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 180800,
+            "y_u": 210000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 180800,
+            "y_u": 78000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:316:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:316:LAYER_LANDED:6",
+        "tick": 316,
+        "type": "LAYER_LANDED",
+        "entity_id": 6
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 316,
+        "accepted_actions_count": 6,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 6,
+          "perfect_layers": 6,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 4,
+            "center": {
+              "x_u": 180000,
+              "y_u": 254000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 5,
+            "center": {
+              "x_u": 180800,
+              "y_u": 210000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 6,
+            "center": {
+              "x_u": 179200,
+              "y_u": 166000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 179200,
+            "y_u": 166000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 179200,
+            "y_u": 34000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:367:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:367:LAYER_LANDED:7",
+        "tick": 367,
+        "type": "LAYER_LANDED",
+        "entity_id": 7
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 367,
+        "accepted_actions_count": 7,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 7,
+          "perfect_layers": 7,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 4,
+            "center": {
+              "x_u": 180000,
+              "y_u": 254000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 5,
+            "center": {
+              "x_u": 180800,
+              "y_u": 210000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 6,
+            "center": {
+              "x_u": 179200,
+              "y_u": 166000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 7,
+            "center": {
+              "x_u": 180800,
+              "y_u": 122000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 180800,
+            "y_u": 122000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 180800,
+            "y_u": -10000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:418:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:418:LAYER_LANDED:8",
+        "tick": 418,
+        "type": "LAYER_LANDED",
+        "entity_id": 8
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 418,
+        "accepted_actions_count": 8,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 8,
+          "perfect_layers": 8,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 4,
+            "center": {
+              "x_u": 180000,
+              "y_u": 254000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 5,
+            "center": {
+              "x_u": 180800,
+              "y_u": 210000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 6,
+            "center": {
+              "x_u": 179200,
+              "y_u": 166000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 7,
+            "center": {
+              "x_u": 180800,
+              "y_u": 122000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 8,
+            "center": {
+              "x_u": 179200,
+              "y_u": 78000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 179200,
+            "y_u": 78000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 179200,
+            "y_u": -54000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:466:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:466:LAYER_LANDED:9",
+        "tick": 466,
+        "type": "LAYER_LANDED",
+        "entity_id": 9
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 466,
+        "accepted_actions_count": 9,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 9,
+          "perfect_layers": 9,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 4,
+            "center": {
+              "x_u": 180000,
+              "y_u": 254000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 5,
+            "center": {
+              "x_u": 180800,
+              "y_u": 210000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 6,
+            "center": {
+              "x_u": 179200,
+              "y_u": 166000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 7,
+            "center": {
+              "x_u": 180800,
+              "y_u": 122000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 8,
+            "center": {
+              "x_u": 179200,
+              "y_u": 78000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 9,
+            "center": {
+              "x_u": 180700,
+              "y_u": 34000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 180700,
+            "y_u": 34000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 180700,
+            "y_u": -98000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:514:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:514:LAYER_LANDED:10",
+        "tick": 514,
+        "type": "LAYER_LANDED",
+        "entity_id": 10
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 514,
+        "accepted_actions_count": 10,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 10,
+          "perfect_layers": 10,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 4,
+            "center": {
+              "x_u": 180000,
+              "y_u": 254000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 5,
+            "center": {
+              "x_u": 180800,
+              "y_u": 210000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 6,
+            "center": {
+              "x_u": 179200,
+              "y_u": 166000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 7,
+            "center": {
+              "x_u": 180800,
+              "y_u": 122000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 8,
+            "center": {
+              "x_u": 179200,
+              "y_u": 78000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 9,
+            "center": {
+              "x_u": 180700,
+              "y_u": 34000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 10,
+            "center": {
+              "x_u": 179300,
+              "y_u": -10000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 179300,
+            "y_u": -10000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 179300,
+            "y_u": -142000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:562:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:562:LAYER_LANDED:11",
+        "tick": 562,
+        "type": "LAYER_LANDED",
+        "entity_id": 11
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 562,
+        "accepted_actions_count": 11,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 11,
+          "perfect_layers": 11,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 4,
+            "center": {
+              "x_u": 180000,
+              "y_u": 254000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 5,
+            "center": {
+              "x_u": 180800,
+              "y_u": 210000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 6,
+            "center": {
+              "x_u": 179200,
+              "y_u": 166000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 7,
+            "center": {
+              "x_u": 180800,
+              "y_u": 122000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 8,
+            "center": {
+              "x_u": 179200,
+              "y_u": 78000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 9,
+            "center": {
+              "x_u": 180700,
+              "y_u": 34000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 10,
+            "center": {
+              "x_u": 179300,
+              "y_u": -10000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 11,
+            "center": {
+              "x_u": 180700,
+              "y_u": -54000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 180700,
+            "y_u": -54000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 180700,
+            "y_u": -186000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:610:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:610:LAYER_LANDED:12",
+        "tick": 610,
+        "type": "LAYER_LANDED",
+        "entity_id": 12
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 610,
+        "accepted_actions_count": 12,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 12,
+          "perfect_layers": 12,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 4,
+            "center": {
+              "x_u": 180000,
+              "y_u": 254000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 5,
+            "center": {
+              "x_u": 180800,
+              "y_u": 210000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 6,
+            "center": {
+              "x_u": 179200,
+              "y_u": 166000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 7,
+            "center": {
+              "x_u": 180800,
+              "y_u": 122000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 8,
+            "center": {
+              "x_u": 179200,
+              "y_u": 78000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 9,
+            "center": {
+              "x_u": 180700,
+              "y_u": 34000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 10,
+            "center": {
+              "x_u": 179300,
+              "y_u": -10000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 11,
+            "center": {
+              "x_u": 180700,
+              "y_u": -54000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 12,
+            "center": {
+              "x_u": 179300,
+              "y_u": -98000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 179300,
+            "y_u": -98000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 179300,
+            "y_u": -230000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:656:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:656:LAYER_LANDED:13",
+        "tick": 656,
+        "type": "LAYER_LANDED",
+        "entity_id": 13
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 656,
+        "accepted_actions_count": 13,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 13,
+          "perfect_layers": 13,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 4,
+            "center": {
+              "x_u": 180000,
+              "y_u": 254000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 5,
+            "center": {
+              "x_u": 180800,
+              "y_u": 210000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 6,
+            "center": {
+              "x_u": 179200,
+              "y_u": 166000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 7,
+            "center": {
+              "x_u": 180800,
+              "y_u": 122000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 8,
+            "center": {
+              "x_u": 179200,
+              "y_u": 78000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 9,
+            "center": {
+              "x_u": 180700,
+              "y_u": 34000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 10,
+            "center": {
+              "x_u": 179300,
+              "y_u": -10000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 11,
+            "center": {
+              "x_u": 180700,
+              "y_u": -54000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 12,
+            "center": {
+              "x_u": 179300,
+              "y_u": -98000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 13,
+            "center": {
+              "x_u": 178650,
+              "y_u": -142000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 178650,
+            "y_u": -142000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 178650,
+            "y_u": -274000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:701:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:701:LAYER_LANDED:14",
+        "tick": 701,
+        "type": "LAYER_LANDED",
+        "entity_id": 14
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 701,
+        "accepted_actions_count": 14,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 14,
+          "perfect_layers": 14,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 4,
+            "center": {
+              "x_u": 180000,
+              "y_u": 254000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 5,
+            "center": {
+              "x_u": 180800,
+              "y_u": 210000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 6,
+            "center": {
+              "x_u": 179200,
+              "y_u": 166000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 7,
+            "center": {
+              "x_u": 180800,
+              "y_u": 122000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 8,
+            "center": {
+              "x_u": 179200,
+              "y_u": 78000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 9,
+            "center": {
+              "x_u": 180700,
+              "y_u": 34000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 10,
+            "center": {
+              "x_u": 179300,
+              "y_u": -10000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 11,
+            "center": {
+              "x_u": 180700,
+              "y_u": -54000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 12,
+            "center": {
+              "x_u": 179300,
+              "y_u": -98000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 13,
+            "center": {
+              "x_u": 178650,
+              "y_u": -142000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 14,
+            "center": {
+              "x_u": 177300,
+              "y_u": -186000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 177300,
+            "y_u": -186000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 177300,
+            "y_u": -318000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:747:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:747:LAYER_LANDED:15",
+        "tick": 747,
+        "type": "LAYER_LANDED",
+        "entity_id": 15
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 747,
+        "accepted_actions_count": 15,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 15,
+          "perfect_layers": 15,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 4,
+            "center": {
+              "x_u": 180000,
+              "y_u": 254000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 5,
+            "center": {
+              "x_u": 180800,
+              "y_u": 210000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 6,
+            "center": {
+              "x_u": 179200,
+              "y_u": 166000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 7,
+            "center": {
+              "x_u": 180800,
+              "y_u": 122000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 8,
+            "center": {
+              "x_u": 179200,
+              "y_u": 78000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 9,
+            "center": {
+              "x_u": 180700,
+              "y_u": 34000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 10,
+            "center": {
+              "x_u": 179300,
+              "y_u": -10000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 11,
+            "center": {
+              "x_u": 180700,
+              "y_u": -54000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 12,
+            "center": {
+              "x_u": 179300,
+              "y_u": -98000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 13,
+            "center": {
+              "x_u": 178650,
+              "y_u": -142000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 14,
+            "center": {
+              "x_u": 177300,
+              "y_u": -186000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 15,
+            "center": {
+              "x_u": 178650,
+              "y_u": -230000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 178650,
+            "y_u": -230000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 178650,
+            "y_u": -362000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:792:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:792:LAYER_LANDED:16",
+        "tick": 792,
+        "type": "LAYER_LANDED",
+        "entity_id": 16
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 792,
+        "accepted_actions_count": 16,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 16,
+          "perfect_layers": 16,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 4,
+            "center": {
+              "x_u": 180000,
+              "y_u": 254000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 5,
+            "center": {
+              "x_u": 180800,
+              "y_u": 210000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 6,
+            "center": {
+              "x_u": 179200,
+              "y_u": 166000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 7,
+            "center": {
+              "x_u": 180800,
+              "y_u": 122000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 8,
+            "center": {
+              "x_u": 179200,
+              "y_u": 78000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 9,
+            "center": {
+              "x_u": 180700,
+              "y_u": 34000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 10,
+            "center": {
+              "x_u": 179300,
+              "y_u": -10000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 11,
+            "center": {
+              "x_u": 180700,
+              "y_u": -54000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 12,
+            "center": {
+              "x_u": 179300,
+              "y_u": -98000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 13,
+            "center": {
+              "x_u": 178650,
+              "y_u": -142000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 14,
+            "center": {
+              "x_u": 177300,
+              "y_u": -186000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 15,
+            "center": {
+              "x_u": 178650,
+              "y_u": -230000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 16,
+            "center": {
+              "x_u": 177300,
+              "y_u": -274000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 177300,
+            "y_u": -274000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 177300,
+            "y_u": -406000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:836:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:836:LAYER_LANDED:17",
+        "tick": 836,
+        "type": "LAYER_LANDED",
+        "entity_id": 17
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 836,
+        "accepted_actions_count": 17,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 17,
+          "perfect_layers": 17,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 4,
+            "center": {
+              "x_u": 180000,
+              "y_u": 254000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 5,
+            "center": {
+              "x_u": 180800,
+              "y_u": 210000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 6,
+            "center": {
+              "x_u": 179200,
+              "y_u": 166000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 7,
+            "center": {
+              "x_u": 180800,
+              "y_u": 122000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 8,
+            "center": {
+              "x_u": 179200,
+              "y_u": 78000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 9,
+            "center": {
+              "x_u": 180700,
+              "y_u": 34000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 10,
+            "center": {
+              "x_u": 179300,
+              "y_u": -10000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 11,
+            "center": {
+              "x_u": 180700,
+              "y_u": -54000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 12,
+            "center": {
+              "x_u": 179300,
+              "y_u": -98000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 13,
+            "center": {
+              "x_u": 178650,
+              "y_u": -142000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 14,
+            "center": {
+              "x_u": 177300,
+              "y_u": -186000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 15,
+            "center": {
+              "x_u": 178650,
+              "y_u": -230000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 16,
+            "center": {
+              "x_u": 177300,
+              "y_u": -274000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 17,
+            "center": {
+              "x_u": 178000,
+              "y_u": -318000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 178000,
+            "y_u": -318000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 178000,
+            "y_u": -450000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    },
+    {
+      "id": "r2-sample:stack:0:879:0",
+      "eventIndex": 0,
+      "event": {
+        "event_key": "stack:879:LAYER_LANDED:18",
+        "tick": 879,
+        "type": "LAYER_LANDED",
+        "entity_id": 18
+      },
+      "snapshot": {
+        "game_id": "stack",
+        "tick": 879,
+        "accepted_actions_count": 18,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 18,
+          "perfect_layers": 18,
+          "misses": 0
+        },
+        "placed_layers": [
+          {
+            "layer_no": 1,
+            "center": {
+              "x_u": 180000,
+              "y_u": 386000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 2,
+            "center": {
+              "x_u": 180000,
+              "y_u": 342000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 3,
+            "center": {
+              "x_u": 180000,
+              "y_u": 298000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 4,
+            "center": {
+              "x_u": 180000,
+              "y_u": 254000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 5,
+            "center": {
+              "x_u": 180800,
+              "y_u": 210000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 6,
+            "center": {
+              "x_u": 179200,
+              "y_u": 166000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 7,
+            "center": {
+              "x_u": 180800,
+              "y_u": 122000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 8,
+            "center": {
+              "x_u": 179200,
+              "y_u": 78000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 9,
+            "center": {
+              "x_u": 180700,
+              "y_u": 34000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 10,
+            "center": {
+              "x_u": 179300,
+              "y_u": -10000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 11,
+            "center": {
+              "x_u": 180700,
+              "y_u": -54000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 12,
+            "center": {
+              "x_u": 179300,
+              "y_u": -98000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 13,
+            "center": {
+              "x_u": 178650,
+              "y_u": -142000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 14,
+            "center": {
+              "x_u": 177300,
+              "y_u": -186000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 15,
+            "center": {
+              "x_u": 178650,
+              "y_u": -230000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 16,
+            "center": {
+              "x_u": 177300,
+              "y_u": -274000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 17,
+            "center": {
+              "x_u": 178000,
+              "y_u": -318000
+            },
+            "perfect": true
+          },
+          {
+            "layer_no": 18,
+            "center": {
+              "x_u": 177600,
+              "y_u": -362000
+            },
+            "perfect": true
+          }
+        ],
+        "top_support": {
+          "center": {
+            "x_u": 177600,
+            "y_u": -362000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 177600,
+            "y_u": -494000
+          },
+          "width_u": 112000,
+          "phase": "SETTLE",
+          "phase_ticks_remaining": 6
+        }
+      },
+      "timeMs": 1902,
+      "decorationOmitted": "expired"
+    }
+  ]
+}

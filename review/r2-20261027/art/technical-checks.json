@@ -1,0 +1,277 @@
+{
+  "scope": "limited offline source and atlas checks; no runtime or art acceptance",
+  "checks": [
+    {
+      "check": "production_art_accepted remains false",
+      "status": "PASS"
+    },
+    {
+      "check": "art signoff remains null",
+      "status": "PASS"
+    },
+    {
+      "check": "partial atlas cannot replace full runtime",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep immutable v4 source",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep candidate editable source hash",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep offline clips have no root motion",
+      "status": "PASS"
+    },
+    {
+      "check": "dog immutable v4 source",
+      "status": "PASS"
+    },
+    {
+      "check": "dog candidate editable source hash",
+      "status": "PASS"
+    },
+    {
+      "check": "dog offline clips have no root motion",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_side_r2a image hash",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_side_r2a RGBA",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_side_r2a metadata hash",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_side_r2a count",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_side_r2a__stack_idle__e__f000 page bounds",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_side_r2a__stack_idle__e__f000 pivot",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_side_r2a__stack_idle__e__f000 nonempty",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_side_r2a__stack_idle__e__f000 transparent safe margin",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_side_r2a__stack_idle__e__f000 stack64 fits frozen44 layer with tray clearance",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_side_r2a__idle__e__f000 page bounds",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_side_r2a__idle__e__f000 pivot",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_side_r2a__idle__e__f000 nonempty",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_side_r2a__idle__e__f000 transparent safe margin",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_iso_r2a image hash",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_iso_r2a RGBA",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_iso_r2a metadata hash",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_iso_r2a count",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_iso_r2a__idle__se__f000 page bounds",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_iso_r2a__idle__se__f000 pivot",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_iso_r2a__idle__se__f000 nonempty",
+      "status": "PASS"
+    },
+    {
+      "check": "sheep_iso_r2a__idle__se__f000 transparent safe margin",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a image hash",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a RGBA",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a metadata hash",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a count",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f000 page bounds",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f000 pivot",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f000 nonempty",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f000 transparent safe margin",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f001 page bounds",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f001 pivot",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f001 nonempty",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f001 transparent safe margin",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f002 page bounds",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f002 pivot",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f002 nonempty",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f002 transparent safe margin",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f003 page bounds",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f003 pivot",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f003 nonempty",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f003 transparent safe margin",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f004 page bounds",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f004 pivot",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f004 nonempty",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f004 transparent safe margin",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f005 page bounds",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f005 pivot",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f005 nonempty",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f005 transparent safe margin",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f006 page bounds",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f006 pivot",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f006 nonempty",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f006 transparent safe margin",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f007 page bounds",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f007 pivot",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f007 nonempty",
+      "status": "PASS"
+    },
+    {
+      "check": "dog_iso_r2a__walk_bark__se__f007 transparent safe margin",
+      "status": "PASS"
+    },
+    {
+      "check": "backdrop_herd_r2a image hash",
+      "status": "PASS"
+    },
+    {
+      "check": "backdrop_herd_r2a RGBA",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,3 +1,18 @@
+# R2 技术修复与有限美术样板 · 2026-10-27
+
+当前增量：R01–R05、高清buffer、独立表现时钟、完整事件及持久sprite已在本机真实引擎验证。仍用原产品，未重建。**美术仍未达目标，S1/S2艺术范围未完成，S3未签认，production_art_accepted=false；未进入S4。**
+
+- [本轮完整报告与几何差异](docs/r2-20261027-report.md)
+- [真实320/390/430页面](review/r2-20261027/pages/results.json)
+- [三宽/DPR与真实相机检查](review/r2-20261027/samples-final/results.json)
+- [12秒叠高片段](review/r2-20261027/samples-final/stack-12s.mp4)、[12秒跨栏片段](review/r2-20261027/samples-final/runner-12s.mp4)、[15秒赶羊片段](review/r2-20261027/samples-final/herd-15s.mp4)
+- [母样/原型差异与制作证据](review/r2-20261027/art/)、[R01–R05报告](review/r2-20261027/frontend/REPORT.md)、[本轮状态](review/r2-state.json)
+
+片段使用现有v4资产和新presenter的真实core合法输入回放；新母样只按明示的局部动作/视图展示，不冒充完整新美术。物理手机/微信、24人216局和现场未验。后台、凭据/数据库、私人备份和大型原生.blend继续保留在主工程，不从审查快照缺项推断主工程缺失。
+
+---
+以下为保留的历史记录；旧测试计数不等于本轮重新执行。
+
 # 审查修复进度 · 2026-10-27
 
 本仓库已同步原审查提交 `6e8e40c` 之后的前端修复与art-1.4.0候选资源。主工程基础HEAD仍为9d652fb，实际包含保留的用户工作区修改；来源与原文件SHA见 [SOURCE_SNAPSHOT.json](SOURCE_SNAPSHOT.json)。这里是可构建的前端审查快照，不是后台缺失的新项目。

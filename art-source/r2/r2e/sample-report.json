@@ -1,0 +1,32 @@
+{
+  "version": "R2e-structural-two-frame",
+  "status": "REVIEW",
+  "production_art_accepted": false,
+  "source": "art-source/r2/r2d/sheep_master_r2d.blend",
+  "source_sha256": "d8776c5de96737cdce9c04fd532d18d18cb5d6c7516030cccc84e049e94ec973",
+  "mother": "art-source/r2/r2e/sheep_master_r2e.blend",
+  "mother_sha256": "991018b86d52d1a0a5e5398a739a3187e816e6dc6dfa752c4bb90c9893abd7db",
+  "outputs": [
+    {
+      "path": "art-source/r2/r2e/sheep_front_512.png",
+      "sha256": "d3237318b25bff6ee1412b4ca0dbaf00818b7e248281efb24039b430b5f07c8d",
+      "seconds": 5.54,
+      "camera": "R2e_review_close"
+    },
+    {
+      "path": "art-source/r2/r2e/sheep_stack_512.png",
+      "sha256": "e4da777519fecdb379a49027ea38f3ed5d54edab15a3a32a22410a31c0e6a22a",
+      "seconds": 3.558,
+      "camera": "side_v1"
+    }
+  ],
+  "changes": [
+    "D control-surface face preserved",
+    "7 eccentric swirl crown surfaces",
+    "spiral radius converges to .008 with forward inner endpoint",
+    "explicit surface-tangent fibers, no noise normal/color texture",
+    "warm world/fill, diffuse bounce5, fastGI off"
+  ],
+  "explicit_strands": 6650,
+  "root_reported_imagegen_blocker": "Two calls failed Windows reference-path serialization; no generated image; no API fallback used."
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "fresh independent frontend export checks, no backend or physical devices",
+  "typecheck": {
+    "exit_code": 0
+  },
+  "web_build": {
+    "exit_code": 0,
+    "warning": "existing renderer chunk >500kB"
+  },
+  "unit": {
+    "passed": 274,
+    "failed": 0,
+    "files": 14
+  },
+  "contracts": {
+    "exit_code": 0
+  },
+  "rules": {
+    "exit_code": 0
+  },
+  "original_native_blends_excluded": true,
+  "production_art_accepted": false
+}

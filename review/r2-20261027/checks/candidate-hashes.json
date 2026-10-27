@@ -1,0 +1,102 @@
+[
+  {
+    "path": "apps/web/public/assets/candidates/r2/backdrop_herd_r2a.png",
+    "sha256": "f9b529b24722fcb8aef7b517bd7ab6c17224991e1f75a4d057da2025a7381bba",
+    "bytes": 642566
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/candidate-manifest.r2a.json",
+    "sha256": "d1f38d52b956e305648b475f2369b8bb76b6ecd566309791bba4a205a77cae98",
+    "bytes": 5571
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/dog_iso_r2a.atlas.json",
+    "sha256": "5065fe545603ebdd51581f134474ce6e4f5a6e3e7d403d53063cf13fbdc1bae2",
+    "bytes": 4232
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/dog_iso_r2a.png",
+    "sha256": "24e17a53639f9f3ab5af3a58b1844ca3f93e1ed57a1aa0ec589c197e92e1f07f",
+    "bytes": 199497
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/r2c/candidate-manifest.r2c.json",
+    "sha256": "0a0481e80a1404e22d7554ded8c4da561857d96a55ef4c3cf5682848c9f3f0e7",
+    "bytes": 2133
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/r2c/sheep_stack_r2c.atlas.json",
+    "sha256": "51ec3c1cdbe17a3dca3e2db116fbc3de1ea6558e6e8cfbd82f6add0fe6802224",
+    "bytes": 939
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/r2c/sheep_stack_r2c.png",
+    "sha256": "e84dc1ecce2288ddd3af0422ae401ccc8186fb74917c0489bb85569ad61001c6",
+    "bytes": 38897
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/r2d/candidate-manifest.r2d.json",
+    "sha256": "4f460352e45b28c533ab113f316c616256d75cfe772e49c0985350e6e497caee",
+    "bytes": 2177
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/r2d/sheep_stack_r2d.atlas.json",
+    "sha256": "e35cc626cdcc4184dd92b308e13cd5323ddedf2608408c827bf17bd1ff1efc7b",
+    "bytes": 939
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/r2d/sheep_stack_r2d.png",
+    "sha256": "59cf1ac712ac5fd0b9f4ac1faa85e172917157113f229e9e7a3f40a57d3fd18f",
+    "bytes": 40354
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/r2e/candidate-manifest.r2e.json",
+    "sha256": "58ec48e4d0626464b99754272f48aa8f29224e1903a58c5077020744643c3296",
+    "bytes": 2279
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/r2e/sheep_stack_r2e.atlas.json",
+    "sha256": "f945441bc24dc875776c415206c67e3cf4435059094db9ba08da70d117456af3",
+    "bytes": 939
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/r2e/sheep_stack_r2e.png",
+    "sha256": "7ab7efe1a80943cfbd94bba8b94cf3b3c3c34beb8f8ac5120919611286a0440e",
+    "bytes": 37904
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/r2f2/candidate-manifest.r2f2.json",
+    "sha256": "13c6ba5aeb21050e612ebc263bcfb376894bde074cdb43364b52dfb07ac64e84",
+    "bytes": 2036
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/r2f2/sheep_stack_r2f2.atlas.json",
+    "sha256": "b01cc69a0d9ebc7accb687fe50fb0a43f917139a55ec4aeac330c8b7d195b8b3",
+    "bytes": 942
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/r2f2/sheep_stack_r2f2.png",
+    "sha256": "f1af920ea8f084116a9c1991c08bef6f1728e4d4f8ac94ac6a9da90e60b6013c",
+    "bytes": 36675
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/sheep_iso_r2a.atlas.json",
+    "sha256": "c70f0adbfdbe0c3d2a3656792bd263297b7f5e2527b8ec34c3ac855bb31de1ce",
+    "bytes": 1006
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/sheep_iso_r2a.png",
+    "sha256": "89d585c41220b038d3c5ebd811f33cd4dd90225ffa4371ed7164c634e2729cc0",
+    "bytes": 35974
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/sheep_side_r2a.atlas.json",
+    "sha256": "547be5064fe66a00b02ec994bd5bfc0e36dc59702498be977777e242db29be4a",
+    "bytes": 1569
+  },
+  {
+    "path": "apps/web/public/assets/candidates/r2/sheep_side_r2a.png",
+    "sha256": "8c66896a30f7e0b959369aa9b4ec82e4470bc6bed8397d1de773fa0e938ce20a",
+    "bytes": 75385
+  }
+]

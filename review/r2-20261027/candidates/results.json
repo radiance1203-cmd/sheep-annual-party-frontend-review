@@ -1,0 +1,472 @@
+{
+  "results": [
+    {
+      "candidate": "r2e",
+      "width": 320,
+      "errors": [],
+      "tick": 150,
+      "phase": 500,
+      "actors": [
+        {
+          "id": "bounded:tray:foundation",
+          "instance": "r2-sprite-1",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 432
+        },
+        {
+          "id": "actor:foundation",
+          "instance": "r2-sprite-2",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 15,
+          "x": 180,
+          "y": 428
+        },
+        {
+          "id": "bounded:tray:moving",
+          "instance": "r2-sprite-3",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 234
+        },
+        {
+          "id": "actor:moving",
+          "instance": "r2-sprite-4",
+          "frame": "sheep_side__stack_air__e__f000",
+          "action": "stack_air",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 230
+        },
+        {
+          "id": "bounded:tray:layer-1",
+          "instance": "r2-sprite-5",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 388
+        },
+        {
+          "id": "actor:layer-1",
+          "instance": "r2-sprite-6",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 384
+        },
+        {
+          "id": "bounded:tray:layer-2",
+          "instance": "r2-sprite-7",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 344
+        },
+        {
+          "id": "actor:layer-2",
+          "instance": "r2-sprite-8",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 340
+        }
+      ],
+      "scope": "one static stack_idle candidate + existing v4 other actions/scenery; not complete new animation"
+    },
+    {
+      "candidate": "r2e",
+      "width": 390,
+      "errors": [],
+      "tick": 150,
+      "phase": 500,
+      "actors": [
+        {
+          "id": "bounded:tray:foundation",
+          "instance": "r2-sprite-1",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 432
+        },
+        {
+          "id": "actor:foundation",
+          "instance": "r2-sprite-2",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 15,
+          "x": 180,
+          "y": 428
+        },
+        {
+          "id": "bounded:tray:moving",
+          "instance": "r2-sprite-3",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 234
+        },
+        {
+          "id": "actor:moving",
+          "instance": "r2-sprite-4",
+          "frame": "sheep_side__stack_air__e__f000",
+          "action": "stack_air",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 230
+        },
+        {
+          "id": "bounded:tray:layer-1",
+          "instance": "r2-sprite-5",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 388
+        },
+        {
+          "id": "actor:layer-1",
+          "instance": "r2-sprite-6",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 384
+        },
+        {
+          "id": "bounded:tray:layer-2",
+          "instance": "r2-sprite-7",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 344
+        },
+        {
+          "id": "actor:layer-2",
+          "instance": "r2-sprite-8",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 340
+        }
+      ],
+      "scope": "one static stack_idle candidate + existing v4 other actions/scenery; not complete new animation"
+    },
+    {
+      "candidate": "r2e",
+      "width": 430,
+      "errors": [],
+      "tick": 150,
+      "phase": 500,
+      "actors": [
+        {
+          "id": "bounded:tray:foundation",
+          "instance": "r2-sprite-1",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 432
+        },
+        {
+          "id": "actor:foundation",
+          "instance": "r2-sprite-2",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 15,
+          "x": 180,
+          "y": 428
+        },
+        {
+          "id": "bounded:tray:moving",
+          "instance": "r2-sprite-3",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 234
+        },
+        {
+          "id": "actor:moving",
+          "instance": "r2-sprite-4",
+          "frame": "sheep_side__stack_air__e__f000",
+          "action": "stack_air",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 230
+        },
+        {
+          "id": "bounded:tray:layer-1",
+          "instance": "r2-sprite-5",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 388
+        },
+        {
+          "id": "actor:layer-1",
+          "instance": "r2-sprite-6",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 384
+        },
+        {
+          "id": "bounded:tray:layer-2",
+          "instance": "r2-sprite-7",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 344
+        },
+        {
+          "id": "actor:layer-2",
+          "instance": "r2-sprite-8",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 340
+        }
+      ],
+      "scope": "one static stack_idle candidate + existing v4 other actions/scenery; not complete new animation"
+    },
+    {
+      "candidate": "r2f2",
+      "width": 320,
+      "errors": [],
+      "tick": 150,
+      "phase": 500,
+      "actors": [
+        {
+          "id": "bounded:tray:foundation",
+          "instance": "r2-sprite-1",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 432
+        },
+        {
+          "id": "actor:foundation",
+          "instance": "r2-sprite-2",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 15,
+          "x": 180,
+          "y": 428
+        },
+        {
+          "id": "bounded:tray:moving",
+          "instance": "r2-sprite-3",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 234
+        },
+        {
+          "id": "actor:moving",
+          "instance": "r2-sprite-4",
+          "frame": "sheep_side__stack_air__e__f000",
+          "action": "stack_air",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 230
+        },
+        {
+          "id": "bounded:tray:layer-1",
+          "instance": "r2-sprite-5",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 388
+        },
+        {
+          "id": "actor:layer-1",
+          "instance": "r2-sprite-6",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 384
+        },
+        {
+          "id": "bounded:tray:layer-2",
+          "instance": "r2-sprite-7",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 344
+        },
+        {
+          "id": "actor:layer-2",
+          "instance": "r2-sprite-8",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 340
+        }
+      ],
+      "scope": "one static stack_idle candidate + existing v4 other actions/scenery; not complete new animation"
+    },
+    {
+      "candidate": "r2f2",
+      "width": 390,
+      "errors": [],
+      "tick": 150,
+      "phase": 500,
+      "actors": [
+        {
+          "id": "bounded:tray:foundation",
+          "instance": "r2-sprite-1",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 432
+        },
+        {
+          "id": "actor:foundation",
+          "instance": "r2-sprite-2",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 15,
+          "x": 180,
+          "y": 428
+        },
+        {
+          "id": "bounded:tray:moving",
+          "instance": "r2-sprite-3",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 234
+        },
+        {
+          "id": "actor:moving",
+          "instance": "r2-sprite-4",
+          "frame": "sheep_side__stack_air__e__f000",
+          "action": "stack_air",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 230
+        },
+        {
+          "id": "bounded:tray:layer-1",
+          "instance": "r2-sprite-5",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 388
+        },
+        {
+          "id": "actor:layer-1",
+          "instance": "r2-sprite-6",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 384
+        },
+        {
+          "id": "bounded:tray:layer-2",
+          "instance": "r2-sprite-7",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 344
+        },
+        {
+          "id": "actor:layer-2",
+          "instance": "r2-sprite-8",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 340
+        }
+      ],
+      "scope": "one static stack_idle candidate + existing v4 other actions/scenery; not complete new animation"
+    },
+    {
+      "candidate": "r2f2",
+      "width": 430,
+      "errors": [],
+      "tick": 150,
+      "phase": 500,
+      "actors": [
+        {
+          "id": "bounded:tray:foundation",
+          "instance": "r2-sprite-1",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 432
+        },
+        {
+          "id": "actor:foundation",
+          "instance": "r2-sprite-2",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 15,
+          "x": 180,
+          "y": 428
+        },
+        {
+          "id": "bounded:tray:moving",
+          "instance": "r2-sprite-3",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 234
+        },
+        {
+          "id": "actor:moving",
+          "instance": "r2-sprite-4",
+          "frame": "sheep_side__stack_air__e__f000",
+          "action": "stack_air",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 230
+        },
+        {
+          "id": "bounded:tray:layer-1",
+          "instance": "r2-sprite-5",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 388
+        },
+        {
+          "id": "actor:layer-1",
+          "instance": "r2-sprite-6",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 384
+        },
+        {
+          "id": "bounded:tray:layer-2",
+          "instance": "r2-sprite-7",
+          "frame": "hay_tray_thin",
+          "x": 180,
+          "y": 344
+        },
+        {
+          "id": "actor:layer-2",
+          "instance": "r2-sprite-8",
+          "frame": "stack_sample",
+          "action": "stack_idle",
+          "facing": "e",
+          "phaseTicks": 0,
+          "x": 180,
+          "y": 340
+        }
+      ],
+      "scope": "one static stack_idle candidate + existing v4 other actions/scenery; not complete new animation"
+    }
+  ]
+}

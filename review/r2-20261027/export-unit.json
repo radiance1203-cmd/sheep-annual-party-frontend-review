@@ -1,0 +1,3689 @@
+{
+  "numTotalTestSuites": 27,
+  "numPassedTestSuites": 27,
+  "numFailedTestSuites": 0,
+  "numPendingTestSuites": 0,
+  "numTotalTests": 274,
+  "numPassedTests": 274,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "numTodoTests": 0,
+  "snapshot": {
+    "added": 0,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0,
+    "didUpdate": false
+  },
+  "startTime": 1793115224093,
+  "success": true,
+  "testResults": [
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "reads the delivered animation objects and every named frame",
+          "status": "passed",
+          "title": "reads the delivered animation objects and every named frame",
+          "duration": 9.009000000000015,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "rejects animation references to missing frames before consuming a slot",
+          "status": "passed",
+          "title": "rejects animation references to missing frames before consuming a slot",
+          "duration": 1.9833999999999605,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "rejects missing required direction/action and decoded size mismatch",
+          "status": "passed",
+          "title": "rejects missing required direction/action and decoded size mismatch",
+          "duration": 2.105000000000018,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "requires dedicated compact poses and bounded props for the new art profile while retaining old releases",
+          "status": "passed",
+          "title": "requires dedicated compact poses and bounded props for the new art profile while retaining old releases",
+          "duration": 2.594500000000039,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1793115226703,
+      "endTime": 1793115226718.5945,
+      "status": "passed",
+      "message": "",
+      "name": "<REVIEW_ROOT>/apps/web/tests/assets.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "keeps menu/dialog and repeated keys out of gameplay",
+          "status": "passed",
+          "title": "keeps menu/dialog and repeated keys out of gameplay",
+          "duration": 2.0232000000000028,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "keeps held movement through bark, combines arrows, and releases only the released key",
+          "status": "passed",
+          "title": "keeps held movement through bark, combines arrows, and releases only the released key",
+          "duration": 0.9490999999999872,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1793115229783,
+      "endTime": 1793115229785.9492,
+      "status": "passed",
+      "message": "",
+      "name": "<REVIEW_ROOT>/apps/web/tests/keyboard.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "formats integer cents exactly beyond floating-point safe range and preserves unknown costs",
+          "status": "passed",
+          "title": "formats integer cents exactly beyond floating-point safe range and preserves unknown costs",
+          "duration": 21.04430000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "exports only a natural practice conclusion and its exact inputs, without any score field",
+          "status": "passed",
+          "title": "exports only a natural practice conclusion and its exact inputs, without any score field",
+          "duration": 75.6072999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1793115225567,
+      "endTime": 1793115225663.6074,
+      "status": "passed",
+      "message": "",
+      "name": "<REVIEW_ROOT>/apps/web/tests/operations-model.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "preserves actual raw times and unknown observed points instead of generating samples or scores",
+          "status": "passed",
+          "title": "preserves actual raw times and unknown observed points instead of generating samples or scores",
+          "duration": 8.999199999999746,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "imports complete practice metadata and input process but refuses scores and missing actual start time",
+          "status": "passed",
+          "title": "imports complete practice metadata and input process but refuses scores and missing actual start time",
+          "duration": 2.4833000000003267,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "rejects invalid calendar timestamps and a seed from another frozen game",
+          "status": "passed",
+          "title": "rejects invalid calendar timestamps and a seed from another frozen game",
+          "duration": 0.5686000000000604,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "enforces the tightened non-whitespace source fields and explicit final-zero reason",
+          "status": "passed",
+          "title": "enforces the tightened non-whitespace source fields and explicit final-zero reason",
+          "duration": 1.2486000000003514,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1793115229360,
+      "endTime": 1793115229373.2485,
+      "status": "passed",
+      "message": "",
+      "name": "<REVIEW_ROOT>/apps/web/tests/playtest-json.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "server monotonic clock"
+          ],
+          "fullName": "server monotonic clock retains the lowest RTT mapping and never rewinds a processed tick",
+          "status": "passed",
+          "title": "retains the lowest RTT mapping and never rewinds a processed tick",
+          "duration": 2.264499999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "input timeline"
+          ],
+          "fullName": "input timeline never backfills a new gesture into old catch-up ticks",
+          "status": "passed",
+          "title": "never backfills a new gesture into old catch-up ticks",
+          "duration": 2.4312999999999647,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "input timeline"
+          ],
+          "fullName": "input timeline clears a held direction at the cancellation tick and merges discrete edges",
+          "status": "passed",
+          "title": "clears a held direction at the cancellation tick and merges discrete edges",
+          "duration": 2.086900000000014,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "input timeline"
+          ],
+          "fullName": "input timeline discards gestures aimed at already processed ticks",
+          "status": "passed",
+          "title": "discards gestures aimed at already processed ticks",
+          "duration": 0.39109999999999445,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "input timeline"
+          ],
+          "fullName": "input timeline does not revive an old future direction when a later clear maps to an earlier tick",
+          "status": "passed",
+          "title": "does not revive an old future direction when a later clear maps to an earlier tick",
+          "duration": 4.129199999999969,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "input timeline"
+          ],
+          "fullName": "input timeline keeps discrete event ordering monotonic when clock calibration moves backwards",
+          "status": "passed",
+          "title": "keeps discrete event ordering monotonic when clock calibration moves backwards",
+          "duration": 0.43760000000003174,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1793115226975,
+      "endTime": 1793115226987.4375,
+      "status": "passed",
+      "message": "",
+      "name": "<REVIEW_ROOT>/apps/web/tests/timeline.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "frozen games and portable integer math"
+          ],
+          "fullName": "frozen games and portable integer math reports live performance from the core",
+          "status": "passed",
+          "title": "reports live performance from the core",
+          "duration": 4.016499999999951,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "frozen games and portable integer math"
+          ],
+          "fullName": "frozen games and portable integer math returns immutable snapshots and validates checkpoint restoration",
+          "status": "passed",
+          "title": "returns immutable snapshots and validates checkpoint restoration",
+          "duration": 12.374299999999948,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "frozen games and portable integer math"
+          ],
+          "fullName": "frozen games and portable integer math stack golden ends at 966 with 20 perfect whole trays",
+          "status": "passed",
+          "title": "stack golden ends at 966 with 20 perfect whole trays",
+          "duration": 28.508299999999963,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "frozen games and portable integer math"
+          ],
+          "fullName": "frozen games and portable integer math runner golden always runs full 1350 and independently collects both rings",
+          "status": "passed",
+          "title": "runner golden always runs full 1350 and independently collects both rings",
+          "duration": 70.37709999999993,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "frozen games and portable integer math"
+          ],
+          "fullName": "frozen games and portable integer math herd frozen golden ends at 225 with eight sheep",
+          "status": "passed",
+          "title": "herd frozen golden ends at 225 with eight sheep",
+          "duration": 20.109300000000076,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "frozen games and portable integer math"
+          ],
+          "fullName": "frozen games and portable integer math optionally reports actual sheep entry ticks without changing replay hashes",
+          "status": "passed",
+          "title": "optionally reports actual sheep entry ticks without changing replay hashes",
+          "duration": 39.43260000000009,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "frozen games and portable integer math"
+          ],
+          "fullName": "frozen games and portable integer math stack zero input grants no participation",
+          "status": "passed",
+          "title": "stack zero input grants no participation",
+          "duration": 9.62760000000003,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "frozen games and portable integer math"
+          ],
+          "fullName": "frozen games and portable integer math runner zero input grants no participation",
+          "status": "passed",
+          "title": "runner zero input grants no participation",
+          "duration": 70.12839999999983,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "frozen games and portable integer math"
+          ],
+          "fullName": "frozen games and portable integer math herd zero input grants no participation",
+          "status": "passed",
+          "title": "herd zero input grants no participation",
+          "duration": 89.54250000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "frozen games and portable integer math"
+          ],
+          "fullName": "frozen games and portable integer math ignores identical seq including omitted value, rejects conflicting seq/order/count",
+          "status": "passed",
+          "title": "ignores identical seq including omitted value, rejects conflicting seq/order/count",
+          "duration": 0.9046999999998206,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "frozen games and portable integer math"
+          ],
+          "fullName": "frozen games and portable integer math uses ceil square roots and axis swept walls",
+          "status": "passed",
+          "title": "uses ceil square roots and axis swept walls",
+          "duration": 0.43600000000014916,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "frozen games and portable integer math"
+          ],
+          "fullName": "frozen games and portable integer math canonicalizes object keys and rejects non-JSON numbers",
+          "status": "passed",
+          "title": "canonicalizes object keys and rejects non-JSON numbers",
+          "duration": 0.47939999999994143,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "frozen games and portable integer math"
+          ],
+          "fullName": "frozen games and portable integer math replay rejects invented early end and trailing terminal actions",
+          "status": "passed",
+          "title": "replay rejects invented early end and trailing terminal actions",
+          "duration": 25.30509999999981,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1793115225608,
+      "endTime": 1793115225980.3052,
+      "status": "passed",
+      "message": "",
+      "name": "<REVIEW_ROOT>/packages/game-core/test/core.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 0",
+          "status": "passed",
+          "title": "stack independent fixture 0",
+          "duration": 16.717299999999796,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 1",
+          "status": "passed",
+          "title": "stack independent fixture 1",
+          "duration": 9.69479999999976,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 2",
+          "status": "passed",
+          "title": "stack independent fixture 2",
+          "duration": 0.9207000000001244,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 3",
+          "status": "passed",
+          "title": "stack independent fixture 3",
+          "duration": 25.929799999999886,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 4",
+          "status": "passed",
+          "title": "stack independent fixture 4",
+          "duration": 2.8556000000003223,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 5",
+          "status": "passed",
+          "title": "stack independent fixture 5",
+          "duration": 4.327199999999721,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 6",
+          "status": "passed",
+          "title": "stack independent fixture 6",
+          "duration": 1.9742000000001099,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 7",
+          "status": "passed",
+          "title": "stack independent fixture 7",
+          "duration": 3.4888999999998305,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 8",
+          "status": "passed",
+          "title": "stack independent fixture 8",
+          "duration": 2.343699999999899,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 9",
+          "status": "passed",
+          "title": "stack independent fixture 9",
+          "duration": 1.2441000000003442,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 10",
+          "status": "passed",
+          "title": "stack independent fixture 10",
+          "duration": 2.946100000000115,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 11",
+          "status": "passed",
+          "title": "stack independent fixture 11",
+          "duration": 1.340599999999995,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 12",
+          "status": "passed",
+          "title": "stack independent fixture 12",
+          "duration": 1.552900000000136,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 13",
+          "status": "passed",
+          "title": "stack independent fixture 13",
+          "duration": 0.5628000000001521,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 14",
+          "status": "passed",
+          "title": "stack independent fixture 14",
+          "duration": 7.043799999999919,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference stack independent fixture 15",
+          "status": "passed",
+          "title": "stack independent fixture 15",
+          "duration": 1.6704999999997199,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 16",
+          "status": "passed",
+          "title": "runner independent fixture 16",
+          "duration": 92.39420000000018,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 17",
+          "status": "passed",
+          "title": "runner independent fixture 17",
+          "duration": 69.02039999999988,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 18",
+          "status": "passed",
+          "title": "runner independent fixture 18",
+          "duration": 92.45850000000019,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 19",
+          "status": "passed",
+          "title": "runner independent fixture 19",
+          "duration": 65.37840000000006,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 20",
+          "status": "passed",
+          "title": "runner independent fixture 20",
+          "duration": 65.22899999999981,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 21",
+          "status": "passed",
+          "title": "runner independent fixture 21",
+          "duration": 65.89359999999988,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 22",
+          "status": "passed",
+          "title": "runner independent fixture 22",
+          "duration": 63.70290000000023,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 23",
+          "status": "passed",
+          "title": "runner independent fixture 23",
+          "duration": 62.823999999999614,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 24",
+          "status": "passed",
+          "title": "runner independent fixture 24",
+          "duration": 62.27649999999994,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 25",
+          "status": "passed",
+          "title": "runner independent fixture 25",
+          "duration": 67.07179999999971,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 26",
+          "status": "passed",
+          "title": "runner independent fixture 26",
+          "duration": 62.88799999999992,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 27",
+          "status": "passed",
+          "title": "runner independent fixture 27",
+          "duration": 63.215999999999894,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 28",
+          "status": "passed",
+          "title": "runner independent fixture 28",
+          "duration": 62.697099999999864,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 29",
+          "status": "passed",
+          "title": "runner independent fixture 29",
+          "duration": 61.478399999999965,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 30",
+          "status": "passed",
+          "title": "runner independent fixture 30",
+          "duration": 62.335199999999986,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 31",
+          "status": "passed",
+          "title": "runner independent fixture 31",
+          "duration": 69.45139999999992,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 32",
+          "status": "passed",
+          "title": "runner independent fixture 32",
+          "duration": 62.50770000000011,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 33",
+          "status": "passed",
+          "title": "runner independent fixture 33",
+          "duration": 63.55230000000029,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 34",
+          "status": "passed",
+          "title": "runner independent fixture 34",
+          "duration": 61.9974000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 35",
+          "status": "passed",
+          "title": "runner independent fixture 35",
+          "duration": 62.924299999999675,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 36",
+          "status": "passed",
+          "title": "runner independent fixture 36",
+          "duration": 62.128200000000106,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 37",
+          "status": "passed",
+          "title": "runner independent fixture 37",
+          "duration": 63.120600000000195,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 38",
+          "status": "passed",
+          "title": "runner independent fixture 38",
+          "duration": 61.614300000000185,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 39",
+          "status": "passed",
+          "title": "runner independent fixture 39",
+          "duration": 62.180099999999584,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 40",
+          "status": "passed",
+          "title": "runner independent fixture 40",
+          "duration": 63.25160000000051,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 41",
+          "status": "passed",
+          "title": "runner independent fixture 41",
+          "duration": 65.16210000000046,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 42",
+          "status": "passed",
+          "title": "runner independent fixture 42",
+          "duration": 62.257799999999406,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 43",
+          "status": "passed",
+          "title": "runner independent fixture 43",
+          "duration": 62.087900000000445,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 44",
+          "status": "passed",
+          "title": "runner independent fixture 44",
+          "duration": 61.547199999999975,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 45",
+          "status": "passed",
+          "title": "runner independent fixture 45",
+          "duration": 61.415100000000166,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 46",
+          "status": "passed",
+          "title": "runner independent fixture 46",
+          "duration": 61.69050000000061,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 47",
+          "status": "passed",
+          "title": "runner independent fixture 47",
+          "duration": 66.97689999999966,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 48",
+          "status": "passed",
+          "title": "runner independent fixture 48",
+          "duration": 61.343300000000454,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 49",
+          "status": "passed",
+          "title": "runner independent fixture 49",
+          "duration": 72.60409999999956,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 50",
+          "status": "passed",
+          "title": "runner independent fixture 50",
+          "duration": 69.63790000000063,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 51",
+          "status": "passed",
+          "title": "runner independent fixture 51",
+          "duration": 65.07520000000022,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 52",
+          "status": "passed",
+          "title": "runner independent fixture 52",
+          "duration": 61.46979999999985,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 53",
+          "status": "passed",
+          "title": "runner independent fixture 53",
+          "duration": 66.07950000000073,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 54",
+          "status": "passed",
+          "title": "runner independent fixture 54",
+          "duration": 62.33429999999953,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 55",
+          "status": "passed",
+          "title": "runner independent fixture 55",
+          "duration": 61.61519999999928,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 56",
+          "status": "passed",
+          "title": "runner independent fixture 56",
+          "duration": 62.94419999999991,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 57",
+          "status": "passed",
+          "title": "runner independent fixture 57",
+          "duration": 62.2502999999997,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 58",
+          "status": "passed",
+          "title": "runner independent fixture 58",
+          "duration": 62.84090000000015,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 59",
+          "status": "passed",
+          "title": "runner independent fixture 59",
+          "duration": 62.91309999999976,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 60",
+          "status": "passed",
+          "title": "runner independent fixture 60",
+          "duration": 61.90869999999995,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 61",
+          "status": "passed",
+          "title": "runner independent fixture 61",
+          "duration": 61.53600000000006,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 62",
+          "status": "passed",
+          "title": "runner independent fixture 62",
+          "duration": 66.8792999999996,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 63",
+          "status": "passed",
+          "title": "runner independent fixture 63",
+          "duration": 62.05420000000049,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 64",
+          "status": "passed",
+          "title": "runner independent fixture 64",
+          "duration": 65.78359999999975,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 65",
+          "status": "passed",
+          "title": "runner independent fixture 65",
+          "duration": 67.20290000000023,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 66",
+          "status": "passed",
+          "title": "runner independent fixture 66",
+          "duration": 61.5595000000003,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 67",
+          "status": "passed",
+          "title": "runner independent fixture 67",
+          "duration": 61.65809999999965,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 68",
+          "status": "passed",
+          "title": "runner independent fixture 68",
+          "duration": 60.815700000000106,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 69",
+          "status": "passed",
+          "title": "runner independent fixture 69",
+          "duration": 73.05829999999969,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 70",
+          "status": "passed",
+          "title": "runner independent fixture 70",
+          "duration": 61.60639999999967,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 71",
+          "status": "passed",
+          "title": "runner independent fixture 71",
+          "duration": 65.08109999999942,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 72",
+          "status": "passed",
+          "title": "runner independent fixture 72",
+          "duration": 61.89229999999952,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 73",
+          "status": "passed",
+          "title": "runner independent fixture 73",
+          "duration": 65.72719999999936,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 74",
+          "status": "passed",
+          "title": "runner independent fixture 74",
+          "duration": 67.45719999999983,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 75",
+          "status": "passed",
+          "title": "runner independent fixture 75",
+          "duration": 71.5595000000003,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 76",
+          "status": "passed",
+          "title": "runner independent fixture 76",
+          "duration": 61.799299999999675,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 77",
+          "status": "passed",
+          "title": "runner independent fixture 77",
+          "duration": 61.5656999999992,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 78",
+          "status": "passed",
+          "title": "runner independent fixture 78",
+          "duration": 61.73649999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 79",
+          "status": "passed",
+          "title": "runner independent fixture 79",
+          "duration": 61.40779999999995,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 80",
+          "status": "passed",
+          "title": "runner independent fixture 80",
+          "duration": 61.36030000000028,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 81",
+          "status": "passed",
+          "title": "runner independent fixture 81",
+          "duration": 65.10090000000037,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 82",
+          "status": "passed",
+          "title": "runner independent fixture 82",
+          "duration": 61.96280000000024,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 83",
+          "status": "passed",
+          "title": "runner independent fixture 83",
+          "duration": 61.51540000000023,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 84",
+          "status": "passed",
+          "title": "runner independent fixture 84",
+          "duration": 61.61750000000029,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 85",
+          "status": "passed",
+          "title": "runner independent fixture 85",
+          "duration": 62.02939999999944,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 86",
+          "status": "passed",
+          "title": "runner independent fixture 86",
+          "duration": 69.57970000000023,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 87",
+          "status": "passed",
+          "title": "runner independent fixture 87",
+          "duration": 63.01090000000022,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 88",
+          "status": "passed",
+          "title": "runner independent fixture 88",
+          "duration": 61.85369999999966,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 89",
+          "status": "passed",
+          "title": "runner independent fixture 89",
+          "duration": 61.685199999999895,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 90",
+          "status": "passed",
+          "title": "runner independent fixture 90",
+          "duration": 61.67440000000079,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 91",
+          "status": "passed",
+          "title": "runner independent fixture 91",
+          "duration": 61.832400000000234,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 92",
+          "status": "passed",
+          "title": "runner independent fixture 92",
+          "duration": 62.412500000000364,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 93",
+          "status": "passed",
+          "title": "runner independent fixture 93",
+          "duration": 61.9357,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 94",
+          "status": "passed",
+          "title": "runner independent fixture 94",
+          "duration": 62.1934999999994,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 95",
+          "status": "passed",
+          "title": "runner independent fixture 95",
+          "duration": 63.85580000000027,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 96",
+          "status": "passed",
+          "title": "runner independent fixture 96",
+          "duration": 62.27809999999954,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 97",
+          "status": "passed",
+          "title": "runner independent fixture 97",
+          "duration": 67.88540000000012,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 98",
+          "status": "passed",
+          "title": "runner independent fixture 98",
+          "duration": 75.9979000000003,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 99",
+          "status": "passed",
+          "title": "runner independent fixture 99",
+          "duration": 61.953199999999924,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 100",
+          "status": "passed",
+          "title": "runner independent fixture 100",
+          "duration": 71.50760000000082,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 101",
+          "status": "passed",
+          "title": "runner independent fixture 101",
+          "duration": 61.40569999999934,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 102",
+          "status": "passed",
+          "title": "runner independent fixture 102",
+          "duration": 62.16080000000056,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 103",
+          "status": "passed",
+          "title": "runner independent fixture 103",
+          "duration": 63.9403999999995,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 104",
+          "status": "passed",
+          "title": "runner independent fixture 104",
+          "duration": 61.67489999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 105",
+          "status": "passed",
+          "title": "runner independent fixture 105",
+          "duration": 62.38890000000174,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 106",
+          "status": "passed",
+          "title": "runner independent fixture 106",
+          "duration": 61.71140000000014,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 107",
+          "status": "passed",
+          "title": "runner independent fixture 107",
+          "duration": 62.21399999999994,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 108",
+          "status": "passed",
+          "title": "runner independent fixture 108",
+          "duration": 62.62830000000031,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 109",
+          "status": "passed",
+          "title": "runner independent fixture 109",
+          "duration": 62.26000000000022,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 110",
+          "status": "passed",
+          "title": "runner independent fixture 110",
+          "duration": 63.13050000000112,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 111",
+          "status": "passed",
+          "title": "runner independent fixture 111",
+          "duration": 61.734699999999066,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 112",
+          "status": "passed",
+          "title": "runner independent fixture 112",
+          "duration": 61.79739999999947,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 113",
+          "status": "passed",
+          "title": "runner independent fixture 113",
+          "duration": 61.947799999999916,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 114",
+          "status": "passed",
+          "title": "runner independent fixture 114",
+          "duration": 62.19980000000032,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 115",
+          "status": "passed",
+          "title": "runner independent fixture 115",
+          "duration": 66.30169999999998,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 116",
+          "status": "passed",
+          "title": "runner independent fixture 116",
+          "duration": 62.734199999998964,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 117",
+          "status": "passed",
+          "title": "runner independent fixture 117",
+          "duration": 61.60560000000078,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 118",
+          "status": "passed",
+          "title": "runner independent fixture 118",
+          "duration": 62.43249999999898,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 119",
+          "status": "passed",
+          "title": "runner independent fixture 119",
+          "duration": 62.82889999999861,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 120",
+          "status": "passed",
+          "title": "runner independent fixture 120",
+          "duration": 76.33870000000024,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 121",
+          "status": "passed",
+          "title": "runner independent fixture 121",
+          "duration": 62.801400000000285,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 122",
+          "status": "passed",
+          "title": "runner independent fixture 122",
+          "duration": 62.55589999999938,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 123",
+          "status": "passed",
+          "title": "runner independent fixture 123",
+          "duration": 62.03430000000117,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 124",
+          "status": "passed",
+          "title": "runner independent fixture 124",
+          "duration": 61.68029999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 125",
+          "status": "passed",
+          "title": "runner independent fixture 125",
+          "duration": 61.705799999999726,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 126",
+          "status": "passed",
+          "title": "runner independent fixture 126",
+          "duration": 61.92059999999947,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 127",
+          "status": "passed",
+          "title": "runner independent fixture 127",
+          "duration": 62.56340000000091,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 128",
+          "status": "passed",
+          "title": "runner independent fixture 128",
+          "duration": 62.29899999999907,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 129",
+          "status": "passed",
+          "title": "runner independent fixture 129",
+          "duration": 61.152500000000146,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 130",
+          "status": "passed",
+          "title": "runner independent fixture 130",
+          "duration": 60.953199999999924,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 131",
+          "status": "passed",
+          "title": "runner independent fixture 131",
+          "duration": 61.42540000000008,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 132",
+          "status": "passed",
+          "title": "runner independent fixture 132",
+          "duration": 61.565599999999904,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 133",
+          "status": "passed",
+          "title": "runner independent fixture 133",
+          "duration": 62.253200000001016,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 134",
+          "status": "passed",
+          "title": "runner independent fixture 134",
+          "duration": 62.26690000000053,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 135",
+          "status": "passed",
+          "title": "runner independent fixture 135",
+          "duration": 61.559799999999086,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 136",
+          "status": "passed",
+          "title": "runner independent fixture 136",
+          "duration": 63.25429999999869,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 137",
+          "status": "passed",
+          "title": "runner independent fixture 137",
+          "duration": 61.65300000000025,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 138",
+          "status": "passed",
+          "title": "runner independent fixture 138",
+          "duration": 68.79449999999997,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 139",
+          "status": "passed",
+          "title": "runner independent fixture 139",
+          "duration": 62.45859999999993,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 140",
+          "status": "passed",
+          "title": "runner independent fixture 140",
+          "duration": 61.38680000000022,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 141",
+          "status": "passed",
+          "title": "runner independent fixture 141",
+          "duration": 63.596700000000055,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 142",
+          "status": "passed",
+          "title": "runner independent fixture 142",
+          "duration": 61.343699999999444,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 143",
+          "status": "passed",
+          "title": "runner independent fixture 143",
+          "duration": 73.19770000000062,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 144",
+          "status": "passed",
+          "title": "runner independent fixture 144",
+          "duration": 61.6252999999997,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 145",
+          "status": "passed",
+          "title": "runner independent fixture 145",
+          "duration": 69.3810999999987,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 146",
+          "status": "passed",
+          "title": "runner independent fixture 146",
+          "duration": 71.8630000000012,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 147",
+          "status": "passed",
+          "title": "runner independent fixture 147",
+          "duration": 63.05529999999999,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 148",
+          "status": "passed",
+          "title": "runner independent fixture 148",
+          "duration": 62.38670000000093,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 149",
+          "status": "passed",
+          "title": "runner independent fixture 149",
+          "duration": 66.86410000000069,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 150",
+          "status": "passed",
+          "title": "runner independent fixture 150",
+          "duration": 61.75510000000031,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 151",
+          "status": "passed",
+          "title": "runner independent fixture 151",
+          "duration": 62.50149999999849,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 152",
+          "status": "passed",
+          "title": "runner independent fixture 152",
+          "duration": 61.71630000000005,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 153",
+          "status": "passed",
+          "title": "runner independent fixture 153",
+          "duration": 62.16120000000046,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 154",
+          "status": "passed",
+          "title": "runner independent fixture 154",
+          "duration": 61.67209999999977,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 155",
+          "status": "passed",
+          "title": "runner independent fixture 155",
+          "duration": 63.67370000000119,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 156",
+          "status": "passed",
+          "title": "runner independent fixture 156",
+          "duration": 62.6242000000002,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 157",
+          "status": "passed",
+          "title": "runner independent fixture 157",
+          "duration": 61.884799999999814,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 158",
+          "status": "passed",
+          "title": "runner independent fixture 158",
+          "duration": 62.177999999999884,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 159",
+          "status": "passed",
+          "title": "runner independent fixture 159",
+          "duration": 68.5064999999995,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 160",
+          "status": "passed",
+          "title": "runner independent fixture 160",
+          "duration": 73.55839999999989,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 161",
+          "status": "passed",
+          "title": "runner independent fixture 161",
+          "duration": 61.60069999999905,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 162",
+          "status": "passed",
+          "title": "runner independent fixture 162",
+          "duration": 61.53780000000006,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 163",
+          "status": "passed",
+          "title": "runner independent fixture 163",
+          "duration": 61.70919999999933,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 164",
+          "status": "passed",
+          "title": "runner independent fixture 164",
+          "duration": 62.04099999999926,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 165",
+          "status": "passed",
+          "title": "runner independent fixture 165",
+          "duration": 62.526599999999235,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 166",
+          "status": "passed",
+          "title": "runner independent fixture 166",
+          "duration": 62.166300000000774,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 167",
+          "status": "passed",
+          "title": "runner independent fixture 167",
+          "duration": 65.33279999999831,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 168",
+          "status": "passed",
+          "title": "runner independent fixture 168",
+          "duration": 65.00830000000133,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 169",
+          "status": "passed",
+          "title": "runner independent fixture 169",
+          "duration": 62.855900000000474,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 170",
+          "status": "passed",
+          "title": "runner independent fixture 170",
+          "duration": 61.87089999999989,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 171",
+          "status": "passed",
+          "title": "runner independent fixture 171",
+          "duration": 62.04060000000027,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 172",
+          "status": "passed",
+          "title": "runner independent fixture 172",
+          "duration": 61.74539999999979,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 173",
+          "status": "passed",
+          "title": "runner independent fixture 173",
+          "duration": 61.94909999999982,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 174",
+          "status": "passed",
+          "title": "runner independent fixture 174",
+          "duration": 61.652899999999136,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 175",
+          "status": "passed",
+          "title": "runner independent fixture 175",
+          "duration": 62.14350000000013,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 176",
+          "status": "passed",
+          "title": "runner independent fixture 176",
+          "duration": 65.23570000000109,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference runner independent fixture 177",
+          "status": "passed",
+          "title": "runner independent fixture 177",
+          "duration": 61.031199999999444,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference herd independent fixture 178",
+          "status": "passed",
+          "title": "herd independent fixture 178",
+          "duration": 104.3197999999993,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference herd independent fixture 179",
+          "status": "passed",
+          "title": "herd independent fixture 179",
+          "duration": 115.64220000000023,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference herd independent fixture 180",
+          "status": "passed",
+          "title": "herd independent fixture 180",
+          "duration": 100.01829999999973,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference herd independent fixture 181",
+          "status": "passed",
+          "title": "herd independent fixture 181",
+          "duration": 128.26599999999962,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "TypeScript versus independent Python reference"
+          ],
+          "fullName": "TypeScript versus independent Python reference herd independent fixture 182",
+          "status": "passed",
+          "title": "herd independent fixture 182",
+          "duration": 95.58909999999923,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1793115226665,
+      "endTime": 1793115237664.589,
+      "status": "passed",
+      "message": "",
+      "name": "<REVIEW_ROOT>/packages/game-core/test/differential.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "bound manifest compatibility"
+          ],
+          "fullName": "bound manifest compatibility loads only the immutable snapshot matching the bound SHA when current art changes",
+          "status": "passed",
+          "title": "loads only the immutable snapshot matching the bound SHA when current art changes",
+          "duration": 30.07619999999997,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "bound manifest compatibility"
+          ],
+          "fullName": "bound manifest compatibility rejects an altered historical snapshot",
+          "status": "passed",
+          "title": "rejects an altered historical snapshot",
+          "duration": 2.3555999999999813,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "stable atlas assets"
+          ],
+          "fullName": "stable atlas assets uses manifest metadata paths and keeps the validated decoded object URL for the renderer",
+          "status": "passed",
+          "title": "uses manifest metadata paths and keeps the validated decoded object URL for the renderer",
+          "duration": 9.275700000000029,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "declared scene backdrops"
+          ],
+          "fullName": "declared scene backdrops preloads a required backdrop under the renderer key with its scene dimensions",
+          "status": "passed",
+          "title": "preloads a required backdrop under the renderer key with its scene dimensions",
+          "duration": 4.722100000000069,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "declared scene backdrops"
+          ],
+          "fullName": "declared scene backdrops rejects a missing required backdrop instead of falling back to procedural scenery",
+          "status": "passed",
+          "title": "rejects a missing required backdrop instead of falling back to procedural scenery",
+          "duration": 2.779700000000048,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "declared scene backdrops"
+          ],
+          "fullName": "declared scene backdrops rejects backdrop pixels whose ratio does not match the fixed scene",
+          "status": "passed",
+          "title": "rejects backdrop pixels whose ratio does not match the fixed scene",
+          "duration": 3.1989000000000942,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "declared scene backdrops"
+          ],
+          "fullName": "declared scene backdrops rejects a new required list that omits its scene backdrop",
+          "status": "passed",
+          "title": "rejects a new required list that omits its scene backdrop",
+          "duration": 1.0534000000000106,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "declared scene backdrops"
+          ],
+          "fullName": "declared scene backdrops rejects backdrop entries when the complete required profile field is missing",
+          "status": "passed",
+          "title": "rejects backdrop entries when the complete required profile field is missing",
+          "duration": 1.1154999999999973,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "declared scene backdrops"
+          ],
+          "fullName": "declared scene backdrops rejects art 1.3.0 when both backdrop entries and the complete required profile are missing",
+          "status": "passed",
+          "title": "rejects art 1.3.0 when both backdrop entries and the complete required profile are missing",
+          "duration": 1.0493999999999915,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1793115226386,
+      "endTime": 1793115226443.0493,
+      "status": "passed",
+      "message": "",
+      "name": "<REVIEW_ROOT>/apps/web/src/game/assets.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "fullName": "holds the final landing frame instead of restarting a nonlooping action",
+          "status": "passed",
+          "title": "holds the final landing frame instead of restarting a nonlooping action",
+          "duration": 2.840000000000032,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "fits a textured prop uniformly inside a core box while preserving its authored pivot",
+          "status": "passed",
+          "title": "fits a textured prop uniformly inside a core box while preserving its authored pivot",
+          "duration": 0.9918999999999869,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [],
+          "fullName": "loops a walk action using simulation ticks and returns to the first frame when seeked back",
+          "status": "passed",
+          "title": "loops a walk action using simulation ticks and returns to the first frame when seeked back",
+          "duration": 0.28139999999996235,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1793115229984,
+      "endTime": 1793115229988.2815,
+      "status": "passed",
+      "message": "",
+      "name": "<REVIEW_ROOT>/apps/web/src/game/presentation.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "R2 presentation boundaries"
+          ],
+          "fullName": "R2 presentation boundaries keeps every original event index, including same-tick same-entity duplicates, once",
+          "status": "passed",
+          "title": "keeps every original event index, including same-tick same-entity duplicates, once",
+          "duration": 4.100800000000163,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 presentation boundaries"
+          ],
+          "fullName": "R2 presentation boundaries retains intermediate confirmed views for catch-up and bounds history/queue",
+          "status": "passed",
+          "title": "retains intermediate confirmed views for catch-up and bounds history/queue",
+          "duration": 1.0647000000001299,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 presentation boundaries"
+          ],
+          "fullName": "R2 presentation boundaries advances after terminal core state, freezes on pause and restarts cleanly",
+          "status": "passed",
+          "title": "advances after terminal core state, freezes on pause and restarts cleanly",
+          "duration": 0.35940000000005057,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 presentation boundaries"
+          ],
+          "fullName": "R2 presentation boundaries fits buffer 304/405.33 DPR1 and roundtrips corners/center/edge after resize",
+          "status": "passed",
+          "title": "fits buffer 304/405.33 DPR1 and roundtrips corners/center/edge after resize",
+          "duration": 0.7408000000000357,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 presentation boundaries"
+          ],
+          "fullName": "R2 presentation boundaries fits buffer 304/405.33 DPR2 and roundtrips corners/center/edge after resize",
+          "status": "passed",
+          "title": "fits buffer 304/405.33 DPR2 and roundtrips corners/center/edge after resize",
+          "duration": 0.33579999999983556,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 presentation boundaries"
+          ],
+          "fullName": "R2 presentation boundaries fits buffer 304/405.33 DPR3 and roundtrips corners/center/edge after resize",
+          "status": "passed",
+          "title": "fits buffer 304/405.33 DPR3 and roundtrips corners/center/edge after resize",
+          "duration": 0.24469999999996617,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 presentation boundaries"
+          ],
+          "fullName": "R2 presentation boundaries fits buffer 374/457.11 DPR1 and roundtrips corners/center/edge after resize",
+          "status": "passed",
+          "title": "fits buffer 374/457.11 DPR1 and roundtrips corners/center/edge after resize",
+          "duration": 0.23220000000014807,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 presentation boundaries"
+          ],
+          "fullName": "R2 presentation boundaries fits buffer 374/457.11 DPR2 and roundtrips corners/center/edge after resize",
+          "status": "passed",
+          "title": "fits buffer 374/457.11 DPR2 and roundtrips corners/center/edge after resize",
+          "duration": 0.21259999999983847,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 presentation boundaries"
+          ],
+          "fullName": "R2 presentation boundaries fits buffer 374/457.11 DPR3 and roundtrips corners/center/edge after resize",
+          "status": "passed",
+          "title": "fits buffer 374/457.11 DPR3 and roundtrips corners/center/edge after resize",
+          "duration": 0.23300000000017462,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 presentation boundaries"
+          ],
+          "fullName": "R2 presentation boundaries fits buffer 414/483 DPR1 and roundtrips corners/center/edge after resize",
+          "status": "passed",
+          "title": "fits buffer 414/483 DPR1 and roundtrips corners/center/edge after resize",
+          "duration": 0.3432999999999993,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 presentation boundaries"
+          ],
+          "fullName": "R2 presentation boundaries fits buffer 414/483 DPR2 and roundtrips corners/center/edge after resize",
+          "status": "passed",
+          "title": "fits buffer 414/483 DPR2 and roundtrips corners/center/edge after resize",
+          "duration": 0.22510000000011132,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 presentation boundaries"
+          ],
+          "fullName": "R2 presentation boundaries fits buffer 414/483 DPR3 and roundtrips corners/center/edge after resize",
+          "status": "passed",
+          "title": "fits buffer 414/483 DPR3 and roundtrips corners/center/edge after resize",
+          "duration": 0.203899999999976,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 presentation boundaries"
+          ],
+          "fullName": "R2 presentation boundaries walk stride follows displacement independently of facing and bark",
+          "status": "passed",
+          "title": "walk stride follows displacement independently of facing and bark",
+          "duration": 0.1998999999998432,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1793115225557,
+      "endTime": 1793115225566.2039,
+      "status": "passed",
+      "message": "",
+      "name": "<REVIEW_ROOT>/apps/web/src/game/presenter-state.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "R2 tutorial time ownership"
+          ],
+          "fullName": "R2 tutorial time ownership does not complete teaching from an independent four-second wall timer",
+          "status": "passed",
+          "title": "does not complete teaching from an independent four-second wall timer",
+          "duration": 2.3233000000000175,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 tutorial time ownership"
+          ],
+          "fullName": "R2 tutorial time ownership does not discard a legal teaching replay at tick 240 before entry/collection events",
+          "status": "passed",
+          "title": "does not discard a legal teaching replay at tick 240 before entry/collection events",
+          "duration": 0.5390999999999622,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 tutorial time ownership"
+          ],
+          "fullName": "R2 tutorial time ownership keeps cumulative statistics outside transient feedback",
+          "status": "passed",
+          "title": "keeps cumulative statistics outside transient feedback",
+          "duration": 0.6063000000000329,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 legal event-confirmed teaching replays"
+          ],
+          "fullName": "R2 legal event-confirmed teaching replays stack completes only from actual ordered shared-core events",
+          "status": "passed",
+          "title": "stack completes only from actual ordered shared-core events",
+          "duration": 4.638400000000047,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 legal event-confirmed teaching replays"
+          ],
+          "fullName": "R2 legal event-confirmed teaching replays stack can continue the same legal input path through natural conclusion for motion samples",
+          "status": "passed",
+          "title": "stack can continue the same legal input path through natural conclusion for motion samples",
+          "duration": 40.69180000000006,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 legal event-confirmed teaching replays"
+          ],
+          "fullName": "R2 legal event-confirmed teaching replays runner completes only from actual ordered shared-core events",
+          "status": "passed",
+          "title": "runner completes only from actual ordered shared-core events",
+          "duration": 17.492399999999975,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 legal event-confirmed teaching replays"
+          ],
+          "fullName": "R2 legal event-confirmed teaching replays runner can continue the same legal input path through natural conclusion for motion samples",
+          "status": "passed",
+          "title": "runner can continue the same legal input path through natural conclusion for motion samples",
+          "duration": 79.61300000000006,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 legal event-confirmed teaching replays"
+          ],
+          "fullName": "R2 legal event-confirmed teaching replays herd completes only from actual ordered shared-core events",
+          "status": "passed",
+          "title": "herd completes only from actual ordered shared-core events",
+          "duration": 16.843399999999974,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "R2 legal event-confirmed teaching replays"
+          ],
+          "fullName": "R2 legal event-confirmed teaching replays herd can continue the same legal input path through natural conclusion for motion samples",
+          "status": "passed",
+          "title": "herd can continue the same legal input path through natural conclusion for motion samples",
+          "duration": 35.47460000000001,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1793115226351,
+      "endTime": 1793115226549.4746,
+      "status": "passed",
+      "message": "",
+      "name": "<REVIEW_ROOT>/apps/web/src/game/tutorial-model.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "shared formal admission capabilities"
+          ],
+          "fullName": "shared formal admission capabilities CHECK_IN waits while PLAYING uses a free ordinary slot",
+          "status": "passed",
+          "title": "CHECK_IN waits while PLAYING uses a free ordinary slot",
+          "duration": 5.989399999999932,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "shared formal admission capabilities"
+          ],
+          "fullName": "shared formal admission capabilities DRAINING admits only a current, unexpired reserved grant with entry open",
+          "status": "passed",
+          "title": "DRAINING admits only a current, unexpired reserved grant with entry open",
+          "duration": 0.6774999999997817,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "shared formal admission capabilities"
+          ],
+          "fullName": "shared formal admission capabilities zero slots, rank frozen, paused, review, ineligible and staff-only cannot create a new formal request",
+          "status": "passed",
+          "title": "zero slots, rank frozen, paused, review, ineligible and staff-only cannot create a new formal request",
+          "duration": 1.1404999999999745,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "shared formal admission capabilities"
+          ],
+          "fullName": "shared formal admission capabilities existing original session remains recoverable after new-entry closure",
+          "status": "passed",
+          "title": "existing original session remains recoverable after new-entry closure",
+          "duration": 0.3971000000001368,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "shared formal admission capabilities"
+          ],
+          "fullName": "shared formal admission capabilities unknown event blocks and absent identity requires login",
+          "status": "passed",
+          "title": "unknown event blocks and absent identity requires login",
+          "duration": 0.2402999999999338,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1793115229532,
+      "endTime": 1793115229540.3972,
+      "status": "passed",
+      "message": "",
+      "name": "<REVIEW_ROOT>/apps/web/tests/repair-state/admission.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "redemption persistence boundary"
+          ],
+          "fullName": "redemption persistence boundary OUT_OF_STOCK is definitive only when nonretryable",
+          "status": "passed",
+          "title": "OUT_OF_STOCK is definitive only when nonretryable",
+          "duration": 1.9438000000000102,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "redemption persistence boundary"
+          ],
+          "fullName": "redemption persistence boundary INSUFFICIENT_POINTS is definitive only when nonretryable",
+          "status": "passed",
+          "title": "INSUFFICIENT_POINTS is definitive only when nonretryable",
+          "duration": 0.22409999999996444,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "redemption persistence boundary"
+          ],
+          "fullName": "redemption persistence boundary CLAIMS_FROZEN is definitive only when nonretryable",
+          "status": "passed",
+          "title": "CLAIMS_FROZEN is definitive only when nonretryable",
+          "duration": 0.19929999999999382,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "redemption persistence boundary"
+          ],
+          "fullName": "redemption persistence boundary CLAIM_WINDOW_CLOSED is definitive only when nonretryable",
+          "status": "passed",
+          "title": "CLAIM_WINDOW_CLOSED is definitive only when nonretryable",
+          "duration": 0.16480000000001382,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "redemption persistence boundary"
+          ],
+          "fullName": "redemption persistence boundary PERSON_LIMIT_REACHED is definitive only when nonretryable",
+          "status": "passed",
+          "title": "PERSON_LIMIT_REACHED is definitive only when nonretryable",
+          "duration": 0.17799999999999727,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "redemption persistence boundary"
+          ],
+          "fullName": "redemption persistence boundary UNAUTHENTICATED preserves the original request even if nonretryable",
+          "status": "passed",
+          "title": "UNAUTHENTICATED preserves the original request even if nonretryable",
+          "duration": 0.18240000000002965,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "redemption persistence boundary"
+          ],
+          "fullName": "redemption persistence boundary FORBIDDEN preserves the original request even if nonretryable",
+          "status": "passed",
+          "title": "FORBIDDEN preserves the original request even if nonretryable",
+          "duration": 0.12049999999999272,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "redemption persistence boundary"
+          ],
+          "fullName": "redemption persistence boundary IDEMPOTENCY_CONFLICT preserves the original request even if nonretryable",
+          "status": "passed",
+          "title": "IDEMPOTENCY_CONFLICT preserves the original request even if nonretryable",
+          "duration": 0.11199999999996635,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "redemption persistence boundary"
+          ],
+          "fullName": "redemption persistence boundary NOT_FOUND preserves the original request even if nonretryable",
+          "status": "passed",
+          "title": "NOT_FOUND preserves the original request even if nonretryable",
+          "duration": 0.13339999999999463,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "redemption persistence boundary"
+          ],
+          "fullName": "redemption persistence boundary COMMIT_STATUS_UNKNOWN preserves the original request even if nonretryable",
+          "status": "passed",
+          "title": "COMMIT_STATUS_UNKNOWN preserves the original request even if nonretryable",
+          "duration": 0.18999999999999773,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "redemption persistence boundary"
+          ],
+          "fullName": "redemption persistence boundary SERVER_BUSY preserves the original request even if nonretryable",
+          "status": "passed",
+          "title": "SERVER_BUSY preserves the original request even if nonretryable",
+          "duration": 0.08850000000001046,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "redemption persistence boundary"
+          ],
+          "fullName": "redemption persistence boundary network errors and unknown values preserve original request",
+          "status": "passed",
+          "title": "network errors and unknown values preserve original request",
+          "duration": 0.1348000000000411,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "redemption persistence boundary"
+          ],
+          "fullName": "redemption persistence boundary event and participant both scope persistence",
+          "status": "passed",
+          "title": "event and participant both scope persistence",
+          "duration": 0.12299999999999045,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1793115229848,
+      "endTime": 1793115229852.1348,
+      "status": "passed",
+      "message": "",
+      "name": "<REVIEW_ROOT>/apps/web/tests/repair-state/redemption.test.ts"
+    },
+    {
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "server result presentation"
+          ],
+          "fullName": "server result presentation known reason VERIFIED has a participant explanation",
+          "status": "passed",
+          "title": "known reason VERIFIED has a participant explanation",
+          "duration": 2.1494000000002416,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "server result presentation"
+          ],
+          "fullName": "server result presentation known reason NO_ACCEPTED_ACTION has a participant explanation",
+          "status": "passed",
+          "title": "known reason NO_ACCEPTED_ACTION has a participant explanation",
+          "duration": 0.22260000000005675,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "server result presentation"
+          ],
+          "fullName": "server result presentation known reason INVALID_PROCESS has a participant explanation",
+          "status": "passed",
+          "title": "known reason INVALID_PROCESS has a participant explanation",
+          "duration": 0.16990000000032524,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "server result presentation"
+          ],
+          "fullName": "server result presentation known reason VOIDED has a participant explanation",
+          "status": "passed",
+          "title": "known reason VOIDED has a participant explanation",
+          "duration": 0.13740000000007058,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "server result presentation"
+          ],
+          "fullName": "server result presentation unknown reason stays neutral and is not accepted as a known result",
+          "status": "passed",
+          "title": "unknown reason stays neutral and is not accepted as a known result",
+          "duration": 0.20180000000027576,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "server result presentation"
+          ],
+          "fullName": "server result presentation statistics use verified server counters without calculating points",
+          "status": "passed",
+          "title": "statistics use verified server counters without calculating points",
+          "duration": 3.970800000000054,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "server result presentation"
+          ],
+          "fullName": "server result presentation pending and mismatched game statistics are not displayed",
+          "status": "passed",
+          "title": "pending and mismatched game statistics are not displayed",
+          "duration": 0.43209999999999127,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        },
+        {
+          "ancestorTitles": [
+            "server result presentation"
+          ],
+          "fullName": "server result presentation an invalid process never exposes an unverified conclusion",
+          "status": "passed",
+          "title": "an invalid process never exposes an unverified conclusion",
+          "duration": 0.3545000000003711,
+          "failureMessages": [],
+          "meta": {},
+          "tags": [],
+          "benchmarks": []
+        }
+      ],
+      "startTime": 1793115229490,
+      "endTime": 1793115229497.4321,
+      "status": "passed",
+      "message": "",
+      "name": "<REVIEW_ROOT>/apps/web/tests/repair-state/result-presentation.test.ts"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "atlas-1.0",
+  "asset_id": "sheep_iso_r2a",
+  "image": "sheep_iso_r2a.png",
+  "size_px": [
+    1024,
+    256
+  ],
+  "camera_id": "iso8_v1",
+  "version": "r2a-limited",
+  "status": "rendered_candidate",
+  "production_art_accepted": false,
+  "frames": {
+    "sheep_iso_r2a__idle__se__f000": {
+      "rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "source_size": [
+        256,
+        256
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        128,
+        196
+      ],
+      "direction": 1
+    }
+  },
+  "animations": {
+    "idle.se": {
+      "frames": [
+        "sheep_iso_r2a__idle__se__f000"
+      ],
+      "fps": 8,
+      "loop": false
+    }
+  },
+  "missing_actions": "All unlisted actions and directions are deliberately NOT_PRODUCED; this atlas is forbidden as a production replacement."
+}

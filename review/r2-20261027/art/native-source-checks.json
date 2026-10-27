@@ -1,0 +1,72 @@
+[
+  {
+    "source": "art-source/r2/sheep_master_r2a.blend",
+    "sha256": "2f43e6365d13cc5d3bafd9e973a3ab36f20fd87d3b91a6c5bcbba5acb9a68011",
+    "objects": 425,
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "side_camera": {
+      "position": [
+        0.0,
+        -8.0,
+        1.399999976158142
+      ],
+      "ortho_scale": 4.0
+    },
+    "dog_composite_actions": [],
+    "status": "NATIVE_SOURCE_VERIFIED"
+  },
+  {
+    "source": "art-source/r2/dog_master_r2a.blend",
+    "sha256": "6f2367ba74781ba2f721e8315785a49f47a00d7ab9efb481e83438b9dc513646",
+    "objects": 165,
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "side_camera": {
+      "position": [
+        0.0,
+        -8.0,
+        1.399999976158142
+      ],
+      "ortho_scale": 4.0
+    },
+    "dog_composite_actions": [
+      "R2_walk_bark_se__dog_body_ctrl",
+      "R2_walk_bark_se__dog_leg_-0.18_-0.36",
+      "R2_walk_bark_se__dog_leg_-0.18_0.28",
+      "R2_walk_bark_se__dog_leg_0.18_-0.36",
+      "R2_walk_bark_se__dog_leg_0.18_0.28",
+      "R2_walk_bark_se__dog_muzzle",
+      "R2_walk_bark_se__dog_tail",
+      "R2_walk_bark_se__R2_bark_jaw",
+      "R2_walk_bark_se__R2_bark_tongue"
+    ],
+    "status": "NATIVE_SOURCE_VERIFIED"
+  },
+  {
+    "source": "art-source/r2/r2c/sheep_master_r2c.blend",
+    "sha256": "93bf28d826e89a7401b962b328a053d8856105148b4feb0169483ba2532a14c8",
+    "objects": 438,
+    "root": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "side_camera": {
+      "position": [
+        0.0,
+        -8.0,
+        1.399999976158142
+      ],
+      "ortho_scale": 4.0
+    },
+    "dog_composite_actions": [],
+    "status": "NATIVE_SOURCE_VERIFIED"
+  }
+]

@@ -1,0 +1,510 @@
+{
+  "game": "runner",
+  "scope": "synthetic legal local teaching controller; unchanged shared core; no API/session",
+  "tutorialCompleteTick": 241,
+  "endTick": 1350,
+  "conclusion": {
+    "game_id": "runner",
+    "end_tick": 1350,
+    "end_reason": "TIME_LIMIT",
+    "accepted_actions_count": 20,
+    "stats": {
+      "safe_passed": 20,
+      "collision_count": 0,
+      "outer_collected": 10,
+      "inner_collected": 10
+    },
+    "performance_points": 80
+  },
+  "inputs": [
+    {
+      "tick": 159,
+      "seq": 1,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 227,
+      "seq": 2,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 297,
+      "seq": 3,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 337,
+      "seq": 4,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 379,
+      "seq": 5,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 423,
+      "seq": 6,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 496,
+      "seq": 7,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 569,
+      "seq": 8,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 639,
+      "seq": 9,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 681,
+      "seq": 10,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 720,
+      "seq": 11,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 763,
+      "seq": 12,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 836,
+      "seq": 13,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 908,
+      "seq": 14,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 979,
+      "seq": 15,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 1020,
+      "seq": 16,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 1061,
+      "seq": 17,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 1104,
+      "seq": 18,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 1173,
+      "seq": 19,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 1240,
+      "seq": 20,
+      "type": "JUMP",
+      "value": null
+    }
+  ],
+  "events": [
+    {
+      "event_key": "runner:159:JUMP_ACCEPTED:0",
+      "tick": 159,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:180:OBSTACLE_PASSED:1",
+      "tick": 180,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 1
+    },
+    {
+      "event_key": "runner:227:JUMP_ACCEPTED:0",
+      "tick": 227,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:240:GRASS_OUTER:1",
+      "tick": 240,
+      "type": "GRASS_OUTER",
+      "entity_id": 1
+    },
+    {
+      "event_key": "runner:241:GRASS_INNER:1",
+      "tick": 241,
+      "type": "GRASS_INNER",
+      "entity_id": 1
+    },
+    {
+      "event_key": "runner:249:OBSTACLE_PASSED:2",
+      "tick": 249,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 2
+    },
+    {
+      "event_key": "runner:297:JUMP_ACCEPTED:0",
+      "tick": 297,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:318:OBSTACLE_PASSED:3",
+      "tick": 318,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 3
+    },
+    {
+      "event_key": "runner:337:JUMP_ACCEPTED:0",
+      "tick": 337,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:350:GRASS_OUTER:2",
+      "tick": 350,
+      "type": "GRASS_OUTER",
+      "entity_id": 2
+    },
+    {
+      "event_key": "runner:351:GRASS_INNER:2",
+      "tick": 351,
+      "type": "GRASS_INNER",
+      "entity_id": 2
+    },
+    {
+      "event_key": "runner:359:OBSTACLE_PASSED:4",
+      "tick": 359,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 4
+    },
+    {
+      "event_key": "runner:379:JUMP_ACCEPTED:0",
+      "tick": 379,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:400:OBSTACLE_PASSED:5",
+      "tick": 400,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 5
+    },
+    {
+      "event_key": "runner:423:JUMP_ACCEPTED:0",
+      "tick": 423,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:436:GRASS_OUTER:3",
+      "tick": 436,
+      "type": "GRASS_OUTER",
+      "entity_id": 3
+    },
+    {
+      "event_key": "runner:437:GRASS_INNER:3",
+      "tick": 437,
+      "type": "GRASS_INNER",
+      "entity_id": 3
+    },
+    {
+      "event_key": "runner:445:OBSTACLE_PASSED:6",
+      "tick": 445,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 6
+    },
+    {
+      "event_key": "runner:496:JUMP_ACCEPTED:0",
+      "tick": 496,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:518:OBSTACLE_PASSED:7",
+      "tick": 518,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 7
+    },
+    {
+      "event_key": "runner:569:JUMP_ACCEPTED:0",
+      "tick": 569,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:582:GRASS_OUTER:4",
+      "tick": 582,
+      "type": "GRASS_OUTER",
+      "entity_id": 4
+    },
+    {
+      "event_key": "runner:583:GRASS_INNER:4",
+      "tick": 583,
+      "type": "GRASS_INNER",
+      "entity_id": 4
+    },
+    {
+      "event_key": "runner:591:OBSTACLE_PASSED:8",
+      "tick": 591,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 8
+    },
+    {
+      "event_key": "runner:639:JUMP_ACCEPTED:0",
+      "tick": 639,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:661:OBSTACLE_PASSED:9",
+      "tick": 661,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 9
+    },
+    {
+      "event_key": "runner:681:JUMP_ACCEPTED:0",
+      "tick": 681,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:694:GRASS_OUTER:5",
+      "tick": 694,
+      "type": "GRASS_OUTER",
+      "entity_id": 5
+    },
+    {
+      "event_key": "runner:695:GRASS_INNER:5",
+      "tick": 695,
+      "type": "GRASS_INNER",
+      "entity_id": 5
+    },
+    {
+      "event_key": "runner:703:OBSTACLE_PASSED:10",
+      "tick": 703,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 10
+    },
+    {
+      "event_key": "runner:720:JUMP_ACCEPTED:0",
+      "tick": 720,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:742:OBSTACLE_PASSED:11",
+      "tick": 742,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 11
+    },
+    {
+      "event_key": "runner:763:JUMP_ACCEPTED:0",
+      "tick": 763,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:776:GRASS_OUTER:6",
+      "tick": 776,
+      "type": "GRASS_OUTER",
+      "entity_id": 6
+    },
+    {
+      "event_key": "runner:777:GRASS_INNER:6",
+      "tick": 777,
+      "type": "GRASS_INNER",
+      "entity_id": 6
+    },
+    {
+      "event_key": "runner:785:OBSTACLE_PASSED:12",
+      "tick": 785,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 12
+    },
+    {
+      "event_key": "runner:836:JUMP_ACCEPTED:0",
+      "tick": 836,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:858:OBSTACLE_PASSED:13",
+      "tick": 858,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 13
+    },
+    {
+      "event_key": "runner:908:JUMP_ACCEPTED:0",
+      "tick": 908,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:921:GRASS_OUTER:7",
+      "tick": 921,
+      "type": "GRASS_OUTER",
+      "entity_id": 7
+    },
+    {
+      "event_key": "runner:922:GRASS_INNER:7",
+      "tick": 922,
+      "type": "GRASS_INNER",
+      "entity_id": 7
+    },
+    {
+      "event_key": "runner:931:OBSTACLE_PASSED:14",
+      "tick": 931,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 14
+    },
+    {
+      "event_key": "runner:979:JUMP_ACCEPTED:0",
+      "tick": 979,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:1002:OBSTACLE_PASSED:15",
+      "tick": 1002,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 15
+    },
+    {
+      "event_key": "runner:1020:JUMP_ACCEPTED:0",
+      "tick": 1020,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:1033:GRASS_OUTER:8",
+      "tick": 1033,
+      "type": "GRASS_OUTER",
+      "entity_id": 8
+    },
+    {
+      "event_key": "runner:1034:GRASS_INNER:8",
+      "tick": 1034,
+      "type": "GRASS_INNER",
+      "entity_id": 8
+    },
+    {
+      "event_key": "runner:1043:OBSTACLE_PASSED:16",
+      "tick": 1043,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 16
+    },
+    {
+      "event_key": "runner:1061:JUMP_ACCEPTED:0",
+      "tick": 1061,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:1084:OBSTACLE_PASSED:17",
+      "tick": 1084,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 17
+    },
+    {
+      "event_key": "runner:1104:JUMP_ACCEPTED:0",
+      "tick": 1104,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:1117:GRASS_OUTER:9",
+      "tick": 1117,
+      "type": "GRASS_OUTER",
+      "entity_id": 9
+    },
+    {
+      "event_key": "runner:1118:GRASS_INNER:9",
+      "tick": 1118,
+      "type": "GRASS_INNER",
+      "entity_id": 9
+    },
+    {
+      "event_key": "runner:1127:OBSTACLE_PASSED:18",
+      "tick": 1127,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 18
+    },
+    {
+      "event_key": "runner:1173:JUMP_ACCEPTED:0",
+      "tick": 1173,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:1196:OBSTACLE_PASSED:19",
+      "tick": 1196,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 19
+    },
+    {
+      "event_key": "runner:1240:JUMP_ACCEPTED:0",
+      "tick": 1240,
+      "type": "JUMP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "runner:1253:GRASS_OUTER:10",
+      "tick": 1253,
+      "type": "GRASS_OUTER",
+      "entity_id": 10
+    },
+    {
+      "event_key": "runner:1254:GRASS_INNER:10",
+      "tick": 1254,
+      "type": "GRASS_INNER",
+      "entity_id": 10
+    },
+    {
+      "event_key": "runner:1263:OBSTACLE_PASSED:20",
+      "tick": 1263,
+      "type": "OBSTACLE_PASSED",
+      "entity_id": 20
+    },
+    {
+      "event_key": "runner:1350:GAME_ENDED:0",
+      "tick": 1350,
+      "type": "GAME_ENDED",
+      "entity_id": null
+    }
+  ],
+  "sha256": "542b811f7be0124c7e6254831c5114da85ff42c115c6629dd0ba234618f93c99"
+}

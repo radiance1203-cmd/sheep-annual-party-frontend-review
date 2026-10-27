@@ -1,0 +1,144 @@
+{
+  "writes": 0,
+  "results": [
+    {
+      "game": "stack",
+      "dpr": 1,
+      "metrics": {
+        "width": 360,
+        "height": 480,
+        "cssWidth": 373.984375,
+        "cssHeight": 498.65625,
+        "requestedDpr": 1,
+        "renderer": {}
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "runner",
+      "dpr": 1,
+      "metrics": {
+        "width": 360,
+        "height": 220,
+        "cssWidth": 373.984375,
+        "cssHeight": 228.546875,
+        "requestedDpr": 1,
+        "renderer": {}
+      },
+      "terminal": {
+        "tick": "1350",
+        "offsetsMs": [
+          0,
+          500,
+          1000
+        ],
+        "hashes": [
+          "04f750d15ab14bc351eac42546c9e7da89b32d9dd2b0910df54dc0ef1fb600a3",
+          "04f750d15ab14bc351eac42546c9e7da89b32d9dd2b0910df54dc0ef1fb600a3",
+          "04f750d15ab14bc351eac42546c9e7da89b32d9dd2b0910df54dc0ef1fb600a3"
+        ],
+        "changes": 1
+      },
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "herd",
+      "dpr": 1,
+      "metrics": {
+        "width": 360,
+        "height": 420,
+        "cssWidth": 373.984375,
+        "cssHeight": 436.328125,
+        "requestedDpr": 1,
+        "renderer": {}
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "stack",
+      "dpr": 2,
+      "metrics": {
+        "width": 360,
+        "height": 480,
+        "cssWidth": 373.984375,
+        "cssHeight": 498.65625,
+        "requestedDpr": 2,
+        "renderer": {}
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "runner",
+      "dpr": 2,
+      "metrics": {
+        "width": 360,
+        "height": 220,
+        "cssWidth": 373.984375,
+        "cssHeight": 228.546875,
+        "requestedDpr": 2,
+        "renderer": {}
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "herd",
+      "dpr": 2,
+      "metrics": {
+        "width": 360,
+        "height": 420,
+        "cssWidth": 373.984375,
+        "cssHeight": 436.328125,
+        "requestedDpr": 2,
+        "renderer": {}
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "stack",
+      "dpr": 3,
+      "metrics": {
+        "width": 360,
+        "height": 480,
+        "cssWidth": 373.984375,
+        "cssHeight": 498.65625,
+        "requestedDpr": 3,
+        "renderer": {}
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "runner",
+      "dpr": 3,
+      "metrics": {
+        "width": 360,
+        "height": 220,
+        "cssWidth": 373.984375,
+        "cssHeight": 228.546875,
+        "requestedDpr": 3,
+        "renderer": {}
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "herd",
+      "dpr": 3,
+      "metrics": {
+        "width": 360,
+        "height": 420,
+        "cssWidth": 373.984375,
+        "cssHeight": 436.328125,
+        "requestedDpr": 3,
+        "renderer": {}
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    }
+  ]
+}

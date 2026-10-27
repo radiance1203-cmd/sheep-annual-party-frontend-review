@@ -1,0 +1,232 @@
+{
+  "schema_version": "atlas-1.0",
+  "asset_id": "dog_iso_r2a",
+  "image": "dog_iso_r2a.png",
+  "size_px": [
+    1024,
+    512
+  ],
+  "camera_id": "iso8_v1",
+  "version": "r2a-limited",
+  "status": "rendered_candidate",
+  "production_art_accepted": false,
+  "frames": {
+    "dog_iso_r2a__walk_bark__se__f000": {
+      "rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "source_size": [
+        256,
+        256
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        128,
+        196
+      ],
+      "direction": 1
+    },
+    "dog_iso_r2a__walk_bark__se__f001": {
+      "rect": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "source_size": [
+        256,
+        256
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        128,
+        196
+      ],
+      "direction": 1
+    },
+    "dog_iso_r2a__walk_bark__se__f002": {
+      "rect": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "source_size": [
+        256,
+        256
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        128,
+        196
+      ],
+      "direction": 1
+    },
+    "dog_iso_r2a__walk_bark__se__f003": {
+      "rect": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "source_size": [
+        256,
+        256
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        128,
+        196
+      ],
+      "direction": 1
+    },
+    "dog_iso_r2a__walk_bark__se__f004": {
+      "rect": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "source_size": [
+        256,
+        256
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        128,
+        196
+      ],
+      "direction": 1
+    },
+    "dog_iso_r2a__walk_bark__se__f005": {
+      "rect": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "source_size": [
+        256,
+        256
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        128,
+        196
+      ],
+      "direction": 1
+    },
+    "dog_iso_r2a__walk_bark__se__f006": {
+      "rect": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "source_size": [
+        256,
+        256
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        128,
+        196
+      ],
+      "direction": 1
+    },
+    "dog_iso_r2a__walk_bark__se__f007": {
+      "rect": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "source_size": [
+        256,
+        256
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        128,
+        196
+      ],
+      "direction": 1
+    }
+  },
+  "animations": {
+    "walk_bark.se": {
+      "frames": [
+        "dog_iso_r2a__walk_bark__se__f000",
+        "dog_iso_r2a__walk_bark__se__f001",
+        "dog_iso_r2a__walk_bark__se__f002",
+        "dog_iso_r2a__walk_bark__se__f003",
+        "dog_iso_r2a__walk_bark__se__f004",
+        "dog_iso_r2a__walk_bark__se__f005",
+        "dog_iso_r2a__walk_bark__se__f006",
+        "dog_iso_r2a__walk_bark__se__f007"
+      ],
+      "fps": 18,
+      "loop": true
+    }
+  },
+  "missing_actions": "All unlisted actions and directions are deliberately NOT_PRODUCED; this atlas is forbidden as a production replacement."
+}

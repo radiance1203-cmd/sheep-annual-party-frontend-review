@@ -1,0 +1,26 @@
+{
+  "status": "SOURCE_VERIFIED / REVIEW",
+  "production_art_accepted": false,
+  "source": "art-source\\v4\\backdrop_herd_v4.blend",
+  "source_sha256": "d27e6f27a8e0cdea1ca68370d546574c5fa6a9483b83885b608a6344d60994aa",
+  "mother": "art-source\\r2\\backdrop_herd_r2a.blend",
+  "mother_sha256": "26a328b09b0e5c7632e921bdbc39e31c9ac60f15c525f143794e6af83f7b5b21",
+  "output": "art-source\\r2\\renders\\backdrop_herd_r2a.png",
+  "output_sha256": "51aa85a83e24cfb0d0fd20d7141ba39c46d506660141753ed865bcde91e6e120",
+  "seconds": 6.919,
+  "camera": {
+    "location": [
+      0.0,
+      -18.0,
+      18.0
+    ],
+    "rotation": [
+      0.7853981852531433,
+      -0.0,
+      0.0
+    ],
+    "ortho_scale": 10.5
+  },
+  "scope": "one herd background candidate; no interactive region; not approved projection change",
+  "known_gap": "More scene depth, layered foreground and geometric composition approval still required."
+}

@@ -1,0 +1,73 @@
+{
+  "version": "R2-20261027",
+  "updated_at": "2026-10-27T15:18:16.100077+00:00",
+  "source_head": "9d652fb3fef2ede55ebc462d46445cc855b98dd1",
+  "scope": "same original dirty worktree; frontend presentation, bounded art samples, tests and handoff",
+  "backup": ".local/r2-backup-20261027",
+  "rule_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+  "runtime_manifest_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "technical_status": "RUNTIME_VERIFIED",
+  "R01_R05": "RUNTIME_VERIFIED",
+  "F01_F02_regression": {
+    "checks": 15,
+    "status": "PASS",
+    "scope": "isolated browser fixtures"
+  },
+  "S0": "SOURCE_VERIFIED",
+  "S1": "PARTIAL / CAPABILITY_REVIEW",
+  "S2": "technical clips verified; complete new art composition and motion samples incomplete",
+  "S3": "NOT_READY",
+  "S4": "BLOCKED_BY_ART_SIGNOFF",
+  "production_art_accepted": false,
+  "signoff": {
+    "signer": null,
+    "message_id": null,
+    "time": null,
+    "asset_hashes": null,
+    "games": null,
+    "static_motion_scope": null,
+    "viewport_actions": null,
+    "accepted_reference_differences": null
+  },
+  "tests": {
+    "core_web": 274,
+    "typecheck": "PASS",
+    "web_build": "PASS with existing chunk warning",
+    "contracts_rules": "PASS",
+    "python_math": "PASS using workspace temp",
+    "frontend_runtime_checks": 12,
+    "actual_page_cycles": 27,
+    "viewport_dpr_samples": 27,
+    "lifecycle_records": 14
+  },
+  "evidence": "output/r2-20261027",
+  "report": "docs/r2-20261027-report.md",
+  "physical_iOS_Android_WeChat": "NOT_RUN",
+  "human24_216": "NOT_RUN",
+  "onsite": "NOT_RUN",
+  "new_database_tests": "NOT_RUN - backend frozen",
+  "production_business_writes": 0,
+  "historical_test_counts": {
+    "352": "prior full main project, not rerun this round",
+    "252": "prior frontend export",
+    "223": "prior visual repair core/web"
+  },
+  "G5": "REVIEW",
+  "G6": "BLOCKED",
+  "github_sync": {
+    "authorized": true,
+    "target": "radiance1203-cmd/sheep-annual-party-frontend-review",
+    "status": "PREPARING",
+    "commit": null
+  },
+  "next": "parent reviews exact art gap and minimal sculpt/weight capability; technical sanitized review sync; no S4",
+  "art_candidate": "r2f2-limited-single-static-frame",
+  "art_capability": {
+    "status": "pending parent capability decision",
+    "not_permission_denied": true,
+    "completed": "D/E/F/F2 structural source attempts, exact two-view comparisons, true renderer static integration",
+    "unmet": "reference-quality face/horn and organic mid-scale wool junction sculpt plus fiber weight painting; new stack/runner scenery and full new motion absent",
+    "minimal_next_scope": "direct sculpt and weight edit on existing mother, only two views; or supported built-in reference-image input for mother calibration",
+    "evidence": "review/r2-20261027/art/r2f2/review-and-capability.md"
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "version": "r2a-limited-source-experiment",
+  "status": "SOURCE_VERIFIED / REVIEW",
+  "production_art_accepted": false,
+  "signed_by": null,
+  "source": "art-source/v4/sheep_master_v4.blend",
+  "source_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+  "mother": "art-source/r2/sheep_master_r2a.blend",
+  "mother_sha256": "2f43e6365d13cc5d3bafd9e973a3ab36f20fd87d3b91a6c5bcbba5acb9a68011",
+  "outputs": [
+    {
+      "path": "art-source/r2/renders/sheep_front_512.png",
+      "sha256": "b00aa8dc959fe3bc1308fac3cbb56e6fc15db5771254653b1e231d1537d217f9",
+      "seconds": 5.354,
+      "camera": {
+        "name": "R2_review_close",
+        "location": [
+          0.0,
+          -6.0,
+          2.200000047683716
+        ],
+        "rotation_euler": [
+          1.3258177042007446,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 2.049999952316284,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "idle",
+      "phase": 0.0,
+      "root_motion": false
+    },
+    {
+      "path": "art-source/r2/renders/sheep_side_512.png",
+      "sha256": "2d59945b54b73313e8d7329c7f66fd93740af2a0310793eb0db039e7121edfce",
+      "seconds": 4.364,
+      "camera": {
+        "name": "R2_review_close",
+        "location": [
+          0.0,
+          -6.0,
+          2.200000047683716
+        ],
+        "rotation_euler": [
+          1.3258177042007446,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 2.049999952316284,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "idle",
+      "phase": 0.0,
+      "root_motion": false
+    },
+    {
+      "path": "art-source/r2/renders/sheep_back_512.png",
+      "sha256": "0758810b154c92ad3434333132e9b6148470adef446dbd34402e92d0a977f02d",
+      "seconds": 4.121,
+      "camera": {
+        "name": "R2_review_close",
+        "location": [
+          0.0,
+          -6.0,
+          2.200000047683716
+        ],
+        "rotation_euler": [
+          1.3258177042007446,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 2.049999952316284,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "idle",
+      "phase": 0.0,
+      "root_motion": false
+    },
+    {
+      "path": "art-source/r2/renders/sheep_diagonal_512.png",
+      "sha256": "ce916fcc30e2f4fee239f2825da410e81caee06ec39cc1571321324f7477c14d",
+      "seconds": 4.2,
+      "camera": {
+        "name": "R2_review_close",
+        "location": [
+          0.0,
+          -6.0,
+          2.200000047683716
+        ],
+        "rotation_euler": [
+          1.3258177042007446,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 2.049999952316284,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "idle",
+      "phase": 0.0,
+      "root_motion": false
+    },
+    {
+      "path": "art-source/r2/renders/sheep_stack_idle_e_512.png",
+      "sha256": "e423db624176ef12d97387fb72b413ff47b4500f909fc6bf5174fb19daa498f2",
+      "seconds": 2.999,
+      "camera": {
+        "name": "side_v1",
+        "location": [
+          0.0,
+          -8.0,
+          1.399999976158142
+        ],
+        "rotation_euler": [
+          1.3975508213043213,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 4.0,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "stack_idle",
+      "phase": 0.0,
+      "root_motion": false
+    },
+    {
+      "path": "art-source/r2/renders/sheep_iso_idle_se_512.png",
+      "sha256": "cc245ad0aa0f8bd83de603d9b1c97dfa1912fe70e071d11f88ce25ca97fd16ab",
+      "seconds": 2.88,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation_euler": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 4.5714287757873535,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "idle",
+      "phase": 0.0,
+      "root_motion": false
+    },
+    {
+      "path": "art-source/r2/renders/sheep_side_idle_e_512.png",
+      "sha256": "d2515eb017fcf4eebaa18a7898252949a5f25fb8a409f9d018bf95be1f6bf0b4",
+      "seconds": 3.049,
+      "camera": {
+        "name": "side_v1",
+        "location": [
+          0.0,
+          -8.0,
+          1.399999976158142
+        ],
+        "rotation_euler": [
+          1.3975508213043213,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 4.0,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "idle",
+      "phase": 0.0,
+      "root_motion": false
+    }
+  ],
+  "missing": "All unenumerated actions/directions are not produced. No production manifest change."
+}

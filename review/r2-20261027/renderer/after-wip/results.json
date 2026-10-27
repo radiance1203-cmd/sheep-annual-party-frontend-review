@@ -1,0 +1,216 @@
+{
+  "writes": 0,
+  "results": [
+    {
+      "game": "stack",
+      "dpr": 1,
+      "metrics": {
+        "width": 372,
+        "height": 496,
+        "cssWidth": 373.984375,
+        "cssHeight": 498.65625,
+        "requestedDpr": 1,
+        "renderer": {
+          "phaserVersion": "4.2.1",
+          "scaleMode": "FIT",
+          "renderer": "WEBGL",
+          "effectiveDpr": "1",
+          "requestedDpr": "1",
+          "worldWidth": "360",
+          "worldHeight": "480"
+        }
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "runner",
+      "dpr": 1,
+      "metrics": {
+        "width": 371,
+        "height": 227,
+        "cssWidth": 373.515625,
+        "cssHeight": 228.546875,
+        "requestedDpr": 1,
+        "renderer": {
+          "phaserVersion": "4.2.1",
+          "scaleMode": "FIT",
+          "renderer": "WEBGL",
+          "effectiveDpr": "1",
+          "requestedDpr": "1",
+          "worldWidth": "360",
+          "worldHeight": "220"
+        }
+      },
+      "terminal": {
+        "tick": "1350",
+        "offsetsMs": [
+          0,
+          500,
+          1000
+        ],
+        "hashes": [
+          "d057f23193cf5eb81ab21de652e531b7fdaae9a450375a24200b1575060794fc",
+          "8f411a30265b31ef3af92ed8eb30fd39f5a5a666d82a85f4258c292e88465951",
+          "6c0f722a8664f47c9f64baa79a3a249967c2b17897413129f6b9898acea5e9be"
+        ],
+        "changes": 3
+      },
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "herd",
+      "dpr": 1,
+      "metrics": {
+        "width": 372,
+        "height": 434,
+        "cssWidth": 373.984375,
+        "cssHeight": 436.328125,
+        "requestedDpr": 1,
+        "renderer": {
+          "phaserVersion": "4.2.1",
+          "scaleMode": "FIT",
+          "renderer": "WEBGL",
+          "effectiveDpr": "1",
+          "requestedDpr": "1",
+          "worldWidth": "360",
+          "worldHeight": "420"
+        }
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "stack",
+      "dpr": 2,
+      "metrics": {
+        "width": 744,
+        "height": 992,
+        "cssWidth": 373.984375,
+        "cssHeight": 498.65625,
+        "requestedDpr": 2,
+        "renderer": {
+          "phaserVersion": "4.2.1",
+          "scaleMode": "FIT",
+          "renderer": "WEBGL",
+          "effectiveDpr": "2",
+          "requestedDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "480"
+        }
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "runner",
+      "dpr": 2,
+      "metrics": {
+        "width": 743,
+        "height": 454,
+        "cssWidth": 374,
+        "cssHeight": 228.515625,
+        "requestedDpr": 2,
+        "renderer": {
+          "phaserVersion": "4.2.1",
+          "scaleMode": "FIT",
+          "renderer": "WEBGL",
+          "effectiveDpr": "2",
+          "requestedDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "220"
+        }
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "herd",
+      "dpr": 2,
+      "metrics": {
+        "width": 744,
+        "height": 868,
+        "cssWidth": 373.984375,
+        "cssHeight": 436.328125,
+        "requestedDpr": 2,
+        "renderer": {
+          "phaserVersion": "4.2.1",
+          "scaleMode": "FIT",
+          "renderer": "WEBGL",
+          "effectiveDpr": "2",
+          "requestedDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "420"
+        }
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "stack",
+      "dpr": 3,
+      "metrics": {
+        "width": 744,
+        "height": 992,
+        "cssWidth": 373.984375,
+        "cssHeight": 498.65625,
+        "requestedDpr": 3,
+        "renderer": {
+          "phaserVersion": "4.2.1",
+          "scaleMode": "FIT",
+          "renderer": "WEBGL",
+          "effectiveDpr": "2",
+          "requestedDpr": "3",
+          "worldWidth": "360",
+          "worldHeight": "480"
+        }
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "runner",
+      "dpr": 3,
+      "metrics": {
+        "width": 743,
+        "height": 454,
+        "cssWidth": 374,
+        "cssHeight": 228.515625,
+        "requestedDpr": 3,
+        "renderer": {
+          "phaserVersion": "4.2.1",
+          "scaleMode": "FIT",
+          "renderer": "WEBGL",
+          "effectiveDpr": "2",
+          "requestedDpr": "3",
+          "worldWidth": "360",
+          "worldHeight": "220"
+        }
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    },
+    {
+      "game": "herd",
+      "dpr": 3,
+      "metrics": {
+        "width": 744,
+        "height": 868,
+        "cssWidth": 373.984375,
+        "cssHeight": 436.328125,
+        "requestedDpr": 3,
+        "renderer": {
+          "phaserVersion": "4.2.1",
+          "scaleMode": "FIT",
+          "renderer": "WEBGL",
+          "effectiveDpr": "2",
+          "requestedDpr": "3",
+          "worldWidth": "360",
+          "worldHeight": "420"
+        }
+      },
+      "terminal": null,
+      "scope": "real Phaser/core; isolated GET fixtures; desktop viewport, not a physical phone"
+    }
+  ]
+}

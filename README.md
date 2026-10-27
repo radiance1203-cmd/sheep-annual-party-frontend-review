@@ -4,20 +4,7 @@
 
 ## 最新更新
 
-2026-10-27：修复订单错绑、兑换恢复、身份/输入/图片状态及二维码核销入口；补齐三款真实准备、教程和运行场景，接入v4同源角色与有界道具/背景，新增服务端成绩解释和逐项复核材料。三款美术仍为候选，G5 REVIEW/G6 BLOCKED。[完整更新记录](docs/releases/release-notes.md)
-
-**审查入口：[进度汇报](PROGRESS.md) · [产出物索引](DELIVERABLES.md) · [F01–F18逐项报告](docs/repair-20261027-report.md) · [ChatGPT审查提示词](CHATGPT_REVIEW_PROMPT.md)**
-
-| 页面 | 原型 / 修复前 / 当前实际页面 |
-|---|---|
-| 大厅 | [对照图](review/repair-20261027/comparisons/lobby.png) |
-| 羊羊叠高高 | [对照图](review/repair-20261027/comparisons/stack.png) · [准备/教程/运行](review/repair-20261027/comparisons/stack-states.png) |
-| 羊羊跨栏 | [对照图](review/repair-20261027/comparisons/runner.png) · [准备/教程/运行](review/repair-20261027/comparisons/runner-states.png) |
-| 赶羊入圈 | [对照图](review/repair-20261027/comparisons/herd.png) · [准备/教程/运行](review/repair-20261027/comparisons/herd-states.png) |
-
-![四页实际对照总览](review/repair-20261027/comparisons/overview.png)
-
-三款对照前后是同390 CSS宽、同core输入前缀与tick，未改数字凑图。照片/截图为真实页面记录，业务fixture、原完整工程真实HTTP/PG测试、真人/真机证据严格分开。最终艺术签认和24人216局真实试玩未完成，不以截图或单测数量放行。
+2026-10-27：教学暂停、重播与真实采集/入圈事件同步；修复短屏开始/重练后的滚动、持续统计与反馈分离、高清绘制和终局动画。新增有限母样、真实三宽页面与实速片段，完整新美术仍未通过。见 [R2报告](docs/r2-20261027-report.md)、[最新进度](PROGRESS.md)、[完整历史](docs/releases/release-notes.md)。
 
 ## 本地检查
 

@@ -1,0 +1,389 @@
+{
+  "game": "stack",
+  "scope": "synthetic legal local teaching controller; unchanged shared core; no API/session",
+  "tutorialCompleteTick": 49,
+  "endTick": 966,
+  "conclusion": {
+    "game_id": "stack",
+    "end_tick": 966,
+    "end_reason": "GOAL_REACHED",
+    "accepted_actions_count": 20,
+    "stats": {
+      "success_layers": 20,
+      "perfect_layers": 20,
+      "misses": 0
+    },
+    "performance_points": 80
+  },
+  "inputs": [
+    {
+      "tick": 37,
+      "seq": 1,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 92,
+      "seq": 2,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 147,
+      "seq": 3,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 202,
+      "seq": 4,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 253,
+      "seq": 5,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 304,
+      "seq": 6,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 355,
+      "seq": 7,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 406,
+      "seq": 8,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 454,
+      "seq": 9,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 502,
+      "seq": 10,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 550,
+      "seq": 11,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 598,
+      "seq": 12,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 644,
+      "seq": 13,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 689,
+      "seq": 14,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 735,
+      "seq": 15,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 780,
+      "seq": 16,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 824,
+      "seq": 17,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 867,
+      "seq": 18,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 911,
+      "seq": 19,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 954,
+      "seq": 20,
+      "type": "DROP",
+      "value": null
+    }
+  ],
+  "events": [
+    {
+      "event_key": "stack:37:DROP_ACCEPTED:0",
+      "tick": 37,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:49:LAYER_LANDED:1",
+      "tick": 49,
+      "type": "LAYER_LANDED",
+      "entity_id": 1
+    },
+    {
+      "event_key": "stack:92:DROP_ACCEPTED:0",
+      "tick": 92,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:104:LAYER_LANDED:2",
+      "tick": 104,
+      "type": "LAYER_LANDED",
+      "entity_id": 2
+    },
+    {
+      "event_key": "stack:147:DROP_ACCEPTED:0",
+      "tick": 147,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:159:LAYER_LANDED:3",
+      "tick": 159,
+      "type": "LAYER_LANDED",
+      "entity_id": 3
+    },
+    {
+      "event_key": "stack:202:DROP_ACCEPTED:0",
+      "tick": 202,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:214:LAYER_LANDED:4",
+      "tick": 214,
+      "type": "LAYER_LANDED",
+      "entity_id": 4
+    },
+    {
+      "event_key": "stack:253:DROP_ACCEPTED:0",
+      "tick": 253,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:265:LAYER_LANDED:5",
+      "tick": 265,
+      "type": "LAYER_LANDED",
+      "entity_id": 5
+    },
+    {
+      "event_key": "stack:304:DROP_ACCEPTED:0",
+      "tick": 304,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:316:LAYER_LANDED:6",
+      "tick": 316,
+      "type": "LAYER_LANDED",
+      "entity_id": 6
+    },
+    {
+      "event_key": "stack:355:DROP_ACCEPTED:0",
+      "tick": 355,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:367:LAYER_LANDED:7",
+      "tick": 367,
+      "type": "LAYER_LANDED",
+      "entity_id": 7
+    },
+    {
+      "event_key": "stack:406:DROP_ACCEPTED:0",
+      "tick": 406,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:418:LAYER_LANDED:8",
+      "tick": 418,
+      "type": "LAYER_LANDED",
+      "entity_id": 8
+    },
+    {
+      "event_key": "stack:454:DROP_ACCEPTED:0",
+      "tick": 454,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:466:LAYER_LANDED:9",
+      "tick": 466,
+      "type": "LAYER_LANDED",
+      "entity_id": 9
+    },
+    {
+      "event_key": "stack:502:DROP_ACCEPTED:0",
+      "tick": 502,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:514:LAYER_LANDED:10",
+      "tick": 514,
+      "type": "LAYER_LANDED",
+      "entity_id": 10
+    },
+    {
+      "event_key": "stack:550:DROP_ACCEPTED:0",
+      "tick": 550,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:562:LAYER_LANDED:11",
+      "tick": 562,
+      "type": "LAYER_LANDED",
+      "entity_id": 11
+    },
+    {
+      "event_key": "stack:598:DROP_ACCEPTED:0",
+      "tick": 598,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:610:LAYER_LANDED:12",
+      "tick": 610,
+      "type": "LAYER_LANDED",
+      "entity_id": 12
+    },
+    {
+      "event_key": "stack:644:DROP_ACCEPTED:0",
+      "tick": 644,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:656:LAYER_LANDED:13",
+      "tick": 656,
+      "type": "LAYER_LANDED",
+      "entity_id": 13
+    },
+    {
+      "event_key": "stack:689:DROP_ACCEPTED:0",
+      "tick": 689,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:701:LAYER_LANDED:14",
+      "tick": 701,
+      "type": "LAYER_LANDED",
+      "entity_id": 14
+    },
+    {
+      "event_key": "stack:735:DROP_ACCEPTED:0",
+      "tick": 735,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:747:LAYER_LANDED:15",
+      "tick": 747,
+      "type": "LAYER_LANDED",
+      "entity_id": 15
+    },
+    {
+      "event_key": "stack:780:DROP_ACCEPTED:0",
+      "tick": 780,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:792:LAYER_LANDED:16",
+      "tick": 792,
+      "type": "LAYER_LANDED",
+      "entity_id": 16
+    },
+    {
+      "event_key": "stack:824:DROP_ACCEPTED:0",
+      "tick": 824,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:836:LAYER_LANDED:17",
+      "tick": 836,
+      "type": "LAYER_LANDED",
+      "entity_id": 17
+    },
+    {
+      "event_key": "stack:867:DROP_ACCEPTED:0",
+      "tick": 867,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:879:LAYER_LANDED:18",
+      "tick": 879,
+      "type": "LAYER_LANDED",
+      "entity_id": 18
+    },
+    {
+      "event_key": "stack:911:DROP_ACCEPTED:0",
+      "tick": 911,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:923:LAYER_LANDED:19",
+      "tick": 923,
+      "type": "LAYER_LANDED",
+      "entity_id": 19
+    },
+    {
+      "event_key": "stack:954:DROP_ACCEPTED:0",
+      "tick": 954,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:966:LAYER_LANDED:20",
+      "tick": 966,
+      "type": "LAYER_LANDED",
+      "entity_id": 20
+    },
+    {
+      "event_key": "stack:966:GAME_ENDED:0",
+      "tick": 966,
+      "type": "GAME_ENDED",
+      "entity_id": null
+    }
+  ],
+  "sha256": "8dc3c786b5b189f6de53e6b81ed8c69e483397b997a437bfac32da659f4fc0e3"
+}

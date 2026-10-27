@@ -1,0 +1,50 @@
+[
+  {
+    "game": "stack",
+    "clip": "samples-final/stack-12s.mp4",
+    "sha256": "fc65c3ab79417945b8ee01ed22ef91a57835df38e36ca1799a8a1721712852a3",
+    "duration_seconds": 11.72,
+    "source_raw": "samples-final/stack-realtime.webm",
+    "source_window_start_seconds": 2.4,
+    "speed": 1,
+    "processing": "FFmpeg trims only startup portion and transcodes at unchanged speed; full raw and full input trace retained",
+    "core_tick_range_in_source": [
+      0,
+      363
+    ],
+    "input_prefix": "samples-final/stack-realtime-trace.json",
+    "scope": "real Phaser/core legal input replay; existing v4 assets + R2 presenter; not a full newly produced art set or physical device"
+  },
+  {
+    "game": "runner",
+    "clip": "samples-final/runner-12s.mp4",
+    "sha256": "b6da5bd2cf04acb23a29c9717543ef5a3744ed893b27a44019a09d0f5eaa8c8b",
+    "duration_seconds": 11.48,
+    "source_raw": "samples-final/runner-realtime.webm",
+    "source_window_start_seconds": 2.4,
+    "speed": 1,
+    "processing": "FFmpeg trims only startup portion and transcodes at unchanged speed; full raw and full input trace retained",
+    "core_tick_range_in_source": [
+      0,
+      361
+    ],
+    "input_prefix": "samples-final/runner-realtime-trace.json",
+    "scope": "real Phaser/core legal input replay; existing v4 assets + R2 presenter; not a full newly produced art set or physical device"
+  },
+  {
+    "game": "herd",
+    "clip": "samples-final/herd-15s.mp4",
+    "sha256": "7cc659313cff6c6a161c1ee4198ce1ea0e3a1e689c07749b9dd39ced762e57da",
+    "duration_seconds": 15.0,
+    "source_raw": "samples-final/herd-realtime.webm",
+    "source_window_start_seconds": 2.4,
+    "speed": 1,
+    "processing": "FFmpeg trims only startup portion and transcodes at unchanged speed; full raw and full input trace retained",
+    "core_tick_range_in_source": [
+      0,
+      432
+    ],
+    "input_prefix": "samples-final/herd-realtime-trace.json",
+    "scope": "real Phaser/core legal input replay; existing v4 assets + R2 presenter; not a full newly produced art set or physical device"
+  }
+]

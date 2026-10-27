@@ -1,0 +1,74 @@
+{
+  "version": "R2d-structural-two-frame",
+  "status": "REVIEW",
+  "production_art_accepted": false,
+  "source": "art-source/r2/r2c/sheep_master_r2c.blend",
+  "source_sha256": "93bf28d826e89a7401b962b328a053d8856105148b4feb0169483ba2532a14c8",
+  "mother": "art-source/r2/r2d/sheep_master_r2d.blend",
+  "mother_sha256": "d8776c5de96737cdce9c04fd532d18d18cb5d6c7516030cccc84e049e94ec973",
+  "outputs": [
+    {
+      "path": "art-source/r2/r2d/sheep_front_512.png",
+      "sha256": "f714646669d3e02fddc7fc9f62712c23f2d174f8621b70973aa8905d136ff44d",
+      "seconds": 5.904,
+      "camera": "R2d_review_close"
+    },
+    {
+      "path": "art-source/r2/r2d/sheep_stack_512.png",
+      "sha256": "dd936593f6980dd3724c8292fe36cdda6e404b5cbb820b312ca364dcf717a532",
+      "seconds": 3.691,
+      "camera": "side_v1"
+    }
+  ],
+  "structural_changes": [
+    "ten-ring subdivided cheek/chin cage with vertex blush",
+    "bevelled heart-nose mesh and surface-positioned mouth",
+    "arc-length horn taper/grooves",
+    "irregular multi-lobed crown control surfaces and directional fine material"
+  ],
+  "unproduced": "All additional directions/actions; no production registration",
+  "asset": {
+    "image": "apps/web/public/assets/candidates/r2/r2d/sheep_stack_r2d.png",
+    "image_sha256": "59cf1ac712ac5fd0b9f4ac1faa85e172917157113f229e9e7a3f40a57d3fd18f",
+    "metadata": "apps/web/public/assets/candidates/r2/r2d/sheep_stack_r2d.atlas.json",
+    "metadata_sha256": "e35cc626cdcc4184dd92b308e13cd5323ddedf2608408c827bf17bd1ff1efc7b",
+    "alpha1_bbox": [
+      47,
+      88,
+      217,
+      226
+    ],
+    "runtime_frame_css_px": 64,
+    "alpha_height_world": 34.5,
+    "alpha_width_world": 42.5,
+    "pivot_px": [
+      128,
+      224
+    ],
+    "source_crop": [
+      128,
+      32,
+      256,
+      256
+    ],
+    "camera": {
+      "location": [
+        0,
+        -8,
+        1.4
+      ],
+      "look_at": [
+        0,
+        0,
+        0
+      ],
+      "ortho_scale": 4,
+      "source_px": [
+        512,
+        512
+      ]
+    }
+  },
+  "art_signoff": null,
+  "production_replacement_allowed": false
+}

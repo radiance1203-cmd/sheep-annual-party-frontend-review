@@ -1,0 +1,6209 @@
+{
+  "game": "herd",
+  "scope": "synthetic legal local teaching controller; unchanged shared core; no API/session",
+  "tutorialCompleteTick": 101,
+  "endTick": 432,
+  "conclusion": {
+    "game_id": "herd",
+    "end_tick": 432,
+    "end_reason": "GOAL_REACHED",
+    "accepted_actions_count": 371,
+    "stats": {
+      "penned_count": 8,
+      "final_goal_tick": 432,
+      "time_bonus_points": 25
+    },
+    "performance_points": 73
+  },
+  "inputs": [
+    {
+      "tick": 1,
+      "seq": 1,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -1000
+      }
+    },
+    {
+      "tick": 2,
+      "seq": 2,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -999
+      }
+    },
+    {
+      "tick": 3,
+      "seq": 3,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 1,
+        "y": -999
+      }
+    },
+    {
+      "tick": 4,
+      "seq": 4,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 2,
+        "y": -999
+      }
+    },
+    {
+      "tick": 5,
+      "seq": 5,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 3,
+        "y": -999
+      }
+    },
+    {
+      "tick": 6,
+      "seq": 6,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 3,
+        "y": -999
+      }
+    },
+    {
+      "tick": 7,
+      "seq": 7,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 6,
+        "y": -999
+      }
+    },
+    {
+      "tick": 8,
+      "seq": 8,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 6,
+        "y": -999
+      }
+    },
+    {
+      "tick": 9,
+      "seq": 9,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 6,
+        "y": -999
+      }
+    },
+    {
+      "tick": 10,
+      "seq": 10,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 6,
+        "y": -999
+      }
+    },
+    {
+      "tick": 11,
+      "seq": 11,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 6,
+        "y": -999
+      }
+    },
+    {
+      "tick": 12,
+      "seq": 12,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 6,
+        "y": -999
+      }
+    },
+    {
+      "tick": 13,
+      "seq": 13,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 6,
+        "y": -999
+      }
+    },
+    {
+      "tick": 14,
+      "seq": 14,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 6,
+        "y": -999
+      }
+    },
+    {
+      "tick": 15,
+      "seq": 15,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 10,
+        "y": -999
+      }
+    },
+    {
+      "tick": 16,
+      "seq": 16,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 9,
+        "y": -999
+      }
+    },
+    {
+      "tick": 17,
+      "seq": 17,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 8,
+        "y": -999
+      }
+    },
+    {
+      "tick": 18,
+      "seq": 18,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 6,
+        "y": -999
+      }
+    },
+    {
+      "tick": 19,
+      "seq": 19,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 5,
+        "y": -999
+      }
+    },
+    {
+      "tick": 20,
+      "seq": 20,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 3,
+        "y": -999
+      }
+    },
+    {
+      "tick": 21,
+      "seq": 21,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 2,
+        "y": -999
+      }
+    },
+    {
+      "tick": 22,
+      "seq": 22,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -999
+      }
+    },
+    {
+      "tick": 23,
+      "seq": 23,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -999
+      }
+    },
+    {
+      "tick": 24,
+      "seq": 24,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -3,
+        "y": -878
+      }
+    },
+    {
+      "tick": 25,
+      "seq": 25,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -3,
+        "y": -573
+      }
+    },
+    {
+      "tick": 26,
+      "seq": 26,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -2,
+        "y": -571
+      }
+    },
+    {
+      "tick": 27,
+      "seq": 27,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -622
+      }
+    },
+    {
+      "tick": 28,
+      "seq": 28,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -622
+      }
+    },
+    {
+      "tick": 29,
+      "seq": 29,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 1,
+        "y": -622
+      }
+    },
+    {
+      "tick": 30,
+      "seq": 30,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 2,
+        "y": -623
+      }
+    },
+    {
+      "tick": 31,
+      "seq": 31,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 2,
+        "y": -622
+      }
+    },
+    {
+      "tick": 32,
+      "seq": 32,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 3,
+        "y": -622
+      }
+    },
+    {
+      "tick": 33,
+      "seq": 33,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 3,
+        "y": -622
+      }
+    },
+    {
+      "tick": 34,
+      "seq": 34,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 21,
+        "y": -623
+      }
+    },
+    {
+      "tick": 35,
+      "seq": 35,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 4,
+        "y": -622
+      }
+    },
+    {
+      "tick": 36,
+      "seq": 36,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 4,
+        "y": -622
+      }
+    },
+    {
+      "tick": 37,
+      "seq": 37,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -13,
+        "y": -555
+      }
+    },
+    {
+      "tick": 38,
+      "seq": 38,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 5,
+        "y": -622
+      }
+    },
+    {
+      "tick": 39,
+      "seq": 39,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 6,
+        "y": -622
+      }
+    },
+    {
+      "tick": 40,
+      "seq": 40,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 7,
+        "y": -622
+      }
+    },
+    {
+      "tick": 41,
+      "seq": 41,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 12,
+        "y": -478
+      }
+    },
+    {
+      "tick": 42,
+      "seq": 42,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 24,
+        "y": -622
+      }
+    },
+    {
+      "tick": 43,
+      "seq": 43,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 8,
+        "y": -622
+      }
+    },
+    {
+      "tick": 44,
+      "seq": 44,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 8,
+        "y": -622
+      }
+    },
+    {
+      "tick": 45,
+      "seq": 45,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 30,
+        "y": -478
+      }
+    },
+    {
+      "tick": 46,
+      "seq": 46,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 9,
+        "y": -621
+      }
+    },
+    {
+      "tick": 47,
+      "seq": 47,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 9,
+        "y": -622
+      }
+    },
+    {
+      "tick": 48,
+      "seq": 48,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 50,
+        "y": -545
+      }
+    },
+    {
+      "tick": 49,
+      "seq": 49,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -8,
+        "y": -555
+      }
+    },
+    {
+      "tick": 50,
+      "seq": 50,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 30,
+        "y": -620
+      }
+    },
+    {
+      "tick": 51,
+      "seq": 51,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 54,
+        "y": -545
+      }
+    },
+    {
+      "tick": 52,
+      "seq": 52,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 14,
+        "y": -620
+      }
+    },
+    {
+      "tick": 53,
+      "seq": 53,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -3,
+        "y": -553
+      }
+    },
+    {
+      "tick": 54,
+      "seq": 54,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 128,
+        "y": -536
+      }
+    },
+    {
+      "tick": 55,
+      "seq": 55,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 25,
+        "y": -620
+      }
+    },
+    {
+      "tick": 56,
+      "seq": 56,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 108,
+        "y": -538
+      }
+    },
+    {
+      "tick": 57,
+      "seq": 57,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 23,
+        "y": -620
+      }
+    },
+    {
+      "tick": 58,
+      "seq": 58,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 127,
+        "y": -537
+      }
+    },
+    {
+      "tick": 59,
+      "seq": 59,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 5,
+        "y": -620
+      }
+    },
+    {
+      "tick": 60,
+      "seq": 60,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 81,
+        "y": -474
+      }
+    },
+    {
+      "tick": 60,
+      "seq": 61,
+      "type": "BARK",
+      "value": null
+    },
+    {
+      "tick": 61,
+      "seq": 62,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 22,
+        "y": -619
+      }
+    },
+    {
+      "tick": 62,
+      "seq": 63,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 4,
+        "y": -607
+      }
+    },
+    {
+      "tick": 63,
+      "seq": 64,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 21,
+        "y": -620
+      }
+    },
+    {
+      "tick": 64,
+      "seq": 65,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 77,
+        "y": -614
+      }
+    },
+    {
+      "tick": 65,
+      "seq": 66,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -58,
+        "y": -612
+      }
+    },
+    {
+      "tick": 66,
+      "seq": 67,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 93,
+        "y": -615
+      }
+    },
+    {
+      "tick": 67,
+      "seq": 68,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -56,
+        "y": -614
+      }
+    },
+    {
+      "tick": 68,
+      "seq": 69,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 74,
+        "y": -615
+      }
+    },
+    {
+      "tick": 69,
+      "seq": 70,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -57,
+        "y": -615
+      }
+    },
+    {
+      "tick": 70,
+      "seq": 71,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 73,
+        "y": -615
+      }
+    },
+    {
+      "tick": 71,
+      "seq": 72,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -65,
+        "y": -613
+      }
+    },
+    {
+      "tick": 72,
+      "seq": 73,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 89,
+        "y": -616
+      }
+    },
+    {
+      "tick": 73,
+      "seq": 74,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -80,
+        "y": -470
+      }
+    },
+    {
+      "tick": 74,
+      "seq": 75,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 70,
+        "y": -472
+      }
+    },
+    {
+      "tick": 75,
+      "seq": 76,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -50,
+        "y": -547
+      }
+    },
+    {
+      "tick": 76,
+      "seq": 77,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 85,
+        "y": -473
+      }
+    },
+    {
+      "tick": 77,
+      "seq": 78,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -47,
+        "y": -549
+      }
+    },
+    {
+      "tick": 78,
+      "seq": 79,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 120,
+        "y": -550
+      }
+    },
+    {
+      "tick": 79,
+      "seq": 80,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -50,
+        "y": -482
+      }
+    },
+    {
+      "tick": 80,
+      "seq": 81,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 16,
+        "y": -467
+      }
+    },
+    {
+      "tick": 81,
+      "seq": 82,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 42,
+        "y": -480
+      }
+    },
+    {
+      "tick": 82,
+      "seq": 83,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 142,
+        "y": -482
+      }
+    },
+    {
+      "tick": 83,
+      "seq": 84,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -13,
+        "y": -476
+      }
+    },
+    {
+      "tick": 84,
+      "seq": 85,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 77,
+        "y": -359
+      }
+    },
+    {
+      "tick": 85,
+      "seq": 86,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 207,
+        "y": -312
+      }
+    },
+    {
+      "tick": 86,
+      "seq": 87,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 55,
+        "y": -280
+      }
+    },
+    {
+      "tick": 87,
+      "seq": 88,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 109,
+        "y": -299
+      }
+    },
+    {
+      "tick": 88,
+      "seq": 89,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -46,
+        "y": -266
+      }
+    },
+    {
+      "tick": 89,
+      "seq": 90,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -126,
+        "y": -136
+      }
+    },
+    {
+      "tick": 90,
+      "seq": 91,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -81,
+        "y": -273
+      }
+    },
+    {
+      "tick": 91,
+      "seq": 92,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -215,
+        "y": -201
+      }
+    },
+    {
+      "tick": 92,
+      "seq": 93,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -125,
+        "y": -150
+      }
+    },
+    {
+      "tick": 93,
+      "seq": 94,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -137,
+        "y": -310
+      }
+    },
+    {
+      "tick": 94,
+      "seq": 95,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -298,
+        "y": -440
+      }
+    },
+    {
+      "tick": 95,
+      "seq": 96,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -75,
+        "y": -438
+      }
+    },
+    {
+      "tick": 96,
+      "seq": 97,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -68,
+        "y": -452
+      }
+    },
+    {
+      "tick": 97,
+      "seq": 98,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -40,
+        "y": -464
+      }
+    },
+    {
+      "tick": 98,
+      "seq": 99,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 75,
+        "y": -326
+      }
+    },
+    {
+      "tick": 99,
+      "seq": 100,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 240,
+        "y": -377
+      }
+    },
+    {
+      "tick": 100,
+      "seq": 101,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 255,
+        "y": -319
+      }
+    },
+    {
+      "tick": 101,
+      "seq": 102,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 12,
+        "y": -319
+      }
+    },
+    {
+      "tick": 102,
+      "seq": 103,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 792,
+        "y": 609
+      }
+    },
+    {
+      "tick": 103,
+      "seq": 104,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -37,
+        "y": -171
+      }
+    },
+    {
+      "tick": 104,
+      "seq": 105,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -731,
+        "y": 682
+      }
+    },
+    {
+      "tick": 105,
+      "seq": 106,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -737,
+        "y": 436
+      }
+    },
+    {
+      "tick": 106,
+      "seq": 107,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -246,
+        "y": -180
+      }
+    },
+    {
+      "tick": 107,
+      "seq": 108,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -372,
+        "y": -201
+      }
+    },
+    {
+      "tick": 108,
+      "seq": 109,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -243,
+        "y": -183
+      }
+    },
+    {
+      "tick": 109,
+      "seq": 110,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -378,
+        "y": -202
+      }
+    },
+    {
+      "tick": 110,
+      "seq": 111,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -212,
+        "y": -183
+      }
+    },
+    {
+      "tick": 111,
+      "seq": 112,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -47,
+        "y": -272
+      }
+    },
+    {
+      "tick": 112,
+      "seq": 113,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 917,
+        "y": 398
+      }
+    },
+    {
+      "tick": 113,
+      "seq": 114,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 915,
+        "y": 402
+      }
+    },
+    {
+      "tick": 114,
+      "seq": 115,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 909,
+        "y": 414
+      }
+    },
+    {
+      "tick": 115,
+      "seq": 116,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 378,
+        "y": 31
+      }
+    },
+    {
+      "tick": 116,
+      "seq": 117,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 19,
+        "y": -123
+      }
+    },
+    {
+      "tick": 117,
+      "seq": 118,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -124
+      }
+    },
+    {
+      "tick": 118,
+      "seq": 119,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -782,
+        "y": 622
+      }
+    },
+    {
+      "tick": 119,
+      "seq": 120,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -793,
+        "y": 608
+      }
+    },
+    {
+      "tick": 120,
+      "seq": 121,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -807,
+        "y": 589
+      }
+    },
+    {
+      "tick": 121,
+      "seq": 122,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -523,
+        "y": 338
+      }
+    },
+    {
+      "tick": 122,
+      "seq": 123,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -1,
+        "y": -8
+      }
+    },
+    {
+      "tick": 123,
+      "seq": 124,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -1,
+        "y": -8
+      }
+    },
+    {
+      "tick": 124,
+      "seq": 125,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -9
+      }
+    },
+    {
+      "tick": 125,
+      "seq": 126,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -1,
+        "y": -8
+      }
+    },
+    {
+      "tick": 126,
+      "seq": 127,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -1,
+        "y": -8
+      }
+    },
+    {
+      "tick": 127,
+      "seq": 128,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -8
+      }
+    },
+    {
+      "tick": 128,
+      "seq": 129,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -18,
+        "y": -7
+      }
+    },
+    {
+      "tick": 129,
+      "seq": 130,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -5
+      }
+    },
+    {
+      "tick": 130,
+      "seq": 131,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -1,
+        "y": -4
+      }
+    },
+    {
+      "tick": 131,
+      "seq": 132,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -1,
+        "y": -4
+      }
+    },
+    {
+      "tick": 132,
+      "seq": 133,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": -4
+      }
+    },
+    {
+      "tick": 133,
+      "seq": 134,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -27,
+        "y": -145
+      }
+    },
+    {
+      "tick": 134,
+      "seq": 135,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 63,
+        "y": -450
+      }
+    },
+    {
+      "tick": 135,
+      "seq": 136,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 130,
+        "y": -298
+      }
+    },
+    {
+      "tick": 136,
+      "seq": 137,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 63,
+        "y": -449
+      }
+    },
+    {
+      "tick": 137,
+      "seq": 138,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 129,
+        "y": -297
+      }
+    },
+    {
+      "tick": 138,
+      "seq": 139,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 143,
+        "y": -297
+      }
+    },
+    {
+      "tick": 139,
+      "seq": 140,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 142,
+        "y": -295
+      }
+    },
+    {
+      "tick": 140,
+      "seq": 141,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 57,
+        "y": -444
+      }
+    },
+    {
+      "tick": 141,
+      "seq": 142,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 168,
+        "y": -445
+      }
+    },
+    {
+      "tick": 142,
+      "seq": 143,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 183,
+        "y": -443
+      }
+    },
+    {
+      "tick": 143,
+      "seq": 144,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 182,
+        "y": -440
+      }
+    },
+    {
+      "tick": 144,
+      "seq": 145,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -334,
+        "y": 942
+      }
+    },
+    {
+      "tick": 145,
+      "seq": 146,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -408,
+        "y": 912
+      }
+    },
+    {
+      "tick": 146,
+      "seq": 147,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -404,
+        "y": 914
+      }
+    },
+    {
+      "tick": 147,
+      "seq": 148,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -395,
+        "y": 918
+      }
+    },
+    {
+      "tick": 148,
+      "seq": 149,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -388,
+        "y": 921
+      }
+    },
+    {
+      "tick": 149,
+      "seq": 150,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -378,
+        "y": 925
+      }
+    },
+    {
+      "tick": 150,
+      "seq": 151,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -353,
+        "y": 935
+      }
+    },
+    {
+      "tick": 151,
+      "seq": 152,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -171,
+        "y": 518
+      }
+    },
+    {
+      "tick": 152,
+      "seq": 153,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 66
+      }
+    },
+    {
+      "tick": 153,
+      "seq": 154,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 16,
+        "y": 66
+      }
+    },
+    {
+      "tick": 154,
+      "seq": 155,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 67
+      }
+    },
+    {
+      "tick": 155,
+      "seq": 156,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 66
+      }
+    },
+    {
+      "tick": 156,
+      "seq": 157,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 66
+      }
+    },
+    {
+      "tick": 157,
+      "seq": 158,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -308,
+        "y": -275
+      }
+    },
+    {
+      "tick": 158,
+      "seq": 159,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 15,
+        "y": 65
+      }
+    },
+    {
+      "tick": 159,
+      "seq": 160,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 67
+      }
+    },
+    {
+      "tick": 160,
+      "seq": 161,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -304,
+        "y": -277
+      }
+    },
+    {
+      "tick": 161,
+      "seq": 162,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 16,
+        "y": 65
+      }
+    },
+    {
+      "tick": 162,
+      "seq": 163,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 66
+      }
+    },
+    {
+      "tick": 163,
+      "seq": 164,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -300,
+        "y": -278
+      }
+    },
+    {
+      "tick": 164,
+      "seq": 165,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 16,
+        "y": 65
+      }
+    },
+    {
+      "tick": 165,
+      "seq": 166,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 66
+      }
+    },
+    {
+      "tick": 166,
+      "seq": 167,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -296,
+        "y": -279
+      }
+    },
+    {
+      "tick": 167,
+      "seq": 168,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 15,
+        "y": 65
+      }
+    },
+    {
+      "tick": 168,
+      "seq": 169,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 83
+      }
+    },
+    {
+      "tick": 169,
+      "seq": 170,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 66
+      }
+    },
+    {
+      "tick": 170,
+      "seq": 171,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -274,
+        "y": -298
+      }
+    },
+    {
+      "tick": 171,
+      "seq": 172,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 82
+      }
+    },
+    {
+      "tick": 172,
+      "seq": 173,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 16,
+        "y": 66
+      }
+    },
+    {
+      "tick": 173,
+      "seq": 174,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -287,
+        "y": -299
+      }
+    },
+    {
+      "tick": 174,
+      "seq": 175,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 16,
+        "y": 65
+      }
+    },
+    {
+      "tick": 175,
+      "seq": 176,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 83
+      }
+    },
+    {
+      "tick": 176,
+      "seq": 177,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -266,
+        "y": -300
+      }
+    },
+    {
+      "tick": 177,
+      "seq": 178,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 65
+      }
+    },
+    {
+      "tick": 178,
+      "seq": 179,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 16,
+        "y": 66
+      }
+    },
+    {
+      "tick": 179,
+      "seq": 180,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 83
+      }
+    },
+    {
+      "tick": 180,
+      "seq": 181,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -262,
+        "y": -301
+      }
+    },
+    {
+      "tick": 181,
+      "seq": 182,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 16,
+        "y": 65
+      }
+    },
+    {
+      "tick": 182,
+      "seq": 183,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 30
+      }
+    },
+    {
+      "tick": 183,
+      "seq": 184,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 14
+      }
+    },
+    {
+      "tick": 184,
+      "seq": 185,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 66,
+        "y": 14
+      }
+    },
+    {
+      "tick": 185,
+      "seq": 186,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 31
+      }
+    },
+    {
+      "tick": 186,
+      "seq": 187,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 84,
+        "y": 14
+      }
+    },
+    {
+      "tick": 187,
+      "seq": 188,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 14
+      }
+    },
+    {
+      "tick": 188,
+      "seq": 189,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 66,
+        "y": 14
+      }
+    },
+    {
+      "tick": 189,
+      "seq": 190,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 30
+      }
+    },
+    {
+      "tick": 190,
+      "seq": 191,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 84,
+        "y": 14
+      }
+    },
+    {
+      "tick": 191,
+      "seq": 192,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 14
+      }
+    },
+    {
+      "tick": 192,
+      "seq": 193,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 31
+      }
+    },
+    {
+      "tick": 193,
+      "seq": 194,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 66,
+        "y": 14
+      }
+    },
+    {
+      "tick": 194,
+      "seq": 195,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 14
+      }
+    },
+    {
+      "tick": 195,
+      "seq": 196,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 84,
+        "y": 14
+      }
+    },
+    {
+      "tick": 196,
+      "seq": 197,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 14
+      }
+    },
+    {
+      "tick": 197,
+      "seq": 198,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 30
+      }
+    },
+    {
+      "tick": 198,
+      "seq": 199,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 66,
+        "y": 14
+      }
+    },
+    {
+      "tick": 199,
+      "seq": 200,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 14
+      }
+    },
+    {
+      "tick": 200,
+      "seq": 201,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 84,
+        "y": 14
+      }
+    },
+    {
+      "tick": 201,
+      "seq": 202,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 31
+      }
+    },
+    {
+      "tick": 202,
+      "seq": 203,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 14
+      }
+    },
+    {
+      "tick": 203,
+      "seq": 204,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 66,
+        "y": 14
+      }
+    },
+    {
+      "tick": 204,
+      "seq": 205,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 14
+      }
+    },
+    {
+      "tick": 205,
+      "seq": 206,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 84,
+        "y": 14
+      }
+    },
+    {
+      "tick": 206,
+      "seq": 207,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 31
+      }
+    },
+    {
+      "tick": 207,
+      "seq": 208,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 66,
+        "y": 14
+      }
+    },
+    {
+      "tick": 208,
+      "seq": 209,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 14
+      }
+    },
+    {
+      "tick": 209,
+      "seq": 210,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 14
+      }
+    },
+    {
+      "tick": 210,
+      "seq": 211,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 67,
+        "y": 14
+      }
+    },
+    {
+      "tick": 210,
+      "seq": 212,
+      "type": "BARK",
+      "value": null
+    },
+    {
+      "tick": 211,
+      "seq": 213,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 73,
+        "y": -597
+      }
+    },
+    {
+      "tick": 212,
+      "seq": 214,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 73,
+        "y": -599
+      }
+    },
+    {
+      "tick": 213,
+      "seq": 215,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 55,
+        "y": -598
+      }
+    },
+    {
+      "tick": 214,
+      "seq": 216,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 73,
+        "y": -583
+      }
+    },
+    {
+      "tick": 215,
+      "seq": 217,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 72,
+        "y": -599
+      }
+    },
+    {
+      "tick": 216,
+      "seq": 218,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 72,
+        "y": -600
+      }
+    },
+    {
+      "tick": 217,
+      "seq": 219,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 72,
+        "y": -599
+      }
+    },
+    {
+      "tick": 218,
+      "seq": 220,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 73,
+        "y": -600
+      }
+    },
+    {
+      "tick": 219,
+      "seq": 221,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 71,
+        "y": -599
+      }
+    },
+    {
+      "tick": 220,
+      "seq": 222,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 105,
+        "y": -368
+      }
+    },
+    {
+      "tick": 221,
+      "seq": 223,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 101,
+        "y": -293
+      }
+    },
+    {
+      "tick": 222,
+      "seq": 224,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 78,
+        "y": -294
+      }
+    },
+    {
+      "tick": 223,
+      "seq": 225,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 100,
+        "y": 62
+      }
+    },
+    {
+      "tick": 224,
+      "seq": 226,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 100,
+        "y": 47
+      }
+    },
+    {
+      "tick": 225,
+      "seq": 227,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 84,
+        "y": 47
+      }
+    },
+    {
+      "tick": 226,
+      "seq": 228,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 100,
+        "y": 47
+      }
+    },
+    {
+      "tick": 227,
+      "seq": 229,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 101,
+        "y": 47
+      }
+    },
+    {
+      "tick": 228,
+      "seq": 230,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 83,
+        "y": 64
+      }
+    },
+    {
+      "tick": 229,
+      "seq": 231,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 100,
+        "y": 47
+      }
+    },
+    {
+      "tick": 230,
+      "seq": 232,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 101,
+        "y": 47
+      }
+    },
+    {
+      "tick": 231,
+      "seq": 233,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 83,
+        "y": 47
+      }
+    },
+    {
+      "tick": 232,
+      "seq": 234,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 101,
+        "y": 47
+      }
+    },
+    {
+      "tick": 233,
+      "seq": 235,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 83,
+        "y": 47
+      }
+    },
+    {
+      "tick": 234,
+      "seq": 236,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 84,
+        "y": 47
+      }
+    },
+    {
+      "tick": 235,
+      "seq": 237,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 100,
+        "y": 47
+      }
+    },
+    {
+      "tick": 236,
+      "seq": 238,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 84,
+        "y": 47
+      }
+    },
+    {
+      "tick": 237,
+      "seq": 239,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 100,
+        "y": 47
+      }
+    },
+    {
+      "tick": 238,
+      "seq": 240,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 84,
+        "y": 47
+      }
+    },
+    {
+      "tick": 239,
+      "seq": 241,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 84,
+        "y": 47
+      }
+    },
+    {
+      "tick": 240,
+      "seq": 242,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 84,
+        "y": 47
+      }
+    },
+    {
+      "tick": 241,
+      "seq": 243,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 83,
+        "y": 47
+      }
+    },
+    {
+      "tick": 242,
+      "seq": 244,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 243,
+      "seq": 245,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 244,
+      "seq": 246,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 245,
+      "seq": 247,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 246,
+      "seq": 248,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 247,
+      "seq": 249,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 248,
+      "seq": 250,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 249,
+      "seq": 251,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 250,
+      "seq": 252,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 251,
+      "seq": 253,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 252,
+      "seq": 254,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -16,
+        "y": 47
+      }
+    },
+    {
+      "tick": 253,
+      "seq": 255,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 254,
+      "seq": 256,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 255,
+      "seq": 257,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 256,
+      "seq": 258,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 257,
+      "seq": 259,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 258,
+      "seq": 260,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 259,
+      "seq": 261,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 260,
+      "seq": 262,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 261,
+      "seq": 263,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 262,
+      "seq": 264,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 263,
+      "seq": 265,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 264,
+      "seq": 266,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 265,
+      "seq": 267,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 266,
+      "seq": 268,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 267,
+      "seq": 269,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 268,
+      "seq": 270,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 269,
+      "seq": 271,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 270,
+      "seq": 272,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 271,
+      "seq": 273,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 272,
+      "seq": 274,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 273,
+      "seq": 275,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 274,
+      "seq": 276,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 275,
+      "seq": 277,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 276,
+      "seq": 278,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 277,
+      "seq": 279,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 278,
+      "seq": 280,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 279,
+      "seq": 281,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 280,
+      "seq": 282,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 281,
+      "seq": 283,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 282,
+      "seq": 284,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 283,
+      "seq": 285,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 284,
+      "seq": 286,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 285,
+      "seq": 287,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 308,
+        "y": -285
+      }
+    },
+    {
+      "tick": 286,
+      "seq": 288,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 46
+      }
+    },
+    {
+      "tick": 287,
+      "seq": 289,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 288,
+      "seq": 290,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 289,
+      "seq": 291,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -16,
+        "y": 47
+      }
+    },
+    {
+      "tick": 290,
+      "seq": 292,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 307,
+        "y": -286
+      }
+    },
+    {
+      "tick": 291,
+      "seq": 293,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 46
+      }
+    },
+    {
+      "tick": 292,
+      "seq": 294,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 293,
+      "seq": 295,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 294,
+      "seq": 296,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 295,
+      "seq": 297,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 306,
+        "y": -287
+      }
+    },
+    {
+      "tick": 296,
+      "seq": 298,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -16,
+        "y": 46
+      }
+    },
+    {
+      "tick": 297,
+      "seq": 299,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 298,
+      "seq": 300,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 299,
+      "seq": 301,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 300,
+      "seq": 302,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 47
+      }
+    },
+    {
+      "tick": 301,
+      "seq": 303,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 304,
+        "y": -287
+      }
+    },
+    {
+      "tick": 302,
+      "seq": 304,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 303,
+      "seq": 305,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 304,
+      "seq": 306,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 305,
+      "seq": 307,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 383,
+        "y": -275
+      }
+    },
+    {
+      "tick": 306,
+      "seq": 308,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 307,
+      "seq": 309,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 308,
+      "seq": 310,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 359,
+        "y": -276
+      }
+    },
+    {
+      "tick": 309,
+      "seq": 311,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 310,
+      "seq": 312,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 311,
+      "seq": 313,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 371,
+        "y": -279
+      }
+    },
+    {
+      "tick": 312,
+      "seq": 314,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 313,
+      "seq": 315,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 314,
+      "seq": 316,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 364,
+        "y": -281
+      }
+    },
+    {
+      "tick": 315,
+      "seq": 317,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 316,
+      "seq": 318,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 317,
+      "seq": 319,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 358,
+        "y": -300
+      }
+    },
+    {
+      "tick": 318,
+      "seq": 320,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 319,
+      "seq": 321,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 320,
+      "seq": 322,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 352,
+        "y": -284
+      }
+    },
+    {
+      "tick": 321,
+      "seq": 323,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 322,
+      "seq": 324,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 323,
+      "seq": 325,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 324,
+      "seq": 326,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 325,
+      "seq": 327,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 343,
+        "y": -304
+      }
+    },
+    {
+      "tick": 326,
+      "seq": 328,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 327,
+      "seq": 329,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 328,
+      "seq": 330,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 329,
+      "seq": 331,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 330,
+      "seq": 332,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 335,
+        "y": -306
+      }
+    },
+    {
+      "tick": 331,
+      "seq": 333,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 332,
+      "seq": 334,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 333,
+      "seq": 335,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 334,
+      "seq": 336,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 335,
+      "seq": 337,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 336,
+      "seq": 338,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 337,
+      "seq": 339,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 307,
+        "y": -307
+      }
+    },
+    {
+      "tick": 338,
+      "seq": 340,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 339,
+      "seq": 341,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 340,
+      "seq": 342,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 341,
+      "seq": 343,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 342,
+      "seq": 344,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 343,
+      "seq": 345,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 344,
+      "seq": 346,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 345,
+      "seq": 347,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 346,
+      "seq": 348,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 347,
+      "seq": 349,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 11
+      }
+    },
+    {
+      "tick": 348,
+      "seq": 350,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -16,
+        "y": 33
+      }
+    },
+    {
+      "tick": 349,
+      "seq": 351,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 34
+      }
+    },
+    {
+      "tick": 350,
+      "seq": 352,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 190,
+        "y": 16
+      }
+    },
+    {
+      "tick": 351,
+      "seq": 353,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 173,
+        "y": 16
+      }
+    },
+    {
+      "tick": 352,
+      "seq": 354,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 189,
+        "y": 0
+      }
+    },
+    {
+      "tick": 353,
+      "seq": 355,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 171,
+        "y": 16
+      }
+    },
+    {
+      "tick": 354,
+      "seq": 356,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 170,
+        "y": 17
+      }
+    },
+    {
+      "tick": 355,
+      "seq": 357,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 170,
+        "y": 16
+      }
+    },
+    {
+      "tick": 356,
+      "seq": 358,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -324,
+        "y": 67
+      }
+    },
+    {
+      "tick": 357,
+      "seq": 359,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -341,
+        "y": 84
+      }
+    },
+    {
+      "tick": 358,
+      "seq": 360,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -342,
+        "y": 67
+      }
+    },
+    {
+      "tick": 359,
+      "seq": 361,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -325,
+        "y": 66
+      }
+    },
+    {
+      "tick": 360,
+      "seq": 362,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -341,
+        "y": 67
+      }
+    },
+    {
+      "tick": 360,
+      "seq": 363,
+      "type": "BARK",
+      "value": null
+    },
+    {
+      "tick": 361,
+      "seq": 364,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -627,
+        "y": -260
+      }
+    },
+    {
+      "tick": 362,
+      "seq": 365,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -639,
+        "y": -247
+      }
+    },
+    {
+      "tick": 363,
+      "seq": 366,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -648,
+        "y": -266
+      }
+    },
+    {
+      "tick": 364,
+      "seq": 367,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -660,
+        "y": -284
+      }
+    },
+    {
+      "tick": 365,
+      "seq": 368,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -669,
+        "y": -286
+      }
+    },
+    {
+      "tick": 366,
+      "seq": 369,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -663,
+        "y": -304
+      }
+    },
+    {
+      "tick": 367,
+      "seq": 370,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -689,
+        "y": -156
+      }
+    },
+    {
+      "tick": 368,
+      "seq": 371,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -667,
+        "y": -17
+      }
+    },
+    {
+      "tick": 369,
+      "seq": 372,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -647,
+        "y": -33
+      }
+    },
+    {
+      "tick": 370,
+      "seq": 373,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -643,
+        "y": -51
+      }
+    },
+    {
+      "tick": 371,
+      "seq": 374,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -622,
+        "y": -50
+      }
+    },
+    {
+      "tick": 372,
+      "seq": 375,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -602,
+        "y": -51
+      }
+    },
+    {
+      "tick": 373,
+      "seq": 376,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 591,
+        "y": 83
+      }
+    },
+    {
+      "tick": 374,
+      "seq": 377,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 575,
+        "y": 84
+      }
+    },
+    {
+      "tick": 375,
+      "seq": 378,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 593,
+        "y": 66
+      }
+    },
+    {
+      "tick": 376,
+      "seq": 379,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 592,
+        "y": 67
+      }
+    },
+    {
+      "tick": 377,
+      "seq": 380,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 576,
+        "y": 67
+      }
+    },
+    {
+      "tick": 378,
+      "seq": 381,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 671,
+        "y": -165
+      }
+    },
+    {
+      "tick": 379,
+      "seq": 382,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 648,
+        "y": 0
+      }
+    },
+    {
+      "tick": 380,
+      "seq": 383,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 645,
+        "y": 0
+      }
+    },
+    {
+      "tick": 381,
+      "seq": 384,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 624,
+        "y": -16
+      }
+    },
+    {
+      "tick": 382,
+      "seq": 385,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 637,
+        "y": -34
+      }
+    },
+    {
+      "tick": 383,
+      "seq": 386,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 600,
+        "y": -50
+      }
+    },
+    {
+      "tick": 384,
+      "seq": 387,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -474,
+        "y": 32
+      }
+    },
+    {
+      "tick": 385,
+      "seq": 388,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -688,
+        "y": 34
+      }
+    },
+    {
+      "tick": 386,
+      "seq": 389,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -650,
+        "y": 34
+      }
+    },
+    {
+      "tick": 387,
+      "seq": 390,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -663,
+        "y": 0
+      }
+    },
+    {
+      "tick": 388,
+      "seq": 391,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -625,
+        "y": 0
+      }
+    },
+    {
+      "tick": 389,
+      "seq": 392,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -622,
+        "y": 0
+      }
+    },
+    {
+      "tick": 390,
+      "seq": 393,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -617,
+        "y": -33
+      }
+    },
+    {
+      "tick": 391,
+      "seq": 394,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 392,
+      "seq": 395,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 393,
+      "seq": 396,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 394,
+      "seq": 397,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 395,
+      "seq": 398,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 396,
+      "seq": 399,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 397,
+      "seq": 400,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 398,
+      "seq": 401,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 399,
+      "seq": 402,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 400,
+      "seq": 403,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 401,
+      "seq": 404,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 402,
+      "seq": 405,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 403,
+      "seq": 406,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 404,
+      "seq": 407,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 405,
+      "seq": 408,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 406,
+      "seq": 409,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 407,
+      "seq": 410,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 408,
+      "seq": 411,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 409,
+      "seq": 412,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 410,
+      "seq": 413,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 411,
+      "seq": 414,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 412,
+      "seq": 415,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 413,
+      "seq": 416,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 414,
+      "seq": 417,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 415,
+      "seq": 418,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 416,
+      "seq": 419,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 417,
+      "seq": 420,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 418,
+      "seq": 421,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "tick": 419,
+      "seq": 422,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 138,
+        "y": -279
+      }
+    },
+    {
+      "tick": 420,
+      "seq": 423,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 115,
+        "y": -293
+      }
+    },
+    {
+      "tick": 421,
+      "seq": 424,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 91,
+        "y": -290
+      }
+    },
+    {
+      "tick": 422,
+      "seq": 425,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": 84,
+        "y": -287
+      }
+    },
+    {
+      "tick": 423,
+      "seq": 426,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -155,
+        "y": -575
+      }
+    },
+    {
+      "tick": 424,
+      "seq": 427,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -172,
+        "y": -589
+      }
+    },
+    {
+      "tick": 425,
+      "seq": 428,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -205,
+        "y": -568
+      }
+    },
+    {
+      "tick": 426,
+      "seq": 429,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -238,
+        "y": -596
+      }
+    },
+    {
+      "tick": 427,
+      "seq": 430,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -304,
+        "y": -573
+      }
+    },
+    {
+      "tick": 428,
+      "seq": 431,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -370,
+        "y": -600
+      }
+    },
+    {
+      "tick": 429,
+      "seq": 432,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -485,
+        "y": -610
+      }
+    },
+    {
+      "tick": 430,
+      "seq": 433,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -920,
+        "y": -391
+      }
+    },
+    {
+      "tick": 431,
+      "seq": 434,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -891,
+        "y": -453
+      }
+    },
+    {
+      "tick": 432,
+      "seq": 435,
+      "type": "DOG_MOVE",
+      "value": {
+        "x": -857,
+        "y": -514
+      }
+    }
+  ],
+  "events": [
+    {
+      "event_key": "herd:1:DOG_MOVED:0",
+      "tick": 1,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:2:DOG_MOVED:0",
+      "tick": 2,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:3:DOG_MOVED:0",
+      "tick": 3,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:4:DOG_MOVED:0",
+      "tick": 4,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:5:DOG_MOVED:0",
+      "tick": 5,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:6:DOG_MOVED:0",
+      "tick": 6,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:7:DOG_MOVED:0",
+      "tick": 7,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:8:DOG_MOVED:0",
+      "tick": 8,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:9:DOG_MOVED:0",
+      "tick": 9,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:10:DOG_MOVED:0",
+      "tick": 10,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:11:DOG_MOVED:0",
+      "tick": 11,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:12:DOG_MOVED:0",
+      "tick": 12,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:13:DOG_MOVED:0",
+      "tick": 13,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:14:DOG_MOVED:0",
+      "tick": 14,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:15:DOG_MOVED:0",
+      "tick": 15,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:16:DOG_MOVED:0",
+      "tick": 16,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:17:DOG_MOVED:0",
+      "tick": 17,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:18:DOG_MOVED:0",
+      "tick": 18,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:19:DOG_MOVED:0",
+      "tick": 19,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:20:DOG_MOVED:0",
+      "tick": 20,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:21:DOG_MOVED:0",
+      "tick": 21,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:22:DOG_MOVED:0",
+      "tick": 22,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:23:DOG_MOVED:0",
+      "tick": 23,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:24:DOG_MOVED:0",
+      "tick": 24,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:25:DOG_MOVED:0",
+      "tick": 25,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:26:DOG_MOVED:0",
+      "tick": 26,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:27:DOG_MOVED:0",
+      "tick": 27,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:28:DOG_MOVED:0",
+      "tick": 28,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:29:DOG_MOVED:0",
+      "tick": 29,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:30:DOG_MOVED:0",
+      "tick": 30,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:31:DOG_MOVED:0",
+      "tick": 31,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:32:DOG_MOVED:0",
+      "tick": 32,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:33:DOG_MOVED:0",
+      "tick": 33,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:34:DOG_MOVED:0",
+      "tick": 34,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:35:DOG_MOVED:0",
+      "tick": 35,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:36:DOG_MOVED:0",
+      "tick": 36,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:37:DOG_MOVED:0",
+      "tick": 37,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:38:DOG_MOVED:0",
+      "tick": 38,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:39:DOG_MOVED:0",
+      "tick": 39,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:40:DOG_MOVED:0",
+      "tick": 40,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:41:DOG_MOVED:0",
+      "tick": 41,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:42:DOG_MOVED:0",
+      "tick": 42,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:43:DOG_MOVED:0",
+      "tick": 43,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:44:DOG_MOVED:0",
+      "tick": 44,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:45:DOG_MOVED:0",
+      "tick": 45,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:46:DOG_MOVED:0",
+      "tick": 46,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:47:DOG_MOVED:0",
+      "tick": 47,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:48:DOG_MOVED:0",
+      "tick": 48,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:49:DOG_MOVED:0",
+      "tick": 49,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:50:DOG_MOVED:0",
+      "tick": 50,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:51:DOG_MOVED:0",
+      "tick": 51,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:52:DOG_MOVED:0",
+      "tick": 52,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:53:DOG_MOVED:0",
+      "tick": 53,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:54:DOG_MOVED:0",
+      "tick": 54,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:55:DOG_MOVED:0",
+      "tick": 55,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:56:DOG_MOVED:0",
+      "tick": 56,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:57:DOG_MOVED:0",
+      "tick": 57,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:58:DOG_MOVED:0",
+      "tick": 58,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:59:DOG_MOVED:0",
+      "tick": 59,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:60:DOG_MOVED:0",
+      "tick": 60,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:60:BARK_TRIGGERED:0",
+      "tick": 60,
+      "type": "BARK_TRIGGERED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:61:DOG_MOVED:0",
+      "tick": 61,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:62:DOG_MOVED:0",
+      "tick": 62,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:63:DOG_MOVED:0",
+      "tick": 63,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:64:DOG_MOVED:0",
+      "tick": 64,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:65:DOG_MOVED:0",
+      "tick": 65,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:66:DOG_MOVED:0",
+      "tick": 66,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:67:DOG_MOVED:0",
+      "tick": 67,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:68:DOG_MOVED:0",
+      "tick": 68,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:69:DOG_MOVED:0",
+      "tick": 69,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:70:DOG_MOVED:0",
+      "tick": 70,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:71:DOG_MOVED:0",
+      "tick": 71,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:72:DOG_MOVED:0",
+      "tick": 72,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:73:DOG_MOVED:0",
+      "tick": 73,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:74:DOG_MOVED:0",
+      "tick": 74,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:75:DOG_MOVED:0",
+      "tick": 75,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:76:DOG_MOVED:0",
+      "tick": 76,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:77:DOG_MOVED:0",
+      "tick": 77,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:78:DOG_MOVED:0",
+      "tick": 78,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:79:DOG_MOVED:0",
+      "tick": 79,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:80:DOG_MOVED:0",
+      "tick": 80,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:81:DOG_MOVED:0",
+      "tick": 81,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:82:DOG_MOVED:0",
+      "tick": 82,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:83:DOG_MOVED:0",
+      "tick": 83,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:84:DOG_MOVED:0",
+      "tick": 84,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:85:DOG_MOVED:0",
+      "tick": 85,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:86:DOG_MOVED:0",
+      "tick": 86,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:87:DOG_MOVED:0",
+      "tick": 87,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:88:DOG_MOVED:0",
+      "tick": 88,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:89:DOG_MOVED:0",
+      "tick": 89,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:90:DOG_MOVED:0",
+      "tick": 90,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:91:DOG_MOVED:0",
+      "tick": 91,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:92:DOG_MOVED:0",
+      "tick": 92,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:93:DOG_MOVED:0",
+      "tick": 93,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:94:DOG_MOVED:0",
+      "tick": 94,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:95:DOG_MOVED:0",
+      "tick": 95,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:96:DOG_MOVED:0",
+      "tick": 96,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:97:DOG_MOVED:0",
+      "tick": 97,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:98:DOG_MOVED:0",
+      "tick": 98,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:99:DOG_MOVED:0",
+      "tick": 99,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:100:DOG_MOVED:0",
+      "tick": 100,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:101:DOG_MOVED:0",
+      "tick": 101,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:101:SHEEP_PENNED:6",
+      "tick": 101,
+      "type": "SHEEP_PENNED",
+      "entity_id": 6
+    },
+    {
+      "event_key": "herd:102:DOG_MOVED:0",
+      "tick": 102,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:103:DOG_MOVED:0",
+      "tick": 103,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:103:SHEEP_PENNED:7",
+      "tick": 103,
+      "type": "SHEEP_PENNED",
+      "entity_id": 7
+    },
+    {
+      "event_key": "herd:104:DOG_MOVED:0",
+      "tick": 104,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:105:DOG_MOVED:0",
+      "tick": 105,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:106:DOG_MOVED:0",
+      "tick": 106,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:107:DOG_MOVED:0",
+      "tick": 107,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:108:DOG_MOVED:0",
+      "tick": 108,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:109:DOG_MOVED:0",
+      "tick": 109,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:110:DOG_MOVED:0",
+      "tick": 110,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:111:DOG_MOVED:0",
+      "tick": 111,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:111:SHEEP_PENNED:2",
+      "tick": 111,
+      "type": "SHEEP_PENNED",
+      "entity_id": 2
+    },
+    {
+      "event_key": "herd:112:DOG_MOVED:0",
+      "tick": 112,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:113:DOG_MOVED:0",
+      "tick": 113,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:114:DOG_MOVED:0",
+      "tick": 114,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:115:DOG_MOVED:0",
+      "tick": 115,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:116:DOG_MOVED:0",
+      "tick": 116,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:117:DOG_MOVED:0",
+      "tick": 117,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:117:SHEEP_PENNED:3",
+      "tick": 117,
+      "type": "SHEEP_PENNED",
+      "entity_id": 3
+    },
+    {
+      "event_key": "herd:118:DOG_MOVED:0",
+      "tick": 118,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:119:DOG_MOVED:0",
+      "tick": 119,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:120:DOG_MOVED:0",
+      "tick": 120,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:121:DOG_MOVED:0",
+      "tick": 121,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:122:DOG_MOVED:0",
+      "tick": 122,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:123:DOG_MOVED:0",
+      "tick": 123,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:124:DOG_MOVED:0",
+      "tick": 124,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:125:DOG_MOVED:0",
+      "tick": 125,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:126:DOG_MOVED:0",
+      "tick": 126,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:127:DOG_MOVED:0",
+      "tick": 127,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:128:DOG_MOVED:0",
+      "tick": 128,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:129:DOG_MOVED:0",
+      "tick": 129,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:130:DOG_MOVED:0",
+      "tick": 130,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:131:DOG_MOVED:0",
+      "tick": 131,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:132:DOG_MOVED:0",
+      "tick": 132,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:133:DOG_MOVED:0",
+      "tick": 133,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:134:DOG_MOVED:0",
+      "tick": 134,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:135:DOG_MOVED:0",
+      "tick": 135,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:136:DOG_MOVED:0",
+      "tick": 136,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:137:DOG_MOVED:0",
+      "tick": 137,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:138:DOG_MOVED:0",
+      "tick": 138,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:139:DOG_MOVED:0",
+      "tick": 139,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:140:DOG_MOVED:0",
+      "tick": 140,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:141:DOG_MOVED:0",
+      "tick": 141,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:142:DOG_MOVED:0",
+      "tick": 142,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:143:DOG_MOVED:0",
+      "tick": 143,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:143:SHEEP_PENNED:1",
+      "tick": 143,
+      "type": "SHEEP_PENNED",
+      "entity_id": 1
+    },
+    {
+      "event_key": "herd:143:SHEEP_PENNED:4",
+      "tick": 143,
+      "type": "SHEEP_PENNED",
+      "entity_id": 4
+    },
+    {
+      "event_key": "herd:144:DOG_MOVED:0",
+      "tick": 144,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:145:DOG_MOVED:0",
+      "tick": 145,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:146:DOG_MOVED:0",
+      "tick": 146,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:147:DOG_MOVED:0",
+      "tick": 147,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:148:DOG_MOVED:0",
+      "tick": 148,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:149:DOG_MOVED:0",
+      "tick": 149,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:150:DOG_MOVED:0",
+      "tick": 150,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:151:DOG_MOVED:0",
+      "tick": 151,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:152:DOG_MOVED:0",
+      "tick": 152,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:153:DOG_MOVED:0",
+      "tick": 153,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:154:DOG_MOVED:0",
+      "tick": 154,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:155:DOG_MOVED:0",
+      "tick": 155,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:156:DOG_MOVED:0",
+      "tick": 156,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:157:DOG_MOVED:0",
+      "tick": 157,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:158:DOG_MOVED:0",
+      "tick": 158,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:159:DOG_MOVED:0",
+      "tick": 159,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:160:DOG_MOVED:0",
+      "tick": 160,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:161:DOG_MOVED:0",
+      "tick": 161,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:162:DOG_MOVED:0",
+      "tick": 162,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:163:DOG_MOVED:0",
+      "tick": 163,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:164:DOG_MOVED:0",
+      "tick": 164,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:165:DOG_MOVED:0",
+      "tick": 165,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:166:DOG_MOVED:0",
+      "tick": 166,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:167:DOG_MOVED:0",
+      "tick": 167,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:168:DOG_MOVED:0",
+      "tick": 168,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:169:DOG_MOVED:0",
+      "tick": 169,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:170:DOG_MOVED:0",
+      "tick": 170,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:171:DOG_MOVED:0",
+      "tick": 171,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:172:DOG_MOVED:0",
+      "tick": 172,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:173:DOG_MOVED:0",
+      "tick": 173,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:174:DOG_MOVED:0",
+      "tick": 174,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:175:DOG_MOVED:0",
+      "tick": 175,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:176:DOG_MOVED:0",
+      "tick": 176,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:177:DOG_MOVED:0",
+      "tick": 177,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:178:DOG_MOVED:0",
+      "tick": 178,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:179:DOG_MOVED:0",
+      "tick": 179,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:180:DOG_MOVED:0",
+      "tick": 180,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:181:DOG_MOVED:0",
+      "tick": 181,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:182:DOG_MOVED:0",
+      "tick": 182,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:183:DOG_MOVED:0",
+      "tick": 183,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:184:DOG_MOVED:0",
+      "tick": 184,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:185:DOG_MOVED:0",
+      "tick": 185,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:186:DOG_MOVED:0",
+      "tick": 186,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:187:DOG_MOVED:0",
+      "tick": 187,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:188:DOG_MOVED:0",
+      "tick": 188,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:189:DOG_MOVED:0",
+      "tick": 189,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:190:DOG_MOVED:0",
+      "tick": 190,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:191:DOG_MOVED:0",
+      "tick": 191,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:192:DOG_MOVED:0",
+      "tick": 192,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:193:DOG_MOVED:0",
+      "tick": 193,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:194:DOG_MOVED:0",
+      "tick": 194,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:195:DOG_MOVED:0",
+      "tick": 195,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:196:DOG_MOVED:0",
+      "tick": 196,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:197:DOG_MOVED:0",
+      "tick": 197,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:198:DOG_MOVED:0",
+      "tick": 198,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:199:DOG_MOVED:0",
+      "tick": 199,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:200:DOG_MOVED:0",
+      "tick": 200,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:201:DOG_MOVED:0",
+      "tick": 201,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:202:DOG_MOVED:0",
+      "tick": 202,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:203:DOG_MOVED:0",
+      "tick": 203,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:204:DOG_MOVED:0",
+      "tick": 204,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:205:DOG_MOVED:0",
+      "tick": 205,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:206:DOG_MOVED:0",
+      "tick": 206,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:207:DOG_MOVED:0",
+      "tick": 207,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:208:DOG_MOVED:0",
+      "tick": 208,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:209:DOG_MOVED:0",
+      "tick": 209,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:210:DOG_MOVED:0",
+      "tick": 210,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:210:BARK_TRIGGERED:0",
+      "tick": 210,
+      "type": "BARK_TRIGGERED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:211:DOG_MOVED:0",
+      "tick": 211,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:212:DOG_MOVED:0",
+      "tick": 212,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:213:DOG_MOVED:0",
+      "tick": 213,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:214:DOG_MOVED:0",
+      "tick": 214,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:215:DOG_MOVED:0",
+      "tick": 215,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:216:DOG_MOVED:0",
+      "tick": 216,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:217:DOG_MOVED:0",
+      "tick": 217,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:218:DOG_MOVED:0",
+      "tick": 218,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:219:DOG_MOVED:0",
+      "tick": 219,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:220:DOG_MOVED:0",
+      "tick": 220,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:221:DOG_MOVED:0",
+      "tick": 221,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:222:DOG_MOVED:0",
+      "tick": 222,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:223:DOG_MOVED:0",
+      "tick": 223,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:224:DOG_MOVED:0",
+      "tick": 224,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:225:DOG_MOVED:0",
+      "tick": 225,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:226:DOG_MOVED:0",
+      "tick": 226,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:227:DOG_MOVED:0",
+      "tick": 227,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:228:DOG_MOVED:0",
+      "tick": 228,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:229:DOG_MOVED:0",
+      "tick": 229,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:230:DOG_MOVED:0",
+      "tick": 230,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:231:DOG_MOVED:0",
+      "tick": 231,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:232:DOG_MOVED:0",
+      "tick": 232,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:233:DOG_MOVED:0",
+      "tick": 233,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:234:DOG_MOVED:0",
+      "tick": 234,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:235:DOG_MOVED:0",
+      "tick": 235,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:236:DOG_MOVED:0",
+      "tick": 236,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:237:DOG_MOVED:0",
+      "tick": 237,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:238:DOG_MOVED:0",
+      "tick": 238,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:239:DOG_MOVED:0",
+      "tick": 239,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:240:DOG_MOVED:0",
+      "tick": 240,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:241:DOG_MOVED:0",
+      "tick": 241,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:242:DOG_MOVED:0",
+      "tick": 242,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:243:DOG_MOVED:0",
+      "tick": 243,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:244:DOG_MOVED:0",
+      "tick": 244,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:245:DOG_MOVED:0",
+      "tick": 245,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:246:DOG_MOVED:0",
+      "tick": 246,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:247:DOG_MOVED:0",
+      "tick": 247,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:248:DOG_MOVED:0",
+      "tick": 248,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:249:DOG_MOVED:0",
+      "tick": 249,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:250:DOG_MOVED:0",
+      "tick": 250,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:251:DOG_MOVED:0",
+      "tick": 251,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:252:DOG_MOVED:0",
+      "tick": 252,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:253:DOG_MOVED:0",
+      "tick": 253,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:254:DOG_MOVED:0",
+      "tick": 254,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:255:DOG_MOVED:0",
+      "tick": 255,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:256:DOG_MOVED:0",
+      "tick": 256,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:257:DOG_MOVED:0",
+      "tick": 257,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:258:DOG_MOVED:0",
+      "tick": 258,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:259:DOG_MOVED:0",
+      "tick": 259,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:260:DOG_MOVED:0",
+      "tick": 260,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:261:DOG_MOVED:0",
+      "tick": 261,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:262:DOG_MOVED:0",
+      "tick": 262,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:263:DOG_MOVED:0",
+      "tick": 263,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:264:DOG_MOVED:0",
+      "tick": 264,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:265:DOG_MOVED:0",
+      "tick": 265,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:266:DOG_MOVED:0",
+      "tick": 266,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:267:DOG_MOVED:0",
+      "tick": 267,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:268:DOG_MOVED:0",
+      "tick": 268,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:269:DOG_MOVED:0",
+      "tick": 269,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:270:DOG_MOVED:0",
+      "tick": 270,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:271:DOG_MOVED:0",
+      "tick": 271,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:272:DOG_MOVED:0",
+      "tick": 272,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:273:DOG_MOVED:0",
+      "tick": 273,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:274:DOG_MOVED:0",
+      "tick": 274,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:275:DOG_MOVED:0",
+      "tick": 275,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:276:DOG_MOVED:0",
+      "tick": 276,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:277:DOG_MOVED:0",
+      "tick": 277,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:278:DOG_MOVED:0",
+      "tick": 278,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:279:DOG_MOVED:0",
+      "tick": 279,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:280:DOG_MOVED:0",
+      "tick": 280,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:281:DOG_MOVED:0",
+      "tick": 281,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:282:DOG_MOVED:0",
+      "tick": 282,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:283:DOG_MOVED:0",
+      "tick": 283,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:284:DOG_MOVED:0",
+      "tick": 284,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:285:DOG_MOVED:0",
+      "tick": 285,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:286:DOG_MOVED:0",
+      "tick": 286,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:287:DOG_MOVED:0",
+      "tick": 287,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:288:DOG_MOVED:0",
+      "tick": 288,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:289:DOG_MOVED:0",
+      "tick": 289,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:290:DOG_MOVED:0",
+      "tick": 290,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:291:DOG_MOVED:0",
+      "tick": 291,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:292:DOG_MOVED:0",
+      "tick": 292,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:293:DOG_MOVED:0",
+      "tick": 293,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:294:DOG_MOVED:0",
+      "tick": 294,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:295:DOG_MOVED:0",
+      "tick": 295,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:296:DOG_MOVED:0",
+      "tick": 296,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:297:DOG_MOVED:0",
+      "tick": 297,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:298:DOG_MOVED:0",
+      "tick": 298,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:299:DOG_MOVED:0",
+      "tick": 299,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:300:DOG_MOVED:0",
+      "tick": 300,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:301:DOG_MOVED:0",
+      "tick": 301,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:305:DOG_MOVED:0",
+      "tick": 305,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:308:DOG_MOVED:0",
+      "tick": 308,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:311:DOG_MOVED:0",
+      "tick": 311,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:314:DOG_MOVED:0",
+      "tick": 314,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:317:DOG_MOVED:0",
+      "tick": 317,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:320:DOG_MOVED:0",
+      "tick": 320,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:325:DOG_MOVED:0",
+      "tick": 325,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:330:DOG_MOVED:0",
+      "tick": 330,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:337:DOG_MOVED:0",
+      "tick": 337,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:347:DOG_MOVED:0",
+      "tick": 347,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:348:DOG_MOVED:0",
+      "tick": 348,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:349:DOG_MOVED:0",
+      "tick": 349,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:350:DOG_MOVED:0",
+      "tick": 350,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:351:DOG_MOVED:0",
+      "tick": 351,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:352:DOG_MOVED:0",
+      "tick": 352,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:353:DOG_MOVED:0",
+      "tick": 353,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:354:DOG_MOVED:0",
+      "tick": 354,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:355:DOG_MOVED:0",
+      "tick": 355,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:356:DOG_MOVED:0",
+      "tick": 356,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:357:DOG_MOVED:0",
+      "tick": 357,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:358:DOG_MOVED:0",
+      "tick": 358,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:359:DOG_MOVED:0",
+      "tick": 359,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:360:DOG_MOVED:0",
+      "tick": 360,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:360:BARK_TRIGGERED:0",
+      "tick": 360,
+      "type": "BARK_TRIGGERED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:361:DOG_MOVED:0",
+      "tick": 361,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:362:DOG_MOVED:0",
+      "tick": 362,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:363:DOG_MOVED:0",
+      "tick": 363,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:364:DOG_MOVED:0",
+      "tick": 364,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:365:DOG_MOVED:0",
+      "tick": 365,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:366:DOG_MOVED:0",
+      "tick": 366,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:367:DOG_MOVED:0",
+      "tick": 367,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:368:DOG_MOVED:0",
+      "tick": 368,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:369:DOG_MOVED:0",
+      "tick": 369,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:370:DOG_MOVED:0",
+      "tick": 370,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:371:DOG_MOVED:0",
+      "tick": 371,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:372:DOG_MOVED:0",
+      "tick": 372,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:373:DOG_MOVED:0",
+      "tick": 373,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:374:DOG_MOVED:0",
+      "tick": 374,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:375:DOG_MOVED:0",
+      "tick": 375,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:376:DOG_MOVED:0",
+      "tick": 376,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:377:DOG_MOVED:0",
+      "tick": 377,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:378:DOG_MOVED:0",
+      "tick": 378,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:379:DOG_MOVED:0",
+      "tick": 379,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:380:DOG_MOVED:0",
+      "tick": 380,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:381:DOG_MOVED:0",
+      "tick": 381,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:382:DOG_MOVED:0",
+      "tick": 382,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:383:DOG_MOVED:0",
+      "tick": 383,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:384:DOG_MOVED:0",
+      "tick": 384,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:385:DOG_MOVED:0",
+      "tick": 385,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:386:DOG_MOVED:0",
+      "tick": 386,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:387:DOG_MOVED:0",
+      "tick": 387,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:388:DOG_MOVED:0",
+      "tick": 388,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:389:DOG_MOVED:0",
+      "tick": 389,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:390:DOG_MOVED:0",
+      "tick": 390,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:419:DOG_MOVED:0",
+      "tick": 419,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:420:DOG_MOVED:0",
+      "tick": 420,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:421:DOG_MOVED:0",
+      "tick": 421,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:422:DOG_MOVED:0",
+      "tick": 422,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:423:DOG_MOVED:0",
+      "tick": 423,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:424:DOG_MOVED:0",
+      "tick": 424,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:425:DOG_MOVED:0",
+      "tick": 425,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:426:DOG_MOVED:0",
+      "tick": 426,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:427:DOG_MOVED:0",
+      "tick": 427,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:428:DOG_MOVED:0",
+      "tick": 428,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:429:DOG_MOVED:0",
+      "tick": 429,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:429:SHEEP_PENNED:8",
+      "tick": 429,
+      "type": "SHEEP_PENNED",
+      "entity_id": 8
+    },
+    {
+      "event_key": "herd:430:DOG_MOVED:0",
+      "tick": 430,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:431:DOG_MOVED:0",
+      "tick": 431,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:432:DOG_MOVED:0",
+      "tick": 432,
+      "type": "DOG_MOVED",
+      "entity_id": null
+    },
+    {
+      "event_key": "herd:432:SHEEP_PENNED:5",
+      "tick": 432,
+      "type": "SHEEP_PENNED",
+      "entity_id": 5
+    },
+    {
+      "event_key": "herd:432:GAME_ENDED:0",
+      "tick": 432,
+      "type": "GAME_ENDED",
+      "entity_id": null
+    }
+  ],
+  "sha256": "ebca49706517ecdb6a0465df41e0a8dfab00cc62101c6d3c58f1761a06a67fd7"
+}

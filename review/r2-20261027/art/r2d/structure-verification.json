@@ -1,0 +1,24 @@
+{
+  "status": "SOURCE_VERIFIED",
+  "production_art_accepted": false,
+  "mother_sha256": "d8776c5de96737cdce9c04fd532d18d18cb5d6c7516030cccc84e049e94ec973",
+  "face_control_vertices": 640,
+  "face_blush": "corner color attribute / material linked",
+  "nose": "bevelled closed volume",
+  "horn_vertices_per_side": 4584,
+  "crown_control_surfaces": 10,
+  "camera": {
+    "position": [
+      0.0,
+      -8.0,
+      1.399999976158142
+    ],
+    "ortho_scale": 4.0
+  },
+  "root": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "not_verified": "Art target, animation, runtime integration, device"
+}

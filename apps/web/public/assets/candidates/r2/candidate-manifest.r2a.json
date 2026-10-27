@@ -1,0 +1,197 @@
+{
+  "candidate_version": "r2a-limited",
+  "status": "SOURCE_VERIFIED / REVIEW",
+  "production_art_accepted": false,
+  "art_signoff": null,
+  "production_replacement_allowed": false,
+  "assets": [
+    {
+      "asset_id": "sheep_side_r2a",
+      "image": "apps/web/public/assets/candidates/r2/sheep_side_r2a.png",
+      "sha256": "8c66896a30f7e0b959369aa9b4ec82e4470bc6bed8397d1de773fa0e938ce20a",
+      "metadata": "apps/web/public/assets/candidates/r2/sheep_side_r2a.atlas.json",
+      "metadata_sha256": "547be5064fe66a00b02ec994bd5bfc0e36dc59702498be977777e242db29be4a",
+      "frames": 2,
+      "rgba8_bytes": 1048576,
+      "measurements": [
+        {
+          "frame": "sheep_side_r2a__stack_idle__e__f000",
+          "alpha_bbox": [
+            46,
+            98,
+            217,
+            227
+          ],
+          "stack64_height": 32.25
+        },
+        {
+          "frame": "sheep_side_r2a__idle__e__f000",
+          "alpha_bbox": [
+            41,
+            55,
+            234,
+            230
+          ],
+          "stack64_height": null
+        }
+      ]
+    },
+    {
+      "asset_id": "sheep_iso_r2a",
+      "image": "apps/web/public/assets/candidates/r2/sheep_iso_r2a.png",
+      "sha256": "89d585c41220b038d3c5ebd811f33cd4dd90225ffa4371ed7164c634e2729cc0",
+      "metadata": "apps/web/public/assets/candidates/r2/sheep_iso_r2a.atlas.json",
+      "metadata_sha256": "c70f0adbfdbe0c3d2a3656792bd263297b7f5e2527b8ec34c3ac855bb31de1ce",
+      "frames": 1,
+      "rgba8_bytes": 1048576,
+      "measurements": [
+        {
+          "frame": "sheep_iso_r2a__idle__se__f000",
+          "alpha_bbox": [
+            60,
+            84,
+            210,
+            231
+          ],
+          "stack64_height": null
+        }
+      ]
+    },
+    {
+      "asset_id": "dog_iso_r2a",
+      "image": "apps/web/public/assets/candidates/r2/dog_iso_r2a.png",
+      "sha256": "24e17a53639f9f3ab5af3a58b1844ca3f93e1ed57a1aa0ec589c197e92e1f07f",
+      "metadata": "apps/web/public/assets/candidates/r2/dog_iso_r2a.atlas.json",
+      "metadata_sha256": "5065fe545603ebdd51581f134474ce6e4f5a6e3e7d403d53063cf13fbdc1bae2",
+      "frames": 8,
+      "rgba8_bytes": 2097152,
+      "measurements": [
+        {
+          "frame": "dog_iso_r2a__walk_bark__se__f000",
+          "alpha_bbox": [
+            62,
+            79,
+            196,
+            228
+          ],
+          "stack64_height": null
+        },
+        {
+          "frame": "dog_iso_r2a__walk_bark__se__f001",
+          "alpha_bbox": [
+            61,
+            80,
+            196,
+            222
+          ],
+          "stack64_height": null
+        },
+        {
+          "frame": "dog_iso_r2a__walk_bark__se__f002",
+          "alpha_bbox": [
+            62,
+            79,
+            197,
+            219
+          ],
+          "stack64_height": null
+        },
+        {
+          "frame": "dog_iso_r2a__walk_bark__se__f003",
+          "alpha_bbox": [
+            63,
+            79,
+            198,
+            222
+          ],
+          "stack64_height": null
+        },
+        {
+          "frame": "dog_iso_r2a__walk_bark__se__f004",
+          "alpha_bbox": [
+            65,
+            79,
+            199,
+            228
+          ],
+          "stack64_height": null
+        },
+        {
+          "frame": "dog_iso_r2a__walk_bark__se__f005",
+          "alpha_bbox": [
+            67,
+            76,
+            199,
+            231
+          ],
+          "stack64_height": null
+        },
+        {
+          "frame": "dog_iso_r2a__walk_bark__se__f006",
+          "alpha_bbox": [
+            64,
+            75,
+            198,
+            231
+          ],
+          "stack64_height": null
+        },
+        {
+          "frame": "dog_iso_r2a__walk_bark__se__f007",
+          "alpha_bbox": [
+            64,
+            77,
+            196,
+            231
+          ],
+          "stack64_height": null
+        }
+      ]
+    },
+    {
+      "asset_id": "backdrop_herd_r2a",
+      "image": "apps/web/public/assets/candidates/r2/backdrop_herd_r2a.png",
+      "sha256": "f9b529b24722fcb8aef7b517bd7ab6c17224991e1f75a4d057da2025a7381bba",
+      "scene_size_px": [
+        360,
+        420
+      ],
+      "canvas_px": [
+        720,
+        840
+      ],
+      "rgba8_bytes": 2419200,
+      "interactive_objects_baked": false
+    }
+  ],
+  "source_reports": [
+    "art-source/r2/sheep-sample-report.json",
+    "art-source/r2/dog-sample-report.json",
+    "art-source/r2/environment-sample-report.json"
+  ],
+  "references": [
+    {
+      "path": "design/character_foundation_board.png",
+      "sha256": "836bf1f94e122bd5c98868b02d8577f2e8ea16d8acdce234094969e7510b1539"
+    },
+    {
+      "path": "design/prototypes/01_stack.png",
+      "sha256": "94651ed5e2ca9039cc397c11395c31205f3b57ee0bd65858a45093d6ebe57652"
+    },
+    {
+      "path": "design/prototypes/02_runner.png",
+      "sha256": "62358c3c1cf36921266292f9747c514683f994fb1ed7c15254c29b3b98554a85"
+    },
+    {
+      "path": "design/prototypes/03_herd.png",
+      "sha256": "754351c13b62debd71fa342e9e1e366f9b34b0be7e35ae3b0d5af27494d8c50a"
+    }
+  ],
+  "missing": [
+    "sheep walk/run/jump/land/contact animations",
+    "remaining dog directions and stationary bark",
+    "stack and runner scene rework",
+    "all environment loops and full foreground/background layers",
+    "true engine S2 capture and human art acceptance"
+  ]
+}

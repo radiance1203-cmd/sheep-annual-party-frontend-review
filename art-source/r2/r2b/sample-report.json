@@ -1,0 +1,36 @@
+{
+  "version": "R2b-two-frame",
+  "status": "REVIEW",
+  "production_art_accepted": false,
+  "source_sha256": "2f43e6365d13cc5d3bafd9e973a3ab36f20fd87d3b91a6c5bcbba5acb9a68011",
+  "source": "art-source\\r2\\sheep_master_r2a.blend",
+  "mother": "art-source\\r2\\r2b\\sheep_master_r2b.blend",
+  "mother_sha256": "093f7b0bc289361888b4e7b0dccda0bd4fb24f8a924f51191e70502d65f60d07",
+  "outputs": [
+    {
+      "path": "art-source/r2/r2b/sheep_front_512.png",
+      "sha256": "13a86c704895f799b1015c0f20df1cc69cb1920a2f7e1c9171c89551739ff33e",
+      "seconds": 4.668,
+      "camera": "R2b_review_close",
+      "root": [
+        0.0,
+        0.0,
+        3.1415927410125732
+      ],
+      "head_yaw": 0.0
+    },
+    {
+      "path": "art-source/r2/r2b/sheep_stack_512.png",
+      "sha256": "07d4ed9bea6e433c2e8382a8c3d3f790a14ae2aefe78bed7029892ecdd3bcc1a",
+      "seconds": 2.927,
+      "camera": "side_v1",
+      "root": [
+        0.0,
+        0.0,
+        -1.5707963705062866
+      ],
+      "head_yaw": -1.0471975803375244
+    }
+  ],
+  "missing": "All other frames intentionally not generated; no production manifest change"
+}

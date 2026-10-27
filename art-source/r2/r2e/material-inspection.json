@@ -1,0 +1,99 @@
+{
+  "wool": {
+    "nodes": [
+      {
+        "name": "Principled BSDF",
+        "type": "BSDF_PRINCIPLED"
+      },
+      {
+        "name": "Material Output",
+        "type": "OUTPUT_MATERIAL"
+      },
+      {
+        "name": "Noise Texture",
+        "type": "TEX_NOISE"
+      },
+      {
+        "name": "Bump",
+        "type": "BUMP"
+      },
+      {
+        "name": "Texture Coordinate",
+        "type": "TEX_COORD"
+      },
+      {
+        "name": "Vector Math",
+        "type": "VECT_MATH"
+      },
+      {
+        "name": "Noise Texture.001",
+        "type": "TEX_NOISE"
+      },
+      {
+        "name": "Bump.001",
+        "type": "BUMP"
+      }
+    ],
+    "links": [
+      {
+        "from": "Principled BSDF.BSDF",
+        "to": "Material Output.Surface"
+      },
+      {
+        "from": "Noise Texture.Fac",
+        "to": "Bump.Height"
+      },
+      {
+        "from": "Texture Coordinate.Generated",
+        "to": "Vector Math.Vector"
+      },
+      {
+        "from": "Vector Math.Vector",
+        "to": "Noise Texture.001.Vector"
+      },
+      {
+        "from": "Noise Texture.001.Fac",
+        "to": "Bump.001.Height"
+      },
+      {
+        "from": "Bump.001.Normal",
+        "to": "Principled BSDF.Normal"
+      }
+    ]
+  },
+  "horn": {
+    "nodes": [
+      {
+        "name": "Principled BSDF",
+        "type": "BSDF_PRINCIPLED"
+      },
+      {
+        "name": "Material Output",
+        "type": "OUTPUT_MATERIAL"
+      }
+    ],
+    "links": [
+      {
+        "from": "Principled BSDF.BSDF",
+        "to": "Material Output.Surface"
+      }
+    ]
+  },
+  "world": {
+    "color": [
+      0.05087608844041824,
+      0.05087608844041824,
+      0.05087608844041824
+    ],
+    "nodes": [
+      {
+        "name": "World Output",
+        "type": "OUTPUT_WORLD"
+      },
+      {
+        "name": "Background",
+        "type": "BACKGROUND"
+      }
+    ]
+  }
+}

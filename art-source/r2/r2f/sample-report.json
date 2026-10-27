@@ -1,0 +1,28 @@
+{
+  "version": "R2f-surface-band-two-frame",
+  "status": "REVIEW",
+  "production_art_accepted": false,
+  "source": "art-source/r2/r2e/sheep_master_r2e.blend",
+  "source_sha256": "991018b86d52d1a0a5e5398a739a3187e816e6dc6dfa752c4bb90c9893abd7db",
+  "mother": "art-source/r2/r2f/sheep_master_r2f.blend",
+  "mother_sha256": "9c2a2b4c5fa166044431a8f6b1f349971b0e62eb3a4477cda8c1145fbe92a550",
+  "outputs": [
+    {
+      "path": "art-source/r2/r2f/sheep_front_512.png",
+      "sha256": "ccbfa0b8f99a15e136db47d1039fc623a7538652fb799deb96474aa305864995",
+      "seconds": 4.469,
+      "camera": "R2f_review_close"
+    },
+    {
+      "path": "art-source/r2/r2f/sheep_stack_512.png",
+      "sha256": "4908382130c4983c488d486e9b23b654acc1dd64c2f4ae0f390a7e2e31e08ce8",
+      "seconds": 2.489,
+      "camera": "side_v1"
+    }
+  ],
+  "body_bands": 4,
+  "oriented_spiral_bundles": 37,
+  "bundle_fibers": 4440,
+  "preserved": "E face/horns/crown/warm light; fixed root and formal camera",
+  "unproduced": "Any extra view or action"
+}

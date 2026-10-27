@@ -1,0 +1,34 @@
+[
+  {
+    "path": "apps/web/src/App.tsx",
+    "sha256": "a422ac1fe6578b94811d8331b9fd6e1c18b9e6b68661360228b713de395b1691"
+  },
+  {
+    "path": "apps/web/src/game/GamePage.tsx",
+    "sha256": "be08d0c2e786770c0ef49ff724007cada86e1431c5fc47be61af4948ee4ee515"
+  },
+  {
+    "path": "apps/web/src/game/TutorialScene.tsx",
+    "sha256": "41cc7aea5b83dad7b3528e2a5985c6f3aa79d02e4f2e97422f6c8496e666bccc"
+  },
+  {
+    "path": "apps/web/src/game/tutorial-model.ts",
+    "sha256": "ac09fb030da3d22dfefbd20c2148084e1a9fc4dabfd38059e9feb2dac4c67cf1"
+  },
+  {
+    "path": "apps/web/src/game/tutorial-model.test.ts",
+    "sha256": "7990de56482d1997aa9b6edd344b759322696022d21a5464dee481aab8afbb0e"
+  },
+  {
+    "path": "apps/web/src/visual-repair.css",
+    "sha256": "e25e13d527c23fd34b3bd1be73e20fbf27c297c31424ae9a0841c803ec4ba70f"
+  },
+  {
+    "path": "apps/web/tests/r2-tutorial-runtime.mts",
+    "sha256": "9252cf2d01bc9417eb89c012eba7636115a86735bf52e67ddc5c68c5394e122a"
+  },
+  {
+    "path": "apps/web/tests/r2-tutorial-evidence.mts",
+    "sha256": "75d9c64e8522c1e10f4ec99845862df73a483b6818e41fa3c73f665c550e1c84"
+  }
+]

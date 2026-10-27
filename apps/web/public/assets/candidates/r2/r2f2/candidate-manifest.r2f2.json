@@ -1,0 +1,72 @@
+{
+  "version": "R2f2-surface-band-two-frame",
+  "status": "REVIEW",
+  "production_art_accepted": false,
+  "source": "art-source/r2/r2e/sheep_master_r2e.blend",
+  "source_sha256": "991018b86d52d1a0a5e5398a739a3187e816e6dc6dfa752c4bb90c9893abd7db",
+  "mother": "art-source/r2/r2f2/sheep_master_r2f2.blend",
+  "mother_sha256": "f81da818d36358ed33935071f4a520ef0357f20d881832e8af24ccf346260227",
+  "outputs": [
+    {
+      "path": "art-source/r2/r2f2/sheep_front_512.png",
+      "sha256": "d41bea65c14a1dcd78de622fef96800fdc26be681161881778f12c65e421f1e1",
+      "seconds": 4.555,
+      "camera": "R2f2_review_close"
+    },
+    {
+      "path": "art-source/r2/r2f2/sheep_stack_512.png",
+      "sha256": "cf52a0cba3fe1d3c8907658f03019264433799c65758932f306178c4060677d5",
+      "seconds": 2.558,
+      "camera": "side_v1"
+    }
+  ],
+  "body_bands": 4,
+  "oriented_spiral_bundles": 37,
+  "bundle_fibers": 4440,
+  "preserved": "E face/horns/crown/warm light; fixed root and formal camera",
+  "unproduced": "Any extra view or action",
+  "asset": {
+    "image": "apps/web/public/assets/candidates/r2/r2f2/sheep_stack_r2f2.png",
+    "image_sha256": "f1af920ea8f084116a9c1991c08bef6f1728e4d4f8ac94ac6a9da90e60b6013c",
+    "metadata": "apps/web/public/assets/candidates/r2/r2f2/sheep_stack_r2f2.atlas.json",
+    "metadata_sha256": "b01cc69a0d9ebc7accb687fe50fb0a43f917139a55ec4aeac330c8b7d195b8b3",
+    "alpha1_bbox": [
+      47,
+      102,
+      217,
+      225
+    ],
+    "runtime_frame_css_px": 64,
+    "alpha_height_world": 30.75,
+    "alpha_width_world": 42.5,
+    "pivot_px": [
+      128,
+      224
+    ],
+    "source_crop": [
+      128,
+      32,
+      256,
+      256
+    ],
+    "camera": {
+      "location": [
+        0,
+        -8,
+        1.4
+      ],
+      "look_at": [
+        0,
+        0,
+        0
+      ],
+      "ortho_scale": 4,
+      "source_px": [
+        512,
+        512
+      ]
+    }
+  },
+  "art_signoff": null,
+  "production_replacement_allowed": false
+}

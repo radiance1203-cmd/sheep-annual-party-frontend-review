@@ -1,0 +1,51 @@
+{
+  "game": "herd",
+  "width": 430,
+  "height": 932,
+  "cycle": 2,
+  "metrics": {
+    "hud": {
+      "x": 8,
+      "y": 100,
+      "width": 414,
+      "height": 63.890625,
+      "bottom": 163.890625
+    },
+    "stage": {
+      "x": 8,
+      "y": 171.890625,
+      "width": 414,
+      "height": 392,
+      "bottom": 563.890625
+    },
+    "controls": {
+      "x": 8,
+      "y": 640.890625,
+      "width": 414,
+      "height": 164,
+      "bottom": 804.890625
+    },
+    "toolbar": {
+      "x": 8,
+      "y": 828.890625,
+      "width": 414,
+      "height": 80,
+      "bottom": 908.890625
+    },
+    "canvasCount": 1,
+    "canvas": {
+      "width": 672,
+      "height": 784,
+      "css": {
+        "x": 48,
+        "y": 172.890625,
+        "width": 336,
+        "height": 392,
+        "bottom": 564.890625
+      }
+    },
+    "tick": "15",
+    "displayPhase": "566.70",
+    "scrollY": 8
+  }
+}

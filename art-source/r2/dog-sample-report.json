@@ -1,0 +1,301 @@
+{
+  "version": "r2a-limited-source-experiment",
+  "status": "SOURCE_VERIFIED / REVIEW",
+  "production_art_accepted": false,
+  "signed_by": null,
+  "source": "art-source/v4/dog_master_v4.blend",
+  "source_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+  "mother": "art-source/r2/dog_master_r2a.blend",
+  "mother_sha256": "6f2367ba74781ba2f721e8315785a49f47a00d7ab9efb481e83438b9dc513646",
+  "outputs": [
+    {
+      "path": "art-source/r2/renders/dog_front_512.png",
+      "sha256": "87602683e3acc3f5e06176f10d2c0f6957af3fca934500681daabfc084263a39",
+      "seconds": 2.233,
+      "camera": {
+        "name": "R2_review_close",
+        "location": [
+          0.0,
+          -6.0,
+          2.200000047683716
+        ],
+        "rotation_euler": [
+          1.3258177042007446,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 2.049999952316284,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "idle",
+      "phase": 0.0,
+      "root_motion": false
+    },
+    {
+      "path": "art-source/r2/renders/dog_walk_bark_se_f000_512.png",
+      "sha256": "2bc94f14936e505b9d9e54df35cd8525d1df9fcd3e3d703b734eb69b31029b24",
+      "seconds": 1.581,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation_euler": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 4.5714287757873535,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "walk_bark",
+      "phase": 0.0,
+      "root_motion": false
+    },
+    {
+      "path": "art-source/r2/renders/dog_walk_bark_se_f001_512.png",
+      "sha256": "8e6a0552f0f92b5c75559b3d83b5ff33937347084329e0286b8227817308d68d",
+      "seconds": 1.543,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation_euler": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 4.5714287757873535,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "walk_bark",
+      "phase": 0.125,
+      "root_motion": false
+    },
+    {
+      "path": "art-source/r2/renders/dog_walk_bark_se_f002_512.png",
+      "sha256": "dac99655ab5715f747b503cca339e8fc01a7f319ea1b88ffbfb3eb88b5653e77",
+      "seconds": 1.52,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation_euler": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 4.5714287757873535,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "walk_bark",
+      "phase": 0.25,
+      "root_motion": false
+    },
+    {
+      "path": "art-source/r2/renders/dog_walk_bark_se_f003_512.png",
+      "sha256": "d3b68e4b0d86c7c7c5cc657a63c40e07849170261fb02fb7360468e763faa128",
+      "seconds": 1.484,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation_euler": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 4.5714287757873535,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "walk_bark",
+      "phase": 0.375,
+      "root_motion": false
+    },
+    {
+      "path": "art-source/r2/renders/dog_walk_bark_se_f004_512.png",
+      "sha256": "a8051d3edff4e80aeb51f06de72f80f603d5e30428e0c9461120f90430296fc7",
+      "seconds": 1.501,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation_euler": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 4.5714287757873535,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "walk_bark",
+      "phase": 0.5,
+      "root_motion": false
+    },
+    {
+      "path": "art-source/r2/renders/dog_walk_bark_se_f005_512.png",
+      "sha256": "b91e973081191f8b7b002756f7ca2e2f1bfeda4e4bf5f9e25d7c2e394d502189",
+      "seconds": 1.489,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation_euler": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 4.5714287757873535,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "walk_bark",
+      "phase": 0.625,
+      "root_motion": false
+    },
+    {
+      "path": "art-source/r2/renders/dog_walk_bark_se_f006_512.png",
+      "sha256": "bcf76993c3e720b46366b3816e39c220899e35772d33bce3d728d5a801412d98",
+      "seconds": 1.525,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation_euler": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 4.5714287757873535,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "walk_bark",
+      "phase": 0.75,
+      "root_motion": false
+    },
+    {
+      "path": "art-source/r2/renders/dog_walk_bark_se_f007_512.png",
+      "sha256": "0449de940f75dde79695ba685cbd2d86cfe118fa17606e88639b0f67118dbdc1",
+      "seconds": 1.453,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation_euler": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "orthographic_scale": 4.5714287757873535,
+        "source": [
+          512,
+          512
+        ],
+        "color_management": {
+          "view": "AgX",
+          "look": "AgX - Medium High Contrast",
+          "exposure": 0.6499999761581421,
+          "output": "sRGB RGBA8"
+        }
+      },
+      "clip": "walk_bark",
+      "phase": 0.875,
+      "root_motion": false
+    }
+  ],
+  "missing": "All unenumerated actions/directions are not produced. No production manifest change."
+}

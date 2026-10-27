@@ -1,0 +1,82 @@
+{
+  "schema_version": "atlas-1.0",
+  "asset_id": "sheep_side_r2a",
+  "image": "sheep_side_r2a.png",
+  "size_px": [
+    1024,
+    256
+  ],
+  "camera_id": "side_v1",
+  "version": "r2a-limited",
+  "status": "rendered_candidate",
+  "production_art_accepted": false,
+  "frames": {
+    "sheep_side_r2a__stack_idle__e__f000": {
+      "rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "source_size": [
+        256,
+        256
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        128,
+        224
+      ],
+      "direction": 0
+    },
+    "sheep_side_r2a__idle__e__f000": {
+      "rect": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "source_size": [
+        256,
+        256
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        128,
+        224
+      ],
+      "direction": 0
+    }
+  },
+  "animations": {
+    "stack_idle.e": {
+      "frames": [
+        "sheep_side_r2a__stack_idle__e__f000"
+      ],
+      "fps": 8,
+      "loop": false
+    },
+    "idle.e": {
+      "frames": [
+        "sheep_side_r2a__idle__e__f000"
+      ],
+      "fps": 8,
+      "loop": false
+    }
+  },
+  "missing_actions": "All unlisted actions and directions are deliberately NOT_PRODUCED; this atlas is forbidden as a production replacement."
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "game": "stack",
+    "tutorialCompleteTick": 49,
+    "endTick": 966,
+    "inputCount": 20,
+    "eventCount": 41,
+    "sha256": "8dc3c786b5b189f6de53e6b81ed8c69e483397b997a437bfac32da659f4fc0e3"
+  },
+  {
+    "game": "runner",
+    "tutorialCompleteTick": 241,
+    "endTick": 1350,
+    "inputCount": 20,
+    "eventCount": 61,
+    "sha256": "542b811f7be0124c7e6254831c5114da85ff42c115c6629dd0ba234618f93c99"
+  },
+  {
+    "game": "herd",
+    "tutorialCompleteTick": 101,
+    "endTick": 432,
+    "inputCount": 435,
+    "eventCount": 380,
+    "sha256": "ebca49706517ecdb6a0465df41e0a8dfab00cc62101c6d3c58f1761a06a67fd7"
+  }
+]

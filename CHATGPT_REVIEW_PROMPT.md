@@ -1,3 +1,5 @@
+R2补充：请先实际查看 review/r2-20261027 的最新母样对照、pages 和 samples-final 片段，再读 docs/r2-20261027-report.md。不要用旧PASS、测试数量或自评95%代替本轮艺术接受。新母样未达最终质量，不得自动设golden。优先定位卷角/口鼻、绒毛层级材质、场景构图三类差距，并保留112/44、8/18/28、9/3和顶部真实门线。源码、参考和候选有明确版本/hash；原生母源本地保留，审查导出只附脚本/预览/hash。不要因此重建产品或认为主工程无后台。
+
 请审查公开仓库 https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review 当前main的前端和运行美术。先只审查，不重建、不发布、不改冻结玩法。
 
 1. 先读README.md、PROGRESS.md、DELIVERABLES.md、REVIEW_GUIDE.md及SOURCE_SNAPSHOT.json，确认这是主项目的前端审查快照；后台实现/.blend/大量重复中间原帧有意省略，不能当主工程缺失。
