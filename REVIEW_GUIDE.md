@@ -32,11 +32,8 @@
 
 `.blend`和大批中间帧没有上传，不是主项目没有制作源。详见SOURCE_SNAPSHOT.json中excluded_native_sources的原文件摘要。没有真实图像读取能力的审查工具应明确列NOT_RUN，不能声称已看PNG。
 
-## 私有仓库与ChatGPT
+## 公开访问与图像审查
 
-本仓库是private。请在目标ChatGPT会话确认能够读取仓库文件；仅贴链接不代表另一个会话已获得权限。若看不到，检查该GitHub连接账号及仓库权限，不必把仓库改公开。若连接器只能读源码，下载PNG后作为图片附件提供，再进行视觉判断。
+仓库现已按用户明确授权改为public。可直接使用仓库链接或raw文件链接读取，不需要GitHub登录或私有仓库授权。
 
-官方文档也要求在实际使用连接的工作流验证已知仓库资源和权限：[Workspace connections / GitHub](https://learn.chatgpt.com/docs/enterprise/shared-connections)。这不保证不同会话自动共享当前连接。
-
-
-图像读取边界：本次GitHub连接器的fetch不返回非UTF8二进制，文本读取通过也不等于看过PNG。目标ChatGPT若没有图像读取工具，请把四张对照图及角色板作为附件提供；素材已收录在本仓库，不应凭文件名给视觉PASS。
+当前GitHub连接器的fetch仍不返回非UTF8图片像素；这属于工具能力而非权限。若审查工具不能实际打开PNG，请使用具备图像读取能力的工具或把图像作为附件提供；不能只凭文件名给视觉PASS。原始PNG、对照图和母源预览均已在仓库中。
