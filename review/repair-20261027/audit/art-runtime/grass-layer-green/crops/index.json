@@ -1,0 +1,104 @@
+[
+  {
+    "crop": "output\\repair-20261027\\audit\\art-runtime\\grass-layer-green\\crops\\runner-grass-uncollected-before-red-390-6x.png",
+    "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-grass-uncollected-390x844.png",
+    "id": "runner-grass-uncollected",
+    "tick": 239,
+    "viewHash": "5b16f6e1d813b23b5a0d6a30b57d51a92dc1918c95a7735a3ed572da8ddc28db",
+    "native_center_pixel": [
+      105,
+      170
+    ],
+    "nativeRGB": [
+      201,
+      196,
+      189
+    ],
+    "method": "24x24 native pixel crop, uniform6x nearest-neighbor enlargement only; original images retained"
+  },
+  {
+    "crop": "output\\repair-20261027\\audit\\art-runtime\\grass-layer-green\\crops\\runner-grass-outer-only-before-red-390-6x.png",
+    "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-grass-outer-only-390x844.png",
+    "id": "runner-grass-outer-only",
+    "tick": 240,
+    "viewHash": "79cc310ded8b9f51faebf19c2d33058a94be36c03ed6af2ca4af66aec41313b1",
+    "native_center_pixel": [
+      103,
+      170
+    ],
+    "nativeRGB": [
+      203,
+      198,
+      191
+    ],
+    "method": "24x24 native pixel crop, uniform6x nearest-neighbor enlargement only; original images retained"
+  },
+  {
+    "crop": "output\\repair-20261027\\audit\\art-runtime\\grass-layer-green\\crops\\runner-grass-both-before-red-390-6x.png",
+    "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-grass-both-390x844.png",
+    "id": "runner-grass-both",
+    "tick": 241,
+    "viewHash": "7b14363d686a1c2ee8073ccc241353a248ee9cdcfcfc983077271f4c90967a29",
+    "native_center_pixel": [
+      100,
+      170
+    ],
+    "nativeRGB": [
+      205,
+      202,
+      195
+    ],
+    "method": "24x24 native pixel crop, uniform6x nearest-neighbor enlargement only; original images retained"
+  },
+  {
+    "crop": "output\\repair-20261027\\audit\\art-runtime\\grass-layer-green\\crops\\runner-grass-uncollected-after-front-390-6x.png",
+    "source": "output/repair-20261027/audit/art-runtime/v4-runner-grass-front/runner-grass-uncollected-390x844.png",
+    "id": "runner-grass-uncollected",
+    "tick": 239,
+    "viewHash": "5b16f6e1d813b23b5a0d6a30b57d51a92dc1918c95a7735a3ed572da8ddc28db",
+    "native_center_pixel": [
+      105,
+      170
+    ],
+    "nativeRGB": [
+      194,
+      151,
+      70
+    ],
+    "method": "24x24 native pixel crop, uniform6x nearest-neighbor enlargement only; original images retained"
+  },
+  {
+    "crop": "output\\repair-20261027\\audit\\art-runtime\\grass-layer-green\\crops\\runner-grass-outer-only-after-front-390-6x.png",
+    "source": "output/repair-20261027/audit/art-runtime/v4-runner-grass-front/runner-grass-outer-only-390x844.png",
+    "id": "runner-grass-outer-only",
+    "tick": 240,
+    "viewHash": "79cc310ded8b9f51faebf19c2d33058a94be36c03ed6af2ca4af66aec41313b1",
+    "native_center_pixel": [
+      103,
+      170
+    ],
+    "nativeRGB": [
+      197,
+      160,
+      92
+    ],
+    "method": "24x24 native pixel crop, uniform6x nearest-neighbor enlargement only; original images retained"
+  },
+  {
+    "crop": "output\\repair-20261027\\audit\\art-runtime\\grass-layer-green\\crops\\runner-grass-both-after-front-390-6x.png",
+    "source": "output/repair-20261027/audit/art-runtime/v4-runner-grass-front/runner-grass-both-390x844.png",
+    "id": "runner-grass-both",
+    "tick": 241,
+    "viewHash": "7b14363d686a1c2ee8073ccc241353a248ee9cdcfcfc983077271f4c90967a29",
+    "native_center_pixel": [
+      100,
+      170
+    ],
+    "nativeRGB": [
+      205,
+      202,
+      195
+    ],
+    "method": "24x24 native pixel crop, uniform6x nearest-neighbor enlargement only; original images retained"
+  }
+]

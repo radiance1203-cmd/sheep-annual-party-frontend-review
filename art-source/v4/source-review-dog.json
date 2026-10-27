@@ -1,0 +1,71 @@
+{
+  "status": "C1_SAMPLES_REVIEW_PENDING",
+  "production_art_accepted": false,
+  "seed": 5012026,
+  "actors": [
+    {
+      "actor": "dog",
+      "source": "art-source/v2/dog_master_v2.blend",
+      "source_sha256": "11599aa7bd750d5c6a0f48b49e68244af437db550b9c223f6c1ef04c2b2787f4",
+      "mother": "art-source/v4/dog_master_v4.blend",
+      "mother_sha256": "b962a972c2d348dcd14eb553e93f11678beb11dd6cc294a9b1b8c4fa79ae9583",
+      "changes": {
+        "wider_head_chest": true,
+        "shorter_folded_ears": true,
+        "existing_controls_actions_retained": true
+      },
+      "renderer": "GPU",
+      "devices": [
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "CUDA",
+          "use": true
+        },
+        {
+          "name": "13th Gen Intel Core i5-13600KF",
+          "type": "CPU",
+          "use": false
+        },
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "OPTIX",
+          "use": false
+        }
+      ],
+      "samples": [
+        {
+          "path": "art-source/v4/samples/dog_front_512.png",
+          "seconds": 2.563
+        },
+        {
+          "path": "art-source/v4/samples/dog_side_512.png",
+          "seconds": 3.003
+        },
+        {
+          "path": "art-source/v4/samples/dog_back_512.png",
+          "seconds": 2.778
+        },
+        {
+          "path": "art-source/v4/samples/dog_diagonal_512.png",
+          "seconds": 3.003
+        },
+        {
+          "path": "art-source/v4/samples/dog_production_idle_n_512.png",
+          "seconds": 2.511
+        },
+        {
+          "path": "art-source/v4/samples/dog_production_idle_e_512.png",
+          "seconds": 2.486
+        },
+        {
+          "path": "art-source/v4/samples/dog_production_idle_s_512.png",
+          "seconds": 2.553
+        },
+        {
+          "path": "art-source/v4/samples/dog_production_idle_se_512.png",
+          "seconds": 2.657
+        }
+      ]
+    }
+  ]
+}

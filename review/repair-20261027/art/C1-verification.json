@@ -1,0 +1,271 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "v2_source_unchanged:sheep",
+      "status": "PASS"
+    },
+    {
+      "check": "v4_mother_hash:sheep",
+      "status": "PASS"
+    },
+    {
+      "check": "receipt_matches_samples_mother:sheep",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/sheep_front_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/sheep_side_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/sheep_back_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/sheep_diagonal_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/sheep_production_idle_e_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/sheep_production_iso_idle_n_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/sheep_production_iso_idle_s_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/sheep_production_iso_idle_se_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/sheep_stack_idle_f000_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/sheep_stack_steady_f001_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/sheep_stack_air_f000_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/sheep_stack_air_f001_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/sheep_stack_celebrate_f002_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "v2_source_unchanged:dog",
+      "status": "PASS"
+    },
+    {
+      "check": "v4_mother_hash:dog",
+      "status": "PASS"
+    },
+    {
+      "check": "receipt_matches_samples_mother:dog",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/dog_front_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/dog_side_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/dog_back_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/dog_diagonal_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/dog_production_idle_n_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/dog_production_idle_e_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/dog_production_idle_s_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "raw_512_rgba:art-source/v4/samples/dog_production_idle_se_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "crop_source_hash:sheep_production_idle_e_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed_crop_128:sheep_production_idle_e_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "crop_source_hash:sheep_production_iso_idle_n_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed_crop_128:sheep_production_iso_idle_n_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "crop_source_hash:sheep_production_iso_idle_s_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed_crop_128:sheep_production_iso_idle_s_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "crop_source_hash:sheep_production_iso_idle_se_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed_crop_128:sheep_production_iso_idle_se_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "crop_source_hash:sheep_stack_air_f000_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed_crop_128:sheep_stack_air_f000_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "crop_source_hash:sheep_stack_air_f001_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed_crop_128:sheep_stack_air_f001_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "crop_source_hash:sheep_stack_celebrate_f002_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed_crop_128:sheep_stack_celebrate_f002_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "crop_source_hash:sheep_stack_idle_f000_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed_crop_128:sheep_stack_idle_f000_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "crop_source_hash:sheep_stack_steady_f001_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed_crop_128:sheep_stack_steady_f001_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "crop_source_hash:dog_production_idle_e_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed_crop_128:dog_production_idle_e_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "crop_source_hash:dog_production_idle_n_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed_crop_128:dog_production_idle_n_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "crop_source_hash:dog_production_idle_s_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed_crop_128:dog_production_idle_s_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "crop_source_hash:dog_production_idle_se_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "fixed_crop_128:dog_production_idle_se_128.png",
+      "status": "PASS"
+    },
+    {
+      "check": "5_stack_samples_height_lte37",
+      "status": "PASS"
+    },
+    {
+      "check": "8_css_candidates_6_canvas_metrics",
+      "status": "PASS"
+    },
+    {
+      "check": "contact_decode:C1-sheep-four-view-comparison.png",
+      "status": "PASS"
+    },
+    {
+      "check": "contact_decode:C1-dog-four-view-comparison.png",
+      "status": "PASS"
+    },
+    {
+      "check": "contact_decode:C1-production-camera-128-contact.png",
+      "status": "PASS"
+    },
+    {
+      "check": "contact_decode:C1-current-320-390-css-candidates.png",
+      "status": "PASS"
+    },
+    {
+      "check": "acceptance_and_export_not_claimed",
+      "status": "PASS"
+    },
+    {
+      "check": "retained_mother_unchanged:art-source/v2/dog_master_v2.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "retained_mother_unchanged:art-source/v2/farm_master_v2.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "retained_mother_unchanged:art-source/v2/sheep_master_v2.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "retained_mother_unchanged:art-source/v3/backdrop_herd_v3.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "retained_mother_unchanged:art-source/v3/backdrop_runner_v3.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "retained_mother_unchanged:art-source/v3/backdrop_stack_v3.blend",
+      "status": "PASS"
+    }
+  ],
+  "production_art_accepted": false,
+  "scope": "C1 sample integrity and measured static stack envelope; no full animation, visual approval or real-device claim."
+}

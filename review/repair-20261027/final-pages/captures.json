@@ -1,0 +1,2090 @@
+{
+  "scope": "Actual pages; isolated invalid business fixtures; browser viewport is not a physical phone",
+  "browser": "156.0.8078.4",
+  "rows": [
+    {
+      "screen": "lobby",
+      "width": 320,
+      "metrics": {
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "scrollWidth": 320,
+        "canvas": [],
+        "controls": [
+          {
+            "text": "羊羊叠高高\n\n看准位置，叠得更高！\n\n玩法 ›",
+            "box": {
+              "x": 16,
+              "y": 384.890625,
+              "width": 288,
+              "height": 165.96875,
+              "top": 384.890625,
+              "right": 304,
+              "bottom": 550.859375,
+              "left": 16
+            }
+          },
+          {
+            "text": "羊羊跨栏\n\n轻轻一跳，越过障碍！\n\n玩法 ›",
+            "box": {
+              "x": 16,
+              "y": 562.859375,
+              "width": 288,
+              "height": 165.96875,
+              "top": 562.859375,
+              "right": 304,
+              "bottom": 728.828125,
+              "left": 16
+            }
+          },
+          {
+            "text": "赶羊入圈\n\n绕到羊后方，赶它们进圈！\n\n玩法 ›",
+            "box": {
+              "x": 16,
+              "y": 740.828125,
+              "width": 288,
+              "height": 165.96875,
+              "top": 740.828125,
+              "right": 304,
+              "bottom": 906.796875,
+              "left": 16
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/lobby-320.png"
+    },
+    {
+      "screen": "tutorial/stack",
+      "width": 320,
+      "metrics": {
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "scrollWidth": 320,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 480,
+            "rect": {
+              "x": 34,
+              "y": 208.6875,
+              "width": 253.984375,
+              "height": 338.65625,
+              "top": 208.6875,
+              "right": 287.984375,
+              "bottom": 547.34375,
+              "left": 34
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "暂停演示",
+            "box": {
+              "x": 33,
+              "y": 586.34375,
+              "width": 102,
+              "height": 56,
+              "top": 586.34375,
+              "right": 135,
+              "bottom": 642.34375,
+              "left": 33
+            }
+          },
+          {
+            "text": "跳过教程，先练习",
+            "box": {
+              "x": 33,
+              "y": 1080.34375,
+              "width": 254,
+              "height": 56,
+              "top": 1080.34375,
+              "right": 287,
+              "bottom": 1136.34375,
+              "left": 33
+            }
+          },
+          {
+            "text": "等待正式挑战开放",
+            "box": {
+              "x": 33,
+              "y": 1148.34375,
+              "width": 254,
+              "height": 56,
+              "top": 1148.34375,
+              "right": 287,
+              "bottom": 1204.34375,
+              "left": 33
+            }
+          },
+          {
+            "text": "返回大厅",
+            "box": {
+              "x": 33,
+              "y": 1216.34375,
+              "width": 254,
+              "height": 56,
+              "top": 1216.34375,
+              "right": 287,
+              "bottom": 1272.34375,
+              "left": 33
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/tutorial-stack-320.png"
+    },
+    {
+      "screen": "tutorial/runner",
+      "width": 320,
+      "metrics": {
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "scrollWidth": 320,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 220,
+            "rect": {
+              "x": 34,
+              "y": 208.6875,
+              "width": 253.984375,
+              "height": 155.21875,
+              "top": 208.6875,
+              "right": 287.984375,
+              "bottom": 363.90625,
+              "left": 34
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "暂停演示",
+            "box": {
+              "x": 33,
+              "y": 402.90625,
+              "width": 102,
+              "height": 56,
+              "top": 402.90625,
+              "right": 135,
+              "bottom": 458.90625,
+              "left": 33
+            }
+          },
+          {
+            "text": "跳过教程，先练习",
+            "box": {
+              "x": 33,
+              "y": 896.90625,
+              "width": 254,
+              "height": 56,
+              "top": 896.90625,
+              "right": 287,
+              "bottom": 952.90625,
+              "left": 33
+            }
+          },
+          {
+            "text": "等待正式挑战开放",
+            "box": {
+              "x": 33,
+              "y": 964.90625,
+              "width": 254,
+              "height": 56,
+              "top": 964.90625,
+              "right": 287,
+              "bottom": 1020.90625,
+              "left": 33
+            }
+          },
+          {
+            "text": "返回大厅",
+            "box": {
+              "x": 33,
+              "y": 1032.90625,
+              "width": 254,
+              "height": 56,
+              "top": 1032.90625,
+              "right": 287,
+              "bottom": 1088.90625,
+              "left": 33
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/tutorial-runner-320.png"
+    },
+    {
+      "screen": "tutorial/herd",
+      "width": 320,
+      "metrics": {
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "scrollWidth": 320,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 420,
+            "rect": {
+              "x": 34,
+              "y": 208.6875,
+              "width": 253.984375,
+              "height": 296.328125,
+              "top": 208.6875,
+              "right": 287.984375,
+              "bottom": 505.015625,
+              "left": 34
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "暂停演示",
+            "box": {
+              "x": 33,
+              "y": 544.015625,
+              "width": 102,
+              "height": 56,
+              "top": 544.015625,
+              "right": 135,
+              "bottom": 600.015625,
+              "left": 33
+            }
+          },
+          {
+            "text": "跳过教程，先练习",
+            "box": {
+              "x": 33,
+              "y": 1038.015625,
+              "width": 254,
+              "height": 56,
+              "top": 1038.015625,
+              "right": 287,
+              "bottom": 1094.015625,
+              "left": 33
+            }
+          },
+          {
+            "text": "等待正式挑战开放",
+            "box": {
+              "x": 33,
+              "y": 1106.015625,
+              "width": 254,
+              "height": 56,
+              "top": 1106.015625,
+              "right": 287,
+              "bottom": 1162.015625,
+              "left": 33
+            }
+          },
+          {
+            "text": "返回大厅",
+            "box": {
+              "x": 33,
+              "y": 1174.015625,
+              "width": 254,
+              "height": 56,
+              "top": 1174.015625,
+              "right": 287,
+              "bottom": 1230.015625,
+              "left": 33
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/tutorial-herd-320.png"
+    },
+    {
+      "screen": "practice/stack",
+      "width": 320,
+      "metrics": {
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "scrollWidth": 320,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 480,
+            "rect": {
+              "x": 9,
+              "y": 180.890625,
+              "width": 303.984375,
+              "height": 405.328125,
+              "top": 180.890625,
+              "right": 312.984375,
+              "bottom": 586.21875,
+              "left": 9
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "box": {
+              "x": 8,
+              "y": 32,
+              "width": 48,
+              "height": 48,
+              "top": 32,
+              "right": 56,
+              "bottom": 80,
+              "left": 8
+            }
+          },
+          {
+            "text": "静音",
+            "box": {
+              "x": 262,
+              "y": 32,
+              "width": 50,
+              "height": 48,
+              "top": 32,
+              "right": 312,
+              "bottom": 80,
+              "left": 262
+            }
+          },
+          {
+            "text": "开始不计分练习",
+            "box": {
+              "x": 25,
+              "y": 756.21875,
+              "width": 270,
+              "height": 64,
+              "top": 756.21875,
+              "right": 295,
+              "bottom": 820.21875,
+              "left": 25
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/practice-stack-320.png"
+    },
+    {
+      "screen": "practice/runner",
+      "width": 320,
+      "metrics": {
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "scrollWidth": 320,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 220,
+            "rect": {
+              "x": 9,
+              "y": 180.890625,
+              "width": 303.96875,
+              "height": 185.765625,
+              "top": 180.890625,
+              "right": 312.96875,
+              "bottom": 366.65625,
+              "left": 9
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "box": {
+              "x": 8,
+              "y": 32,
+              "width": 48,
+              "height": 48,
+              "top": 32,
+              "right": 56,
+              "bottom": 80,
+              "left": 8
+            }
+          },
+          {
+            "text": "静音",
+            "box": {
+              "x": 262,
+              "y": 32,
+              "width": 50,
+              "height": 48,
+              "top": 32,
+              "right": 312,
+              "bottom": 80,
+              "left": 262
+            }
+          },
+          {
+            "text": "开始不计分练习",
+            "box": {
+              "x": 25,
+              "y": 536.65625,
+              "width": 270,
+              "height": 64,
+              "top": 536.65625,
+              "right": 295,
+              "bottom": 600.65625,
+              "left": 25
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/practice-runner-320.png"
+    },
+    {
+      "screen": "practice/herd",
+      "width": 320,
+      "metrics": {
+        "viewport": {
+          "width": 320,
+          "height": 740
+        },
+        "scrollWidth": 320,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 420,
+            "rect": {
+              "x": 9,
+              "y": 180.890625,
+              "width": 303.984375,
+              "height": 354.65625,
+              "top": 180.890625,
+              "right": 312.984375,
+              "bottom": 535.546875,
+              "left": 9
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "box": {
+              "x": 8,
+              "y": 32,
+              "width": 48,
+              "height": 48,
+              "top": 32,
+              "right": 56,
+              "bottom": 80,
+              "left": 8
+            }
+          },
+          {
+            "text": "静音",
+            "box": {
+              "x": 262,
+              "y": 32,
+              "width": 50,
+              "height": 48,
+              "top": 32,
+              "right": 312,
+              "bottom": 80,
+              "left": 262
+            }
+          },
+          {
+            "text": "开始不计分练习",
+            "box": {
+              "x": 25,
+              "y": 705.546875,
+              "width": 270,
+              "height": 64,
+              "top": 705.546875,
+              "right": 295,
+              "bottom": 769.546875,
+              "left": 25
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/practice-herd-320.png"
+    },
+    {
+      "screen": "lobby",
+      "width": 360,
+      "metrics": {
+        "viewport": {
+          "width": 360,
+          "height": 844
+        },
+        "scrollWidth": 360,
+        "canvas": [],
+        "controls": [
+          {
+            "text": "羊羊叠高高\n\n看准位置，叠得更高！\n\n玩法 ›",
+            "box": {
+              "x": 16,
+              "y": 404.890625,
+              "width": 328,
+              "height": 151.296875,
+              "top": 404.890625,
+              "right": 344,
+              "bottom": 556.1875,
+              "left": 16
+            }
+          },
+          {
+            "text": "羊羊跨栏\n\n轻轻一跳，越过障碍！\n\n玩法 ›",
+            "box": {
+              "x": 16,
+              "y": 568.1875,
+              "width": 328,
+              "height": 151.296875,
+              "top": 568.1875,
+              "right": 344,
+              "bottom": 719.484375,
+              "left": 16
+            }
+          },
+          {
+            "text": "赶羊入圈\n\n绕到羊后方，赶它们进圈！\n\n玩法 ›",
+            "box": {
+              "x": 16,
+              "y": 731.484375,
+              "width": 328,
+              "height": 165.96875,
+              "top": 731.484375,
+              "right": 344,
+              "bottom": 897.453125,
+              "left": 16
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/lobby-360.png"
+    },
+    {
+      "screen": "tutorial/stack",
+      "width": 360,
+      "metrics": {
+        "viewport": {
+          "width": 360,
+          "height": 844
+        },
+        "scrollWidth": 360,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 480,
+            "rect": {
+              "x": 34,
+              "y": 208.6875,
+              "width": 294,
+              "height": 392,
+              "top": 208.6875,
+              "right": 328,
+              "bottom": 600.6875,
+              "left": 34
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "暂停演示",
+            "box": {
+              "x": 33,
+              "y": 639.6875,
+              "width": 102,
+              "height": 56,
+              "top": 639.6875,
+              "right": 135,
+              "bottom": 695.6875,
+              "left": 33
+            }
+          },
+          {
+            "text": "跳过教程，先练习",
+            "box": {
+              "x": 33,
+              "y": 1109.6875,
+              "width": 294,
+              "height": 56,
+              "top": 1109.6875,
+              "right": 327,
+              "bottom": 1165.6875,
+              "left": 33
+            }
+          },
+          {
+            "text": "等待正式挑战开放",
+            "box": {
+              "x": 33,
+              "y": 1177.6875,
+              "width": 294,
+              "height": 56,
+              "top": 1177.6875,
+              "right": 327,
+              "bottom": 1233.6875,
+              "left": 33
+            }
+          },
+          {
+            "text": "返回大厅",
+            "box": {
+              "x": 33,
+              "y": 1245.6875,
+              "width": 294,
+              "height": 56,
+              "top": 1245.6875,
+              "right": 327,
+              "bottom": 1301.6875,
+              "left": 33
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/tutorial-stack-360.png"
+    },
+    {
+      "screen": "tutorial/runner",
+      "width": 360,
+      "metrics": {
+        "viewport": {
+          "width": 360,
+          "height": 844
+        },
+        "scrollWidth": 360,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 220,
+            "rect": {
+              "x": 34,
+              "y": 208.6875,
+              "width": 293.96875,
+              "height": 179.65625,
+              "top": 208.6875,
+              "right": 327.96875,
+              "bottom": 388.34375,
+              "left": 34
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "暂停演示",
+            "box": {
+              "x": 33,
+              "y": 427.34375,
+              "width": 102,
+              "height": 56,
+              "top": 427.34375,
+              "right": 135,
+              "bottom": 483.34375,
+              "left": 33
+            }
+          },
+          {
+            "text": "跳过教程，先练习",
+            "box": {
+              "x": 33,
+              "y": 897.34375,
+              "width": 294,
+              "height": 56,
+              "top": 897.34375,
+              "right": 327,
+              "bottom": 953.34375,
+              "left": 33
+            }
+          },
+          {
+            "text": "等待正式挑战开放",
+            "box": {
+              "x": 33,
+              "y": 965.34375,
+              "width": 294,
+              "height": 56,
+              "top": 965.34375,
+              "right": 327,
+              "bottom": 1021.34375,
+              "left": 33
+            }
+          },
+          {
+            "text": "返回大厅",
+            "box": {
+              "x": 33,
+              "y": 1033.34375,
+              "width": 294,
+              "height": 56,
+              "top": 1033.34375,
+              "right": 327,
+              "bottom": 1089.34375,
+              "left": 33
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/tutorial-runner-360.png"
+    },
+    {
+      "screen": "tutorial/herd",
+      "width": 360,
+      "metrics": {
+        "viewport": {
+          "width": 360,
+          "height": 844
+        },
+        "scrollWidth": 360,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 420,
+            "rect": {
+              "x": 34,
+              "y": 208.6875,
+              "width": 294,
+              "height": 343,
+              "top": 208.6875,
+              "right": 328,
+              "bottom": 551.6875,
+              "left": 34
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "暂停演示",
+            "box": {
+              "x": 33,
+              "y": 590.6875,
+              "width": 102,
+              "height": 56,
+              "top": 590.6875,
+              "right": 135,
+              "bottom": 646.6875,
+              "left": 33
+            }
+          },
+          {
+            "text": "跳过教程，先练习",
+            "box": {
+              "x": 33,
+              "y": 1036.6875,
+              "width": 294,
+              "height": 56,
+              "top": 1036.6875,
+              "right": 327,
+              "bottom": 1092.6875,
+              "left": 33
+            }
+          },
+          {
+            "text": "等待正式挑战开放",
+            "box": {
+              "x": 33,
+              "y": 1104.6875,
+              "width": 294,
+              "height": 56,
+              "top": 1104.6875,
+              "right": 327,
+              "bottom": 1160.6875,
+              "left": 33
+            }
+          },
+          {
+            "text": "返回大厅",
+            "box": {
+              "x": 33,
+              "y": 1172.6875,
+              "width": 294,
+              "height": 56,
+              "top": 1172.6875,
+              "right": 327,
+              "bottom": 1228.6875,
+              "left": 33
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/tutorial-herd-360.png"
+    },
+    {
+      "screen": "practice/stack",
+      "width": 360,
+      "metrics": {
+        "viewport": {
+          "width": 360,
+          "height": 844
+        },
+        "scrollWidth": 360,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 480,
+            "rect": {
+              "x": 9,
+              "y": 180.890625,
+              "width": 343.984375,
+              "height": 458.65625,
+              "top": 180.890625,
+              "right": 352.984375,
+              "bottom": 639.546875,
+              "left": 9
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "box": {
+              "x": 8,
+              "y": 32,
+              "width": 48,
+              "height": 48,
+              "top": 32,
+              "right": 56,
+              "bottom": 80,
+              "left": 8
+            }
+          },
+          {
+            "text": "静音",
+            "box": {
+              "x": 302,
+              "y": 32,
+              "width": 50,
+              "height": 48,
+              "top": 32,
+              "right": 352,
+              "bottom": 80,
+              "left": 302
+            }
+          },
+          {
+            "text": "开始不计分练习",
+            "box": {
+              "x": 25,
+              "y": 809.546875,
+              "width": 310,
+              "height": 64,
+              "top": 809.546875,
+              "right": 335,
+              "bottom": 873.546875,
+              "left": 25
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/practice-stack-360.png"
+    },
+    {
+      "screen": "practice/runner",
+      "width": 360,
+      "metrics": {
+        "viewport": {
+          "width": 360,
+          "height": 844
+        },
+        "scrollWidth": 360,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 220,
+            "rect": {
+              "x": 9,
+              "y": 180.890625,
+              "width": 343.984375,
+              "height": 210.21875,
+              "top": 180.890625,
+              "right": 352.984375,
+              "bottom": 391.109375,
+              "left": 9
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "box": {
+              "x": 8,
+              "y": 32,
+              "width": 48,
+              "height": 48,
+              "top": 32,
+              "right": 56,
+              "bottom": 80,
+              "left": 8
+            }
+          },
+          {
+            "text": "静音",
+            "box": {
+              "x": 302,
+              "y": 32,
+              "width": 50,
+              "height": 48,
+              "top": 32,
+              "right": 352,
+              "bottom": 80,
+              "left": 302
+            }
+          },
+          {
+            "text": "开始不计分练习",
+            "box": {
+              "x": 25,
+              "y": 561.109375,
+              "width": 310,
+              "height": 64,
+              "top": 561.109375,
+              "right": 335,
+              "bottom": 625.109375,
+              "left": 25
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/practice-runner-360.png"
+    },
+    {
+      "screen": "practice/herd",
+      "width": 360,
+      "metrics": {
+        "viewport": {
+          "width": 360,
+          "height": 844
+        },
+        "scrollWidth": 360,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 420,
+            "rect": {
+              "x": 9,
+              "y": 180.890625,
+              "width": 343.984375,
+              "height": 401.328125,
+              "top": 180.890625,
+              "right": 352.984375,
+              "bottom": 582.21875,
+              "left": 9
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "box": {
+              "x": 8,
+              "y": 32,
+              "width": 48,
+              "height": 48,
+              "top": 32,
+              "right": 56,
+              "bottom": 80,
+              "left": 8
+            }
+          },
+          {
+            "text": "静音",
+            "box": {
+              "x": 302,
+              "y": 32,
+              "width": 50,
+              "height": 48,
+              "top": 32,
+              "right": 352,
+              "bottom": 80,
+              "left": 302
+            }
+          },
+          {
+            "text": "开始不计分练习",
+            "box": {
+              "x": 25,
+              "y": 752.21875,
+              "width": 310,
+              "height": 64,
+              "top": 752.21875,
+              "right": 335,
+              "bottom": 816.21875,
+              "left": 25
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/practice-herd-360.png"
+    },
+    {
+      "screen": "lobby",
+      "width": 390,
+      "metrics": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "canvas": [],
+        "controls": [
+          {
+            "text": "羊羊叠高高\n\n看准位置，叠得更高！\n\n玩法 ›",
+            "box": {
+              "x": 16,
+              "y": 419.890625,
+              "width": 358,
+              "height": 164.1875,
+              "top": 419.890625,
+              "right": 374,
+              "bottom": 584.078125,
+              "left": 16
+            }
+          },
+          {
+            "text": "羊羊跨栏\n\n轻轻一跳，越过障碍！\n\n玩法 ›",
+            "box": {
+              "x": 16,
+              "y": 596.078125,
+              "width": 358,
+              "height": 164.1875,
+              "top": 596.078125,
+              "right": 374,
+              "bottom": 760.265625,
+              "left": 16
+            }
+          },
+          {
+            "text": "赶羊入圈\n\n绕到羊后方，赶它们进圈！\n\n玩法 ›",
+            "box": {
+              "x": 16,
+              "y": 772.265625,
+              "width": 358,
+              "height": 165.96875,
+              "top": 772.265625,
+              "right": 374,
+              "bottom": 938.234375,
+              "left": 16
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/lobby-390.png"
+    },
+    {
+      "screen": "tutorial/stack",
+      "width": 390,
+      "metrics": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 480,
+            "rect": {
+              "x": 34,
+              "y": 208.6875,
+              "width": 324,
+              "height": 432,
+              "top": 208.6875,
+              "right": 358,
+              "bottom": 640.6875,
+              "left": 34
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "暂停演示",
+            "box": {
+              "x": 33,
+              "y": 679.6875,
+              "width": 102,
+              "height": 56,
+              "top": 679.6875,
+              "right": 135,
+              "bottom": 735.6875,
+              "left": 33
+            }
+          },
+          {
+            "text": "跳过教程，先练习",
+            "box": {
+              "x": 33,
+              "y": 1101.6875,
+              "width": 324,
+              "height": 56,
+              "top": 1101.6875,
+              "right": 357,
+              "bottom": 1157.6875,
+              "left": 33
+            }
+          },
+          {
+            "text": "等待正式挑战开放",
+            "box": {
+              "x": 33,
+              "y": 1169.6875,
+              "width": 324,
+              "height": 56,
+              "top": 1169.6875,
+              "right": 357,
+              "bottom": 1225.6875,
+              "left": 33
+            }
+          },
+          {
+            "text": "返回大厅",
+            "box": {
+              "x": 33,
+              "y": 1237.6875,
+              "width": 324,
+              "height": 56,
+              "top": 1237.6875,
+              "right": 357,
+              "bottom": 1293.6875,
+              "left": 33
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/tutorial-stack-390.png"
+    },
+    {
+      "screen": "tutorial/runner",
+      "width": 390,
+      "metrics": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 220,
+            "rect": {
+              "x": 34,
+              "y": 208.6875,
+              "width": 324,
+              "height": 198,
+              "top": 208.6875,
+              "right": 358,
+              "bottom": 406.6875,
+              "left": 34
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "暂停演示",
+            "box": {
+              "x": 33,
+              "y": 445.6875,
+              "width": 102,
+              "height": 56,
+              "top": 445.6875,
+              "right": 135,
+              "bottom": 501.6875,
+              "left": 33
+            }
+          },
+          {
+            "text": "跳过教程，先练习",
+            "box": {
+              "x": 33,
+              "y": 891.6875,
+              "width": 324,
+              "height": 56,
+              "top": 891.6875,
+              "right": 357,
+              "bottom": 947.6875,
+              "left": 33
+            }
+          },
+          {
+            "text": "等待正式挑战开放",
+            "box": {
+              "x": 33,
+              "y": 959.6875,
+              "width": 324,
+              "height": 56,
+              "top": 959.6875,
+              "right": 357,
+              "bottom": 1015.6875,
+              "left": 33
+            }
+          },
+          {
+            "text": "返回大厅",
+            "box": {
+              "x": 33,
+              "y": 1027.6875,
+              "width": 324,
+              "height": 56,
+              "top": 1027.6875,
+              "right": 357,
+              "bottom": 1083.6875,
+              "left": 33
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/tutorial-runner-390.png"
+    },
+    {
+      "screen": "tutorial/herd",
+      "width": 390,
+      "metrics": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 420,
+            "rect": {
+              "x": 34,
+              "y": 208.6875,
+              "width": 324,
+              "height": 378,
+              "top": 208.6875,
+              "right": 358,
+              "bottom": 586.6875,
+              "left": 34
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "暂停演示",
+            "box": {
+              "x": 33,
+              "y": 625.6875,
+              "width": 102,
+              "height": 56,
+              "top": 625.6875,
+              "right": 135,
+              "bottom": 681.6875,
+              "left": 33
+            }
+          },
+          {
+            "text": "跳过教程，先练习",
+            "box": {
+              "x": 33,
+              "y": 1047.6875,
+              "width": 324,
+              "height": 56,
+              "top": 1047.6875,
+              "right": 357,
+              "bottom": 1103.6875,
+              "left": 33
+            }
+          },
+          {
+            "text": "等待正式挑战开放",
+            "box": {
+              "x": 33,
+              "y": 1115.6875,
+              "width": 324,
+              "height": 56,
+              "top": 1115.6875,
+              "right": 357,
+              "bottom": 1171.6875,
+              "left": 33
+            }
+          },
+          {
+            "text": "返回大厅",
+            "box": {
+              "x": 33,
+              "y": 1183.6875,
+              "width": 324,
+              "height": 56,
+              "top": 1183.6875,
+              "right": 357,
+              "bottom": 1239.6875,
+              "left": 33
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/tutorial-herd-390.png"
+    },
+    {
+      "screen": "practice/stack",
+      "width": 390,
+      "metrics": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 480,
+            "rect": {
+              "x": 9,
+              "y": 180.890625,
+              "width": 373.984375,
+              "height": 498.65625,
+              "top": 180.890625,
+              "right": 382.984375,
+              "bottom": 679.546875,
+              "left": 9
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "box": {
+              "x": 8,
+              "y": 32,
+              "width": 48,
+              "height": 48,
+              "top": 32,
+              "right": 56,
+              "bottom": 80,
+              "left": 8
+            }
+          },
+          {
+            "text": "静音",
+            "box": {
+              "x": 332,
+              "y": 32,
+              "width": 50,
+              "height": 48,
+              "top": 32,
+              "right": 382,
+              "bottom": 80,
+              "left": 332
+            }
+          },
+          {
+            "text": "开始不计分练习",
+            "box": {
+              "x": 25,
+              "y": 849.546875,
+              "width": 340,
+              "height": 64,
+              "top": 849.546875,
+              "right": 365,
+              "bottom": 913.546875,
+              "left": 25
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/practice-stack-390.png"
+    },
+    {
+      "screen": "practice/runner",
+      "width": 390,
+      "metrics": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 220,
+            "rect": {
+              "x": 9,
+              "y": 180.890625,
+              "width": 373.984375,
+              "height": 228.546875,
+              "top": 180.890625,
+              "right": 382.984375,
+              "bottom": 409.4375,
+              "left": 9
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "box": {
+              "x": 8,
+              "y": 32,
+              "width": 48,
+              "height": 48,
+              "top": 32,
+              "right": 56,
+              "bottom": 80,
+              "left": 8
+            }
+          },
+          {
+            "text": "静音",
+            "box": {
+              "x": 332,
+              "y": 32,
+              "width": 50,
+              "height": 48,
+              "top": 32,
+              "right": 382,
+              "bottom": 80,
+              "left": 332
+            }
+          },
+          {
+            "text": "开始不计分练习",
+            "box": {
+              "x": 25,
+              "y": 579.4375,
+              "width": 340,
+              "height": 64,
+              "top": 579.4375,
+              "right": 365,
+              "bottom": 643.4375,
+              "left": 25
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/practice-runner-390.png"
+    },
+    {
+      "screen": "practice/herd",
+      "width": 390,
+      "metrics": {
+        "viewport": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollWidth": 390,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 420,
+            "rect": {
+              "x": 9,
+              "y": 180.890625,
+              "width": 373.984375,
+              "height": 436.328125,
+              "top": 180.890625,
+              "right": 382.984375,
+              "bottom": 617.21875,
+              "left": 9
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "box": {
+              "x": 8,
+              "y": 32,
+              "width": 48,
+              "height": 48,
+              "top": 32,
+              "right": 56,
+              "bottom": 80,
+              "left": 8
+            }
+          },
+          {
+            "text": "静音",
+            "box": {
+              "x": 332,
+              "y": 32,
+              "width": 50,
+              "height": 48,
+              "top": 32,
+              "right": 382,
+              "bottom": 80,
+              "left": 332
+            }
+          },
+          {
+            "text": "开始不计分练习",
+            "box": {
+              "x": 25,
+              "y": 787.21875,
+              "width": 340,
+              "height": 64,
+              "top": 787.21875,
+              "right": 365,
+              "bottom": 851.21875,
+              "left": 25
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/practice-herd-390.png"
+    },
+    {
+      "screen": "lobby",
+      "width": 430,
+      "metrics": {
+        "viewport": {
+          "width": 430,
+          "height": 844
+        },
+        "scrollWidth": 430,
+        "canvas": [],
+        "controls": [
+          {
+            "text": "羊羊叠高高\n\n看准位置，叠得更高！\n\n玩法 ›",
+            "box": {
+              "x": 16,
+              "y": 439.890625,
+              "width": 398,
+              "height": 181.390625,
+              "top": 439.890625,
+              "right": 414,
+              "bottom": 621.28125,
+              "left": 16
+            }
+          },
+          {
+            "text": "羊羊跨栏\n\n轻轻一跳，越过障碍！\n\n玩法 ›",
+            "box": {
+              "x": 16,
+              "y": 633.28125,
+              "width": 398,
+              "height": 181.390625,
+              "top": 633.28125,
+              "right": 414,
+              "bottom": 814.671875,
+              "left": 16
+            }
+          },
+          {
+            "text": "赶羊入圈\n\n绕到羊后方，赶它们进圈！\n\n玩法 ›",
+            "box": {
+              "x": 16,
+              "y": 826.671875,
+              "width": 398,
+              "height": 181.390625,
+              "top": 826.671875,
+              "right": 414,
+              "bottom": 1008.0625,
+              "left": 16
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/lobby-430.png"
+    },
+    {
+      "screen": "tutorial/stack",
+      "width": 430,
+      "metrics": {
+        "viewport": {
+          "width": 430,
+          "height": 844
+        },
+        "scrollWidth": 430,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 480,
+            "rect": {
+              "x": 34,
+              "y": 208.6875,
+              "width": 363.984375,
+              "height": 485.328125,
+              "top": 208.6875,
+              "right": 397.984375,
+              "bottom": 694.015625,
+              "left": 34
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "暂停演示",
+            "box": {
+              "x": 33,
+              "y": 733.015625,
+              "width": 102,
+              "height": 56,
+              "top": 733.015625,
+              "right": 135,
+              "bottom": 789.015625,
+              "left": 33
+            }
+          },
+          {
+            "text": "跳过教程，先练习",
+            "box": {
+              "x": 33,
+              "y": 1131.015625,
+              "width": 364,
+              "height": 56,
+              "top": 1131.015625,
+              "right": 397,
+              "bottom": 1187.015625,
+              "left": 33
+            }
+          },
+          {
+            "text": "等待正式挑战开放",
+            "box": {
+              "x": 33,
+              "y": 1199.015625,
+              "width": 364,
+              "height": 56,
+              "top": 1199.015625,
+              "right": 397,
+              "bottom": 1255.015625,
+              "left": 33
+            }
+          },
+          {
+            "text": "返回大厅",
+            "box": {
+              "x": 33,
+              "y": 1267.015625,
+              "width": 364,
+              "height": 56,
+              "top": 1267.015625,
+              "right": 397,
+              "bottom": 1323.015625,
+              "left": 33
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/tutorial-stack-430.png"
+    },
+    {
+      "screen": "tutorial/runner",
+      "width": 430,
+      "metrics": {
+        "viewport": {
+          "width": 430,
+          "height": 844
+        },
+        "scrollWidth": 430,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 220,
+            "rect": {
+              "x": 34,
+              "y": 208.6875,
+              "width": 363.984375,
+              "height": 222.4375,
+              "top": 208.6875,
+              "right": 397.984375,
+              "bottom": 431.125,
+              "left": 34
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "暂停演示",
+            "box": {
+              "x": 33,
+              "y": 470.125,
+              "width": 102,
+              "height": 56,
+              "top": 470.125,
+              "right": 135,
+              "bottom": 526.125,
+              "left": 33
+            }
+          },
+          {
+            "text": "跳过教程，先练习",
+            "box": {
+              "x": 33,
+              "y": 868.125,
+              "width": 364,
+              "height": 56,
+              "top": 868.125,
+              "right": 397,
+              "bottom": 924.125,
+              "left": 33
+            }
+          },
+          {
+            "text": "等待正式挑战开放",
+            "box": {
+              "x": 33,
+              "y": 936.125,
+              "width": 364,
+              "height": 56,
+              "top": 936.125,
+              "right": 397,
+              "bottom": 992.125,
+              "left": 33
+            }
+          },
+          {
+            "text": "返回大厅",
+            "box": {
+              "x": 33,
+              "y": 1004.125,
+              "width": 364,
+              "height": 56,
+              "top": 1004.125,
+              "right": 397,
+              "bottom": 1060.125,
+              "left": 33
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/tutorial-runner-430.png"
+    },
+    {
+      "screen": "tutorial/herd",
+      "width": 430,
+      "metrics": {
+        "viewport": {
+          "width": 430,
+          "height": 844
+        },
+        "scrollWidth": 430,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 420,
+            "rect": {
+              "x": 34,
+              "y": 208.6875,
+              "width": 363.984375,
+              "height": 424.65625,
+              "top": 208.6875,
+              "right": 397.984375,
+              "bottom": 633.34375,
+              "left": 34
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "暂停演示",
+            "box": {
+              "x": 33,
+              "y": 672.34375,
+              "width": 102,
+              "height": 56,
+              "top": 672.34375,
+              "right": 135,
+              "bottom": 728.34375,
+              "left": 33
+            }
+          },
+          {
+            "text": "跳过教程，先练习",
+            "box": {
+              "x": 33,
+              "y": 1070.34375,
+              "width": 364,
+              "height": 56,
+              "top": 1070.34375,
+              "right": 397,
+              "bottom": 1126.34375,
+              "left": 33
+            }
+          },
+          {
+            "text": "等待正式挑战开放",
+            "box": {
+              "x": 33,
+              "y": 1138.34375,
+              "width": 364,
+              "height": 56,
+              "top": 1138.34375,
+              "right": 397,
+              "bottom": 1194.34375,
+              "left": 33
+            }
+          },
+          {
+            "text": "返回大厅",
+            "box": {
+              "x": 33,
+              "y": 1206.34375,
+              "width": 364,
+              "height": 56,
+              "top": 1206.34375,
+              "right": 397,
+              "bottom": 1262.34375,
+              "left": 33
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/tutorial-herd-430.png"
+    },
+    {
+      "screen": "practice/stack",
+      "width": 430,
+      "metrics": {
+        "viewport": {
+          "width": 430,
+          "height": 844
+        },
+        "scrollWidth": 430,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 480,
+            "rect": {
+              "x": 9,
+              "y": 180.890625,
+              "width": 414,
+              "height": 552,
+              "top": 180.890625,
+              "right": 423,
+              "bottom": 732.890625,
+              "left": 9
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "box": {
+              "x": 8,
+              "y": 32,
+              "width": 48,
+              "height": 48,
+              "top": 32,
+              "right": 56,
+              "bottom": 80,
+              "left": 8
+            }
+          },
+          {
+            "text": "静音",
+            "box": {
+              "x": 372,
+              "y": 32,
+              "width": 50,
+              "height": 48,
+              "top": 32,
+              "right": 422,
+              "bottom": 80,
+              "left": 372
+            }
+          },
+          {
+            "text": "开始不计分练习",
+            "box": {
+              "x": 25,
+              "y": 902.890625,
+              "width": 380,
+              "height": 64,
+              "top": 902.890625,
+              "right": 405,
+              "bottom": 966.890625,
+              "left": 25
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/practice-stack-430.png"
+    },
+    {
+      "screen": "practice/runner",
+      "width": 430,
+      "metrics": {
+        "viewport": {
+          "width": 430,
+          "height": 844
+        },
+        "scrollWidth": 430,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 220,
+            "rect": {
+              "x": 9,
+              "y": 180.890625,
+              "width": 414,
+              "height": 253,
+              "top": 180.890625,
+              "right": 423,
+              "bottom": 433.890625,
+              "left": 9
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "box": {
+              "x": 8,
+              "y": 32,
+              "width": 48,
+              "height": 48,
+              "top": 32,
+              "right": 56,
+              "bottom": 80,
+              "left": 8
+            }
+          },
+          {
+            "text": "静音",
+            "box": {
+              "x": 372,
+              "y": 32,
+              "width": 50,
+              "height": 48,
+              "top": 32,
+              "right": 422,
+              "bottom": 80,
+              "left": 372
+            }
+          },
+          {
+            "text": "开始不计分练习",
+            "box": {
+              "x": 25,
+              "y": 603.890625,
+              "width": 380,
+              "height": 64,
+              "top": 603.890625,
+              "right": 405,
+              "bottom": 667.890625,
+              "left": 25
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/practice-runner-430.png"
+    },
+    {
+      "screen": "practice/herd",
+      "width": 430,
+      "metrics": {
+        "viewport": {
+          "width": 430,
+          "height": 844
+        },
+        "scrollWidth": 430,
+        "canvas": [
+          {
+            "logicalWidth": 360,
+            "logicalHeight": 420,
+            "rect": {
+              "x": 9,
+              "y": 180.890625,
+              "width": 414,
+              "height": 483,
+              "top": 180.890625,
+              "right": 423,
+              "bottom": 663.890625,
+              "left": 9
+            }
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "box": {
+              "x": 8,
+              "y": 32,
+              "width": 48,
+              "height": 48,
+              "top": 32,
+              "right": 56,
+              "bottom": 80,
+              "left": 8
+            }
+          },
+          {
+            "text": "静音",
+            "box": {
+              "x": 372,
+              "y": 32,
+              "width": 50,
+              "height": 48,
+              "top": 32,
+              "right": 422,
+              "bottom": 80,
+              "left": 372
+            }
+          },
+          {
+            "text": "开始不计分练习",
+            "box": {
+              "x": 25,
+              "y": 833.890625,
+              "width": 380,
+              "height": 64,
+              "top": 833.890625,
+              "right": 405,
+              "bottom": 897.890625,
+              "left": 25
+            }
+          }
+        ]
+      },
+      "errors": [],
+      "writes": [],
+      "screenshot": "output/repair-20261027/final-pages/practice-herd-430.png"
+    }
+  ]
+}

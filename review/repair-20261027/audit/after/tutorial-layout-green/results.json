@@ -1,0 +1,282 @@
+{
+  "at": "2026-10-27T08:29:24.154Z",
+  "mode": "tutorial-layout-green",
+  "base": "http://127.0.0.1:5175/",
+  "browser": "156.0.8078.4",
+  "manifestHash": "bdf93f4c26c9ed6e108f5af5a718edd7997a86936da85404485a68e1eeb8d234",
+  "build": {
+    "rule_version": "onsite-v2.1-candidate",
+    "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+    "simulator_version": "sheep-core-2.2.0",
+    "client_version": "sheep-web-2.2.0"
+  },
+  "scope": "Isolated API fixtures and actual game-core runtime browser tests, not physical-device or server acceptance. Hidden and blur are browser DOM events; form input is audit-only injected control.",
+  "results": [
+    {
+      "id": "F04-stack-teaching-layout",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Canvas stays within tutorial wrapper\n    at <anonymous> (D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2\\output\\repair-20261027\\audit\\after\\target-regression.ts:45:1382)\n    at async run (D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2\\output\\repair-20261027\\audit\\after\\target-regression.ts:32:204)\n    at async <anonymous> (D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2\\output\\repair-20261027\\audit\\after\\target-regression.ts:45:3)",
+      "requests": [
+        {
+          "path": "/api/display",
+          "method": "GET"
+        },
+        {
+          "path": "/api/me",
+          "method": "GET"
+        }
+      ],
+      "assets": [
+        "/assets/ui/icon_home.svg",
+        "/assets/ui/icon_leaderboard.svg",
+        "/assets/ui/icon_gift.svg",
+        "/assets/asset-manifest.v1.json",
+        "/assets/characters/sheep_side_v2.atlas.json",
+        "/assets/characters/sheep_side_v2.png",
+        "/assets/environment/farm_side_v2.atlas.json",
+        "/assets/environment/farm_side_v2.png",
+        "/assets/effects/shared_v1.atlas.json",
+        "/assets/effects/shared_v1.png",
+        "/assets/environment/backdrop_stack_v3.atlas.json",
+        "/assets/environment/backdrop_stack_v3.png"
+      ],
+      "pageErrors": [],
+      "metrics": {
+        "tick": null,
+        "acceptedActions": null,
+        "decode": {
+          "started": 4,
+          "succeeded": 4,
+          "images": [
+            {
+              "width": 1024,
+              "height": 1024,
+              "source": "blob:http://127.0.0.1:5175/4ce89848-8971-448b-a515-69d09126d0ef"
+            },
+            {
+              "width": 1024,
+              "height": 1024,
+              "source": "blob:http://127.0.0.1:5175/a44a3d5f-9bdd-4b2e-9aad-42086ba4e2d9"
+            },
+            {
+              "width": 512,
+              "height": 512,
+              "source": "blob:http://127.0.0.1:5175/1429614a-610e-4c11-9626-0be6d8c7a8c0"
+            },
+            {
+              "width": 720,
+              "height": 960,
+              "source": "blob:http://127.0.0.1:5175/8f3b3b2b-3436-4b24-8c07-7ba026bb57b2"
+            }
+          ],
+          "hold": false
+        },
+        "eventTrace": [],
+        "hidden": false,
+        "focused": true,
+        "canvas": [
+          {
+            "width": 360,
+            "height": 480,
+            "rect": {
+              "x": 34,
+              "y": 208.6875,
+              "width": 253.984375,
+              "height": 338.65625,
+              "top": 208.6875,
+              "right": 287.984375,
+              "bottom": 547.34375,
+              "left": 34
+            }
+          }
+        ],
+        "body": "♧ 牧场\n界面状态验收夹具\n状态夹具参与者\n✦ 正式挑战中\n羊羊叠高高\n\n教学演示 · 不占正式机会、不入账\n\n暂停演示\n点击放羊，托盘对齐才稳\n\n每叠稳一层 +2，完美再 +2。完整托盘一直保留；20 层、3 次失误或时间到自然结束。\n\n练习不占正式机会，也不会产生正式积分。正式局在预约成功后立即使用 1 次机会，3 秒后开赛；返回或放弃仍消耗本次机会。\n\n12 秒教程 · 第 1 步\n\n先看上方托盘左右移动，等它接近下方托盘。\n跳过教程，先练习\n正式挑战 · 使用 1 次机会\n返回大厅\n游园会\n荣誉榜\n兑换礼品",
+        "dpr": 1,
+        "viewport": {
+          "width": 320,
+          "height": 740
+        }
+      }
+    },
+    {
+      "id": "F04-runner-teaching-layout",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Canvas stays within tutorial wrapper\n    at <anonymous> (D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2\\output\\repair-20261027\\audit\\after\\target-regression.ts:45:1382)\n    at async run (D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2\\output\\repair-20261027\\audit\\after\\target-regression.ts:32:204)\n    at async <anonymous> (D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2\\output\\repair-20261027\\audit\\after\\target-regression.ts:45:3)",
+      "requests": [
+        {
+          "path": "/api/display",
+          "method": "GET"
+        },
+        {
+          "path": "/api/me",
+          "method": "GET"
+        }
+      ],
+      "assets": [
+        "/assets/ui/icon_home.svg",
+        "/assets/ui/icon_leaderboard.svg",
+        "/assets/ui/icon_gift.svg",
+        "/assets/asset-manifest.v1.json",
+        "/assets/characters/sheep_side_v2.atlas.json",
+        "/assets/characters/sheep_side_v2.png",
+        "/assets/environment/farm_side_v2.atlas.json",
+        "/assets/environment/farm_side_v2.png",
+        "/assets/effects/shared_v1.atlas.json",
+        "/assets/effects/shared_v1.png",
+        "/assets/environment/backdrop_runner_v3.atlas.json",
+        "/assets/environment/backdrop_runner_v3.png"
+      ],
+      "pageErrors": [],
+      "metrics": {
+        "tick": null,
+        "acceptedActions": null,
+        "decode": {
+          "started": 4,
+          "succeeded": 4,
+          "images": [
+            {
+              "width": 1024,
+              "height": 1024,
+              "source": "blob:http://127.0.0.1:5175/8e51cf86-ccdc-40a4-93ae-29459881f1e8"
+            },
+            {
+              "width": 1024,
+              "height": 1024,
+              "source": "blob:http://127.0.0.1:5175/57dfa346-7029-4b5b-a330-68a1995e90e9"
+            },
+            {
+              "width": 512,
+              "height": 512,
+              "source": "blob:http://127.0.0.1:5175/a3890b06-a1e8-4852-8eed-bb8f77d9b8ce"
+            },
+            {
+              "width": 720,
+              "height": 440,
+              "source": "blob:http://127.0.0.1:5175/50eaa6a5-dcff-4cb8-b8fb-2a02430deb32"
+            }
+          ],
+          "hold": false
+        },
+        "eventTrace": [],
+        "hidden": false,
+        "focused": true,
+        "canvas": [
+          {
+            "width": 360,
+            "height": 220,
+            "rect": {
+              "x": 34,
+              "y": 208.6875,
+              "width": 253.984375,
+              "height": 155.21875,
+              "top": 208.6875,
+              "right": 287.984375,
+              "bottom": 363.90625,
+              "left": 34
+            }
+          }
+        ],
+        "body": "♧ 牧场\n界面状态验收夹具\n状态夹具参与者\n✦ 正式挑战中\n羊羊跨栏\n\n教学演示 · 不占正式机会、不入账\n\n暂停演示\n自动向前跑，点击跳跃\n\n安全越栏 +3，草叶外圈 +1、金芯再 +1。碰栏后继续跑，失误不是生命值；完整进行到 45 秒。\n\n练习不占正式机会，也不会产生正式积分。正式局在预约成功后立即使用 1 次机会，3 秒后开赛；返回或放弃仍消耗本次机会。\n\n12 秒教程 · 第 1 步\n\n小羊会自动往前跑，你只需要把握跳跃时机。\n跳过教程，先练习\n正式挑战 · 使用 1 次机会\n返回大厅\n游园会\n荣誉榜\n兑换礼品",
+        "dpr": 1,
+        "viewport": {
+          "width": 320,
+          "height": 740
+        }
+      }
+    },
+    {
+      "id": "F04-herd-teaching-layout",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Canvas stays within tutorial wrapper\n    at <anonymous> (D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2\\output\\repair-20261027\\audit\\after\\target-regression.ts:45:1382)\n    at async run (D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2\\output\\repair-20261027\\audit\\after\\target-regression.ts:32:204)\n    at async <anonymous> (D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2\\output\\repair-20261027\\audit\\after\\target-regression.ts:45:3)",
+      "requests": [
+        {
+          "path": "/api/display",
+          "method": "GET"
+        },
+        {
+          "path": "/api/me",
+          "method": "GET"
+        }
+      ],
+      "assets": [
+        "/assets/ui/icon_home.svg",
+        "/assets/ui/icon_leaderboard.svg",
+        "/assets/ui/icon_gift.svg",
+        "/assets/asset-manifest.v1.json",
+        "/assets/characters/sheep_iso8_v2.atlas.json",
+        "/assets/characters/sheep_iso8_v2.png",
+        "/assets/characters/dog_iso8_v2.atlas.json",
+        "/assets/characters/dog_iso8_v2.png",
+        "/assets/environment/farm_iso_v2.atlas.json",
+        "/assets/environment/farm_iso_v2.png",
+        "/assets/effects/shared_v1.atlas.json",
+        "/assets/effects/shared_v1.png",
+        "/assets/environment/backdrop_herd_v3.atlas.json",
+        "/assets/environment/backdrop_herd_v3.png"
+      ],
+      "pageErrors": [],
+      "metrics": {
+        "tick": null,
+        "acceptedActions": null,
+        "decode": {
+          "started": 5,
+          "succeeded": 5,
+          "images": [
+            {
+              "width": 2048,
+              "height": 2048,
+              "source": "blob:http://127.0.0.1:5175/a150dc2c-d781-4860-8484-002b0cb8f84b"
+            },
+            {
+              "width": 2048,
+              "height": 2048,
+              "source": "blob:http://127.0.0.1:5175/1d18e97b-03ba-4bcc-b61e-e72c13f5b0cb"
+            },
+            {
+              "width": 1024,
+              "height": 1024,
+              "source": "blob:http://127.0.0.1:5175/ed95def1-9b4d-4389-96f9-88d8960cb0c4"
+            },
+            {
+              "width": 512,
+              "height": 512,
+              "source": "blob:http://127.0.0.1:5175/4657e782-cb1f-4b67-9fbe-8f82b97ffd6b"
+            },
+            {
+              "width": 720,
+              "height": 840,
+              "source": "blob:http://127.0.0.1:5175/21be806a-7a0b-4379-a644-ae0a7548ea30"
+            }
+          ],
+          "hold": false
+        },
+        "eventTrace": [],
+        "hidden": false,
+        "focused": true,
+        "canvas": [
+          {
+            "width": 360,
+            "height": 420,
+            "rect": {
+              "x": 34,
+              "y": 208.6875,
+              "width": 253.984375,
+              "height": 296.328125,
+              "top": 208.6875,
+              "right": 287.984375,
+              "bottom": 505.015625,
+              "left": 34
+            }
+          }
+        ],
+        "body": "♧ 牧场\n界面状态验收夹具\n状态夹具参与者\n✦ 正式挑战中\n赶羊入圈\n\n教学演示 · 不占正式机会、不入账\n\n暂停演示\n绕到小羊后面，带它进圈\n\n拖动摇杆移动牧羊犬，接近羊后方驱赶。吠叫有冷却；每只入圈 +6，全齐另有时间奖励。\n\n练习不占正式机会，也不会产生正式积分。正式局在预约成功后立即使用 1 次机会，3 秒后开赛；返回或放弃仍消耗本次机会。\n\n12 秒教程 · 第 1 步\n\n拖动摇杆移动牧羊犬，先绕到羊的后方。\n跳过教程，先练习\n正式挑战 · 使用 1 次机会\n返回大厅\n游园会\n荣誉榜\n兑换礼品",
+        "dpr": 1,
+        "viewport": {
+          "width": 320,
+          "height": 740
+        }
+      }
+    }
+  ],
+  "pass": false
+}

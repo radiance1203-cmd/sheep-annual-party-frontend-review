@@ -1,0 +1,74 @@
+{
+  "viewport": 390,
+  "scrollWidth": 390,
+  "art": {
+    "x": 33,
+    "y": 207.6875,
+    "width": 324,
+    "height": 294,
+    "top": 207.6875,
+    "right": 357,
+    "bottom": 501.6875,
+    "left": 33
+  },
+  "teaching": {
+    "x": 33,
+    "y": 207.6875,
+    "width": 324,
+    "height": 294,
+    "top": 207.6875,
+    "right": 357,
+    "bottom": 501.6875,
+    "left": 33
+  },
+  "canvas": {
+    "x": 34,
+    "y": 208.6875,
+    "width": 324,
+    "height": 198,
+    "top": 208.6875,
+    "right": 358,
+    "bottom": 406.6875,
+    "left": 34
+  },
+  "following": {
+    "x": 33,
+    "y": 517.6875,
+    "width": 324,
+    "height": 27,
+    "top": 517.6875,
+    "right": 357,
+    "bottom": 544.6875,
+    "left": 33
+  },
+  "copy": [
+    {
+      "text": "教学演示 · 不占正式机会、不入账",
+      "font": 16,
+      "rect": {
+        "x": 33,
+        "y": 413.6875,
+        "width": 324,
+        "height": 24,
+        "top": 413.6875,
+        "right": 357,
+        "bottom": 437.6875,
+        "left": 33
+      }
+    },
+    {
+      "text": "暂停演示",
+      "font": 16,
+      "rect": {
+        "x": 33,
+        "y": 445.6875,
+        "width": 102,
+        "height": 56,
+        "top": 445.6875,
+        "right": 135,
+        "bottom": 501.6875,
+        "left": 33
+      }
+    }
+  ]
+}

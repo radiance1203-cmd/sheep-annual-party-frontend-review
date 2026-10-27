@@ -1,0 +1,86 @@
+{
+  "id": "F04-runner-teaching-layout",
+  "pass": false,
+  "error": "AssertionError [ERR_ASSERTION]: Canvas stays within tutorial wrapper\n    at <anonymous> (D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2\\output\\repair-20261027\\audit\\after\\target-regression.ts:45:1382)\n    at async run (D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2\\output\\repair-20261027\\audit\\after\\target-regression.ts:32:204)\n    at async <anonymous> (D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2\\output\\repair-20261027\\audit\\after\\target-regression.ts:45:3)",
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/ui/icon_home.svg",
+    "/assets/ui/icon_leaderboard.svg",
+    "/assets/ui/icon_gift.svg",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_side_v2.atlas.json",
+    "/assets/characters/sheep_side_v2.png",
+    "/assets/environment/farm_side_v2.atlas.json",
+    "/assets/environment/farm_side_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_runner_v3.atlas.json",
+    "/assets/environment/backdrop_runner_v3.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": null,
+    "acceptedActions": null,
+    "decode": {
+      "started": 4,
+      "succeeded": 4,
+      "images": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/8e51cf86-ccdc-40a4-93ae-29459881f1e8"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/57dfa346-7029-4b5b-a330-68a1995e90e9"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/a3890b06-a1e8-4852-8eed-bb8f77d9b8ce"
+        },
+        {
+          "width": 720,
+          "height": 440,
+          "source": "blob:http://127.0.0.1:5175/50eaa6a5-dcff-4cb8-b8fb-2a02430deb32"
+        }
+      ],
+      "hold": false
+    },
+    "eventTrace": [],
+    "hidden": false,
+    "focused": true,
+    "canvas": [
+      {
+        "width": 360,
+        "height": 220,
+        "rect": {
+          "x": 34,
+          "y": 208.6875,
+          "width": 253.984375,
+          "height": 155.21875,
+          "top": 208.6875,
+          "right": 287.984375,
+          "bottom": 363.90625,
+          "left": 34
+        }
+      }
+    ],
+    "body": "♧ 牧场\n界面状态验收夹具\n状态夹具参与者\n✦ 正式挑战中\n羊羊跨栏\n\n教学演示 · 不占正式机会、不入账\n\n暂停演示\n自动向前跑，点击跳跃\n\n安全越栏 +3，草叶外圈 +1、金芯再 +1。碰栏后继续跑，失误不是生命值；完整进行到 45 秒。\n\n练习不占正式机会，也不会产生正式积分。正式局在预约成功后立即使用 1 次机会，3 秒后开赛；返回或放弃仍消耗本次机会。\n\n12 秒教程 · 第 1 步\n\n小羊会自动往前跑，你只需要把握跳跃时机。\n跳过教程，先练习\n正式挑战 · 使用 1 次机会\n返回大厅\n游园会\n荣誉榜\n兑换礼品",
+    "dpr": 1,
+    "viewport": {
+      "width": 320,
+      "height": 740
+    }
+  }
+}

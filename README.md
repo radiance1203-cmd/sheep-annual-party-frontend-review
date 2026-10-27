@@ -1,33 +1,27 @@
 # 羊年年会游戏 · 前端与UI美术审查
 
-这是主项目当前工作区的独立审查快照，包含三款游戏前端、共用规则核与HTTP类型、完整运行美术、既定原型和实际页面截图。服务端实现、生产数据和完整历史没有上传。
-
-当前审查仓库已公开，可直接访问源码与图片链接。
+公开的前端审查仓库，包含原有三款游戏、唯一规则核/HTTP契约、完整运行素材和实际视觉证据。当前已同步审查基线6e8e40c之后的修复；后台实现、凭据/数据库和大型.blend不在本快照。
 
 ## 最新更新
 
-2026-10-27：提供大厅、叠高高、跨栏、赶羊入圈及共用页面的源码与实际对照；附同源角色图集、独立三维背景、母源预览和可复拍的隔离视图工具。三款正式美术保持REVIEW，真人/真机/现场未验。[发布记录](docs/releases/release-notes.md)
+2026-10-27：修复订单错绑、兑换恢复、身份/输入/图片状态及二维码核销入口；补齐三款真实准备、教程和运行场景，接入v4同源角色与有界道具/背景，新增服务端成绩解释和逐项复核材料。三款美术仍为候选，G5 REVIEW/G6 BLOCKED。[完整更新记录](docs/releases/release-notes.md)
 
-## 从哪里开始审查
+**审查入口：[进度汇报](PROGRESS.md) · [产出物索引](DELIVERABLES.md) · [F01–F18逐项报告](docs/repair-20261027-report.md) · [ChatGPT审查提示词](CHATGPT_REVIEW_PROMPT.md)**
 
-1. 阅读 [审查指南](REVIEW_GUIDE.md)。
-2. 直接复制 [ChatGPT审查提示词](CHATGPT_REVIEW_PROMPT.md)。
-3. 打开下方原型/真实页面对照，然后追到实际组件、CSS和图集。
-
-| 页面 | 原型/修复前/当前结果 |
+| 页面 | 原型 / 修复前 / 当前实际页面 |
 |---|---|
-| 大厅 | [查看对照图](review/lobby-comparison.png) |
-| 叠高高 | [查看对照图](review/stack-comparison.png) |
-| 跨栏 | [查看对照图](review/runner-comparison.png) |
-| 赶羊入圈 | [查看对照图](review/herd-comparison.png) |
+| 大厅 | [对照图](review/repair-20261027/comparisons/lobby.png) |
+| 羊羊叠高高 | [对照图](review/repair-20261027/comparisons/stack.png) · [准备/教程/运行](review/repair-20261027/comparisons/stack-states.png) |
+| 羊羊跨栏 | [对照图](review/repair-20261027/comparisons/runner.png) · [准备/教程/运行](review/repair-20261027/comparisons/runner-states.png) |
+| 赶羊入圈 | [对照图](review/repair-20261027/comparisons/herd.png) · [准备/教程/运行](review/repair-20261027/comparisons/herd-states.png) |
 
-![大厅实际对照](review/lobby-comparison.png)
+![四页实际对照总览](review/repair-20261027/comparisons/overview.png)
 
-三款图像与原型的细绒、表情、犬材质及细节密度仍有差距，不能只看测试报告就给正式美术PASS。
+三款对照前后是同390 CSS宽、同core输入前缀与tick，未改数字凑图。照片/截图为真实页面记录，业务fixture、原完整工程真实HTTP/PG测试、真人/真机证据严格分开。最终艺术签认和24人216局真实试玩未完成，不以截图或单测数量放行。
 
 ## 本地检查
 
-需要Node 24.12.x、npm 11.x。核心差分测试另需Python 3（仅标准库）。
+Node >=24.12 <25、npm11；core差分测试另需Python3标准库。
 
 ```bash
 npm ci
@@ -38,20 +32,19 @@ npm run contracts:check
 npm run rules:check
 ```
 
-`npm run dev`默认在127.0.0.1:5175启动现有前端。正常业务请求仍代理到127.0.0.1:3100；本审查仓库不附后台，未启动原后台时显示连接错误属于预期，不用假接口标业务通过。主项目仍可在原目录启动完整后台。
+本快照测试只含core/web；完整主工程352测试和真实数据库验证是[明确标注的历史证据](PROGRESS.md)，不算本快照重跑。此次导出实际检查见 [upload-verification.json](review/upload-verification.json)。
 
-## 独立复拍（不需要后台）
+`npm run dev`在127.0.0.1:5175启动前端，业务API仍代理到3100。本仓库没有后台，未连接原后台时的连接错误不代表后台没实现，也不能以假API替代业务验收。规则/seed/碰撞/计分仍只来自packages/game-core。
 
-在可运行Playwright Chromium的环境先启动前端，再执行：
+## 隔离复拍
+
+启动前端并准备Playwright Chromium后执行：
 
 ```bash
 npm run review:lobby
 npm run review:games
 ```
 
-这些工具只拦截浏览器内API响应，游戏图使用共享core验证的实际输入前缀恢复GamePage。结果在output/visual-repair-v1，明确标为视图fixture，不写真实机会、积分、订单或库存。浏览器需预先安装；可使用已安装的Playwright浏览器。若使用其它空闲端口，设置REVIEW_ORIGIN为对应URL（例如http://127.0.0.1:5176）。
+可设置REVIEW_ORIGIN切换空闲端口，例如http://127.0.0.1:5176。两个工具只在独立浏览器拦截API，用真实组件/合法core前缀复拍；输出到忽略的output/repair-20261027，不写真实机会/积分/库存。更完整的逐tick/八向诊断工具在apps/web/tests/repair-audit，先derive-art-states再capture-art-runtime；它是独立renderer诊断，不冒充业务页面。
 
-上传验证见 [review/upload-verification.json](review/upload-verification.json)，来源及原文件SHA见 [SOURCE_SNAPSHOT.json](SOURCE_SNAPSHOT.json)。`.blend`母源与中间渲染保留本地主项目，本仓库附其hash、预览与制作脚本。不要运行旧素材生成器覆盖运行资产。
-
-
-图像读取边界：本次GitHub连接器的fetch不返回非UTF8二进制，文本读取通过也不等于看过PNG。目标ChatGPT若没有图像读取工具，请把四张对照图及角色板作为附件提供；素材已收录在本仓库，不应凭文件名给视觉PASS。
+源文件映射、排除范围、未上传的重复中间帧及原生母源SHA见 [SOURCE_SNAPSHOT.json](SOURCE_SNAPSHOT.json)。提供的旧版对照仍保留在review根目录，**当前以review/repair-20261027和art1.4为准**。不要运行旧素材生成器覆盖已登记资源。GitHub页面可读不保证某个ChatGPT连接器能解码PNG；无法实际看图时必须说明并标NOT_RUN。

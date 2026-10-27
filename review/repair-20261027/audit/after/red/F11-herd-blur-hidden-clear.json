@@ -1,0 +1,379 @@
+{
+  "id": "F11-herd-blur-hidden-clear",
+  "pass": true,
+  "error": null,
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    },
+    {
+      "path": "/api/sessions/cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_iso8_v2.atlas.json",
+    "/assets/characters/sheep_iso8_v2.png",
+    "/assets/characters/dog_iso8_v2.atlas.json",
+    "/assets/characters/dog_iso8_v2.png",
+    "/assets/environment/farm_iso_v2.atlas.json",
+    "/assets/environment/farm_iso_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_herd_v3.atlas.json",
+    "/assets/environment/backdrop_herd_v3.png",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_iso8_v2.atlas.json",
+    "/assets/characters/sheep_iso8_v2.png",
+    "/assets/characters/dog_iso8_v2.atlas.json",
+    "/assets/characters/dog_iso8_v2.png",
+    "/assets/environment/farm_iso_v2.atlas.json",
+    "/assets/environment/farm_iso_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_herd_v3.atlas.json",
+    "/assets/environment/backdrop_herd_v3.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": "19",
+    "acceptedActions": "0",
+    "decode": {
+      "started": 10,
+      "succeeded": 10,
+      "images": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/5f5c86e0-f83b-48bb-8794-20d994ec870e"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/b59494d6-ce3e-4970-9019-56a4b694f79b"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/f382e7c3-ac1f-496c-9082-f64f597b5cf6"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/15662aa4-f8a5-4a41-971c-740839539026"
+        },
+        {
+          "width": 720,
+          "height": 840,
+          "source": "blob:http://127.0.0.1:5175/1f836e94-0e31-4fed-88c0-ef2d7321fe02"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/618c11dc-fab4-4ea6-b7cd-76fe47014117"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/f141701a-68d3-4048-8b18-0f53c86942e7"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/3549ba92-1a36-41fb-a8ab-180754f67ec4"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/f75a3fbb-5a06-48ae-b870-0f02776a1abb"
+        },
+        {
+          "width": 720,
+          "height": 840,
+          "source": "blob:http://127.0.0.1:5175/8072560c-69ce-4c68-89fe-8e8394780c59"
+        }
+      ],
+      "hold": false
+    },
+    "canvas": [
+      {
+        "width": 360,
+        "height": 420,
+        "rect": {
+          "x": 16,
+          "y": 152.390625,
+          "width": 360,
+          "height": 420,
+          "top": 152.390625,
+          "right": 376,
+          "bottom": 572.390625,
+          "left": 16
+        }
+      }
+    ],
+    "body": "‹\n赶羊入圈\n正式挑战\n静音\n剩余时间\n45秒\n局内表现\n0 /80\n已入圈\n0/8\n绕到羊后方，赶它们进入上方围栏入口\n\n原局日志已恢复，按服务端原时轴继续。\n\n↑\n← ● →\n↓\n吠叫",
+    "dpr": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "extra": {
+    "moved": {
+      "version": 1,
+      "start": {
+        "idempotency_key": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "game_id": "herd",
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "controller_secret": "sssssssssssssssssssssssssssssssssssssssssss",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        }
+      },
+      "session": {
+        "session_id": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+        "event_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+        "participant_id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+        "slot_no": 1,
+        "game_id": "herd",
+        "seed": 47,
+        "session_nonce": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        },
+        "controller_epoch": 1,
+        "ticket_binding_version": 1,
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "created_at": "2026-10-27T08:14:48.546Z",
+        "play_started_at": "2026-10-27T08:15:00.060Z",
+        "play_ends_at": "2026-10-27T08:15:45.060Z",
+        "submit_deadline": "2026-10-27T08:16:00.060Z",
+        "state": "RUNNING",
+        "first_received_at": null,
+        "process_digest": null,
+        "settlement": null,
+        "current_contribution_points": 0,
+        "is_current_binding": true,
+        "has_unsealed_receipt": false,
+        "can_attempt_control": true,
+        "terminal_reason": null
+      },
+      "inputs": [],
+      "processedTick": 17,
+      "logDigest": "8639de104640dda72db09f7c9240c7ff2ea1fc034650575537687a9ffbaf62da",
+      "sealed": null
+    },
+    "blurred": {
+      "version": 1,
+      "start": {
+        "idempotency_key": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "game_id": "herd",
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "controller_secret": "sssssssssssssssssssssssssssssssssssssssssss",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        }
+      },
+      "session": {
+        "session_id": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+        "event_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+        "participant_id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+        "slot_no": 1,
+        "game_id": "herd",
+        "seed": 47,
+        "session_nonce": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        },
+        "controller_epoch": 1,
+        "ticket_binding_version": 1,
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "created_at": "2026-10-27T08:14:48.546Z",
+        "play_started_at": "2026-10-27T08:15:00.060Z",
+        "play_ends_at": "2026-10-27T08:15:45.060Z",
+        "submit_deadline": "2026-10-27T08:16:00.060Z",
+        "state": "RUNNING",
+        "first_received_at": null,
+        "process_digest": null,
+        "settlement": null,
+        "current_contribution_points": 0,
+        "is_current_binding": true,
+        "has_unsealed_receipt": false,
+        "can_attempt_control": true,
+        "terminal_reason": null
+      },
+      "inputs": [],
+      "processedTick": 18,
+      "logDigest": "8663a6c5dd494fbfa1fc208c9013c29a201b0621e5568a9a61ed0a1fcb158537",
+      "sealed": null
+    },
+    "up": {
+      "version": 1,
+      "start": {
+        "idempotency_key": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "game_id": "herd",
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "controller_secret": "sssssssssssssssssssssssssssssssssssssssssss",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        }
+      },
+      "session": {
+        "session_id": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+        "event_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+        "participant_id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+        "slot_no": 1,
+        "game_id": "herd",
+        "seed": 47,
+        "session_nonce": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        },
+        "controller_epoch": 1,
+        "ticket_binding_version": 1,
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "created_at": "2026-10-27T08:14:48.546Z",
+        "play_started_at": "2026-10-27T08:15:00.060Z",
+        "play_ends_at": "2026-10-27T08:15:45.060Z",
+        "submit_deadline": "2026-10-27T08:16:00.060Z",
+        "state": "RUNNING",
+        "first_received_at": null,
+        "process_digest": null,
+        "settlement": null,
+        "current_contribution_points": 0,
+        "is_current_binding": true,
+        "has_unsealed_receipt": false,
+        "can_attempt_control": true,
+        "terminal_reason": null
+      },
+      "inputs": [],
+      "processedTick": 18,
+      "logDigest": "8663a6c5dd494fbfa1fc208c9013c29a201b0621e5568a9a61ed0a1fcb158537",
+      "sealed": null
+    },
+    "hidden": {
+      "version": 1,
+      "start": {
+        "idempotency_key": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "game_id": "herd",
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "controller_secret": "sssssssssssssssssssssssssssssssssssssssssss",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        }
+      },
+      "session": {
+        "session_id": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+        "event_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+        "participant_id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+        "slot_no": 1,
+        "game_id": "herd",
+        "seed": 47,
+        "session_nonce": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        },
+        "controller_epoch": 1,
+        "ticket_binding_version": 1,
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "created_at": "2026-10-27T08:14:48.546Z",
+        "play_started_at": "2026-10-27T08:15:00.060Z",
+        "play_ends_at": "2026-10-27T08:15:45.060Z",
+        "submit_deadline": "2026-10-27T08:16:00.060Z",
+        "state": "RUNNING",
+        "first_received_at": null,
+        "process_digest": null,
+        "settlement": null,
+        "current_contribution_points": 0,
+        "is_current_binding": true,
+        "has_unsealed_receipt": false,
+        "can_attempt_control": true,
+        "terminal_reason": null
+      },
+      "inputs": [],
+      "processedTick": 19,
+      "logDigest": "d6f8299b488fad256f4801e7a36894eaf22e0488e96d3250ba1944f86b9e3d62",
+      "sealed": null
+    },
+    "ignored": {
+      "version": 1,
+      "start": {
+        "idempotency_key": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "game_id": "herd",
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "controller_secret": "sssssssssssssssssssssssssssssssssssssssssss",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        }
+      },
+      "session": {
+        "session_id": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+        "event_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+        "participant_id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+        "slot_no": 1,
+        "game_id": "herd",
+        "seed": 47,
+        "session_nonce": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        },
+        "controller_epoch": 1,
+        "ticket_binding_version": 1,
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "created_at": "2026-10-27T08:14:48.546Z",
+        "play_started_at": "2026-10-27T08:15:00.060Z",
+        "play_ends_at": "2026-10-27T08:15:45.060Z",
+        "submit_deadline": "2026-10-27T08:16:00.060Z",
+        "state": "RUNNING",
+        "first_received_at": null,
+        "process_digest": null,
+        "settlement": null,
+        "current_contribution_points": 0,
+        "is_current_binding": true,
+        "has_unsealed_receipt": false,
+        "can_attempt_control": true,
+        "terminal_reason": null
+      },
+      "inputs": [],
+      "processedTick": 19,
+      "logDigest": "d6f8299b488fad256f4801e7a36894eaf22e0488e96d3250ba1944f86b9e3d62",
+      "sealed": null
+    }
+  }
+}

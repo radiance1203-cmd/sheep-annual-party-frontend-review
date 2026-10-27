@@ -1,0 +1,50 @@
+[
+  {
+    "viewportWidth": 320,
+    "game": "stack",
+    "cssWidth": 303.984375,
+    "cssHeight": 405.328125,
+    "width": 360,
+    "height": 480
+  },
+  {
+    "viewportWidth": 320,
+    "game": "runner",
+    "cssWidth": 303.96875,
+    "cssHeight": 185.765625,
+    "width": 360,
+    "height": 220
+  },
+  {
+    "viewportWidth": 320,
+    "game": "herd",
+    "cssWidth": 303.984375,
+    "cssHeight": 354.65625,
+    "width": 360,
+    "height": 420
+  },
+  {
+    "viewportWidth": 390,
+    "game": "stack",
+    "cssWidth": 373.984375,
+    "cssHeight": 498.65625,
+    "width": 360,
+    "height": 480
+  },
+  {
+    "viewportWidth": 390,
+    "game": "runner",
+    "cssWidth": 373.984375,
+    "cssHeight": 228.546875,
+    "width": 360,
+    "height": 220
+  },
+  {
+    "viewportWidth": 390,
+    "game": "herd",
+    "cssWidth": 373.984375,
+    "cssHeight": 436.328125,
+    "width": 360,
+    "height": 420
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "status": "TECHNICAL_CANDIDATE",
+  "checks": [
+    {
+      "check": "backdrop_2x:stack",
+      "status": "PASS"
+    },
+    {
+      "check": "backdrop_2x:runner",
+      "status": "PASS"
+    },
+    {
+      "check": "backdrop_2x:herd",
+      "status": "PASS"
+    }
+  ],
+  "atlases": [
+    {
+      "asset_id": "environment.backdrop.stack",
+      "candidate": "art-source/v4/runtime-candidates/environment/backdrop_stack_v4.png",
+      "size_px": [
+        720,
+        960
+      ],
+      "frames": 1,
+      "decoded_bytes": 2764800,
+      "png_bytes": 658095,
+      "metadata_bytes": 1171,
+      "sha256": "342cdc55d29dc3966f3d0a66bec0b3aeab0a8d279996284f7a1f86d70b35fae4"
+    },
+    {
+      "asset_id": "environment.backdrop.runner",
+      "candidate": "art-source/v4/runtime-candidates/environment/backdrop_runner_v4.png",
+      "size_px": [
+        720,
+        440
+      ],
+      "frames": 1,
+      "decoded_bytes": 1267200,
+      "png_bytes": 320119,
+      "metadata_bytes": 1176,
+      "sha256": "3d809400bd9265528bfd9745a79552a5dbf4012275f1b3f37dc79623694f36f0"
+    },
+    {
+      "asset_id": "environment.backdrop.herd",
+      "candidate": "art-source/v4/runtime-candidates/environment/backdrop_herd_v4.png",
+      "size_px": [
+        720,
+        840
+      ],
+      "frames": 1,
+      "decoded_bytes": 2419200,
+      "png_bytes": 651826,
+      "metadata_bytes": 1166,
+      "sha256": "8f4bb699945f870c568473e771efc2a832dd858eddda517be88f47bc4a00681e"
+    }
+  ]
+}

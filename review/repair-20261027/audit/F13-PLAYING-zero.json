@@ -1,0 +1,154 @@
+{
+  "id": "F13-PLAYING-zero",
+  "body": "♧ 牧场\n界面状态验收夹具\n状态夹具参与者\n✦ 正式挑战中\n赶羊入圈\n绕到小羊后面，带它进圈\n\n拖动摇杆移动牧羊犬，接近羊后方驱赶。吠叫有冷却；每只入圈 +6，全齐另有时间奖励。\n\n练习不占正式机会，也不会产生正式积分。正式局在预约成功后立即使用 1 次机会，3 秒后开赛；返回或放弃仍消耗本次机会。\n\n12 秒教程 · 第 1 步\n\n拖动摇杆移动牧羊犬，先绕到羊的后方。\n跳过教程，先练习\n正式挑战 · 使用 1 次机会\n返回大厅\n游园会\n荣誉榜\n兑换礼品",
+  "metrics": {
+    "dpr": 1,
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "canvas": [],
+    "images": [
+      {
+        "src": "/assets/hero/lobby_sheep_v1.webp",
+        "complete": true,
+        "naturalWidth": 768
+      },
+      {
+        "src": "/assets/ui/icon_home.svg",
+        "complete": true,
+        "naturalWidth": 64
+      },
+      {
+        "src": "/assets/ui/icon_leaderboard.svg",
+        "complete": true,
+        "naturalWidth": 64
+      },
+      {
+        "src": "/assets/ui/icon_gift.svg",
+        "complete": true,
+        "naturalWidth": 64
+      }
+    ],
+    "links": [
+      {
+        "text": "♧ 牧场",
+        "href": "#/",
+        "disabled": null,
+        "rect": {
+          "x": 16,
+          "y": 12,
+          "width": 48,
+          "height": 48,
+          "top": 12,
+          "right": 64,
+          "bottom": 60,
+          "left": 16
+        }
+      },
+      {
+        "text": "跳过教程，先练习",
+        "href": "#/practice/herd",
+        "disabled": "false",
+        "rect": {
+          "x": 33,
+          "y": 747.6875,
+          "width": 324,
+          "height": 56,
+          "top": 747.6875,
+          "right": 357,
+          "bottom": 803.6875,
+          "left": 33
+        }
+      },
+      {
+        "text": "正式挑战 · 使用 1 次机会",
+        "href": "#/play/herd",
+        "disabled": null,
+        "rect": {
+          "x": 33,
+          "y": 815.6875,
+          "width": 324,
+          "height": 64,
+          "top": 815.6875,
+          "right": 357,
+          "bottom": 879.6875,
+          "left": 33
+        }
+      },
+      {
+        "text": "返回大厅",
+        "href": "#/",
+        "disabled": null,
+        "rect": {
+          "x": 33,
+          "y": 891.6875,
+          "width": 324,
+          "height": 56,
+          "top": 891.6875,
+          "right": 357,
+          "bottom": 947.6875,
+          "left": 33
+        }
+      },
+      {
+        "text": "游园会",
+        "href": "#/",
+        "disabled": null,
+        "rect": {
+          "x": 8,
+          "y": 775,
+          "width": 122,
+          "height": 59,
+          "top": 775,
+          "right": 130,
+          "bottom": 834,
+          "left": 8
+        }
+      },
+      {
+        "text": "荣誉榜",
+        "href": "#/leaderboard",
+        "disabled": null,
+        "rect": {
+          "x": 134,
+          "y": 775,
+          "width": 122,
+          "height": 59,
+          "top": 775,
+          "right": 256,
+          "bottom": 834,
+          "left": 134
+        }
+      },
+      {
+        "text": "兑换礼品",
+        "href": "#/gifts",
+        "disabled": null,
+        "rect": {
+          "x": 260,
+          "y": 775,
+          "width": 122,
+          "height": 59,
+          "top": 775,
+          "right": 382,
+          "bottom": 834,
+          "left": 260
+        }
+      }
+    ]
+  },
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    }
+  ],
+  "errors": []
+}

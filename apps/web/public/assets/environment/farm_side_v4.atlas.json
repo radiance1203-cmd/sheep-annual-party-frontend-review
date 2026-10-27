@@ -1,0 +1,537 @@
+{
+  "schema_version": "sheep-atlas-1.0",
+  "asset_id": "environment.side",
+  "version": "art-1.4.0-visual-repair",
+  "status": "rendered_candidate",
+  "image": "farm_side_v4.png",
+  "size_px": [
+    1024,
+    1024
+  ],
+  "color_space": "srgb",
+  "alpha_mode": "straight",
+  "camera_id": "side_v1",
+  "source_frame_px": [
+    256,
+    256
+  ],
+  "runtime_frame_px": [
+    128,
+    128
+  ],
+  "extrusion_px": 2,
+  "padding_px": 2,
+  "frames": {
+    "hay_tray": {
+      "rect": [
+        4,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": null
+    },
+    "fence_segment": {
+      "rect": [
+        140,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": null
+    },
+    "hurdle": {
+      "rect": [
+        276,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": null
+    },
+    "clover_outer": {
+      "rect": [
+        412,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": null
+    },
+    "clover_core": {
+      "rect": [
+        548,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": null
+    },
+    "grass_tile": {
+      "rect": [
+        684,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": null
+    },
+    "dirt_tile": {
+      "rect": [
+        820,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": null
+    },
+    "barn": {
+      "rect": [
+        4,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": null
+    },
+    "gate_marker": {
+      "rect": [
+        140,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": null
+    },
+    "flower": {
+      "rect": [
+        276,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": null
+    },
+    "shadow_contact": {
+      "rect": [
+        412,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": null
+    },
+    "bush": {
+      "rect": [
+        548,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": null
+    },
+    "tree": {
+      "rect": [
+        684,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": null
+    },
+    "lantern": {
+      "rect": [
+        820,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        112
+      ],
+      "direction": null
+    },
+    "hay_tray_thin": {
+      "rect": [
+        19,
+        281,
+        194,
+        10
+      ],
+      "source_size": [
+        194,
+        10
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        194,
+        10
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        97,
+        5
+      ],
+      "direction": null
+    },
+    "hurdle_narrow": {
+      "rect": [
+        236,
+        280,
+        64,
+        240
+      ],
+      "source_size": [
+        64,
+        240
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        64,
+        240
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        32,
+        233
+      ],
+      "direction": null
+    },
+    "hurdle_medium": {
+      "rect": [
+        308,
+        280,
+        144,
+        240
+      ],
+      "source_size": [
+        144,
+        240
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        144,
+        240
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        72,
+        237
+      ],
+      "direction": null
+    },
+    "hurdle_wide": {
+      "rect": [
+        460,
+        280,
+        224,
+        240
+      ],
+      "source_size": [
+        224,
+        240
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        224,
+        240
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        112,
+        238
+      ],
+      "direction": null
+    },
+    "clover_outer_round": {
+      "rect": [
+        692,
+        280,
+        72,
+        72
+      ],
+      "source_size": [
+        72,
+        72
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        72,
+        72
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        36,
+        36
+      ],
+      "direction": null
+    },
+    "clover_core_round": {
+      "rect": [
+        772,
+        280,
+        24,
+        24
+      ],
+      "source_size": [
+        24,
+        24
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        24,
+        24
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        12,
+        12
+      ],
+      "direction": null
+    }
+  },
+  "animations": {},
+  "source": "art-source/v4/farm_master_v4.blend",
+  "production_art_accepted": false,
+  "variable_size_additional_frames": [
+    "hay_tray_thin",
+    "hurdle_narrow",
+    "hurdle_medium",
+    "hurdle_wide",
+    "clover_outer_round",
+    "clover_core_round"
+  ]
+}

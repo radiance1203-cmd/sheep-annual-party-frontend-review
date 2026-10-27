@@ -1,0 +1,179 @@
+{
+  "version": "art-1.1.0",
+  "blender": "4.5.9",
+  "seed": 5012026,
+  "source_frame": [
+    512,
+    512
+  ],
+  "crops": {
+    "side_v1": [
+      128,
+      32,
+      256,
+      256
+    ],
+    "iso8_v1": [
+      128,
+      60,
+      256,
+      256
+    ]
+  },
+  "plans": {
+    "sheep_side": {
+      "actor": "sheep",
+      "camera": "side_v1",
+      "pivot": [
+        64,
+        112
+      ],
+      "clips": {
+        "idle": [
+          6,
+          8,
+          true
+        ],
+        "run": [
+          8,
+          12,
+          true
+        ],
+        "takeoff": [
+          3,
+          15,
+          false
+        ],
+        "air": [
+          2,
+          6,
+          true
+        ],
+        "land": [
+          4,
+          20,
+          false
+        ],
+        "steady": [
+          3,
+          15,
+          false
+        ],
+        "bump": [
+          4,
+          15,
+          false
+        ],
+        "celebrate": [
+          8,
+          12,
+          true
+        ],
+        "stack_idle": [
+          6,
+          8,
+          true
+        ],
+        "stack_air": [
+          2,
+          6,
+          true
+        ],
+        "stack_steady": [
+          3,
+          15,
+          false
+        ],
+        "stack_celebrate": [
+          8,
+          12,
+          true
+        ]
+      }
+    },
+    "sheep_iso8": {
+      "actor": "sheep",
+      "camera": "iso8_v1",
+      "pivot": [
+        64,
+        98
+      ],
+      "clips": {
+        "idle": [
+          4,
+          8,
+          true
+        ],
+        "walk": [
+          6,
+          12,
+          true
+        ],
+        "enter": [
+          3,
+          12,
+          false
+        ]
+      }
+    },
+    "dog_iso8": {
+      "actor": "dog",
+      "camera": "iso8_v1",
+      "pivot": [
+        64,
+        98
+      ],
+      "clips": {
+        "idle": [
+          4,
+          8,
+          true
+        ],
+        "walk": [
+          6,
+          12,
+          true
+        ],
+        "bark": [
+          4,
+          12,
+          false
+        ]
+      }
+    }
+  },
+  "directions": [
+    [
+      "e",
+      -90
+    ],
+    [
+      "se",
+      -135
+    ],
+    [
+      "s",
+      180
+    ],
+    [
+      "sw",
+      135
+    ],
+    [
+      "w",
+      90
+    ],
+    [
+      "nw",
+      45
+    ],
+    [
+      "n",
+      0
+    ],
+    [
+      "ne",
+      -45
+    ]
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "status": "COPIED_NEW_V4_ONLY",
+  "manifest_modified": false,
+  "records": [
+    {
+      "asset_id": "character.sheep.side",
+      "path": "apps/web/public/assets/characters/sheep_side_v4.png",
+      "sha256": "471fdb76dff1e962a095c4aa7725649c84d49828f0b554dccc0d89994661a936",
+      "bytes": 513702
+    },
+    {
+      "asset_id": "character.sheep.side.metadata",
+      "path": "apps/web/public/assets/characters/sheep_side_v4.atlas.json",
+      "sha256": "bc2e925c9c285ff29e4aadf325fc91ba01cd095a10432800bec240af0d05de44",
+      "bytes": 27520
+    },
+    {
+      "asset_id": "character.sheep.iso8",
+      "path": "apps/web/public/assets/characters/sheep_iso8_v4.png",
+      "sha256": "d95a076b4ecda1cef07ab0df0bd809ae972e5e32157f64f39dd29c004913cb3b",
+      "bytes": 765070
+    },
+    {
+      "asset_id": "character.sheep.iso8.metadata",
+      "path": "apps/web/public/assets/characters/sheep_iso8_v4.atlas.json",
+      "sha256": "b9477d7628306b6942231df257224779c3e4904b63af8a6571f1ba6eea855e08",
+      "bytes": 49232
+    },
+    {
+      "asset_id": "character.dog.iso8",
+      "path": "apps/web/public/assets/characters/dog_iso8_v4.png",
+      "sha256": "e10f8275bf0cbc6d7f15374d255a6422bab7f71748b055066e6b8ccdb3f3c242",
+      "bytes": 628236
+    },
+    {
+      "asset_id": "character.dog.iso8.metadata",
+      "path": "apps/web/public/assets/characters/dog_iso8_v4.atlas.json",
+      "sha256": "9fa371c22bc1694f12115595689188f8a39488287a2ec0716f3c5240ec335e82",
+      "bytes": 52289
+    }
+  ]
+}

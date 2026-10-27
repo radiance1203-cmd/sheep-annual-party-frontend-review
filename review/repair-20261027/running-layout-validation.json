@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "scope": "Actual GamePage; isolated restored real-core prefix; every data item from actual state; not actual formal server business acceptance",
+  "cases": 12,
+  "failures": [],
+  "source_reports": [
+    "final-running-reused/captures.json (stack/herd)",
+    "final-running-runner-foreground/captures.json (runner)"
+  ]
+}

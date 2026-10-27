@@ -1,0 +1,1601 @@
+{
+  "status": "RENDERED_CANDIDATE_VISUAL_REVIEW_PENDING",
+  "production_art_accepted": false,
+  "frames": [
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__idle__e__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.399
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__idle__e__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.743
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__idle__e__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.767
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__idle__e__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.579
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__idle__e__f004.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.777
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__idle__e__f005.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.001
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__run__e__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.778
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__run__e__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.629
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__run__e__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.797
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__run__e__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.861
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__run__e__f004.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.723
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__run__e__f005.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.77
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__run__e__f006.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.884
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__run__e__f007.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.975
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__takeoff__e__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.578
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__takeoff__e__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.641
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__takeoff__e__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.6
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__air__e__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.798
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__air__e__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.773
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__land__e__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.798
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__land__e__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.058
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__land__e__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.704
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__land__e__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.55
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__steady__e__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.771
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__steady__e__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.562
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__steady__e__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.575
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__bump__e__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.881
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__bump__e__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.699
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__bump__e__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.795
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__bump__e__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.902
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__celebrate__e__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.766
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__celebrate__e__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.759
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__celebrate__e__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.72
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__celebrate__e__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.624
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__celebrate__e__f004.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.217
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__celebrate__e__f005.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.627
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__celebrate__e__f006.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.724
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__celebrate__e__f007.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.634
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_idle__e__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.773
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_idle__e__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.734
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_idle__e__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.563
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_idle__e__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.557
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_idle__e__f004.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.683
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_idle__e__f005.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.735
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_air__e__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.574
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_air__e__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.733
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_steady__e__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.612
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_steady__e__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.597
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_steady__e__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.636
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_celebrate__e__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.652
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_celebrate__e__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.539
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_celebrate__e__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.574
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_celebrate__e__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.65
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_celebrate__e__f004.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.765
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_celebrate__e__f005.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.564
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_celebrate__e__f006.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.992
+    },
+    {
+      "path": "art-source/v4/renders/sheep_side/sheep_side__stack_celebrate__e__f007.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.195
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__e__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.294
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__e__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.986
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__e__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.974
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__e__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.921
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__e__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.803
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__e__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.844
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__e__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.795
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__e__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.677
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__e__f004.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.53
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__e__f005.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.768
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__e__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.544
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__e__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.583
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__e__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.61
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__se__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.707
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__se__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.572
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__se__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.572
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__se__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.67
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__se__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.573
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__se__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.827
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__se__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.019
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__se__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.798
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__se__f004.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.911
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__se__f005.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.537
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__se__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.54
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__se__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.517
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__se__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.932
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__s__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.539
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__s__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.78
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__s__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.392
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__s__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.514
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__s__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.404
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__s__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.772
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__s__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.524
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__s__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.561
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__s__f004.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.598
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__s__f005.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.587
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__s__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.62
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__s__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.574
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__s__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.67
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__sw__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.536
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__sw__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.714
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__sw__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.515
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__sw__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.682
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__sw__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.659
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__sw__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.234
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__sw__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.62
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__sw__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.819
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__sw__f004.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.536
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__sw__f005.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.763
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__sw__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.722
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__sw__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.172
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__sw__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.913
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__w__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.104
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__w__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.184
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__w__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.991
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__w__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.924
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__w__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.744
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__w__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.938
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__w__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.641
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__w__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.731
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__w__f004.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.851
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__w__f005.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.819
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__w__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.812
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__w__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.936
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__w__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.966
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__nw__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.597
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__nw__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.814
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__nw__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.014
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__nw__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.046
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__nw__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.81
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__nw__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.133
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__nw__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.834
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__nw__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.964
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__nw__f004.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.748
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__nw__f005.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.891
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__nw__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.803
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__nw__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.972
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__nw__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.038
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__n__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.957
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__n__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.919
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__n__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.004
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__n__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.983
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__n__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.793
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__n__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.664
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__n__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.938
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__n__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.041
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__n__f004.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.819
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__n__f005.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.676
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__n__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.881
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__n__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.664
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__n__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.709
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__ne__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.894
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__ne__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 2.928
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__ne__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.444
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__idle__ne__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 4.507
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__ne__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 4.351
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__ne__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 4.293
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__ne__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 4.366
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__ne__f003.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.804
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__ne__f004.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 4.038
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__walk__ne__f005.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.86
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__ne__f000.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 4.116
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__ne__f001.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.996
+    },
+    {
+      "path": "art-source/v4/renders/sheep_iso8/sheep_iso8__enter__ne__f002.png",
+      "mother_sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "seconds": 3.875
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__e__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.824
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__e__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.442
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__e__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.658
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__e__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.37
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__e__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.902
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__e__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.426
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__e__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.698
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__e__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.442
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__e__f004.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 4.271
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__e__f005.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 4.857
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__e__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 3.02
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__e__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 3.065
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__e__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 3.851
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__e__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 3.265
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__se__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 3.686
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__se__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.712
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__se__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 3.114
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__se__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 3.131
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__se__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.751
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__se__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.525
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__se__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.992
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__se__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.904
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__se__f004.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.898
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__se__f005.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.736
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__se__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 3.029
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__se__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.713
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__se__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 3.051
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__se__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.452
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__s__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.969
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__s__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.551
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__s__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.864
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__s__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.483
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__s__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.914
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__s__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.545
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__s__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.942
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__s__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.465
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__s__f004.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.778
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__s__f005.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.429
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__s__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.814
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__s__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.691
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__s__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.92
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__s__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.441
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__sw__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.657
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__sw__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.482
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__sw__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.978
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__sw__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.549
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__sw__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.874
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__sw__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.306
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__sw__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.716
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__sw__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.24
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__sw__f004.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.621
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__sw__f005.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.264
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__sw__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.512
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__sw__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.417
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__sw__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.424
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__sw__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.526
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__w__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.243
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__w__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.916
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__w__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.377
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__w__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.746
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__w__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.428
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__w__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.856
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__w__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.889
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__w__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.735
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__w__f004.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.452
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__w__f005.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.621
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__w__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.353
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__w__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.71
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__w__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.428
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__w__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.601
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__nw__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.257
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__nw__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.463
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__nw__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.494
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__nw__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.34
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__nw__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.601
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__nw__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.291
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__nw__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.637
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__nw__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.265
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__nw__f004.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.652
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__nw__f005.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.124
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__nw__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.479
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__nw__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.297
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__nw__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.115
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__nw__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.466
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__n__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.112
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__n__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.556
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__n__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.384
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__n__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.779
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__n__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.182
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__n__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.476
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__n__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.14
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__n__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.197
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__n__f004.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.324
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__n__f005.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.17
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__n__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.546
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__n__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.153
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__n__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.412
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__n__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.124
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__ne__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.38
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__ne__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.272
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__ne__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.206
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__idle__ne__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.409
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__ne__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.233
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__ne__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.513
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__ne__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.224
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__ne__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.55
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__ne__f004.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.407
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__walk__ne__f005.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.543
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__ne__f000.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.381
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__ne__f001.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.265
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__ne__f002.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.65
+    },
+    {
+      "path": "art-source/v4/renders/dog_iso8/dog_iso8__bark__ne__f003.png",
+      "mother_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "seconds": 2.27
+    }
+  ],
+  "actors": [
+    {
+      "actor": "sheep",
+      "mother": "art-source/v4/sheep_master_v4.blend",
+      "sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "devices": [
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "CUDA",
+          "use": true
+        },
+        {
+          "name": "13th Gen Intel Core i5-13600KF",
+          "type": "CPU",
+          "use": false
+        },
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "OPTIX",
+          "use": false
+        }
+      ],
+      "actions": 171,
+      "object_count": 421
+    },
+    {
+      "actor": "dog",
+      "mother": "art-source/v4/dog_master_v4.blend",
+      "sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "devices": [
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "CUDA",
+          "use": true
+        },
+        {
+          "name": "13th Gen Intel Core i5-13600KF",
+          "type": "CPU",
+          "use": false
+        },
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "OPTIX",
+          "use": false
+        }
+      ],
+      "actions": 105,
+      "object_count": 163
+    }
+  ],
+  "plan": {
+    "version": "art-1.1.0",
+    "blender": "4.5.9",
+    "seed": 5012026,
+    "source_frame": [
+      512,
+      512
+    ],
+    "crops": {
+      "side_v1": [
+        128,
+        32,
+        256,
+        256
+      ],
+      "iso8_v1": [
+        128,
+        60,
+        256,
+        256
+      ]
+    },
+    "plans": {
+      "sheep_side": {
+        "actor": "sheep",
+        "camera": "side_v1",
+        "pivot": [
+          64,
+          112
+        ],
+        "clips": {
+          "idle": [
+            6,
+            8,
+            true
+          ],
+          "run": [
+            8,
+            12,
+            true
+          ],
+          "takeoff": [
+            3,
+            15,
+            false
+          ],
+          "air": [
+            2,
+            6,
+            true
+          ],
+          "land": [
+            4,
+            20,
+            false
+          ],
+          "steady": [
+            3,
+            15,
+            false
+          ],
+          "bump": [
+            4,
+            15,
+            false
+          ],
+          "celebrate": [
+            8,
+            12,
+            true
+          ],
+          "stack_idle": [
+            6,
+            8,
+            true
+          ],
+          "stack_air": [
+            2,
+            6,
+            true
+          ],
+          "stack_steady": [
+            3,
+            15,
+            false
+          ],
+          "stack_celebrate": [
+            8,
+            12,
+            true
+          ]
+        }
+      },
+      "sheep_iso8": {
+        "actor": "sheep",
+        "camera": "iso8_v1",
+        "pivot": [
+          64,
+          98
+        ],
+        "clips": {
+          "idle": [
+            4,
+            8,
+            true
+          ],
+          "walk": [
+            6,
+            12,
+            true
+          ],
+          "enter": [
+            3,
+            12,
+            false
+          ]
+        }
+      },
+      "dog_iso8": {
+        "actor": "dog",
+        "camera": "iso8_v1",
+        "pivot": [
+          64,
+          98
+        ],
+        "clips": {
+          "idle": [
+            4,
+            8,
+            true
+          ],
+          "walk": [
+            6,
+            12,
+            true
+          ],
+          "bark": [
+            4,
+            12,
+            false
+          ]
+        }
+      }
+    },
+    "directions": [
+      [
+        "e",
+        -90
+      ],
+      [
+        "se",
+        -135
+      ],
+      [
+        "s",
+        180
+      ],
+      [
+        "sw",
+        135
+      ],
+      [
+        "w",
+        90
+      ],
+      [
+        "nw",
+        45
+      ],
+      [
+        "n",
+        0
+      ],
+      [
+        "ne",
+        -45
+      ]
+    ]
+  },
+  "source_script_sha256": "880967fc0250534420b681e49ced5b298f937bef31892a9e5f6958991ec1be22"
+}

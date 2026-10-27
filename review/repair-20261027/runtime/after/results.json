@@ -1,0 +1,26 @@
+{
+  "scope": "real browser / real components / isolated API fixtures, not real device or server business acceptance",
+  "results": [
+    {
+      "id": "F03",
+      "game": "stack",
+      "status": "PASS",
+      "tickZero": true,
+      "noBusinessWrites": true
+    },
+    {
+      "id": "F03",
+      "game": "runner",
+      "status": "PASS",
+      "tickZero": true,
+      "noBusinessWrites": true
+    },
+    {
+      "id": "F03",
+      "game": "herd",
+      "status": "PASS",
+      "tickZero": true,
+      "noBusinessWrites": true
+    }
+  ]
+}

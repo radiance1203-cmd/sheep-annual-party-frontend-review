@@ -1,0 +1,2929 @@
+{
+  "at": "2026-10-27T09:29:46.568Z",
+  "scope": "Standalone renderer diagnostics derived exclusively by actual frozen game-core input replay. Synthetic inputs; not business UI, server scoring, human or final art approval. Production renderer + preloadAssets; synchronous presentation replay of every actual core view. Standalone harness, not GamePage business UI. Debug overlay only reads frozen rules/core positions.",
+  "manifestHash": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "artVersion": "art-1.4.0-visual-repair",
+  "browser": "156.0.8078.4",
+  "build": {
+    "rule_version": "onsite-v2.1-candidate",
+    "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+    "simulator_version": "sheep-core-2.2.0",
+    "client_version": "sheep-web-2.2.0"
+  },
+  "rulesFileHash": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+  "captures": [
+    {
+      "id": "herd-direction-e-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-e",
+      "tick": 7,
+      "viewHash": "18fb4aa13eaec73dd93d2181200eb2e51ccb9e137dddaa10546a54603fca3285",
+      "prefixHash": "e5e499abe293410fca37b0f3fb8a6e63e962d9748aa04efd05055f60ad92dac8",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 202400,
+              "y_u": 350000
+            },
+            "facing_index": 0
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122092,
+                "y_u": 224978
+              },
+              "facing_index": 0,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 161341,
+                "y_u": 216605
+              },
+              "facing_index": 1,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 199105,
+                "y_u": 216891
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 238153,
+                "y_u": 225982
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 120105,
+                "y_u": 259902
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 161128,
+                "y_u": 249863
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 197325,
+                "y_u": 250082
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 238994,
+                "y_u": 259501
+              },
+              "facing_index": 6,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "18fb4aa13eaec73dd93d2181200eb2e51ccb9e137dddaa10546a54603fca3285",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 303.984375,
+            "height": 354.65625,
+            "top": 99,
+            "right": 311.984375,
+            "bottom": 453.65625,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 304,
+          "height": 354.65625,
+          "top": 99,
+          "right": 312,
+          "bottom": 453.65625,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 320,
+        "viewportWidth": 320,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "e",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-e-bark-active-320x740.png",
+      "geometryPath": null
+    },
+    {
+      "id": "herd-direction-se-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-se",
+      "tick": 7,
+      "viewHash": "372ecd2b4c05ec6b95170bf87f326c7420c341f189febacb67530d19499e6b24",
+      "prefixHash": "bc44bf6f4dc48515701042ebb61d3bd22cfda018a09327ae868584b39c31e3b2",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 195813,
+              "y_u": 365813
+            },
+            "facing_index": 1
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122092,
+                "y_u": 224977
+              },
+              "facing_index": 0,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 161342,
+                "y_u": 216604
+              },
+              "facing_index": 1,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 199105,
+                "y_u": 216892
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 238153,
+                "y_u": 225983
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 120818,
+                "y_u": 261848
+              },
+              "facing_index": 0,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 161499,
+                "y_u": 249891
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 197522,
+                "y_u": 250035
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 238960,
+                "y_u": 259503
+              },
+              "facing_index": 6,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "372ecd2b4c05ec6b95170bf87f326c7420c341f189febacb67530d19499e6b24",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 303.984375,
+            "height": 354.65625,
+            "top": 99,
+            "right": 311.984375,
+            "bottom": 453.65625,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 304,
+          "height": 354.65625,
+          "top": 99,
+          "right": 312,
+          "bottom": 453.65625,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 320,
+        "viewportWidth": 320,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "se",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-se-bark-active-320x740.png",
+      "geometryPath": null
+    },
+    {
+      "id": "herd-direction-s-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-s",
+      "tick": 7,
+      "viewHash": "83effb0e243f8a17ba702d58c19683522bcb0f9da09d06b7e7636ac2c74575ae",
+      "prefixHash": "0f3b2cd46e2e3744fbe6b2036cb43a7351c018ab5349e006011b837a9b1a3358",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 180000,
+              "y_u": 372400
+            },
+            "facing_index": 2
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122092,
+                "y_u": 224976
+              },
+              "facing_index": 0,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 161343,
+                "y_u": 216603
+              },
+              "facing_index": 1,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 199107,
+                "y_u": 216894
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 238153,
+                "y_u": 225984
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 121015,
+                "y_u": 259900
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 162016,
+                "y_u": 249957
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 197990,
+                "y_u": 249953
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 239289,
+                "y_u": 259479
+              },
+              "facing_index": 6,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "83effb0e243f8a17ba702d58c19683522bcb0f9da09d06b7e7636ac2c74575ae",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 303.984375,
+            "height": 354.65625,
+            "top": 99,
+            "right": 311.984375,
+            "bottom": 453.65625,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 304,
+          "height": 354.65625,
+          "top": 99,
+          "right": 312,
+          "bottom": 453.65625,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 320,
+        "viewportWidth": 320,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "s",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-s-bark-active-320x740.png",
+      "geometryPath": null
+    },
+    {
+      "id": "herd-direction-sw-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-sw",
+      "tick": 7,
+      "viewHash": "771fcb07a8095ff8d5e0efa0e0150f73e88b47a156938eddd1adaf35db42a28f",
+      "prefixHash": "867cb8e03499677a92894c52e8c536aea296ceb1b85df31dba5c95c820e302d7",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 164187,
+              "y_u": 365813
+            },
+            "facing_index": 3
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122092,
+                "y_u": 224975
+              },
+              "facing_index": 0,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 161346,
+                "y_u": 216601
+              },
+              "facing_index": 1,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 199108,
+                "y_u": 216894
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 238153,
+                "y_u": 225985
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 121348,
+                "y_u": 259924
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 162483,
+                "y_u": 250037
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 198511,
+                "y_u": 249891
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 239637,
+                "y_u": 261210
+              },
+              "facing_index": 5,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "771fcb07a8095ff8d5e0efa0e0150f73e88b47a156938eddd1adaf35db42a28f",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 303.984375,
+            "height": 354.65625,
+            "top": 99,
+            "right": 311.984375,
+            "bottom": 453.65625,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 304,
+          "height": 354.65625,
+          "top": 99,
+          "right": 312,
+          "bottom": 453.65625,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 320,
+        "viewportWidth": 320,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "sw",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-sw-bark-active-320x740.png",
+      "geometryPath": null
+    },
+    {
+      "id": "herd-direction-w-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-w",
+      "tick": 7,
+      "viewHash": "21f665ce0e0ef900e9c45ce501285020f2f696225ebaefc525c1f5d559a87de0",
+      "prefixHash": "42a1a04818d692d6972757402b22c72d4aab8c4197f90c31f2786815b18da28d",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 157600,
+              "y_u": 350000
+            },
+            "facing_index": 4
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122092,
+                "y_u": 224975
+              },
+              "facing_index": 0,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 161346,
+                "y_u": 216601
+              },
+              "facing_index": 1,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 199109,
+                "y_u": 216894
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 238153,
+                "y_u": 225985
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 121312,
+                "y_u": 259920
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 162686,
+                "y_u": 250082
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 198878,
+                "y_u": 249863
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 240197,
+                "y_u": 259481
+              },
+              "facing_index": 6,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "21f665ce0e0ef900e9c45ce501285020f2f696225ebaefc525c1f5d559a87de0",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 303.984375,
+            "height": 354.65625,
+            "top": 99,
+            "right": 311.984375,
+            "bottom": 453.65625,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 304,
+          "height": 354.65625,
+          "top": 99,
+          "right": 312,
+          "bottom": 453.65625,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 320,
+        "viewportWidth": 320,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "w",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-w-bark-active-320x740.png",
+      "geometryPath": null
+    },
+    {
+      "id": "herd-direction-nw-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-nw",
+      "tick": 7,
+      "viewHash": "6def2d802298a8aa5f42daa25cb76b07ddde94d0d469161fc9a7bee388975434",
+      "prefixHash": "1fcc2d355a6b718e7997169ccdb926262e62e1d583b3a2392b8246c0e4537e56",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 164187,
+              "y_u": 334187
+            },
+            "facing_index": 5
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122552,
+                "y_u": 219185
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 162570,
+                "y_u": 207960
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 198968,
+                "y_u": 212383
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 238148,
+                "y_u": 225974
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 120778,
+                "y_u": 259894
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 162377,
+                "y_u": 250016
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 198893,
+                "y_u": 249863
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 240402,
+                "y_u": 259489
+              },
+              "facing_index": 6,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "6def2d802298a8aa5f42daa25cb76b07ddde94d0d469161fc9a7bee388975434",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 303.984375,
+            "height": 354.65625,
+            "top": 99,
+            "right": 311.984375,
+            "bottom": 453.65625,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 304,
+          "height": 354.65625,
+          "top": 99,
+          "right": 312,
+          "bottom": 453.65625,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 320,
+        "viewportWidth": 320,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "nw",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-nw-bark-active-320x740.png",
+      "geometryPath": null
+    },
+    {
+      "id": "herd-direction-n-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-n",
+      "tick": 7,
+      "viewHash": "58dba714e07dec4bad488018088f92d6b1ba111745d772690c1b0a70f311b600",
+      "prefixHash": "1a3db9643e5cded051d54a3d365df4933819b4c5b9f68873ccd86fb5f48e1113",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 180000,
+              "y_u": 327600
+            },
+            "facing_index": 6
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122130,
+                "y_u": 219102
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 161956,
+                "y_u": 207826
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 198239,
+                "y_u": 207949
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 238026,
+                "y_u": 219658
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 120135,
+                "y_u": 259898
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 161635,
+                "y_u": 249905
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 198373,
+                "y_u": 249903
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 240164,
+                "y_u": 259475
+              },
+              "facing_index": 6,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "58dba714e07dec4bad488018088f92d6b1ba111745d772690c1b0a70f311b600",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 303.984375,
+            "height": 354.65625,
+            "top": 99,
+            "right": 311.984375,
+            "bottom": 453.65625,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 304,
+          "height": 354.65625,
+          "top": 99,
+          "right": 312,
+          "bottom": 453.65625,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 320,
+        "viewportWidth": 320,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "n",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-n-bark-active-320x740.png",
+      "geometryPath": null
+    },
+    {
+      "id": "herd-direction-ne-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-ne",
+      "tick": 7,
+      "viewHash": "eb27b38988f1b41c7b58751bfbd607fbc33584ea54fb8ef981eac42362063fdc",
+      "prefixHash": "859bdb2fc6b15bb3489f6875ab44b0b65419b363b691cec3b62b1cbe29e7e1e8",
+      "viewport": {
+        "width": 320,
+        "height": 740
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 195813,
+              "y_u": 334187
+            },
+            "facing_index": 7
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122090,
+                "y_u": 224951
+              },
+              "facing_index": 0,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 161360,
+                "y_u": 212177
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 197617,
+                "y_u": 208087
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 237435,
+                "y_u": 217648
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 119899,
+                "y_u": 259912
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 161106,
+                "y_u": 249863
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 197645,
+                "y_u": 250012
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 239529,
+                "y_u": 259473
+              },
+              "facing_index": 6,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "eb27b38988f1b41c7b58751bfbd607fbc33584ea54fb8ef981eac42362063fdc",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 303.984375,
+            "height": 354.65625,
+            "top": 99,
+            "right": 311.984375,
+            "bottom": 453.65625,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 304,
+          "height": 354.65625,
+          "top": 99,
+          "right": 312,
+          "bottom": 453.65625,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 320,
+        "viewportWidth": 320,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "ne",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-ne-bark-active-320x740.png",
+      "geometryPath": null
+    },
+    {
+      "id": "herd-direction-e-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-e",
+      "tick": 7,
+      "viewHash": "18fb4aa13eaec73dd93d2181200eb2e51ccb9e137dddaa10546a54603fca3285",
+      "prefixHash": "e5e499abe293410fca37b0f3fb8a6e63e962d9748aa04efd05055f60ad92dac8",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 202400,
+              "y_u": 350000
+            },
+            "facing_index": 0
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122092,
+                "y_u": 224978
+              },
+              "facing_index": 0,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 161341,
+                "y_u": 216605
+              },
+              "facing_index": 1,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 199105,
+                "y_u": 216891
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 238153,
+                "y_u": 225982
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 120105,
+                "y_u": 259902
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 161128,
+                "y_u": 249863
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 197325,
+                "y_u": 250082
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 238994,
+                "y_u": 259501
+              },
+              "facing_index": 6,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "18fb4aa13eaec73dd93d2181200eb2e51ccb9e137dddaa10546a54603fca3285",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 373.984375,
+            "height": 436.328125,
+            "top": 99,
+            "right": 381.984375,
+            "bottom": 535.328125,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 374,
+          "height": 436.328125,
+          "top": 99,
+          "right": 382,
+          "bottom": 535.328125,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 390,
+        "viewportWidth": 390,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "e",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-e-bark-active-390x844.png",
+      "geometryPath": null
+    },
+    {
+      "id": "herd-direction-se-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-se",
+      "tick": 7,
+      "viewHash": "372ecd2b4c05ec6b95170bf87f326c7420c341f189febacb67530d19499e6b24",
+      "prefixHash": "bc44bf6f4dc48515701042ebb61d3bd22cfda018a09327ae868584b39c31e3b2",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 195813,
+              "y_u": 365813
+            },
+            "facing_index": 1
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122092,
+                "y_u": 224977
+              },
+              "facing_index": 0,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 161342,
+                "y_u": 216604
+              },
+              "facing_index": 1,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 199105,
+                "y_u": 216892
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 238153,
+                "y_u": 225983
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 120818,
+                "y_u": 261848
+              },
+              "facing_index": 0,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 161499,
+                "y_u": 249891
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 197522,
+                "y_u": 250035
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 238960,
+                "y_u": 259503
+              },
+              "facing_index": 6,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "372ecd2b4c05ec6b95170bf87f326c7420c341f189febacb67530d19499e6b24",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 373.984375,
+            "height": 436.328125,
+            "top": 99,
+            "right": 381.984375,
+            "bottom": 535.328125,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 374,
+          "height": 436.328125,
+          "top": 99,
+          "right": 382,
+          "bottom": 535.328125,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 390,
+        "viewportWidth": 390,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "se",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-se-bark-active-390x844.png",
+      "geometryPath": null
+    },
+    {
+      "id": "herd-direction-s-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-s",
+      "tick": 7,
+      "viewHash": "83effb0e243f8a17ba702d58c19683522bcb0f9da09d06b7e7636ac2c74575ae",
+      "prefixHash": "0f3b2cd46e2e3744fbe6b2036cb43a7351c018ab5349e006011b837a9b1a3358",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 180000,
+              "y_u": 372400
+            },
+            "facing_index": 2
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122092,
+                "y_u": 224976
+              },
+              "facing_index": 0,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 161343,
+                "y_u": 216603
+              },
+              "facing_index": 1,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 199107,
+                "y_u": 216894
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 238153,
+                "y_u": 225984
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 121015,
+                "y_u": 259900
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 162016,
+                "y_u": 249957
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 197990,
+                "y_u": 249953
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 239289,
+                "y_u": 259479
+              },
+              "facing_index": 6,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "83effb0e243f8a17ba702d58c19683522bcb0f9da09d06b7e7636ac2c74575ae",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 373.984375,
+            "height": 436.328125,
+            "top": 99,
+            "right": 381.984375,
+            "bottom": 535.328125,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 374,
+          "height": 436.328125,
+          "top": 99,
+          "right": 382,
+          "bottom": 535.328125,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 390,
+        "viewportWidth": 390,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "s",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-s-bark-active-390x844.png",
+      "geometryPath": null
+    },
+    {
+      "id": "herd-direction-sw-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-sw",
+      "tick": 7,
+      "viewHash": "771fcb07a8095ff8d5e0efa0e0150f73e88b47a156938eddd1adaf35db42a28f",
+      "prefixHash": "867cb8e03499677a92894c52e8c536aea296ceb1b85df31dba5c95c820e302d7",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 164187,
+              "y_u": 365813
+            },
+            "facing_index": 3
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122092,
+                "y_u": 224975
+              },
+              "facing_index": 0,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 161346,
+                "y_u": 216601
+              },
+              "facing_index": 1,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 199108,
+                "y_u": 216894
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 238153,
+                "y_u": 225985
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 121348,
+                "y_u": 259924
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 162483,
+                "y_u": 250037
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 198511,
+                "y_u": 249891
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 239637,
+                "y_u": 261210
+              },
+              "facing_index": 5,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "771fcb07a8095ff8d5e0efa0e0150f73e88b47a156938eddd1adaf35db42a28f",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 373.984375,
+            "height": 436.328125,
+            "top": 99,
+            "right": 381.984375,
+            "bottom": 535.328125,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 374,
+          "height": 436.328125,
+          "top": 99,
+          "right": 382,
+          "bottom": 535.328125,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 390,
+        "viewportWidth": 390,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "sw",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-sw-bark-active-390x844.png",
+      "geometryPath": null
+    },
+    {
+      "id": "herd-direction-w-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-w",
+      "tick": 7,
+      "viewHash": "21f665ce0e0ef900e9c45ce501285020f2f696225ebaefc525c1f5d559a87de0",
+      "prefixHash": "42a1a04818d692d6972757402b22c72d4aab8c4197f90c31f2786815b18da28d",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 157600,
+              "y_u": 350000
+            },
+            "facing_index": 4
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122092,
+                "y_u": 224975
+              },
+              "facing_index": 0,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 161346,
+                "y_u": 216601
+              },
+              "facing_index": 1,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 199109,
+                "y_u": 216894
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 238153,
+                "y_u": 225985
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 121312,
+                "y_u": 259920
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 162686,
+                "y_u": 250082
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 198878,
+                "y_u": 249863
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 240197,
+                "y_u": 259481
+              },
+              "facing_index": 6,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "21f665ce0e0ef900e9c45ce501285020f2f696225ebaefc525c1f5d559a87de0",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 373.984375,
+            "height": 436.328125,
+            "top": 99,
+            "right": 381.984375,
+            "bottom": 535.328125,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 374,
+          "height": 436.328125,
+          "top": 99,
+          "right": 382,
+          "bottom": 535.328125,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 390,
+        "viewportWidth": 390,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "w",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-w-bark-active-390x844.png",
+      "geometryPath": null
+    },
+    {
+      "id": "herd-direction-nw-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-nw",
+      "tick": 7,
+      "viewHash": "6def2d802298a8aa5f42daa25cb76b07ddde94d0d469161fc9a7bee388975434",
+      "prefixHash": "1fcc2d355a6b718e7997169ccdb926262e62e1d583b3a2392b8246c0e4537e56",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 164187,
+              "y_u": 334187
+            },
+            "facing_index": 5
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122552,
+                "y_u": 219185
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 162570,
+                "y_u": 207960
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 198968,
+                "y_u": 212383
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 238148,
+                "y_u": 225974
+              },
+              "facing_index": 3,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 120778,
+                "y_u": 259894
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 162377,
+                "y_u": 250016
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 198893,
+                "y_u": 249863
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 240402,
+                "y_u": 259489
+              },
+              "facing_index": 6,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "6def2d802298a8aa5f42daa25cb76b07ddde94d0d469161fc9a7bee388975434",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 373.984375,
+            "height": 436.328125,
+            "top": 99,
+            "right": 381.984375,
+            "bottom": 535.328125,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 374,
+          "height": 436.328125,
+          "top": 99,
+          "right": 382,
+          "bottom": 535.328125,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 390,
+        "viewportWidth": 390,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "nw",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-nw-bark-active-390x844.png",
+      "geometryPath": null
+    },
+    {
+      "id": "herd-direction-n-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-n",
+      "tick": 7,
+      "viewHash": "58dba714e07dec4bad488018088f92d6b1ba111745d772690c1b0a70f311b600",
+      "prefixHash": "1a3db9643e5cded051d54a3d365df4933819b4c5b9f68873ccd86fb5f48e1113",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 180000,
+              "y_u": 327600
+            },
+            "facing_index": 6
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122130,
+                "y_u": 219102
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 161956,
+                "y_u": 207826
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 198239,
+                "y_u": 207949
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 238026,
+                "y_u": 219658
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 120135,
+                "y_u": 259898
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 161635,
+                "y_u": 249905
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 198373,
+                "y_u": 249903
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 240164,
+                "y_u": 259475
+              },
+              "facing_index": 6,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "58dba714e07dec4bad488018088f92d6b1ba111745d772690c1b0a70f311b600",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 373.984375,
+            "height": 436.328125,
+            "top": 99,
+            "right": 381.984375,
+            "bottom": 535.328125,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 374,
+          "height": 436.328125,
+          "top": 99,
+          "right": 382,
+          "bottom": 535.328125,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 390,
+        "viewportWidth": 390,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "n",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-n-bark-active-390x844.png",
+      "geometryPath": null
+    },
+    {
+      "id": "herd-direction-ne-bark-active",
+      "game": "herd",
+      "trajectory": "herd-direction-ne",
+      "tick": 7,
+      "viewHash": "eb27b38988f1b41c7b58751bfbd607fbc33584ea54fb8ef981eac42362063fdc",
+      "prefixHash": "859bdb2fc6b15bb3489f6875ab44b0b65419b363b691cec3b62b1cbe29e7e1e8",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "metrics": {
+        "tick": 7,
+        "view": {
+          "game_id": "herd",
+          "tick": 7,
+          "accepted_actions_count": 8,
+          "conclusion": null,
+          "stats": {
+            "penned_count": 0,
+            "final_goal_tick": null,
+            "time_bonus_points": 0
+          },
+          "dog": {
+            "center": {
+              "x_u": 195813,
+              "y_u": 334187
+            },
+            "facing_index": 7
+          },
+          "sheep": [
+            {
+              "sheep_id": 1,
+              "center": {
+                "x_u": 122090,
+                "y_u": 224951
+              },
+              "facing_index": 0,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 2,
+              "center": {
+                "x_u": 161360,
+                "y_u": 212177
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 3,
+              "center": {
+                "x_u": 197617,
+                "y_u": 208087
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 4,
+              "center": {
+                "x_u": 237435,
+                "y_u": 217648
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 5,
+              "center": {
+                "x_u": 119899,
+                "y_u": 259912
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 6,
+              "center": {
+                "x_u": 161106,
+                "y_u": 249863
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 7,
+              "center": {
+                "x_u": 197645,
+                "y_u": 250012
+              },
+              "facing_index": 6,
+              "in_pen": false
+            },
+            {
+              "sheep_id": 8,
+              "center": {
+                "x_u": 239529,
+                "y_u": 259473
+              },
+              "facing_index": 6,
+              "in_pen": false
+            }
+          ],
+          "bark_ticks_remaining": 8,
+          "bark_cooldown_ticks_remaining": 146
+        },
+        "viewHash": "eb27b38988f1b41c7b58751bfbd607fbc33584ea54fb8ef981eac42362063fdc",
+        "canvas": {
+          "width": 360,
+          "height": 420,
+          "rect": {
+            "x": 8,
+            "y": 99,
+            "width": 373.984375,
+            "height": 436.328125,
+            "top": 99,
+            "right": 381.984375,
+            "bottom": 535.328125,
+            "left": 8
+          }
+        },
+        "stage": {
+          "x": 8,
+          "y": 99,
+          "width": 374,
+          "height": 436.328125,
+          "top": 99,
+          "right": 382,
+          "bottom": 535.328125,
+          "left": 8
+        },
+        "world": {
+          "width": 360,
+          "height": 420
+        },
+        "decoded": [
+          {
+            "name": "sheep_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "dog_iso8_v1",
+            "width": 2048,
+            "height": 2048
+          },
+          {
+            "name": "farm_iso_v1",
+            "width": 1024,
+            "height": 1024
+          },
+          {
+            "name": "shared_v1",
+            "width": 512,
+            "height": 512
+          },
+          {
+            "name": "farm_backdrop_v3",
+            "width": 720,
+            "height": 840
+          }
+        ],
+        "font": "system-ui",
+        "scrollWidth": 390,
+        "viewportWidth": 390,
+        "controls": [
+          {
+            "text": "切换真实规则调试几何",
+            "width": 176,
+            "height": 48,
+            "font": 16
+          }
+        ]
+      },
+      "features": {
+        "direction": "ne",
+        "action": "bark-active"
+      },
+      "path": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-ne-bark-active-390x844.png",
+      "geometryPath": null
+    }
+  ],
+  "errors": []
+}

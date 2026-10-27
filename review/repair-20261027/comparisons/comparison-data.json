@@ -1,0 +1,44 @@
+{
+  "scope": "Uniformly resized evidence layout only; no image content retouch; original full PNGs retained",
+  "rows": [
+    {
+      "game": "stack",
+      "title": "羊羊叠高高",
+      "sources": [
+        "visual-repair-v1/references/01_stack.png",
+        "output/visual-repair-v1/games-reviewed/GC-01-390-full.png",
+        "output/repair-20261027/final-running-reused/GC-01-390-full.png"
+      ],
+      "comparison": "output\\repair-20261027\\comparisons\\stack.png",
+      "tick": 411,
+      "prefixDigest": "efe6169ab071aec18cf3cb6040f080b03b53f3ebb1cfa772a6603f853a79975a",
+      "same_core_state": true
+    },
+    {
+      "game": "runner",
+      "title": "羊羊跨栏",
+      "sources": [
+        "visual-repair-v1/references/02_runner.png",
+        "output/visual-repair-v1/games-reviewed/GC-02-390-full.png",
+        "output/repair-20261027/final-running-runner-foreground/GC-02-390-full.png"
+      ],
+      "comparison": "output\\repair-20261027\\comparisons\\runner.png",
+      "tick": 587,
+      "prefixDigest": "a835d62bba47a0a7bcd439a596e7cf1cf0892526201287d275002dce9b3b032b",
+      "same_core_state": true
+    },
+    {
+      "game": "herd",
+      "title": "赶羊入圈",
+      "sources": [
+        "visual-repair-v1/references/03_herd.png",
+        "output/visual-repair-v1/games-reviewed/GC-03-390-full.png",
+        "output/repair-20261027/final-running-reused/GC-03-390-full.png"
+      ],
+      "comparison": "output\\repair-20261027\\comparisons\\herd.png",
+      "tick": 111,
+      "prefixDigest": "76578218b4578323cd517c2c8405c322495042ec369eef968f6c78d722d7e47f",
+      "same_core_state": true
+    }
+  ]
+}

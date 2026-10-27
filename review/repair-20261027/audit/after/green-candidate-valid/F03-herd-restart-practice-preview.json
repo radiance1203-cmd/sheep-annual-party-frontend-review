@@ -1,0 +1,155 @@
+{
+  "id": "F03-herd-restart-practice-preview",
+  "pass": true,
+  "error": null,
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    },
+    {
+      "path": "/api/event",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_iso8_v2.atlas.json",
+    "/assets/characters/sheep_iso8_v2.png",
+    "/assets/characters/dog_iso8_v2.atlas.json",
+    "/assets/characters/dog_iso8_v2.png",
+    "/assets/environment/farm_iso_v2.atlas.json",
+    "/assets/environment/farm_iso_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_herd_v3.atlas.json",
+    "/assets/environment/backdrop_herd_v3.png",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_iso8_v2.atlas.json",
+    "/assets/characters/sheep_iso8_v2.png",
+    "/assets/characters/dog_iso8_v2.atlas.json",
+    "/assets/characters/dog_iso8_v2.png",
+    "/assets/environment/farm_iso_v2.atlas.json",
+    "/assets/environment/farm_iso_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_herd_v3.atlas.json",
+    "/assets/environment/backdrop_herd_v3.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": "0",
+    "acceptedActions": "0",
+    "decode": {
+      "started": 10,
+      "succeeded": 10,
+      "images": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/307780a8-66dc-4e00-9fa5-fd79d2df7de8"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/24c68e31-14dc-4d4f-b348-33dcd44a6f8e"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/f1717278-d9e8-425a-8a0a-a9de63d19132"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/8a52ab60-f046-4abf-b1b6-f5e5f1595fba"
+        },
+        {
+          "width": 720,
+          "height": 840,
+          "source": "blob:http://127.0.0.1:5175/e48947f8-fbac-4349-bb32-dad55c7406f7"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/e0c6e044-40a1-44c0-9178-b3efb6ee95fe"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/768dfe4f-8513-47f6-8be1-85bd3fb8793a"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/8b1e8bfe-d716-4b2b-a319-2e7e6969ec3f"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/d6efab4e-6fd3-48b0-8549-6b3e3f3e9840"
+        },
+        {
+          "width": 720,
+          "height": 840,
+          "source": "blob:http://127.0.0.1:5175/239aa095-6718-4c7d-8cb6-35a0a308f25b"
+        }
+      ],
+      "hold": false
+    },
+    "eventTrace": [
+      {
+        "type": "click",
+        "target": "BUTTON",
+        "active": "BUTTON",
+        "hidden": false
+      },
+      {
+        "type": "blur",
+        "target": "BUTTON",
+        "active": "BODY",
+        "hidden": false
+      },
+      {
+        "type": "click",
+        "target": "BUTTON",
+        "active": "BUTTON",
+        "hidden": false
+      },
+      {
+        "type": "blur",
+        "target": "BUTTON",
+        "active": "BODY",
+        "hidden": false
+      }
+    ],
+    "hidden": false,
+    "focused": true,
+    "canvas": [
+      {
+        "width": 360,
+        "height": 420,
+        "rect": {
+          "x": 16,
+          "y": 121.390625,
+          "width": 360,
+          "height": 420,
+          "top": 121.390625,
+          "right": 376,
+          "bottom": 541.390625,
+          "left": 16
+        }
+      }
+    ],
+    "body": "‹\n赶羊入圈\n自由练习 · 不入账\n静音\n剩余时间\n45秒\n局内表现\n0 /80\n已入圈\n0/8\n绕到羊后方，赶它们进入上方围栏入口\n练习可重新开始，不影响正式机会。\n开始不计分练习",
+    "dpr": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    }
+  }
+}

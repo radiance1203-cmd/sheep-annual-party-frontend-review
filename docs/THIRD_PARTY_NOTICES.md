@@ -13,6 +13,7 @@
 | @fastify/cookie | 11.1.3 | MIT | [LICENSE](licenses/fastify_cookie-LICENSE) |
 | pg | 8.23.1 | MIT | [LICENSE](licenses/pg-LICENSE) |
 | zod | 4.6.7 | MIT | [LICENSE](licenses/zod-LICENSE) |
+| jsqr | 1.4.0 | Apache-2.0 | [LICENSE](licenses/jsqr-LICENSE) |
 | qrcode-generator | 2.0.4 | MIT | package metadata only |
 | openapi-fetch | 0.17.0 | MIT | [LICENSE](licenses/openapi-fetch-LICENSE) |
 | vite | 8.3.5 | MIT | [LICENSE.md](licenses/vite-LICENSE.md) |

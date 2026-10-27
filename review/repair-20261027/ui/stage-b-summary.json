@@ -1,0 +1,21 @@
+{
+  "stage": "B-UI",
+  "findings": ["F12", "F13", "F14", "F15", "F16"],
+  "red": "b-red/results.json: 6 expected failures before these product changes",
+  "green": "b-green/results.json: 29 browser checks passed",
+  "unit": "18 tests passed via node node_modules/vitest/vitest.mjs run apps/web/tests/repair-state (includes stage A tests)",
+  "typecheck": "npm run typecheck passed",
+  "changes": {
+    "apps/web/src/App.tsx": "Explicit loading/anonymous/failure/ready identity state; stale identity shown with operations paused; stable GamePage mount through identity polling failure; shared admission CTA; recovery links; lazily consume root-owned TutorialScene",
+    "apps/web/src/ui.tsx": "Expose resource errorCode; image unconfigured/missing/loading/loaded/failed and retry states",
+    "apps/web/src/pages/ParticipantPages.tsx": "Opaque voucher QR only for unexpired, unfrozen RESERVED order",
+    "apps/web/src/pages/AdminPage.tsx": "Manual input and scan share lookup; scan does not claim; clear old preview on new lookup",
+    "apps/web/src/repair-state/admission.ts": "One capability helper for tutorial and root-owned GamePage, preserving valid DRAINING makeup and original-session recovery",
+    "apps/web/src/repair-state/VoucherScanner.tsx": "jsQR image and camera decoding, rejection fallback, stream cleanup, generation guards after close/disable/unmount"
+  },
+  "tests": ["apps/web/tests/repair-state/stage-b.mts", "apps/web/tests/repair-state/admission.test.ts", "apps/web/tests/repair-state/image-harness.tsx", "apps/web/tests/repair-state/camera-harness.tsx"],
+  "evidence_boundary": "Real App/components and real game-core runtime in Chromium with schema-checked isolated API responses. Camera frame test uses controlled canvas captureStream and real jsQR. All credentials and inventory are invalid fixtures; no real business POST, PostgreSQL or physical-device claim validation.",
+  "verified_edges": ["Initial slow identity, 401, 503, stale poll and retry", "Running formal session keeps same canvas and progressing tick through me503; no second start", "CHECK_IN/PLAYING/DRAINING valid and missing grant/zero slots/active-session CTA", "Null or missing image id, HTTP404, invalid bytes, retry success and image-key switch", "Recovery targets >=48x48 at 320/360/390/430", "Normal opaque QR, frozen/expired/claimed/cancelled QR absence", "Uploaded QR and manual input use identical lookup; no implicit claim", "Controlled camera decode, permission denial, close/disable/unmount while pending, disable running", "Unknown claim response query shows already claimed; repeat blocked", "Identity loss after unknown claim then restoration and lookup preserves original durable claim key"],
+  "not_run": ["physical camera scanning", "iOS Safari or WeChat browser", "real PostgreSQL claim transaction in this subtask", "human playtest", "onsite network"],
+  "deferred": "F17 held for stage D authorization; current art and G5/G6 gates unchanged"
+}

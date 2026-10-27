@@ -1,0 +1,4 @@
+
+> sheep-annual-party@2.2.0 typecheck
+> node node_modules/typescript/bin/tsc -p tsconfig.json
+

@@ -1,0 +1,13 @@
+{
+  "environment": "real AssetImage, controlled delayed decode/error callbacks, actual HTTP 404 fixture; no business API",
+  "results": [
+    {
+      "id": "F14-retry-late-decode",
+      "pass": true
+    },
+    {
+      "id": "F14-key-late-decode",
+      "pass": true
+    }
+  ]
+}

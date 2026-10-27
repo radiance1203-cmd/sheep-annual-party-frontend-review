@@ -1,0 +1,141 @@
+{
+  "id": "F03-stack-restart-practice-preview",
+  "pass": true,
+  "error": null,
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    },
+    {
+      "path": "/api/event",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_side_v2.atlas.json",
+    "/assets/characters/sheep_side_v2.png",
+    "/assets/environment/farm_side_v2.atlas.json",
+    "/assets/environment/farm_side_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_stack_v3.atlas.json",
+    "/assets/environment/backdrop_stack_v3.png",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_side_v2.atlas.json",
+    "/assets/characters/sheep_side_v2.png",
+    "/assets/environment/farm_side_v2.atlas.json",
+    "/assets/environment/farm_side_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_stack_v3.atlas.json",
+    "/assets/environment/backdrop_stack_v3.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": "0",
+    "acceptedActions": "0",
+    "decode": {
+      "started": 8,
+      "succeeded": 8,
+      "images": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/af178df9-1de7-4b95-9fcf-4f2bfd061ae3"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/b43caee2-1263-450c-a00b-8889cfc05e9d"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/dd5660c4-580f-42d4-833a-ae32f880e2fc"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "source": "blob:http://127.0.0.1:5175/6113d7b5-5a98-4c70-99dc-8e58a929f7b8"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/790286a7-1f00-471c-9e71-238564e3952a"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/1c055a03-459b-4669-9086-ef7301d996de"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/73a8ca52-44a4-4bfb-874e-251f786e6da7"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "source": "blob:http://127.0.0.1:5175/94a1f42b-394b-4068-b556-fbe5cd3fd1db"
+        }
+      ],
+      "hold": false
+    },
+    "eventTrace": [
+      {
+        "type": "click",
+        "target": "BUTTON",
+        "active": "BUTTON",
+        "hidden": false
+      },
+      {
+        "type": "blur",
+        "target": "BUTTON",
+        "active": "BODY",
+        "hidden": false
+      },
+      {
+        "type": "click",
+        "target": "BUTTON",
+        "active": "BUTTON",
+        "hidden": false
+      },
+      {
+        "type": "blur",
+        "target": "BUTTON",
+        "active": "BODY",
+        "hidden": false
+      }
+    ],
+    "hidden": false,
+    "focused": true,
+    "canvas": [
+      {
+        "width": 360,
+        "height": 480,
+        "rect": {
+          "x": 16,
+          "y": 130.390625,
+          "width": 360,
+          "height": 480,
+          "top": 130.390625,
+          "right": 376,
+          "bottom": 610.390625,
+          "left": 16
+        }
+      }
+    ],
+    "body": "‹\n羊羊叠高高\n自由练习 · 不入账\n静音\n剩余时间\n45秒\n局内表现\n0 /80\n失误\n0/3\n已叠稳 0 层 · 完美 0 层\n练习可重新开始，不影响正式机会。\n开始不计分练习",
+    "dpr": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    }
+  }
+}

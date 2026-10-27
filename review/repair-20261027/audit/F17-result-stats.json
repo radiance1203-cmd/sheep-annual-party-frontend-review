@@ -1,0 +1,147 @@
+{
+  "id": "F17-result-stats",
+  "body": "♧ 牧场\n界面状态验收夹具\n状态夹具参与者\n✦ 正式挑战中\n本次挑战\n羊羊叠高高 · 第 1 次机会\n挑战完成！\n核验通过，积分已到账。\n当前有效贡献\n20\n参与分\n20\n表现分\n0\n\n结算原因：VERIFIED。只有当前有效贡献计入荣誉，历史获分不代表现在可用余额。\n\n全场荣誉 60 · 可用余额 60 · 剩余正式机会 3\n\n完整提交截止：2026/10/27 16:08:36\n\n局号 cccccccc-cccc-4ccc-8ccc-cccccccccccc\n\n返回大厅，查看剩余机会\n看看荣誉榜\n游园会\n荣誉榜\n兑换礼品",
+  "metrics": {
+    "dpr": 1,
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "canvas": [],
+    "images": [
+      {
+        "src": "/assets/ui/icon_score_star.svg",
+        "complete": false,
+        "naturalWidth": 0
+      },
+      {
+        "src": "/assets/ui/icon_home.svg",
+        "complete": false,
+        "naturalWidth": 0
+      },
+      {
+        "src": "/assets/ui/icon_leaderboard.svg",
+        "complete": false,
+        "naturalWidth": 0
+      },
+      {
+        "src": "/assets/ui/icon_gift.svg",
+        "complete": false,
+        "naturalWidth": 0
+      }
+    ],
+    "links": [
+      {
+        "text": "♧ 牧场",
+        "href": "#/",
+        "disabled": null,
+        "rect": {
+          "x": 16,
+          "y": 12,
+          "width": 48,
+          "height": 48,
+          "top": 12,
+          "right": 64,
+          "bottom": 60,
+          "left": 16
+        }
+      },
+      {
+        "text": "返回大厅，查看剩余机会",
+        "href": "#/",
+        "disabled": null,
+        "rect": {
+          "x": 33,
+          "y": 766.6875,
+          "width": 324,
+          "height": 64,
+          "top": 766.6875,
+          "right": 357,
+          "bottom": 830.6875,
+          "left": 33
+        }
+      },
+      {
+        "text": "看看荣誉榜",
+        "href": "#/leaderboard",
+        "disabled": null,
+        "rect": {
+          "x": 33,
+          "y": 842.6875,
+          "width": 324,
+          "height": 56,
+          "top": 842.6875,
+          "right": 357,
+          "bottom": 898.6875,
+          "left": 33
+        }
+      },
+      {
+        "text": "游园会",
+        "href": "#/",
+        "disabled": null,
+        "rect": {
+          "x": 8,
+          "y": 775,
+          "width": 122,
+          "height": 59,
+          "top": 775,
+          "right": 130,
+          "bottom": 834,
+          "left": 8
+        }
+      },
+      {
+        "text": "荣誉榜",
+        "href": "#/leaderboard",
+        "disabled": null,
+        "rect": {
+          "x": 134,
+          "y": 775,
+          "width": 122,
+          "height": 59,
+          "top": 775,
+          "right": 256,
+          "bottom": 834,
+          "left": 134
+        }
+      },
+      {
+        "text": "兑换礼品",
+        "href": "#/gifts",
+        "disabled": null,
+        "rect": {
+          "x": 260,
+          "y": 775,
+          "width": 122,
+          "height": 59,
+          "top": 775,
+          "right": 382,
+          "bottom": 834,
+          "left": 260
+        }
+      }
+    ]
+  },
+  "requests": [
+    {
+      "path": "/api/sessions/cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    },
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    }
+  ],
+  "errors": []
+}

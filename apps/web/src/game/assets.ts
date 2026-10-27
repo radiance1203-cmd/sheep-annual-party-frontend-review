@@ -11,13 +11,19 @@ export function parseAtlas(raw: unknown): Atlas {
   return atlas;
 }
 export function assetFolder(name: string): string { return name.startsWith('farm') ? 'environment' : name === 'shared_v1' ? 'effects' : 'characters'; }
-export function validateGameAtlas(name: string, atlas: Atlas, width: number, height: number): void {
+export function validateGameAtlas(name: string, atlas: Atlas, width: number, height: number, repairedProfile = false): void {
   if (atlas.size_px[0] !== width || atlas.size_px[1] !== height) throw new Error('实际图集尺寸与元数据不符，尚未使用机会。');
   for (const frame of Object.values(atlas.frames)) if (frame.rect[0] + frame.rect[2] > width || frame.rect[1] + frame.rect[3] > height) throw new Error('图集帧超出纹理范围。');
   if (name.startsWith('sheep') || name.startsWith('dog')) {
     const directions = name.includes('iso8') ? ['e', 'se', 's', 'sw', 'w', 'nw', 'n', 'ne'] : ['e'];
     const actions = name.startsWith('dog') ? ['idle', 'walk', 'bark'] : name.includes('side') ? ['idle', 'run', 'takeoff', 'air', 'land', 'steady', 'bump', 'celebrate'] : ['idle', 'walk', 'enter'];
     for (const direction of directions) for (const action of actions) if (!atlas.animations[`${action}.${direction}`]) throw new Error('必需角色动画缺失，尚未使用机会。');
+  }
+  if (repairedProfile && name === 'sheep_side_v1') {
+    for (const action of ['idle', 'air', 'steady', 'celebrate']) if (!atlas.animations[`stack_${action}.e`]) throw new Error('新版角色缺少叠层专用姿态，尚未使用机会。');
+  }
+  if (repairedProfile && name === 'farm_side_v1') {
+    for (const prop of ['hay_tray_thin', 'hurdle_narrow', 'hurdle_medium', 'hurdle_wide', 'clover_outer_round', 'clover_core_round']) if (!atlas.frames[prop]) throw new Error('新版场景缺少有界道具，尚未使用机会。');
   }
 }
 const requiredAtlases = z.array(z.string().min(1)).min(1);
@@ -90,7 +96,7 @@ export async function preloadAssets(game: GameId, baseUrl = '/assets/', expected
       const image = new Image(); image.src = objectUrl;
       result[name] = { ...atlas, decodedImage: image, objectUrl };
       await image.decode();
-      validateGameAtlas(name, atlas, image.naturalWidth, image.naturalHeight);
+      validateGameAtlas(name, atlas, image.naturalWidth, image.naturalHeight, major > 1 || major === 1 && minor >= 4);
       if (name === 'farm_backdrop_v3') validateBackdrop(atlas, game);
     }
     return result;

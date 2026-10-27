@@ -1,0 +1,139 @@
+{
+  "scope": "Read-only alpha bounds; no images or assets edited. Source renderer uses stable whole-frame sizes.",
+  "measurements": [
+    {
+      "atlas": "apps\\web\\public\\assets\\characters\\sheep_side_v2.atlas.json",
+      "frame": "sheep_side__idle__e__f000",
+      "rect": [
+        4,
+        276,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha128_bbox": [
+        22,
+        19,
+        115,
+        115
+      ],
+      "displayFrameSize": 80,
+      "opaqueLogicalSize": [
+        58.125,
+        60.0
+      ],
+      "css390AtStageWidth374": [
+        60.385416666666664,
+        62.333333333333336
+      ]
+    },
+    {
+      "atlas": "apps\\web\\public\\assets\\characters\\sheep_iso8_v2.atlas.json",
+      "frame": "sheep_iso8__idle__n__f000",
+      "rect": [
+        1772,
+        140,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "alpha128_bbox": [
+        30,
+        14,
+        98,
+        113
+      ],
+      "displayFrameSize": 47,
+      "opaqueLogicalSize": [
+        24.96875,
+        36.3515625
+      ],
+      "css390AtStageWidth374": [
+        25.939756944444444,
+        37.765234375
+      ]
+    },
+    {
+      "atlas": "apps\\web\\public\\assets\\characters\\dog_iso8_v2.atlas.json",
+      "frame": "dog_iso8__idle__n__f000",
+      "rect": [
+        820,
+        276,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "alpha128_bbox": [
+        44,
+        30,
+        84,
+        114
+      ],
+      "displayFrameSize": 48,
+      "opaqueLogicalSize": [
+        15.0,
+        31.5
+      ],
+      "css390AtStageWidth374": [
+        15.583333333333334,
+        32.725
+      ]
+    }
+  ],
+  "references": [
+    {
+      "path": "visual-repair-v1\\references\\00_lobby.png",
+      "pixels": [
+        941,
+        1672
+      ],
+      "sha256": "ceada23aecff09c5c4e14ebfcf10a2a8cf171c1054ad861b5216d71e74da31f1",
+      "openedPixelsInAudit": true
+    },
+    {
+      "path": "visual-repair-v1\\references\\01_stack.png",
+      "pixels": [
+        941,
+        1671
+      ],
+      "sha256": "94651ed5e2ca9039cc397c11395c31205f3b57ee0bd65858a45093d6ebe57652",
+      "openedPixelsInAudit": true
+    },
+    {
+      "path": "visual-repair-v1\\references\\02_runner.png",
+      "pixels": [
+        941,
+        1672
+      ],
+      "sha256": "62358c3c1cf36921266292f9747c514683f994fb1ed7c15254c29b3b98554a85",
+      "openedPixelsInAudit": true
+    },
+    {
+      "path": "visual-repair-v1\\references\\03_herd.png",
+      "pixels": [
+        941,
+        1672
+      ],
+      "sha256": "754351c13b62debd71fa342e9e1e366f9b34b0be7e35ae3b0d5af27494d8c50a",
+      "openedPixelsInAudit": true
+    },
+    {
+      "path": "visual-repair-v1\\references\\character_foundation_board.png",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "sha256": "836bf1f94e122bd5c98868b02d8577f2e8ea16d8acdce234094969e7510b1539",
+      "openedPixelsInAudit": true
+    }
+  ]
+}

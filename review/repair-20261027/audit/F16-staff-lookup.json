@@ -1,0 +1,149 @@
+{
+  "id": "F16-staff-lookup",
+  "body": "♧ 牧场\n界面状态验收夹具\n状态夹具参与者\n✦ 礼品兑换开放\n领取核销工作台\n领取核销\n核对本人后领取\n\n输入领取码或订单编号，查询服务器记录。确认核销成功后才交付实物。\n\n领取码 / 订单编号\n查询领取记录\n游园会\n荣誉榜\n兑换礼品\n主办控制台 · 核销工作台 · 只读大屏",
+  "metrics": {
+    "dpr": 1,
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "canvas": [],
+    "images": [
+      {
+        "src": "/assets/ui/icon_home.svg",
+        "complete": true,
+        "naturalWidth": 64
+      },
+      {
+        "src": "/assets/ui/icon_leaderboard.svg",
+        "complete": true,
+        "naturalWidth": 64
+      },
+      {
+        "src": "/assets/ui/icon_gift.svg",
+        "complete": true,
+        "naturalWidth": 64
+      }
+    ],
+    "links": [
+      {
+        "text": "♧ 牧场",
+        "href": "#/",
+        "disabled": null,
+        "rect": {
+          "x": 16,
+          "y": 12,
+          "width": 47.71875,
+          "height": 48,
+          "top": 12,
+          "right": 63.71875,
+          "bottom": 60,
+          "left": 16
+        }
+      },
+      {
+        "text": "游园会",
+        "href": "#/",
+        "disabled": null,
+        "rect": {
+          "x": 8,
+          "y": 775,
+          "width": 122,
+          "height": 59,
+          "top": 775,
+          "right": 130,
+          "bottom": 834,
+          "left": 8
+        }
+      },
+      {
+        "text": "荣誉榜",
+        "href": "#/leaderboard",
+        "disabled": null,
+        "rect": {
+          "x": 134,
+          "y": 775,
+          "width": 122,
+          "height": 59,
+          "top": 775,
+          "right": 256,
+          "bottom": 834,
+          "left": 134
+        }
+      },
+      {
+        "text": "兑换礼品",
+        "href": "#/gifts",
+        "disabled": null,
+        "rect": {
+          "x": 260,
+          "y": 775,
+          "width": 122,
+          "height": 59,
+          "top": 775,
+          "right": 382,
+          "bottom": 834,
+          "left": 260
+        }
+      },
+      {
+        "text": "主办控制台",
+        "href": "#/admin",
+        "disabled": null,
+        "rect": {
+          "x": 69.671875,
+          "y": 610.1875,
+          "width": 80,
+          "height": 20,
+          "top": 610.1875,
+          "right": 149.671875,
+          "bottom": 630.1875,
+          "left": 69.671875
+        }
+      },
+      {
+        "text": "核销工作台",
+        "href": "#/claim",
+        "disabled": null,
+        "rect": {
+          "x": 163,
+          "y": 610.1875,
+          "width": 80,
+          "height": 20,
+          "top": 610.1875,
+          "right": 243,
+          "bottom": 630.1875,
+          "left": 163
+        }
+      },
+      {
+        "text": "只读大屏",
+        "href": "#/screen",
+        "disabled": null,
+        "rect": {
+          "x": 256.328125,
+          "y": 610.1875,
+          "width": 64,
+          "height": 20,
+          "top": 610.1875,
+          "right": 320.328125,
+          "bottom": 630.1875,
+          "left": 256.328125
+        }
+      }
+    ]
+  },
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    }
+  ],
+  "errors": []
+}

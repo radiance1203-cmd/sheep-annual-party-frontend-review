@@ -1,0 +1,58 @@
+{
+  "environment": "read-only real Results component, isolated schema-checked API fixture except one explicitly forward-unknown payload; no business POST, PostgreSQL or real phone",
+  "results": [
+    {
+      "id": "F17-stack-statistics",
+      "pass": false,
+      "error": "TimeoutError: locator.waitFor: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('叠稳 8 层').first() to be visible\u001b[22m\n"
+    },
+    {
+      "id": "F17-runner-statistics",
+      "pass": false,
+      "error": "TimeoutError: locator.waitFor: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('安全越栏 10 次').first() to be visible\u001b[22m\n"
+    },
+    {
+      "id": "F17-herd-statistics",
+      "pass": false,
+      "error": "TimeoutError: locator.waitFor: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('入圈 6 只').first() to be visible\u001b[22m\n"
+    },
+    {
+      "id": "F17-no-effective-action",
+      "pass": false,
+      "error": "TimeoutError: locator.waitFor: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('没有有效操作').first() to be visible\u001b[22m\n"
+    },
+    {
+      "id": "F17-invalid-process",
+      "pass": false,
+      "error": "TimeoutError: locator.waitFor: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('过程核验未通过').first() to be visible\u001b[22m\n"
+    },
+    {
+      "id": "F17-voided",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: must not show 结算原因：VOIDED\n\n1 !== 0\n"
+    },
+    {
+      "id": "F17-historical-replaced",
+      "pass": false,
+      "error": "TimeoutError: locator.waitFor: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('历史尝试已被替换').first() to be visible\u001b[22m\n"
+    },
+    {
+      "id": "F17-verifying-no-award",
+      "pass": true
+    },
+    {
+      "id": "F17-review-no-award",
+      "pass": true
+    },
+    {
+      "id": "F17-independent-identity-503",
+      "pass": false,
+      "error": "TimeoutError: locator.waitFor: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('夹具：独立结果页身份同步失败') to be visible\u001b[22m\n"
+    },
+    {
+      "id": "F17-unknown-reason-inspectable",
+      "pass": false,
+      "error": "TimeoutError: locator.waitFor: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('未知结算原因').first() to be visible\u001b[22m\n"
+    }
+  ]
+}

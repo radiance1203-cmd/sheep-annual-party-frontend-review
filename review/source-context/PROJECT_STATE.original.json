@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "handoff_version": "2.2",
   "purpose": "实际本地工程与交付状态；所有PASS以真实工件限定范围，原始模板另存。",
-  "updated_at": "2026-10-27T05:49:23.163073+00:00",
+  "updated_at": "2026-10-27T10:23:58.900144+00:00",
   "project_root": "D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2",
   "repository": {
     "url": null,
@@ -18,7 +18,7 @@
     "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
     "simulator_version": "sheep-core-2.2.0",
     "client_version": "sheep-web-2.2.0",
-    "asset_version": "art-1.3.0-visual-repair",
+    "asset_version": "art-1.4.0-visual-repair",
     "official_logic_seed_by_game": {
       "stack": 1,
       "runner": 1,
@@ -40,7 +40,8 @@
     "backlog": "planning/BACKLOG.csv",
     "acceptance": "planning/ACCEPTANCE_MATRIX.csv",
     "business_wireframes": "design/wireframes/",
-    "visual_repair": "docs/visual-repair-v1-report.md"
+    "visual_repair": "docs/visual-repair-v1-report.md",
+    "review_repair": "docs/repair-20261027-report.md"
   },
   "environment": {
     "os": "Windows",
@@ -175,9 +176,13 @@
     ],
     "rule": "DONE/PASS必须附真实证据；已有Python数学证据与未来TS/数据库/真人验收分开。"
   },
-  "current_phase": "M5–M6 LOCAL_FUNCTIONAL_DELIVERY / FINAL VISUAL REVIEW",
-  "current_task_id": "T-071",
+  "current_phase": "REPAIR_20261027_LOCAL_CANDIDATE_DELIVERED / ART_REVIEW / ONSITE_BLOCKED",
+  "current_task_id": "REPAIR-ART-REVIEW",
   "next_task_ids": [
+    "REPAIR-ART-REVIEW",
+    "REPAIR-PHYSICAL",
+    "REPAIR-HUMAN24",
+    "REPAIR-ONSITE",
     "T-051",
     "T-066",
     "T-071",
@@ -809,6 +814,13 @@
       "strategy": "latest actual result per case; not one new full run",
       "backend_business_acceptance": false,
       "report": "docs/evidence/page-state-coverage.json"
+    },
+    "repair_20261027": {
+      "test_files": 19,
+      "tests": 352,
+      "real_game_ui_checks": 36,
+      "real_claim_checks": 15,
+      "report": "docs/repair-20261027-report.md"
     }
   },
   "gates": [
@@ -1070,14 +1082,23 @@
       "Continue this existing checkout and persistent PostgreSQL history; never reconstruct from the original empty template.",
       "Review final visual against the supplied references; keep rendered_candidate until it passes, then evaluate remaining G5 dependencies.",
       "Collect actual human/device/event/staff evidence for G6 only when available; do not synthesize records or reuse automated samples."
-    ]
+    ],
+    "repair_20261027": {
+      "head": "9d652fb3fef2ede55ebc462d46445cc855b98dd1",
+      "report": "docs/repair-20261027-report.md",
+      "state": "planning/REPAIR_20261027_STATE.json",
+      "gallery": "output/repair-20261027/index.html",
+      "rules_changed": false,
+      "source_modifications_preserved": true,
+      "no_commit_or_push": true
+    }
   },
   "completion": {
     "development_complete": false,
     "onsite_enable_eligible": false,
     "publicly_deployed": false,
-    "actual_event_phase": null,
-    "note": "三款游戏/共用真实PG后台/兑奖与补充管理流程的本地功能版已运行；G4通过。G5最终视觉和正式资产验收仍REVIEW；G6真人/真机/现场/真实配置/演练未放行。",
+    "actual_event_phase": "CHECK_IN",
+    "note": "本地可执行修复与三款候选运行美术已交付；实际三款GamePage正式提交核验/三槽及QR核销通过。G5正式美术REVIEW，G6真人/真机/正式配置/现场演练BLOCKED。",
     "local_functional_delivery_complete": true
   },
   "local_delivery": {
@@ -1092,7 +1113,9 @@
     "historical_events_retained": true,
     "server_shutdown": "Ctrl+C via supervisor IPC; PostgreSQL separate db:stop",
     "readiness_evidence": "docs/evidence/local-readiness.json",
-    "current_migration_evidence": "docs/evidence/development-migration.json"
+    "current_migration_evidence": "docs/evidence/development-migration.json",
+    "art_version": "art-1.4.0-visual-repair",
+    "asset_manifest_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c"
   },
   "supplemental_work": {
     "status": "DONE",
@@ -1169,5 +1192,17 @@
     "next_task": "Review/refine fine wool, side facial expression and dog material against actual comparisons using delivered editable masters; do not rebuild gameplay",
     "rules_backend_contract_dependencies_changed": false,
     "user_changes_preserved": true
+  },
+  "repair_20261027": {
+    "state": "planning/REPAIR_20261027_STATE.json",
+    "report": "docs/repair-20261027-report.md",
+    "gallery": "output/repair-20261027/index.html",
+    "review_baseline": "6e8e40c1c13ebbaa96c26548c4491d54d4e438da",
+    "rules_changed": false,
+    "local_tests": 352,
+    "three_game_ui_e2e": "PASS 36 checks, controlled clock",
+    "G5": "REVIEW",
+    "G6": "BLOCKED",
+    "production_art_accepted": false
   }
 }

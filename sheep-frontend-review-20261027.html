@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>羊年游园会｜前端、运行美术与流程审查｜2026-10-27</title>
+<style>
+:root{--ink:#24332c;--muted:#637067;--cream:#faf8ef;--line:#dce2d7;--green:#234b3c;--red:#a03329}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#eef1ea;color:var(--ink);font:16px/1.8 system-ui,-apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+main{max-width:1120px;margin:32px auto;background:var(--cream);padding:48px 56px;border:1px solid var(--line);border-radius:16px}
+h1,h2,h3{line-height:1.4}h1{font-size:34px;margin:12px 0 18px;letter-spacing:.02em}h2{font-size:25px;margin-top:48px;padding-bottom:10px;border-bottom:2px solid #ccd7c8}h3{font-size:19px;margin:0 0 12px}
+p{margin:12px 0}a{color:#17654e;text-underline-offset:3px;overflow-wrap:anywhere}.eyebrow{font-size:13px;letter-spacing:.15em;color:var(--muted)}.lead{font-size:20px;font-weight:600}.meta{color:var(--muted);font-size:14px}
+.summary{background:#e7efe4;border-left:5px solid var(--green);padding:20px 24px;border-radius:0 10px 10px 0;margin:24px 0}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:24px 0}.stat{background:white;border:1px solid var(--line);padding:16px;border-radius:10px}.stat b{font-size:30px;display:block;line-height:1.2}.stat span{font-size:14px;color:var(--muted)}
+nav{padding:16px 20px;background:#f0f1e6;border-radius:10px}nav a{display:inline-block;margin:3px 16px 3px 0}
+table{border-collapse:collapse;width:100%;font-size:14px;margin:20px 0}th,td{text-align:left;vertical-align:top;padding:12px 13px;border-bottom:1px solid var(--line)}th{background:#e8eddf}tbody tr:nth-child(even){background:#f4f5ec}.table-wrap{overflow-x:auto}
+.pill{display:inline-block;font-size:12px;line-height:1.5;padding:3px 9px;border-radius:100px;font-weight:700;white-space:nowrap}.P1{background:#f6dad4;color:#85251b}.P2{background:#f3e7c4;color:#735619}.P3{background:#dce9e0;color:#28563f}
+.finding{background:white;border:1px solid var(--line);padding:24px;margin:24px 0;border-radius:12px;scroll-margin-top:24px}
+dl{margin:0}dt{font-weight:700;margin-top:14px;font-size:14px;color:#385646}dd{margin:3px 0 0}.locations{font-family:ui-monospace,monospace;font-size:13px}code{background:#edf0e8;padding:2px 5px;border-radius:4px;font-size:.9em;overflow-wrap:anywhere}li{margin:6px 0}.note{padding:18px 22px;background:#f9edcf;border-radius:10px}footer{color:var(--muted);font-size:13px;margin-top:42px;border-top:1px solid var(--line);padding-top:20px}
+@media(max-width:700px){main{margin:0;padding:24px 18px;border:0;border-radius:0}h1{font-size:27px}.cards{grid-template-columns:repeat(2,1fr)}.finding{padding:18px}th,td{padding:9px}}
+@media print{body{background:white;font-size:11pt}main{border:0;margin:0;padding:0;max-width:none}nav{display:none}h2{break-after:avoid}.finding{break-inside:avoid}a{color:#234b3c}.cards{grid-template-columns:repeat(4,1fr)}}
+</style></head><body><main>
+<div class="eyebrow">INDEPENDENT FRONTEND REVIEW · 2026-10-27</div>
+<h1>羊年游园会<br>前端、运行美术与活动流程审查</h1>
+<p class="lead">当前版本可构建、可运行，尚未达到前端与正式美术完成的标准。</p>
+<p class="meta">审查提交：<code>6e8e40c1c13ebbaa96c26548c4491d54d4e438da</code>　·　只读审查，未修改产品源文件、冻结规则或资源，未发布。</p>
+<div class="summary"><strong>确认 18 组问题：2 组 P1、15 组 P2、1 组 P3。</strong><p>两处 P1 位于兑换与凭证流程。美术问题同时存在于旧图接入、准备场景生命周期、角色母源、显示尺度、道具实现和整页构图；因此增加一张封面或再跑一次单测不能让三款正式画面完成。三款正式美术继续 REVIEW，G5 继续 REVIEW，G6 继续 BLOCKED。</p></div>
+<div class="cards"><div class="stat"><b>223</b><span>本轮单元测试通过</span></div><div class="stat"><b>76</b><span>四宽隔离视图复拍案例</span></div><div class="stat"><b>254</b><span>当前角色图集帧检查</span></div><div class="stat"><b>18</b><span>可定位、可验收问题组</span></div></div>
+<nav><a href="#scope">范围与证据</a><a href="#findings">问题总表</a><a href="#details">逐项修复依据</a><a href="#passed">已通过</a><a href="#limits">未验证与难度</a><a href="#plan">实施顺序</a><a href="#handoff">补充材料</a></nav>
+
+<h2 id="scope">1. 审查范围与证据可信度</h2>
+<p>遵照 <a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/CHATGPT_REVIEW_PROMPT.md">CHATGPT_REVIEW_PROMPT.md</a>、<a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/README.md">README.md</a> 与 <a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/REVIEW_GUIDE.md">REVIEW_GUIDE.md</a>。此仓库为主工程的前端审查快照，<a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/SOURCE_SNAPSHOT.json">SOURCE_SNAPSHOT.json</a> 明确排除了后台、生产数据、环境密钥、完整历史与大型 Blender 工程。本报告不把这些有意省略项判定为主工程缺失。</p>
+<p>视觉目标采用仓库 <code>visual-repair-v1/references/</code> 中四张原型与角色板。实际查看了原型、角色板、四张 comparison、三张 layout、motion-contact、原生页面图、角色四视图与方向/动作接触表，并把问题追到当前组件、样式、renderer 和具体资源。以前另行制作的示例或概念稿没有替换本仓库的验收目标。</p>
+<p>复拍直接使用本提交前端。接口全部在隔离浏览器中拦截；游戏复拍使用共享内核推导的实际运行前缀。针对订单和兑换问题的 POST 也被测试脚本拦截，未写入任何真实后台。</p>
+<div class="table-wrap"><table><thead><tr><th>本轮操作</th><th>结果</th><th>边界</th></tr></thead><tbody>
+<tr><td>快照完整性</td><td>382 个声明文件按 snapshot_git_sha256 复核相符</td><td>验证快照内部一致性，不代替完整主工程审计</td></tr>
+<tr><td>npm ci --ignore-scripts；typecheck；build</td><td>完成；类型检查和构建退出码 0</td><td>Node v24.22.1、npm 11.9.0；安装时未执行生命周期脚本</td></tr>
+<tr><td>npm test</td><td>9 个测试文件，223 条通过</td><td>只证明已有单元测试覆盖项</td></tr>
+<tr><td>contracts:check；rules:check</td><td>通过；冻结配置与生成结果一致</td><td>不证明服务端业务事务或真人难度</td></tr>
+<tr><td>大厅 20／游戏 12／共用页 44 复拍</td><td>共 76 案例；320／360／390／430 CSS px；未测得横向溢出</td><td>Chromium 151.0.7922.34，DPR 1，桌面自动化；不是物理手机</td></tr>
+<tr><td>新增边界复现</td><td>跨订单、兑换拒绝、身份错误、阶段入口、图片失败、小触区、键盘、准备场景</td><td>见证据包 JSON；与既有截图矩阵分开记录</td></tr>
+</tbody></table></div>
+<p>源码行号与下面的链接均固定到本次审查提交，后续修改可能导致行号变化。问题等级：P1 为应优先修复的核心流程错误；P2 为确定的功能、可用性或正式视觉签认问题；P3 为次要信息表达缺口。没有确认 P0。P2 美术问题仍可阻止正式美术签认，并不代表可以带入现场最终版本。</p>
+
+<h2 id="findings">2. 按严重程度的问题总表</h2>
+<div class="table-wrap"><table><thead><tr><th>编号</th><th>等级</th><th>页面／区域</th><th>已确认问题</th></tr></thead><tbody><tr><td><a href="#F01">F01</a></td><td><span class="pill P1">P1</span></td><td>领取凭证；同类资源切换也影响结果页</td><td>路由已切到订单B，页面仍显示订单A，取消动作却指向B</td></tr><tr><td><a href="#F02">F02</a></td><td><span class="pill P1">P1</span></td><td>礼品兑换</td><td>明确售罄后仍保留pending记录，阻断选择其他礼品</td></tr><tr><td><a href="#F03">F03</a></td><td><span class="pill P2">P2</span></td><td>三款游戏准备页；练习准备态</td><td>初始场景仍空白，练习仍提示消耗正式机会</td></tr><tr><td><a href="#F04">F04</a></td><td><span class="pill P2">P2</span></td><td>三款玩法教程</td><td>教程仍硬编码旧羊图，没有接入本游戏的新角色与场景</td></tr><tr><td><a href="#F05">F05</a></td><td><span class="pill P2">P2</span></td><td>羊羊叠高高运行页</td><td>上层托盘横穿下层羊的头部与上背</td></tr><tr><td><a href="#F06">F06</a></td><td><span class="pill P2">P2</span></td><td>三款游戏角色美术</td><td>运行角色的体型和绒毛表现仍偏离指定角色板</td></tr><tr><td><a href="#F07">F07</a></td><td><span class="pill P2">P2</span></td><td>赶羊入圈运行页</td><td>角色尺寸按整帧计算，牧羊犬实际轮廓过小</td></tr><tr><td><a href="#F08">F08</a></td><td><span class="pill P2">P2</span></td><td>三款场景背景</td><td>正式背景仍是稀疏平滑牧场，与原型的空间层次差距明显</td></tr><tr><td><a href="#F09">F09</a></td><td><span class="pill P2">P2</span></td><td>大厅与三款游戏的标题/布局</td><td>主构图仍是通用卡片页面，标题和场景占屏关系未还原</td></tr><tr><td><a href="#F10">F10</a></td><td><span class="pill P2">P2</span></td><td>羊羊跨栏道具</td><td>运行障碍和福草仍由扁平矩形、小圆点绘制</td></tr><tr><td><a href="#F11">F11</a></td><td><span class="pill P2">P2</span></td><td>三款动作按钮；赶羊键盘操作</td><td>键盘操作与指针不一致，吠叫会中断仍按住的移动方向</td></tr><tr><td><a href="#F12">F12</a></td><td><span class="pill P2">P2</span></td><td>大厅身份与依赖身份的操作</td><td>身份接口失败被当作未绑定，错误没有呈现</td></tr><tr><td><a href="#F13">F13</a></td><td><span class="pill P2">P2</span></td><td>教程正式挑战入口</td><td>签到阶段仍显示可点击的“正式挑战·使用1次机会”</td></tr><tr><td><a href="#F14">F14</a></td><td><span class="pill P2">P2</span></td><td>礼品卡图片</td><td>已配置图片加载失败时显示破图，无失败占位与重试</td></tr><tr><td><a href="#F15">F15</a></td><td><span class="pill P2">P2</span></td><td>大厅存在原局时的恢复入口</td><td>关键恢复链接没有达到项目约定的48px触区</td></tr><tr><td><a href="#F16">F16</a></td><td><span class="pill P2">P2</span></td><td>领取凭证与工作人员核销</td><td>PRD中的扫码流程没有完整落实，当前凭证只有长文本码</td></tr><tr><td><a href="#F18">F18</a></td><td><span class="pill P2">P2</span></td><td>审查/回归证据覆盖</td><td>既有截图覆盖不足以支持“全部前端完成”</td></tr><tr><td><a href="#F17">F17</a></td><td><span class="pill P3">P3</span></td><td>挑战结算</td><td>成绩缺少可解释统计，直接显示机器枚举</td></tr></tbody></table></div>
+<h2 id="details">3. 每项证据、定位、最小修复与验收</h2>
+<article id="F01" class="finding">
+    <h3><span class="pill P1">P1</span> F01 · 路由已切到订单B，页面仍显示订单A，取消动作却指向B</h3>
+    <p class="meta">页面／区域：领取凭证；同类资源切换也影响结果页　｜　依据：本轮浏览器复现 + 源码</p>
+    <dl><dt>实际证据</dt><dd>本轮隔离浏览器从订单A切到B，并延迟B的GET响应：页面继续显示A的礼品和领取码，没有加载提示；点击可见取消按钮，拦截到POST /redemptions/B/cancel。useResource在identity改变时保留旧data，Order读取旧data但回调捕获新id。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/ui.tsx#L13-L25">apps/web/src/ui.tsx:13–25</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/App.tsx#L43-L48">apps/web/src/App.tsx:43–48</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/pages/ParticipantPages.tsx#L50-L59">apps/web/src/pages/ParticipantPages.tsx:50–59</a></dd>
+    <dt>素材／状态标识</dt><dd>无；资源身份与组件状态问题</dd>
+    <dt>影响与边界</dt><dd>展示对象与操作对象不一致，可能让参与者针对错误订单操作。实测是前端串绑，不是已发生真实退款，也未证明后端允许同时存在两个待领订单。旧设备保留A旧视图、另一设备取消A并创建B后再切换的场景可触发同类风险。</dd>
+    <dt>最小修复</dt><dd>让异步资源结果绑定资源键。资源键变化时立即进入新资源加载态，旧数据不得作为新对象显示或提交；待数据id与路由id一致才开放复制、取消等动作。补充取消旧请求/请求代次检查，防止过期响应覆盖。不能只把文字改成加载中而继续保留可操作旧按钮。</dd>
+    <dt>通过条件</dt><dd>延迟B、B返回404/503、快速A→B→A时，不展示或提交错对象；同样覆盖Results按id切换。保留后端所有权与幂等校验。</dd>
+    <dt>证据索引</dt><dd>evidence/ui-state-repro.json · UI-ORDER-ROUTE</dd></dl></article><article id="F02" class="finding">
+    <h3><span class="pill P1">P1</span> F02 · 明确售罄后仍保留pending记录，阻断选择其他礼品</h3>
+    <p class="meta">页面／区域：礼品兑换　｜　依据：本轮浏览器复现 + 源码</p>
+    <dl><dt>实际证据</dt><dd>A礼品收到409 OUT_OF_STOCK、retryable=false后，pending-redemption仍保留；选择B礼品只报“另一个礼品请求结果未明”，没有发出B请求。刷新页面后仍被阻断。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/pages/ParticipantPages.tsx#L40-L46">apps/web/src/pages/ParticipantPages.tsx:40–46</a></dd>
+    <dt>素材／状态标识</dt><dd>IndexedDB键 pending-redemption</dd>
+    <dt>影响与边界</dt><dd>现场某件礼品刚好售罄时，参与者可能无法改选仍有库存的礼品。当前UI没有解除明确失败请求的路径；单纯刷新不能恢复。该键还未按活动/参与者隔离。</dd>
+    <dt>最小修复</dt><dd>区分协议明确保证未建单的终局拒绝与网络/响应结果未知。对前者清理或结案原pending并允许改选；对后者保留原幂等键，提供查回订单和重试原请求。按event和participant隔离持久化键。不能一概在catch中换新键重下单。</dd>
+    <dt>通过条件</dt><dd>OUT_OF_STOCK后可改选B且不复用A的请求体；超时后只重试原键并能查回已成功订单；刷新、重新绑定身份与活动切换均不串pending。</dd>
+    <dt>证据索引</dt><dd>evidence/ui-state-repro.json · UI-GIFT-PENDING</dd></dl></article><article id="F03" class="finding">
+    <h3><span class="pill P2">P2</span> F03 · 初始场景仍空白，练习仍提示消耗正式机会</h3>
+    <p class="meta">页面／区域：三款游戏准备页；练习准备态　｜　依据：本轮浏览器复现 + 源码</p>
+    <dl><dt>实际证据</dt><dd>本轮逐款访问practice/stack、runner、herd：准备态canvas数量均为0；点击开始后才变成1。三页初始Notice均包含预约和使用1次正式机会，与“自由练习·不入账”冲突。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/GamePage.tsx#L33-L38">apps/web/src/game/GamePage.tsx:33–38</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/GamePage.tsx#L81-L95">apps/web/src/game/GamePage.tsx:81–95</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/GamePage.tsx#L146-L153">apps/web/src/game/GamePage.tsx:146–153</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/GamePage.tsx#L231-L236">apps/web/src/game/GamePage.tsx:231–236</a></dd>
+    <dt>素材／状态标识</dt><dd>三款当前角色/场景资源；初始阶段根本未创建renderer</dd>
+    <dt>影响与边界</dt><dd>用户进入游戏仍先看到大块渐变空场景；练习文案会造成扣正式次数的误解。这不是资源缺少或下载失败，而是初始化时机没有实现预览。</dd>
+    <dt>最小修复</dt><dd>建立只呈现tick0的准备场景：预加载、解码、绘制首帧后才开放开始。准备场景不创建正式会话、不推进正式时钟；正式预约和真实runtime另按原流程启用。按practice分支初始化文案。</dd>
+    <dt>通过条件</dt><dd>三款教程/准备/开始/重练均能看到同套素材；准备态真实core tick不推进、无start/finish请求；资源失败有错误和重试；练习全流程不出现消耗正式机会的提示。</dd>
+    <dt>证据索引</dt><dd>evidence/initial-scene-poc.json</dd></dl></article><article id="F04" class="finding">
+    <h3><span class="pill P2">P2</span> F04 · 教程仍硬编码旧羊图，没有接入本游戏的新角色与场景</h3>
+    <p class="meta">页面／区域：三款玩法教程　｜　依据：本轮浏览器截图/资源地址 + 源码</p>
+    <dl><dt>实际证据</dt><dd>App.tsx的三个教程共同使用/assets/hero/lobby_sheep_v1.webp。实际截图可见旧的粗绒团羊；12秒只是文本步骤定时切换，三款均没有展示与当前规则对应的托盘、栏杆或牧羊犬动作。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/App.tsx#L90-L94">apps/web/src/App.tsx:90–94</a></dd>
+    <dt>素材／状态标识</dt><dd>/assets/hero/lobby_sheep_v1.webp；此处是真正的旧图引用，和renderer兼容键名中的v1不同</dd>
+    <dt>影响与边界</dt><dd>大厅、教程、运行页继续出现不同角色观感。赶羊教程没有牧羊犬/圈门示意，首次参与者仍需要通过文字猜操作。</dd>
+    <dt>最小修复</dt><dd>删除此硬编码引用；从当前统一资源清单和呈现层生成各自教程场景。教程动作用明确教学状态驱动，不调用正式预约、计分或修改实际规则。</dd>
+    <dt>通过条件</dt><dd>三款教程能展示对应操作对象和方向；与运行角色的外观、动作锚点一致；任何页面不再引用该旧教程羊。</dd>
+    <dt>证据索引</dt><dd>evidence/ui-boundary-repro.json · UI-TUTORIAL-PHASE；仓库App第94行</dd></dl></article><article id="F05" class="finding">
+    <h3><span class="pill P2">P2</span> F05 · 上层托盘横穿下层羊的头部与上背</h3>
+    <p class="meta">页面／区域：羊羊叠高高运行页　｜　依据：本轮像素测量 + 实际图像 + 源码</p>
+    <dl><dt>实际证据</dt><dd>原生GC-01截图与四宽layout-stack中均可见。实际测量sheep_side__idle__e__f000在128帧中的alpha≥128边界为[22,19,115,115]；按size80显示，不透明高度60逻辑单位，而冻结层距为44。后画的上层草托覆盖下层羊身。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L130-L147">apps/web/src/game/renderer.ts:130–147</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/config/game_rules.v2.1.json#L154-L155">config/game_rules.v2.1.json:154–155</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/public/assets/characters/sheep_side_v2.atlas.json#L375-L399">apps/web/public/assets/characters/sheep_side_v2.atlas.json:375–399</a></dd>
+    <dt>素材／状态标识</dt><dd>character.sheep.side / sheep_side__idle__e__f000；environment.side / hay_tray</dd>
+    <dt>影响与边界</dt><dd>叠层接触关系不成立，破坏画面完成度，也不利于玩家辨认当前托盘与已叠层。不能把它解释成画风偏好。</dd>
+    <dt>最小修复</dt><dd>为叠层制作适合固定层距的专用姿态、整体显示比例和薄托盘；调整表现镜头与绘制顺序时保持核心层中心、44层距、脚锚点、横向判定与世界均匀比例。禁止改layer_height或拉伸羊图。</dd>
+    <dt>通过条件</dt><dd>1/4/8/20层及SWING/FALL/SETTLE/终局逐帧检查，羊头和托盘不互穿；已有规则/回放哈希不变。</dd>
+    <dt>证据索引</dt><dd>evidence/asset-audit.json；review/screenshots/games-reviewed/GC-01-390-full.png；review/layout-stack.png</dd></dl></article><article id="F06" class="finding">
+    <h3><span class="pill P2">P2</span> F06 · 运行角色的体型和绒毛表现仍偏离指定角色板</h3>
+    <p class="meta">页面／区域：三款游戏角色美术　｜　依据：本轮图像对比；审美判断需正式签认</p>
+    <dl><dt>实际证据</dt><dd>当前羊有浅脸、卷角、红围巾与单铃，标志没有缺失；但指定角色板是大头、圆身、粗短卷角与大而柔的绒团，当前侧面则头部上提、身体细长、腿较外露、细密小凸粒绒毛与偏细开环角。运行小尺寸时脸部难读。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/art-source/repair_masters_v2.py#L35-L108">art-source/repair_masters_v2.py:35–108</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L53-L69">apps/web/src/game/renderer.ts:53–69</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L136">apps/web/src/game/renderer.ts:136</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L181">apps/web/src/game/renderer.ts:181</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L204-L210">apps/web/src/game/renderer.ts:204–210</a></dd>
+    <dt>素材／状态标识</dt><dd>character.sheep.side、character.sheep.iso8、character.dog.iso8；实际文件为v2 PNG/atlas</dd>
+    <dt>影响与边界</dt><dd>大厅精细圆绒羊与游戏内角色形成明显断层；只换背景、加阴影或保留同色围巾无法解决母源比例偏差。</dd>
+    <dt>最小修复</dt><dd>按仓库指定角色板先统一正/侧/背/斜的母源轮廓、头身比、卷角与绒毛团块，再重渲染完整方向/动作。保留所有动画键、frame结构、pivot约定与原逻辑数据。</dd>
+    <dt>通过条件</dt><dd>母源四视图与实际320/390手机显示尺寸一起签认，再检查整套动画一致性；未签认前production_art_accepted保持false。</dd>
+    <dt>证据索引</dt><dd>visual-repair-v1/references/character_foundation_board.png；art-source/v2/samples；review/motion-contact.png</dd></dl></article><article id="F07" class="finding">
+    <h3><span class="pill P2">P2</span> F07 · 角色尺寸按整帧计算，牧羊犬实际轮廓过小</h3>
+    <p class="meta">页面／区域：赶羊入圈运行页　｜　依据：本轮像素测量 + 图像 + 源码</p>
+    <dl><dt>实际证据</dt><dd>renderer将128×128整帧显示为羊47、狗48。北向羊的不透明宽约24.97逻辑单位；北向狗仅15×31.5，因透明留白未纳入显示尺度校准。四宽实际图中狗呈细小棕白条，头尾和围巾不易识别。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L64-L69">apps/web/src/game/renderer.ts:64–69</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L196-L212">apps/web/src/game/renderer.ts:196–212</a></dd>
+    <dt>素材／状态标识</dt><dd>sheep_iso8__idle__n__f000；dog_iso8__idle__n__f000</dd>
+    <dt>影响与边界</dt><dd>参与者难以快速识别自己控制的犬、朝向和羊群反馈；大面积空草地强化了角色过小的观感。</dd>
+    <dt>最小修复</dt><dd>按整类角色的可见轮廓制定稳定显示尺度，保持脚底/地面pivot；优先改善狗的朝向辨识。不要逐帧独立归一化导致呼吸式缩放，不改碰撞圆、门口、场地、速度和seed。</dd>
+    <dt>通过条件</dt><dd>八方向、行走/吠叫/入圈、八羊同屏和门口拥挤状态均检查可辨性及遮挡；真机辨识性仍需真人验证。</dd>
+    <dt>证据索引</dt><dd>evidence/asset-audit.json；review/layout-herd.png；review/motion-contact.png</dd></dl></article><article id="F08" class="finding">
+    <h3><span class="pill P2">P2</span> F08 · 正式背景仍是稀疏平滑牧场，与原型的空间层次差距明显</h3>
+    <p class="meta">页面／区域：三款场景背景　｜　依据：本轮实际图像 + 当前运行分支追踪</p>
+    <dl><dt>实际证据</dt><dd>当前走renderer中farm_backdrop_v3分支，实际为平滑树团、大块素蓝天空/草坪与低细节谷仓；目标原型强调暖亮软3D、前中远景、花草/草垛和围栏空间。赶羊右上主要露出被边缘切掉的屋顶。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L73-L76">apps/web/src/game/renderer.ts:73–76</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/art-source/build_backdrops_v3.py#L125-L161">art-source/build_backdrops_v3.py:125–161</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/public/assets/asset-manifest.v1.json#L2583-L2850">apps/web/public/assets/asset-manifest.v1.json:2583–2850</a></dd>
+    <dt>素材／状态标识</dt><dd>environment.backdrop.stack、environment.backdrop.runner、environment.backdrop.herd</dd>
+    <dt>影响与边界</dt><dd>即使角色换新，整体仍容易呈现普通三维示例场景，和大厅插画的细节密度、材质不一致。</dd>
+    <dt>最小修复</dt><dd>重做纯装饰背景的构图、材质和景深层次，保留360×480/220/420及0,0锚点。不将可交互羊、栏杆、托盘或假圈门烘焙进背景，不移动真实门线。</dd>
+    <dt>通过条件</dt><dd>同一真实core状态与指定原型并排检查；前景装饰不遮挡可操作对象，视觉目标单独签认。</dd>
+    <dt>证据索引</dt><dd>review/stack-comparison.png、runner-comparison.png、herd-comparison.png</dd></dl></article><article id="F09" class="finding">
+    <h3><span class="pill P2">P2</span> F09 · 主构图仍是通用卡片页面，标题和场景占屏关系未还原</h3>
+    <p class="meta">页面／区域：大厅与三款游戏的标题/布局　｜　依据：本轮图像与布局源码；部分属于视觉签认</p>
+    <dl><dt>实际证据</dt><dd>游戏标题仍是CSS细木纹条和普通文字；跨栏舞台按360/220比例单独放在奶油页面内，下方留有较大空白。大厅卡片最小11rem，信息/封面/参与分块比原型更高，三款选择无法像目标图那样紧凑同屏。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/visual-repair.css#L37-L55">apps/web/src/visual-repair.css:37–55</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/visual-repair.css#L87-L107">apps/web/src/visual-repair.css:87–107</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L17-L18">apps/web/src/game/renderer.ts:17–18</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L225-L226">apps/web/src/game/renderer.ts:225–226</a></dd>
+    <dt>素材／状态标识</dt><dd>game-top h1、vr-wood-label、vr-game-card、stage-runner</dd>
+    <dt>影响与边界</dt><dd>色彩已接近，但标题识别、层级和整屏游戏感仍有差距。大厅可滚动本身不是功能错误，不能为了硬塞一屏缩小必要字号和48px触区。</dd>
+    <dt>最小修复</dt><dd>接入经过确认的标题牌/材质，优化卡片信息密度、HUD和操作区。可将装饰场景延展至页面背景，但维持真实游戏世界均匀FIT和可视预判距离；不能纵向硬拉伸360×220跨栏世界。</dd>
+    <dt>通过条件</dt><dd>320/360/390/430与短屏逐状态看图；主要操作清楚可达，无横向溢出、文字截断及角色变形。固定底栏在fullPage截图中部出现不单独判为遮挡故障。</dd>
+    <dt>证据索引</dt><dd>review/lobby-comparison.png；review/runner-comparison.png；本轮76组复拍度量</dd></dl></article><article id="F10" class="finding">
+    <h3><span class="pill P2">P2</span> F10 · 运行障碍和福草仍由扁平矩形、小圆点绘制</h3>
+    <p class="meta">页面／区域：羊羊跨栏道具　｜　依据：本轮图像 + 源码</p>
+    <dl><dt>实际证据</dt><dd>renderer的跨栏分支直接用Graphics画红白竖条、几个绿圆和金点，未使用现有hurdle/clover_outer/clover_core帧。原生图与motion-contact中物体语义、木材质感及金芯辨识明显弱于封面。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L158-L177">apps/web/src/game/renderer.ts:158–177</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/public/assets/environment/farm_side_v2.atlas.json#L75-L149">apps/web/public/assets/environment/farm_side_v2.atlas.json:75–149</a></dd>
+    <dt>素材／状态标识</dt><dd>environment.side / hurdle、clover_outer、clover_core</dd>
+    <dt>影响与边界</dt><dd>用户难以把细条/小点迅速识别为跨栏和福草；与高质量封面落差明显。</dd>
+    <dt>最小修复</dt><dd>在真实AABB和采集半径内加强纹理、分瓣、边缘与层次，或制作适合窄尺寸的道具切片。冻结栏宽8/18/28、草半径4.5/1.5与原型大横栏存在比例约束，不能直接把大横栏套上或放大采集范围。</dd>
+    <dt>通过条件</dt><dd>三种栏宽和草的外圈未取/外圈已取内圈未取/两圈已取均实拍，位置与碰撞调试一致。</dd>
+    <dt>证据索引</dt><dd>review/motion-contact.png · runner/outer-and-core-visible；GC-02原生图</dd></dl></article><article id="F11" class="finding">
+    <h3><span class="pill P2">P2</span> F11 · 键盘操作与指针不一致，吠叫会中断仍按住的移动方向</h3>
+    <p class="meta">页面／区域：三款动作按钮；赶羊键盘操作　｜　依据：本轮真实前端输入日志复现；隔离API，非真人真机</p>
+    <dl><dt>实际证据</dt><dd>真实GamePage和IndexedDB输入日志复现：按住Right再按Space，产生BARK后不再有DOG_MOVE；Right仍按住再按Up只产生向上向量，不能斜向。另“点击跳跃”按钮获焦时Space没有JUMP，Enter才有。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/GamePage.tsx#L201-L203">apps/web/src/game/GamePage.tsx:201–203</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/GamePage.tsx#L236">apps/web/src/game/GamePage.tsx:236</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/keyboard.ts#L1-L3">apps/web/src/game/keyboard.ts:1–3</a></dd>
+    <dt>素材／状态标识</dt><dd>键盘事件与onPointerDown动作通路</dd>
+    <dt>影响与边界</dt><dd>现场桌面演示、键盘使用者和焦点操作会得到不同控制结果；不是game-core的运动或碰撞难度问题。</dd>
+    <dt>最小修复</dt><dd>用pressed-key集合维护方向，非方向键不写0，松开一键保留其他方向；失焦/隐藏清空。主动作使用统一click/键盘通路，避免pointerdown随后click双触发。保留表单与弹窗输入隔离。</dd>
+    <dt>通过条件</dt><dd>Right+Space不停止右移；Right+Up可斜向且松Up继续Right；按钮焦点下Space/Enter各产生一次动作；鼠标/触摸一次也只产生一次。</dd>
+    <dt>证据索引</dt><dd>evidence/runtime-poc-results.json</dd></dl></article><article id="F12" class="finding">
+    <h3><span class="pill P2">P2</span> F12 · 身份接口失败被当作未绑定，错误没有呈现</h3>
+    <p class="meta">页面／区域：大厅身份与依赖身份的操作　｜　依据：本轮浏览器复现 + 源码</p>
+    <dl><dt>实际证据</dt><dd>本轮将/me返回503 SERVER_BUSY，大厅直接显示绑定身份且看不到身份错误。App读取identity.data但没有渲染identity.error；加载中同样落到未绑定分支。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/App.tsx#L16-L24">apps/web/src/App.tsx:16–24</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/App.tsx#L36-L39">apps/web/src/App.tsx:36–39</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/App.tsx#L79">apps/web/src/App.tsx:79</a></dd>
+    <dt>素材／状态标识</dt><dd>identity.data / identity.error</dd>
+    <dt>影响与边界</dt><dd>暂时网络/服务故障被错误解释成身份丢失，参与者可能误以为必须重新绑定；已有身份的轮询失败也缺少过期状态提示。</dd>
+    <dt>最小修复</dt><dd>区分加载中、明确未认证、读取失败和就绪；对503显示重试，对保留旧数据标注同步失败；未知身份/余额时禁用依赖它们的关键动作，不能用未登录文案代替错误。</dd>
+    <dt>通过条件</dt><dd>首次慢响应、401、503、已登录后轮询失败和恢复分别检查，界面与CTA不误导。</dd>
+    <dt>证据索引</dt><dd>evidence/ui-boundary-repro.json · UI-IDENTITY-ERROR</dd></dl></article><article id="F13" class="finding">
+    <h3><span class="pill P2">P2</span> F13 · 签到阶段仍显示可点击的“正式挑战·使用1次机会”</h3>
+    <p class="meta">页面／区域：教程正式挑战入口　｜　依据：本轮浏览器复现 + 源码</p>
+    <dl><dt>实际证据</dt><dd>CHECK_IN且ordinary_start_allowed=false的隔离场景中，教程主按钮仍链接#/play/herd，没有aria-disabled。当前只检查是否有me，不检查准入条件。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/App.tsx#L90-L94">apps/web/src/App.tsx:90–94</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/GamePage.tsx#L117-L119">apps/web/src/game/GamePage.tsx:117–119</a></dd>
+    <dt>素材／状态标识</dt><dd>教程正式CTA</dd>
+    <dt>影响与边界</dt><dd>用户先看到“正式挑战·使用1次机会”的可用入口，进入准备页并点击预检预约后，却被前端准入检查拒绝，活动阶段与入口承诺不一致。未证明绕过服务端或消耗机会；bootstrap仍有准入防线。</dd>
+    <dt>最小修复</dt><dd>用统一的真实准入能力生成文案、可用态和目标动作，区分等待开场、次数用尽、恢复原局和获准补场。保留DRAINING合法补场，不能仅写phase===PLAYING。</dd>
+    <dt>通过条件</dt><dd>CHECK_IN、PLAYING、DRAINING有/无补场、次数为0与存在active_session分别检查CTA和真实授权一致。</dd>
+    <dt>证据索引</dt><dd>evidence/ui-boundary-repro.json · UI-TUTORIAL-PHASE</dd></dl></article><article id="F14" class="finding">
+    <h3><span class="pill P2">P2</span> F14 · 已配置图片加载失败时显示破图，无失败占位与重试</h3>
+    <p class="meta">页面／区域：礼品卡图片　｜　依据：本轮浏览器复现 + 源码</p>
+    <dl><dt>实际证据</dt><dd>配置非空asset_id后拦截运行图片为404；img complete=true、naturalWidth=0，页面没有失败占位或重试。AssetImage只对未配置/未查到路径显示占位，实际img没有onError。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/ui.tsx#L53-L60">apps/web/src/ui.tsx:53–60</a></dd>
+    <dt>素材／状态标识</dt><dd>Gift.image_asset_key → manifest.runtime_path → img</dd>
+    <dt>影响与边界</dt><dd>现场弱网或错误资源路径会留下破图，参与者无法确认礼品；这和未配置真实礼品图片是两种不同状态。</dd>
+    <dt>最小修复</dt><dd>区分未配置、加载中、已加载、失败；失败显示明确占位和重试。保留礼品名、价格、真实库存及可用状态，不用虚构商品照片补缺。</dd>
+    <dt>通过条件</dt><dd>空asset_id、不存在的asset_id、HTTP404、decode失败、重试成功以及图片键切换均覆盖。</dd>
+    <dt>证据索引</dt><dd>evidence/ui-boundary-repro.json · UI-GIFT-IMAGE</dd></dl></article><article id="F15" class="finding">
+    <h3><span class="pill P2">P2</span> F15 · 关键恢复链接没有达到项目约定的48px触区</h3>
+    <p class="meta">页面／区域：大厅存在原局时的恢复入口　｜　依据：本轮浏览器尺寸测量</p>
+    <dl><dt>实际证据</dt><dd>有active_session的大堂Notice中，“恢复原局”“查看状态”均实测64×19 CSS px。常规76组复拍没有出现这一状态，不能用其主要按钮达标推断所有入口达标。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/App.tsx#L79">apps/web/src/App.tsx:79</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/visual-repair.css#L43-L57">apps/web/src/visual-repair.css:43–57</a></dd>
+    <dt>素材／状态标识</dt><dd>Notice内部内联a链接</dd>
+    <dt>影响与边界</dt><dd>现场用户最需要恢复原局时，入口触区偏小。48px是本项目标准，本报告不将其宣称为所有外部无障碍规范的统一阈值。</dd>
+    <dt>最小修复</dt><dd>将恢复、查看状态和补场记录等关键链接改为独立明确触区，统一至少48×48 CSS px，保留文案和路由。</dd>
+    <dt>通过条件</dt><dd>active_session和补场状态在四宽下实测点击盒，不仅看文字字号或普通主按钮。</dd>
+    <dt>证据索引</dt><dd>evidence/ui-boundary-repro.json · UI-TARGETS</dd></dl></article><article id="F16" class="finding">
+    <h3><span class="pill P2">P2</span> F16 · PRD中的扫码流程没有完整落实，当前凭证只有长文本码</h3>
+    <p class="meta">页面／区域：领取凭证与工作人员核销　｜　依据：本轮正常凭证分支查看 + 需求/源码对照</p>
+    <dl><dt>实际证据</dt><dd>PRD要求扫码/手输等价，领取线框有核销二维码区域。正常RESERVED且有voucher_token时，Order仅显示文本code和复制按钮；Claim只有手工输入Field。现有QrCode仅用于公共活动入口。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/docs/PRD.md#L146-L149">docs/PRD.md:146–149</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/pages/ParticipantPages.tsx#L50-L59">apps/web/src/pages/ParticipantPages.tsx:50–59</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/pages/AdminPage.tsx#L67-L70">apps/web/src/pages/AdminPage.tsx:67–70</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/ui.tsx#L43-L45">apps/web/src/ui.tsx:43–45</a></dd>
+    <dt>素材／状态标识</dt><dd>voucher_token；design/wireframes/claim.svg</dd>
+    <dt>影响与边界</dt><dd>手机到工作人员设备之间的领取交接需要手输/传递43字符码，偏离现场快速兑奖目标。不否认外接键盘式扫码枪能向文本框输入，但当前参与者页也没有相应二维码。</dd>
+    <dt>最小修复</dt><dd>正常可领取态显示可扫码的不透明凭证；工作人员扫码与手输复用同一POST lookup和二次确认流程。凭证不得进入URL或日志。保留冻结、到期、已领取、已取消的正确状态，不在二维码中自造授权或分数。</dd>
+    <dt>通过条件</dt><dd>有token的正常凭证、复制/扫码/手输一致性、冻结/过期、重复核销和响应丢失均补覆盖；真实设备扫码与后端领取仍需在主工程验收。</dd>
+    <dt>证据索引</dt><dd>Order正常token分支源码与本轮UI-ORDER-ROUTE页面；PRD与claim线框</dd></dl></article><article id="F18" class="finding">
+    <h3><span class="pill P2">P2</span> F18 · 既有截图覆盖不足以支持“全部前端完成”</h3>
+    <p class="meta">页面／区域：审查/回归证据覆盖　｜　依据：本轮复拍工具与用例审查</p>
+    <dl><dt>实际证据</dt><dd>capture.mts主动将所有voucher_token置null，未覆盖正常凭证；capture-games只拍已恢复的运行前缀，未覆盖准备页。当前复拍截图矩阵未覆盖跨订单慢响应、明确兑换拒绝后改选、active_session内联恢复链接等关键状态，因此既有截图与测试通过不能替代这些状态的验证。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/review/tools/capture.mts#L46-L47">review/tools/capture.mts:46–47</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/review/tools/capture-games.mts#L15-L17">review/tools/capture-games.mts:15–17</a><br><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/review/tools/capture-games.mts#L31-L49">review/tools/capture-games.mts:31–49</a></dd>
+    <dt>素材／状态标识</dt><dd>review截图矩阵与当前case数据</dd>
+    <dt>影响与边界</dt><dd>历史PASS只能覆盖既有用例，不能替代完整状态、美术签认、真人难度或业务闭环。遮盖真实令牌是正确的，但应另用明确无效的fixture token覆盖正常UI分支。</dd>
+    <dt>最小修复</dt><dd>按F01–F17补有明确断言的针对性用例；使用无真实效力的测试凭证覆盖正常状态。保存同状态同视口的当前实际图，禁止直接更新错误截图为新基准。测试报告区分代码、隔离视图、美术签认、真机、真人和现场。</dd>
+    <dt>通过条件</dt><dd>每个修复项对应重现失败→修复通过的证据；缺失真实后台或真人数据继续NOT_RUN，不虚构相似度或现场PASS。</dd>
+    <dt>证据索引</dt><dd>本轮针对性复现与README复拍结果对照</dd></dl></article><article id="F17" class="finding">
+    <h3><span class="pill P3">P3</span> F17 · 成绩缺少可解释统计，直接显示机器枚举</h3>
+    <p class="meta">页面／区域：挑战结算　｜　依据：本轮图像 + 需求/源码对照</p>
+    <dl><dt>实际证据</dt><dd>Results已取得settled.conclusion但没有展示stats；如叠高高的8层/4完美在结算页不可见。页面直接显示VERIFIED等eligibility_reason。</dd>
+    <dt>代码位置</dt><dd class="locations"><a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/pages/ParticipantPages.tsx#L20-L27">apps/web/src/pages/ParticipantPages.tsx:20–27</a></dd>
+    <dt>素材／状态标识</dt><dd>Settlement.conclusion.stats；eligibility_reason</dd>
+    <dt>影响与边界</dt><dd>参与者看得到总分，却不容易理解这局得分来源；机器状态词不适合年会现场普通用户。</dd>
+    <dt>最小修复</dt><dd>从服务端已核验conclusion显示对应游戏的少量关键统计，并将已定义状态映射为中文。保留参与分/表现分/余额/荣誉的区别，不能根据本地表现伪造结算。</dd>
+    <dt>通过条件</dt><dd>三款已核验结果、待核验、0分原因、作废和历史替换均展示准确；未知状态保留可查信息而不误显示成功。</dd>
+    <dt>证据索引</dt><dd>review/screenshots/shared-final/BC-01-verified-390-full.png；design/wireframes/result.png</dd></dl></article>
+
+<h2 id="passed">4. 本轮可确认的已完成部分</h2>
+<ul><li>类型、构建、223 条单元测试、HTTP 契约和规则生成检查重新执行通过。历史报告的 PostgreSQL／后台业务结果没有算成本轮通过。</li>
+<li>正式与练习运行调用同一 <code>packages/game-core</code>。正式 seed 为 stack=1、runner=1、herd=47；固定 30 Hz、1350 tick。renderer 没有另建得分或碰撞规则。见 <a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/GamePage.tsx#L117-L204">apps/web/src/game/GamePage.tsx:117–204</a>。</li>
+<li>正式资源预检包含 hash、图集元数据、解码尺寸、帧边界、必需动作/方向；运行消费已解码资源。旧 art 1.1.0／1.2.0 清单声明的文件和 SHA 本轮复核相符。见 <a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/assets.ts">apps/web/src/game/assets.ts</a>。</li>
+<li>侧面羊 38 帧、八向羊 104 帧、八向犬 112 帧，合计 254 帧；检查范围内无空帧、越界 frame 或缺失的动画引用。八方向确实有各自视角，pivot 约定一致。标志性浅脸、卷角、红围巾、单铃存在；F06 关注其形态与比例。</li>
+<li>运行键名中的 v1 是兼容名称，实际映射到 v2 PNG／atlas，不能仅凭键名判为加载旧图。教程硬编码旧羊属于独立、已确认问题。见 <a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/assets.ts#L58-L94">apps/web/src/game/assets.ts:58–94</a>。</li>
+<li>当前 Phaser 使用均匀 FIT。未发现本轮图像存在世界非均匀拉伸；脚锚点与图层深度代码已有实现。部分静图未见倒序不能当作所有动态遮挡通过。见 <a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L196-L226">apps/web/src/game/renderer.ts:196–226</a>。</li>
+<li>大厅主视觉与三张封面确已接入新版图像，检查图中未见明显非均匀拉伸。普通主要按钮触区与已采集正文指标通过；F15 是额外 active_session 状态中发现的例外。</li>
+<li>共用页面已有待核验／已核验、荣誉与余额区分、并列排名、冻结／过期／已领取等分支；本报告列出的缺口应在现有实现上修复，无需推翻整套工程。</li></ul>
+
+<h2 id="limits">5. 尚未验证的完整性、难度与现场条件</h2>
+<p><strong>“分数能算对”与“普通同事能获得合适的分差”是两项验收。</strong>本轮确认前者的已有自动化覆盖通过，但没有用截图中的 24 分、演示轨迹或模拟数据推断真人分布。源代码和静态图无法回答“人人满分”或“普遍低分”。</p>
+<p>沿用 <a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/docs/PRD.md#L215-L219">docs/PRD.md:215–219</a> 的现有要求，无需新造一套阈值：</p>
+<div class="table-wrap"><table><thead><tr><th>真人试玩设计</th><th>现有门槛</th></tr></thead><tbody>
+<tr><td>独立样本与顺序</td><td>24 名不同熟练度同事；六种顺序各四人；每款 10–15 秒教程、一次练习、三次测试。每款 72 局、共 216 局，独立人数仍为 24。</td></tr>
+<tr><td>每款分布</td><td>中位数 60–80；≤30 分比例 ≤15%；100 分比例 ≤5%；P90−P10 ≥25。</td></tr>
+<tr><td>跨款与同人公平</td><td>三款整体中位数最大差 ≤8；同人每款三次中位数极差的中位数 ≤8，两项独立满足。</td></tr>
+<tr><td>必须分层保留</td><td>首局／后两局、新手、顺序；同款三次与各一款策略。保留不利样本，避免重复局数冒充独立人数。</td></tr>
+</tbody></table></div>
+<p>需要在本轮输入问题、场景可见性和教学问题修复后再进行真人试玩，否则控制缺陷和辨识困难会混进“游戏难度”。若真实数据不达门槛，另开规则变更与重新冻结流程；本次视觉修复不得悄悄调整种子、速度、碰撞或积分。</p>
+<p>以下项目维持 NOT_RUN／待证据：</p>
+<ul><li>真实后台鉴权、正式开局/核验入账、数据库库存原子事务、实际退款与核销闭环。本仓库不含后台，不能据此证明或否认正确性。</li>
+<li>iOS Safari、微信内置浏览器、低端 Android、触摸延迟、音频、相机扫码与物理设备的可辨性。</li>
+<li>全动作连续播放、全部八方向切换、复杂入圈拥挤与围栏穿越的动态遮挡验收。</li>
+<li>真实现场并发、Wi-Fi/蜂窝网络、断线恢复、队列延迟、真礼品和工作人员交物演练。</li>
+<li>最终母源签认与大型 Blender 工程内部可编辑性；公开渲染样本已查看，但未取得 .blend 本体不判项目缺失。</li></ul>
+<p>构建有游戏分包约 1,392.51 kB（gzip 367.53 kB）的体积提示。它是需要真机首载/内存验证的线索，本轮没有测量 FPS、解码峰值或低端设备性能，不能直接判定卡顿，也不要求仅为消除警告重构全站。</p>
+<div class="note"><strong>发布判定：</strong>三款正式美术 REVIEW，G5 REVIEW、G6 BLOCKED。<a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/docs/visual-repair-v1-report.md#L10-L15">docs/visual-repair-v1-report.md:10–15</a> 与 <a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/docs/PRD.md#L265-L273">docs/PRD.md:265–273</a> 的未完成现场门槛继续保留。开发可继续，正式活动放行不能依据本轮隔离截图自动完成。</div>
+
+<h2 id="plan">6. 交给 Codex 的实施顺序</h2>
+<ol><li><strong>先处理可操作对象和兑换恢复：</strong>F01、F02。各自补能证明“显示对象＝操作对象”和“终局失败可退出、未知结果可查回”的小型回归，保持原幂等语义。</li>
+<li><strong>补齐可见状态和输入：</strong>F03、F04、F11–F16。准备页先呈现场景，练习/正式文案和准入一致；身份、图片和恢复入口可用；凭证扫码与手输入使用同一核销协议。</li>
+<li><strong>统一运行美术母源与真实显示尺度：</strong>F05–F10。先确认四视图和 320/390 实际尺寸，再生成全图集；随后调整场景、道具、木牌与布局。共用羊母源可制作适合叠层和跳跃的不同姿态，不能为保持同一帧而牺牲固定层距。</li>
+<li><strong>完善结果解释并补针对性证据：</strong>F17、F18。结算只解释服务端结论；每个问题一条验证闭环，成功修复后再四宽复拍。</li>
+<li><strong>进入真人、真机、现场演练：</strong>沿用 PRD 样本和门槛。没有真实结果时保持未验，不用美术合成图、fixture 或新截图基线替代。</li></ol>
+<p>可以在一个原项目会话中由总控负责集成，分派 UI 状态、运行美术、针对性验证三个互不冲突的工作面；同一 <code>GamePage.tsx</code>／<code>renderer.ts</code> 同时修改时须串行集成。遵守项目 AGENTS 指定的模型与协作要求，不另建三个独立规则或前端壳。</p>
+
+<h2 id="handoff">7. 应补充的材料，及本次交付</h2>
+<p>仓库已有原型、角色板、资产清单和大量源码，当前不缺一份泛化画风说明。修复时需要把现有参考转成下面这些可检查的约束：</p>
+<div class="table-wrap"><table><thead><tr><th>需要补齐的材料</th><th>必须包含</th><th>用途</th></tr></thead><tbody>
+<tr><td>视觉差异与资源对应表</td><td>本报告 F03–F10；页面/状态/参考图/当前图/组件/frame/实际尺度/签认状态</td><td>定位替换点，避免只替换封面</td></tr>
+<tr><td>角色与道具尺寸约定</td><td>帧尺寸、不透明轮廓、pivot、层距和核心位置、整类稳定缩放、局部帧姿态</td><td>消除穿插与透明留白造成的小角色</td></tr>
+<tr><td>页面状态矩阵</td><td>加载/错误/无身份/有身份、准备/练习/正式/恢复、正常有token凭证及所有终态</td><td>把本轮边界问题纳入验收</td></tr>
+<tr><td>正式美术与现场证据</td><td>四视图签认、同视口真实运行图、真人匿名原始记录、真机与核销演练结果</td><td>明确从开发完成到现场可用的剩余条件</td></tr>
+</tbody></table></div>
+<p>配套文件：<code>codex-repair-tasks-20261027.txt</code> 为完整修复指令；<code>sheep-review-evidence-20261027.zip</code> 包含本报告、任务清单、结构化问题表、本轮日志、测量与复现脚本。证据包不包含生产数据、源仓库副本或浏览器截图文件。源码与仓库已有图像以固定提交链接引用。</p>
+<p>参考图入口：<a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/visual-repair-v1/references/00_lobby.png">大厅</a> · <a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/visual-repair-v1/references/01_stack.png">叠高高</a> · <a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/visual-repair-v1/references/02_runner.png">跨栏</a> · <a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/visual-repair-v1/references/03_herd.png">赶羊</a> · <a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/visual-repair-v1/references/character_foundation_board.png">角色板</a>。实际对照：<a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/review/lobby-comparison.png">大厅对照</a> · <a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/review/stack-comparison.png">叠高高对照</a> · <a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/review/runner-comparison.png">跨栏对照</a> · <a href="https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/review/herd-comparison.png">赶羊对照</a>。</p>
+<footer>审查日期 2026-10-27 · 所有“本轮实测”仅对应说明的环境与隔离用例。问题已经定位并形成任务，产品代码尚未修复。报告未声明不存在其他潜在问题。</footer>
+</main></body></html>

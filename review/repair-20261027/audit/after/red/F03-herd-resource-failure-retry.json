@@ -1,0 +1,90 @@
+{
+  "id": "F03-herd-resource-failure-retry",
+  "pass": true,
+  "error": null,
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_iso8_v2.atlas.json",
+    "/assets/characters/sheep_iso8_v2.png",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_iso8_v2.atlas.json",
+    "/assets/characters/sheep_iso8_v2.png",
+    "/assets/characters/dog_iso8_v2.atlas.json",
+    "/assets/characters/dog_iso8_v2.png",
+    "/assets/environment/farm_iso_v2.atlas.json",
+    "/assets/environment/farm_iso_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_herd_v3.atlas.json",
+    "/assets/environment/backdrop_herd_v3.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": "0",
+    "acceptedActions": "0",
+    "decode": {
+      "started": 5,
+      "succeeded": 5,
+      "images": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/d27932a2-e67e-4569-9540-ae9f6f69b52d"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/ea389b73-f274-4bc6-a232-f0a18e91a3cf"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/82781650-08e1-4b2f-9348-ddbc31cfcd2a"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/eb39570f-6011-4901-a3aa-90a8fa380b46"
+        },
+        {
+          "width": 720,
+          "height": 840,
+          "source": "blob:http://127.0.0.1:5175/bb164f18-f68a-4ab7-9334-c55488c125ca"
+        }
+      ],
+      "hold": false
+    },
+    "canvas": [
+      {
+        "width": 360,
+        "height": 420,
+        "rect": {
+          "x": 16,
+          "y": 152.390625,
+          "width": 360,
+          "height": 420,
+          "top": 152.390625,
+          "right": 376,
+          "bottom": 572.390625,
+          "left": 16
+        }
+      }
+    ],
+    "body": "‹\n赶羊入圈\n自由练习 · 不入账\n静音\n剩余时间\n45秒\n局内表现\n0 /80\n已入圈\n0/8\n绕到羊后方，赶它们进入上方围栏入口\n练习场景已就绪 · 不占正式机会，不产生正式积分。\n开始不计分练习",
+    "dpr": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    }
+  }
+}

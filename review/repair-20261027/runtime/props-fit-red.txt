@@ -1,0 +1,21 @@
+
+ RUN  v5.0.5 D:/羊年年会现场游戏_Codex开发交付包_V2.2/sheep-annual-party-v2.2
+
+ ❯ apps/web/src/game/presentation.test.ts (3 tests | 1 failed) 17ms
+   × fits a textured prop uniformly inside a core box while preserving its authored pivot 11ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  apps/web/src/game/presentation.test.ts > fits a textured prop uniformly inside a core box while preserving its authored pivot
+AssertionError: expected { animationFrame: [Function animatio…], …(1) } to have property "fitFrame"
+ ❯ apps/web/src/game/presentation.test.ts:13:24
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 2 passed (3)
+   Start at  16:46:28
+   Duration  680ms (import 64%, transform 29%, tests 5%, worker 3%)
+

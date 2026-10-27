@@ -1,0 +1,11 @@
+{
+  "finding": "Integration follow-up: same-resource interval starvation",
+  "cause": "Every interval started a newer request; stable latency above interval made every completion obsolete",
+  "change": "ui.tsx: skip interval while current effect request is in-flight; explicit refresh creates a fresh effect and old effect is inactive; only active current sequence releases inFlight",
+  "red": "resource-poll-red/results.json and slow-poll.png: 350ms reads over 200ms interval stayed loading after 13 requests",
+  "green": "resource-poll-green/results.json: successful data visible with 2 requests",
+  "assertion_note": "Initial test waited for exact first value A:1; green was broadened to any A:number after HMR startup could abandon first render. Red screenshot independently confirms loading, not a skipped first value.",
+  "regression": "Stage A browser 15/15 passed including explicit refresh overlap and ABA; repair-state unit 18/18 passed; npm run typecheck passed",
+  "scope": "real shared hook in Chromium; deterministic timing fixture; no business API",
+  "D": "No F17 product changes"
+}

@@ -1,0 +1,32 @@
+{
+  "scope": "Sample actual actor atlas alpha at true core grass center; scene draws runner after prop frames. This is exact center-opacity evidence, not visual similarity or a claim about all grass pixels.",
+  "cases": [
+    {
+      "case": "runner-grass-uncollected",
+      "tick": 239,
+      "runner_alpha_at_grass_center": 255,
+      "grass_center_source_pixel": [
+        77.71428571428571,
+        63.314285714285724
+      ]
+    },
+    {
+      "case": "runner-grass-outer-only",
+      "tick": 240,
+      "runner_alpha_at_grass_center": 255,
+      "grass_center_source_pixel": [
+        72.22857142857141,
+        66.28571428571428
+      ]
+    },
+    {
+      "case": "runner-grass-both",
+      "tick": 241,
+      "runner_alpha_at_grass_center": 255,
+      "grass_center_source_pixel": [
+        66.74285714285715,
+        67.42857142857143
+      ]
+    }
+  ]
+}

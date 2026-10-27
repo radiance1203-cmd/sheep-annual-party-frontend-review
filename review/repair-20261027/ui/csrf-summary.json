@@ -1,0 +1,11 @@
+{
+  "finding": "Discarded identity read mutated global CSRF transport state",
+  "product_file": "apps/web/src/App.tsx",
+  "change": "Identity loader is read-only; accepted identity state alone updates CSRF in an effect. UNAUTHENTICATED clears CSRF; transient failure retains accepted CSRF for original-run submission. Order actions inert until identity is ready.",
+  "red": "csrf-red/results.json: two cases reproduced stale A header while current B remained displayed; audit/integration-repros/hook-evidence.json independently confirms",
+  "green": "csrf-green/results.json: both cases pass; race probe uses B, subsequent 401 sends empty header, subsequent 503 preserves B; unknown identity order click is blocked and emits no cancel request",
+  "regression": "Stage B 29 browser targets passed after App change, including original running game survival and unknown claim identity recovery; npm run typecheck passed",
+  "test_timing": "Controlled browser clock paused during race, then advanced to one identity poll; actual response delays remain fixture host timers. Order inert asserted through failed pointer activation and no POST, not role-count assumptions.",
+  "environment": "Isolated real App and API transport; all API intercepted; invalid A/B CSRF and voucher fixtures only; no real business POST",
+  "F17_product": "unchanged"
+}

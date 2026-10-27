@@ -3,7 +3,7 @@ import { RULES } from '@sheep/game-core';
 import type { GameView } from '@sheep/game-core';
 import { releaseAssets } from './assets';
 import type { Atlas } from './assets';
-import { animationFrame } from './presentation';
+import { animationFrame, fitFrame } from './presentation';
 
 type ActorAtlas = 'sheep_side_v1' | 'sheep_iso8_v1' | 'dog_iso8_v1';
 interface Actor { atlas: ActorAtlas; key: string; x: number; y: number; action: string; facing?: string; size: number }
@@ -13,6 +13,9 @@ const directions = ['e', 'se', 's', 'sw', 'w', 'nw', 'n', 'ne'] as const;
 export function createRenderer(parent: HTMLElement, initial: GameView, atlases: Record<string, Atlas>) {
   let current = initial;
   let ready = false;
+  let destroyed = false;
+  let firstFrame: (drawn: boolean) => void = () => {};
+  const readyFrame = new Promise<boolean>(resolve => { firstFrame = resolve; });
   const gameId = initial.game_id;
   const width = 360;
   const height = gameId === 'stack' ? RULES.stack.reference_view_height_u / 1000 : gameId === 'runner' ? RULES.runner.world_view_height_u / 1000 : RULES.herd.world_height_u / 1000;
@@ -39,6 +42,7 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
       this.graphics = this.add.graphics();
       this.actors = this.add.container();
       ready = true;
+      this.game.events.once(Phaser.Core.Events.POST_RENDER, () => firstFrame(true));
     }
 
     prop(frameName: string, x: number, y: number, size = 64, options: PropOptions = {}) {
@@ -48,6 +52,17 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
         .setDisplaySize(size, size).setAlpha(options.alpha ?? 1).setDepth(options.depth ?? y)
         .setOrigin(frame.pivot_px[0] / frame.rect[2], frame.pivot_px[1] / frame.rect[3]);
       (options.container ?? this.actors).add(sprite);
+    }
+
+    boundedProp(frameName: string, box: { x: number; y: number; width: number; height: number }, depth: number, tint?: number): boolean {
+      const frame = atlases[farmAtlas]?.frames[frameName];
+      if (!frame) return false;
+      const placement = fitFrame(frame, box);
+      const sprite = this.add.image(placement.x, placement.y, farmAtlas, frameName)
+        .setOrigin(frame.pivot_px[0] / frame.rect[2], frame.pivot_px[1] / frame.rect[3]).setScale(placement.scale).setDepth(depth);
+      if (tint !== undefined) sprite.setTint(tint);
+      this.actors.add(sprite);
+      return true;
     }
 
     actor(actor: Actor) {
@@ -73,6 +88,9 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
     backdrop() {
       if (atlases.farm_backdrop_v3) {
         this.scenery.add(this.add.image(0, 0, 'farm_backdrop_v3', `backdrop_${gameId}`).setOrigin(0).setDisplaySize(width, height));
+        const image = atlases.farm_backdrop_v3.objectUrl;
+        // Decorative page extension does not alter the uniformly fitted game world.
+        if (image) parent.closest<HTMLElement>('.game-page')?.style.setProperty('--game-scenery-image', `url("${image}")`);
         return;
       }
       const grassY = gameId === 'stack' ? 284 : gameId === 'runner' ? 94 : 0;
@@ -132,8 +150,13 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
       const g = this.graphics, camera = Math.max(0, height * .42 + 8 - snapshot.top_support.center.y_u / 1000);
       const layer = (key: string, x: number, y: number, perfect = false, action = 'idle') => {
         const trayWidth = RULES.stack.tray_width_u / 1000;
-        this.shadow(x, y + 8, trayWidth * .9, .12); g.fillStyle(perfect ? 0xe4b749 : 0xd9ae60); g.fillRoundedRect(x - trayWidth / 2, y, trayWidth, 8, 4);
-        this.prop('hay_tray', x, y + 2, 140); this.actor({ atlas: 'sheep_side_v1', key, x, y: y - 2, action, size: 80 });
+        this.shadow(x, y + 5, trayWidth * .9, .12);
+        if (!this.boundedProp('hay_tray_thin', { x: x - trayWidth / 2, y: y - 1, width: trayWidth, height: 6 }, y)) {
+          // Old immutable releases remain renderable; their large rope prop cannot fit a 44-unit layer.
+          g.fillStyle(perfect ? 0xe4b749 : 0xd9ae60); g.fillRoundedRect(x - trayWidth / 2, y - 1, trayWidth, 6, 2);
+        }
+        const compact = Boolean(atlases.sheep_side_v1?.animations[`stack_${action}.e`]);
+        this.actor({ atlas: 'sheep_side_v1', key, x, y: y - 2, action: compact ? `stack_${action}` : action, size: compact ? 64 : 46 });
       };
       layer('foundation', RULES.stack.initial_top_x_u / 1000, RULES.stack.initial_top_y_u / 1000 + camera);
       for (const placed of snapshot.placed_layers.slice(-9)) {
@@ -160,25 +183,30 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
         const obstacleWidth = (b.max_x_u - b.min_x_u) / 1000, obstacleHeight = (b.max_y_u - b.min_y_u) / 1000;
         if (x < -50 || x > 410) continue;
         this.shadow(x + obstacleWidth / 2, ground, obstacleWidth + 5, .12);
+        const variant = obstacleWidth <= 8 ? 'narrow' : obstacleWidth <= 18 ? 'medium' : 'wide';
+        if (this.boundedProp(`hurdle_${variant}`, { x, y, width: obstacleWidth, height: obstacleHeight }, ground, obstacle.collision_recorded ? 0xb6aa94 : undefined)) continue;
         // Keep the visible bar inside the core AABB, including the narrow early hurdles.
         g.fillStyle(obstacle.collision_recorded ? 0x9d8b72 : 0x956039); g.fillRoundedRect(x, y, obstacleWidth, obstacleHeight, 2);
         g.fillStyle(0xf6d9a1); g.fillRect(x + 1, y + 2, Math.max(1, obstacleWidth - 2), 3);
         g.fillStyle(obstacle.collision_recorded ? 0xc1b294 : 0xe6754c); g.fillRect(x + 1, y + 7, Math.max(1, obstacleWidth - 2), 8);
         g.fillStyle(0xfff3d6); g.fillRect(x + 1, y + 15, Math.max(1, obstacleWidth - 2), 5);
       }
+      const action = snapshot.conclusion ? 'celebrate' : snapshot.tick - this.lastBumpTick < 8 ? 'bump' : snapshot.on_ground ? snapshot.tick - this.lastLandingTick < 6 ? 'land' : 'run' : snapshot.sheep_vy_u_per_tick < 0 ? 'takeoff' : 'air';
+      this.shadow(snapshot.sheep_foot.x_u / 1000, ground, 30, snapshot.on_ground ? .2 : .1);
+      this.actor({ atlas: 'sheep_side_v1', key: 'runner', x: snapshot.sheep_foot.x_u / 1000, y: snapshot.sheep_foot.y_u / 1000, action, size: 56 });
+      // Remaining pickups stay visible at their real core coordinates, even over the wool silhouette.
       for (const grass of snapshot.grass) {
         const x = grass.center.x_u / 1000, y = grass.center.y_u / 1000;
         if (x < -20 || x > 380) continue;
         const outer = RULES.runner.grass_outer_radius_u / 1000, inner = RULES.runner.grass_inner_radius_u / 1000;
         if (!grass.outer_collected) {
+          if (!this.boundedProp('clover_outer_round', { x: x - outer, y: y - outer, width: outer * 2, height: outer * 2 }, y)) {
           g.fillStyle(0x70a83b); g.fillCircle(x - 1.8, y - 1.8, 2.6); g.fillCircle(x + 1.8, y - 1.8, 2.6); g.fillCircle(x - 1.8, y + 1.8, 2.6); g.fillCircle(x + 1.8, y + 1.8, 2.6);
           g.lineStyle(1, 0x355f29); g.strokeCircle(x, y, outer);
+          }
         }
-        if (!grass.inner_collected) { g.fillStyle(0xfff7cb); g.fillCircle(x, y, inner + .7); g.fillStyle(0xf4bd35); g.fillCircle(x, y, inner); }
+        if (!grass.inner_collected && !this.boundedProp('clover_core_round', { x: x - inner, y: y - inner, width: inner * 2, height: inner * 2 }, y + .1)) { g.fillStyle(0xfff7cb); g.fillCircle(x, y, inner); g.fillStyle(0xf4bd35); g.fillCircle(x, y, inner * .8); }
       }
-      const action = snapshot.conclusion ? 'celebrate' : snapshot.tick - this.lastBumpTick < 8 ? 'bump' : snapshot.on_ground ? snapshot.tick - this.lastLandingTick < 6 ? 'land' : 'run' : snapshot.sheep_vy_u_per_tick < 0 ? 'takeoff' : 'air';
-      this.shadow(snapshot.sheep_foot.x_u / 1000, ground, 30, snapshot.on_ground ? .2 : .1);
-      this.actor({ atlas: 'sheep_side_v1', key: 'runner', x: snapshot.sheep_foot.x_u / 1000, y: snapshot.sheep_foot.y_u / 1000, action, size: 56 });
     }
 
     drawHerd(snapshot: Extract<GameView, { game_id: 'herd' }>) {
@@ -201,19 +229,26 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
         const action = entering ? 'enter' : sheep.in_pen ? 'idle' : moving ? 'walk' : 'idle';
         const x = sheep.center.x_u / 1000, y = sheep.center.y_u / 1000;
         this.shadow(x, y, 25);
-        this.actor({ atlas: 'sheep_iso8_v1', key: `sheep-${sheep.sheep_id}`, x, y, action, facing: directions[sheep.facing_index] ?? 'e', size: 47 });
+        this.actor({ atlas: 'sheep_iso8_v1', key: `sheep-${sheep.sheep_id}`, x, y, action, facing: directions[sheep.facing_index] ?? 'e', size: 55 });
       }
       const dog = snapshot.dog, bark = snapshot.bark_ticks_remaining > 0;
       const dogMoving = previous && (previous.dog.center.x_u !== dog.center.x_u || previous.dog.center.y_u !== dog.center.y_u);
       if (bark) { g.lineStyle(2, 0xfff6cd, .8); g.strokeCircle(dog.center.x_u / 1000, dog.center.y_u / 1000, RULES.herd.bark_influence_radius_u / 1000); }
       this.shadow(dog.center.x_u / 1000, dog.center.y_u / 1000, 25);
-      this.actor({ atlas: 'dog_iso8_v1', key: 'dog', x: dog.center.x_u / 1000, y: dog.center.y_u / 1000, action: bark ? 'bark' : dogMoving ? 'walk' : 'idle', facing: directions[dog.facing_index] ?? 'e', size: 48 });
+      this.actor({ atlas: 'dog_iso8_v1', key: 'dog', x: dog.center.x_u / 1000, y: dog.center.y_u / 1000, action: bark ? 'bark' : dogMoving ? 'walk' : 'idle', facing: directions[dog.facing_index] ?? 'e', size: 72 });
       // Dog, sheep and fence share one foot-depth order.
       this.actors.sort('depth');
     }
 
     override update() {
       if (!ready || current.tick === this.lastTick) return;
+      if (current.tick < this.lastTick) {
+        // Practice restart/replay seek resets presentation history, never the core timeline.
+        this.previous = undefined;
+        this.motion.clear();
+        this.lastLandingTick = -100;
+        this.lastBumpTick = -100;
+      }
       this.lastTick = current.tick;
       this.actors.removeAll(true); this.graphics.clear();
       if (current.game_id === 'stack') this.drawStack(current);
@@ -223,5 +258,5 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
     }
   }
   const phaser = new Phaser.Game({ type: Phaser.AUTO, parent, width, height, transparent: true, scene: FarmScene, scale: { mode: Phaser.Scale.FIT, autoCenter: Phaser.Scale.CENTER_BOTH }, audio: { noAudio: true }, render: { antialias: true, pixelArt: false } });
-  return { render(value: GameView) { current = value; }, destroy() { ready = false; phaser.destroy(true); releaseAssets(atlases); } };
+  return { ready: readyFrame, render(value: GameView) { current = value; }, destroy() { if (destroyed) return; destroyed = true; ready = false; firstFrame(false); phaser.destroy(true); releaseAssets(atlases); } };
 }

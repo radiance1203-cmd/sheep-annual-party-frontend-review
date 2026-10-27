@@ -1,0 +1,59 @@
+{
+  "schema_version": "sheep-atlas-1.0",
+  "asset_id": "environment.backdrop.runner",
+  "version": "art-1.4.0-visual-repair",
+  "status": "rendered_candidate",
+  "image": "backdrop_runner_v4.png",
+  "size_px": [
+    720,
+    440
+  ],
+  "scene_size_px": [
+    360,
+    220
+  ],
+  "color_space": "srgb",
+  "alpha_mode": "straight",
+  "camera_id": "backdrop_runner_v4",
+  "source_frame_px": [
+    720,
+    440
+  ],
+  "runtime_frame_px": [
+    720,
+    440
+  ],
+  "extrusion_px": 0,
+  "padding_px": 0,
+  "frames": {
+    "backdrop_runner": {
+      "rect": [
+        0,
+        0,
+        720,
+        440
+      ],
+      "source_size": [
+        720,
+        440
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        720,
+        440
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        0,
+        0
+      ],
+      "direction": null
+    }
+  },
+  "animations": {},
+  "source": "art-source/v4/backdrop_runner_v4.blend",
+  "production_art_accepted": false,
+  "purpose": "Independent static scenery only; no moving actors, HUD, live platform/hurdles/pickups, or herd gate line"
+}

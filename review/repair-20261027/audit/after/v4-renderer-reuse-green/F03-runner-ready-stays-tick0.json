@@ -1,0 +1,120 @@
+{
+  "id": "F03-runner-ready-stays-tick0",
+  "pass": true,
+  "error": null,
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/ui/ui_banner_wood.svg",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_side_v4.atlas.json",
+    "/assets/characters/sheep_side_v4.png",
+    "/assets/environment/farm_side_v4.atlas.json",
+    "/assets/environment/farm_side_v4.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_runner_v4.atlas.json",
+    "/assets/environment/backdrop_runner_v4.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": "0",
+    "acceptedActions": "0",
+    "decode": {
+      "started": 4,
+      "succeeded": 4,
+      "images": [
+        {
+          "width": 1024,
+          "height": 1280,
+          "source": "blob:http://127.0.0.1:5175/0f8624c5-f594-4cc5-ab0b-8b0a483cbc28"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/d522ed32-47ad-4d70-81cd-722345bdedbe"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/8ec969d7-7452-4bf8-863c-077adc084e1e"
+        },
+        {
+          "width": 720,
+          "height": 440,
+          "source": "blob:http://127.0.0.1:5175/ad02f413-eba3-4c19-84a2-b3ed6246f12f"
+        }
+      ],
+      "hold": false
+    },
+    "eventTrace": [],
+    "hidden": false,
+    "focused": true,
+    "canvas": [
+      {
+        "width": 360,
+        "height": 220,
+        "rect": {
+          "x": 9,
+          "y": 180.890625,
+          "width": 373.984375,
+          "height": 228.546875,
+          "top": 180.890625,
+          "right": 382.984375,
+          "bottom": 409.4375,
+          "left": 9
+        }
+      }
+    ],
+    "body": "‹\n羊羊跨栏\n自由练习 · 不入账\n静音\n剩余时间\n45秒\n局内表现\n0 /80\n失误次数\n0\n已越栏 0 · 外圈 0 · 金芯 0\n练习场景已就绪 · 不占正式机会，不产生正式积分。\n开始不计分练习",
+    "dpr": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "extra": {
+    "decoded": {
+      "started": 4,
+      "succeeded": 4,
+      "images": [
+        {
+          "width": 1024,
+          "height": 1280,
+          "source": "blob:http://127.0.0.1:5175/0f8624c5-f594-4cc5-ab0b-8b0a483cbc28"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/d522ed32-47ad-4d70-81cd-722345bdedbe"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/8ec969d7-7452-4bf8-863c-077adc084e1e"
+        },
+        {
+          "width": 720,
+          "height": 440,
+          "source": "blob:http://127.0.0.1:5175/ad02f413-eba3-4c19-84a2-b3ed6246f12f"
+        }
+      ],
+      "hold": false
+    },
+    "pixels": {
+      "size": [
+        374,
+        230
+      ],
+      "colors": 1653
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "scope": "real browser / real components / isolated API fixtures, not real device or server business acceptance",
+  "results": [
+    {
+      "id": "F03",
+      "game": "stack",
+      "status": "FAIL",
+      "error": "AssertionError [ERR_ASSERTION]: runtime must retain the decoded preparation renderer without a second canvas/texture boot\n+ actual - expected\n\n+ null\n- 'same-scene'\n",
+      "writes": []
+    },
+    {
+      "id": "F03",
+      "game": "runner",
+      "status": "FAIL",
+      "error": "AssertionError [ERR_ASSERTION]: runtime must retain the decoded preparation renderer without a second canvas/texture boot\n+ actual - expected\n\n+ null\n- 'same-scene'\n",
+      "writes": []
+    },
+    {
+      "id": "F03",
+      "game": "herd",
+      "status": "FAIL",
+      "error": "AssertionError [ERR_ASSERTION]: runtime must retain the decoded preparation renderer without a second canvas/texture boot\n+ actual - expected\n\n+ null\n- 'same-scene'\n",
+      "writes": []
+    }
+  ]
+}

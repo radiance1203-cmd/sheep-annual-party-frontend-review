@@ -1,0 +1,114 @@
+{
+  "id": "F16-normal-token",
+  "body": "♧ 牧场\n界面状态验收夹具\n状态夹具参与者\n✦ 礼品兑换开放\n我的领取凭证\n等待领取\n夹具纪念礼品\n\n成交 20 积分 · 领取截止 2026/10/27 17:07:07\n\n向工作人员展示此领取码\nvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv\n复制领取码\n\n订单 eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee\n\n只有服务器确认核销成功后才交付实物。响应丢失时查询本订单，不重复领取。\n\n取消未领取订单并退回原价\n游园会\n荣誉榜\n兑换礼品",
+  "metrics": {
+    "dpr": 1,
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "canvas": [],
+    "images": [
+      {
+        "src": "/assets/ui/icon_gift.svg",
+        "complete": true,
+        "naturalWidth": 64
+      },
+      {
+        "src": "/assets/ui/icon_home.svg",
+        "complete": true,
+        "naturalWidth": 64
+      },
+      {
+        "src": "/assets/ui/icon_leaderboard.svg",
+        "complete": true,
+        "naturalWidth": 64
+      },
+      {
+        "src": "/assets/ui/icon_gift.svg",
+        "complete": true,
+        "naturalWidth": 64
+      }
+    ],
+    "links": [
+      {
+        "text": "♧ 牧场",
+        "href": "#/",
+        "disabled": null,
+        "rect": {
+          "x": 16,
+          "y": 12,
+          "width": 48,
+          "height": 48,
+          "top": 12,
+          "right": 64,
+          "bottom": 60,
+          "left": 16
+        }
+      },
+      {
+        "text": "游园会",
+        "href": "#/",
+        "disabled": null,
+        "rect": {
+          "x": 8,
+          "y": 775,
+          "width": 122,
+          "height": 59,
+          "top": 775,
+          "right": 130,
+          "bottom": 834,
+          "left": 8
+        }
+      },
+      {
+        "text": "荣誉榜",
+        "href": "#/leaderboard",
+        "disabled": null,
+        "rect": {
+          "x": 134,
+          "y": 775,
+          "width": 122,
+          "height": 59,
+          "top": 775,
+          "right": 256,
+          "bottom": 834,
+          "left": 134
+        }
+      },
+      {
+        "text": "兑换礼品",
+        "href": "#/gifts",
+        "disabled": null,
+        "rect": {
+          "x": 260,
+          "y": 775,
+          "width": 122,
+          "height": 59,
+          "top": 775,
+          "right": 382,
+          "bottom": 834,
+          "left": 260
+        }
+      }
+    ]
+  },
+  "requests": [
+    {
+      "path": "/api/redemptions/eeeeeeee-eeee-4eee-8eee-eeeeeeeeeeee",
+      "method": "GET"
+    },
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    }
+  ],
+  "errors": [],
+  "fixtureToken": "v repeated 43, deliberately invalid test token; not production"
+}

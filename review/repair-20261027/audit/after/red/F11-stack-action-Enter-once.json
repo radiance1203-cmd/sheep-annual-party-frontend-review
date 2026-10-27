@@ -1,0 +1,113 @@
+{
+  "id": "F11-stack-action-Enter-once",
+  "pass": false,
+  "error": "AssertionError [ERR_ASSERTION]: Enter focused action emits exactly once\n\n0 !== 1\n",
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    },
+    {
+      "path": "/api/sessions/cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_side_v2.atlas.json",
+    "/assets/characters/sheep_side_v2.png",
+    "/assets/environment/farm_side_v2.atlas.json",
+    "/assets/environment/farm_side_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_stack_v3.atlas.json",
+    "/assets/environment/backdrop_stack_v3.png",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_side_v2.atlas.json",
+    "/assets/characters/sheep_side_v2.png",
+    "/assets/environment/farm_side_v2.atlas.json",
+    "/assets/environment/farm_side_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_stack_v3.atlas.json",
+    "/assets/environment/backdrop_stack_v3.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": "13",
+    "acceptedActions": "0",
+    "decode": {
+      "started": 8,
+      "succeeded": 8,
+      "images": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/65ae9319-def1-421c-9645-7f4c4a6b59b1"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/7b0f77bb-dfa9-4c64-92ae-0940b017e79e"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/57165e60-c811-4db6-99b9-944d76d1e588"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "source": "blob:http://127.0.0.1:5175/391f3fb8-c424-4aa2-88b4-58b819d9babd"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/8bba3b72-cd6e-4a14-8113-12305053ea5a"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/387c9e61-ebc5-4d5b-9a39-3e48ae2efd9d"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/84adc382-2af7-4f7f-88eb-7e3a40b39277"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "source": "blob:http://127.0.0.1:5175/a91ab129-bad9-4438-b85b-cc1986a9622d"
+        }
+      ],
+      "hold": false
+    },
+    "canvas": [
+      {
+        "width": 360,
+        "height": 480,
+        "rect": {
+          "x": 16,
+          "y": 152.390625,
+          "width": 360,
+          "height": 480,
+          "top": 152.390625,
+          "right": 376,
+          "bottom": 632.390625,
+          "left": 16
+        }
+      }
+    ],
+    "body": "‹\n羊羊叠高高\n正式挑战\n静音\n剩余时间\n45秒\n局内表现\n0 /80\n失误\n0/3\n已叠稳 0 层 · 完美 0 层\n\n原局日志已恢复，按服务端原时轴继续。\n\n点击放下",
+    "dpr": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    }
+  }
+}

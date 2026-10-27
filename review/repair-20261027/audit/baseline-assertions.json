@@ -1,0 +1,438 @@
+{
+  "at": "2026-10-27T08:10:54.326Z",
+  "scope": "These assertions confirm defects in baseline captures; passing does not mean product acceptance.",
+  "checks": [
+    {
+      "id": "F03",
+      "statement": "stack: ready scene absent and practice has formal-slot warning",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F04",
+      "statement": "stack: tutorial loads hardcoded old hero",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F03",
+      "statement": "runner: ready scene absent and practice has formal-slot warning",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F04",
+      "statement": "runner: tutorial loads hardcoded old hero",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F03",
+      "statement": "herd: ready scene absent and practice has formal-slot warning",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F04",
+      "statement": "herd: tutorial loads hardcoded old hero",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F11",
+      "statement": "Space cancels held Right",
+      "expected": "baseline issue reproduced",
+      "passed": true,
+      "details": {
+        "before": 23,
+        "afterBark": 29,
+        "diagonal": 36,
+        "releaseUp": 42
+      }
+    },
+    {
+      "id": "F11",
+      "statement": "Right+Up loses Right component",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F11",
+      "statement": "Release Up clears still held Right",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F11",
+      "statement": "Focused runner Space does not jump; Enter does",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F12",
+      "statement": "Identity 503 shows bind CTA without actual identity error",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F12",
+      "statement": "Identity -loading shows bind CTA without actual identity error",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F13",
+      "statement": "CHECK_IN-normal: inappropriate formal challenge CTA remains enabled",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F13",
+      "statement": "PLAYING-zero: inappropriate formal challenge CTA remains enabled",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F13",
+      "statement": "DRAINING-normal: inappropriate formal challenge CTA remains enabled",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F14",
+      "statement": "Configured image404 is broken without retry",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F15",
+      "statement": "Both active-session links below48px height",
+      "expected": "baseline issue reproduced",
+      "passed": true,
+      "details": [
+        {
+          "text": "恢复原局",
+          "href": "#/play/stack",
+          "disabled": null,
+          "rect": {
+            "x": 159,
+            "y": 420,
+            "width": 64,
+            "height": 21,
+            "top": 420,
+            "right": 223,
+            "bottom": 441,
+            "left": 159
+          }
+        },
+        {
+          "text": "查看状态",
+          "href": "#/result/cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+          "disabled": null,
+          "rect": {
+            "x": 236.328125,
+            "y": 420,
+            "width": 64,
+            "height": 21,
+            "top": 420,
+            "right": 300.328125,
+            "bottom": 441,
+            "left": 236.328125
+          }
+        }
+      ]
+    },
+    {
+      "id": "F16",
+      "statement": "Normal RESERVED token branch lacks QR",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F16",
+      "statement": "Staff branch only has manual lookup",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    },
+    {
+      "id": "F17",
+      "statement": "8/4 server stats absent and raw VERIFIED shown",
+      "expected": "baseline issue reproduced",
+      "passed": true
+    }
+  ],
+  "sourceSnapshots": [
+    {
+      "file": "config/game_rules.v2.1.json",
+      "liveSha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "baseline": {
+        "sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+        "lines": []
+      }
+    },
+    {
+      "file": "packages/game-core/src/index.ts",
+      "liveSha256": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+      "baseline": {
+        "sha256": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+        "lines": [
+          {
+            "line": 33,
+            "text": "      return { ...base, game_id: 'stack', conclusion: state.conclusion, stats: { ...state.stats }, placed_layers: state.placed_layers.map(l => ({ ...l, center: { ...l.center } })), top_support: { center: { x_u: state.top_x, y_u: state.top_y }, width_u: s.tray_width_u }, moving_tray: state.conclusion ? null : { center: { x_u: state.phase === 'FALLING' ? state.drop_x : state.x, y_u: state.top_y - s.layer_height_u * 3 }, width_u: s.tray_width_u, phase, phase_ticks_remaining: state.phase === 'FALLING' ? state.landing_tick - state.tick : state.phase === 'SETTLING' ? state.spawn_tick - state.tick : 0 } };\r"
+          },
+          {
+            "line": 37,
+            "text": "      return { ...base, game_id: 'runner', conclusion: state.conclusion, stats: { ...state.stats }, distance_u: state.distance_u, sheep_foot: { x_u: r.sheep_foot_x_u, y_u: state.feet_y }, sheep_vy_u_per_tick: state.vy, on_ground: state.feet_y === r.ground_y_u, obstacles: state.obstacles.map(o => ({ obstacle_id: o.id, bounds: { min_x_u: o.world_left - state.distance_u, max_x_u: o.world_left - state.distance_u + o.width, min_y_u: r.obstacle_top_y_u, max_y_u: r.ground_y_u }, collision_recorded: o.touched, passed: o.passed })), grass: state.grass.map(g => ({ grass_id: g.id, center: { x_u: g.world_x - state.distance_u, y_u: g.y }, outer_collected: g.outer, inner_collected: g.inner })) };\r"
+          },
+          {
+            "line": 39,
+            "text": "    case 'herd': return { ...base, game_id: 'herd', conclusion: state.conclusion, stats: { ...state.stats }, dog: { center: { x_u: state.dog.x, y_u: state.dog.y }, facing_index: state.dog.facing }, sheep: state.sheep.map(s => ({ sheep_id: s.id, center: { x_u: s.x, y_u: s.y }, facing_index: s.facing, in_pen: s.in_pen })), bark_ticks_remaining: Math.max(0, state.bark_active_until - state.tick), bark_cooldown_ticks_remaining: Math.max(0, state.next_bark_tick - state.tick) };\r"
+          }
+        ]
+      }
+    },
+    {
+      "file": "apps/web/public/assets/asset-manifest.v1.json",
+      "liveSha256": "bdf93f4c26c9ed6e108f5af5a718edd7997a86936da85404485a68e1eeb8d234",
+      "baseline": {
+        "sha256": "bdf93f4c26c9ed6e108f5af5a718edd7997a86936da85404485a68e1eeb8d234",
+        "lines": []
+      }
+    },
+    {
+      "file": "apps/web/src/game/GamePage.tsx",
+      "liveSha256": "a83b17a55a1da1a10ceaa07f7682f62622d9f90cf2b5f2af5aad327753323a70",
+      "baseline": {
+        "sha256": "a83b17a55a1da1a10ceaa07f7682f62622d9f90cf2b5f2af5aad327753323a70",
+        "lines": [
+          {
+            "line": 9,
+            "text": "import { createRenderer } from './renderer';\r"
+          },
+          {
+            "line": 10,
+            "text": "import { preloadAssets, releaseAssets } from './assets';\r"
+          },
+          {
+            "line": 16,
+            "text": "type Renderer = ReturnType<typeof createRenderer>;\r"
+          },
+          {
+            "line": 56,
+            "text": "  const clear = () => { const r = runtime.current; if (r) r.queue.direction(0, 0, Math.max(1, candidateTick())); };\r"
+          },
+          {
+            "line": 85,
+            "text": "    let prepared: Awaited<ReturnType<typeof preloadAssets>> | undefined;\r"
+          },
+          {
+            "line": 89,
+            "text": "      const assets = await preloadAssets(game, event.release?.asset_base_url, event.release?.asset_manifest_hash);\r"
+          },
+          {
+            "line": 151,
+            "text": "      if (container.current) renderer.current = createRenderer(container.current, view(state), assets);\r"
+          },
+          {
+            "line": 177,
+            "text": "                setFeedback(landed ? output.state.stats.perfect_layers > previous.stats.perfect_layers ? '完美！叠稳 +2 · 完美再 +2' : '叠稳 +2' : feedbackText[feedbackEvent.type] ?? '');\r"
+          },
+          {
+            "line": 201,
+            "text": "    const keyboard = (e: KeyboardEvent) => { const target = e.target instanceof Element ? e.target.closest('button,a,input,textarea,select,summary,[role=dialog]') ?? e.target : null; if (!permitsGameplayKey(target?.tagName ?? '', confirmReturnRef.current || Boolean(target?.closest('[role=dialog]')), e.repeat)) return; if ([' ', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) e.preventDefault(); if (e.key === ' ' && !e.repeat) action(); if (game === 'herd') { const tick = candidateTick(); const r = runtime.current; if (r && tick) r.queue.direction(e.key === 'ArrowLeft' ? -1000 : e.key === 'ArrowRight' ? 1000 : 0, e.key === 'ArrowUp' ? -1000 : e.key === 'ArrowDown' ? 1000 : 0, tick); } };\r"
+          },
+          {
+            "line": 236,
+            "text": "  return <section className=\"game-page\"><div className=\"game-top\"><button aria-label=\"返回\" onClick={() => started && !practiceDone ? (confirmReturnRef.current = true, clear(), setConfirmReturn(true)) : navigate('/')}>‹</button><div><h1>{gameNames[game]}</h1><span className=\"mode-badge\">{practice ? '自由练习 · 不入账' : '正式挑战'}</span></div><button aria-label={silent ? '开启音效' : '关闭音效'} onClick={() => { silentRef.current = !silent; setSilent(!silent); if (!silent) for (const player of audio.current.values()) player.pause(); }}>{silent ? '静音' : '音效'}</button></div><div className=\"hud\"><div><small>剩余时间</small><strong>{Math.ceil((RULES.common.max_ticks - current.tick) / RULES.common.tick_hz)}秒</strong></div><div><small>局内表现</small><strong>{livePoints}<small> /80</small></strong></div><div><small>{current.game_id === 'stack' ? '失误' : current.game_id === 'runner' ? '失误次数' : '已入圈'}</small><strong>{current.game_id === 'stack' ? `${current.stats.misses}/3` : current.game_id === 'runner' ? current.stats.collision_count : `${current.stats.penned_count}/8`}</strong></div></div><div className={`game-stage stage-${game}`} ref={container} data-game-tick={current.tick} data-accepted-actions={current.accepted_actions_count} onPointerDown={game === 'herd' ? undefined : action} aria-label={`${gameNames[game]}游戏画面`} />{started && countdown > 0 && <div className=\"countdown\" role=\"status\">{countdown}<small>按原服务端时刻开赛</small></div>}<div className=\"game-feedback\" role=\"status\">{feedback || (current.game_id === 'stack' ? `已叠稳 ${current.stats.success_layers} 层 · 完美 ${current.stats.perfect_layers} 层` : current.game_id === 'runner' ? `已越栏 ${current.stats.safe_passed} · 外圈 ${current.stats.outer_collected} · 金芯 ${current.stats.inner_collected}` : '绕到羊后方，赶它们进入上方围栏入口')}</div>{!started ? <Panel><Notice>{status}</Notice>{error && <Notice error>{error}</Notice>}<div className=\"action-stack\"><button className=\"primary\" disabled={busy} onClick={() => void bootstrap(false)}>{busy ? '正在预检……' : practice ? '开始不计分练习' : '预检并预约 · 使用 1 次机会'}</button>{!practice && <button disabled={busy} onClick={() => void bootstrap(true)}>恢复原局 / 重试原开局请求</button>}</div></Panel> : <><p className=\"small game-status\">{status}</p>{error && <Notice error>{error}</Notice>}{!practiceDone && !current.conclusion && <div className=\"game-controls\" onKeyDown={e => { if (e.key === 'Enter' && !e.repeat) action(); }}>{game === 'herd' ? <><div className=\"joystick\" tabIndex={0} role=\"group\" aria-label=\"拖动摇杆移动牧羊犬\" onPointerDown={e => { e.currentTarget.setPointerCapture(e.pointerId); const rect = e.currentTarget.getBoundingClientRect(); runtime.current?.queue.direction((e.clientX - rect.left - rect.width / 2) / (rect.width / 2) * 1000, (e.clientY - rect.top - rect.height / 2) / (rect.height / 2) * 1000, candidateTick()); }} onPointerMove={e => { if (!e.currentTarget.hasPointerCapture(e.pointerId)) return; const rect = e.currentTarget.getBoundingClientRect(); runtime.current?.queue.direction((e.clientX - rect.left - rect.width / 2) / (rect.width / 2) * 1000, (e.clientY - rect.top - rect.height / 2) / (rect.height / 2) * 1000, candidateTick()); }} onPointerUp={clear} onPointerCancel={clear} onLostPointerCapture={clear}><span>↑<br />← ● →<br />↓</span></div><button className=\"primary bark\" disabled={countdown > 0 || current.game_id === 'herd' && current.bark_cooldown_ticks_remaining > 0} onPointerDown={action}>吠叫{current.game_id === 'herd' && current.bark_cooldown_ticks_remaining > 0 && <small>冷却 {Math.ceil(current.bark_cooldown_ticks_remaining / RULES.common.tick_hz)} 秒</small>}</button></> : <button className=\"primary gameplay-action\" disabled={countdown > 0} onPointerDown={action}>{game === 'stack' ? '点击放下' : '点击跳跃'}</button>}</div>}{practice && <div className=\"practice-toolbar\"><button onClick={pausePractice} disabled={practiceDone}>{practicePaused ? '继续练习' : '暂停练习'}</button><button onClick={resetPractice}>重新练习</button></div>}{practiceDone && <Panel><h2>练习完成</h2><p>表现预测 {current.conclusion?.performance_points} /80，正式积分未入账。</p><button onClick={downloadPractice}>下载本局完整练习过程（不含分数）</button><p className=\"small\">仅保存本局实际输入和自然终局，不自动上传。请另记录实际匿名参与者与设备情况。</p><a className=\"button primary\" href={`#/tutorial/${game}`}>回到玩法，准备正式挑战</a></Panel>}</>}{confirmReturn && <div className=\"modal-backdrop\"><div className=\"modal\" role=\"dialog\" aria-modal=\"true\" aria-labelledby=\"leave-title\"><h2 id=\"leave-title\">{practice ? '结束这次练习？' : '放弃本局？'}</h2><p>{practice ? '练习不影响正式机会。' : '本次机会已使用，放弃计 0 分；确认框打开时，原局仍按原时轴计时。'}</p><button className=\"primary\" onClick={() => (confirmReturnRef.current = false, setConfirmReturn(false))}>继续挑战</button><button disabled={busy} onClick={() => void abandon()}>确认放弃，返回大厅</button></div></div>}</section>;\r"
+          }
+        ]
+      }
+    },
+    {
+      "file": "apps/web/src/game/renderer.ts",
+      "liveSha256": "22e523049b9074bff8cbc7bb665c9c947d36cb7c81df6d68985bd2f6f607fcb9",
+      "baseline": {
+        "sha256": "22e523049b9074bff8cbc7bb665c9c947d36cb7c81df6d68985bd2f6f607fcb9",
+        "lines": [
+          {
+            "line": 13,
+            "text": "export function createRenderer(parent: HTMLElement, initial: GameView, atlases: Record<string, Atlas>) {"
+          },
+          {
+            "line": 157,
+            "text": "      if (previous && snapshot.stats.collision_count > previous.stats.collision_count) this.lastBumpTick = snapshot.tick;"
+          }
+        ]
+      }
+    },
+    {
+      "file": "apps/web/src/App.tsx",
+      "liveSha256": "73bb7b1fbc26322e5e76e1fc8ac08c707f4859eeaacdd0d2d25b89aca9bb512d",
+      "baseline": {
+        "sha256": "08a86b54433e029e4c69534fed40a76883baf36377df904bdb428d6138e9c026",
+        "lines": [
+          {
+            "line": 9,
+            "text": "import { Field, MutationStatus, Notice, Panel, formString, navigate, useMutation, useResource } from './ui';\r"
+          },
+          {
+            "line": 16,
+            "text": "  const event = useResource(async () => { const id = new URLSearchParams(window.location.search).get('event_id') ?? window.location.pathname.match(/^\\/e\\/([^/]+)/u)?.[1]; return id ? unwrap(await api.GET('/api/event', { params: { query: { event_id: id } } })).data : unwrap(await api.GET('/api/display')).data.event; }, 'event', 10);\r"
+          },
+          {
+            "line": 17,
+            "text": "  const identity = useResource(async () => { const value = unwrap(await api.GET('/api/me')).data; setCsrf(value.csrf_token); return { ...value, active_session: 'active_session' in value ? value.active_session : null }; }, 'me', 10);\r"
+          },
+          {
+            "line": 67,
+            "text": "  const artwork = useResource(async () => {\r"
+          },
+          {
+            "line": 94,
+            "text": "  return <Panel title={gameNames[game]}><div className={`tutorial-art game-${game}`}><img src='/assets/hero/lobby_sheep_v1.webp' alt='' /></div><h3>{game === 'stack' ? '点击放羊，托盘对齐才稳' : game === 'runner' ? '自动向前跑，点击跳跃' : '绕到小羊后面，带它进圈'}</h3><p>{game === 'stack' ? '每叠稳一层 +2，完美再 +2。完整托盘一直保留；20 层、3 次失误或时间到自然结束。' : game === 'runner' ? '安全越栏 +3，草叶外圈 +1、金芯再 +1。碰栏后继续跑，失误不是生命值；完整进行到 45 秒。' : '拖动摇杆移动牧羊犬，接近羊后方驱赶。吠叫有冷却；每只入圈 +6，全齐另有时间奖励。'}</p><Notice>练习不占正式机会，也不会产生正式积分。正式局在预约成功后立即使用 1 次机会，3 秒后开赛；返回或放弃仍消耗本次机会。</Notice><div className=\"tutorial-step\" aria-live=\"polite\"><progress max={3} value={Math.min(3, lesson + 1)} /><p>{lesson < 3 ? `12 秒教程 · 第 ${lesson + 1} 步` : '教程已完成，可随时练习'}</p><strong>{lessons[Math.min(2, lesson)]}</strong></div><div className=\"action-stack\"><a className={`button ${event.practice_allowed ? '' : 'disabled'}`} aria-disabled={!event.practice_allowed} href={event.practice_allowed ? `#/practice/${game}` : '#/'}>{lesson < 3 ? '跳过教程，先练习' : '先练习一次'}</a>{me ? <a className=\"button primary\" href={`#/play/${game}`}>正式挑战 · 使用 1 次机会</a> : <a className=\"button primary\" href=\"#/login\">绑定身份后正式挑战</a>}<a className=\"button quiet\" href=\"#/\">返回大厅</a></div></Panel>;\r"
+          }
+        ]
+      }
+    },
+    {
+      "file": "apps/web/src/ui.tsx",
+      "liveSha256": "e6fa62c5edcfa62cb87556415c9a78de06e7ccd7c4c022a500e4d115140d738e",
+      "baseline": {
+        "sha256": "a26a863412f96e17ce9b7af32cbd91cfebdd272ba13509edbec9dcb5977460c6",
+        "lines": [
+          {
+            "line": 13,
+            "text": "export function useResource<T>(load: () => Promise<T>, identity: string, refreshSeconds = 0) {"
+          },
+          {
+            "line": 53,
+            "text": "export function AssetImage({ assetKey, label }: { assetKey: string | null; label: string }) {"
+          },
+          {
+            "line": 54,
+            "text": "  const asset = useResource(async () => {"
+          }
+        ]
+      }
+    },
+    {
+      "file": "apps/web/src/pages/ParticipantPages.tsx",
+      "liveSha256": "b79d86e89c8dc3b39596feea734f4495410526db05a4145c8d27663075d48ed9",
+      "baseline": {
+        "sha256": "75aad9405b3d4ae1833d450f6471a35ac2096e62828516c6e4cf9a5433d83d17",
+        "lines": [
+          {
+            "line": 6,
+            "text": "import { AssetImage, Countdown, MutationStatus, Notice, Panel, QrCode, navigate, useMutation, useResource } from '../ui';\r"
+          },
+          {
+            "line": 9,
+            "text": "  const resource = useResource(async () => unwrap(await api.GET('/api/display')).data, 'public-display', 5);\r"
+          },
+          {
+            "line": 15,
+            "text": "  const resource = useResource(async () => unwrap(await api.GET('/api/sessions', { params: { query: { offset, limit: 50 } } })).data, `my-sessions:${offset}`, 5);\r"
+          },
+          {
+            "line": 21,
+            "text": "  const resource = useResource(async () => unwrap(await api.GET('/api/sessions/{id}', { params: { path: { id } } })).data, id, 2);\r"
+          },
+          {
+            "line": 22,
+            "text": "  const identity = useResource(async () => unwrap(await api.GET('/api/me')).data, `result-me:${id}`, 3);\r"
+          },
+          {
+            "line": 27,
+            "text": "  return <Panel title=\"本次挑战\"><>{resource.error && <Notice error>{resource.error}</Notice>}{!session && !resource.error && <Notice>正在查回原局……</Notice>}{session && <><span className=\"eyebrow\">{gameNames[session.game_id]} · 第 {session.slot_no} 次机会</span><div className=\"result-medal\" aria-hidden=\"true\"><img src={valid ? '/assets/ui/icon_score_star.svg' : '/assets/ui/icon_info.svg'} width={80} height={80} alt=\"\" /></div><h2 className=\"result-title\">{session.state === 'VERIFYING' ? '核验中' : session.state === 'REVIEW' ? '待复核' : valid ? '挑战完成！' : '本局状态'}</h2><Notice>{descriptions[session.state]}</Notice><div className=\"score-breakdown\"><div><span>当前有效贡献</span><strong>{valid ? session.current_contribution_points : '—'}</strong></div><div><span>参与分</span><strong>{valid ? RULES.common.participation_points : '—'}</strong></div><div><span>表现分</span><strong>{valid ? settled?.conclusion?.performance_points : '—'}</strong></div></div>{settled && <p>结算原因：{settled.eligibility_reason}。只有当前有效贡献计入荣誉，历史获分不代表现在可用余额。</p>}<p>全场荣誉 {identity.data?.participant.honor_total ?? '—'} · 可用余额 {identity.data?.participant.wallet_balance ?? '—'} · 剩余正式机会 {identity.data?.tickets.filter(ticket => ticket.state === 'AVAILABLE').length ?? '—'}</p><p>完整提交截止：{formatTime(session.submit_deadline)}</p><p className=\"small\">局号 {session.session_id}</p>{['SCHEDULED', 'RUNNING', 'AWAITING_SUBMISSION'].includes(session.state) && <a className=\"button\" href={`#/play/${session.game_id}`}>尝试恢复原局 / 原日志</a>}<div className=\"action-stack\"><a className=\"button primary\" href=\"#/\">返回大厅，查看剩余机会</a><a className=\"button\" href=\"#/leaderboard\">看看荣誉榜</a></div></>}</></Panel>;\r"
+          },
+          {
+            "line": 31,
+            "text": "  const resource = useResource(async () => big ? unwrap(await api.GET('/api/display')).data.leaderboard : unwrap(await api.GET('/api/leaderboard', { params: { query: { offset, limit: 50 } } })).data, `${offset}-${big}`, 5);\r"
+          },
+          {
+            "line": 35,
+            "text": "  const gifts = useResource(async () => unwrap(await api.GET('/api/gifts')).data, 'gifts', 10);\r"
+          },
+          {
+            "line": 36,
+            "text": "  const orders = useResource(async () => unwrap(await api.GET('/api/redemptions', { params: { query: { offset: 0, limit: 50 } } })).data, 'orders', 10);\r"
+          },
+          {
+            "line": 41,
+            "text": "    const stored = await getRecord<Schema<'RedemptionCreateRequest'> | null>('pending-redemption');\r"
+          },
+          {
+            "line": 44,
+            "text": "    await putRecord('pending-redemption', body);\r"
+          },
+          {
+            "line": 46,
+            "text": "    await putRecord('pending-redemption', null); refresh(); orders.refresh(); navigate(`/order/${order.redemption_id}`);\r"
+          },
+          {
+            "line": 48,
+            "text": "  return <><Panel title=\"把快乐带回家\"><p>默认每人一件。下单后扣除余额并预留库存；工作人员核销成功后再领取实物。</p><div className=\"score-strip\"><div><span>可用余额</span><strong>{me?.participant.wallet_balance ?? '—'}</strong></div><div><span>荣誉积分</span><strong>{me?.participant.honor_total ?? '—'}</strong></div></div><p>领取截止：{formatTime(event?.claim_closes_at ?? null)}</p>{event?.phase !== 'REDEEMING' && <Notice>挑战结束并完成核验后开放兑换。活动关闭后，原有待领订单仍按已公布的领取截止办理。</Notice>}{hasOrder && <Notice>已有一件礼品订单，未领取订单取消后才可选择其他礼品。</Notice>}{claimExpired && <Notice>领取截止已过，不能新兑换；原有未领取订单仍可查询和取消。</Notice>}{me && !me.participant.eligible && <Notice error>当前资格已暂停，请联系工作人员。</Notice>}{me?.participant.claims_frozen && <Notice error>积分资格待复核，新的兑换和既有凭证暂时冻结。</Notice>}<MutationStatus state={mutation} /></Panel>{gifts.data === undefined && !gifts.error && <Notice>正在读取记录……</Notice>}{gifts.error && <Notice error>{gifts.error}</Notice>}<div className=\"gift-grid\">{gifts.data?.map(gift => <Panel key={gift.gift_id}><AssetImage assetKey={gift.image_asset_key} label={gift.name} /><h2>{gift.name}</h2><p>{gift.description}</p><strong className=\"gift-price\">{gift.price_points} 积分</strong><p>真实可用库存 {gift.available_count}</p>{gift.available_count === 0 && <Notice>已售罄</Notice>}{me && me.participant.wallet_balance < gift.price_points && <Notice>余额不足，还差 {gift.price_points - me.participant.wallet_balance} 积分。</Notice>}<button className=\"primary\" disabled={mutation.pending || !me || !orders.data || hasOrder || claimExpired || !me.participant.eligible || !gift.active || !gift.available_count || event?.phase !== 'REDEEMING' || me.participant.claims_frozen || me.participant.wallet_balance < gift.price_points} onClick={() => void mutation.run(() => redeem(gift))}>确认扣除 {gift.price_points} 分兑换</button></Panel>)}</div>{gifts.data?.length === 0 && <Notice>主办方尚未配置礼品。请稍后查看。</Notice>}<Panel title=\"我的订单\">{orders.error && <Notice error>{orders.error}</Notice>}{orders.data?.items.map(order => <a className=\"order-link\" key={order.redemption_id} href={`#/order/${order.redemption_id}`}><b>{order.gift_name_snapshot}</b><span>{order.status === 'RESERVED' ? '待领取' : order.status === 'CLAIMED' ? '已领取' : '已取消'} ›</span></a>)}{orders.data?.items.length === 0 && <p>还没有兑换订单。</p>}</Panel></>;\r"
+          },
+          {
+            "line": 51,
+            "text": "  const resource = useResource(async () => unwrap(await api.GET('/api/redemptions/{id}', { params: { path: { id } } })).data, id, 3);\r"
+          },
+          {
+            "line": 55,
+            "text": "  return <Panel title=\"我的领取凭证\">{resource.error && <Notice error>{resource.error}</Notice>}{!order && !resource.error && <Notice>正在查询订单……</Notice>}{order && <><span className=\"eyebrow\">{order.status === 'RESERVED' ? '等待领取' : order.status === 'CLAIMED' ? '已领取 · 请勿重复交付' : '已取消 · 原价退分'}</span><div className=\"gift-art\" aria-hidden=\"true\"><img src=\"/assets/ui/icon_gift.svg\" width={80} height={80} alt=\"\" /></div><h2>{order.gift_name_snapshot}</h2><p>成交 {order.price_points_snapshot} 积分 · 领取截止 {formatTime(order.claim_closes_at)}</p>{order.claims_frozen && <Notice error>本凭证已冻结，请联系工作人员复核。</Notice>}{expired && order.status === 'RESERVED' && <Notice>领取截止已过，本凭证不能核销；可取消未领取订单并退回原价。</Notice>}{order.voucher_token && !expired && !order.claims_frozen && order.status === 'RESERVED' && <div className=\"voucher\"><b>向工作人员展示此领取码</b><code>{order.voucher_token}</code><button onClick={() => void navigator.clipboard.writeText(order.voucher_token ?? '')}>复制领取码</button></div>}<p className=\"small\">订单 {order.redemption_id}</p>{order.claimed_at && <Notice>已于 {formatTime(order.claimed_at)} 由 {order.claimed_by_display_name} 核销。</Notice>}<p>只有服务器确认核销成功后才交付实物。响应丢失时查询本订单，不重复领取。</p>{order.status === 'RESERVED' && <button disabled={mutation.pending} onClick={() => void mutation.run(async () => {\r"
+          }
+        ]
+      }
+    },
+    {
+      "file": "apps/web/src/pages/AdminPage.tsx",
+      "liveSha256": "167ef42782dc44626454cdd539a4b7961c2ebea3f344c1714c842a86fd07d828",
+      "baseline": {
+        "sha256": "167ef42782dc44626454cdd539a4b7961c2ebea3f344c1714c842a86fd07d828",
+        "lines": [
+          {
+            "line": 8,
+            "text": "import { Field, JsonDetails, MutationStatus, Notice, Panel, formString, useMutation, useResource } from '../ui';\r"
+          },
+          {
+            "line": 20,
+            "text": "  const status = useResource(async () => unwrap(await api.GET('/api/admin/event/status')).data, 'admin-status', 3);\r"
+          },
+          {
+            "line": 34,
+            "text": "  const resource = useResource(async () => { const operationId = id || await getRecord<string>('last-operation'); if (!operationId) return null; return unwrap(await api.GET('/api/admin/operations/{id}', { params: { path: { id: operationId } } })).data; }, id, 5);\r"
+          },
+          {
+            "line": 41,
+            "text": "  const resource = useResource(async () => unwrap(await api.GET('/api/admin/participants', { params: { query: { offset, limit: 50 } } })).data, String(offset));\r"
+          },
+          {
+            "line": 48,
+            "text": "  const resource = useResource(async () => unwrap(await api.GET('/api/admin/sessions', { params: { query: { offset, limit: 50, ...(participant ? { participant_id: participant } : {}) } } })).data, `${participant}:${offset}`, 5);\r"
+          },
+          {
+            "line": 53,
+            "text": "  const resource = useResource(async () => unwrap(await api.GET('/api/admin/reviews', { params: { query: { offset: 0, limit: 500 } } })).data, 'reviews', 5);\r"
+          },
+          {
+            "line": 58,
+            "text": "  const resource = useResource(async () => unwrap(await api.GET('/api/admin/gifts')).data, 'inventory');\r"
+          },
+          {
+            "line": 64,
+            "text": "  const resource = useResource(async () => unwrap(await api.GET('/api/admin/redemptions', { params: { query: { offset, limit: 50 } } })).data, `admin-orders:${offset}`, 5);\r"
+          },
+          {
+            "line": 70,
+            "text": "  return <Panel title=\"核对本人后领取\"><p>输入领取码或订单编号，查询服务器记录。确认核销成功后才交付实物。</p><form onSubmit={e => { e.preventDefault(); const data = new FormData(e.currentTarget); void mutation.run(async () => { const value = formString(data, 'code'); const body: Schema<'ClaimLookupRequest'> = value.length === 43 ? { voucher_token: value } : { redemption_id: value }; setView(unwrap(await api.POST('/api/admin/redemptions/lookup', { body })).data); }); }}><Field label=\"领取码 / 订单编号\" name=\"code\" /><button className=\"primary\" disabled={mutation.pending}>查询领取记录</button></form><MutationStatus state={mutation} />{view && <article className=\"claim-preview\"><h2>{view.order.gift_name_snapshot}</h2><p>{view.participant_display_name} · {view.participant_display_uid}</p><p>订单 {view.order.redemption_id}</p><p>截止 {formatTime(view.order.claim_closes_at)}</p><Notice>{({ CAN_CLAIM: '当前可以核销。请核对本人和实物。', ALREADY_CLAIMED: '此订单已领取，请勿重复交付实物。', CANCELLED: '此订单已取消。', FROZEN: '资格冻结，暂不能领取。', EXPIRED: '领取截止已过。', PHASE_BLOCKED: '当前阶段不能领取。' })[view.claim_action]}</Notice>{view.order.claimed_at && <p>原核销：{formatTime(view.order.claimed_at)} · {view.order.claimed_by_display_name}</p>}<button className=\"primary\" disabled={mutation.pending || view.claim_action !== 'CAN_CLAIM'} onClick={() => void mutation.run(async () => { const body: Schema<'ClaimRequest'> = { idempotency_key: key(), redemption_id: view.order.redemption_id }; await durable(`claim:${view.order.redemption_id}`, body, async value => { setView(unwrap(await api.POST('/api/admin/redemptions/redeem', { body: value })).data); }); })}>确认本人，核销此订单</button><button disabled={mutation.pending} onClick={() => void mutation.run(async () => { setView(unwrap(await api.POST('/api/admin/redemptions/lookup', { body: { redemption_id: view.order.redemption_id } })).data); })}>响应不明？查询原核销记录</button></article>}</Panel>;\r"
+          }
+        ]
+      }
+    }
+  ],
+  "modelReceipt": {
+    "requestedByCoordinator": "gpt-6.1-sol / high",
+    "independentRuntimeModelMetadata": "NOT_AVAILABLE",
+    "note": "Request evidence only; agent self-description is not server-side proof."
+  }
+}

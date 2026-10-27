@@ -1,0 +1,827 @@
+{
+  "status": "C1_STATIC_REVIEW_PENDING",
+  "production_art_accepted": false,
+  "real_device": "NOT_RUN",
+  "source_script": "art-source/repair_masters_v4.py",
+  "source_script_sha256": "ffa41bfce2bff26128f15d3d7090b93be0debc21e3ae055eb7016b39678722ce",
+  "render_reports": {
+    "sheep": {
+      "actor": "sheep",
+      "source": "art-source/v2/sheep_master_v2.blend",
+      "source_sha256": "584a438a314099fd216d37d09dd523a4b44452f136fc479550e0457a1d1afa01",
+      "mother": "art-source/v4/sheep_master_v4.blend",
+      "mother_sha256": "7765ce56713b562be5003fa7bdad78feb073f1c49d9ec485b4f33825095aa325",
+      "changes": {
+        "large_body_lobes": 62,
+        "body_small_lobes_hidden": 190,
+        "head_lobes": 27,
+        "horn_bevel": 0.086,
+        "retained_identity": [
+          "light face",
+          "red scarf",
+          "single gold bell"
+        ],
+        "stack_pose": "same mother, compact controller preset, no bitmap squash"
+      },
+      "renderer": "GPU",
+      "devices": [
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "CUDA",
+          "use": true
+        },
+        {
+          "name": "13th Gen Intel Core i5-13600KF",
+          "type": "CPU",
+          "use": false
+        },
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "OPTIX",
+          "use": false
+        }
+      ],
+      "samples": [
+        {
+          "path": "art-source/v4/samples/sheep_front_512.png",
+          "seconds": 4.414
+        },
+        {
+          "path": "art-source/v4/samples/sheep_side_512.png",
+          "seconds": 4.148
+        },
+        {
+          "path": "art-source/v4/samples/sheep_back_512.png",
+          "seconds": 3.937
+        },
+        {
+          "path": "art-source/v4/samples/sheep_diagonal_512.png",
+          "seconds": 3.971
+        },
+        {
+          "path": "art-source/v4/samples/sheep_production_idle_e_512.png",
+          "seconds": 3.138
+        },
+        {
+          "path": "art-source/v4/samples/sheep_production_iso_idle_n_512.png",
+          "seconds": 2.99
+        },
+        {
+          "path": "art-source/v4/samples/sheep_production_iso_idle_s_512.png",
+          "seconds": 3.055
+        },
+        {
+          "path": "art-source/v4/samples/sheep_production_iso_idle_se_512.png",
+          "seconds": 3.066
+        },
+        {
+          "path": "art-source/v4/samples/sheep_stack_idle_f000_512.png",
+          "seconds": 3.038
+        },
+        {
+          "path": "art-source/v4/samples/sheep_stack_steady_f001_512.png",
+          "seconds": 3.174
+        },
+        {
+          "path": "art-source/v4/samples/sheep_stack_air_f000_512.png",
+          "seconds": 3.142
+        },
+        {
+          "path": "art-source/v4/samples/sheep_stack_air_f001_512.png",
+          "seconds": 2.91
+        },
+        {
+          "path": "art-source/v4/samples/sheep_stack_celebrate_f002_512.png",
+          "seconds": 3.042
+        }
+      ]
+    },
+    "dog": {
+      "actor": "dog",
+      "source": "art-source/v2/dog_master_v2.blend",
+      "source_sha256": "11599aa7bd750d5c6a0f48b49e68244af437db550b9c223f6c1ef04c2b2787f4",
+      "mother": "art-source/v4/dog_master_v4.blend",
+      "mother_sha256": "b962a972c2d348dcd14eb553e93f11678beb11dd6cc294a9b1b8c4fa79ae9583",
+      "changes": {
+        "wider_head_chest": true,
+        "shorter_folded_ears": true,
+        "existing_controls_actions_retained": true
+      },
+      "renderer": "GPU",
+      "devices": [
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "CUDA",
+          "use": true
+        },
+        {
+          "name": "13th Gen Intel Core i5-13600KF",
+          "type": "CPU",
+          "use": false
+        },
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "OPTIX",
+          "use": false
+        }
+      ],
+      "samples": [
+        {
+          "path": "art-source/v4/samples/dog_front_512.png",
+          "seconds": 2.563
+        },
+        {
+          "path": "art-source/v4/samples/dog_side_512.png",
+          "seconds": 3.003
+        },
+        {
+          "path": "art-source/v4/samples/dog_back_512.png",
+          "seconds": 2.778
+        },
+        {
+          "path": "art-source/v4/samples/dog_diagonal_512.png",
+          "seconds": 3.003
+        },
+        {
+          "path": "art-source/v4/samples/dog_production_idle_n_512.png",
+          "seconds": 2.511
+        },
+        {
+          "path": "art-source/v4/samples/dog_production_idle_e_512.png",
+          "seconds": 2.486
+        },
+        {
+          "path": "art-source/v4/samples/dog_production_idle_s_512.png",
+          "seconds": 2.553
+        },
+        {
+          "path": "art-source/v4/samples/dog_production_idle_se_512.png",
+          "seconds": 2.657
+        }
+      ]
+    }
+  },
+  "frames": [
+    {
+      "frame": "sheep_production_idle_e_128.png",
+      "source_render": "art-source/v4/samples/sheep_production_idle_e_512.png",
+      "source_render_sha256": "b0cee418be76b62bcb301ae30897d301b1efd4f654cfe60ddc90c0445d4ab203",
+      "mother_sha256": "7765ce56713b562be5003fa7bdad78feb073f1c49d9ec485b4f33825095aa325",
+      "crop": [
+        128,
+        32,
+        384,
+        288
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        18,
+        19,
+        119,
+        118
+      ],
+      "alpha128_bbox": [
+        21,
+        22,
+        116,
+        115
+      ],
+      "alpha1_size": [
+        101,
+        99
+      ],
+      "alpha1_relative_to_pivot": [
+        -46,
+        -93,
+        55,
+        6
+      ]
+    },
+    {
+      "frame": "sheep_production_iso_idle_n_128.png",
+      "source_render": "art-source/v4/samples/sheep_production_iso_idle_n_512.png",
+      "source_render_sha256": "8e7232c3d8a474dade934d8d5869c7e871ac6c5d55a89399adbcb9a5d664075c",
+      "mother_sha256": "7765ce56713b562be5003fa7bdad78feb073f1c49d9ec485b4f33825095aa325",
+      "crop": [
+        128,
+        60,
+        384,
+        316
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "alpha1_bbox": [
+        28,
+        18,
+        100,
+        116
+      ],
+      "alpha128_bbox": [
+        31,
+        21,
+        97,
+        113
+      ],
+      "alpha1_size": [
+        72,
+        98
+      ],
+      "alpha1_relative_to_pivot": [
+        -36,
+        -80,
+        36,
+        18
+      ]
+    },
+    {
+      "frame": "sheep_production_iso_idle_s_128.png",
+      "source_render": "art-source/v4/samples/sheep_production_iso_idle_s_512.png",
+      "source_render_sha256": "5a51436bacf9ee2a04263f42792dcb9dbebce249d0eaa72e0489c776406a093a",
+      "mother_sha256": "7765ce56713b562be5003fa7bdad78feb073f1c49d9ec485b4f33825095aa325",
+      "crop": [
+        128,
+        60,
+        384,
+        316
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "alpha1_bbox": [
+        28,
+        42,
+        100,
+        115
+      ],
+      "alpha128_bbox": [
+        31,
+        45,
+        97,
+        112
+      ],
+      "alpha1_size": [
+        72,
+        73
+      ],
+      "alpha1_relative_to_pivot": [
+        -36,
+        -56,
+        36,
+        17
+      ]
+    },
+    {
+      "frame": "sheep_production_iso_idle_se_128.png",
+      "source_render": "art-source/v4/samples/sheep_production_iso_idle_se_512.png",
+      "source_render_sha256": "b3248dfb9a06e30c825480ccb6da54be0d3eba8ddc8f34245fa593386e79e35e",
+      "mother_sha256": "7765ce56713b562be5003fa7bdad78feb073f1c49d9ec485b4f33825095aa325",
+      "crop": [
+        128,
+        60,
+        384,
+        316
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "alpha1_bbox": [
+        31,
+        36,
+        107,
+        119
+      ],
+      "alpha128_bbox": [
+        34,
+        38,
+        104,
+        116
+      ],
+      "alpha1_size": [
+        76,
+        83
+      ],
+      "alpha1_relative_to_pivot": [
+        -33,
+        -62,
+        43,
+        21
+      ]
+    },
+    {
+      "frame": "sheep_stack_air_f000_128.png",
+      "source_render": "art-source/v4/samples/sheep_stack_air_f000_512.png",
+      "source_render_sha256": "c0da33bb5568e646dea7598b8c911d24809334c82200fe5bf7719a58191726cc",
+      "mother_sha256": "7765ce56713b562be5003fa7bdad78feb073f1c49d9ec485b4f33825095aa325",
+      "crop": [
+        128,
+        32,
+        384,
+        288
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        42,
+        113,
+        115
+      ],
+      "alpha128_bbox": [
+        24,
+        45,
+        110,
+        113
+      ],
+      "alpha1_size": [
+        92,
+        73
+      ],
+      "alpha1_relative_to_pivot": [
+        -43,
+        -70,
+        49,
+        3
+      ],
+      "size64_alpha1_logical_height": 36.5
+    },
+    {
+      "frame": "sheep_stack_air_f001_128.png",
+      "source_render": "art-source/v4/samples/sheep_stack_air_f001_512.png",
+      "source_render_sha256": "5bf338a04212921d61c510069dda526602c60c0a7bc335f6ed6d27a879f7a4ff",
+      "mother_sha256": "7765ce56713b562be5003fa7bdad78feb073f1c49d9ec485b4f33825095aa325",
+      "crop": [
+        128,
+        32,
+        384,
+        288
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        42,
+        111,
+        115
+      ],
+      "alpha128_bbox": [
+        24,
+        44,
+        108,
+        113
+      ],
+      "alpha1_size": [
+        90,
+        73
+      ],
+      "alpha1_relative_to_pivot": [
+        -43,
+        -70,
+        47,
+        3
+      ],
+      "size64_alpha1_logical_height": 36.5
+    },
+    {
+      "frame": "sheep_stack_celebrate_f002_128.png",
+      "source_render": "art-source/v4/samples/sheep_stack_celebrate_f002_512.png",
+      "source_render_sha256": "80b3fcf3f45f3b1a35d1bdbc3927c6c80dbc65528d6bbfc617650c5c669cdbbd",
+      "mother_sha256": "7765ce56713b562be5003fa7bdad78feb073f1c49d9ec485b4f33825095aa325",
+      "crop": [
+        128,
+        32,
+        384,
+        288
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        42,
+        112,
+        115
+      ],
+      "alpha128_bbox": [
+        24,
+        45,
+        109,
+        113
+      ],
+      "alpha1_size": [
+        91,
+        73
+      ],
+      "alpha1_relative_to_pivot": [
+        -43,
+        -70,
+        48,
+        3
+      ],
+      "size64_alpha1_logical_height": 36.5
+    },
+    {
+      "frame": "sheep_stack_idle_f000_128.png",
+      "source_render": "art-source/v4/samples/sheep_stack_idle_f000_512.png",
+      "source_render_sha256": "84eae9cee7f3a16bebc134af4132a29550340af54901ad0d717b25fce71ad82e",
+      "mother_sha256": "7765ce56713b562be5003fa7bdad78feb073f1c49d9ec485b4f33825095aa325",
+      "crop": [
+        128,
+        32,
+        384,
+        288
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        42,
+        112,
+        115
+      ],
+      "alpha128_bbox": [
+        24,
+        45,
+        109,
+        113
+      ],
+      "alpha1_size": [
+        91,
+        73
+      ],
+      "alpha1_relative_to_pivot": [
+        -43,
+        -70,
+        48,
+        3
+      ],
+      "size64_alpha1_logical_height": 36.5
+    },
+    {
+      "frame": "sheep_stack_steady_f001_128.png",
+      "source_render": "art-source/v4/samples/sheep_stack_steady_f001_512.png",
+      "source_render_sha256": "71e765925d32e2369a2fbdc18628ea8f609e911ecce85c03f988431b014b3b49",
+      "mother_sha256": "7765ce56713b562be5003fa7bdad78feb073f1c49d9ec485b4f33825095aa325",
+      "crop": [
+        128,
+        32,
+        384,
+        288
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        42,
+        112,
+        115
+      ],
+      "alpha128_bbox": [
+        24,
+        45,
+        109,
+        113
+      ],
+      "alpha1_size": [
+        91,
+        73
+      ],
+      "alpha1_relative_to_pivot": [
+        -43,
+        -70,
+        48,
+        3
+      ],
+      "size64_alpha1_logical_height": 36.5
+    },
+    {
+      "frame": "dog_production_idle_e_128.png",
+      "source_render": "art-source/v4/samples/dog_production_idle_e_512.png",
+      "source_render_sha256": "d2e5bad927567b5cc2db4a22c9190f52dc39afb5a7318fae94fba8a47772493e",
+      "mother_sha256": "b962a972c2d348dcd14eb553e93f11678beb11dd6cc294a9b1b8c4fa79ae9583",
+      "crop": [
+        128,
+        60,
+        384,
+        316
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "alpha1_bbox": [
+        17,
+        35,
+        109,
+        109
+      ],
+      "alpha128_bbox": [
+        20,
+        38,
+        107,
+        107
+      ],
+      "alpha1_size": [
+        92,
+        74
+      ],
+      "alpha1_relative_to_pivot": [
+        -47,
+        -63,
+        45,
+        11
+      ]
+    },
+    {
+      "frame": "dog_production_idle_n_128.png",
+      "source_render": "art-source/v4/samples/dog_production_idle_n_512.png",
+      "source_render_sha256": "12ad9739ce9357fe538b96169d9ab1bb5409cbe2156bdf8bb1b33820300bb1f3",
+      "mother_sha256": "b962a972c2d348dcd14eb553e93f11678beb11dd6cc294a9b1b8c4fa79ae9583",
+      "crop": [
+        128,
+        60,
+        384,
+        316
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "alpha1_bbox": [
+        39,
+        28,
+        89,
+        116
+      ],
+      "alpha128_bbox": [
+        41,
+        31,
+        87,
+        114
+      ],
+      "alpha1_size": [
+        50,
+        88
+      ],
+      "alpha1_relative_to_pivot": [
+        -25,
+        -70,
+        25,
+        18
+      ]
+    },
+    {
+      "frame": "dog_production_idle_s_128.png",
+      "source_render": "art-source/v4/samples/dog_production_idle_s_512.png",
+      "source_render_sha256": "049f813601e714fde8c76845f91f1c41cc2a9853a8a03bc7c3b9ec998f66f0cb",
+      "mother_sha256": "b962a972c2d348dcd14eb553e93f11678beb11dd6cc294a9b1b8c4fa79ae9583",
+      "crop": [
+        128,
+        60,
+        384,
+        316
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "alpha1_bbox": [
+        39,
+        30,
+        89,
+        115
+      ],
+      "alpha128_bbox": [
+        41,
+        32,
+        87,
+        112
+      ],
+      "alpha1_size": [
+        50,
+        85
+      ],
+      "alpha1_relative_to_pivot": [
+        -25,
+        -68,
+        25,
+        17
+      ]
+    },
+    {
+      "frame": "dog_production_idle_se_128.png",
+      "source_render": "art-source/v4/samples/dog_production_idle_se_512.png",
+      "source_render_sha256": "7769b99c734dc8d663f7da19ecfa98d42be071605ce4a21e4706ef79ca30a650",
+      "mother_sha256": "b962a972c2d348dcd14eb553e93f11678beb11dd6cc294a9b1b8c4fa79ae9583",
+      "crop": [
+        128,
+        60,
+        384,
+        316
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "alpha1_bbox": [
+        29,
+        38,
+        100,
+        116
+      ],
+      "alpha128_bbox": [
+        31,
+        40,
+        97,
+        113
+      ],
+      "alpha1_size": [
+        71,
+        78
+      ],
+      "alpha1_relative_to_pivot": [
+        -35,
+        -60,
+        36,
+        18
+      ]
+    }
+  ],
+  "css": [
+    {
+      "viewport": 320,
+      "actor": "stack",
+      "frame": "sheep_stack_idle_f000_128.png",
+      "whole_frame_world_size": 64,
+      "canvas_css_width": 303.984375,
+      "canvas_css_height": 405.328125,
+      "alpha1_css_size": [
+        38.42024739583333,
+        30.820638020833332
+      ],
+      "metrics_source": "output/repair-20261027/runtime/pre-C-canvas-metrics.json"
+    },
+    {
+      "viewport": 320,
+      "actor": "runner",
+      "frame": "sheep_production_idle_e_128.png",
+      "whole_frame_world_size": 56,
+      "canvas_css_width": 303.96875,
+      "canvas_css_height": 185.765625,
+      "alpha1_css_size": [
+        37.31005316840278,
+        36.571240234375004
+      ],
+      "metrics_source": "output/repair-20261027/runtime/pre-C-canvas-metrics.json"
+    },
+    {
+      "viewport": 320,
+      "actor": "herd sheep",
+      "frame": "sheep_production_iso_idle_n_128.png",
+      "whole_frame_world_size": 47,
+      "canvas_css_width": 303.984375,
+      "canvas_css_height": 354.65625,
+      "alpha1_css_size": [
+        22.323852539062496,
+        30.385243733723954
+      ],
+      "metrics_source": "output/repair-20261027/runtime/pre-C-canvas-metrics.json"
+    },
+    {
+      "viewport": 320,
+      "actor": "herd dog",
+      "frame": "dog_production_idle_n_128.png",
+      "whole_frame_world_size": 60,
+      "canvas_css_width": 303.984375,
+      "canvas_css_height": 354.65625,
+      "alpha1_css_size": [
+        19.7906494140625,
+        34.83154296875
+      ],
+      "metrics_source": "output/repair-20261027/runtime/pre-C-canvas-metrics.json"
+    },
+    {
+      "viewport": 390,
+      "actor": "stack",
+      "frame": "sheep_stack_idle_f000_128.png",
+      "whole_frame_world_size": 64,
+      "canvas_css_width": 373.984375,
+      "canvas_css_height": 498.65625,
+      "alpha1_css_size": [
+        47.26746961805556,
+        37.91786024305556
+      ],
+      "metrics_source": "output/repair-20261027/runtime/pre-C-canvas-metrics.json"
+    },
+    {
+      "viewport": 390,
+      "actor": "runner",
+      "frame": "sheep_production_idle_e_128.png",
+      "whole_frame_world_size": 56,
+      "canvas_css_width": 373.984375,
+      "canvas_css_height": 228.546875,
+      "alpha1_css_size": [
+        45.90398491753473,
+        44.99499511718751
+      ],
+      "metrics_source": "output/repair-20261027/runtime/pre-C-canvas-metrics.json"
+    },
+    {
+      "viewport": 390,
+      "actor": "herd sheep",
+      "frame": "sheep_production_iso_idle_n_128.png",
+      "whole_frame_world_size": 47,
+      "canvas_css_width": 373.984375,
+      "canvas_css_height": 436.328125,
+      "alpha1_css_size": [
+        27.4644775390625,
+        37.38220553927951
+      ],
+      "metrics_source": "output/repair-20261027/runtime/pre-C-canvas-metrics.json"
+    },
+    {
+      "viewport": 390,
+      "actor": "herd dog",
+      "frame": "dog_production_idle_n_128.png",
+      "whole_frame_world_size": 60,
+      "canvas_css_width": 373.984375,
+      "canvas_css_height": 436.328125,
+      "alpha1_css_size": [
+        24.347941080729168,
+        42.852376302083336
+      ],
+      "metrics_source": "output/repair-20261027/runtime/pre-C-canvas-metrics.json"
+    }
+  ],
+  "checks": [],
+  "css_metrics_snapshot": {
+    "source": "output/repair-20261027/runtime/pre-C-canvas-metrics.json",
+    "sha256": "d43e19b4a443970c1e1114cfb84cdee03bd0deb8af6ace4c280b660db9e16141",
+    "metrics": [
+      {
+        "viewportWidth": 320,
+        "game": "stack",
+        "cssWidth": 303.984375,
+        "cssHeight": 405.328125,
+        "width": 360,
+        "height": 480
+      },
+      {
+        "viewportWidth": 320,
+        "game": "runner",
+        "cssWidth": 303.96875,
+        "cssHeight": 185.765625,
+        "width": 360,
+        "height": 220
+      },
+      {
+        "viewportWidth": 320,
+        "game": "herd",
+        "cssWidth": 303.984375,
+        "cssHeight": 354.65625,
+        "width": 360,
+        "height": 420
+      },
+      {
+        "viewportWidth": 390,
+        "game": "stack",
+        "cssWidth": 373.984375,
+        "cssHeight": 498.65625,
+        "width": 360,
+        "height": 480
+      },
+      {
+        "viewportWidth": 390,
+        "game": "runner",
+        "cssWidth": 373.984375,
+        "cssHeight": 228.546875,
+        "width": 360,
+        "height": 220
+      },
+      {
+        "viewportWidth": 390,
+        "game": "herd",
+        "cssWidth": 373.984375,
+        "cssHeight": 436.328125,
+        "width": 360,
+        "height": 420
+      }
+    ]
+  },
+  "production_export_authorized": false
+}

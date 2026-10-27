@@ -1,0 +1,53 @@
+{
+  "environment": "read-only real Results component, isolated schema-checked API fixture except one explicitly forward-unknown payload; no business POST, PostgreSQL or real phone",
+  "results": [
+    {
+      "id": "F17-stack-statistics",
+      "pass": true
+    },
+    {
+      "id": "F17-runner-statistics",
+      "pass": true
+    },
+    {
+      "id": "F17-herd-statistics",
+      "pass": true
+    },
+    {
+      "id": "F17-no-effective-action",
+      "pass": true
+    },
+    {
+      "id": "F17-invalid-process",
+      "pass": true
+    },
+    {
+      "id": "F17-voided",
+      "pass": true
+    },
+    {
+      "id": "F17-historical-replaced",
+      "pass": true
+    },
+    {
+      "id": "F17-verifying-no-award",
+      "pass": true
+    },
+    {
+      "id": "F17-review-no-award",
+      "pass": true
+    },
+    {
+      "id": "F17-independent-identity-503",
+      "pass": true
+    },
+    {
+      "id": "F17-unknown-reason-inspectable",
+      "pass": true
+    },
+    {
+      "id": "F17-unknown-state-inspectable",
+      "pass": true
+    }
+  ]
+}

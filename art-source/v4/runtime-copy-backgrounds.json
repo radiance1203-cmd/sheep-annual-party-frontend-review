@@ -1,0 +1,42 @@
+{
+  "status": "COPIED_NEW_V4_ONLY",
+  "manifest_modified": false,
+  "records": [
+    {
+      "asset_id": "environment.backdrop.stack",
+      "path": "apps/web/public/assets/environment/backdrop_stack_v4.png",
+      "sha256": "342cdc55d29dc3966f3d0a66bec0b3aeab0a8d279996284f7a1f86d70b35fae4",
+      "bytes": 658095
+    },
+    {
+      "asset_id": "environment.backdrop.stack.metadata",
+      "path": "apps/web/public/assets/environment/backdrop_stack_v4.atlas.json",
+      "sha256": "ed198e13c4662d92a8a561fbf948f4c8a29b1bcad6ef362d666016828a8d32f5",
+      "bytes": 1171
+    },
+    {
+      "asset_id": "environment.backdrop.runner",
+      "path": "apps/web/public/assets/environment/backdrop_runner_v4.png",
+      "sha256": "3d809400bd9265528bfd9745a79552a5dbf4012275f1b3f37dc79623694f36f0",
+      "bytes": 320119
+    },
+    {
+      "asset_id": "environment.backdrop.runner.metadata",
+      "path": "apps/web/public/assets/environment/backdrop_runner_v4.atlas.json",
+      "sha256": "1122a5352e45c1e60d0855c97fe5bf8e6a1c7fee72ed8f32bd82eb704f5d550e",
+      "bytes": 1176
+    },
+    {
+      "asset_id": "environment.backdrop.herd",
+      "path": "apps/web/public/assets/environment/backdrop_herd_v4.png",
+      "sha256": "8f4bb699945f870c568473e771efc2a832dd858eddda517be88f47bc4a00681e",
+      "bytes": 651826
+    },
+    {
+      "asset_id": "environment.backdrop.herd.metadata",
+      "path": "apps/web/public/assets/environment/backdrop_herd_v4.atlas.json",
+      "sha256": "2d6c897f18207d74dae46a9275a676b0a03431c81bee517f6c4b1bb8631549b1",
+      "bytes": 1166
+    }
+  ]
+}

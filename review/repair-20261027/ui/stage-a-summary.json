@@ -1,0 +1,13 @@
+{
+  "stage": "A",
+  "findings": ["F01", "F02"],
+  "scope": "isolated browser + real components, schema-checked fixtures; no real business POST",
+  "red": "red/results.json: 3 expected failures before product changes",
+  "green": "green/results.json: 15 browser checks passed (including network abort and mismatched response ids)",
+  "unit": "13 tests passed via vitest apps/web/tests/repair-state/redemption.test.ts",
+  "typecheck": "npm run typecheck passed",
+  "backend_evidence": ["apps/server/src/service.ts: redeem idempotency lookup before assertions; rejection before INSERT within transaction", "apps/server/src/errors.ts: REDEMPTION_CLOSED => CLAIM_WINDOW_CLOSED; PERSON_LIMIT => PERSON_LIMIT_REACHED", "apps/server/src/app.ts: retryable derives from HTTP status >=500 or 429"],
+  "changes": ["apps/web/src/ui.tsx", "apps/web/src/pages/ParticipantPages.tsx", "apps/web/src/App.tsx", "apps/web/src/repair-state/redemption.ts", "apps/web/tests/repair-state/stage-a.mts", "apps/web/tests/repair-state/resource-harness.tsx", "apps/web/tests/repair-state/redemption.test.ts"],
+  "legacy": "Unscoped pending-redemption retained unchanged; never automatically replayed into current identity; participant shown instruction to check own orders or contact staff",
+  "not_run": ["real PostgreSQL redemption transaction", "physical phone", "field network", "human playtest"]
+}

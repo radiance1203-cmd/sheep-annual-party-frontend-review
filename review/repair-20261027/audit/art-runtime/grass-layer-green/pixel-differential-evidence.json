@@ -1,0 +1,137 @@
+{
+  "scope": "Native DPR1 actual renderer screenshot pixel at each real core grass center. Differential mode compares unchanged core view and exact native pixel against preserved pre-fix image; not subjective visual similarity, physical-device legibility or final art signoff.",
+  "mode": "differential",
+  "manifestHash": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "cases": [
+    {
+      "id": "runner-grass-uncollected",
+      "tick": 239,
+      "sourcePNG": "output/repair-20261027/audit/art-runtime/v4-runner-grass-front/runner-grass-uncollected-390x844.png",
+      "sourcePNG_SHA256": "147eb41823cf923002f4a3b0ef2217ac5d8c80e19d649675298dbe1e8b24793f",
+      "viewHash": "5b16f6e1d813b23b5a0d6a30b57d51a92dc1918c95a7735a3ed572da8ddc28db",
+      "coreGrassCenter": {
+        "x_u": 94000,
+        "y_u": 69000
+      },
+      "outer_collected": false,
+      "inner_collected": false,
+      "canvasPixel": [
+        105,
+        170
+      ],
+      "actualRGB": [
+        194,
+        151,
+        70
+      ],
+      "registeredGoldCenterRGB": [
+        171,
+        120,
+        4
+      ],
+      "rgbDistanceToRegisteredGoldCenter": 76.4591394144611,
+      "nativeGoldCenterVisible": true,
+      "expectedGoldCenterVisible": true,
+      "pass": true,
+      "baselinePNG": "output/repair-20261027/audit/art-runtime/v4-final/runner-grass-uncollected-390x844.png",
+      "baselineRGB": [
+        201,
+        196,
+        189
+      ],
+      "actualMinusBaselineRGB": [
+        -7,
+        -45,
+        -119
+      ],
+      "method": "Same true core viewHash and same native pixel coordinate; remaining core must add gold chroma/decrease blue >=40 from opaque wool, collected core must leave original pixel unchanged. Source-center color distance is diagnostic only because texture filtering blends at fractional CSS coordinates."
+    },
+    {
+      "id": "runner-grass-outer-only",
+      "tick": 240,
+      "sourcePNG": "output/repair-20261027/audit/art-runtime/v4-runner-grass-front/runner-grass-outer-only-390x844.png",
+      "sourcePNG_SHA256": "b17bf0e12a2bf9fefb03a18559d45b8dcf9c8d4f7dac12f942ab967a2a6f4d55",
+      "viewHash": "79cc310ded8b9f51faebf19c2d33058a94be36c03ed6af2ca4af66aec41313b1",
+      "coreGrassCenter": {
+        "x_u": 91600,
+        "y_u": 69000
+      },
+      "outer_collected": true,
+      "inner_collected": false,
+      "canvasPixel": [
+        103,
+        170
+      ],
+      "actualRGB": [
+        197,
+        160,
+        92
+      ],
+      "registeredGoldCenterRGB": [
+        171,
+        120,
+        4
+      ],
+      "rgbDistanceToRegisteredGoldCenter": 100.09995004993759,
+      "nativeGoldCenterVisible": true,
+      "expectedGoldCenterVisible": true,
+      "pass": true,
+      "baselinePNG": "output/repair-20261027/audit/art-runtime/v4-final/runner-grass-outer-only-390x844.png",
+      "baselineRGB": [
+        203,
+        198,
+        191
+      ],
+      "actualMinusBaselineRGB": [
+        -6,
+        -38,
+        -99
+      ],
+      "method": "Same true core viewHash and same native pixel coordinate; remaining core must add gold chroma/decrease blue >=40 from opaque wool, collected core must leave original pixel unchanged. Source-center color distance is diagnostic only because texture filtering blends at fractional CSS coordinates."
+    },
+    {
+      "id": "runner-grass-both",
+      "tick": 241,
+      "sourcePNG": "output/repair-20261027/audit/art-runtime/v4-runner-grass-front/runner-grass-both-390x844.png",
+      "sourcePNG_SHA256": "8a706f9786b17fe9f4efc34ee49b2b596453b261453e733c4c55b90218ae9f01",
+      "viewHash": "7b14363d686a1c2ee8073ccc241353a248ee9cdcfcfc983077271f4c90967a29",
+      "coreGrassCenter": {
+        "x_u": 89200,
+        "y_u": 69000
+      },
+      "outer_collected": true,
+      "inner_collected": true,
+      "canvasPixel": [
+        100,
+        170
+      ],
+      "actualRGB": [
+        205,
+        202,
+        195
+      ],
+      "registeredGoldCenterRGB": [
+        171,
+        120,
+        4
+      ],
+      "rgbDistanceToRegisteredGoldCenter": 210.6205118216172,
+      "nativeGoldCenterVisible": false,
+      "expectedGoldCenterVisible": false,
+      "pass": true,
+      "baselinePNG": "output/repair-20261027/audit/art-runtime/v4-final/runner-grass-both-390x844.png",
+      "baselineRGB": [
+        205,
+        202,
+        195
+      ],
+      "actualMinusBaselineRGB": [
+        0,
+        0,
+        0
+      ],
+      "method": "Same true core viewHash and same native pixel coordinate; remaining core must add gold chroma/decrease blue >=40 from opaque wool, collected core must leave original pixel unchanged. Source-center color distance is diagnostic only because texture filtering blends at fractional CSS coordinates."
+    }
+  ],
+  "pass": true
+}

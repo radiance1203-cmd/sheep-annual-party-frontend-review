@@ -1,0 +1,256 @@
+[
+  {
+    "frame": "hay_tray_thin",
+    "rect": [
+      19,
+      281,
+      194,
+      10
+    ],
+    "source_size": [
+      194,
+      10
+    ],
+    "sprite_source_rect": [
+      0,
+      0,
+      194,
+      10
+    ],
+    "trimmed": false,
+    "rotated": false,
+    "pivot_px": [
+      97,
+      5
+    ],
+    "direction": null,
+    "alpha1_bbox": [
+      0,
+      0,
+      194,
+      10
+    ],
+    "alpha128_bbox": [
+      0,
+      0,
+      194,
+      10
+    ],
+    "uniform_target": [
+      112,
+      6
+    ]
+  },
+  {
+    "frame": "hurdle_narrow",
+    "rect": [
+      236,
+      280,
+      64,
+      240
+    ],
+    "source_size": [
+      64,
+      240
+    ],
+    "sprite_source_rect": [
+      0,
+      0,
+      64,
+      240
+    ],
+    "trimmed": false,
+    "rotated": false,
+    "pivot_px": [
+      32,
+      233
+    ],
+    "direction": null,
+    "alpha1_bbox": [
+      1,
+      6,
+      63,
+      234
+    ],
+    "alpha128_bbox": [
+      2,
+      7,
+      62,
+      233
+    ],
+    "uniform_target": [
+      8,
+      30
+    ]
+  },
+  {
+    "frame": "hurdle_medium",
+    "rect": [
+      308,
+      280,
+      144,
+      240
+    ],
+    "source_size": [
+      144,
+      240
+    ],
+    "sprite_source_rect": [
+      0,
+      0,
+      144,
+      240
+    ],
+    "trimmed": false,
+    "rotated": false,
+    "pivot_px": [
+      72,
+      237
+    ],
+    "direction": null,
+    "alpha1_bbox": [
+      1,
+      2,
+      143,
+      237
+    ],
+    "alpha128_bbox": [
+      2,
+      3,
+      142,
+      236
+    ],
+    "uniform_target": [
+      18,
+      30
+    ]
+  },
+  {
+    "frame": "hurdle_wide",
+    "rect": [
+      460,
+      280,
+      224,
+      240
+    ],
+    "source_size": [
+      224,
+      240
+    ],
+    "sprite_source_rect": [
+      0,
+      0,
+      224,
+      240
+    ],
+    "trimmed": false,
+    "rotated": false,
+    "pivot_px": [
+      112,
+      238
+    ],
+    "direction": null,
+    "alpha1_bbox": [
+      1,
+      1,
+      223,
+      238
+    ],
+    "alpha128_bbox": [
+      2,
+      2,
+      222,
+      237
+    ],
+    "uniform_target": [
+      28,
+      30
+    ]
+  },
+  {
+    "frame": "clover_outer_round",
+    "rect": [
+      692,
+      280,
+      72,
+      72
+    ],
+    "source_size": [
+      72,
+      72
+    ],
+    "sprite_source_rect": [
+      0,
+      0,
+      72,
+      72
+    ],
+    "trimmed": false,
+    "rotated": false,
+    "pivot_px": [
+      36,
+      36
+    ],
+    "direction": null,
+    "alpha1_bbox": [
+      7,
+      7,
+      66,
+      66
+    ],
+    "alpha128_bbox": [
+      7,
+      7,
+      66,
+      66
+    ],
+    "uniform_target": [
+      9,
+      9
+    ],
+    "alpha1_max_radius_px": 35.70014005574768
+  },
+  {
+    "frame": "clover_core_round",
+    "rect": [
+      772,
+      280,
+      24,
+      24
+    ],
+    "source_size": [
+      24,
+      24
+    ],
+    "sprite_source_rect": [
+      0,
+      0,
+      24,
+      24
+    ],
+    "trimmed": false,
+    "rotated": false,
+    "pivot_px": [
+      12,
+      12
+    ],
+    "direction": null,
+    "alpha1_bbox": [
+      3,
+      3,
+      21,
+      21
+    ],
+    "alpha128_bbox": [
+      3,
+      3,
+      21,
+      21
+    ],
+    "uniform_target": [
+      3,
+      3
+    ],
+    "alpha1_max_radius_px": 10.700467279516348
+  }
+]

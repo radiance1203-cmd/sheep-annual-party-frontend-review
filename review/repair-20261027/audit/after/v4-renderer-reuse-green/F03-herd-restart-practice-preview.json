@@ -1,0 +1,120 @@
+{
+  "id": "F03-herd-restart-practice-preview",
+  "pass": true,
+  "error": null,
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    },
+    {
+      "path": "/api/event",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/ui/ui_banner_wood.svg",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_iso8_v4.atlas.json",
+    "/assets/characters/sheep_iso8_v4.png",
+    "/assets/characters/dog_iso8_v4.atlas.json",
+    "/assets/characters/dog_iso8_v4.png",
+    "/assets/environment/farm_iso_v2.atlas.json",
+    "/assets/environment/farm_iso_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_herd_v4.atlas.json",
+    "/assets/environment/backdrop_herd_v4.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": "0",
+    "acceptedActions": "0",
+    "decode": {
+      "started": 5,
+      "succeeded": 5,
+      "images": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/023c4bbb-c4d3-4be1-a6c4-e114f1c87d00"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/83949112-e23c-466c-85b9-1a8c244a31af"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/51944529-3d47-4168-966a-3088bac314d4"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/7494b573-3717-4e36-bada-b2da119ad182"
+        },
+        {
+          "width": 720,
+          "height": 840,
+          "source": "blob:http://127.0.0.1:5175/6c81e833-6f15-461f-aa14-7169032dd8b6"
+        }
+      ],
+      "hold": false
+    },
+    "eventTrace": [
+      {
+        "type": "click",
+        "target": "BUTTON",
+        "active": "BUTTON",
+        "hidden": false
+      },
+      {
+        "type": "blur",
+        "target": "BUTTON",
+        "active": "BODY",
+        "hidden": false
+      },
+      {
+        "type": "click",
+        "target": "BUTTON",
+        "active": "BUTTON",
+        "hidden": false
+      },
+      {
+        "type": "blur",
+        "target": "BUTTON",
+        "active": "BODY",
+        "hidden": false
+      }
+    ],
+    "hidden": false,
+    "focused": true,
+    "canvas": [
+      {
+        "width": 360,
+        "height": 420,
+        "rect": {
+          "x": 9,
+          "y": 136.890625,
+          "width": 373.984375,
+          "height": 436.328125,
+          "top": 136.890625,
+          "right": 382.984375,
+          "bottom": 573.21875,
+          "left": 9
+        }
+      }
+    ],
+    "body": "‹\n赶羊入圈\n自由练习 · 不入账\n静音\n剩余时间\n45秒\n局内表现\n0 /80\n已入圈\n0/8\n绕到羊后方，赶它们进入上方围栏入口\n练习可重新开始，不影响正式机会。\n开始不计分练习",
+    "dpr": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    }
+  }
+}

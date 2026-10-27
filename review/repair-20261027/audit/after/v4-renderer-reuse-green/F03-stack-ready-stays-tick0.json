@@ -1,0 +1,120 @@
+{
+  "id": "F03-stack-ready-stays-tick0",
+  "pass": true,
+  "error": null,
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/ui/ui_banner_wood.svg",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_side_v4.atlas.json",
+    "/assets/characters/sheep_side_v4.png",
+    "/assets/environment/farm_side_v4.atlas.json",
+    "/assets/environment/farm_side_v4.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_stack_v4.atlas.json",
+    "/assets/environment/backdrop_stack_v4.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": "0",
+    "acceptedActions": "0",
+    "decode": {
+      "started": 4,
+      "succeeded": 4,
+      "images": [
+        {
+          "width": 1024,
+          "height": 1280,
+          "source": "blob:http://127.0.0.1:5175/12336f96-b867-444d-80ef-32d68b393fc1"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/a428570c-f3c9-4f02-8002-04ffecdedd99"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/c3927a2f-99f5-40b2-9cca-962184022a63"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "source": "blob:http://127.0.0.1:5175/4489f8d3-cb5d-4e31-9d9b-e8bf9576073a"
+        }
+      ],
+      "hold": false
+    },
+    "eventTrace": [],
+    "hidden": false,
+    "focused": true,
+    "canvas": [
+      {
+        "width": 360,
+        "height": 480,
+        "rect": {
+          "x": 9,
+          "y": 180.890625,
+          "width": 373.984375,
+          "height": 498.65625,
+          "top": 180.890625,
+          "right": 382.984375,
+          "bottom": 679.546875,
+          "left": 9
+        }
+      }
+    ],
+    "body": "‹\n羊羊叠高高\n自由练习 · 不入账\n静音\n剩余时间\n45秒\n局内表现\n0 /80\n失误\n0/3\n已叠稳 0 层 · 完美 0 层\n练习场景已就绪 · 不占正式机会，不产生正式积分。\n开始不计分练习",
+    "dpr": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "extra": {
+    "decoded": {
+      "started": 4,
+      "succeeded": 4,
+      "images": [
+        {
+          "width": 1024,
+          "height": 1280,
+          "source": "blob:http://127.0.0.1:5175/12336f96-b867-444d-80ef-32d68b393fc1"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/a428570c-f3c9-4f02-8002-04ffecdedd99"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/c3927a2f-99f5-40b2-9cca-962184022a63"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "source": "blob:http://127.0.0.1:5175/4489f8d3-cb5d-4e31-9d9b-e8bf9576073a"
+        }
+      ],
+      "hold": false
+    },
+    "pixels": {
+      "size": [
+        374,
+        500
+      ],
+      "colors": 1661
+    }
+  }
+}

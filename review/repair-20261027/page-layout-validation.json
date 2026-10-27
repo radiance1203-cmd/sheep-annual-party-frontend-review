@@ -1,0 +1,357 @@
+{
+  "scope": "Actual App pages with isolated API fixtures; preparation/tutorial/lobby 4 widths plus320x568; measured boxes exclude closed details",
+  "records": [
+    {
+      "batch": "final-pages",
+      "screen": "lobby",
+      "width": 320,
+      "height": 740,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "tutorial/stack",
+      "width": 320,
+      "height": 740,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "tutorial/runner",
+      "width": 320,
+      "height": 740,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "tutorial/herd",
+      "width": 320,
+      "height": 740,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "practice/stack",
+      "width": 320,
+      "height": 740,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "practice/runner",
+      "width": 320,
+      "height": 740,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "practice/herd",
+      "width": 320,
+      "height": 740,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "lobby",
+      "width": 360,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "tutorial/stack",
+      "width": 360,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "tutorial/runner",
+      "width": 360,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "tutorial/herd",
+      "width": 360,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "practice/stack",
+      "width": 360,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "practice/runner",
+      "width": 360,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "practice/herd",
+      "width": 360,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "lobby",
+      "width": 390,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "tutorial/stack",
+      "width": 390,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "tutorial/runner",
+      "width": 390,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "tutorial/herd",
+      "width": 390,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "practice/stack",
+      "width": 390,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "practice/runner",
+      "width": 390,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "practice/herd",
+      "width": 390,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "lobby",
+      "width": 430,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "tutorial/stack",
+      "width": 430,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "tutorial/runner",
+      "width": 430,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "tutorial/herd",
+      "width": 430,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "practice/stack",
+      "width": 430,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "practice/runner",
+      "width": 430,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-pages",
+      "screen": "practice/herd",
+      "width": 430,
+      "height": 844,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-short",
+      "screen": "lobby",
+      "width": 320,
+      "height": 568,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-short",
+      "screen": "tutorial/stack",
+      "width": 320,
+      "height": 568,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-short",
+      "screen": "tutorial/runner",
+      "width": 320,
+      "height": 568,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-short",
+      "screen": "tutorial/herd",
+      "width": 320,
+      "height": 568,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-short",
+      "screen": "practice/stack",
+      "width": 320,
+      "height": 568,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-short",
+      "screen": "practice/runner",
+      "width": 320,
+      "height": 568,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    },
+    {
+      "batch": "final-short",
+      "screen": "practice/herd",
+      "width": 320,
+      "height": 568,
+      "no_horizontal_overflow": true,
+      "small_targets": [],
+      "page_errors": [],
+      "api_writes": []
+    }
+  ],
+  "failures": [],
+  "pass": true
+}

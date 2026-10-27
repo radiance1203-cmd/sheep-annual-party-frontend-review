@@ -1,0 +1,35 @@
+{
+  "environment": "isolated Chromium, API fixtures only; no real business POST / physical camera / PostgreSQL",
+  "results": [
+    {
+      "id": "F12-503-retry",
+      "pass": false,
+      "error": "TimeoutError: locator.waitFor: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('夹具：身份同步失败').first() to be visible\u001b[22m\n"
+    },
+    {
+      "id": "F13-check-in-admission",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n1 !== 0\n"
+    },
+    {
+      "id": "F14-gift-image-failure",
+      "pass": false,
+      "error": "TimeoutError: locator.waitFor: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('礼品图片加载失败').first() to be visible\u001b[22m\n"
+    },
+    {
+      "id": "F15-recovery-targets",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: 320 恢复原局 requires 48px target, got {\"x\":159,\"y\":385,\"width\":64,\"height\":21}"
+    },
+    {
+      "id": "F16-order-qr",
+      "pass": false,
+      "error": "TimeoutError: locator.waitFor: Timeout 3000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('img', { name: '领取凭证二维码' }) to be visible\u001b[22m\n"
+    },
+    {
+      "id": "F16-upload-and-lookup",
+      "pass": false,
+      "error": "TimeoutError: locator.setInputFiles: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByLabel('上传领取凭证二维码图片')\u001b[22m\n"
+    }
+  ]
+}

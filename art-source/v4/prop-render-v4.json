@@ -1,0 +1,53 @@
+{
+  "mother_sha256": "fddbe3f193cc136f151b178c940ce6025b01a84b6bea387c0c76c5e7627c3c93",
+  "records": [
+    {
+      "frame": "hay_tray_thin",
+      "raw": "art-source/v4/renders/new_props/hay_tray_thin.png",
+      "raw_pivot_px": [
+        512.0,
+        80.00044345855713
+      ]
+    },
+    {
+      "frame": "hurdle_narrow",
+      "raw": "art-source/v4/renders/new_props/hurdle_narrow.png",
+      "raw_pivot_px": [
+        256.0,
+        438.8574981689453
+      ]
+    },
+    {
+      "frame": "hurdle_medium",
+      "raw": "art-source/v4/renders/new_props/hurdle_medium.png",
+      "raw_pivot_px": [
+        256.0,
+        438.8574981689453
+      ]
+    },
+    {
+      "frame": "hurdle_wide",
+      "raw": "art-source/v4/renders/new_props/hurdle_wide.png",
+      "raw_pivot_px": [
+        256.0,
+        438.8574981689453
+      ]
+    },
+    {
+      "frame": "clover_outer_round",
+      "raw": "art-source/v4/renders/new_props/clover_outer_round.png",
+      "raw_pivot_px": [
+        256.0,
+        256.00035095214844
+      ]
+    },
+    {
+      "frame": "clover_core_round",
+      "raw": "art-source/v4/renders/new_props/clover_core_round.png",
+      "raw_pivot_px": [
+        256.0,
+        256.00035095214844
+      ]
+    }
+  ]
+}

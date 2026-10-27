@@ -1,0 +1,186 @@
+{
+  "status": "C1b_POINT_REVIEW_PENDING",
+  "production_art_accepted": false,
+  "production_export_authorized": false,
+  "checks": [
+    {
+      "check": "unchanged_v2:sheep",
+      "status": "PASS"
+    },
+    {
+      "check": "same_native_mother:sheep",
+      "status": "PASS"
+    },
+    {
+      "check": "rgba512:sheep_front_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "rgba512:sheep_side_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "C1_native_archived:sheep",
+      "status": "PASS"
+    },
+    {
+      "check": "C1_samples_retained:sheepfront",
+      "status": "PASS"
+    },
+    {
+      "check": "C1_samples_retained:sheepside",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_v2:dog",
+      "status": "PASS"
+    },
+    {
+      "check": "same_native_mother:dog",
+      "status": "PASS"
+    },
+    {
+      "check": "rgba512:dog_front_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "rgba512:dog_side_512.png",
+      "status": "PASS"
+    },
+    {
+      "check": "C1_native_archived:dog",
+      "status": "PASS"
+    },
+    {
+      "check": "C1_samples_retained:dogfront",
+      "status": "PASS"
+    },
+    {
+      "check": "C1_samples_retained:dogside",
+      "status": "PASS"
+    }
+  ],
+  "actors": [
+    {
+      "actor": "sheep",
+      "source": "art-source/v2/sheep_master_v2.blend",
+      "source_sha256": "584a438a314099fd216d37d09dd523a4b44452f136fc479550e0457a1d1afa01",
+      "mother": "art-source/v4/sheep_master_v4.blend",
+      "mother_sha256": "417ef8043acb472f8a32c12f46bcce212c794a803c82fec788954c2c8ff69245",
+      "changes": {
+        "large_body_lobes": 54,
+        "body_small_lobes_hidden": 190,
+        "head_lobes": 27,
+        "horn_bevel": 0.086,
+        "macro_displace_removed": true,
+        "plush_fiber_length": 0.017,
+        "head_lowered": 0.04,
+        "retained_identity": [
+          "light face",
+          "red scarf",
+          "single gold bell"
+        ],
+        "stack_pose": "same mother, compact controller preset, no bitmap squash"
+      },
+      "renderer": "GPU",
+      "devices": [
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "CUDA",
+          "use": true
+        },
+        {
+          "name": "13th Gen Intel Core i5-13600KF",
+          "type": "CPU",
+          "use": false
+        },
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "OPTIX",
+          "use": false
+        }
+      ],
+      "samples": [
+        {
+          "path": "art-source/v4/samples-C1b/sheep_front_512.png",
+          "seconds": 3.544
+        },
+        {
+          "path": "art-source/v4/samples-C1b/sheep_side_512.png",
+          "seconds": 3.729
+        }
+      ],
+      "samples_with_hash": [
+        {
+          "path": "art-source/v4/samples-C1b/sheep_front_512.png",
+          "sha256": "7ce1f59ea7e89163e0a67f191cdf3f1a86a527fd6f1cc0df6c1c5013881f8d36",
+          "mother_sha256": "417ef8043acb472f8a32c12f46bcce212c794a803c82fec788954c2c8ff69245"
+        },
+        {
+          "path": "art-source/v4/samples-C1b/sheep_side_512.png",
+          "sha256": "4c749391369664fde14141c083bc984be2a046f1d5e004b7781e06e29d91e1d4",
+          "mother_sha256": "417ef8043acb472f8a32c12f46bcce212c794a803c82fec788954c2c8ff69245"
+        }
+      ]
+    },
+    {
+      "actor": "dog",
+      "source": "art-source/v2/dog_master_v2.blend",
+      "source_sha256": "11599aa7bd750d5c6a0f48b49e68244af437db550b9c223f6c1ef04c2b2787f4",
+      "mother": "art-source/v4/dog_master_v4.blend",
+      "mother_sha256": "5f6ad99af71435137654ec7f1d5fc4d03e9af66a7296979f078ae32f2a4a92ba",
+      "changes": {
+        "wider_head_chest": true,
+        "ear_mesh": "triangular half-pricked cartilage with forward/down fold at tip",
+        "ear_ellipsoid_removed": true,
+        "existing_controls_actions_retained": true
+      },
+      "renderer": "GPU",
+      "devices": [
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "CUDA",
+          "use": true
+        },
+        {
+          "name": "13th Gen Intel Core i5-13600KF",
+          "type": "CPU",
+          "use": false
+        },
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "OPTIX",
+          "use": false
+        }
+      ],
+      "samples": [
+        {
+          "path": "art-source/v4/samples-C1b/dog_front_512.png",
+          "seconds": 2.143
+        },
+        {
+          "path": "art-source/v4/samples-C1b/dog_side_512.png",
+          "seconds": 1.983
+        }
+      ],
+      "samples_with_hash": [
+        {
+          "path": "art-source/v4/samples-C1b/dog_front_512.png",
+          "sha256": "2339dda8107a594283fbd38c32a051c5961322ddecc58867601cc4fcdfef2a19",
+          "mother_sha256": "5f6ad99af71435137654ec7f1d5fc4d03e9af66a7296979f078ae32f2a4a92ba"
+        },
+        {
+          "path": "art-source/v4/samples-C1b/dog_side_512.png",
+          "sha256": "6f79f5354980c8b9f9bd03ecede812dcfd0cea6ed18949ea4cda7de1b5f2e2b5",
+          "mother_sha256": "5f6ad99af71435137654ec7f1d5fc4d03e9af66a7296979f078ae32f2a4a92ba"
+        }
+      ]
+    }
+  ],
+  "technical_status": "PASS",
+  "notes": [
+    "Only front/side512 point samples rendered; full animation and fresh stack alpha envelope await authorization.",
+    "C1 prior source/art remain archived; no runtime manifest or product source changed.",
+    "Next full export uses candidate world sizes stack64 runner56 herd sheep55 dog72, with same-class scale and measured envelope."
+  ]
+}

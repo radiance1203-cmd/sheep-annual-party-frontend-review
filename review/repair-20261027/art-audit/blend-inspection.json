@@ -1,0 +1,1293 @@
+{
+  "blender": "4.5.9 LTS",
+  "status": "READ_ONLY_NO_SAVE_NO_RENDER",
+  "records": [
+    {
+      "file": "art-source/v2/sheep_master_v2.blend",
+      "object_count": 340,
+      "actions": 66,
+      "collections": [
+        "CAMERAS",
+        "CHAR_DOG",
+        "CHAR_SHEEP",
+        "Collection",
+        "ENV_FARM",
+        "LIGHTS",
+        "RIGS"
+      ],
+      "body_tuft_count": 190,
+      "head_rear_tuft_count": 61,
+      "all_particle_systems": 263,
+      "camera": "side_v1",
+      "objects": [
+        {
+          "name": "body_wool",
+          "type": "MESH",
+          "parent": "sheep_body_ctrl",
+          "location": [
+            0.0,
+            -0.05999999865889549,
+            0.6200000047683716
+          ],
+          "scale": [
+            0.4099999964237213,
+            0.4050000011920929,
+            0.38999998569488525
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.820000171661377,
+            0.8100001215934753,
+            0.7799999713897705
+          ],
+          "hair_systems": 1,
+          "modifiers": [
+            "PARTICLE_SYSTEM"
+          ]
+        },
+        {
+          "name": "head_wool",
+          "type": "MESH",
+          "parent": "sheep_head_ctrl",
+          "location": [
+            0.0,
+            0.36000001430511475,
+            1.0499999523162842
+          ],
+          "scale": [
+            0.38999998569488525,
+            0.3100000023841858,
+            0.36000001430511475
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.7800001502037048,
+            0.6200000643730164,
+            0.7200000286102295
+          ],
+          "hair_systems": 1,
+          "modifiers": [
+            "PARTICLE_SYSTEM"
+          ]
+        },
+        {
+          "name": "face",
+          "type": "MESH",
+          "parent": "sheep_head_ctrl",
+          "location": [
+            0.0,
+            0.546999990940094,
+            1.0199999809265137
+          ],
+          "scale": [
+            0.3149999976158142,
+            0.22499999403953552,
+            0.29499998688697815
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.6300001740455627,
+            0.4500000476837158,
+            0.5899999737739563
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "sheep_head_ctrl",
+          "type": "EMPTY",
+          "parent": "sheep_body_ctrl",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "sheep_body_ctrl",
+          "type": "EMPTY",
+          "parent": "sheep_root",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "horn_curl_1",
+          "type": "CURVE",
+          "parent": "sheep_head_ctrl",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.346902459859848,
+            0.46216168999671936,
+            0.34788942337036133
+          ],
+          "hair_systems": 0,
+          "modifiers": [],
+          "bevel_depth": 0.061000000685453415
+        },
+        {
+          "name": "dog_body",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.0,
+            -0.10000000149011612,
+            0.5400000214576721
+          ],
+          "scale": [
+            0.25999999046325684,
+            0.47999998927116394,
+            0.28999999165534973
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.5200001001358032,
+            0.9600000977516174,
+            0.5799999833106995
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "dog_chest",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.0,
+            0.2199999988079071,
+            0.5699999928474426
+          ],
+          "scale": [
+            0.2800000011920929,
+            0.2199999988079071,
+            0.33000001311302185
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.5600001215934753,
+            0.440000057220459,
+            0.6600000262260437
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "dog_head",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.0,
+            0.3499999940395355,
+            0.9100000262260437
+          ],
+          "scale": [
+            0.24500000476837158,
+            0.23999999463558197,
+            0.25
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.4900001287460327,
+            0.4800000488758087,
+            0.5
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "dog_ear_1",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.20999999344348907,
+            0.2800000011920929,
+            1.0499999523162842
+          ],
+          "scale": [
+            0.11999999731779099,
+            0.12999999523162842,
+            0.23000000417232513
+          ],
+          "rotation": [
+            0.0,
+            0.4000000059604645,
+            0.0
+          ],
+          "dimensions": [
+            0.24000003933906555,
+            0.2600000202655792,
+            0.4599999785423279
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "side_v1",
+          "type": "CAMERA",
+          "parent": null,
+          "location": [
+            0.0,
+            -8.0,
+            1.399999976158142
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            1.3975508213043213,
+            -0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": [],
+          "ortho_scale": 4.0
+        },
+        {
+          "name": "iso8_v1",
+          "type": "CAMERA",
+          "parent": null,
+          "location": [
+            0.0,
+            -6.0,
+            6.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.7853980660438538,
+            -0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": [],
+          "ortho_scale": 4.5714287757873535
+        }
+      ]
+    },
+    {
+      "file": "art-source/v2/dog_master_v2.blend",
+      "object_count": 147,
+      "actions": 84,
+      "collections": [
+        "CAMERAS",
+        "CHAR_DOG",
+        "CHAR_SHEEP",
+        "Collection",
+        "ENV_FARM",
+        "LIGHTS",
+        "RIGS"
+      ],
+      "body_tuft_count": 45,
+      "head_rear_tuft_count": 0,
+      "all_particle_systems": 43,
+      "camera": "iso8_v1",
+      "objects": [
+        {
+          "name": "body_wool",
+          "type": "MESH",
+          "parent": "sheep_body_ctrl",
+          "location": [
+            0.0,
+            -0.05999999865889549,
+            0.6800000071525574
+          ],
+          "scale": [
+            0.41999998688697815,
+            0.550000011920929,
+            0.4699999988079071
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.8400001525878906,
+            1.1000001430511475,
+            0.9399999976158142
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "head_wool",
+          "type": "MESH",
+          "parent": "sheep_head_ctrl",
+          "location": [
+            0.0,
+            0.36000001430511475,
+            1.0499999523162842
+          ],
+          "scale": [
+            0.3700000047683716,
+            0.3100000023841858,
+            0.3499999940395355
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.7400001883506775,
+            0.6200000643730164,
+            0.699999988079071
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "face",
+          "type": "MESH",
+          "parent": "sheep_head_ctrl",
+          "location": [
+            0.0,
+            0.546999990940094,
+            1.0199999809265137
+          ],
+          "scale": [
+            0.2840000092983246,
+            0.20499999821186066,
+            0.2849999964237213
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.5680001378059387,
+            0.4100000560283661,
+            0.5699999928474426
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "sheep_head_ctrl",
+          "type": "EMPTY",
+          "parent": "sheep_body_ctrl",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "sheep_body_ctrl",
+          "type": "EMPTY",
+          "parent": "sheep_root",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "horn_curl_1",
+          "type": "CURVE",
+          "parent": "sheep_head_ctrl",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.18768687546253204,
+            0.38041558861732483,
+            0.3966561555862427
+          ],
+          "hair_systems": 0,
+          "modifiers": [],
+          "bevel_depth": 0.061000000685453415
+        },
+        {
+          "name": "dog_body",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.0,
+            -0.10000000149011612,
+            0.5400000214576721
+          ],
+          "scale": [
+            0.25999999046325684,
+            0.47999998927116394,
+            0.28999999165534973
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.5200001001358032,
+            0.9600000977516174,
+            0.5799999833106995
+          ],
+          "hair_systems": 1,
+          "modifiers": [
+            "PARTICLE_SYSTEM"
+          ]
+        },
+        {
+          "name": "dog_chest",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.0,
+            0.2199999988079071,
+            0.5699999928474426
+          ],
+          "scale": [
+            0.2800000011920929,
+            0.2199999988079071,
+            0.33000001311302185
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.5600001215934753,
+            0.440000057220459,
+            0.6600000262260437
+          ],
+          "hair_systems": 1,
+          "modifiers": [
+            "PARTICLE_SYSTEM"
+          ]
+        },
+        {
+          "name": "dog_head",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.0,
+            0.3499999940395355,
+            0.9100000262260437
+          ],
+          "scale": [
+            0.24500000476837158,
+            0.23999999463558197,
+            0.25
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.4900001287460327,
+            0.4800000488758087,
+            0.5
+          ],
+          "hair_systems": 1,
+          "modifiers": [
+            "PARTICLE_SYSTEM"
+          ]
+        },
+        {
+          "name": "dog_ear_1",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.22499999403953552,
+            0.30000001192092896,
+            0.9399999976158142
+          ],
+          "scale": [
+            0.11500000208616257,
+            0.11500000208616257,
+            0.2800000011920929
+          ],
+          "rotation": [
+            0.10000000149011612,
+            0.25,
+            0.0
+          ],
+          "dimensions": [
+            0.2300000637769699,
+            0.23000003397464752,
+            0.5600000023841858
+          ],
+          "hair_systems": 1,
+          "modifiers": [
+            "PARTICLE_SYSTEM"
+          ]
+        },
+        {
+          "name": "side_v1",
+          "type": "CAMERA",
+          "parent": null,
+          "location": [
+            0.0,
+            -8.0,
+            1.399999976158142
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            1.3975508213043213,
+            -0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": [],
+          "ortho_scale": 4.0
+        },
+        {
+          "name": "iso8_v1",
+          "type": "CAMERA",
+          "parent": null,
+          "location": [
+            0.0,
+            -6.0,
+            6.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.7853980660438538,
+            -0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": [],
+          "ortho_scale": 4.5714287757873535
+        }
+      ]
+    },
+    {
+      "file": "art-source/v2/farm_master_v2.blend",
+      "object_count": 332,
+      "actions": 84,
+      "collections": [
+        "CAMERAS",
+        "CHAR_DOG",
+        "CHAR_SHEEP",
+        "Collection",
+        "ENV_FARM",
+        "LIGHTS",
+        "RIGS"
+      ],
+      "body_tuft_count": 45,
+      "head_rear_tuft_count": 0,
+      "all_particle_systems": 0,
+      "camera": "iso8_v1",
+      "objects": [
+        {
+          "name": "body_wool",
+          "type": "MESH",
+          "parent": "sheep_body_ctrl",
+          "location": [
+            0.0,
+            -0.05999999865889549,
+            0.6800000071525574
+          ],
+          "scale": [
+            0.41999998688697815,
+            0.550000011920929,
+            0.4699999988079071
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.8400001525878906,
+            1.1000001430511475,
+            0.9399999976158142
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "head_wool",
+          "type": "MESH",
+          "parent": "sheep_head_ctrl",
+          "location": [
+            0.0,
+            0.36000001430511475,
+            1.0499999523162842
+          ],
+          "scale": [
+            0.3700000047683716,
+            0.3100000023841858,
+            0.3499999940395355
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.7400001883506775,
+            0.6200000643730164,
+            0.699999988079071
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "face",
+          "type": "MESH",
+          "parent": "sheep_head_ctrl",
+          "location": [
+            0.0,
+            0.546999990940094,
+            1.0199999809265137
+          ],
+          "scale": [
+            0.2840000092983246,
+            0.20499999821186066,
+            0.2849999964237213
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.5680001378059387,
+            0.4100000560283661,
+            0.5699999928474426
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "sheep_head_ctrl",
+          "type": "EMPTY",
+          "parent": "sheep_body_ctrl",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "sheep_body_ctrl",
+          "type": "EMPTY",
+          "parent": "sheep_root",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "horn_curl_1",
+          "type": "CURVE",
+          "parent": "sheep_head_ctrl",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.18768687546253204,
+            0.38041558861732483,
+            0.3966561555862427
+          ],
+          "hair_systems": 0,
+          "modifiers": [],
+          "bevel_depth": 0.061000000685453415
+        },
+        {
+          "name": "dog_body",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.0,
+            -0.10000000149011612,
+            0.5400000214576721
+          ],
+          "scale": [
+            0.25999999046325684,
+            0.47999998927116394,
+            0.28999999165534973
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.5200001001358032,
+            0.9600000977516174,
+            0.5799999833106995
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "dog_chest",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.0,
+            0.2199999988079071,
+            0.5699999928474426
+          ],
+          "scale": [
+            0.2800000011920929,
+            0.2199999988079071,
+            0.33000001311302185
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.5600001215934753,
+            0.440000057220459,
+            0.6600000262260437
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "dog_head",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.0,
+            0.3499999940395355,
+            0.9100000262260437
+          ],
+          "scale": [
+            0.24500000476837158,
+            0.23999999463558197,
+            0.25
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.4900001287460327,
+            0.4800000488758087,
+            0.5
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "dog_ear_1",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.20999999344348907,
+            0.2800000011920929,
+            1.0499999523162842
+          ],
+          "scale": [
+            0.11999999731779099,
+            0.12999999523162842,
+            0.23000000417232513
+          ],
+          "rotation": [
+            0.0,
+            0.4000000059604645,
+            0.0
+          ],
+          "dimensions": [
+            0.24000003933906555,
+            0.2600000202655792,
+            0.4599999785423279
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "hay_tray_root",
+          "type": "EMPTY",
+          "parent": null,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "hurdle_root",
+          "type": "EMPTY",
+          "parent": null,
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "clover_outer_root",
+          "type": "EMPTY",
+          "parent": null,
+          "location": [
+            0.0,
+            0.25,
+            0.20000000298023224
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            1.186823844909668,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "clover_core_root",
+          "type": "EMPTY",
+          "parent": null,
+          "location": [
+            0.0,
+            0.25,
+            0.20000000298023224
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            1.186823844909668,
+            0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": []
+        },
+        {
+          "name": "side_v1",
+          "type": "CAMERA",
+          "parent": null,
+          "location": [
+            0.0,
+            -8.0,
+            1.399999976158142
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            1.3975508213043213,
+            -0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": [],
+          "ortho_scale": 4.0
+        },
+        {
+          "name": "iso8_v1",
+          "type": "CAMERA",
+          "parent": null,
+          "location": [
+            0.0,
+            -6.0,
+            6.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.7853980660438538,
+            -0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": [],
+          "ortho_scale": 4.5714287757873535
+        }
+      ]
+    },
+    {
+      "file": "art-source/v3/backdrop_stack_v3.blend",
+      "object_count": 1124,
+      "actions": 0,
+      "collections": [
+        "SCENERY_STACK"
+      ],
+      "body_tuft_count": 0,
+      "head_rear_tuft_count": 0,
+      "all_particle_systems": 0,
+      "camera": "scenery_camera",
+      "objects": [
+        {
+          "name": "scenery_camera",
+          "type": "CAMERA",
+          "parent": null,
+          "location": [
+            0.0,
+            -12.0,
+            6.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            1.4777324199676514,
+            -0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": [],
+          "ortho_scale": 12.0
+        }
+      ]
+    },
+    {
+      "file": "art-source/v3/backdrop_runner_v3.blend",
+      "object_count": 1074,
+      "actions": 0,
+      "collections": [
+        "SCENERY_RUNNER"
+      ],
+      "body_tuft_count": 0,
+      "head_rear_tuft_count": 0,
+      "all_particle_systems": 0,
+      "camera": "scenery_camera",
+      "objects": [
+        {
+          "name": "scenery_camera",
+          "type": "CAMERA",
+          "parent": null,
+          "location": [
+            0.0,
+            -12.0,
+            6.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            1.4382449388504028,
+            -0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": [],
+          "ortho_scale": 12.0
+        }
+      ]
+    },
+    {
+      "file": "art-source/v3/backdrop_herd_v3.blend",
+      "object_count": 1081,
+      "actions": 0,
+      "collections": [
+        "SCENERY_HERD"
+      ],
+      "body_tuft_count": 0,
+      "head_rear_tuft_count": 0,
+      "all_particle_systems": 0,
+      "camera": "scenery_camera",
+      "objects": [
+        {
+          "name": "scenery_camera",
+          "type": "CAMERA",
+          "parent": null,
+          "location": [
+            0.0,
+            0.0,
+            18.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            0.0
+          ],
+          "dimensions": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "hair_systems": 0,
+          "modifiers": [],
+          "ortho_scale": 10.5
+        }
+      ]
+    }
+  ]
+}

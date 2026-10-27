@@ -1,0 +1,112 @@
+{
+  "at": "2026-10-27T10:01:56.447106+00:00",
+  "source_head": "9d652fb3fef2ede55ebc462d46445cc855b98dd1",
+  "rule_raw_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+  "canonical_rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+  "logic_seeds": {
+    "stack": 1,
+    "runner": 1,
+    "herd": 47
+  },
+  "immutable_source_files": [
+    {
+      "path": "packages/game-core/package.json",
+      "sha256": "d1f47c1627f47e057b01e41edc06bb0323ac98bd85921befa5e73e82043d5c28",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/build.ts",
+      "sha256": "92b924da11856d4d46586de8bd16aaa5597aad28a814b8120d3dd124eb0849fb",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/common.ts",
+      "sha256": "d4c757339272c1a77ca9e277a6b1069666f4c9d22c933c6bae5ee3670d22d105",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/contracts/adapter.ts",
+      "sha256": "e27a80cdeb51f5a91b8dfdff36f3857fda4042a61971e50a2ce8d651deab20dd",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/contracts/types.ts",
+      "sha256": "bc7251cbb4f38fbf7d511f3f210f60ea90446826750a3922be43bc1738f0ef58",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/games.ts",
+      "sha256": "b8f1f4cb542a660ecee661929c725693502b10347c441b075567d999e37629f5",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/index.ts",
+      "sha256": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/model.ts",
+      "sha256": "e40ad79a5998873ef437334fac6d7946ba9f076c5b36555c00b37614990e6b4d",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/rules.ts",
+      "sha256": "59d8fa6e607c9b1b35169ee4d79f3f555ed5c027ad7febb34cb460c10fca8f3d",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/snapshots.ts",
+      "sha256": "ce9b8c6fea5a968c2416b59d263790b8cc54d004944b3af502785f7cfcceb81c",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/test/core.test.ts",
+      "sha256": "0ac4dd81cb56598fd8ca8f2166e6004552d037613707638d0d20736387608b77",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/test/differential.test.ts",
+      "sha256": "ab68470893e8549574a3970a1471be902f49d9164f1f2783aacc49c0ad761bce",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/openapi.yaml",
+      "sha256": "76e3f54fcae9f308fc764981096cdb5b99e1864de643a725769847e52bbf6a2f",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/package.json",
+      "sha256": "4191ea1dccbb1892dbae369fa611429638862b4441eb42f92e0355767673a9c9",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/src/generated/api-types.ts",
+      "sha256": "8e8b1c4f075be9b563dfa158bda731bfe74fe4e04146d529ac730844e89e0b38",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/src/generated/schemas.ts",
+      "sha256": "acbaf5d64888ceadb4b0f9cac555ced1dc0d4a5980cef232563e012b7c13d0ef",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/src/index.ts",
+      "sha256": "c8342bfd4d468d8f919782e7dbd58ce1dd5b8183b5d2a88531fed17626435588",
+      "unchanged": true
+    },
+    {
+      "path": "config/game_rules.v2.1.json",
+      "sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "unchanged": true
+    },
+    {
+      "path": "rules/9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40.json",
+      "sha256": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+      "unchanged": true
+    }
+  ],
+  "backend_tracked_diff": "",
+  "asset_manifest_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "production_art_accepted": false,
+  "protected_tracked_diff": ""
+}

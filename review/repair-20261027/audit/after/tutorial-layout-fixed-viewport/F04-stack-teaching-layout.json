@@ -1,0 +1,458 @@
+{
+  "id": "F04-stack-teaching-layout",
+  "pass": true,
+  "error": null,
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/ui/icon_home.svg",
+    "/assets/ui/icon_leaderboard.svg",
+    "/assets/ui/icon_gift.svg",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_side_v2.atlas.json",
+    "/assets/characters/sheep_side_v2.png",
+    "/assets/environment/farm_side_v2.atlas.json",
+    "/assets/environment/farm_side_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_stack_v3.atlas.json",
+    "/assets/environment/backdrop_stack_v3.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": null,
+    "acceptedActions": null,
+    "decode": {
+      "started": 4,
+      "succeeded": 4,
+      "images": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/a9f06c0b-35ba-4be8-bb38-db655d804ad6"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/50ad7bfe-622d-4bf5-a92b-8be00f9b0d61"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/ec251af8-8575-46ff-88d0-a51d3a4ad8db"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "source": "blob:http://127.0.0.1:5175/66c1b48b-9c5d-4e27-8d07-bf0e953e8b05"
+        }
+      ],
+      "hold": false
+    },
+    "eventTrace": [],
+    "hidden": false,
+    "focused": true,
+    "canvas": [
+      {
+        "width": 360,
+        "height": 480,
+        "rect": {
+          "x": 34,
+          "y": 208.6875,
+          "width": 253.984375,
+          "height": 338.65625,
+          "top": 208.6875,
+          "right": 287.984375,
+          "bottom": 547.34375,
+          "left": 34
+        }
+      }
+    ],
+    "body": "♧ 牧场\n界面状态验收夹具\n状态夹具参与者\n✦ 正式挑战中\n羊羊叠高高\n\n教学演示 · 不占正式机会、不入账\n\n暂停演示\n点击放羊，托盘对齐才稳\n\n每叠稳一层 +2，完美再 +2。完整托盘一直保留；20 层、3 次失误或时间到自然结束。\n\n练习不占正式机会，也不会产生正式积分。正式局在预约成功后立即使用 1 次机会，3 秒后开赛；返回或放弃仍消耗本次机会。\n\n12 秒教程 · 第 1 步\n\n先看上方托盘左右移动，等它接近下方托盘。\n跳过教程，先练习\n正式挑战 · 使用 1 次机会\n返回大厅\n游园会\n荣誉榜\n兑换礼品",
+    "dpr": 1,
+    "viewport": {
+      "width": 320,
+      "height": 568
+    }
+  },
+  "extra": [
+    {
+      "viewport": 320,
+      "scrollWidth": 320,
+      "art": {
+        "x": 33,
+        "y": 207.6875,
+        "width": 254,
+        "height": 434.65625,
+        "top": 207.6875,
+        "right": 287,
+        "bottom": 642.34375,
+        "left": 33
+      },
+      "teaching": {
+        "x": 33,
+        "y": 207.6875,
+        "width": 254,
+        "height": 434.65625,
+        "top": 207.6875,
+        "right": 287,
+        "bottom": 642.34375,
+        "left": 33
+      },
+      "canvas": {
+        "x": 34,
+        "y": 208.6875,
+        "width": 253.984375,
+        "height": 338.65625,
+        "top": 208.6875,
+        "right": 287.984375,
+        "bottom": 547.34375,
+        "left": 34
+      },
+      "following": {
+        "x": 33,
+        "y": 658.34375,
+        "width": 254,
+        "height": 27,
+        "top": 658.34375,
+        "right": 287,
+        "bottom": 685.34375,
+        "left": 33
+      },
+      "copy": [
+        {
+          "text": "教学演示 · 不占正式机会、不入账",
+          "font": 16,
+          "rect": {
+            "x": 33,
+            "y": 554.34375,
+            "width": 254,
+            "height": 24,
+            "top": 554.34375,
+            "right": 287,
+            "bottom": 578.34375,
+            "left": 33
+          }
+        },
+        {
+          "text": "暂停演示",
+          "font": 16,
+          "rect": {
+            "x": 33,
+            "y": 586.34375,
+            "width": 102,
+            "height": 56,
+            "top": 586.34375,
+            "right": 135,
+            "bottom": 642.34375,
+            "left": 33
+          }
+        }
+      ]
+    },
+    {
+      "viewport": 360,
+      "scrollWidth": 360,
+      "art": {
+        "x": 33,
+        "y": 207.6875,
+        "width": 294,
+        "height": 488,
+        "top": 207.6875,
+        "right": 327,
+        "bottom": 695.6875,
+        "left": 33
+      },
+      "teaching": {
+        "x": 33,
+        "y": 207.6875,
+        "width": 294,
+        "height": 488,
+        "top": 207.6875,
+        "right": 327,
+        "bottom": 695.6875,
+        "left": 33
+      },
+      "canvas": {
+        "x": 34,
+        "y": 208.6875,
+        "width": 294,
+        "height": 392,
+        "top": 208.6875,
+        "right": 328,
+        "bottom": 600.6875,
+        "left": 34
+      },
+      "following": {
+        "x": 33,
+        "y": 711.6875,
+        "width": 294,
+        "height": 27,
+        "top": 711.6875,
+        "right": 327,
+        "bottom": 738.6875,
+        "left": 33
+      },
+      "copy": [
+        {
+          "text": "教学演示 · 不占正式机会、不入账",
+          "font": 16,
+          "rect": {
+            "x": 33,
+            "y": 607.6875,
+            "width": 294,
+            "height": 24,
+            "top": 607.6875,
+            "right": 327,
+            "bottom": 631.6875,
+            "left": 33
+          }
+        },
+        {
+          "text": "暂停演示",
+          "font": 16,
+          "rect": {
+            "x": 33,
+            "y": 639.6875,
+            "width": 102,
+            "height": 56,
+            "top": 639.6875,
+            "right": 135,
+            "bottom": 695.6875,
+            "left": 33
+          }
+        }
+      ]
+    },
+    {
+      "viewport": 390,
+      "scrollWidth": 390,
+      "art": {
+        "x": 33,
+        "y": 207.6875,
+        "width": 324,
+        "height": 528,
+        "top": 207.6875,
+        "right": 357,
+        "bottom": 735.6875,
+        "left": 33
+      },
+      "teaching": {
+        "x": 33,
+        "y": 207.6875,
+        "width": 324,
+        "height": 528,
+        "top": 207.6875,
+        "right": 357,
+        "bottom": 735.6875,
+        "left": 33
+      },
+      "canvas": {
+        "x": 34,
+        "y": 208.6875,
+        "width": 324,
+        "height": 432,
+        "top": 208.6875,
+        "right": 358,
+        "bottom": 640.6875,
+        "left": 34
+      },
+      "following": {
+        "x": 33,
+        "y": 751.6875,
+        "width": 324,
+        "height": 27,
+        "top": 751.6875,
+        "right": 357,
+        "bottom": 778.6875,
+        "left": 33
+      },
+      "copy": [
+        {
+          "text": "教学演示 · 不占正式机会、不入账",
+          "font": 16,
+          "rect": {
+            "x": 33,
+            "y": 647.6875,
+            "width": 324,
+            "height": 24,
+            "top": 647.6875,
+            "right": 357,
+            "bottom": 671.6875,
+            "left": 33
+          }
+        },
+        {
+          "text": "暂停演示",
+          "font": 16,
+          "rect": {
+            "x": 33,
+            "y": 679.6875,
+            "width": 102,
+            "height": 56,
+            "top": 679.6875,
+            "right": 135,
+            "bottom": 735.6875,
+            "left": 33
+          }
+        }
+      ]
+    },
+    {
+      "viewport": 430,
+      "scrollWidth": 430,
+      "art": {
+        "x": 33,
+        "y": 207.6875,
+        "width": 364,
+        "height": 581.328125,
+        "top": 207.6875,
+        "right": 397,
+        "bottom": 789.015625,
+        "left": 33
+      },
+      "teaching": {
+        "x": 33,
+        "y": 207.6875,
+        "width": 364,
+        "height": 581.328125,
+        "top": 207.6875,
+        "right": 397,
+        "bottom": 789.015625,
+        "left": 33
+      },
+      "canvas": {
+        "x": 34,
+        "y": 208.6875,
+        "width": 363.984375,
+        "height": 485.328125,
+        "top": 208.6875,
+        "right": 397.984375,
+        "bottom": 694.015625,
+        "left": 34
+      },
+      "following": {
+        "x": 33,
+        "y": 805.015625,
+        "width": 364,
+        "height": 27,
+        "top": 805.015625,
+        "right": 397,
+        "bottom": 832.015625,
+        "left": 33
+      },
+      "copy": [
+        {
+          "text": "教学演示 · 不占正式机会、不入账",
+          "font": 16,
+          "rect": {
+            "x": 33,
+            "y": 701.015625,
+            "width": 364,
+            "height": 24,
+            "top": 701.015625,
+            "right": 397,
+            "bottom": 725.015625,
+            "left": 33
+          }
+        },
+        {
+          "text": "暂停演示",
+          "font": 16,
+          "rect": {
+            "x": 33,
+            "y": 733.015625,
+            "width": 102,
+            "height": 56,
+            "top": 733.015625,
+            "right": 135,
+            "bottom": 789.015625,
+            "left": 33
+          }
+        }
+      ]
+    },
+    {
+      "viewport": 320,
+      "scrollWidth": 320,
+      "art": {
+        "x": 33,
+        "y": 207.6875,
+        "width": 254,
+        "height": 434.65625,
+        "top": 207.6875,
+        "right": 287,
+        "bottom": 642.34375,
+        "left": 33
+      },
+      "teaching": {
+        "x": 33,
+        "y": 207.6875,
+        "width": 254,
+        "height": 434.65625,
+        "top": 207.6875,
+        "right": 287,
+        "bottom": 642.34375,
+        "left": 33
+      },
+      "canvas": {
+        "x": 34,
+        "y": 208.6875,
+        "width": 253.984375,
+        "height": 338.65625,
+        "top": 208.6875,
+        "right": 287.984375,
+        "bottom": 547.34375,
+        "left": 34
+      },
+      "following": {
+        "x": 33,
+        "y": 658.34375,
+        "width": 254,
+        "height": 27,
+        "top": 658.34375,
+        "right": 287,
+        "bottom": 685.34375,
+        "left": 33
+      },
+      "copy": [
+        {
+          "text": "教学演示 · 不占正式机会、不入账",
+          "font": 16,
+          "rect": {
+            "x": 33,
+            "y": 554.34375,
+            "width": 254,
+            "height": 24,
+            "top": 554.34375,
+            "right": 287,
+            "bottom": 578.34375,
+            "left": 33
+          }
+        },
+        {
+          "text": "暂停演示",
+          "font": 16,
+          "rect": {
+            "x": 33,
+            "y": 586.34375,
+            "width": 102,
+            "height": 56,
+            "top": 586.34375,
+            "right": 135,
+            "bottom": 642.34375,
+            "left": 33
+          }
+        }
+      ]
+    }
+  ]
+}

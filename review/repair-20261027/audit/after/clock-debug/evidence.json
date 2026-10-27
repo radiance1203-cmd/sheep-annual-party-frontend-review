@@ -1,0 +1,1704 @@
+{
+  "at": "2026-10-27T08:19:49.338Z",
+  "scope": "Read-only sampled production clock export and stored actual runtime input log in fully isolated API fixture",
+  "events": [
+    {
+      "at": 1793089185447,
+      "navigation": "http://127.0.0.1:5175/#/play/herd"
+    },
+    {
+      "at": 1793089185527,
+      "console": "[vite] connecting..."
+    },
+    {
+      "at": 1793089185542,
+      "console": "[vite] connected."
+    }
+  ],
+  "evidence": [
+    {
+      "label": "beforeRight",
+      "url": "http://127.0.0.1:5175/#/play/herd",
+      "wall": 1793089187514,
+      "monotonic": 2085.7000000029802,
+      "server": 1793089187509.0999,
+      "playStart": "2026-10-27T08:19:46.916Z",
+      "processedTick": 17,
+      "clockTick": 17,
+      "inputs": [],
+      "hidden": false,
+      "active": "BODY",
+      "dialog": false
+    },
+    {
+      "label": "afterRightImmediate",
+      "url": "http://127.0.0.1:5175/#/play/herd",
+      "wall": 1793089187529,
+      "monotonic": 2100.4000000059605,
+      "server": 1793089187523.7998,
+      "playStart": "2026-10-27T08:19:46.916Z",
+      "processedTick": 17,
+      "clockTick": 18,
+      "inputs": [],
+      "hidden": false,
+      "active": "BODY",
+      "dialog": false
+    },
+    {
+      "label": "afterRight300ms",
+      "url": "http://127.0.0.1:5175/#/play/herd",
+      "wall": 1793089187849,
+      "monotonic": 2421.2000000029802,
+      "server": 1793089187844.5999,
+      "playStart": "2026-10-27T08:19:46.916Z",
+      "processedTick": 27,
+      "clockTick": 27,
+      "inputs": [
+        {
+          "tick": 18,
+          "seq": 1,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 19,
+          "seq": 2,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 20,
+          "seq": 3,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 21,
+          "seq": 4,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 22,
+          "seq": 5,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 23,
+          "seq": 6,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 24,
+          "seq": 7,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 25,
+          "seq": 8,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 26,
+          "seq": 9,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 27,
+          "seq": 10,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        }
+      ],
+      "hidden": false,
+      "active": "BODY",
+      "dialog": false
+    },
+    {
+      "label": "afterSpaceImmediate",
+      "url": "http://127.0.0.1:5175/#/play/herd",
+      "wall": 1793089187861,
+      "monotonic": 2433.2999999970198,
+      "server": 1793089187856.7,
+      "playStart": "2026-10-27T08:19:46.916Z",
+      "processedTick": 27,
+      "clockTick": 28,
+      "inputs": [
+        {
+          "tick": 18,
+          "seq": 1,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 19,
+          "seq": 2,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 20,
+          "seq": 3,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 21,
+          "seq": 4,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 22,
+          "seq": 5,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 23,
+          "seq": 6,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 24,
+          "seq": 7,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 25,
+          "seq": 8,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 26,
+          "seq": 9,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 27,
+          "seq": 10,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        }
+      ],
+      "hidden": false,
+      "active": "BODY",
+      "dialog": false
+    },
+    {
+      "label": "afterSpace300ms",
+      "url": "http://127.0.0.1:5175/#/play/herd",
+      "wall": 1793089188169,
+      "monotonic": 2741.0999999940395,
+      "server": 1793089188164.5,
+      "playStart": "2026-10-27T08:19:46.916Z",
+      "processedTick": 36,
+      "clockTick": 37,
+      "inputs": [
+        {
+          "tick": 18,
+          "seq": 1,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 19,
+          "seq": 2,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 20,
+          "seq": 3,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 21,
+          "seq": 4,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 22,
+          "seq": 5,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 23,
+          "seq": 6,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 24,
+          "seq": 7,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 25,
+          "seq": 8,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 26,
+          "seq": 9,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 27,
+          "seq": 10,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 28,
+          "seq": 11,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 28,
+          "seq": 12,
+          "type": "BARK",
+          "value": null
+        },
+        {
+          "tick": 29,
+          "seq": 13,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 30,
+          "seq": 14,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 31,
+          "seq": 15,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 32,
+          "seq": 16,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 33,
+          "seq": 17,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 34,
+          "seq": 18,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 35,
+          "seq": 19,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 36,
+          "seq": 20,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        }
+      ],
+      "hidden": false,
+      "active": "BODY",
+      "dialog": false
+    },
+    {
+      "label": "afterUpImmediate",
+      "url": "http://127.0.0.1:5175/#/play/herd",
+      "wall": 1793089188199,
+      "monotonic": 2770.4000000059605,
+      "server": 1793089188193.7998,
+      "playStart": "2026-10-27T08:19:46.916Z",
+      "processedTick": 38,
+      "clockTick": 38,
+      "inputs": [
+        {
+          "tick": 18,
+          "seq": 1,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 19,
+          "seq": 2,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 20,
+          "seq": 3,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 21,
+          "seq": 4,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 22,
+          "seq": 5,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 23,
+          "seq": 6,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 24,
+          "seq": 7,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 25,
+          "seq": 8,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 26,
+          "seq": 9,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 27,
+          "seq": 10,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 28,
+          "seq": 11,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 28,
+          "seq": 12,
+          "type": "BARK",
+          "value": null
+        },
+        {
+          "tick": 29,
+          "seq": 13,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 30,
+          "seq": 14,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 31,
+          "seq": 15,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 32,
+          "seq": 16,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 33,
+          "seq": 17,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 34,
+          "seq": 18,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 35,
+          "seq": 19,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 36,
+          "seq": 20,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 37,
+          "seq": 21,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 38,
+          "seq": 22,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        }
+      ],
+      "hidden": false,
+      "active": "BODY",
+      "dialog": false
+    },
+    {
+      "label": "afterUp300ms",
+      "url": "http://127.0.0.1:5175/#/play/herd",
+      "wall": 1793089188515,
+      "monotonic": 3086.7000000029802,
+      "server": 1793089188510.0999,
+      "playStart": "2026-10-27T08:19:46.916Z",
+      "processedTick": 47,
+      "clockTick": 47,
+      "inputs": [
+        {
+          "tick": 18,
+          "seq": 1,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 19,
+          "seq": 2,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 20,
+          "seq": 3,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 21,
+          "seq": 4,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 22,
+          "seq": 5,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 23,
+          "seq": 6,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 24,
+          "seq": 7,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 25,
+          "seq": 8,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 26,
+          "seq": 9,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 27,
+          "seq": 10,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 28,
+          "seq": 11,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 28,
+          "seq": 12,
+          "type": "BARK",
+          "value": null
+        },
+        {
+          "tick": 29,
+          "seq": 13,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 30,
+          "seq": 14,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 31,
+          "seq": 15,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 32,
+          "seq": 16,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 33,
+          "seq": 17,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 34,
+          "seq": 18,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 35,
+          "seq": 19,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 36,
+          "seq": 20,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 37,
+          "seq": 21,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 38,
+          "seq": 22,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 39,
+          "seq": 23,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 40,
+          "seq": 24,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 41,
+          "seq": 25,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 42,
+          "seq": 26,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 43,
+          "seq": 27,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 44,
+          "seq": 28,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 45,
+          "seq": 29,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 46,
+          "seq": 30,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 47,
+          "seq": 31,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        }
+      ],
+      "hidden": false,
+      "active": "BODY",
+      "dialog": false
+    },
+    {
+      "label": "afterReleaseUp300ms",
+      "url": "http://127.0.0.1:5175/#/play/herd",
+      "wall": 1793089188831,
+      "monotonic": 3403.2000000029802,
+      "server": 1793089188826.5999,
+      "playStart": "2026-10-27T08:19:46.916Z",
+      "processedTick": 56,
+      "clockTick": 57,
+      "inputs": [
+        {
+          "tick": 18,
+          "seq": 1,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 19,
+          "seq": 2,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 20,
+          "seq": 3,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 21,
+          "seq": 4,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 22,
+          "seq": 5,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 23,
+          "seq": 6,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 24,
+          "seq": 7,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 25,
+          "seq": 8,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 26,
+          "seq": 9,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 27,
+          "seq": 10,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 28,
+          "seq": 11,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 28,
+          "seq": 12,
+          "type": "BARK",
+          "value": null
+        },
+        {
+          "tick": 29,
+          "seq": 13,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 30,
+          "seq": 14,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 31,
+          "seq": 15,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 32,
+          "seq": 16,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 33,
+          "seq": 17,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 34,
+          "seq": 18,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 35,
+          "seq": 19,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 36,
+          "seq": 20,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 37,
+          "seq": 21,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 38,
+          "seq": 22,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 39,
+          "seq": 23,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 40,
+          "seq": 24,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 41,
+          "seq": 25,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 42,
+          "seq": 26,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 43,
+          "seq": 27,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 44,
+          "seq": 28,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 45,
+          "seq": 29,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 46,
+          "seq": 30,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 47,
+          "seq": 31,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 48,
+          "seq": 32,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 49,
+          "seq": 33,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 50,
+          "seq": 34,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 51,
+          "seq": 35,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 52,
+          "seq": 36,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 53,
+          "seq": 37,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 54,
+          "seq": 38,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 55,
+          "seq": 39,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 56,
+          "seq": 40,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        }
+      ],
+      "hidden": false,
+      "active": "BODY",
+      "dialog": false
+    },
+    {
+      "label": "afterReleaseRight300ms",
+      "url": "http://127.0.0.1:5175/#/play/herd",
+      "wall": 1793089189153,
+      "monotonic": 3724.4000000059605,
+      "server": 1793089189147.7998,
+      "playStart": "2026-10-27T08:19:46.916Z",
+      "processedTick": 66,
+      "clockTick": 66,
+      "inputs": [
+        {
+          "tick": 18,
+          "seq": 1,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 19,
+          "seq": 2,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 20,
+          "seq": 3,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 21,
+          "seq": 4,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 22,
+          "seq": 5,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 23,
+          "seq": 6,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 24,
+          "seq": 7,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 25,
+          "seq": 8,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 26,
+          "seq": 9,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 27,
+          "seq": 10,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 28,
+          "seq": 11,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 28,
+          "seq": 12,
+          "type": "BARK",
+          "value": null
+        },
+        {
+          "tick": 29,
+          "seq": 13,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 30,
+          "seq": 14,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 31,
+          "seq": 15,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 32,
+          "seq": 16,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 33,
+          "seq": 17,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 34,
+          "seq": 18,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 35,
+          "seq": 19,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 36,
+          "seq": 20,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 37,
+          "seq": 21,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 38,
+          "seq": 22,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 39,
+          "seq": 23,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 40,
+          "seq": 24,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 41,
+          "seq": 25,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 42,
+          "seq": 26,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 43,
+          "seq": 27,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 44,
+          "seq": 28,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 45,
+          "seq": 29,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 46,
+          "seq": 30,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 47,
+          "seq": 31,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 48,
+          "seq": 32,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": -1000
+          }
+        },
+        {
+          "tick": 49,
+          "seq": 33,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 50,
+          "seq": 34,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 51,
+          "seq": 35,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 52,
+          "seq": 36,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 53,
+          "seq": 37,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 54,
+          "seq": 38,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 55,
+          "seq": 39,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 56,
+          "seq": 40,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 57,
+          "seq": 41,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        }
+      ],
+      "hidden": false,
+      "active": "BODY",
+      "dialog": false
+    }
+  ]
+}

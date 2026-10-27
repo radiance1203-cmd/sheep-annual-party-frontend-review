@@ -1,0 +1,121 @@
+{
+  "environment": "isolated Chromium, API fixtures only; no real business POST / physical camera / PostgreSQL",
+  "results": [
+    {
+      "id": "F12-503-retry",
+      "pass": true
+    },
+    {
+      "id": "F13-check-in-admission",
+      "pass": true
+    },
+    {
+      "id": "F14-gift-image-failure",
+      "pass": true
+    },
+    {
+      "id": "F15-recovery-targets",
+      "pass": true
+    },
+    {
+      "id": "F16-order-qr",
+      "pass": true
+    },
+    {
+      "id": "F16-upload-and-lookup",
+      "pass": true
+    },
+    {
+      "id": "F12-first-slow-identity",
+      "pass": true
+    },
+    {
+      "id": "F12-unauthenticated",
+      "pass": true
+    },
+    {
+      "id": "F12-poll-failure-disables-redeem",
+      "pass": true
+    },
+    {
+      "id": "F13-playing",
+      "pass": true
+    },
+    {
+      "id": "F13-draining-grant",
+      "pass": true
+    },
+    {
+      "id": "F13-draining-no-grant",
+      "pass": true
+    },
+    {
+      "id": "F13-no-slots",
+      "pass": true
+    },
+    {
+      "id": "F13-active",
+      "pass": true
+    },
+    {
+      "id": "F16-token-state-frozen-true",
+      "pass": true
+    },
+    {
+      "id": "F16-token-state-expired-true",
+      "pass": true
+    },
+    {
+      "id": "F16-token-state-orderStatus-CLAIMED",
+      "pass": true
+    },
+    {
+      "id": "F16-token-state-orderStatus-CANCELLED",
+      "pass": true
+    },
+    {
+      "id": "F16-camera-unavailable-and-invalid-image",
+      "pass": true
+    },
+    {
+      "id": "F16-confirm-unknown-query-duplicate",
+      "pass": true
+    },
+    {
+      "id": "F14-unconfigured-missing-decode-retry-key-switch",
+      "pass": true
+    },
+    {
+      "id": "F16-controlled-camera-decode",
+      "pass": true
+    },
+    {
+      "id": "F16-controlled-camera-closed-pending",
+      "pass": true
+    },
+    {
+      "id": "F16-controlled-camera-disabled-pending",
+      "pass": true
+    },
+    {
+      "id": "F16-controlled-camera-unmounted-pending",
+      "pass": true
+    },
+    {
+      "id": "F16-controlled-camera-disabled-running",
+      "pass": true
+    },
+    {
+      "id": "F16-controlled-camera-permission-denied",
+      "pass": true
+    },
+    {
+      "id": "F12-running-session-survives-identity-503",
+      "pass": true
+    },
+    {
+      "id": "F16-identity-recovery-retains-claim-key",
+      "pass": true
+    }
+  ]
+}

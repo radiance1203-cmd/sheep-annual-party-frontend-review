@@ -1,0 +1,164 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "unchanged_input:config/game_rules.v2.1.json",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_input:apps/web/public/assets/asset-manifest.v1.json",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_input:art-source/render_plan.json",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_input:art-source/v2/dog_master_v2.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_input:art-source/v2/farm_master_v2.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_input:art-source/v2/sheep_master_v2.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_input:art-source/v3/backdrop_herd_v3.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_input:art-source/v3/backdrop_runner_v3.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "unchanged_input:art-source/v3/backdrop_stack_v3.blend",
+      "status": "PASS"
+    },
+    {
+      "check": "decode:current-sheep-four-views.png",
+      "status": "PASS"
+    },
+    {
+      "check": "decode:current-dog-four-views.png",
+      "status": "PASS"
+    },
+    {
+      "check": "decode:current-320-390-css-size.png",
+      "status": "PASS"
+    },
+    {
+      "check": "decode:stack-44-spacing-diagnostic.png",
+      "status": "PASS"
+    },
+    {
+      "check": "decode:current-props-bounds.png",
+      "status": "PASS"
+    },
+    {
+      "check": "282_frames_measured",
+      "status": "PASS"
+    },
+    {
+      "check": "8_css_calibrations",
+      "status": "PASS"
+    },
+    {
+      "check": "acceptance_remains_false",
+      "status": "PASS"
+    },
+    {
+      "check": "6_native_sources_inspected_read_only",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:ART_AUDIT_AND_V4_PLAN.md",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:asset-measurements.json",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:blend-inspection.json",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:../../../visual-repair-v1/references/character_foundation_board.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:current-sheep-four-views.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:current-dog-four-views.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:current-320-390-css-size.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:stack-44-spacing-diagnostic.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:current-props-bounds.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:../../../visual-repair-v1/references/01_stack.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:../../../output/visual-repair-v1/games-v3/GC-01-390-first.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:../../../output/visual-repair-v1/games-v3/GC-01-320-first.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:../../../visual-repair-v1/references/02_runner.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:../../../output/visual-repair-v1/games-v3/GC-02-390-first.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:../../../output/visual-repair-v1/games-v3/GC-02-320-first.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:../../../visual-repair-v1/references/03_herd.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:../../../output/visual-repair-v1/games-v3/GC-03-390-first.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:../../../output/visual-repair-v1/games-v3/GC-03-320-first.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:../../../art-source/v3/preview_stack_360.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:../../../art-source/v3/preview_runner_360.png",
+      "status": "PASS"
+    },
+    {
+      "check": "html_local_link:../../../art-source/v3/preview_herd_360.png",
+      "status": "PASS"
+    }
+  ],
+  "production_art_accepted": false,
+  "real_device_test": "NOT_RUN",
+  "note": "Audit integrity only; no visual acceptance claim."
+}

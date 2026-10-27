@@ -1,28 +1,61 @@
 {
-  "generated_at": "2026-10-27T06:58:37.351237+00:00",
-  "environment": "separate frontend snapshot; Vite127.0.0.1:5176; no API server included",
-  "install": "PASS npm ci --ignore-scripts --offline; lock cleaned of extraneous server workspace and ci dry-run validated",
-  "typecheck": "PASS",
-  "build": "PASS (existing Phaser large chunk warning retained)",
+  "generated_at": "2026-10-27T10:58:23.948879+00:00",
+  "scope": "frontend-only repaired review snapshot, actual checks here distinct from full original project evidence",
+  "repository": "radiance1203-cmd/sheep-annual-party-frontend-review",
+  "previous_review_commit": "6e8e40c1c13ebbaa96c26548c4491d54d4e438da",
+  "manifest_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "art_version": "art-1.4.0-visual-repair",
+  "install": "PASS npm ci --ignore-scripts --offline",
+  "typecheck": "PASS exit0",
+  "build": "PASS exit0; renderer chunk warning retained",
   "tests": {
-    "PASS": 223,
-    "FAIL": 0,
+    "passed": 252,
+    "failed": 0,
+    "test_files": 12,
     "core": 196,
-    "web": 27
+    "web": 56,
+    "backend": 0
   },
-  "contract_check": "PASS",
-  "rules_check": "PASS",
-  "standalone_view_recapture": {
-    "lobby_groups": 20,
-    "game_groups": 12,
-    "browser_api_writes": 0,
-    "real_backend": false,
-    "fixture_only": true
+  "contracts": "PASS exit0",
+  "rules": "PASS exit0",
+  "current_capture_helpers": {
+    "status": "PASS",
+    "origin": "http://127.0.0.1:5176",
+    "pages": 28,
+    "games": 12,
+    "api_mutations": 0,
+    "page_errors": 0,
+    "independent_backend": false,
+    "scope": "real frontend snapshot components/resources; schema fixtures and real-core restored prefix; not real business acceptance"
   },
-  "current_formal_art_status": "REVIEW; not changed by uploading",
-  "backend_acceptance": "NOT_RUN in frontend snapshot; backend not uploaded",
-  "screenshot_provenance": "review/screenshots are original project captures; standalone recapture successfully re-executed in ignored output/",
-  "code_source_byte_integrity": "PASS; see export-integrity.json",
+  "original_project_evidence": {
+    "unit_tests": 352,
+    "real_game_ui_checks": 36,
+    "real_claim_checks": 15,
+    "backend_included_in_snapshot": false,
+    "not_rerun_here": true,
+    "controlled_clock_not_human": true
+  },
+  "production_art_accepted": false,
+  "G5": "REVIEW",
+  "G6": "BLOCKED",
+  "physical_device": "NOT_RUN",
+  "human24_216": "NOT_RUN",
+  "onsite": "NOT_RUN",
   "private_files_excluded": true,
-  "staged_whitespace_check": "One pre-existing EOF blank line in apps/web/src/game/assets.test.ts:101; exact source preserved. No product code changed for upload."
+  "independent_upload_audit": "PASS see independent-upload-audit.json; privacy/runtime assets/source/entry links",
+  "source_copy_integrity": "PASS",
+  "archived_manifests_verified": 3,
+  "private_runtime_files": 0,
+  "git_diff_whitespace_check": {
+    "status": "FAIL",
+    "scope": "five unchanged raw diagnostic log files have trailing whitespace or blank EOF; source code check has no findings; logs retained as evidence without rewriting",
+    "files": [
+      "review/repair-20261027/final-build.txt",
+      "review/repair-20261027/final-typecheck.txt",
+      "review/repair-20261027/runtime/art-profile-red.txt",
+      "review/repair-20261027/runtime/keyboard-red.txt",
+      "review/repair-20261027/runtime/props-fit-red.txt"
+    ]
+  }
 }

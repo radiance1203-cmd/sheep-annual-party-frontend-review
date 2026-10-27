@@ -1,0 +1,315 @@
+{
+  "id": "F11-stack-action-Space-once",
+  "pass": true,
+  "error": null,
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    },
+    {
+      "path": "/api/sessions/cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_side_v2.atlas.json",
+    "/assets/characters/sheep_side_v2.png",
+    "/assets/environment/farm_side_v2.atlas.json",
+    "/assets/environment/farm_side_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_stack_v3.atlas.json",
+    "/assets/environment/backdrop_stack_v3.png",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_side_v2.atlas.json",
+    "/assets/characters/sheep_side_v2.png",
+    "/assets/environment/farm_side_v2.atlas.json",
+    "/assets/environment/farm_side_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_stack_v3.atlas.json",
+    "/assets/environment/backdrop_stack_v3.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": "15",
+    "acceptedActions": "1",
+    "decode": {
+      "started": 8,
+      "succeeded": 8,
+      "images": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/58978f2d-9ed6-44dc-a2ef-34fc317e2d16"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/96391108-0bd4-4bd0-af65-a6a645ba397d"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/87e0d0eb-b236-4825-ae81-2f11d9832bba"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "source": "blob:http://127.0.0.1:5175/01700e5e-80ac-4f79-a599-e0189bc6863b"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/a8e108c2-2fd7-4f13-8f10-207d5416f56e"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/67484127-2125-4eac-9fad-cff7009a794c"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/3ce9a4cd-2a34-4e7f-b150-7d3da424940e"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "source": "blob:http://127.0.0.1:5175/338a0254-1859-408a-8a5d-38e08f07f609"
+        }
+      ],
+      "hold": false
+    },
+    "eventTrace": [
+      {
+        "type": "click",
+        "target": "BUTTON",
+        "active": "BUTTON",
+        "hidden": false
+      },
+      {
+        "type": "blur",
+        "target": "BUTTON",
+        "active": "BODY",
+        "hidden": false
+      },
+      {
+        "type": "keydown",
+        "key": " ",
+        "target": "BUTTON",
+        "active": "BUTTON",
+        "hidden": false
+      },
+      {
+        "type": "keyup",
+        "key": " ",
+        "target": "BUTTON",
+        "active": "BUTTON",
+        "hidden": false
+      },
+      {
+        "type": "click",
+        "target": "BUTTON",
+        "active": "BUTTON",
+        "hidden": false
+      }
+    ],
+    "hidden": false,
+    "focused": true,
+    "canvas": [
+      {
+        "width": 360,
+        "height": 480,
+        "rect": {
+          "x": 16,
+          "y": 152.390625,
+          "width": 360,
+          "height": 480,
+          "top": 152.390625,
+          "right": 376,
+          "bottom": 632.390625,
+          "left": 16
+        }
+      }
+    ],
+    "body": "‹\n羊羊叠高高\n正式挑战\n静音\n剩余时间\n45秒\n局内表现\n0 /80\n失误\n0/3\n已叠稳 0 层 · 完美 0 层\n\n原局日志已恢复，按服务端原时轴继续。\n\n点击放下",
+    "dpr": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "finalRecord": {
+    "version": 1,
+    "start": {
+      "idempotency_key": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+      "game_id": "stack",
+      "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+      "controller_secret": "sssssssssssssssssssssssssssssssssssssssssss",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      }
+    },
+    "session": {
+      "session_id": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+      "event_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+      "participant_id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+      "slot_no": 1,
+      "game_id": "stack",
+      "seed": 1,
+      "session_nonce": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "controller_epoch": 1,
+      "ticket_binding_version": 1,
+      "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+      "created_at": "2026-10-27T08:18:21.525Z",
+      "play_started_at": "2026-10-27T08:18:33.043Z",
+      "play_ends_at": "2026-10-27T08:19:18.043Z",
+      "submit_deadline": "2026-10-27T08:19:33.043Z",
+      "state": "RUNNING",
+      "first_received_at": null,
+      "process_digest": null,
+      "settlement": null,
+      "current_contribution_points": 0,
+      "is_current_binding": true,
+      "has_unsealed_receipt": false,
+      "can_attempt_control": true,
+      "terminal_reason": null
+    },
+    "inputs": [
+      {
+        "tick": 15,
+        "seq": 1,
+        "type": "DROP",
+        "value": null
+      }
+    ],
+    "processedTick": 15,
+    "logDigest": "293dd6e609effb425f9ace86fc74ff2e776bcbb73cec794d60ccf70e82fc45ac",
+    "sealed": null
+  },
+  "extra": {
+    "before": {
+      "version": 1,
+      "start": {
+        "idempotency_key": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "game_id": "stack",
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "controller_secret": "sssssssssssssssssssssssssssssssssssssssssss",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        }
+      },
+      "session": {
+        "session_id": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+        "event_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+        "participant_id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+        "slot_no": 1,
+        "game_id": "stack",
+        "seed": 1,
+        "session_nonce": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        },
+        "controller_epoch": 1,
+        "ticket_binding_version": 1,
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "created_at": "2026-10-27T08:18:21.525Z",
+        "play_started_at": "2026-10-27T08:18:33.043Z",
+        "play_ends_at": "2026-10-27T08:19:18.043Z",
+        "submit_deadline": "2026-10-27T08:19:33.043Z",
+        "state": "RUNNING",
+        "first_received_at": null,
+        "process_digest": null,
+        "settlement": null,
+        "current_contribution_points": 0,
+        "is_current_binding": true,
+        "has_unsealed_receipt": false,
+        "can_attempt_control": true,
+        "terminal_reason": null
+      },
+      "inputs": [],
+      "processedTick": 13,
+      "logDigest": "d19e8f1bbc3ef3da0ffdf9feabafed79aff0000e265159a51e5f2841c3d806b3",
+      "sealed": null
+    },
+    "after": {
+      "version": 1,
+      "start": {
+        "idempotency_key": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "game_id": "stack",
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "controller_secret": "sssssssssssssssssssssssssssssssssssssssssss",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        }
+      },
+      "session": {
+        "session_id": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+        "event_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+        "participant_id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+        "slot_no": 1,
+        "game_id": "stack",
+        "seed": 1,
+        "session_nonce": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        },
+        "controller_epoch": 1,
+        "ticket_binding_version": 1,
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "created_at": "2026-10-27T08:18:21.525Z",
+        "play_started_at": "2026-10-27T08:18:33.043Z",
+        "play_ends_at": "2026-10-27T08:19:18.043Z",
+        "submit_deadline": "2026-10-27T08:19:33.043Z",
+        "state": "RUNNING",
+        "first_received_at": null,
+        "process_digest": null,
+        "settlement": null,
+        "current_contribution_points": 0,
+        "is_current_binding": true,
+        "has_unsealed_receipt": false,
+        "can_attempt_control": true,
+        "terminal_reason": null
+      },
+      "inputs": [
+        {
+          "tick": 15,
+          "seq": 1,
+          "type": "DROP",
+          "value": null
+        }
+      ],
+      "processedTick": 15,
+      "logDigest": "293dd6e609effb425f9ace86fc74ff2e776bcbb73cec794d60ccf70e82fc45ac",
+      "sealed": null
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "status": "TECHNICAL_PASS_VISUAL_REVIEW_PENDING",
+  "previous_manifest_sha256": "bdf93f4c26c9ed6e108f5af5a718edd7997a86936da85404485a68e1eeb8d234",
+  "manifest_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "art_version": "art-1.4.0-visual-repair",
+  "production_art_accepted": false,
+  "previous_records_checked": 76,
+  "current_records_checked": 76,
+  "changed_asset_ids": [
+    "character.dog.iso8",
+    "character.dog.iso8.metadata",
+    "character.sheep.iso8",
+    "character.sheep.iso8.metadata",
+    "character.sheep.side",
+    "character.sheep.side.metadata",
+    "environment.backdrop.herd",
+    "environment.backdrop.herd.metadata",
+    "environment.backdrop.runner",
+    "environment.backdrop.runner.metadata",
+    "environment.backdrop.stack",
+    "environment.backdrop.stack.metadata",
+    "environment.side",
+    "environment.side.metadata",
+    "master.backdrop.herd",
+    "master.backdrop.runner",
+    "master.backdrop.stack",
+    "master.dog",
+    "master.farm",
+    "master.sheep"
+  ],
+  "historical_manifests": [
+    "1b14bf379058f814d7ddacdeba36aaab4919e22b76d7dc948926e22fac809c9c",
+    "bdf93f4c26c9ed6e108f5af5a718edd7997a86936da85404485a68e1eeb8d234",
+    "c94d522416e41bc9eddf937563bda44bf28d4e217c956bbb030980eba3ff35b7"
+  ],
+  "unchanged_rules": true,
+  "gate_G5": "REVIEW",
+  "gate_G6": "BLOCKED"
+}

@@ -1,0 +1,1287 @@
+{
+  "at": "2026-10-27T09:38:23.876Z",
+  "scope": "Actual production renderer instance retained; true shared-core legal collision prefix, then new core initial state and legal tick10 no-input prefix. No business API or synthetic stats.",
+  "manifestHash": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "passed": false,
+  "error": "AssertionError [ERR_ASSERTION]: Fresh legal no-input runner tick10 should use run, got sheep_side__bump__e__f003",
+  "before": {
+    "tick": 166,
+    "view": {
+      "game_id": "runner",
+      "tick": 166,
+      "accepted_actions_count": 0,
+      "conclusion": null,
+      "stats": {
+        "safe_passed": 0,
+        "collision_count": 1,
+        "outer_collected": 0,
+        "inner_collected": 0
+      },
+      "distance_u": 398400,
+      "sheep_foot": {
+        "x_u": 88000,
+        "y_u": 180000
+      },
+      "sheep_vy_u_per_tick": 0,
+      "on_ground": true,
+      "obstacles": [
+        {
+          "obstacle_id": 1,
+          "bounds": {
+            "min_x_u": 99600,
+            "max_x_u": 107600,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": true,
+          "passed": false
+        },
+        {
+          "obstacle_id": 2,
+          "bounds": {
+            "min_x_u": 265200,
+            "max_x_u": 273200,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 3,
+          "bounds": {
+            "min_x_u": 430800,
+            "max_x_u": 438800,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 4,
+          "bounds": {
+            "min_x_u": 529200,
+            "max_x_u": 537200,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 5,
+          "bounds": {
+            "min_x_u": 627600,
+            "max_x_u": 635600,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 6,
+          "bounds": {
+            "min_x_u": 735600,
+            "max_x_u": 743600,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 7,
+          "bounds": {
+            "min_x_u": 928000,
+            "max_x_u": 946000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 8,
+          "bounds": {
+            "min_x_u": 1132400,
+            "max_x_u": 1150400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 9,
+          "bounds": {
+            "min_x_u": 1328400,
+            "max_x_u": 1346400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 10,
+          "bounds": {
+            "min_x_u": 1446000,
+            "max_x_u": 1464000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 11,
+          "bounds": {
+            "min_x_u": 1555200,
+            "max_x_u": 1573200,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 12,
+          "bounds": {
+            "min_x_u": 1675600,
+            "max_x_u": 1693600,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 13,
+          "bounds": {
+            "min_x_u": 1880000,
+            "max_x_u": 1898000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 14,
+          "bounds": {
+            "min_x_u": 2086800,
+            "max_x_u": 2114800,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 15,
+          "bounds": {
+            "min_x_u": 2314000,
+            "max_x_u": 2342000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 16,
+          "bounds": {
+            "min_x_u": 2445200,
+            "max_x_u": 2473200,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 17,
+          "bounds": {
+            "min_x_u": 2576400,
+            "max_x_u": 2604400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 18,
+          "bounds": {
+            "min_x_u": 2714000,
+            "max_x_u": 2742000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 19,
+          "bounds": {
+            "min_x_u": 2934800,
+            "max_x_u": 2962800,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 20,
+          "bounds": {
+            "min_x_u": 3149200,
+            "max_x_u": 3177200,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        }
+      ],
+      "grass": [
+        {
+          "grass_id": 1,
+          "center": {
+            "x_u": 269200,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 2,
+          "center": {
+            "x_u": 533200,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 3,
+          "center": {
+            "x_u": 739600,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 4,
+          "center": {
+            "x_u": 1141400,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 5,
+          "center": {
+            "x_u": 1455000,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 6,
+          "center": {
+            "x_u": 1684600,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 7,
+          "center": {
+            "x_u": 2100800,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 8,
+          "center": {
+            "x_u": 2459200,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 9,
+          "center": {
+            "x_u": 2728000,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 10,
+          "center": {
+            "x_u": 3163200,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        }
+      ]
+    },
+    "viewHash": "526b56783917295d4d5e662e8358b9d628d8bfea36505209ffea5b07dc7cff7f",
+    "canvas": {
+      "width": 360,
+      "height": 220,
+      "rect": {
+        "x": 8,
+        "y": 152.4375,
+        "width": 360,
+        "height": 220,
+        "top": 152.4375,
+        "right": 368,
+        "bottom": 372.4375,
+        "left": 8
+      }
+    },
+    "stage": {
+      "x": 8,
+      "y": 152.4375,
+      "width": 360,
+      "height": 220,
+      "top": 152.4375,
+      "right": 368,
+      "bottom": 372.4375,
+      "left": 8
+    },
+    "world": {
+      "width": 360,
+      "height": 220
+    },
+    "decoded": [
+      {
+        "name": "sheep_side_v1",
+        "width": 1024,
+        "height": 1280
+      },
+      {
+        "name": "farm_side_v1",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "name": "shared_v1",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "name": "farm_backdrop_v3",
+        "width": 720,
+        "height": 440
+      }
+    ],
+    "renderedFrames": [
+      {
+        "texture": "farm_backdrop_v3",
+        "frame": "backdrop_runner",
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 220
+      },
+      {
+        "texture": "farm_side_v1",
+        "frame": "hurdle_narrow",
+        "x": 103.6,
+        "y": 179.125,
+        "width": 8,
+        "height": 30
+      },
+      {
+        "texture": "farm_side_v1",
+        "frame": "hurdle_narrow",
+        "x": 269.2,
+        "y": 179.125,
+        "width": 8,
+        "height": 30
+      },
+      {
+        "texture": "farm_side_v1",
+        "frame": "clover_outer_round",
+        "x": 269.2,
+        "y": 69,
+        "width": 9,
+        "height": 9
+      },
+      {
+        "texture": "farm_side_v1",
+        "frame": "clover_core_round",
+        "x": 269.2,
+        "y": 69,
+        "width": 3,
+        "height": 3
+      },
+      {
+        "texture": "sheep_side_v1",
+        "frame": "sheep_side__bump__e__f000",
+        "x": 88,
+        "y": 180,
+        "width": 56,
+        "height": 56
+      }
+    ],
+    "font": "system-ui",
+    "scrollWidth": 390,
+    "viewportWidth": 390,
+    "controls": [
+      {
+        "text": "Geometry",
+        "width": 74.53125,
+        "height": 48,
+        "font": 13.3333
+      }
+    ]
+  },
+  "reset": {
+    "tick": 0,
+    "view": {
+      "game_id": "runner",
+      "tick": 0,
+      "accepted_actions_count": 0,
+      "conclusion": null,
+      "stats": {
+        "safe_passed": 0,
+        "collision_count": 0,
+        "outer_collected": 0,
+        "inner_collected": 0
+      },
+      "distance_u": 0,
+      "sheep_foot": {
+        "x_u": 88000,
+        "y_u": 180000
+      },
+      "sheep_vy_u_per_tick": 0,
+      "on_ground": true,
+      "obstacles": [
+        {
+          "obstacle_id": 1,
+          "bounds": {
+            "min_x_u": 498000,
+            "max_x_u": 506000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 2,
+          "bounds": {
+            "min_x_u": 663600,
+            "max_x_u": 671600,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 3,
+          "bounds": {
+            "min_x_u": 829200,
+            "max_x_u": 837200,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 4,
+          "bounds": {
+            "min_x_u": 927600,
+            "max_x_u": 935600,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 5,
+          "bounds": {
+            "min_x_u": 1026000,
+            "max_x_u": 1034000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 6,
+          "bounds": {
+            "min_x_u": 1134000,
+            "max_x_u": 1142000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 7,
+          "bounds": {
+            "min_x_u": 1326400,
+            "max_x_u": 1344400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 8,
+          "bounds": {
+            "min_x_u": 1530800,
+            "max_x_u": 1548800,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 9,
+          "bounds": {
+            "min_x_u": 1726800,
+            "max_x_u": 1744800,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 10,
+          "bounds": {
+            "min_x_u": 1844400,
+            "max_x_u": 1862400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 11,
+          "bounds": {
+            "min_x_u": 1953600,
+            "max_x_u": 1971600,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 12,
+          "bounds": {
+            "min_x_u": 2074000,
+            "max_x_u": 2092000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 13,
+          "bounds": {
+            "min_x_u": 2278400,
+            "max_x_u": 2296400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 14,
+          "bounds": {
+            "min_x_u": 2485200,
+            "max_x_u": 2513200,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 15,
+          "bounds": {
+            "min_x_u": 2712400,
+            "max_x_u": 2740400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 16,
+          "bounds": {
+            "min_x_u": 2843600,
+            "max_x_u": 2871600,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 17,
+          "bounds": {
+            "min_x_u": 2974800,
+            "max_x_u": 3002800,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 18,
+          "bounds": {
+            "min_x_u": 3112400,
+            "max_x_u": 3140400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 19,
+          "bounds": {
+            "min_x_u": 3333200,
+            "max_x_u": 3361200,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 20,
+          "bounds": {
+            "min_x_u": 3547600,
+            "max_x_u": 3575600,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        }
+      ],
+      "grass": [
+        {
+          "grass_id": 1,
+          "center": {
+            "x_u": 667600,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 2,
+          "center": {
+            "x_u": 931600,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 3,
+          "center": {
+            "x_u": 1138000,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 4,
+          "center": {
+            "x_u": 1539800,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 5,
+          "center": {
+            "x_u": 1853400,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 6,
+          "center": {
+            "x_u": 2083000,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 7,
+          "center": {
+            "x_u": 2499200,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 8,
+          "center": {
+            "x_u": 2857600,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 9,
+          "center": {
+            "x_u": 3126400,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 10,
+          "center": {
+            "x_u": 3561600,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        }
+      ]
+    },
+    "viewHash": "c29a6edb797533602fb20df46f4d1c8a50f041a894fb9beabbd915ec77ebd7c0",
+    "canvas": {
+      "width": 360,
+      "height": 220,
+      "rect": {
+        "x": 8,
+        "y": 152.4375,
+        "width": 360,
+        "height": 220,
+        "top": 152.4375,
+        "right": 368,
+        "bottom": 372.4375,
+        "left": 8
+      }
+    },
+    "stage": {
+      "x": 8,
+      "y": 152.4375,
+      "width": 360,
+      "height": 220,
+      "top": 152.4375,
+      "right": 368,
+      "bottom": 372.4375,
+      "left": 8
+    },
+    "world": {
+      "width": 360,
+      "height": 220
+    },
+    "decoded": [
+      {
+        "name": "sheep_side_v1",
+        "width": 1024,
+        "height": 1280
+      },
+      {
+        "name": "farm_side_v1",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "name": "shared_v1",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "name": "farm_backdrop_v3",
+        "width": 720,
+        "height": 440
+      }
+    ],
+    "renderedFrames": [
+      {
+        "texture": "farm_backdrop_v3",
+        "frame": "backdrop_runner",
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 220
+      },
+      {
+        "texture": "sheep_side_v1",
+        "frame": "sheep_side__bump__e__f000",
+        "x": 88,
+        "y": 180,
+        "width": 56,
+        "height": 56
+      }
+    ],
+    "font": "system-ui",
+    "scrollWidth": 390,
+    "viewportWidth": 390,
+    "controls": [
+      {
+        "text": "Geometry",
+        "width": 74.53125,
+        "height": 48,
+        "font": 13.3333
+      }
+    ]
+  },
+  "after": {
+    "tick": 10,
+    "view": {
+      "game_id": "runner",
+      "tick": 10,
+      "accepted_actions_count": 0,
+      "conclusion": null,
+      "stats": {
+        "safe_passed": 0,
+        "collision_count": 0,
+        "outer_collected": 0,
+        "inner_collected": 0
+      },
+      "distance_u": 24000,
+      "sheep_foot": {
+        "x_u": 88000,
+        "y_u": 180000
+      },
+      "sheep_vy_u_per_tick": 0,
+      "on_ground": true,
+      "obstacles": [
+        {
+          "obstacle_id": 1,
+          "bounds": {
+            "min_x_u": 474000,
+            "max_x_u": 482000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 2,
+          "bounds": {
+            "min_x_u": 639600,
+            "max_x_u": 647600,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 3,
+          "bounds": {
+            "min_x_u": 805200,
+            "max_x_u": 813200,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 4,
+          "bounds": {
+            "min_x_u": 903600,
+            "max_x_u": 911600,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 5,
+          "bounds": {
+            "min_x_u": 1002000,
+            "max_x_u": 1010000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 6,
+          "bounds": {
+            "min_x_u": 1110000,
+            "max_x_u": 1118000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 7,
+          "bounds": {
+            "min_x_u": 1302400,
+            "max_x_u": 1320400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 8,
+          "bounds": {
+            "min_x_u": 1506800,
+            "max_x_u": 1524800,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 9,
+          "bounds": {
+            "min_x_u": 1702800,
+            "max_x_u": 1720800,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 10,
+          "bounds": {
+            "min_x_u": 1820400,
+            "max_x_u": 1838400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 11,
+          "bounds": {
+            "min_x_u": 1929600,
+            "max_x_u": 1947600,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 12,
+          "bounds": {
+            "min_x_u": 2050000,
+            "max_x_u": 2068000,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 13,
+          "bounds": {
+            "min_x_u": 2254400,
+            "max_x_u": 2272400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 14,
+          "bounds": {
+            "min_x_u": 2461200,
+            "max_x_u": 2489200,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 15,
+          "bounds": {
+            "min_x_u": 2688400,
+            "max_x_u": 2716400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 16,
+          "bounds": {
+            "min_x_u": 2819600,
+            "max_x_u": 2847600,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 17,
+          "bounds": {
+            "min_x_u": 2950800,
+            "max_x_u": 2978800,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 18,
+          "bounds": {
+            "min_x_u": 3088400,
+            "max_x_u": 3116400,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 19,
+          "bounds": {
+            "min_x_u": 3309200,
+            "max_x_u": 3337200,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        },
+        {
+          "obstacle_id": 20,
+          "bounds": {
+            "min_x_u": 3523600,
+            "max_x_u": 3551600,
+            "min_y_u": 150000,
+            "max_y_u": 180000
+          },
+          "collision_recorded": false,
+          "passed": false
+        }
+      ],
+      "grass": [
+        {
+          "grass_id": 1,
+          "center": {
+            "x_u": 643600,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 2,
+          "center": {
+            "x_u": 907600,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 3,
+          "center": {
+            "x_u": 1114000,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 4,
+          "center": {
+            "x_u": 1515800,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 5,
+          "center": {
+            "x_u": 1829400,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 6,
+          "center": {
+            "x_u": 2059000,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 7,
+          "center": {
+            "x_u": 2475200,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 8,
+          "center": {
+            "x_u": 2833600,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 9,
+          "center": {
+            "x_u": 3102400,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        },
+        {
+          "grass_id": 10,
+          "center": {
+            "x_u": 3537600,
+            "y_u": 69000
+          },
+          "outer_collected": false,
+          "inner_collected": false
+        }
+      ]
+    },
+    "viewHash": "ba662028a6ffe2b833cfa28102ec61ce03efd62797352084ab38cde8055c409d",
+    "canvas": {
+      "width": 360,
+      "height": 220,
+      "rect": {
+        "x": 8,
+        "y": 152.4375,
+        "width": 360,
+        "height": 220,
+        "top": 152.4375,
+        "right": 368,
+        "bottom": 372.4375,
+        "left": 8
+      }
+    },
+    "stage": {
+      "x": 8,
+      "y": 152.4375,
+      "width": 360,
+      "height": 220,
+      "top": 152.4375,
+      "right": 368,
+      "bottom": 372.4375,
+      "left": 8
+    },
+    "world": {
+      "width": 360,
+      "height": 220
+    },
+    "decoded": [
+      {
+        "name": "sheep_side_v1",
+        "width": 1024,
+        "height": 1280
+      },
+      {
+        "name": "farm_side_v1",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "name": "shared_v1",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "name": "farm_backdrop_v3",
+        "width": 720,
+        "height": 440
+      }
+    ],
+    "renderedFrames": [
+      {
+        "texture": "farm_backdrop_v3",
+        "frame": "backdrop_runner",
+        "x": 0,
+        "y": 0,
+        "width": 360,
+        "height": 220
+      },
+      {
+        "texture": "sheep_side_v1",
+        "frame": "sheep_side__bump__e__f003",
+        "x": 88,
+        "y": 180,
+        "width": 56,
+        "height": 56
+      }
+    ],
+    "font": "system-ui",
+    "scrollWidth": 390,
+    "viewportWidth": 390,
+    "controls": [
+      {
+        "text": "Geometry",
+        "width": 74.53125,
+        "height": 48,
+        "font": 13.3333
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "id": "F03-herd-formal-ready-no-reservation",
+  "pass": true,
+  "error": null,
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/ui/ui_banner_wood.svg",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_iso8_v4.atlas.json",
+    "/assets/characters/sheep_iso8_v4.png",
+    "/assets/characters/dog_iso8_v4.atlas.json",
+    "/assets/characters/dog_iso8_v4.png",
+    "/assets/environment/farm_iso_v2.atlas.json",
+    "/assets/environment/farm_iso_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_herd_v4.atlas.json",
+    "/assets/environment/backdrop_herd_v4.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": "0",
+    "acceptedActions": "0",
+    "decode": {
+      "started": 5,
+      "succeeded": 5,
+      "images": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/d97be2e9-c249-4198-9139-946d3843301b"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/8c1e0322-4b9b-49f7-90ec-8216e88d3e56"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/3b0abc56-056d-4ba1-8a93-be81c0f264e3"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/b7d80f2c-a1ce-4c7e-8b98-1838c72238b5"
+        },
+        {
+          "width": 720,
+          "height": 840,
+          "source": "blob:http://127.0.0.1:5175/3e4e4136-5925-4c16-8e4e-5f845b1d8b87"
+        }
+      ],
+      "hold": false
+    },
+    "eventTrace": [],
+    "hidden": false,
+    "focused": true,
+    "canvas": [
+      {
+        "width": 360,
+        "height": 420,
+        "rect": {
+          "x": 9,
+          "y": 180.890625,
+          "width": 373.984375,
+          "height": 436.328125,
+          "top": 180.890625,
+          "right": 382.984375,
+          "bottom": 617.21875,
+          "left": 9
+        }
+      }
+    ],
+    "body": "‹\n赶羊入圈\n正式挑战\n静音\n剩余时间\n45秒\n局内表现\n0 /80\n已入圈\n0/8\n绕到羊后方，赶它们进入上方围栏入口\n场景已就绪；预检并预约成功即使用 1 次正式机会。\n预检并预约 · 使用 1 次机会\n恢复原局 / 重试原开局请求",
+    "dpr": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "extra": {
+    "decoded": {
+      "started": 5,
+      "succeeded": 5,
+      "images": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/d97be2e9-c249-4198-9139-946d3843301b"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/8c1e0322-4b9b-49f7-90ec-8216e88d3e56"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/3b0abc56-056d-4ba1-8a93-be81c0f264e3"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/b7d80f2c-a1ce-4c7e-8b98-1838c72238b5"
+        },
+        {
+          "width": 720,
+          "height": 840,
+          "source": "blob:http://127.0.0.1:5175/3e4e4136-5925-4c16-8e4e-5f845b1d8b87"
+        }
+      ],
+      "hold": false
+    },
+    "pixels": {
+      "size": [
+        374,
+        438
+      ],
+      "colors": 1664
+    }
+  }
+}

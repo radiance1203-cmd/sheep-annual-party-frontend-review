@@ -1,0 +1,26 @@
+
+ RUN  v5.0.5 D:/羊年年会现场游戏_Codex开发交付包_V2.2/sheep-annual-party-v2.2
+
+ ❯ apps/web/tests/keyboard.test.ts (2 tests | 1 failed) 9ms
+   × keeps held movement through bark, combines arrows, and releases only the released key 5ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  apps/web/tests/keyboard.test.ts > keeps held movement through bark, combines arrows, and releases only the released key
+AssertionError: expected { permitsGameplayKey: [Function perm…], …(1) } to have property "HeldDirections"
+ ❯ apps/web/tests/keyboard.test.ts:11:20
+      9| });
+     10| it('keeps held movement through bark, combines arrows, and releases on…
+     11|   expect(keyboard).toHaveProperty('HeldDirections');
+       |                    ^
+     12|   if (!('HeldDirections' in keyboard)) return;
+     13|   const HeldDirections = keyboard.HeldDirections as new () => { press:…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 1 passed (2)
+   Start at  16:10:29
+   Duration  362ms (transform 54%, import 23%, tests 12%, worker 10%)
+

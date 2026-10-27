@@ -1,0 +1,93 @@
+{
+  "id": "F04-herd-teaching-layout",
+  "pass": false,
+  "error": "AssertionError [ERR_ASSERTION]: Tutorial wrapper grows with real teaching scene\n    at <anonymous> (D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2\\output\\repair-20261027\\audit\\after\\target-regression.ts:45:1287)\n    at async run (D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2\\output\\repair-20261027\\audit\\after\\target-regression.ts:32:204)\n    at async <anonymous> (D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2\\output\\repair-20261027\\audit\\after\\target-regression.ts:45:3)",
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/ui/icon_home.svg",
+    "/assets/ui/icon_leaderboard.svg",
+    "/assets/ui/icon_gift.svg",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_iso8_v2.atlas.json",
+    "/assets/characters/sheep_iso8_v2.png",
+    "/assets/characters/dog_iso8_v2.atlas.json",
+    "/assets/characters/dog_iso8_v2.png",
+    "/assets/environment/farm_iso_v2.atlas.json",
+    "/assets/environment/farm_iso_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_herd_v3.atlas.json",
+    "/assets/environment/backdrop_herd_v3.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": null,
+    "acceptedActions": null,
+    "decode": {
+      "started": 5,
+      "succeeded": 5,
+      "images": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/b9d11d07-0fa2-467f-b29a-efc5a0c85579"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/9ba3dad5-75c8-4e91-a101-9a2d4bcc2590"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/68019d69-cd1f-4ee2-9522-1545fe79bb6d"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/23de20e3-186b-4333-bff5-5bbe4b9963a6"
+        },
+        {
+          "width": 720,
+          "height": 840,
+          "source": "blob:http://127.0.0.1:5175/30fc0ff9-b59c-42f2-8f4f-5562007b0f64"
+        }
+      ],
+      "hold": false
+    },
+    "eventTrace": [],
+    "hidden": false,
+    "focused": true,
+    "canvas": [
+      {
+        "width": 360,
+        "height": 420,
+        "rect": {
+          "x": -7,
+          "y": 160.6875,
+          "width": 278.5625,
+          "height": 324.984375,
+          "top": 160.6875,
+          "right": 271.5625,
+          "bottom": 485.671875,
+          "left": -7
+        }
+      }
+    ],
+    "body": "♧ 牧场\n界面状态验收夹具\n状态夹具参与者\n✦ 正式挑战中\n赶羊入圈\n\n教学演示 · 不占正式机会、不入账\n\n暂停演示\n绕到小羊后面，带它进圈\n\n拖动摇杆移动牧羊犬，接近羊后方驱赶。吠叫有冷却；每只入圈 +6，全齐另有时间奖励。\n\n练习不占正式机会，也不会产生正式积分。正式局在预约成功后立即使用 1 次机会，3 秒后开赛；返回或放弃仍消耗本次机会。\n\n12 秒教程 · 第 1 步\n\n拖动摇杆移动牧羊犬，先绕到羊的后方。\n跳过教程，先练习\n正式挑战 · 使用 1 次机会\n返回大厅\n游园会\n荣誉榜\n兑换礼品",
+    "dpr": 1,
+    "viewport": {
+      "width": 320,
+      "height": 740
+    }
+  }
+}

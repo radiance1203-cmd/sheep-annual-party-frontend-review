@@ -1,0 +1,26 @@
+{
+  "stage": "D preparation only; product not changed",
+  "red": "d-red/results.json: 11 target cases, 9 expected failures and 2 pre-existing pending/review passes",
+  "source": "packages/contracts/openapi.yaml Settlement and NaturalConclusion; results use server settlement only",
+  "reason_map": {
+    "VERIFIED": "核验通过",
+    "NO_ACCEPTED_ACTION": "没有有效操作，本局 0 分",
+    "INVALID_PROCESS": "过程核验未通过，本局 0 分",
+    "VOIDED": "原尝试已作废，历史分数不再贡献荣誉"
+  },
+  "statistics": {
+    "stack": ["叠稳 {success_layers} 层", "完美 {perfect_layers} 次", "失误 {misses} 次"],
+    "runner": ["安全越栏 {safe_passed} 次", "外圈 {outer_collected} 份", "金芯 {inner_collected} 份"],
+    "herd": ["入圈 {penned_count} 只", "时间奖励 {time_bonus_points} 分"]
+  },
+  "boundaries": [
+    "Do not derive score or eligibility from local practice/runtime; consume verified conclusion",
+    "Stats must match session game_id and be labelled historical if replaced/voided",
+    "Current contribution, participation, performance, historic original award, honor and spendable balance remain distinct",
+    "Unknown eligibility reason must not imply completion or award; show neutral Chinese fallback and retain raw server record for inspection",
+    "Historical is_current_binding=false cannot be described as no valid participation or current success",
+    "Results own me resource failing at 3s must mark error and hide stale wallet/current slots even before App's 10s poll"
+  ],
+  "additional_B_fix": "ui.tsx ignores resolve/reject from detached image decode; b-image-red retry failed by transient reinsert assertion, b-image-green both retry and key cases pass",
+  "physical_device_and_real_transactions": "NOT_RUN in these UI fixtures"
+}

@@ -17,8 +17,8 @@
     "test": "node node_modules/vitest/vitest.mjs run",
     "contracts:check": "node scripts/contracts.mjs --check",
     "rules:check": "node --import tsx scripts/rules.mjs --check",
-    "review:lobby": "node --import tsx review/tools/capture.mts lobby-review",
-    "review:games": "node --import tsx review/tools/capture-games.mts games-review"
+    "review:lobby": "node --import tsx review/tools/capture-pages.mts review-pages",
+    "review:games": "node --import tsx review/tools/capture-running.mts review-games"
   },
   "dependencies": {
     "zod": "4.6.7"

@@ -1,0 +1,64 @@
+{
+  "id": "F05-10-runtime-runner",
+  "body": "‹\n羊羊跨栏\n正式挑战\n静音\n剩余时间\n26秒\n局内表现\n23 /80\n失误次数\n1\n安全越栏 +3\n\n原局日志已恢复，按服务端原时轴继续。\n\n点击跳跃",
+  "metrics": {
+    "dpr": 1,
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "canvas": [
+      {
+        "width": 360,
+        "height": 220,
+        "rect": {
+          "x": 9,
+          "y": 152.390625,
+          "width": 373.984375,
+          "height": 228.546875,
+          "top": 152.390625,
+          "right": 382.984375,
+          "bottom": 380.9375,
+          "left": 9
+        }
+      }
+    ],
+    "tick": "596",
+    "images": [],
+    "links": [
+      {
+        "text": "♧ 牧场",
+        "href": "#/",
+        "disabled": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      }
+    ]
+  },
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    },
+    {
+      "path": "/api/sessions/cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+      "method": "GET"
+    }
+  ],
+  "errors": [],
+  "checkpoint": 583
+}

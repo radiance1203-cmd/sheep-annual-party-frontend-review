@@ -1,0 +1,637 @@
+{
+  "scope": "Alpha>=1 conservative frame rectangle clearance to adjacent upper tray. Uniform whole-frame scale64, actor anchor y-2, thin tray region y-1..y+5, layer distance from frozen RULES. This is pixel geometry evidence, not mother-source signoff or full animation aesthetics.",
+  "rules_layer_distance_u": 44.0,
+  "atlas_sha256": "bc2e925c9c285ff29e4aadf325fc91ba01cd095a10432800bec240af0d05de44",
+  "png_sha256": "471fdb76dff1e962a095c4aa7725649c84d49828f0b554dccc0d89994661a936",
+  "frames": [
+    {
+      "frame": "sheep_side__stack_idle__e__f000",
+      "frame_rect": [
+        412,
+        684,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        44,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.5,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -36.0,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.0,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_idle__e__f001",
+      "frame_rect": [
+        548,
+        684,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        44,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.5,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -36.0,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.0,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_idle__e__f002",
+      "frame_rect": [
+        684,
+        684,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        44,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.5,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -36.0,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.0,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_idle__e__f003",
+      "frame_rect": [
+        820,
+        684,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        44,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.5,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -36.0,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.0,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_idle__e__f004",
+      "frame_rect": [
+        4,
+        820,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        44,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.5,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -36.0,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.0,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_idle__e__f005",
+      "frame_rect": [
+        140,
+        820,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        44,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.5,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -36.0,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.0,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_air__e__f000",
+      "frame_rect": [
+        276,
+        820,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        45,
+        113,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.0,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -35.5,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.5,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_air__e__f001",
+      "frame_rect": [
+        412,
+        820,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        44,
+        111,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.5,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -36.0,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.0,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_steady__e__f000",
+      "frame_rect": [
+        548,
+        820,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        45,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.0,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -35.5,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.5,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_steady__e__f001",
+      "frame_rect": [
+        684,
+        820,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        45,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.0,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -35.5,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.5,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_steady__e__f002",
+      "frame_rect": [
+        820,
+        820,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        45,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.0,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -35.5,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.5,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_celebrate__e__f000",
+      "frame_rect": [
+        4,
+        956,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        44,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.5,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -36.0,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.0,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_celebrate__e__f001",
+      "frame_rect": [
+        140,
+        956,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        44,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.5,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -36.0,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.0,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_celebrate__e__f002",
+      "frame_rect": [
+        276,
+        956,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        44,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.5,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -36.0,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.0,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_celebrate__e__f003",
+      "frame_rect": [
+        412,
+        956,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        44,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.5,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -36.0,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.0,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_celebrate__e__f004",
+      "frame_rect": [
+        548,
+        956,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        44,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.5,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -36.0,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.0,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_celebrate__e__f005",
+      "frame_rect": [
+        684,
+        956,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        44,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.5,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -36.0,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.0,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_celebrate__e__f006",
+      "frame_rect": [
+        820,
+        956,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        44,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.5,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -36.0,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.0,
+      "pass": true
+    },
+    {
+      "frame": "sheep_side__stack_celebrate__e__f007",
+      "frame_rect": [
+        4,
+        1092,
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "alpha1_bbox": [
+        21,
+        44,
+        112,
+        115
+      ],
+      "whole_frame_display": 64,
+      "visible_height_u": 35.5,
+      "actor_y_offset_u": -2,
+      "actor_visible_y_relative_layer_u": [
+        -36.0,
+        -0.5
+      ],
+      "upper_neighbor_tray_y_u": [
+        -45.0,
+        -39.0
+      ],
+      "vertical_overlap_u": 0,
+      "clearance_from_upper_tray_bottom_u": 3.0,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "minimum_clearance_u": 3.0
+}

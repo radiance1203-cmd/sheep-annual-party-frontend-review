@@ -1,0 +1,132 @@
+{
+  "id": "F03-herd-ready-stays-tick0",
+  "pass": true,
+  "error": null,
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/ui/ui_banner_wood.svg",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_iso8_v4.atlas.json",
+    "/assets/characters/sheep_iso8_v4.png",
+    "/assets/characters/dog_iso8_v4.atlas.json",
+    "/assets/characters/dog_iso8_v4.png",
+    "/assets/environment/farm_iso_v2.atlas.json",
+    "/assets/environment/farm_iso_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_herd_v4.atlas.json",
+    "/assets/environment/backdrop_herd_v4.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": "0",
+    "acceptedActions": "0",
+    "decode": {
+      "started": 5,
+      "succeeded": 5,
+      "images": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/8e55a547-c623-4553-8b07-44950d184d24"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/85d78348-1516-4764-947f-3545d94a5949"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/8a603e26-8000-42a0-b2b6-12abfc9387eb"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/ecca6c0c-6f11-48b4-adc1-4c33e1c67e4d"
+        },
+        {
+          "width": 720,
+          "height": 840,
+          "source": "blob:http://127.0.0.1:5175/8b93bf95-874b-4030-ae59-757aedde672f"
+        }
+      ],
+      "hold": false
+    },
+    "eventTrace": [],
+    "hidden": false,
+    "focused": true,
+    "canvas": [
+      {
+        "width": 360,
+        "height": 420,
+        "rect": {
+          "x": 9,
+          "y": 180.890625,
+          "width": 373.984375,
+          "height": 436.328125,
+          "top": 180.890625,
+          "right": 382.984375,
+          "bottom": 617.21875,
+          "left": 9
+        }
+      }
+    ],
+    "body": "‹\n赶羊入圈\n自由练习 · 不入账\n静音\n剩余时间\n45秒\n局内表现\n0 /80\n已入圈\n0/8\n绕到羊后方，赶它们进入上方围栏入口\n练习场景已就绪 · 不占正式机会，不产生正式积分。\n开始不计分练习",
+    "dpr": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "extra": {
+    "decoded": {
+      "started": 5,
+      "succeeded": 5,
+      "images": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/8e55a547-c623-4553-8b07-44950d184d24"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/85d78348-1516-4764-947f-3545d94a5949"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/8a603e26-8000-42a0-b2b6-12abfc9387eb"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/ecca6c0c-6f11-48b4-adc1-4c33e1c67e4d"
+        },
+        {
+          "width": 720,
+          "height": 840,
+          "source": "blob:http://127.0.0.1:5175/8b93bf95-874b-4030-ae59-757aedde672f"
+        }
+      ],
+      "hold": false
+    },
+    "pixels": {
+      "size": [
+        374,
+        438
+      ],
+      "colors": 1665
+    }
+  }
+}

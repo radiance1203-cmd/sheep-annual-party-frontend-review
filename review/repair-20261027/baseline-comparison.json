@@ -1,0 +1,10 @@
+{
+  "main_head": "9d652fb3fef2ede55ebc462d46445cc855b98dd1",
+  "review_head": "6e8e40c1c13ebbaa96c26548c4491d54d4e438da",
+  "review_baseline": "6e8e40c1c13ebbaa96c26548c4491d54d4e438da",
+  "comparison": "original worktree SHA256 recorded in review SOURCE_SNAPSHOT; separate Git histories",
+  "files_compared": 144,
+  "differences": [],
+  "rule_raw_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+  "asset_manifest_sha256": "bdf93f4c26c9ed6e108f5af5a718edd7997a86936da85404485a68e1eeb8d234"
+}

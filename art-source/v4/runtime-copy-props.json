@@ -1,0 +1,18 @@
+{
+  "status": "COPIED_NEW_V4_ONLY",
+  "manifest_modified": false,
+  "records": [
+    {
+      "asset_id": "environment.side",
+      "path": "apps/web/public/assets/environment/farm_side_v4.png",
+      "sha256": "8050325f15eda07f946fa311679ad908642e11f430ebbd7bbc28e6d54a9ecc49",
+      "bytes": 162108
+    },
+    {
+      "asset_id": "environment.side.metadata",
+      "path": "apps/web/public/assets/environment/farm_side_v4.atlas.json",
+      "sha256": "672bc5f13f8f216ec6e9c8ece4e1418b471a6cfdf2e378e119a9193061ba2acd",
+      "bytes": 8651
+    }
+  ]
+}

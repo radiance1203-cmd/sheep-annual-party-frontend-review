@@ -1,0 +1,27 @@
+{
+  "status": "CANDIDATE_VISUAL_REVIEW_PENDING",
+  "production_art_accepted": false,
+  "records": [
+    {
+      "game": "stack",
+      "mother_sha256": "117713a1c68e6196f164c761f0826e0763bb9bf3bf9b1fae598f4ba9f8495ff7",
+      "render": "art-source/v4/backdrop_stack_v4.png",
+      "seconds": 9.279724836349487,
+      "production_art_accepted": false
+    },
+    {
+      "game": "runner",
+      "mother_sha256": "857160639dfb3145a74c822b06238eef0a865dbdbd035b85adf16678b3db7e8f",
+      "render": "art-source/v4/backdrop_runner_v4.png",
+      "seconds": 4.269140005111694,
+      "production_art_accepted": false
+    },
+    {
+      "game": "herd",
+      "mother_sha256": "d27e6f27a8e0cdea1ca68370d546574c5fa6a9483b83885b608a6344d60994aa",
+      "render": "art-source/v4/backdrop_herd_v4.png",
+      "seconds": 8.325519561767578,
+      "production_art_accepted": false
+    }
+  ]
+}

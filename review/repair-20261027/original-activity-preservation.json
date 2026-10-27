@@ -1,0 +1,21 @@
+{
+  "scope": "Original development activity post-repair read only, no tokens or personal details",
+  "event": {
+    "id": "239f0af7-2929-4d96-b8a2-6bf71f93f65d",
+    "is_development": true,
+    "phase": "CHECK_IN",
+    "event_revision": "3"
+  },
+  "counts": {
+    "sessions": 0,
+    "point_ledger": 0,
+    "redemptions": 0,
+    "playtest_runs": 0
+  },
+  "invitations": [
+    {
+      "state": "ACTIVE",
+      "n": 4
+    }
+  ]
+}

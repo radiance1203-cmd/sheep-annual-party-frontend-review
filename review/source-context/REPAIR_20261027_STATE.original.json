@@ -1,0 +1,228 @@
+{
+  "date": "2026-10-27",
+  "stage": "LOCAL_REPAIR_CANDIDATE_DELIVERED / ART_REVIEW / ONSITE_BLOCKED",
+  "checkout": "D:\\羊年年会现场游戏_Codex开发交付包_V2.2\\sheep-annual-party-v2.2",
+  "head": "9d652fb3fef2ede55ebc462d46445cc855b98dd1",
+  "baseline": "6e8e40c1c13ebbaa96c26548c4491d54d4e438da",
+  "source_comparison": ".local/repair-20261027/baseline-comparison.json",
+  "items": {
+    "F01": {
+      "status": "LOCAL_PASS",
+      "evidence": "ui/stage-a-summary.json；ui/resource-poll-summary.json；ui/csrf-summary.json",
+      "remaining": "跨id/404/503/ABA/错id；慢轮询不饥饿，过期读取不回写CSRF。"
+    },
+    "F02": {
+      "status": "LOCAL_PASS",
+      "evidence": "ui/stage-a-summary.json",
+      "remaining": "限定建单前终局拒绝清理；未知结果保留原键，event+participant隔离。无归属旧记录不跨身份自动重放。"
+    },
+    "F03": {
+      "status": "LOCAL_PASS",
+      "evidence": "runtime/renderer-reuse-green/results.json；audit/after/v4-renderer-reuse-green/results.json；real-game-ui/cdc866b1-2c1e-485b-a012-2ec82db9f9cc/result.json",
+      "remaining": "三款tick0已解码首帧；无预约/finish；开始/恢复/重练复用canvas，回卷清呈现历史。"
+    },
+    "F04": {
+      "status": "LOCAL_PASS_ART_REVIEW",
+      "evidence": "final-pages/；audit/after/AFTER_REPORT.md",
+      "remaining": "同清单真实场景与本地共享core教学；移除旧羊硬编码，修旧170px/60px容器样式。"
+    },
+    "F05": {
+      "status": "TECHNICAL_PASS_ART_REVIEW",
+      "evidence": "audit/art-runtime/stack-alpha1-clearance.json；audit/art-runtime/C_FINAL_REPORT.md",
+      "remaining": "19紧凑姿态、35.5高、44层距、净距最小3；1/4/8/20与各阶段真实core诊断。"
+    },
+    "F06": {
+      "status": "REVIEW",
+      "evidence": "art/V4_HANDOFF.md；art/C1b-sheep-front-side.png",
+      "remaining": "已实际修原生头身/大绒团/角/短腿/犬耳并导273帧；棉绒质感及角色板最终相符程度未获真人美术签认。"
+    },
+    "F07": {
+      "status": "TECHNICAL_PASS_DEVICE_NOT_RUN",
+      "evidence": "art/v4-final-scale-envelopes.json；audit/art-runtime/C_FINAL_REPORT.md",
+      "remaining": "整类稳定sheep55/dog72、脚pivot不变；八向/行走/吠叫/入圈/拥挤已诊断，真机辨识未验。"
+    },
+    "F08": {
+      "status": "REVIEW",
+      "evidence": "art/V4_HANDOFF.md；comparisons/",
+      "remaining": "已补叶簇、花草、暖光/谷仓和地面纹理，未烘动态物；与原型的景深/材质仍有差距，保持艺术REVIEW。"
+    },
+    "F09": {
+      "status": "LAYOUT_PASS_ART_REVIEW",
+      "evidence": "final-pages/；final-short/；comparisons/lobby.png",
+      "remaining": "使用提供的木牌SVG、紧凑卡片、自然等比世界和整页装饰；艺术字厚度及最终构图签认未完成。"
+    },
+    "F10": {
+      "status": "TECHNICAL_PASS_DEVICE_NOT_RUN",
+      "evidence": "audit/art-runtime/C_FINAL_REPORT.md；audit/art-runtime/grass-layer-green/",
+      "remaining": "窄栏/草叶/金芯真纹理且不扩大几何；剩余采集物后绘不被羊遮；239/240/241三态像素差分与实际crop通过。3px真机人因未验。"
+    },
+    "F11": {
+      "status": "LOCAL_PASS",
+      "evidence": "audit/after/v4-renderer-reuse-green/results.json",
+      "remaining": "按键集合、斜向/松键/失焦清理；Space/Enter/指针一次动作；菜单/表单/弹窗隔离。"
+    },
+    "F12": {
+      "status": "LOCAL_PASS",
+      "evidence": "ui/stage-b-summary.json；ui/csrf-summary.json",
+      "remaining": "区分loading/401/503/ready；未知暂停新开与钱款操作，轮询失败不卸载现有原局。"
+    },
+    "F13": {
+      "status": "LOCAL_PASS",
+      "evidence": "ui/stage-b-summary.json；real-game-ui/cdc866b1-2c1e-485b-a012-2ec82db9f9cc/result.json",
+      "remaining": "CHECK_IN/PLAYING/DRAINING补场、0槽、恢复原局保持服务端准入语义。"
+    },
+    "F14": {
+      "status": "LOCAL_PASS",
+      "evidence": "ui/stage-b-summary.json；ui/b-image-green/results.json",
+      "remaining": "未配置/未知key/加载/404/解码失败/重试/切key，迟到decode不重新插破图。"
+    },
+    "F15": {
+      "status": "LOCAL_PASS",
+      "evidence": "ui/stage-b-summary.json",
+      "remaining": "恢复原局/状态/补场记录四宽实测至少48×48。"
+    },
+    "F16": {
+      "status": "LOCAL_REAL_HTTP_PG_PASS_DEVICE_NOT_RUN",
+      "evidence": "real-claim/REAL_CLAIM_REPORT.md；ui/stage-b-summary.json",
+      "remaining": "实际HTTP+PG+前端上传真实订单QR查询/二次确认/重复核销15检查通过；相机受控fixture通过，物理相机未验。"
+    },
+    "F17": {
+      "status": "LOCAL_PASS",
+      "evidence": "ui/stage-d-summary.json；real-game-ui/cdc866b1-2c1e-485b-a012-2ec82db9f9cc/result.json",
+      "remaining": "三款核验统计/中文原因；待核验、0分、作废、历史、未知状态及独立身份失败12浏览器目标通过。"
+    },
+    "F18": {
+      "status": "LOCAL_EVIDENCE_PASS_GATES_RETAINED",
+      "evidence": "docs/repair-20261027-report.md；planning/REPAIR_20261027_STATE.json；real-game-ui/cdc866b1-2c1e-485b-a012-2ec82db9f9cc/result.json",
+      "remaining": "保留有效RED/FAIL和脚本误判；隔离视图、真实PG、艺术/真机/真人分列，无整体或现场完成声明。"
+    }
+  },
+  "assignments": [
+    {
+      "id": "REPAIR-UI-A",
+      "paths": [
+        "apps/web/src/ui.tsx",
+        "apps/web/src/pages/ParticipantPages.tsx",
+        "apps/web/src/App.tsx",
+        "apps/web/src/pages/AdminPage.tsx",
+        "apps/web/src/repair-state/**",
+        "apps/web/tests/repair-state/**"
+      ],
+      "scope": "F01/F02 first, later F12-F17 after stage A; no GamePage/renderer/CSS/dependency writes",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "REPAIR-AUDIT",
+      "paths": [
+        "output/repair-20261027/audit/**",
+        "apps/web/tests/repair-audit/**"
+      ],
+      "scope": "read-only baseline F03-F18 source/browser reproduction and visual audit; no product edits",
+      "model": "gpt-6.1-sol",
+      "effort": "high"
+    },
+    {
+      "id": "REPAIR-ART",
+      "paths": [
+        "output/repair-20261027/art-audit/**"
+      ],
+      "scope": "reference/master/atlas audit; no production assets before stage C",
+      "model": "gpt-6.1-sol",
+      "effort": "high",
+      "stage_c_expanded_paths": [
+        "art-source/v4/**",
+        "art-source/*_v4.py",
+        "apps/web/public/assets/*/*_v4.png",
+        "apps/web/public/assets/*/*_v4.atlas.json",
+        "output/repair-20261027/art/**"
+      ],
+      "stage_c_authorization": "Explicit root follow-up after A/B; no active manifest writes by art"
+    },
+    {
+      "id": "REPAIR-E2E",
+      "paths": [
+        "output/repair-20261027/real-claim/**"
+      ],
+      "scope": "new UUID event only in loopback sheep_test; actual HTTP and PG; close temporary listener; no original activity mutations"
+    }
+  ],
+  "protected": [
+    "game-core",
+    "rules",
+    "server",
+    "existing user modifications"
+  ],
+  "gates": {
+    "production_art_accepted": false,
+    "G5": "REVIEW",
+    "G6": "BLOCKED",
+    "real_device": "NOT_RUN",
+    "human_playtest": "NOT_RUN"
+  },
+  "backend_regression": {
+    "status": "PASS",
+    "tests": 100,
+    "files": 7,
+    "evidence": "output/repair-20261027/backend-regression.txt",
+    "environment": "local isolated PostgreSQL test database, not production/onsite"
+  },
+  "updated_at": "2026-10-27T10:23:58.900144+00:00",
+  "new_art": {
+    "status": "rendered_candidate_in_progress",
+    "four_view_review": "C1 opened; C1b point revisions opened and allowed technical export",
+    "character_frames_expected": 273,
+    "stack_sample_alpha1_max_height_logic": 35.5,
+    "stack_sample_frames": 19,
+    "production_art_accepted": false
+  },
+  "current_art": {
+    "version": "art-1.4.0-visual-repair",
+    "manifest_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+    "publication_receipt": "art-source/v4/registration-validation-v4.json",
+    "production_art_accepted": false,
+    "historical_versions_preserved": [
+      "1.1",
+      "1.2",
+      "1.3"
+    ],
+    "native_mothers": 6,
+    "character_frames": 273,
+    "new_props": 6,
+    "backgrounds": 3
+  },
+  "verification": {
+    "typecheck": "PASS",
+    "build": "PASS",
+    "test_files": 19,
+    "tests": 352,
+    "contracts": "PASS",
+    "rules": "PASS",
+    "development_migration": "PASS_IDEMPOTENT",
+    "page_layout": "35 targeted views PASS, output/repair-20261027/page-layout-validation.json",
+    "running_layout": "12 real GamePage prefix views PASS, output/repair-20261027/running-layout-validation.json",
+    "real_claim_http_pg": "15 PASS, isolated sheep_test, controlled server clock, not physical camera",
+    "real_game_ui_http_pg": {
+      "status": "PASS",
+      "checks": 36,
+      "evidence": "output/repair-20261027/real-game-ui/cdc866b1-2c1e-485b-a012-2ec82db9f9cc/result.json",
+      "scope": "same real participant, actual GamePage,3slots,3 actual shared-core credits20/20/20;4th UI/API blocked; controlled clock"
+    },
+    "delivery_manifest": {
+      "status": "PASS",
+      "file_count": 5202,
+      "command": "node scripts/delivery-manifest.mjs --check",
+      "digest_file": "docs/delivery-manifest.json"
+    }
+  },
+  "next_tasks": [
+    "REPAIR-ART-REVIEW: F06 character wool/proportion, F08 depth/material, F09 art title/composition refinement and actual signoff",
+    "REPAIR-PHYSICAL: iOS/WeChat/Android camera/touch/memory/audio and small-prop legibility",
+    "REPAIR-HUMAN24: actual24 colleagues/216 runs and PRD independent/subgroup thresholds",
+    "REPAIR-ONSITE: actual event/gifts/cutoffs/staff handoff/network/concurrency rehearsal"
+  ],
+  "delegation_receipt_boundary": "All child requests/default config gpt-6.1-sol/high; capacity failures retried same config; tool exposes task-name receipt, not independent server model metadata.",
+  "local_executable_repair_complete": true,
+  "development_complete": false,
+  "onsite_enable_eligible": false
+}

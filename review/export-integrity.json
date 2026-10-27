@@ -3,18 +3,28 @@
   "adapted_original_files": [
     "docs/THIRD_PARTY_NOTICES.md",
     "docs/releases/release-notes.md",
+    "docs/repair-20261027-report.md",
     "docs/visual-repair-v1-report.md",
-    "package-lock.json"
+    "package-lock.json",
+    "package.json",
+    "review/repair-20261027/findings.json",
+    "review/tools/capture-games.mts",
+    "review/tools/capture-pages.mts",
+    "review/tools/capture-running.mts"
   ],
   "credential_scan": "PASS",
   "secret_match_files": 0,
   "private_runtime_or_database_files": 0,
   "current_runtime_asset_hashes_verified": 53,
-  "archived_manifests_verified": 2,
+  "archived_manifests_verified": 3,
   "server_workspace_absent": true,
-  "files": 396,
-  "bytes": 45648220,
+  "files": 1579,
+  "bytes": 161981360,
   "largest_files": [
+    {
+      "path": "review/repair-20261027/audit/art-runtime/v4-final/captures.json",
+      "bytes": 3073067
+    },
     {
       "path": "visual-repair-v1/references/03_herd.png",
       "bytes": 2229792
@@ -30,10 +40,6 @@
     {
       "path": "visual-repair-v1/references/00_lobby.png",
       "bytes": 2013462
-    },
-    {
-      "path": "visual-repair-v1/references/01_stack.png",
-      "bytes": 1996208
     }
   ]
 }

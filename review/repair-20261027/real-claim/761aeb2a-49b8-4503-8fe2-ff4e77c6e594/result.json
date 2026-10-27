@@ -1,0 +1,371 @@
+{
+  "started_at": "2026-10-27T08:55:25.991Z",
+  "event_id": "761aeb2a-49b8-4503-8fe2-ff4e77c6e594",
+  "build": {
+    "rule_version": "onsite-v2.1-candidate",
+    "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+    "simulator_version": "sheep-core-2.2.0",
+    "client_version": "sheep-web-2.2.0"
+  },
+  "asset_manifest_sha256": "bdf93f4c26c9ed6e108f5af5a718edd7997a86936da85404485a68e1eeb8d234",
+  "scope": "Real isolated loopback HTTP + PostgreSQL + actual Vite frontend. Development account data only. No fixture API fulfillment, fake scores, default activity or default invitations. Not physical phone/camera/human/venue validation.",
+  "guard": {
+    "hostname": "127.0.0.1",
+    "database": "sheep_test",
+    "new_random_event": true,
+    "server_host": "127.0.0.1",
+    "requested_port": 0,
+    "existing_server_3100_used": false
+  },
+  "controlledClock": {
+    "offset_ms": 48000,
+    "reason": "Advance after real scheduled runner start by 48 seconds; the complete valid tick1 JUMP process is verified by real JobRunner/shared game-core."
+  },
+  "server_port": 49854,
+  "session_id": "69ab7a62-7f82-4064-b33a-2cd9dcd091be",
+  "verified_points": 20,
+  "order_id": "cfbf36ec-95f8-4ddf-936b-7ea954c530f5",
+  "before_lookup": {
+    "status": "RESERVED",
+    "ledger": [
+      {
+        "kind": "REDEMPTION_DEBIT",
+        "entries": 1,
+        "amount": -20
+      },
+      {
+        "kind": "SESSION_CREDIT",
+        "entries": 1,
+        "amount": 20
+      }
+    ]
+  },
+  "after_lookup": {
+    "status": "RESERVED"
+  },
+  "final_database": {
+    "orders": 1,
+    "claimed": 1,
+    "debit_entries": 1,
+    "refund_entries": 0,
+    "debit_total": -20,
+    "gift_claimed": 1,
+    "gift_reserved": 0
+  },
+  "final_ledger": [
+    {
+      "kind": "REDEMPTION_DEBIT",
+      "entries": 1,
+      "amount": -20
+    },
+    {
+      "kind": "SESSION_CREDIT",
+      "entries": 1,
+      "amount": 20
+    }
+  ],
+  "pass": true,
+  "finished_at": "2026-10-27T08:55:34.096Z",
+  "stage": "complete",
+  "checks": [
+    {
+      "name": "actual database and schema match guarded test target",
+      "passed": true
+    },
+    {
+      "name": "development event uses fresh isolated seed",
+      "passed": true
+    },
+    {
+      "name": "temporary HTTP server is independent loopback ephemeral port",
+      "passed": true
+    },
+    {
+      "name": "server start reserves exactly 3 seconds and 45 seconds of play",
+      "passed": true
+    },
+    {
+      "name": "real replay job was processed",
+      "passed": true
+    },
+    {
+      "name": "shared-core replay grants valid real points, no fake score insertion",
+      "passed": true,
+      "details": {
+        "state": "SETTLED",
+        "points": 20,
+        "accepted_actions": 1
+      }
+    },
+    {
+      "name": "real API sealed rank before opening redemption",
+      "passed": true
+    },
+    {
+      "name": "real participant UI created reserved order and QR",
+      "passed": true
+    },
+    {
+      "name": "QR upload uses same opaque real voucher for lookup",
+      "passed": true
+    },
+    {
+      "name": "scan/lookup does not implicitly claim or hand over stock",
+      "passed": true
+    },
+    {
+      "name": "UI confirmation used a durable request",
+      "passed": true
+    },
+    {
+      "name": "real DB records exactly the authorized staff claim",
+      "passed": true
+    },
+    {
+      "name": "duplicate same-key claim does not duplicate charge or inventory",
+      "passed": true,
+      "details": {
+        "orders": 1,
+        "claimed": 1,
+        "debit_entries": 1,
+        "refund_entries": 0,
+        "debit_total": -20,
+        "gift_claimed": 1,
+        "gift_reserved": 0
+      }
+    },
+    {
+      "name": "claimed participant voucher is no longer emitted",
+      "passed": true
+    },
+    {
+      "name": "terminal UI has no live voucher code or QR",
+      "passed": true
+    }
+  ],
+  "http": [
+    {
+      "source": "organizer",
+      "path": "/api/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "source": "organizer",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant",
+      "path": "/api/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "source": "participant",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "staff",
+      "path": "/api/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "source": "staff",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "organizer",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "organizer",
+      "path": "/api/admin/event/phase",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "source": "participant",
+      "path": "/api/sessions/start",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "source": "participant",
+      "path": "/api/sessions/69ab7a62-7f82-4064-b33a-2cd9dcd091be/finish",
+      "method": "POST",
+      "status": 202
+    },
+    {
+      "source": "participant",
+      "path": "/api/sessions/69ab7a62-7f82-4064-b33a-2cd9dcd091be",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "organizer",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "organizer",
+      "path": "/api/admin/event/config",
+      "method": "PATCH",
+      "status": 200
+    },
+    {
+      "source": "organizer",
+      "path": "/api/admin/event/phase",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "source": "organizer",
+      "path": "/api/admin/event/phase",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "source": "participant-ui",
+      "path": "/api/gifts",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-ui",
+      "path": "/api/redemptions",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-ui",
+      "path": "/api/gifts",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-ui",
+      "path": "/api/redemptions",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-ui",
+      "path": "/api/redemptions",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-ui",
+      "path": "/api/gifts",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-ui",
+      "path": "/api/redemptions",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "source": "participant-ui",
+      "path": "/api/redemptions/cfbf36ec-95f8-4ddf-936b-7ea954c530f5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant",
+      "path": "/api/redemptions/cfbf36ec-95f8-4ddf-936b-7ea954c530f5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "staff-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "staff-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "staff-ui",
+      "path": "/api/admin/redemptions/lookup",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "source": "staff-ui",
+      "path": "/api/admin/redemptions/redeem",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "source": "staff-repeat",
+      "path": "/api/admin/redemptions/redeem",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "source": "participant",
+      "path": "/api/redemptions/cfbf36ec-95f8-4ddf-936b-7ea954c530f5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-ui",
+      "path": "/api/redemptions/cfbf36ec-95f8-4ddf-936b-7ea954c530f5",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    }
+  ],
+  "resources_closed": {
+    "browser": true,
+    "http": true,
+    "pool": true,
+    "replay_worker": true
+  },
+  "secret_policy": "Invites/cookies/controller secrets/CSRF/voucher tokens/QR bytes/request and response bodies remain memory-only; no page traces or normal live-voucher screenshot saved."
+}

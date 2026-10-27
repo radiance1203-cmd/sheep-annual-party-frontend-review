@@ -1,0 +1,21 @@
+{
+  "mode": "red",
+  "environment": "isolated Chromium + real App components + schema-checked API fixture; no real business POST, PostgreSQL, phone or field validation",
+  "results": [
+    {
+      "id": "F01-order-delayed-B",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: route B must immediately hide order A\n\n1 !== 0\n"
+    },
+    {
+      "id": "F01-result-delayed-B",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: route B must immediately hide result A\n\n1 !== 0\n"
+    },
+    {
+      "id": "F02-out-of-stock-switch-B",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: definitive stock rejection must allow gift B\n\n1 !== 2\n"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "F05-10-runtime-stack",
+  "body": "‹\n羊羊叠高高\n正式挑战\n静音\n剩余时间\n31秒\n局内表现\n24 /80\n失误\n0/3\n已叠稳 8 层 · 完美 4 层\n\n原局日志已恢复，按服务端原时轴继续。\n\n点击放下",
+  "metrics": {
+    "dpr": 1,
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "canvas": [
+      {
+        "width": 360,
+        "height": 480,
+        "rect": {
+          "x": 16,
+          "y": 97.390625,
+          "width": 360,
+          "height": 480,
+          "top": 97.390625,
+          "right": 376,
+          "bottom": 577.390625,
+          "left": 16
+        }
+      }
+    ],
+    "tick": "422",
+    "images": [],
+    "links": [
+      {
+        "text": "♧ 牧场",
+        "href": "#/",
+        "disabled": null,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      }
+    ]
+  },
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    },
+    {
+      "path": "/api/sessions/cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+      "method": "GET"
+    }
+  ],
+  "errors": [],
+  "checkpoint": 407
+}

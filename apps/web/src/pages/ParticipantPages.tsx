@@ -1,9 +1,11 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { RULES } from '@sheep/game-core';
 import { api, clock, formatTime, gameNames, key, phaseNames, unwrap } from '../api';
 import type { Schema } from '../api';
 import { getRecord, putRecord } from '../game/storage';
-import { AssetImage, Countdown, MutationStatus, Notice, Panel, QrCode, navigate, useMutation, useResource } from '../ui';
+import { isDefinitiveRedemptionRejection, pendingRedemptionKey } from '../repair-state/redemption';
+import { hasKnownSettlementReason, settlementReason, verifiedStatistics } from '../repair-state/result-presentation';
+import { AssetImage, Countdown, JsonDetails, MutationStatus, Notice, Panel, QrCode, navigate, useMutation, useResource } from '../ui';
 
 export function PublicDisplay() {
   const resource = useResource(async () => unwrap(await api.GET('/api/display')).data, 'public-display', 5);
@@ -20,11 +22,31 @@ export function Records({ me }: { me: Schema<'Me'> | Schema<'StaffMe'> | undefin
 export function Results({ id }: { id: string }) {
   const resource = useResource(async () => unwrap(await api.GET('/api/sessions/{id}', { params: { path: { id } } })).data, id, 2);
   const identity = useResource(async () => unwrap(await api.GET('/api/me')).data, `result-me:${id}`, 3);
-  const session = resource.data;
+  const session = resource.data?.session_id === id ? resource.data : undefined;
   const settled = session?.settlement;
-  const valid = session?.state === 'SETTLED' && settled?.eligible_currently;
-  const descriptions: Record<Schema<'SessionState'>, string> = { SCHEDULED: '原局已预约，按原时轴开赛。', RUNNING: '原局仍在进行，请回原控制设备恢复。', AWAITING_SUBMISSION: '等待完整日志同步，尚未到账。', VERIFYING: '完整日志已封存，服务器正在核验。核验前不预支积分，可继续下一次未使用的机会。', SETTLED: valid ? '核验通过，积分已到账。' : '本局未形成有效参与，计 0 分。', REVIEW: '正在复核，积分尚未确认。请联系工作人员。', ABANDONED: '已主动放弃，本次机会已使用，本局 0 分。', TIMED_OUT: '完整过程未在截止前受理，本局 0 分。', VOIDED: '原尝试已作废，历史分数不再贡献荣誉积分。' };
-  return <Panel title="本次挑战"><>{resource.error && <Notice error>{resource.error}</Notice>}{!session && !resource.error && <Notice>正在查回原局……</Notice>}{session && <><span className="eyebrow">{gameNames[session.game_id]} · 第 {session.slot_no} 次机会</span><div className="result-medal" aria-hidden="true"><img src={valid ? '/assets/ui/icon_score_star.svg' : '/assets/ui/icon_info.svg'} width={80} height={80} alt="" /></div><h2 className="result-title">{session.state === 'VERIFYING' ? '核验中' : session.state === 'REVIEW' ? '待复核' : valid ? '挑战完成！' : '本局状态'}</h2><Notice>{descriptions[session.state]}</Notice><div className="score-breakdown"><div><span>当前有效贡献</span><strong>{valid ? session.current_contribution_points : '—'}</strong></div><div><span>参与分</span><strong>{valid ? RULES.common.participation_points : '—'}</strong></div><div><span>表现分</span><strong>{valid ? settled?.conclusion?.performance_points : '—'}</strong></div></div>{settled && <p>结算原因：{settled.eligibility_reason}。只有当前有效贡献计入荣誉，历史获分不代表现在可用余额。</p>}<p>全场荣誉 {identity.data?.participant.honor_total ?? '—'} · 可用余额 {identity.data?.participant.wallet_balance ?? '—'} · 剩余正式机会 {identity.data?.tickets.filter(ticket => ticket.state === 'AVAILABLE').length ?? '—'}</p><p>完整提交截止：{formatTime(session.submit_deadline)}</p><p className="small">局号 {session.session_id}</p>{['SCHEDULED', 'RUNNING', 'AWAITING_SUBMISSION'].includes(session.state) && <a className="button" href={`#/play/${session.game_id}`}>尝试恢复原局 / 原日志</a>}<div className="action-stack"><a className="button primary" href="#/">返回大厅，查看剩余机会</a><a className="button" href="#/leaderboard">看看荣誉榜</a></div></>}</></Panel>;
+  const valid = session?.state === 'SETTLED' && session.is_current_binding && settled?.eligible_currently && settled.validation === 'VERIFIED' && settled.eligibility_reason === 'VERIFIED' && settled.conclusion?.game_id === session.game_id;
+  const finalKnown = session && ['SETTLED', 'VOIDED'].includes(session.state) && settled && hasKnownSettlementReason(settled.eligibility_reason);
+  const historical = session && !session.is_current_binding;
+  const statistics = session ? verifiedStatistics(session) : [];
+  const currentIdentity = identity.error ? undefined : identity.data;
+  const settledDescription = historical ? '历史尝试已被替换，原记录仅供查询，不再贡献当前荣誉积分。' : valid ? '核验通过，积分已到账。' : settled && settled.eligibility_reason !== 'VERIFIED' ? settlementReason(settled.eligibility_reason) : '服务器当前未确认本局为有效贡献，请查看记录或联系工作人员。';
+  const descriptions: Record<Schema<'SessionState'>, string> = { SCHEDULED: '原局已预约，按原时轴开赛。', RUNNING: '原局仍在进行，请回原控制设备恢复。', AWAITING_SUBMISSION: '等待完整日志同步，尚未到账。', VERIFYING: '完整日志已封存，服务器正在核验。核验前不预支积分，可继续下一次未使用的机会。', SETTLED: settledDescription, REVIEW: '正在复核，积分尚未确认。请联系工作人员。', ABANDONED: '已主动放弃，本次机会已使用，本局 0 分。', TIMED_OUT: '完整过程未在截止前受理，本局 0 分。', VOIDED: '原尝试已作废，历史分数不再贡献荣誉积分。' };
+  return <Panel title="本次挑战"><>{resource.error && <Notice error>{resource.error}</Notice>}{!session && !resource.error && <Notice>正在查回原局……</Notice>}{session && <>
+    <span className="eyebrow">{gameNames[session.game_id]} · 第 {session.slot_no} 次机会</span>
+    <div className="result-medal" aria-hidden="true"><img src={valid ? '/assets/ui/icon_score_star.svg' : '/assets/ui/icon_info.svg'} width={80} height={80} alt="" /></div>
+    <h2 className="result-title">{session.state === 'VERIFYING' ? '核验中' : session.state === 'REVIEW' ? '待复核' : valid ? '挑战完成！' : historical ? '历史挑战记录' : '本局状态'}</h2>
+    <Notice>{descriptions[session.state] ?? '未知局次状态，暂不显示到账结论。请查看服务器记录或联系工作人员。'}</Notice>
+    <div className="score-breakdown"><div><span>当前有效贡献</span><strong>{finalKnown ? session.current_contribution_points : '—'}</strong></div><div><span>参与分</span><strong>{valid ? RULES.common.participation_points : '—'}</strong></div><div><span>表现分</span><strong>{valid ? settled.conclusion?.performance_points : '—'}</strong></div></div>
+    {settled && <p>结算原因：{settlementReason(settled.eligibility_reason)}。只有当前有效贡献计入荣誉，历史获分不代表现在可用余额。</p>}
+    {statistics.length > 0 && <section aria-label="核验统计"><h3>{historical || session.state === 'VOIDED' ? '历史核验统计' : '本局核验统计'}</h3><ul>{statistics.map(item => <li key={item}>{item}</li>)}</ul></section>}
+    {settled && (historical || session.state === 'VOIDED') && <p>历史获分 {settled.original_awarded_points} 分，仅供查阅；当前有效贡献以服务器记录为准。</p>}
+    {identity.error && <Notice error>{identity.error}。余额与机会暂时无法同步。<button onClick={identity.refresh}>重试余额与机会</button></Notice>}
+    <p>全场荣誉 {currentIdentity?.participant.honor_total ?? '—'} · 可用余额 {currentIdentity?.participant.wallet_balance ?? '—'} · 剩余正式机会 {currentIdentity?.tickets.filter(ticket => ticket.state === 'AVAILABLE').length ?? '—'}</p>
+    <p>完整提交截止：{formatTime(session.submit_deadline)}</p><p className="small">局号 {session.session_id}</p>
+    {['SCHEDULED', 'RUNNING', 'AWAITING_SUBMISSION'].includes(session.state) && <a className="button" href={`#/play/${session.game_id}`}>尝试恢复原局 / 原日志</a>}
+    <JsonDetails value={{ session_id: session.session_id, state: session.state, is_current_binding: session.is_current_binding, current_contribution_points: session.current_contribution_points, settlement: settled }} />
+    <div className="action-stack"><a className="button primary" href="#/">返回大厅，查看剩余机会</a><a className="button" href="#/leaderboard">看看荣誉榜</a></div>
+  </>}</></Panel>;
 }
 export function Leaderboard({ big = false, event }: { big?: boolean; event: Schema<'EventPublic'> | undefined }) {
   const [offset, setOffset] = useState(0);
@@ -32,27 +54,43 @@ export function Leaderboard({ big = false, event }: { big?: boolean; event: Sche
   return <Panel title={big ? `${event?.name || '羊年游园会'} · 荣誉时刻` : '荣誉排行榜'}>{resource.error && <Notice error>{resource.error}</Notice>}{resource.data ? <><p>{resource.data.is_frozen ? '已封榜' : '实时荣誉榜'} · {resource.data.total_entries} 人取得有效成绩 · 同分并列</p>{big && event && <p>{phaseNames[event.phase]} · 公共活动入口 <span>{window.location.origin}</span></p>}{resource.data.me && !big && <Notice>我的名次 {resource.data.me.rank} · 荣誉 {resource.data.me.honor_total} 分</Notice>}{resource.data.rows.length ? <ol className="leaderboard">{resource.data.rows.map(row => <li key={row.display_uid}><strong className="rank">{row.rank}</strong><span>{row.display_name}<small>{row.display_uid}</small></span><b>{row.honor_total}<small>分</small></b></li>)}</ol> : <Notice>尚未取得有效成绩。首个核验通过的成绩会出现在这里。</Notice>}{!big && <div className="pagination"><button disabled={offset === 0} onClick={() => setOffset(Math.max(0, offset - 50))}>上一页</button><button disabled={offset + 50 >= resource.data.total_entries} onClick={() => setOffset(offset + 50)}>下一页</button></div>}</> : !resource.error && <Notice>正在读取荣誉榜……</Notice>}</Panel>;
 }
 export function Gifts({ event, me, refresh }: { event: Schema<'EventPublic'> | undefined; me: Schema<'Me'> | Schema<'StaffMe'> | undefined; refresh: () => void }) {
-  const gifts = useResource(async () => unwrap(await api.GET('/api/gifts')).data, 'gifts', 10);
-  const orders = useResource(async () => unwrap(await api.GET('/api/redemptions', { params: { query: { offset: 0, limit: 50 } } })).data, 'orders', 10);
+  const scope = event && me ? pendingRedemptionKey(event.event_id, me.participant.participant_id) : null;
+  const activeScope = useRef(scope);
+  activeScope.current = scope;
+  useEffect(() => () => { activeScope.current = null; }, []);
+  const gifts = useResource(async () => unwrap(await api.GET('/api/gifts')).data, `gifts:${event?.event_id}`, 10);
+  const orders = useResource(async () => unwrap(await api.GET('/api/redemptions', { params: { query: { offset: 0, limit: 50 } } })).data, `orders:${scope}`, 10);
+  const pending = useResource(async () => scope ? await getRecord<Schema<'RedemptionCreateRequest'> | null>(scope) ?? null : null, `pending:${scope}`);
+  const legacyPending = useResource(async () => await getRecord<Schema<'RedemptionCreateRequest'> | null>('pending-redemption') ?? null, 'legacy-pending-redemption');
   const mutation = useMutation();
   const hasOrder = orders.data?.items.some(order => order.status !== 'CANCELLED') ?? false;
   const claimExpired = Boolean(event?.claim_closes_at && Date.parse(event.claim_closes_at) <= clock.now(performance.now()));
-  async function redeem(gift: Schema<'Gift'>): Promise<void> {
-    const stored = await getRecord<Schema<'RedemptionCreateRequest'> | null>('pending-redemption');
-    const body = stored ?? { idempotency_key: key(), gift_id: gift.gift_id };
-    if (body.gift_id !== gift.gift_id) throw new Error('另一个礼品请求结果未明，请先重试原礼品并查回订单。');
-    await putRecord('pending-redemption', body);
-    const order = unwrap(await api.POST('/api/redemptions', { body })).data;
-    await putRecord('pending-redemption', null); refresh(); orders.refresh(); navigate(`/order/${order.redemption_id}`);
+  async function redeem(giftId?: string): Promise<void> {
+    if (!scope) throw new Error('请先确认当前活动与身份。');
+    const stored = await getRecord<Schema<'RedemptionCreateRequest'> | null>(scope);
+    if (activeScope.current !== scope) return;
+    if (stored && giftId && stored.gift_id !== giftId) throw new Error('另一个礼品请求结果未明，请先重试原请求并查回订单。');
+    if (!stored && !giftId) throw new Error('当前没有待查回的兑换请求，请刷新订单。');
+    const body = stored ?? { idempotency_key: key(), gift_id: giftId ?? '' };
+    await putRecord(scope, body); pending.refresh();
+    try {
+      const order = unwrap(await api.POST('/api/redemptions', { body })).data;
+      await putRecord(scope, null);
+      if (activeScope.current === scope) { pending.refresh(); refresh(); orders.refresh(); navigate(`/order/${order.redemption_id}`); }
+    } catch (cause) {
+      if (isDefinitiveRedemptionRejection(cause)) await putRecord(scope, null);
+      if (activeScope.current === scope) pending.refresh();
+      throw cause;
+    }
   }
-  return <><Panel title="把快乐带回家"><p>默认每人一件。下单后扣除余额并预留库存；工作人员核销成功后再领取实物。</p><div className="score-strip"><div><span>可用余额</span><strong>{me?.participant.wallet_balance ?? '—'}</strong></div><div><span>荣誉积分</span><strong>{me?.participant.honor_total ?? '—'}</strong></div></div><p>领取截止：{formatTime(event?.claim_closes_at ?? null)}</p>{event?.phase !== 'REDEEMING' && <Notice>挑战结束并完成核验后开放兑换。活动关闭后，原有待领订单仍按已公布的领取截止办理。</Notice>}{hasOrder && <Notice>已有一件礼品订单，未领取订单取消后才可选择其他礼品。</Notice>}{claimExpired && <Notice>领取截止已过，不能新兑换；原有未领取订单仍可查询和取消。</Notice>}{me && !me.participant.eligible && <Notice error>当前资格已暂停，请联系工作人员。</Notice>}{me?.participant.claims_frozen && <Notice error>积分资格待复核，新的兑换和既有凭证暂时冻结。</Notice>}<MutationStatus state={mutation} /></Panel>{gifts.data === undefined && !gifts.error && <Notice>正在读取记录……</Notice>}{gifts.error && <Notice error>{gifts.error}</Notice>}<div className="gift-grid">{gifts.data?.map(gift => <Panel key={gift.gift_id}><AssetImage assetKey={gift.image_asset_key} label={gift.name} /><h2>{gift.name}</h2><p>{gift.description}</p><strong className="gift-price">{gift.price_points} 积分</strong><p>真实可用库存 {gift.available_count}</p>{gift.available_count === 0 && <Notice>已售罄</Notice>}{me && me.participant.wallet_balance < gift.price_points && <Notice>余额不足，还差 {gift.price_points - me.participant.wallet_balance} 积分。</Notice>}<button className="primary" disabled={mutation.pending || !me || !orders.data || hasOrder || claimExpired || !me.participant.eligible || !gift.active || !gift.available_count || event?.phase !== 'REDEEMING' || me.participant.claims_frozen || me.participant.wallet_balance < gift.price_points} onClick={() => void mutation.run(() => redeem(gift))}>确认扣除 {gift.price_points} 分兑换</button></Panel>)}</div>{gifts.data?.length === 0 && <Notice>主办方尚未配置礼品。请稍后查看。</Notice>}<Panel title="我的订单">{orders.error && <Notice error>{orders.error}</Notice>}{orders.data?.items.map(order => <a className="order-link" key={order.redemption_id} href={`#/order/${order.redemption_id}`}><b>{order.gift_name_snapshot}</b><span>{order.status === 'RESERVED' ? '待领取' : order.status === 'CLAIMED' ? '已领取' : '已取消'} ›</span></a>)}{orders.data?.items.length === 0 && <p>还没有兑换订单。</p>}</Panel></>;
+  return <><Panel title="把快乐带回家"><p>默认每人一件。下单后扣除余额并预留库存；工作人员核销成功后再领取实物。</p><div className="score-strip"><div><span>可用余额</span><strong>{me?.participant.wallet_balance ?? '—'}</strong></div><div><span>荣誉积分</span><strong>{me?.participant.honor_total ?? '—'}</strong></div></div><p>领取截止：{formatTime(event?.claim_closes_at ?? null)}</p>{event?.phase !== 'REDEEMING' && <Notice>挑战结束并完成核验后开放兑换。活动关闭后，原有待领订单仍按已公布的领取截止办理。</Notice>}{hasOrder && <Notice>已有一件礼品订单，未领取订单取消后才可选择其他礼品。</Notice>}{claimExpired && <Notice>领取截止已过，不能新兑换；原有未领取订单仍可查询和取消。</Notice>}{me && !me.participant.eligible && <Notice error>当前资格已暂停，请联系工作人员。</Notice>}{me?.participant.claims_frozen && <Notice error>积分资格待复核，新的兑换和既有凭证暂时冻结。</Notice>}<MutationStatus state={mutation} />{legacyPending.data && <Notice>此设备保留一笔旧版兑换请求，缺少活动与身份信息，不能自动重放。请先查询本人的订单；查不到时联系工作人员核对。</Notice>}{pending.error && <Notice error>{pending.error}</Notice>}{pending.data && <Notice>原兑换请求结果未明。请查回原订单，确认前不要另选礼品。<button disabled={mutation.pending} onClick={() => void mutation.run(() => redeem())}>查回原订单 / 重试原请求</button><button onClick={orders.refresh}>刷新我的订单</button></Notice>}</Panel>{gifts.data === undefined && !gifts.error && <Notice>正在读取记录……</Notice>}{gifts.error && <Notice error>{gifts.error}</Notice>}<div className="gift-grid">{gifts.data?.map(gift => <Panel key={gift.gift_id}><AssetImage assetKey={gift.image_asset_key} label={gift.name} /><h2>{gift.name}</h2><p>{gift.description}</p><strong className="gift-price">{gift.price_points} 积分</strong><p>真实可用库存 {gift.available_count}</p>{gift.available_count === 0 && <Notice>已售罄</Notice>}{me && me.participant.wallet_balance < gift.price_points && <Notice>余额不足，还差 {gift.price_points - me.participant.wallet_balance} 积分。</Notice>}<button className="primary" disabled={mutation.pending || !me || !orders.data || hasOrder || claimExpired || !me.participant.eligible || !gift.active || !gift.available_count || event?.phase !== 'REDEEMING' || me.participant.claims_frozen || me.participant.wallet_balance < gift.price_points} onClick={() => void mutation.run(() => redeem(gift.gift_id))}>确认扣除 {gift.price_points} 分兑换</button></Panel>)}</div>{gifts.data?.length === 0 && <Notice>主办方尚未配置礼品。请稍后查看。</Notice>}<Panel title="我的订单">{orders.error && <Notice error>{orders.error}</Notice>}{orders.data?.items.map(order => <a className="order-link" key={order.redemption_id} href={`#/order/${order.redemption_id}`}><b>{order.gift_name_snapshot}</b><span>{order.status === 'RESERVED' ? '待领取' : order.status === 'CLAIMED' ? '已领取' : '已取消'} ›</span></a>)}{orders.data?.items.length === 0 && <p>还没有兑换订单。</p>}</Panel></>;
 }
 export function Order({ id, refresh }: { id: string; refresh: () => void }) {
   const resource = useResource(async () => unwrap(await api.GET('/api/redemptions/{id}', { params: { path: { id } } })).data, id, 3);
   const mutation = useMutation();
-  const order = resource.data;
+  const order = resource.data?.redemption_id === id ? resource.data : undefined;
   const expired = Boolean(order && Date.parse(order.claim_closes_at) <= clock.now(performance.now()));
-  return <Panel title="我的领取凭证">{resource.error && <Notice error>{resource.error}</Notice>}{!order && !resource.error && <Notice>正在查询订单……</Notice>}{order && <><span className="eyebrow">{order.status === 'RESERVED' ? '等待领取' : order.status === 'CLAIMED' ? '已领取 · 请勿重复交付' : '已取消 · 原价退分'}</span><div className="gift-art" aria-hidden="true"><img src="/assets/ui/icon_gift.svg" width={80} height={80} alt="" /></div><h2>{order.gift_name_snapshot}</h2><p>成交 {order.price_points_snapshot} 积分 · 领取截止 {formatTime(order.claim_closes_at)}</p>{order.claims_frozen && <Notice error>本凭证已冻结，请联系工作人员复核。</Notice>}{expired && order.status === 'RESERVED' && <Notice>领取截止已过，本凭证不能核销；可取消未领取订单并退回原价。</Notice>}{order.voucher_token && !expired && !order.claims_frozen && order.status === 'RESERVED' && <div className="voucher"><b>向工作人员展示此领取码</b><code>{order.voucher_token}</code><button onClick={() => void navigator.clipboard.writeText(order.voucher_token ?? '')}>复制领取码</button></div>}<p className="small">订单 {order.redemption_id}</p>{order.claimed_at && <Notice>已于 {formatTime(order.claimed_at)} 由 {order.claimed_by_display_name} 核销。</Notice>}<p>只有服务器确认核销成功后才交付实物。响应丢失时查询本订单，不重复领取。</p>{order.status === 'RESERVED' && <button disabled={mutation.pending} onClick={() => void mutation.run(async () => {
+  return <Panel title="我的领取凭证">{resource.error && <Notice error>{resource.error}</Notice>}{!order && !resource.error && <Notice>正在查询订单……</Notice>}{order && <><span className="eyebrow">{order.status === 'RESERVED' ? '等待领取' : order.status === 'CLAIMED' ? '已领取 · 请勿重复交付' : '已取消 · 原价退分'}</span><div className="gift-art" aria-hidden="true"><img src="/assets/ui/icon_gift.svg" width={80} height={80} alt="" /></div><h2>{order.gift_name_snapshot}</h2><p>成交 {order.price_points_snapshot} 积分 · 领取截止 {formatTime(order.claim_closes_at)}</p>{order.claims_frozen && <Notice error>本凭证已冻结，请联系工作人员复核。</Notice>}{expired && order.status === 'RESERVED' && <Notice>领取截止已过，本凭证不能核销；可取消未领取订单并退回原价。</Notice>}{order.voucher_token && !expired && !order.claims_frozen && order.status === 'RESERVED' && <div className="voucher"><b>向工作人员展示此领取码</b><QrCode value={order.voucher_token} label="领取凭证二维码" /><code>{order.voucher_token}</code><button onClick={() => void navigator.clipboard.writeText(order.voucher_token ?? '')}>复制领取码</button></div>}<p className="small">订单 {order.redemption_id}</p>{order.claimed_at && <Notice>已于 {formatTime(order.claimed_at)} 由 {order.claimed_by_display_name} 核销。</Notice>}<p>只有服务器确认核销成功后才交付实物。响应丢失时查询本订单，不重复领取。</p>{order.status === 'RESERVED' && <button disabled={mutation.pending} onClick={() => void mutation.run(async () => {
     const storageKey = `cancel:${id}`;
     const body = await getRecord<Schema<'CancelRequest'>>(storageKey) ?? { idempotency_key: key(), reason: '参与者主动取消未领取订单' };
     await putRecord(storageKey, body); unwrap(await api.POST('/api/redemptions/{id}/cancel', { params: { path: { id } }, body })); resource.refresh(); refresh();

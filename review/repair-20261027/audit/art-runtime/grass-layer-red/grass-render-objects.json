@@ -1,0 +1,90 @@
+{
+  "at": "2026-10-27T09:47:48.567Z",
+  "scope": "Actual production renderer image/frame objects at true golden core prefixes. Explicit remaining-core draw-order target; no state, collider or pickup-radius edits.",
+  "manifestHash": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "pass": false,
+  "checks": [
+    {
+      "id": "runner-grass-uncollected",
+      "tick": 239,
+      "viewHash": "5b16f6e1d813b23b5a0d6a30b57d51a92dc1918c95a7735a3ed572da8ddc28db",
+      "grass": {
+        "grass_id": 1,
+        "center": {
+          "x_u": 94000,
+          "y_u": 69000
+        },
+        "outer_collected": false,
+        "inner_collected": false
+      },
+      "outerFramePresent": true,
+      "coreFramePresent": true,
+      "coreDrawIndex": 5,
+      "runnerIndex": 8,
+      "coreAboveRunner": false,
+      "actualPropFrames": [
+        {
+          "texture": "farm_side_v1",
+          "frame": "clover_outer_round",
+          "x": 94,
+          "y": 69,
+          "width": 9,
+          "height": 9
+        },
+        {
+          "texture": "farm_side_v1",
+          "frame": "clover_core_round",
+          "x": 94,
+          "y": 69,
+          "width": 3,
+          "height": 3
+        }
+      ],
+      "runner": {
+        "texture": "sheep_side_v1",
+        "frame": "sheep_side__takeoff__e__f002",
+        "x": 88,
+        "y": 90.3,
+        "width": 56,
+        "height": 56
+      }
+    },
+    {
+      "id": "runner-grass-outer-only",
+      "tick": 240,
+      "viewHash": "79cc310ded8b9f51faebf19c2d33058a94be36c03ed6af2ca4af66aec41313b1",
+      "grass": {
+        "grass_id": 1,
+        "center": {
+          "x_u": 91600,
+          "y_u": 69000
+        },
+        "outer_collected": true,
+        "inner_collected": false
+      },
+      "outerFramePresent": false,
+      "coreFramePresent": true,
+      "coreDrawIndex": 4,
+      "runnerIndex": 7,
+      "coreAboveRunner": false,
+      "actualPropFrames": [
+        {
+          "texture": "farm_side_v1",
+          "frame": "clover_core_round",
+          "x": 91.6,
+          "y": 69,
+          "width": 3,
+          "height": 3
+        }
+      ],
+      "runner": {
+        "texture": "sheep_side_v1",
+        "frame": "sheep_side__takeoff__e__f002",
+        "x": 88,
+        "y": 89,
+        "width": 56,
+        "height": 56
+      }
+    }
+  ]
+}

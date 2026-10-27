@@ -1,0 +1,116 @@
+{
+  "id": "F03-runner-ready-stays-tick0",
+  "pass": true,
+  "error": null,
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_side_v2.atlas.json",
+    "/assets/characters/sheep_side_v2.png",
+    "/assets/environment/farm_side_v2.atlas.json",
+    "/assets/environment/farm_side_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_runner_v3.atlas.json",
+    "/assets/environment/backdrop_runner_v3.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": "0",
+    "acceptedActions": "0",
+    "decode": {
+      "started": 4,
+      "succeeded": 4,
+      "images": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/b5f1bba6-c569-4bb4-a5f7-1d9c44456e46"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/a938502c-f597-4d8a-a766-4d2e7eeb21c3"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/871faae7-1ea0-440e-9e3b-e273d32bbb0e"
+        },
+        {
+          "width": 720,
+          "height": 440,
+          "source": "blob:http://127.0.0.1:5175/9abf4253-fb16-4bf4-bcdf-cbc955df51d2"
+        }
+      ],
+      "hold": false
+    },
+    "canvas": [
+      {
+        "width": 360,
+        "height": 220,
+        "rect": {
+          "x": 9,
+          "y": 152.390625,
+          "width": 373.984375,
+          "height": 228.546875,
+          "top": 152.390625,
+          "right": 382.984375,
+          "bottom": 380.9375,
+          "left": 9
+        }
+      }
+    ],
+    "body": "‹\n羊羊跨栏\n自由练习 · 不入账\n静音\n剩余时间\n45秒\n局内表现\n0 /80\n失误次数\n0\n已越栏 0 · 外圈 0 · 金芯 0\n练习场景已就绪 · 不占正式机会，不产生正式积分。\n开始不计分练习",
+    "dpr": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "extra": {
+    "decoded": {
+      "started": 4,
+      "succeeded": 4,
+      "images": [
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/b5f1bba6-c569-4bb4-a5f7-1d9c44456e46"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/a938502c-f597-4d8a-a766-4d2e7eeb21c3"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/871faae7-1ea0-440e-9e3b-e273d32bbb0e"
+        },
+        {
+          "width": 720,
+          "height": 440,
+          "source": "blob:http://127.0.0.1:5175/9abf4253-fb16-4bf4-bcdf-cbc955df51d2"
+        }
+      ],
+      "hold": false
+    },
+    "pixels": {
+      "size": [
+        374,
+        229
+      ],
+      "colors": 1697
+    }
+  }
+}

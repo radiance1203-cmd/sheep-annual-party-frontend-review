@@ -1,0 +1,121 @@
+{
+  "manifest_sha256": "bdf93f4c26c9ed6e108f5af5a718edd7997a86936da85404485a68e1eeb8d234",
+  "rules_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+  "records": [
+    {
+      "asset_id": "character.sheep.side",
+      "path": "apps/web/public/assets/characters/sheep_side_v2.png",
+      "sha256": "d4aa52f7886ba56d37f2b8a1e8c3f71e118d55f0206970d457e357cd90211df1"
+    },
+    {
+      "asset_id": "character.sheep.side.metadata",
+      "path": "apps/web/public/assets/characters/sheep_side_v2.atlas.json",
+      "sha256": "6a7fb0ec41879b732425cac263bf2b776dc85b3000e44fbb7c706ac599255df8"
+    },
+    {
+      "asset_id": "character.sheep.iso8",
+      "path": "apps/web/public/assets/characters/sheep_iso8_v2.png",
+      "sha256": "31473ce0025af7cbd4d278928a8b745111dc76bd3b5b1efd8fbf5b0e40792568"
+    },
+    {
+      "asset_id": "character.sheep.iso8.metadata",
+      "path": "apps/web/public/assets/characters/sheep_iso8_v2.atlas.json",
+      "sha256": "0559f8feed1d1a31681d1154c31603fe34df9e288141ca0a29d04394da7496a4"
+    },
+    {
+      "asset_id": "character.dog.iso8",
+      "path": "apps/web/public/assets/characters/dog_iso8_v2.png",
+      "sha256": "62baf9d0029ebca7bfe5fe90fcae2aa26a0c499fac553365a9d49255ea0396d0"
+    },
+    {
+      "asset_id": "character.dog.iso8.metadata",
+      "path": "apps/web/public/assets/characters/dog_iso8_v2.atlas.json",
+      "sha256": "dac32ba9606d774b07e74b7cfd5062274c76c4579aab1125e1be3acec4ee93f5"
+    },
+    {
+      "asset_id": "environment.side",
+      "path": "apps/web/public/assets/environment/farm_side_v2.png",
+      "sha256": "db95fa16c9bc7a2d11f224a27d919554af2d3ffa71ec99ca78009e26315f0d13"
+    },
+    {
+      "asset_id": "environment.side.metadata",
+      "path": "apps/web/public/assets/environment/farm_side_v2.atlas.json",
+      "sha256": "6af8d9dbe72d09636a9d55f0c4f3089f7bd3b6c258bf6317297e8107d359861f"
+    },
+    {
+      "asset_id": "environment.iso",
+      "path": "apps/web/public/assets/environment/farm_iso_v2.png",
+      "sha256": "c0b41ef5ede722dcf69249e0bf76d1a6f90c06f78f300c13e7664a19c69abaae"
+    },
+    {
+      "asset_id": "environment.iso.metadata",
+      "path": "apps/web/public/assets/environment/farm_iso_v2.atlas.json",
+      "sha256": "c874ace68eb986e67cc84ec2f075c5e368bb698ca207e82533d85c02ba4c3ed1"
+    },
+    {
+      "asset_id": "hero.lobby",
+      "path": "apps/web/public/assets/hero/lobby_hero_v2.webp",
+      "sha256": "1b3be9b75988f5d75249118619f65cf9d3d03483794358a3bd54818b8d81b1ee"
+    },
+    {
+      "asset_id": "effects.shared",
+      "path": "apps/web/public/assets/effects/shared_v1.png",
+      "sha256": "e7ca467d404e96cd9534890907740f8cdf3f775a39785a8f4281ec583e0dfc7c"
+    },
+    {
+      "asset_id": "effects.shared.metadata",
+      "path": "apps/web/public/assets/effects/shared_v1.atlas.json",
+      "sha256": "d2d088f7db7012a2576a65eea14f4f14fbddaaa71827f9e7c58481cb7626d526"
+    },
+    {
+      "asset_id": "audio.shared",
+      "path": "apps/web/public/assets/audio/audio-manifest.json",
+      "sha256": "1ab42d6c3243feac08781df968897c51f3349dfce9564dd64597800d8dd0da87"
+    },
+    {
+      "asset_id": "cover.stack",
+      "path": "apps/web/public/assets/covers/cover_stack_v2.webp",
+      "sha256": "5d94b4e44142086d0692aef5f9dc7411427b71d5e1bff921b67e19ebdd03e859"
+    },
+    {
+      "asset_id": "cover.runner",
+      "path": "apps/web/public/assets/covers/cover_runner_v2.webp",
+      "sha256": "f395af4bf80ca339ed8d960fdbc70faf9a84aab55a2a9536082bc8b6a1a5b0f5"
+    },
+    {
+      "asset_id": "cover.herd",
+      "path": "apps/web/public/assets/covers/cover_herd_v2.webp",
+      "sha256": "a8601b03ca39f3fd94029c40cc65a171d72d90c3c95f7ab0e16c605fd0762757"
+    },
+    {
+      "asset_id": "environment.backdrop.stack",
+      "path": "apps/web/public/assets/environment/backdrop_stack_v3.png",
+      "sha256": "8a0a8746437b74f392ebc234bc3c4f101fc1639696e4a254533c597d2dc14b33"
+    },
+    {
+      "asset_id": "environment.backdrop.stack.metadata",
+      "path": "apps/web/public/assets/environment/backdrop_stack_v3.atlas.json",
+      "sha256": "dfb54a38a612653ace0753d5f40f47badc315aa1f02b433efa49ab6cb84307f5"
+    },
+    {
+      "asset_id": "environment.backdrop.runner",
+      "path": "apps/web/public/assets/environment/backdrop_runner_v3.png",
+      "sha256": "38c630bb91cc6ab358df79115296971e83ee1b94ef3cde1c2812f44b2b6eb727"
+    },
+    {
+      "asset_id": "environment.backdrop.runner.metadata",
+      "path": "apps/web/public/assets/environment/backdrop_runner_v3.atlas.json",
+      "sha256": "f574957814dc5a2e62589859d1600cc14fe0963e46381379070fe65dc89fe6c5"
+    },
+    {
+      "asset_id": "environment.backdrop.herd",
+      "path": "apps/web/public/assets/environment/backdrop_herd_v3.png",
+      "sha256": "ddf5012f78b7be433bdaea1f702a680fcd67e62b82d6153964bc377eba479835"
+    },
+    {
+      "asset_id": "environment.backdrop.herd.metadata",
+      "path": "apps/web/public/assets/environment/backdrop_herd_v3.atlas.json",
+      "sha256": "f8e78cf78383fa2e062f2b1d0d56ef6dc62f800fbb7ee62dc22b41d6ed6e5d11"
+    }
+  ]
+}

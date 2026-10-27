@@ -1,0 +1,10 @@
+{
+  "environment": "real useResource hook in Chromium, deterministic 350ms read and 200ms interval fixture; no business API",
+  "results": [
+    {
+      "id": "resource-slow-poll-350ms-over-200ms",
+      "pass": true
+    }
+  ],
+  "requestCount": 2
+}

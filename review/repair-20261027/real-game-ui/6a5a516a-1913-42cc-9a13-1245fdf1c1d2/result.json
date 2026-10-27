@@ -1,0 +1,818 @@
+{
+  "started_at": "2026-10-27T10:13:54.518Z",
+  "event_id": "6a5a516a-1913-42cc-9a13-1245fdf1c1d2",
+  "build": {
+    "rule_version": "onsite-v2.1-candidate",
+    "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+    "simulator_version": "sheep-core-2.2.0",
+    "client_version": "sheep-web-2.2.0"
+  },
+  "manifest_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "scope": "Real actual GamePage start/input/IDB/finish + isolated loopback HTTP/PostgreSQL + actual JobRunner/shared core + actual Results. Synthetic timed browser interaction; not human, physical device or venue acceptance.",
+  "guard": {
+    "database": "sheep_test",
+    "host": "127.0.0.1",
+    "new_uuid_event": true,
+    "server": "127.0.0.1 port0",
+    "default_activity_used": false,
+    "server3100_used": false
+  },
+  "clock_method": "Browser page.clock is installed before navigation, allowed to draw preparation, then paused. Each fastForward delta is first applied to the isolated service clock offset. Real HTTP server clock continues elapsed wall time, keeping finish before original play_start+60s deadline. No frontend/core clock or rule source edits.",
+  "server_port": 64286,
+  "pass": false,
+  "failure": {
+    "stage": "database-final",
+    "message": "column \"state\" does not exist"
+  },
+  "finished_at": "2026-10-27T10:14:03.366Z",
+  "stage": "database-final",
+  "runs": [
+    {
+      "game": "stack",
+      "session_id": "f2ea92bd-071a-45a3-8079-191865754250",
+      "slot_no": 1,
+      "seed": 1,
+      "timeline": {
+        "created_at": "2026-10-27T10:13:57.483Z",
+        "play_started_at": "2026-10-27T10:14:00.483Z",
+        "play_ends_at": "2026-10-27T10:14:45.483Z",
+        "submit_deadline": "2026-10-27T10:15:00.483Z",
+        "first_received_at": "2026-10-27T10:14:45.887Z"
+      },
+      "controlled": {
+        "countdown_fast_forward_ms": 3300,
+        "input_progress_ms": 250,
+        "natural_end_fast_forward_ms": 44521,
+        "service_offset_ms": 48259,
+        "clock_before_end": {
+          "browserDate": 1793096040950,
+          "serverClock": 1793096041062,
+          "tick": "17"
+        }
+      },
+      "points": 20,
+      "state": "SETTLED",
+      "validation": "VERIFIED",
+      "eligibility_reason": "VERIFIED",
+      "conclusion": {
+        "end_tick": 1350,
+        "end_reason": "TIME_LIMIT",
+        "accepted_actions_count": 1,
+        "performance_points": 0,
+        "stats": {
+          "success_layers": 0,
+          "perfect_layers": 0,
+          "misses": 1
+        }
+      },
+      "idb_meta": {
+        "processedTick": 1350,
+        "inputCount": 1,
+        "types": {
+          "DROP": 1
+        },
+        "sealed": true,
+        "sessionId": "f2ea92bd-071a-45a3-8079-191865754250"
+      },
+      "visible_statistics": "本局核验统计\n叠稳 0 层\n完美 0 次\n失误 1 次",
+      "page_errors": []
+    },
+    {
+      "game": "runner",
+      "session_id": "a633e598-fb27-46b9-9d2f-1af58c9f42cb",
+      "slot_no": 2,
+      "seed": 1,
+      "timeline": {
+        "created_at": "2026-10-27T10:14:47.922Z",
+        "play_started_at": "2026-10-27T10:14:50.922Z",
+        "play_ends_at": "2026-10-27T10:15:35.922Z",
+        "submit_deadline": "2026-10-27T10:15:50.922Z",
+        "first_received_at": "2026-10-27T10:15:36.301Z"
+      },
+      "controlled": {
+        "countdown_fast_forward_ms": 3300,
+        "input_progress_ms": 250,
+        "natural_end_fast_forward_ms": 44532,
+        "service_offset_ms": 96533,
+        "clock_before_end": {
+          "browserDate": 1793096091390,
+          "serverClock": 1793096091490,
+          "tick": "17"
+        }
+      },
+      "points": 20,
+      "state": "SETTLED",
+      "validation": "VERIFIED",
+      "eligibility_reason": "VERIFIED",
+      "conclusion": {
+        "end_tick": 1350,
+        "end_reason": "TIME_LIMIT",
+        "accepted_actions_count": 1,
+        "performance_points": 0,
+        "stats": {
+          "safe_passed": 0,
+          "collision_count": 20,
+          "outer_collected": 0,
+          "inner_collected": 0
+        }
+      },
+      "idb_meta": {
+        "processedTick": 1350,
+        "inputCount": 1,
+        "types": {
+          "JUMP": 1
+        },
+        "sealed": true,
+        "sessionId": "a633e598-fb27-46b9-9d2f-1af58c9f42cb"
+      },
+      "visible_statistics": "本局核验统计\n安全越栏 0 次\n外圈 0 份\n金芯 0 份",
+      "page_errors": []
+    },
+    {
+      "game": "herd",
+      "session_id": "6ec072f1-2fe2-42e8-91c4-0fb1ab598ab8",
+      "slot_no": 3,
+      "seed": 47,
+      "timeline": {
+        "created_at": "2026-10-27T10:15:38.475Z",
+        "play_started_at": "2026-10-27T10:15:41.475Z",
+        "play_ends_at": "2026-10-27T10:16:26.475Z",
+        "submit_deadline": "2026-10-27T10:16:41.475Z",
+        "first_received_at": "2026-10-27T10:16:26.925Z"
+      },
+      "controlled": {
+        "countdown_fast_forward_ms": 3300,
+        "input_progress_ms": 250,
+        "natural_end_fast_forward_ms": 44523,
+        "service_offset_ms": 144797,
+        "clock_before_end": {
+          "browserDate": 1793096141944,
+          "serverClock": 1793096142052,
+          "tick": "17"
+        }
+      },
+      "points": 20,
+      "state": "SETTLED",
+      "validation": "VERIFIED",
+      "eligibility_reason": "VERIFIED",
+      "conclusion": {
+        "end_tick": 1350,
+        "end_reason": "TIME_LIMIT",
+        "accepted_actions_count": 1,
+        "performance_points": 0,
+        "stats": {
+          "penned_count": 0,
+          "final_goal_tick": null,
+          "time_bonus_points": 0
+        }
+      },
+      "idb_meta": {
+        "processedTick": 1350,
+        "inputCount": 1,
+        "types": {
+          "BARK": 1
+        },
+        "sealed": true,
+        "sessionId": "6ec072f1-2fe2-42e8-91c4-0fb1ab598ab8"
+      },
+      "visible_statistics": "本局核验统计\n入圈 0 只\n时间奖励 0 分",
+      "page_errors": []
+    }
+  ],
+  "checks": [
+    {
+      "name": "database guard matches actual database",
+      "passed": true
+    },
+    {
+      "name": "server is isolated ephemeral loopback",
+      "passed": true
+    },
+    {
+      "name": "stack prepared core stays tick0",
+      "passed": true
+    },
+    {
+      "name": "stack UI starts actual seeded formal session",
+      "passed": true
+    },
+    {
+      "name": "stack original 3/45/60 timeline",
+      "passed": true
+    },
+    {
+      "name": "stack actual UI emits exactly one intended action",
+      "passed": true,
+      "details": {
+        "tick": 17,
+        "inputCount": 1,
+        "types": {
+          "DROP": 1
+        }
+      }
+    },
+    {
+      "name": "stack preparation and formal runtime retain same canvas",
+      "passed": true
+    },
+    {
+      "name": "stack worker processes actual UI-generated sealed log",
+      "passed": true
+    },
+    {
+      "name": "stack actual shared-core validation and effective operation",
+      "passed": true,
+      "details": {
+        "state": "SETTLED",
+        "accepted": 1,
+        "points": 20
+      }
+    },
+    {
+      "name": "stack finish respects original complete-submit deadline",
+      "passed": true
+    },
+    {
+      "name": "stack Results shows verified server stats and Chinese state",
+      "passed": true
+    },
+    {
+      "name": "stack no uncaught browser error",
+      "passed": true
+    },
+    {
+      "name": "runner prepared core stays tick0",
+      "passed": true
+    },
+    {
+      "name": "runner UI starts actual seeded formal session",
+      "passed": true
+    },
+    {
+      "name": "runner original 3/45/60 timeline",
+      "passed": true
+    },
+    {
+      "name": "runner actual UI emits exactly one intended action",
+      "passed": true,
+      "details": {
+        "tick": 17,
+        "inputCount": 1,
+        "types": {
+          "JUMP": 1
+        }
+      }
+    },
+    {
+      "name": "runner preparation and formal runtime retain same canvas",
+      "passed": true
+    },
+    {
+      "name": "runner worker processes actual UI-generated sealed log",
+      "passed": true
+    },
+    {
+      "name": "runner actual shared-core validation and effective operation",
+      "passed": true,
+      "details": {
+        "state": "SETTLED",
+        "accepted": 1,
+        "points": 20
+      }
+    },
+    {
+      "name": "runner finish respects original complete-submit deadline",
+      "passed": true
+    },
+    {
+      "name": "runner Results shows verified server stats and Chinese state",
+      "passed": true
+    },
+    {
+      "name": "runner no uncaught browser error",
+      "passed": true
+    },
+    {
+      "name": "herd prepared core stays tick0",
+      "passed": true
+    },
+    {
+      "name": "herd UI starts actual seeded formal session",
+      "passed": true
+    },
+    {
+      "name": "herd original 3/45/60 timeline",
+      "passed": true
+    },
+    {
+      "name": "herd actual UI emits exactly one intended action",
+      "passed": true,
+      "details": {
+        "tick": 17,
+        "inputCount": 1,
+        "types": {
+          "BARK": 1
+        }
+      }
+    },
+    {
+      "name": "herd preparation and formal runtime retain same canvas",
+      "passed": true
+    },
+    {
+      "name": "herd worker processes actual UI-generated sealed log",
+      "passed": true
+    },
+    {
+      "name": "herd actual shared-core validation and effective operation",
+      "passed": true,
+      "details": {
+        "state": "SETTLED",
+        "accepted": 1,
+        "points": 20
+      }
+    },
+    {
+      "name": "herd finish respects original complete-submit deadline",
+      "passed": true
+    },
+    {
+      "name": "herd Results shows verified server stats and Chinese state",
+      "passed": true
+    },
+    {
+      "name": "herd no uncaught browser error",
+      "passed": true
+    },
+    {
+      "name": "fourth formal tutorial entrance is disabled",
+      "passed": true
+    },
+    {
+      "name": "fourth direct formal start rejects without a new slot",
+      "passed": true,
+      "details": {
+        "status": 409,
+        "code": "NO_TICKET_SLOT"
+      }
+    }
+  ],
+  "http": [
+    {
+      "source": "organizer",
+      "path": "/api/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "source": "organizer",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant",
+      "path": "/api/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "source": "participant",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "organizer",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "organizer",
+      "path": "/api/admin/event/phase",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/sessions/start",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/sessions/f2ea92bd-071a-45a3-8079-191865754250/finish",
+      "method": "POST",
+      "status": 202
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/sessions/f2ea92bd-071a-45a3-8079-191865754250",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-check",
+      "path": "/api/sessions/f2ea92bd-071a-45a3-8079-191865754250",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/sessions/f2ea92bd-071a-45a3-8079-191865754250",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/sessions/f2ea92bd-071a-45a3-8079-191865754250",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/sessions/start",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/sessions/a633e598-fb27-46b9-9d2f-1af58c9f42cb/finish",
+      "method": "POST",
+      "status": 202
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/sessions/a633e598-fb27-46b9-9d2f-1af58c9f42cb",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-check",
+      "path": "/api/sessions/a633e598-fb27-46b9-9d2f-1af58c9f42cb",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/sessions/a633e598-fb27-46b9-9d2f-1af58c9f42cb",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "herd-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "herd-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "herd-ui",
+      "path": "/api/sessions/a633e598-fb27-46b9-9d2f-1af58c9f42cb",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "herd-ui",
+      "path": "/api/sessions/start",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "source": "herd-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "herd-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "herd-ui",
+      "path": "/api/sessions/6ec072f1-2fe2-42e8-91c4-0fb1ab598ab8/finish",
+      "method": "POST",
+      "status": 202
+    },
+    {
+      "source": "herd-ui",
+      "path": "/api/sessions/6ec072f1-2fe2-42e8-91c4-0fb1ab598ab8",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "herd-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "herd-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-check",
+      "path": "/api/sessions/6ec072f1-2fe2-42e8-91c4-0fb1ab598ab8",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "herd-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "herd-ui",
+      "path": "/api/sessions/6ec072f1-2fe2-42e8-91c4-0fb1ab598ab8",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "herd-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "herd-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "fourth-entry-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "fourth-entry-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-check",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "fourth-direct-negative",
+      "path": "/api/sessions/start",
+      "method": "POST",
+      "status": 409
+    }
+  ],
+  "clock_operations": [
+    {
+      "stage": "stack-prepare",
+      "operation": "install-and-explicit-resume",
+      "service_now": 1793096036046,
+      "browser_date": 1793096036034,
+      "note": "Playwright Page.clock shares BrowserContext clock; prior result page was paused. Resume before new Phaser preparation."
+    },
+    {
+      "stage": "stack-prepare",
+      "operation": "pause-after-decoded-first-frame",
+      "browser_date": 1793096037400,
+      "service_now": 1793096037400,
+      "service_offset_ms": 188
+    },
+    {
+      "stage": "stack-countdown-and-input",
+      "operation": "fastForward",
+      "delta_ms": 3300,
+      "service_before": 1793096037577,
+      "service_after": 1793096040882,
+      "service_offset_ms": 3488,
+      "browser_date_after": 1793096040700
+    },
+    {
+      "stage": "stack-countdown-and-input",
+      "operation": "fastForward",
+      "delta_ms": 250,
+      "service_before": 1793096040978,
+      "service_after": 1793096041241,
+      "service_offset_ms": 3738,
+      "browser_date_after": 1793096040950
+    },
+    {
+      "stage": "stack-controlled-natural-end",
+      "operation": "fastForward",
+      "delta_ms": 44521,
+      "service_before": 1793096041306,
+      "service_after": 1793096085857,
+      "service_offset_ms": 48259,
+      "browser_date_after": 1793096085471
+    },
+    {
+      "stage": "runner-prepare",
+      "operation": "install-and-explicit-resume",
+      "service_now": 1793096086523,
+      "browser_date": 1793096086518,
+      "note": "Playwright Page.clock shares BrowserContext clock; prior result page was paused. Resume before new Phaser preparation."
+    },
+    {
+      "stage": "runner-prepare",
+      "operation": "pause-after-decoded-first-frame",
+      "browser_date": 1793096087840,
+      "service_now": 1793096087840,
+      "service_offset_ms": 48451
+    },
+    {
+      "stage": "runner-countdown-and-input",
+      "operation": "fastForward",
+      "delta_ms": 3300,
+      "service_before": 1793096087975,
+      "service_after": 1793096091283,
+      "service_offset_ms": 51751,
+      "browser_date_after": 1793096091140
+    },
+    {
+      "stage": "runner-countdown-and-input",
+      "operation": "fastForward",
+      "delta_ms": 250,
+      "service_before": 1793096091373,
+      "service_after": 1793096091634,
+      "service_offset_ms": 52001,
+      "browser_date_after": 1793096091390
+    },
+    {
+      "stage": "runner-controlled-natural-end",
+      "operation": "fastForward",
+      "delta_ms": 44532,
+      "service_before": 1793096091693,
+      "service_after": 1793096136293,
+      "service_offset_ms": 96533,
+      "browser_date_after": 1793096135922
+    },
+    {
+      "stage": "herd-prepare",
+      "operation": "install-and-explicit-resume",
+      "service_now": 1793096136965,
+      "browser_date": 1793096136961,
+      "note": "Playwright Page.clock shares BrowserContext clock; prior result page was paused. Resume before new Phaser preparation."
+    },
+    {
+      "stage": "herd-prepare",
+      "operation": "pause-after-decoded-first-frame",
+      "browser_date": 1793096138394,
+      "service_now": 1793096138394,
+      "service_offset_ms": 96724
+    },
+    {
+      "stage": "herd-countdown-and-input",
+      "operation": "fastForward",
+      "delta_ms": 3300,
+      "service_before": 1793096138545,
+      "service_after": 1793096141857,
+      "service_offset_ms": 100024,
+      "browser_date_after": 1793096141694
+    },
+    {
+      "stage": "herd-countdown-and-input",
+      "operation": "fastForward",
+      "delta_ms": 250,
+      "service_before": 1793096141948,
+      "service_after": 1793096142210,
+      "service_offset_ms": 100274,
+      "browser_date_after": 1793096141944
+    },
+    {
+      "stage": "herd-controlled-natural-end",
+      "operation": "fastForward",
+      "delta_ms": 44523,
+      "service_before": 1793096142276,
+      "service_after": 1793096186913,
+      "service_offset_ms": 144797,
+      "browser_date_after": 1793096186467
+    }
+  ],
+  "resources_closed": {
+    "browser": true,
+    "http": true,
+    "pool": true,
+    "worker": true
+  },
+  "secret_policy": "Invites/cookies/auth keyrings/controller secrets/session nonce/full inputs/full IndexedDB records remain memory-only. Only terminal verified Results screenshots are saved. Database persists real required sealed processes in the isolated test event by product contract."
+}

@@ -1,0 +1,33 @@
+
+ RUN  v5.0.5 D:/羊年年会现场游戏_Codex开发交付包_V2.2/sheep-annual-party-v2.2
+
+ ❯ apps/web/tests/assets.test.ts (4 tests | 1 failed) 36ms
+   × requires dedicated compact poses and bounded props for the new art profile while retaining old releases 12ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  apps/web/tests/assets.test.ts > requires dedicated compact poses and bounded props for the new art profile while retaining old releases
+AssertionError: expected [Function] to throw an error
+
+- Expected:
+null
+
++ Received:
+undefined
+
+ ❯ apps/web/tests/assets.test.ts:22:75
+     20| it('requires dedicated compact poses and bounded props for the new art…
+     21|   const old = parseAtlas(JSON.parse(readFileSync('apps/web/public/asse…
+     22|   expect(() => validateGameAtlas('sheep_side_v1', old, 1024, 1024, tru…
+       |                                                                           ^
+     23|   expect(() => validateGameAtlas('sheep_side_v1', old, 1024, 1024)).no…
+     24|   const farm = parseAtlas(JSON.parse(readFileSync('apps/web/public/ass…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 3 passed (4)
+   Start at  16:50:27
+   Duration  1.22s (import 57%, transform 36%, tests 6%, worker 2%)
+

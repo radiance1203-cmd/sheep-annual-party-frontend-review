@@ -1,0 +1,1052 @@
+{
+  "id": "F11-herd-opposing-direction-release-repeat",
+  "pass": true,
+  "error": null,
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    },
+    {
+      "path": "/api/sessions/cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_iso8_v2.atlas.json",
+    "/assets/characters/sheep_iso8_v2.png",
+    "/assets/characters/dog_iso8_v2.atlas.json",
+    "/assets/characters/dog_iso8_v2.png",
+    "/assets/environment/farm_iso_v2.atlas.json",
+    "/assets/environment/farm_iso_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_herd_v3.atlas.json",
+    "/assets/environment/backdrop_herd_v3.png",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_iso8_v2.atlas.json",
+    "/assets/characters/sheep_iso8_v2.png",
+    "/assets/characters/dog_iso8_v2.atlas.json",
+    "/assets/characters/dog_iso8_v2.png",
+    "/assets/environment/farm_iso_v2.atlas.json",
+    "/assets/environment/farm_iso_v2.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_herd_v3.atlas.json",
+    "/assets/environment/backdrop_herd_v3.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": "46",
+    "acceptedActions": "20",
+    "decode": {
+      "started": 10,
+      "succeeded": 10,
+      "images": [
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/632d3702-87e8-4688-a3f8-10dc12c1fafd"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/e21b862f-894e-4583-9c87-e5c7e0f5cd01"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/d372ee28-78dd-4a20-97fa-bceacf6b4847"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/80863dbe-f758-49c8-93a8-e2aa5a6e209e"
+        },
+        {
+          "width": 720,
+          "height": 840,
+          "source": "blob:http://127.0.0.1:5175/9474e30c-cc8a-415c-b796-75b30333e455"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/6c205dd7-31aa-4027-920a-d68592eed2ee"
+        },
+        {
+          "width": 2048,
+          "height": 2048,
+          "source": "blob:http://127.0.0.1:5175/29964228-2937-429f-8f13-46806ca18642"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/3d9100f6-38db-4035-8c44-36a77fb7c9d1"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/3f7dc2ab-de51-4bdc-ba32-555ede1cb753"
+        },
+        {
+          "width": 720,
+          "height": 840,
+          "source": "blob:http://127.0.0.1:5175/10e9562e-bf3e-48b2-af5c-7587e69509a1"
+        }
+      ],
+      "hold": false
+    },
+    "eventTrace": [
+      {
+        "type": "click",
+        "target": "BUTTON",
+        "active": "BUTTON",
+        "hidden": false
+      },
+      {
+        "type": "blur",
+        "target": "BUTTON",
+        "active": "BODY",
+        "hidden": false
+      },
+      {
+        "type": "click",
+        "target": "MAIN",
+        "active": "BODY",
+        "hidden": false
+      },
+      {
+        "type": "keydown",
+        "key": "ArrowLeft",
+        "target": "BODY",
+        "active": "BODY",
+        "hidden": false
+      },
+      {
+        "type": "keydown",
+        "key": "ArrowRight",
+        "target": "BODY",
+        "active": "BODY",
+        "hidden": false
+      },
+      {
+        "type": "keyup",
+        "key": "ArrowLeft",
+        "target": "BODY",
+        "active": "BODY",
+        "hidden": false
+      },
+      {
+        "type": "keydown",
+        "key": "ArrowRight",
+        "target": "BODY",
+        "active": "BODY",
+        "hidden": false
+      },
+      {
+        "type": "keyup",
+        "key": "ArrowRight",
+        "target": "BODY",
+        "active": "BODY",
+        "hidden": false
+      }
+    ],
+    "hidden": false,
+    "focused": true,
+    "canvas": [
+      {
+        "width": 360,
+        "height": 420,
+        "rect": {
+          "x": 16,
+          "y": 152.390625,
+          "width": 360,
+          "height": 420,
+          "top": 152.390625,
+          "right": 376,
+          "bottom": 572.390625,
+          "left": 16
+        }
+      }
+    ],
+    "body": "‹\n赶羊入圈\n正式挑战\n静音\n剩余时间\n44秒\n局内表现\n0 /80\n已入圈\n0/8\n绕到羊后方，赶它们进入上方围栏入口\n\n原局日志已恢复，按服务端原时轴继续。\n\n↑\n← ● →\n↓\n吠叫",
+    "dpr": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "finalRecord": {
+    "version": 1,
+    "start": {
+      "idempotency_key": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+      "game_id": "herd",
+      "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+      "controller_secret": "sssssssssssssssssssssssssssssssssssssssssss",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      }
+    },
+    "session": {
+      "session_id": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+      "event_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+      "participant_id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+      "slot_no": 1,
+      "game_id": "herd",
+      "seed": 47,
+      "session_nonce": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "controller_epoch": 1,
+      "ticket_binding_version": 1,
+      "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+      "created_at": "2026-10-27T08:25:36.422Z",
+      "play_started_at": "2026-10-27T08:25:47.897Z",
+      "play_ends_at": "2026-10-27T08:26:32.897Z",
+      "submit_deadline": "2026-10-27T08:26:47.897Z",
+      "state": "RUNNING",
+      "first_received_at": null,
+      "process_digest": null,
+      "settlement": null,
+      "current_contribution_points": 0,
+      "is_current_binding": true,
+      "has_unsealed_receipt": false,
+      "can_attempt_control": true,
+      "terminal_reason": null
+    },
+    "inputs": [
+      {
+        "tick": 19,
+        "seq": 1,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 20,
+        "seq": 2,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 21,
+        "seq": 3,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 22,
+        "seq": 4,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 23,
+        "seq": 5,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 24,
+        "seq": 6,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 25,
+        "seq": 7,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": -1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 34,
+        "seq": 8,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 35,
+        "seq": 9,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 36,
+        "seq": 10,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 37,
+        "seq": 11,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 38,
+        "seq": 12,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 39,
+        "seq": 13,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 40,
+        "seq": 14,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 41,
+        "seq": 15,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 42,
+        "seq": 16,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 43,
+        "seq": 17,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 44,
+        "seq": 18,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 45,
+        "seq": 19,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1000,
+          "y": 0
+        }
+      },
+      {
+        "tick": 46,
+        "seq": 20,
+        "type": "DOG_MOVE",
+        "value": {
+          "x": 1000,
+          "y": 0
+        }
+      }
+    ],
+    "processedTick": 46,
+    "logDigest": "c5f8d1b10d387e686148ee360c5116bed1af9e868c99c58a1172736465befde4",
+    "sealed": null
+  },
+  "waits": [
+    {
+      "start": 17,
+      "clockHorizon": 19,
+      "target": 24,
+      "observed": 24
+    },
+    {
+      "start": 24,
+      "clockHorizon": 26,
+      "target": 31,
+      "observed": 32
+    },
+    {
+      "start": 32,
+      "clockHorizon": 33,
+      "target": 38,
+      "observed": 38
+    },
+    {
+      "start": 39,
+      "clockHorizon": 40,
+      "target": 45,
+      "observed": 46
+    }
+  ],
+  "extra": {
+    "left": {
+      "version": 1,
+      "start": {
+        "idempotency_key": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "game_id": "herd",
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "controller_secret": "sssssssssssssssssssssssssssssssssssssssssss",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        }
+      },
+      "session": {
+        "session_id": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+        "event_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+        "participant_id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+        "slot_no": 1,
+        "game_id": "herd",
+        "seed": 47,
+        "session_nonce": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        },
+        "controller_epoch": 1,
+        "ticket_binding_version": 1,
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "created_at": "2026-10-27T08:25:36.422Z",
+        "play_started_at": "2026-10-27T08:25:47.897Z",
+        "play_ends_at": "2026-10-27T08:26:32.897Z",
+        "submit_deadline": "2026-10-27T08:26:47.897Z",
+        "state": "RUNNING",
+        "first_received_at": null,
+        "process_digest": null,
+        "settlement": null,
+        "current_contribution_points": 0,
+        "is_current_binding": true,
+        "has_unsealed_receipt": false,
+        "can_attempt_control": true,
+        "terminal_reason": null
+      },
+      "inputs": [
+        {
+          "tick": 19,
+          "seq": 1,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 20,
+          "seq": 2,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 21,
+          "seq": 3,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 22,
+          "seq": 4,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 23,
+          "seq": 5,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 24,
+          "seq": 6,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        }
+      ],
+      "processedTick": 24,
+      "logDigest": "e8aada0aed4deab3acc56b82b824a8ad08518cc1fd33d12a0b01b8f5594d4df9",
+      "sealed": null
+    },
+    "both": {
+      "version": 1,
+      "start": {
+        "idempotency_key": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "game_id": "herd",
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "controller_secret": "sssssssssssssssssssssssssssssssssssssssssss",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        }
+      },
+      "session": {
+        "session_id": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+        "event_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+        "participant_id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+        "slot_no": 1,
+        "game_id": "herd",
+        "seed": 47,
+        "session_nonce": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        },
+        "controller_epoch": 1,
+        "ticket_binding_version": 1,
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "created_at": "2026-10-27T08:25:36.422Z",
+        "play_started_at": "2026-10-27T08:25:47.897Z",
+        "play_ends_at": "2026-10-27T08:26:32.897Z",
+        "submit_deadline": "2026-10-27T08:26:47.897Z",
+        "state": "RUNNING",
+        "first_received_at": null,
+        "process_digest": null,
+        "settlement": null,
+        "current_contribution_points": 0,
+        "is_current_binding": true,
+        "has_unsealed_receipt": false,
+        "can_attempt_control": true,
+        "terminal_reason": null
+      },
+      "inputs": [
+        {
+          "tick": 19,
+          "seq": 1,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 20,
+          "seq": 2,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 21,
+          "seq": 3,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 22,
+          "seq": 4,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 23,
+          "seq": 5,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 24,
+          "seq": 6,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 25,
+          "seq": 7,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        }
+      ],
+      "processedTick": 32,
+      "logDigest": "21023caf3f95593f0519d88a2c7f292e3277a644838bf11122e18d9f0c0a4330",
+      "sealed": null
+    },
+    "right": {
+      "version": 1,
+      "start": {
+        "idempotency_key": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "game_id": "herd",
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "controller_secret": "sssssssssssssssssssssssssssssssssssssssssss",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        }
+      },
+      "session": {
+        "session_id": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+        "event_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+        "participant_id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+        "slot_no": 1,
+        "game_id": "herd",
+        "seed": 47,
+        "session_nonce": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        },
+        "controller_epoch": 1,
+        "ticket_binding_version": 1,
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "created_at": "2026-10-27T08:25:36.422Z",
+        "play_started_at": "2026-10-27T08:25:47.897Z",
+        "play_ends_at": "2026-10-27T08:26:32.897Z",
+        "submit_deadline": "2026-10-27T08:26:47.897Z",
+        "state": "RUNNING",
+        "first_received_at": null,
+        "process_digest": null,
+        "settlement": null,
+        "current_contribution_points": 0,
+        "is_current_binding": true,
+        "has_unsealed_receipt": false,
+        "can_attempt_control": true,
+        "terminal_reason": null
+      },
+      "inputs": [
+        {
+          "tick": 19,
+          "seq": 1,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 20,
+          "seq": 2,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 21,
+          "seq": 3,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 22,
+          "seq": 4,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 23,
+          "seq": 5,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 24,
+          "seq": 6,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 25,
+          "seq": 7,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 34,
+          "seq": 8,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 35,
+          "seq": 9,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 36,
+          "seq": 10,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 37,
+          "seq": 11,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 38,
+          "seq": 12,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        }
+      ],
+      "processedTick": 38,
+      "logDigest": "cc2734cdd1571c0e5447812db168579f702b81bdb598a1640532246fa866237c",
+      "sealed": null
+    },
+    "repeat": {
+      "version": 1,
+      "start": {
+        "idempotency_key": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "game_id": "herd",
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "controller_secret": "sssssssssssssssssssssssssssssssssssssssssss",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        }
+      },
+      "session": {
+        "session_id": "cccccccc-cccc-4ccc-8ccc-cccccccccccc",
+        "event_id": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+        "participant_id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+        "slot_no": 1,
+        "game_id": "herd",
+        "seed": 47,
+        "session_nonce": "nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn",
+        "build": {
+          "rule_version": "onsite-v2.1-candidate",
+          "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+          "simulator_version": "sheep-core-2.2.0",
+          "client_version": "sheep-web-2.2.0"
+        },
+        "controller_epoch": 1,
+        "ticket_binding_version": 1,
+        "client_instance_id": "ffffffff-ffff-4fff-8fff-ffffffffffff",
+        "created_at": "2026-10-27T08:25:36.422Z",
+        "play_started_at": "2026-10-27T08:25:47.897Z",
+        "play_ends_at": "2026-10-27T08:26:32.897Z",
+        "submit_deadline": "2026-10-27T08:26:47.897Z",
+        "state": "RUNNING",
+        "first_received_at": null,
+        "process_digest": null,
+        "settlement": null,
+        "current_contribution_points": 0,
+        "is_current_binding": true,
+        "has_unsealed_receipt": false,
+        "can_attempt_control": true,
+        "terminal_reason": null
+      },
+      "inputs": [
+        {
+          "tick": 19,
+          "seq": 1,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 20,
+          "seq": 2,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 21,
+          "seq": 3,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 22,
+          "seq": 4,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 23,
+          "seq": 5,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 24,
+          "seq": 6,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 25,
+          "seq": 7,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": -1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 34,
+          "seq": 8,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 35,
+          "seq": 9,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 36,
+          "seq": 10,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 37,
+          "seq": 11,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 38,
+          "seq": 12,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 39,
+          "seq": 13,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 40,
+          "seq": 14,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 41,
+          "seq": 15,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 42,
+          "seq": 16,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 43,
+          "seq": 17,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 44,
+          "seq": 18,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 45,
+          "seq": 19,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        },
+        {
+          "tick": 46,
+          "seq": 20,
+          "type": "DOG_MOVE",
+          "value": {
+            "x": 1000,
+            "y": 0
+          }
+        }
+      ],
+      "processedTick": 46,
+      "logDigest": "c5f8d1b10d387e686148ee360c5116bed1af9e868c99c58a1172736465befde4",
+      "sealed": null
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "status": "CANDIDATE_VISUAL_REVIEW_PENDING",
+  "production_art_accepted": false,
+  "records": [
+    {
+      "game": "stack",
+      "source": "art-source/v3/backdrop_stack_v3.blend",
+      "source_sha256": "57bf194920dad0d93afc24a6d5f8382ceadc4290e6b8ce728603cd6c6bec1539",
+      "mother": "art-source/v4/backdrop_stack_v4.blend",
+      "mother_sha256": "117713a1c68e6196f164c761f0826e0763bb9bf3bf9b1fae598f4ba9f8495ff7",
+      "scene_size_px": [
+        360,
+        480
+      ],
+      "no_live_actors_hurdles_pickups_gate": true
+    },
+    {
+      "game": "runner",
+      "source": "art-source/v3/backdrop_runner_v3.blend",
+      "source_sha256": "efdd472c0853b968c04b336285a007daa15841a9bd4c6f1f70c6182c625c5191",
+      "mother": "art-source/v4/backdrop_runner_v4.blend",
+      "mother_sha256": "857160639dfb3145a74c822b06238eef0a865dbdbd035b85adf16678b3db7e8f",
+      "scene_size_px": [
+        360,
+        220
+      ],
+      "no_live_actors_hurdles_pickups_gate": true
+    },
+    {
+      "game": "herd",
+      "source": "art-source/v3/backdrop_herd_v3.blend",
+      "source_sha256": "e35e0d7a065e6651a1f8bf3c7cde04781d53e24dfaaa4b1eb62e54c2323eafaa",
+      "mother": "art-source/v4/backdrop_herd_v4.blend",
+      "mother_sha256": "d27e6f27a8e0cdea1ca68370d546574c5fa6a9483b83885b608a6344d60994aa",
+      "scene_size_px": [
+        360,
+        420
+      ],
+      "no_live_actors_hurdles_pickups_gate": true
+    }
+  ]
+}

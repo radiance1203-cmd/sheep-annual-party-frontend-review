@@ -1,0 +1,165 @@
+{
+  "at": "2026-10-27T10:01:56.447106+00:00",
+  "review_baseline": "6e8e40c1c13ebbaa96c26548c4491d54d4e438da",
+  "initial_f01_f18": "All remain present in unchanged review source; browser/source evidence in audit/AUDIT_BASELINE.md",
+  "items": [
+    {
+      "id": "F01",
+      "title": "订单/结果资源错绑",
+      "status": "LOCAL_PASS",
+      "files": "ui.tsx、App.tsx、ParticipantPages.tsx",
+      "evidence": "ui/stage-a-summary.json；ui/resource-poll-summary.json；ui/csrf-summary.json",
+      "result": "跨id/404/503/ABA/错id；慢轮询不饥饿，过期读取不回写CSRF。"
+    },
+    {
+      "id": "F02",
+      "title": "兑换pending恢复",
+      "status": "LOCAL_PASS",
+      "files": "ParticipantPages.tsx、repair-state/redemption.ts",
+      "evidence": "ui/stage-a-summary.json",
+      "result": "限定建单前终局拒绝清理；未知结果保留原键，event+participant隔离。无归属旧记录不跨身份自动重放。"
+    },
+    {
+      "id": "F03",
+      "title": "真实准备/重练场景",
+      "status": "LOCAL_PASS",
+      "files": "GamePage.tsx、renderer.ts",
+      "evidence": "runtime/renderer-reuse-green/results.json；audit/after/v4-renderer-reuse-green/results.json；real-game-ui/cdc866b1-2c1e-485b-a012-2ec82db9f9cc/result.json",
+      "result": "三款tick0已解码首帧；无预约/finish；开始/恢复/重练复用canvas，回卷清呈现历史。"
+    },
+    {
+      "id": "F04",
+      "title": "本款教程",
+      "status": "LOCAL_PASS_ART_REVIEW",
+      "files": "App.tsx、TutorialScene.tsx、visual-repair.css",
+      "evidence": "final-pages/；audit/after/AFTER_REPORT.md",
+      "result": "同清单真实场景与本地共享core教学；移除旧羊硬编码，修旧170px/60px容器样式。"
+    },
+    {
+      "id": "F05",
+      "title": "叠层穿插",
+      "status": "TECHNICAL_PASS_ART_REVIEW",
+      "files": "renderer.ts、v4羊母源/stack_*、hay_tray_thin",
+      "evidence": "audit/art-runtime/stack-alpha1-clearance.json；audit/art-runtime/C_FINAL_REPORT.md",
+      "result": "19紧凑姿态、35.5高、44层距、净距最小3；1/4/8/20与各阶段真实core诊断。"
+    },
+    {
+      "id": "F06",
+      "title": "角色还原",
+      "status": "REVIEW",
+      "files": "art-source/v4/、三页v4角色图集",
+      "evidence": "art/V4_HANDOFF.md；art/C1b-sheep-front-side.png",
+      "result": "已实际修原生头身/大绒团/角/短腿/犬耳并导273帧；棉绒质感及角色板最终相符程度未获真人美术签认。"
+    },
+    {
+      "id": "F07",
+      "title": "犬/羊实际尺寸",
+      "status": "TECHNICAL_PASS_DEVICE_NOT_RUN",
+      "files": "renderer.ts、v4羊/犬图集",
+      "evidence": "art/v4-final-scale-envelopes.json；audit/art-runtime/C_FINAL_REPORT.md",
+      "result": "整类稳定sheep55/dog72、脚pivot不变；八向/行走/吠叫/入圈/拥挤已诊断，真机辨识未验。"
+    },
+    {
+      "id": "F08",
+      "title": "牧场空间与材质",
+      "status": "REVIEW",
+      "files": "art-source/v4/backdrop_*、v4三背景",
+      "evidence": "art/V4_HANDOFF.md；comparisons/",
+      "result": "已补叶簇、花草、暖光/谷仓和地面纹理，未烘动态物；与原型的景深/材质仍有差距，保持艺术REVIEW。"
+    },
+    {
+      "id": "F09",
+      "title": "标题/页面构图",
+      "status": "LAYOUT_PASS_ART_REVIEW",
+      "files": "visual-repair.css、renderer.ts",
+      "evidence": "final-pages/；final-short/；comparisons/lobby.png",
+      "result": "使用提供的木牌SVG、紧凑卡片、自然等比世界和整页装饰；艺术字厚度及最终构图签认未完成。"
+    },
+    {
+      "id": "F10",
+      "title": "跨栏/双层福草纹理",
+      "status": "TECHNICAL_PASS_DEVICE_NOT_RUN",
+      "files": "renderer.ts、farm_side_v4、fitFrame",
+      "evidence": "audit/art-runtime/C_FINAL_REPORT.md；audit/art-runtime/grass-layer-green/",
+      "result": "窄栏/草叶/金芯真纹理且不扩大几何；剩余采集物后绘不被羊遮；239/240/241三态像素差分与实际crop通过。3px真机人因未验。"
+    },
+    {
+      "id": "F11",
+      "title": "键盘与主动作",
+      "status": "LOCAL_PASS",
+      "files": "keyboard.ts、GamePage.tsx",
+      "evidence": "audit/after/v4-renderer-reuse-green/results.json",
+      "result": "按键集合、斜向/松键/失焦清理；Space/Enter/指针一次动作；菜单/表单/弹窗隔离。"
+    },
+    {
+      "id": "F12",
+      "title": "身份加载与失败",
+      "status": "LOCAL_PASS",
+      "files": "App.tsx、ui.tsx、GamePage.tsx",
+      "evidence": "ui/stage-b-summary.json；ui/csrf-summary.json",
+      "result": "区分loading/401/503/ready；未知暂停新开与钱款操作，轮询失败不卸载现有原局。"
+    },
+    {
+      "id": "F13",
+      "title": "统一正式准入",
+      "status": "LOCAL_PASS",
+      "files": "repair-state/admission.ts、App.tsx、GamePage.tsx",
+      "evidence": "ui/stage-b-summary.json；real-game-ui/cdc866b1-2c1e-485b-a012-2ec82db9f9cc/result.json",
+      "result": "CHECK_IN/PLAYING/DRAINING补场、0槽、恢复原局保持服务端准入语义。"
+    },
+    {
+      "id": "F14",
+      "title": "礼品图片状态",
+      "status": "LOCAL_PASS",
+      "files": "ui.tsx",
+      "evidence": "ui/stage-b-summary.json；ui/b-image-green/results.json",
+      "result": "未配置/未知key/加载/404/解码失败/重试/切key，迟到decode不重新插破图。"
+    },
+    {
+      "id": "F15",
+      "title": "恢复入口触区",
+      "status": "LOCAL_PASS",
+      "files": "App.tsx、visual-repair.css",
+      "evidence": "ui/stage-b-summary.json",
+      "result": "恢复原局/状态/补场记录四宽实测至少48×48。"
+    },
+    {
+      "id": "F16",
+      "title": "二维码与扫码核销",
+      "status": "LOCAL_REAL_HTTP_PG_PASS_DEVICE_NOT_RUN",
+      "files": "ParticipantPages.tsx、AdminPage.tsx、VoucherScanner.tsx",
+      "evidence": "real-claim/REAL_CLAIM_REPORT.md；ui/stage-b-summary.json",
+      "result": "实际HTTP+PG+前端上传真实订单QR查询/二次确认/重复核销15检查通过；相机受控fixture通过，物理相机未验。"
+    },
+    {
+      "id": "F17",
+      "title": "服务端结果解释",
+      "status": "LOCAL_PASS",
+      "files": "ParticipantPages.tsx、repair-state/result-presentation.ts",
+      "evidence": "ui/stage-d-summary.json；real-game-ui/cdc866b1-2c1e-485b-a012-2ec82db9f9cc/result.json",
+      "result": "三款核验统计/中文原因；待核验、0分、作废、历史、未知状态及独立身份失败12浏览器目标通过。"
+    },
+    {
+      "id": "F18",
+      "title": "证据覆盖与判定",
+      "status": "LOCAL_EVIDENCE_PASS_GATES_RETAINED",
+      "files": "新定向测试、状态/报告/对照图",
+      "evidence": "docs/repair-20261027-report.md；planning/REPAIR_20261027_STATE.json；real-game-ui/cdc866b1-2c1e-485b-a012-2ec82db9f9cc/result.json",
+      "result": "保留有效RED/FAIL和脚本误判；隔离视图、真实PG、艺术/真机/真人分列，无整体或现场完成声明。"
+    }
+  ],
+  "gates": {
+    "G5": "REVIEW",
+    "G6": "BLOCKED",
+    "production_art_accepted": false,
+    "human_24_people_216_runs": "NOT_RUN",
+    "physical_device": "NOT_RUN",
+    "venue_network": "NOT_RUN"
+  },
+  "real_three_game_ui": {
+    "status": "PASS",
+    "checks": 36,
+    "evidence": "real-game-ui/cdc866b1-2c1e-485b-a012-2ec82db9f9cc/result.json",
+    "clock": "controlled server/browser clock, not human difficulty sample"
+  }
+}

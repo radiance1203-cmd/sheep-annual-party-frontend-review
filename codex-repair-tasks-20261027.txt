@@ -1,0 +1,286 @@
+Codex 修复任务书｜羊年游园会｜2026-10-27
+审查基线：6e8e40c1c13ebbaa96c26548c4491d54d4e438da
+来源：https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review
+对应报告：sheep-frontend-review-20261027.html
+
+请在已开发的羊年年会游戏原项目中，依据本任务书修复已确认的问题。当前目标是使真实前端与指定原型/角色板一致，并补齐本轮复现的业务与状态缺口。保持原项目、共用后台和共享game-core，不另起一套应用。
+
+一、开始前
+1. 读当前项目AGENTS.md、git状态、README及本报告；识别当前工程是原主工程还是公开前端快照。保留用户已有修改。若提交已向前推进，先在新HEAD核对每项是否仍存在，不机械覆盖新改动。
+2. 若是前端快照，完成其内可验证修复；不要伪造后台、生产名单、成绩、礼品、库存或真实事务通过。若在原工程则复用现有真实接口与鉴权。
+3. 权威视觉参考为仓库visual-repair-v1/references/四张原型和character_foundation_board.png。实际打开图片像素后再实现。以当前报告的问题定位为约束，不能只读文件名，也不能将概念图整页铺成不可交互页面。
+4. 首先记录规则/构建/资源清单版本与hash、源码基线、当前图集和每个待修页面。以最小模块改动推进，不覆盖完整AGENTS、不随意清理用户文件、不重写PRD中的冻结玩法。
+
+二、不可悄悄改变的约束
+正式seed stack=1、runner=1、herd=47；整场3次正式机会；30Hz、1350tick/45秒；碰撞/门线/计分和既有回放语义冻结。packages/game-core仍是唯一规则内核；Phaser只做表现。
+不通过调整层距、放大采集范围、移动羊圈入口、拉伸世界或伪造HUD/结算来贴近图片。保留历史资源绑定与已开局所需的旧版本；更新资源时按现有版本机制更新清单及校验，不把旧清单悄悄指向新字节。
+保持角色动画名、方向、pivot与真实地面/脚点；同一类角色的尺度跨帧稳定。共享母源允许为叠层与跳跃生成不同姿态，不要求三款强用同一张姿态图。
+所有余额、库存、核验结论和凭证以真实接口/既有契约为准。隔离测试fixture不得用于正式页面兜底。未知结果保留原幂等键；协议保证未建单的终局拒绝才可结案pending。
+本轮真实图像签认、真人与真机缺失时，继续完成代码和可复核候选，但相关验收维持REVIEW/NOT_RUN，不能自行把G5/G6改为通过或开放正式活动。
+
+三、工作顺序与协作
+A. F01/F02：先修核心兑换和订单对象一致性。
+B. F03/F04/F11–F16：修准备场景、教程、输入、身份、阶段、资源失败、触区和核销入口。
+C. F05–F10：先统一角色四视图与实际手机显示尺度，再完整出图集；然后处理场景/道具/木牌与布局。先给出可复核结果再请求必要的正式美术签认，不能在任何工作都没做时只要求用户再提供一份风格说明。
+D. F17/F18：结果解释及每项针对性回归；统一集成复拍。
+在同一原项目总控会话推进。可按AGENTS的模型/协作要求并行分工状态UI、运行美术、验证，但明确文件所有权。GamePage和renderer涉及相同文件时串行集成，所有工作共用同一规则与资源契约。
+
+四、逐项修复要求
+
+[F01][P1] 路由已切到订单B，页面仍显示订单A，取消动作却指向B
+页面：领取凭证；同类资源切换也影响结果页
+证据：本轮隔离浏览器从订单A切到B，并延迟B的GET响应：页面继续显示A的礼品和领取码，没有加载提示；点击可见取消按钮，拦截到POST /redemptions/B/cancel。useResource在identity改变时保留旧data，Order读取旧data但回调捕获新id。
+位置：apps/web/src/ui.tsx:13–25
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/ui.tsx#L13-L25
+apps/web/src/App.tsx:43–48
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/App.tsx#L43-L48
+apps/web/src/pages/ParticipantPages.tsx:50–59
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/pages/ParticipantPages.tsx#L50-L59
+素材/状态：无；资源身份与组件状态问题
+影响边界：展示对象与操作对象不一致，可能让参与者针对错误订单操作。实测是前端串绑，不是已发生真实退款，也未证明后端允许同时存在两个待领订单。旧设备保留A旧视图、另一设备取消A并创建B后再切换的场景可触发同类风险。
+最小修复：让异步资源结果绑定资源键。资源键变化时立即进入新资源加载态，旧数据不得作为新对象显示或提交；待数据id与路由id一致才开放复制、取消等动作。补充取消旧请求/请求代次检查，防止过期响应覆盖。不能只把文字改成加载中而继续保留可操作旧按钮。
+验收：延迟B、B返回404/503、快速A→B→A时，不展示或提交错对象；同样覆盖Results按id切换。保留后端所有权与幂等校验。
+
+[F02][P1] 明确售罄后仍保留pending记录，阻断选择其他礼品
+页面：礼品兑换
+证据：A礼品收到409 OUT_OF_STOCK、retryable=false后，pending-redemption仍保留；选择B礼品只报“另一个礼品请求结果未明”，没有发出B请求。刷新页面后仍被阻断。
+位置：apps/web/src/pages/ParticipantPages.tsx:40–46
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/pages/ParticipantPages.tsx#L40-L46
+素材/状态：IndexedDB键 pending-redemption
+影响边界：现场某件礼品刚好售罄时，参与者可能无法改选仍有库存的礼品。当前UI没有解除明确失败请求的路径；单纯刷新不能恢复。该键还未按活动/参与者隔离。
+最小修复：区分协议明确保证未建单的终局拒绝与网络/响应结果未知。对前者清理或结案原pending并允许改选；对后者保留原幂等键，提供查回订单和重试原请求。按event和participant隔离持久化键。不能一概在catch中换新键重下单。
+验收：OUT_OF_STOCK后可改选B且不复用A的请求体；超时后只重试原键并能查回已成功订单；刷新、重新绑定身份与活动切换均不串pending。
+
+[F03][P2] 初始场景仍空白，练习仍提示消耗正式机会
+页面：三款游戏准备页；练习准备态
+证据：本轮逐款访问practice/stack、runner、herd：准备态canvas数量均为0；点击开始后才变成1。三页初始Notice均包含预约和使用1次正式机会，与“自由练习·不入账”冲突。
+位置：apps/web/src/game/GamePage.tsx:33–38
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/GamePage.tsx#L33-L38
+apps/web/src/game/GamePage.tsx:81–95
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/GamePage.tsx#L81-L95
+apps/web/src/game/GamePage.tsx:146–153
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/GamePage.tsx#L146-L153
+apps/web/src/game/GamePage.tsx:231–236
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/GamePage.tsx#L231-L236
+素材/状态：三款当前角色/场景资源；初始阶段根本未创建renderer
+影响边界：用户进入游戏仍先看到大块渐变空场景；练习文案会造成扣正式次数的误解。这不是资源缺少或下载失败，而是初始化时机没有实现预览。
+最小修复：建立只呈现tick0的准备场景：预加载、解码、绘制首帧后才开放开始。准备场景不创建正式会话、不推进正式时钟；正式预约和真实runtime另按原流程启用。按practice分支初始化文案。
+验收：三款教程/准备/开始/重练均能看到同套素材；准备态真实core tick不推进、无start/finish请求；资源失败有错误和重试；练习全流程不出现消耗正式机会的提示。
+
+[F04][P2] 教程仍硬编码旧羊图，没有接入本游戏的新角色与场景
+页面：三款玩法教程
+证据：App.tsx的三个教程共同使用/assets/hero/lobby_sheep_v1.webp。实际截图可见旧的粗绒团羊；12秒只是文本步骤定时切换，三款均没有展示与当前规则对应的托盘、栏杆或牧羊犬动作。
+位置：apps/web/src/App.tsx:90–94
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/App.tsx#L90-L94
+素材/状态：/assets/hero/lobby_sheep_v1.webp；此处是真正的旧图引用，和renderer兼容键名中的v1不同
+影响边界：大厅、教程、运行页继续出现不同角色观感。赶羊教程没有牧羊犬/圈门示意，首次参与者仍需要通过文字猜操作。
+最小修复：删除此硬编码引用；从当前统一资源清单和呈现层生成各自教程场景。教程动作用明确教学状态驱动，不调用正式预约、计分或修改实际规则。
+验收：三款教程能展示对应操作对象和方向；与运行角色的外观、动作锚点一致；任何页面不再引用该旧教程羊。
+
+[F05][P2] 上层托盘横穿下层羊的头部与上背
+页面：羊羊叠高高运行页
+证据：原生GC-01截图与四宽layout-stack中均可见。实际测量sheep_side__idle__e__f000在128帧中的alpha≥128边界为[22,19,115,115]；按size80显示，不透明高度60逻辑单位，而冻结层距为44。后画的上层草托覆盖下层羊身。
+位置：apps/web/src/game/renderer.ts:130–147
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L130-L147
+config/game_rules.v2.1.json:154–155
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/config/game_rules.v2.1.json#L154-L155
+apps/web/public/assets/characters/sheep_side_v2.atlas.json:375–399
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/public/assets/characters/sheep_side_v2.atlas.json#L375-L399
+素材/状态：character.sheep.side / sheep_side__idle__e__f000；environment.side / hay_tray
+影响边界：叠层接触关系不成立，破坏画面完成度，也不利于玩家辨认当前托盘与已叠层。不能把它解释成画风偏好。
+最小修复：为叠层制作适合固定层距的专用姿态、整体显示比例和薄托盘；调整表现镜头与绘制顺序时保持核心层中心、44层距、脚锚点、横向判定与世界均匀比例。禁止改layer_height或拉伸羊图。
+验收：1/4/8/20层及SWING/FALL/SETTLE/终局逐帧检查，羊头和托盘不互穿；已有规则/回放哈希不变。
+
+[F06][P2] 运行角色的体型和绒毛表现仍偏离指定角色板
+页面：三款游戏角色美术
+证据：当前羊有浅脸、卷角、红围巾与单铃，标志没有缺失；但指定角色板是大头、圆身、粗短卷角与大而柔的绒团，当前侧面则头部上提、身体细长、腿较外露、细密小凸粒绒毛与偏细开环角。运行小尺寸时脸部难读。
+位置：art-source/repair_masters_v2.py:35–108
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/art-source/repair_masters_v2.py#L35-L108
+apps/web/src/game/renderer.ts:53–69
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L53-L69
+apps/web/src/game/renderer.ts:136–136
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L136-L136
+apps/web/src/game/renderer.ts:181–181
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L181-L181
+apps/web/src/game/renderer.ts:204–210
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L204-L210
+素材/状态：character.sheep.side、character.sheep.iso8、character.dog.iso8；实际文件为v2 PNG/atlas
+影响边界：大厅精细圆绒羊与游戏内角色形成明显断层；只换背景、加阴影或保留同色围巾无法解决母源比例偏差。
+最小修复：按仓库指定角色板先统一正/侧/背/斜的母源轮廓、头身比、卷角与绒毛团块，再重渲染完整方向/动作。保留所有动画键、frame结构、pivot约定与原逻辑数据。
+验收：母源四视图与实际320/390手机显示尺寸一起签认，再检查整套动画一致性；未签认前production_art_accepted保持false。
+
+[F07][P2] 角色尺寸按整帧计算，牧羊犬实际轮廓过小
+页面：赶羊入圈运行页
+证据：renderer将128×128整帧显示为羊47、狗48。北向羊的不透明宽约24.97逻辑单位；北向狗仅15×31.5，因透明留白未纳入显示尺度校准。四宽实际图中狗呈细小棕白条，头尾和围巾不易识别。
+位置：apps/web/src/game/renderer.ts:64–69
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L64-L69
+apps/web/src/game/renderer.ts:196–212
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L196-L212
+素材/状态：sheep_iso8__idle__n__f000；dog_iso8__idle__n__f000
+影响边界：参与者难以快速识别自己控制的犬、朝向和羊群反馈；大面积空草地强化了角色过小的观感。
+最小修复：按整类角色的可见轮廓制定稳定显示尺度，保持脚底/地面pivot；优先改善狗的朝向辨识。不要逐帧独立归一化导致呼吸式缩放，不改碰撞圆、门口、场地、速度和seed。
+验收：八方向、行走/吠叫/入圈、八羊同屏和门口拥挤状态均检查可辨性及遮挡；真机辨识性仍需真人验证。
+
+[F08][P2] 正式背景仍是稀疏平滑牧场，与原型的空间层次差距明显
+页面：三款场景背景
+证据：当前走renderer中farm_backdrop_v3分支，实际为平滑树团、大块素蓝天空/草坪与低细节谷仓；目标原型强调暖亮软3D、前中远景、花草/草垛和围栏空间。赶羊右上主要露出被边缘切掉的屋顶。
+位置：apps/web/src/game/renderer.ts:73–76
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L73-L76
+art-source/build_backdrops_v3.py:125–161
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/art-source/build_backdrops_v3.py#L125-L161
+apps/web/public/assets/asset-manifest.v1.json:2583–2850
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/public/assets/asset-manifest.v1.json#L2583-L2850
+素材/状态：environment.backdrop.stack、environment.backdrop.runner、environment.backdrop.herd
+影响边界：即使角色换新，整体仍容易呈现普通三维示例场景，和大厅插画的细节密度、材质不一致。
+最小修复：重做纯装饰背景的构图、材质和景深层次，保留360×480/220/420及0,0锚点。不将可交互羊、栏杆、托盘或假圈门烘焙进背景，不移动真实门线。
+验收：同一真实core状态与指定原型并排检查；前景装饰不遮挡可操作对象，视觉目标单独签认。
+
+[F09][P2] 主构图仍是通用卡片页面，标题和场景占屏关系未还原
+页面：大厅与三款游戏的标题/布局
+证据：游戏标题仍是CSS细木纹条和普通文字；跨栏舞台按360/220比例单独放在奶油页面内，下方留有较大空白。大厅卡片最小11rem，信息/封面/参与分块比原型更高，三款选择无法像目标图那样紧凑同屏。
+位置：apps/web/src/visual-repair.css:37–55
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/visual-repair.css#L37-L55
+apps/web/src/visual-repair.css:87–107
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/visual-repair.css#L87-L107
+apps/web/src/game/renderer.ts:17–18
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L17-L18
+apps/web/src/game/renderer.ts:225–226
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L225-L226
+素材/状态：game-top h1、vr-wood-label、vr-game-card、stage-runner
+影响边界：色彩已接近，但标题识别、层级和整屏游戏感仍有差距。大厅可滚动本身不是功能错误，不能为了硬塞一屏缩小必要字号和48px触区。
+最小修复：接入经过确认的标题牌/材质，优化卡片信息密度、HUD和操作区。可将装饰场景延展至页面背景，但维持真实游戏世界均匀FIT和可视预判距离；不能纵向硬拉伸360×220跨栏世界。
+验收：320/360/390/430与短屏逐状态看图；主要操作清楚可达，无横向溢出、文字截断及角色变形。固定底栏在fullPage截图中部出现不单独判为遮挡故障。
+
+[F10][P2] 运行障碍和福草仍由扁平矩形、小圆点绘制
+页面：羊羊跨栏道具
+证据：renderer的跨栏分支直接用Graphics画红白竖条、几个绿圆和金点，未使用现有hurdle/clover_outer/clover_core帧。原生图与motion-contact中物体语义、木材质感及金芯辨识明显弱于封面。
+位置：apps/web/src/game/renderer.ts:158–177
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/renderer.ts#L158-L177
+apps/web/public/assets/environment/farm_side_v2.atlas.json:75–149
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/public/assets/environment/farm_side_v2.atlas.json#L75-L149
+素材/状态：environment.side / hurdle、clover_outer、clover_core
+影响边界：用户难以把细条/小点迅速识别为跨栏和福草；与高质量封面落差明显。
+最小修复：在真实AABB和采集半径内加强纹理、分瓣、边缘与层次，或制作适合窄尺寸的道具切片。冻结栏宽8/18/28、草半径4.5/1.5与原型大横栏存在比例约束，不能直接把大横栏套上或放大采集范围。
+验收：三种栏宽和草的外圈未取/外圈已取内圈未取/两圈已取均实拍，位置与碰撞调试一致。
+
+[F11][P2] 键盘操作与指针不一致，吠叫会中断仍按住的移动方向
+页面：三款动作按钮；赶羊键盘操作
+证据：真实GamePage和IndexedDB输入日志复现：按住Right再按Space，产生BARK后不再有DOG_MOVE；Right仍按住再按Up只产生向上向量，不能斜向。另“点击跳跃”按钮获焦时Space没有JUMP，Enter才有。
+位置：apps/web/src/game/GamePage.tsx:201–203
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/GamePage.tsx#L201-L203
+apps/web/src/game/GamePage.tsx:236–236
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/GamePage.tsx#L236-L236
+apps/web/src/game/keyboard.ts:1–3
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/keyboard.ts#L1-L3
+素材/状态：键盘事件与onPointerDown动作通路
+影响边界：现场桌面演示、键盘使用者和焦点操作会得到不同控制结果；不是game-core的运动或碰撞难度问题。
+最小修复：用pressed-key集合维护方向，非方向键不写0，松开一键保留其他方向；失焦/隐藏清空。主动作使用统一click/键盘通路，避免pointerdown随后click双触发。保留表单与弹窗输入隔离。
+验收：Right+Space不停止右移；Right+Up可斜向且松Up继续Right；按钮焦点下Space/Enter各产生一次动作；鼠标/触摸一次也只产生一次。
+
+[F12][P2] 身份接口失败被当作未绑定，错误没有呈现
+页面：大厅身份与依赖身份的操作
+证据：本轮将/me返回503 SERVER_BUSY，大厅直接显示绑定身份且看不到身份错误。App读取identity.data但没有渲染identity.error；加载中同样落到未绑定分支。
+位置：apps/web/src/App.tsx:16–24
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/App.tsx#L16-L24
+apps/web/src/App.tsx:36–39
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/App.tsx#L36-L39
+apps/web/src/App.tsx:79–79
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/App.tsx#L79-L79
+素材/状态：identity.data / identity.error
+影响边界：暂时网络/服务故障被错误解释成身份丢失，参与者可能误以为必须重新绑定；已有身份的轮询失败也缺少过期状态提示。
+最小修复：区分加载中、明确未认证、读取失败和就绪；对503显示重试，对保留旧数据标注同步失败；未知身份/余额时禁用依赖它们的关键动作，不能用未登录文案代替错误。
+验收：首次慢响应、401、503、已登录后轮询失败和恢复分别检查，界面与CTA不误导。
+
+[F13][P2] 签到阶段仍显示可点击的“正式挑战·使用1次机会”
+页面：教程正式挑战入口
+证据：CHECK_IN且ordinary_start_allowed=false的隔离场景中，教程主按钮仍链接#/play/herd，没有aria-disabled。当前只检查是否有me，不检查准入条件。
+位置：apps/web/src/App.tsx:90–94
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/App.tsx#L90-L94
+apps/web/src/game/GamePage.tsx:117–119
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/game/GamePage.tsx#L117-L119
+素材/状态：教程正式CTA
+影响边界：用户先看到“正式挑战·使用1次机会”的可用入口，进入准备页并点击预检预约后，却被前端准入检查拒绝，活动阶段与入口承诺不一致。未证明绕过服务端或消耗机会；bootstrap仍有准入防线。
+最小修复：用统一的真实准入能力生成文案、可用态和目标动作，区分等待开场、次数用尽、恢复原局和获准补场。保留DRAINING合法补场，不能仅写phase===PLAYING。
+验收：CHECK_IN、PLAYING、DRAINING有/无补场、次数为0与存在active_session分别检查CTA和真实授权一致。
+
+[F14][P2] 已配置图片加载失败时显示破图，无失败占位与重试
+页面：礼品卡图片
+证据：配置非空asset_id后拦截运行图片为404；img complete=true、naturalWidth=0，页面没有失败占位或重试。AssetImage只对未配置/未查到路径显示占位，实际img没有onError。
+位置：apps/web/src/ui.tsx:53–60
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/ui.tsx#L53-L60
+素材/状态：Gift.image_asset_key → manifest.runtime_path → img
+影响边界：现场弱网或错误资源路径会留下破图，参与者无法确认礼品；这和未配置真实礼品图片是两种不同状态。
+最小修复：区分未配置、加载中、已加载、失败；失败显示明确占位和重试。保留礼品名、价格、真实库存及可用状态，不用虚构商品照片补缺。
+验收：空asset_id、不存在的asset_id、HTTP404、decode失败、重试成功以及图片键切换均覆盖。
+
+[F15][P2] 关键恢复链接没有达到项目约定的48px触区
+页面：大厅存在原局时的恢复入口
+证据：有active_session的大堂Notice中，“恢复原局”“查看状态”均实测64×19 CSS px。常规76组复拍没有出现这一状态，不能用其主要按钮达标推断所有入口达标。
+位置：apps/web/src/App.tsx:79–79
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/App.tsx#L79-L79
+apps/web/src/visual-repair.css:43–57
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/visual-repair.css#L43-L57
+素材/状态：Notice内部内联a链接
+影响边界：现场用户最需要恢复原局时，入口触区偏小。48px是本项目标准，本报告不将其宣称为所有外部无障碍规范的统一阈值。
+最小修复：将恢复、查看状态和补场记录等关键链接改为独立明确触区，统一至少48×48 CSS px，保留文案和路由。
+验收：active_session和补场状态在四宽下实测点击盒，不仅看文字字号或普通主按钮。
+
+[F16][P2] PRD中的扫码流程没有完整落实，当前凭证只有长文本码
+页面：领取凭证与工作人员核销
+证据：PRD要求扫码/手输等价，领取线框有核销二维码区域。正常RESERVED且有voucher_token时，Order仅显示文本code和复制按钮；Claim只有手工输入Field。现有QrCode仅用于公共活动入口。
+位置：docs/PRD.md:146–149
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/docs/PRD.md#L146-L149
+apps/web/src/pages/ParticipantPages.tsx:50–59
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/pages/ParticipantPages.tsx#L50-L59
+apps/web/src/pages/AdminPage.tsx:67–70
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/pages/AdminPage.tsx#L67-L70
+apps/web/src/ui.tsx:43–45
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/ui.tsx#L43-L45
+素材/状态：voucher_token；design/wireframes/claim.svg
+影响边界：手机到工作人员设备之间的领取交接需要手输/传递43字符码，偏离现场快速兑奖目标。不否认外接键盘式扫码枪能向文本框输入，但当前参与者页也没有相应二维码。
+最小修复：正常可领取态显示可扫码的不透明凭证；工作人员扫码与手输复用同一POST lookup和二次确认流程。凭证不得进入URL或日志。保留冻结、到期、已领取、已取消的正确状态，不在二维码中自造授权或分数。
+验收：有token的正常凭证、复制/扫码/手输一致性、冻结/过期、重复核销和响应丢失均补覆盖；真实设备扫码与后端领取仍需在主工程验收。
+
+[F18][P2] 既有截图覆盖不足以支持“全部前端完成”
+页面：审查/回归证据覆盖
+证据：capture.mts主动将所有voucher_token置null，未覆盖正常凭证；capture-games只拍已恢复的运行前缀，未覆盖准备页。当前复拍截图矩阵未覆盖跨订单慢响应、明确兑换拒绝后改选、active_session内联恢复链接等关键状态，因此既有截图与测试通过不能替代这些状态的验证。
+位置：review/tools/capture.mts:46–47
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/review/tools/capture.mts#L46-L47
+review/tools/capture-games.mts:15–17
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/review/tools/capture-games.mts#L15-L17
+review/tools/capture-games.mts:31–49
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/review/tools/capture-games.mts#L31-L49
+素材/状态：review截图矩阵与当前case数据
+影响边界：历史PASS只能覆盖既有用例，不能替代完整状态、美术签认、真人难度或业务闭环。遮盖真实令牌是正确的，但应另用明确无效的fixture token覆盖正常UI分支。
+最小修复：按F01–F17补有明确断言的针对性用例；使用无真实效力的测试凭证覆盖正常状态。保存同状态同视口的当前实际图，禁止直接更新错误截图为新基准。测试报告区分代码、隔离视图、美术签认、真机、真人和现场。
+验收：每个修复项对应重现失败→修复通过的证据；缺失真实后台或真人数据继续NOT_RUN，不虚构相似度或现场PASS。
+
+[F17][P3] 成绩缺少可解释统计，直接显示机器枚举
+页面：挑战结算
+证据：Results已取得settled.conclusion但没有展示stats；如叠高高的8层/4完美在结算页不可见。页面直接显示VERIFIED等eligibility_reason。
+位置：apps/web/src/pages/ParticipantPages.tsx:20–27
+https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/6e8e40c1c13ebbaa96c26548c4491d54d4e438da/apps/web/src/pages/ParticipantPages.tsx#L20-L27
+素材/状态：Settlement.conclusion.stats；eligibility_reason
+影响边界：参与者看得到总分，却不容易理解这局得分来源；机器状态词不适合年会现场普通用户。
+最小修复：从服务端已核验conclusion显示对应游戏的少量关键统计，并将已定义状态映射为中文。保留参与分/表现分/余额/荣誉的区别，不能根据本地表现伪造结算。
+验收：三款已核验结果、待核验、0分原因、作废和历史替换均展示准确；未知状态保留可查信息而不误显示成功。
+
+五、必须补齐的验收矩阵
+功能：订单A→B慢响应、404/503、快速切回；结果页id切换；兑换明确售罄后改选、结果未知原键重试及订单查回、刷新/身份/活动边界；/me慢响应/401/503/恢复；阶段与补场准入；图片404/decode失败；键盘与单次指针动作。
+三款：教程、准备、资源加载/失败、练习、正式倒数、正常运行、关键反馈、重练、结算/恢复。准备显示首帧但真实计时不推进，不能发正式start或finish。每种状态都使用当前真实资源，不能只有封面更新。
+叠高高：1/4/8/20层；SWING/FALL/SETTLE/终局；托盘与羊身不穿插，脚点对应真实层中心。
+跨栏：三种固定栏宽，起跳/落地/碰撞；草外圈未取、外圈已取金芯未取、两圈已取；实际AABB/采集半径仍一致。
+赶羊：八方向、行走/吠叫/入圈、八羊同屏、门口拥挤、围栏前后与遮挡；旋转一张正面不能充当八向图。
+凭证：正常有token的待领取、冻结、到期、已核销、已取消、查找失败/网络未知；二维码/手输走同一lookup与确认；使用明确无效fixture token覆盖正常分支，不能因脱敏把正常token全部清空而漏测。
+布局：320/360/390/430 CSS px与短屏；浏览器/DPR/字体实际记录。关键按钮和恢复入口至少48×48 CSS px，正文保持项目约定；不要为硬塞首屏而压缩字号/点击区。
+完整世界均匀FIT，可把纯装饰背景延展到页面，但不能改变预判距离、游戏世界高宽比或真实碰撞。使用每项的真实对应状态截图比较，不能把错误当前截图直接更新成目标基准。
+
+六、验证与交付格式
+1. 在适用环境运行typecheck、build、已有test、contracts:check、rules:check。为F01/F02及输入/状态问题添加能失败重现且修复后通过的必要回归；不增加只镜像实现的测试。
+2. 记录本次实际测试命令、环境、结果、范围。隔离fixture证明前端行为，不证明真实后台或真人真机。
+3. 逐项交付F01–F18状态表：修复/未修复/已不存在/待签认，列改动文件、验证证据、剩余限制。保留开始前后规则hash，说明美术清单/资源版本更新及旧版本兼容。
+4. 提交真正的运行页与状态证据，并给出角色母源四视图、实际320/390显示尺寸和关键帧；概念图或封面不能代替运行截图。
+5. 准备真人测试但不捏造结果：沿用PRD的24人、六种顺序各4人、每款一次练习后三次测试；每款72局/共216局/独立24人。每款中位60–80、≤30占比≤15%、满100占比≤5%、P90−P10≥25；三款总体中位最大差≤8、同人每款三次中位极差的中位数≤8。保存首局/后两局、新手/顺序及策略分层。若不达标，单独提规则变更，不在视觉修复中调参。
+6. 真实设备扫码、实际扣分/库存/退款/核销、现场网络/并发、真奖品与工作人员交物演练由主工程完成并保存真实证据。没有后台访问或实地条件时标NOT_RUN，继续完成不受影响的修复。
+
+完成的定义：已确认功能问题得到针对性证据关闭；真实运行三款与指定角色板/原型的视觉差距被逐项解决；剩余人工/现场门槛清楚列明。不要以单测数量、代码行数、文件数或虚构“相似度”宣布整个项目完成。按上述顺序开始实际修复，并持续汇报实质进展。

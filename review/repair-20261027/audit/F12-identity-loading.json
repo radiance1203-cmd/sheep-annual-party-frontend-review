@@ -1,0 +1,199 @@
+{
+  "id": "F12-identity-loading",
+  "body": "羊年游园会\n✦ 正式挑战中\n\n界面状态验收夹具\n\n每人整场 3 次正式机会，三款任选，也可重复挑战。\n\n绑定身份\n45 秒一局 · 三款任选\n羊羊叠高高\n\n看准位置，叠得更高！\n\n玩法 ›\n羊羊跨栏\n\n轻轻一跳，越过障碍！\n\n玩法 ›\n赶羊入圈\n\n绕到羊后方，赶它们进圈！\n\n玩法 ›\n\n★ 核验通过得 20 参与分\n表现最高加 80 分\n\n完整活动规则\n我的机会与记录\n\n游园会\n荣誉榜\n兑换礼品",
+  "metrics": {
+    "dpr": 1,
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "canvas": [],
+    "images": [
+      {
+        "src": "/assets/hero/lobby_hero_v2.webp",
+        "complete": true,
+        "naturalWidth": 860
+      },
+      {
+        "src": "/assets/covers/cover_stack_v2.webp",
+        "complete": true,
+        "naturalWidth": 384
+      },
+      {
+        "src": "/assets/covers/cover_runner_v2.webp",
+        "complete": true,
+        "naturalWidth": 384
+      },
+      {
+        "src": "/assets/covers/cover_herd_v2.webp",
+        "complete": true,
+        "naturalWidth": 384
+      },
+      {
+        "src": "/assets/ui/icon_home.svg",
+        "complete": true,
+        "naturalWidth": 64
+      },
+      {
+        "src": "/assets/ui/icon_leaderboard.svg",
+        "complete": true,
+        "naturalWidth": 64
+      },
+      {
+        "src": "/assets/ui/icon_gift.svg",
+        "complete": true,
+        "naturalWidth": 64
+      }
+    ],
+    "links": [
+      {
+        "text": "绑定身份",
+        "href": "#/login",
+        "disabled": null,
+        "rect": {
+          "x": 33,
+          "y": 366,
+          "width": 324,
+          "height": 50.796875,
+          "top": 366,
+          "right": 357,
+          "bottom": 416.796875,
+          "left": 33
+        }
+      },
+      {
+        "text": "羊羊叠高高看准位置，叠得更高！玩法 ›",
+        "href": "#/tutorial/stack",
+        "disabled": null,
+        "rect": {
+          "x": 16,
+          "y": 497.6875,
+          "width": 358,
+          "height": 176,
+          "top": 497.6875,
+          "right": 374,
+          "bottom": 673.6875,
+          "left": 16
+        }
+      },
+      {
+        "text": "羊羊跨栏轻轻一跳，越过障碍！玩法 ›",
+        "href": "#/tutorial/runner",
+        "disabled": null,
+        "rect": {
+          "x": 16,
+          "y": 685.6875,
+          "width": 358,
+          "height": 176,
+          "top": 685.6875,
+          "right": 374,
+          "bottom": 861.6875,
+          "left": 16
+        }
+      },
+      {
+        "text": "赶羊入圈绕到羊后方，赶它们进圈！玩法 ›",
+        "href": "#/tutorial/herd",
+        "disabled": null,
+        "rect": {
+          "x": 16,
+          "y": 873.6875,
+          "width": 358,
+          "height": 183.5625,
+          "top": 873.6875,
+          "right": 374,
+          "bottom": 1057.25,
+          "left": 16
+        }
+      },
+      {
+        "text": "完整活动规则",
+        "href": "#/rules",
+        "disabled": null,
+        "rect": {
+          "x": 85,
+          "y": 1203.625,
+          "width": 96,
+          "height": 48,
+          "top": 1203.625,
+          "right": 181,
+          "bottom": 1251.625,
+          "left": 85
+        }
+      },
+      {
+        "text": "我的机会与记录",
+        "href": "#/records",
+        "disabled": null,
+        "rect": {
+          "x": 193,
+          "y": 1203.625,
+          "width": 112,
+          "height": 48,
+          "top": 1203.625,
+          "right": 305,
+          "bottom": 1251.625,
+          "left": 193
+        }
+      },
+      {
+        "text": "游园会",
+        "href": "#/",
+        "disabled": null,
+        "rect": {
+          "x": 8,
+          "y": 775,
+          "width": 122,
+          "height": 59,
+          "top": 775,
+          "right": 130,
+          "bottom": 834,
+          "left": 8
+        }
+      },
+      {
+        "text": "荣誉榜",
+        "href": "#/leaderboard",
+        "disabled": null,
+        "rect": {
+          "x": 134,
+          "y": 775,
+          "width": 122,
+          "height": 59,
+          "top": 775,
+          "right": 256,
+          "bottom": 834,
+          "left": 134
+        }
+      },
+      {
+        "text": "兑换礼品",
+        "href": "#/gifts",
+        "disabled": null,
+        "rect": {
+          "x": 260,
+          "y": 775,
+          "width": 122,
+          "height": 59,
+          "top": 775,
+          "right": 382,
+          "bottom": 834,
+          "left": 260
+        }
+      }
+    ]
+  },
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    }
+  ],
+  "errors": []
+}

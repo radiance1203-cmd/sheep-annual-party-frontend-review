@@ -81,3 +81,7 @@ python -m unittest discover -s acceptance -p test_playtest_statistics.py
 交付包含原创可编辑 Blender 羊/犬/牧场母源、254角色帧、场景/VFX图集、SVG UI及原创提示音。生产流程和预览见 [美术报告](docs/art-report.md) 与 [制作源说明](art-source/README.md)。运行资产状态仍如实保留 `rendered_candidate`，概念参考和灰盒占位没有冒充动画图集。代码依赖与素材来源分别记录在 [第三方许可](docs/THIRD_PARTY_NOTICES.md) 和素材来源登记中。
 
 **正式现场启用尚未通过。** 24人配对难度、实际手机/微信、现场网络、真实名单/礼品/截止、工作人员演练保持 NOT_RUN；最终视觉签认与对应正式资产验收为 REVIEW。见 [启用关口](docs/release-gate.md)。不得把本地合成身份、黄金日志或开发礼品当作正式验收。
+
+## 2026-10-27 审查修复候选
+
+F01–F18修复与证据见 [修复报告](docs/repair-20261027-report.md)，实际原型/修复前/修复后及准备/教程/运行对照见 [本地画廊](output/repair-20261027/index.html)。三款真实GamePage正式提交与三槽限制、QR核销已在隔离真实HTTP/PostgreSQL验证；规则和唯一game-core未改。当前美术art-1.4.0仍为rendered_candidate，G5 REVIEW/G6 BLOCKED，不代表真人/真机/正式活动验收完成。

@@ -1,0 +1,14 @@
+{
+  "environment": "real AssetImage, controlled delayed decode/error callbacks, actual HTTP 404 fixture; no business API",
+  "results": [
+    {
+      "id": "F14-retry-late-decode",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: late decode must not briefly reinsert a known failed image\n\n1 !== 0\n"
+    },
+    {
+      "id": "F14-key-late-decode",
+      "pass": true
+    }
+  ]
+}

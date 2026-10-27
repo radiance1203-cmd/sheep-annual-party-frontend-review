@@ -1,0 +1,156 @@
+{
+  "at": "2026-10-27T08:32:46.763Z",
+  "evidenceBoundary": "Isolated browser schema fixtures only. Model configuration is request evidence gpt-6.1-sol/high; independent server model metadata is unavailable. Real backend, physical device, human playtest, venue and formal art approval NOT_RUN/REVIEW.",
+  "earlierTestCorrection": {
+    "predicateIssue": "Recorded start25,target30,observed25 after async waitForFunction. Replaced with bounded Node polling plus explicit observed>=target assertion.",
+    "clockEvidence": "clock-debug/evidence.json; actual exported server clock and stored original runtime were synchronized to within one tick; held key behavior correct.",
+    "exportIssue": "green-candidate interrupted because audit finalRecord read did not create a new empty fixture store; fixed audit-only reader initialization."
+  },
+  "entries": [
+    {
+      "run": "clock-debug",
+      "status": "VALID_CLOCK_SAMPLE_EVIDENCE_JSON"
+    },
+    {
+      "run": "f11-diagnose-waits",
+      "at": "2026-10-27T08:20:43.433Z",
+      "cases": 1,
+      "passed": 0,
+      "failed": 1,
+      "productFailureEvidenceValid": false,
+      "scope": "Isolated API fixtures and actual game-core runtime browser tests, not physical-device or server acceptance. Hidden and blur are browser DOM events; form input is audit-only injected control.",
+      "notes": "Invalid F11 product failure conclusions: async IndexedDB wait predicate returned before its asserted target. Red run also included concurrent product changes. Preserve for diagnosis only."
+    },
+    {
+      "run": "f11-green-check1",
+      "at": "2026-10-27T08:16:51.286Z",
+      "cases": 13,
+      "passed": 3,
+      "failed": 10,
+      "productFailureEvidenceValid": false,
+      "scope": "Isolated API fixtures and actual game-core runtime browser tests, not physical-device or server acceptance. Hidden and blur are browser DOM events; form input is audit-only injected control.",
+      "notes": "Invalid F11 product failure conclusions: async IndexedDB wait predicate returned before its asserted target. Red run also included concurrent product changes. Preserve for diagnosis only."
+    },
+    {
+      "run": "f11-green-check2",
+      "at": "2026-10-27T08:18:52.955Z",
+      "cases": 13,
+      "passed": 4,
+      "failed": 9,
+      "productFailureEvidenceValid": false,
+      "scope": "Isolated API fixtures and actual game-core runtime browser tests, not physical-device or server acceptance. Hidden and blur are browser DOM events; form input is audit-only injected control.",
+      "notes": "Invalid F11 product failure conclusions: async IndexedDB wait predicate returned before its asserted target. Red run also included concurrent product changes. Preserve for diagnosis only."
+    },
+    {
+      "run": "f11-green-check3",
+      "at": "2026-10-27T08:20:11.039Z",
+      "cases": 1,
+      "passed": 0,
+      "failed": 1,
+      "productFailureEvidenceValid": false,
+      "scope": "Isolated API fixtures and actual game-core runtime browser tests, not physical-device or server acceptance. Hidden and blur are browser DOM events; form input is audit-only injected control.",
+      "notes": "Invalid F11 product failure conclusions: async IndexedDB wait predicate returned before its asserted target. Red run also included concurrent product changes. Preserve for diagnosis only."
+    },
+    {
+      "run": "f11-green-valid",
+      "at": "2026-10-27T08:22:45.414Z",
+      "cases": 13,
+      "passed": 13,
+      "failed": 0,
+      "productFailureEvidenceValid": true,
+      "scope": "Isolated API fixtures and actual game-core runtime browser tests, not physical-device or server acceptance. Hidden and blur are browser DOM events; form input is audit-only injected control."
+    },
+    {
+      "run": "green-candidate",
+      "status": "INTERRUPTED_AUDIT_HELPER_IDB_EXPORT"
+    },
+    {
+      "run": "green-candidate-valid",
+      "at": "2026-10-27T08:26:35.082Z",
+      "cases": 33,
+      "passed": 33,
+      "failed": 0,
+      "productFailureEvidenceValid": true,
+      "scope": "Isolated API fixtures and actual game-core runtime browser tests, not physical-device or server acceptance. Hidden and blur are browser DOM events; form input is audit-only injected control.",
+      "notes": "33 behavior cases passed, but actual tutorial screenshots showed layout defect; layout was repaired and separately retested in tutorial-layout-fixed-viewport. Does not close art acceptance."
+    },
+    {
+      "run": "red",
+      "at": "2026-10-27T08:15:25.418Z",
+      "cases": 28,
+      "passed": 16,
+      "failed": 12,
+      "productFailureEvidenceValid": false,
+      "scope": "Isolated API fixtures and actual game-core runtime browser tests, not physical-device or server acceptance. Hidden and blur are browser DOM events; form input is audit-only injected control.",
+      "notes": "Invalid F11 product failure conclusions: async IndexedDB wait predicate returned before its asserted target. Red run also included concurrent product changes. Preserve for diagnosis only."
+    },
+    {
+      "run": "tutorial-layout-fixed-viewport",
+      "at": "2026-10-27T08:31:27.547Z",
+      "cases": 3,
+      "passed": 3,
+      "failed": 0,
+      "productFailureEvidenceValid": true,
+      "scope": "Isolated API fixtures and actual game-core runtime browser tests, not physical-device or server acceptance. Hidden and blur are browser DOM events; form input is audit-only injected control."
+    },
+    {
+      "run": "tutorial-layout-green",
+      "at": "2026-10-27T08:29:24.154Z",
+      "cases": 3,
+      "passed": 0,
+      "failed": 3,
+      "productFailureEvidenceValid": false,
+      "scope": "Isolated API fixtures and actual game-core runtime browser tests, not physical-device or server acceptance. Hidden and blur are browser DOM events; form input is audit-only injected control.",
+      "notes": "Invalid final layout failure conclusion: geometry sampled 150ms after dynamic viewport resize, before Phaser centering settled. Final matrix uses independent page per viewport."
+    },
+    {
+      "run": "tutorial-layout-red",
+      "at": "2026-10-27T08:27:59.355Z",
+      "cases": 3,
+      "passed": 0,
+      "failed": 3,
+      "productFailureEvidenceValid": true,
+      "scope": "Isolated API fixtures and actual game-core runtime browser tests, not physical-device or server acceptance. Hidden and blur are browser DOM events; form input is audit-only injected control.",
+      "notes": "New visual failure revealed by actual image inspection; independent geometry assertions subsequently added."
+    }
+  ],
+  "sourceHashes": [
+    {
+      "path": "config/game_rules.v2.1.json",
+      "sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83"
+    },
+    {
+      "path": "apps/web/public/assets/asset-manifest.v1.json",
+      "sha256": "bdf93f4c26c9ed6e108f5af5a718edd7997a86936da85404485a68e1eeb8d234"
+    },
+    {
+      "path": "apps/web/src/App.tsx",
+      "sha256": "2174c5b8a535afa38b87e8852f7380d3aaa2cbe2cb0b2e10e63e4e6269115f23"
+    },
+    {
+      "path": "apps/web/src/game/GamePage.tsx",
+      "sha256": "b6489b4aa5a02205934fd6cc864a4d7ebc85abdb09b2dcf267e53a7260ad4305"
+    },
+    {
+      "path": "apps/web/src/game/keyboard.ts",
+      "sha256": "62d91939374a970eb2eaafc73bedb88e4d5facb02d96e5e30ed4468b38ed437a"
+    },
+    {
+      "path": "apps/web/src/game/renderer.ts",
+      "sha256": "c26dcab2d023116b5ec5f41f12fd62ba8f7a4be9947964a5fb2ef2fc83b1eec0"
+    },
+    {
+      "path": "apps/web/src/game/TutorialScene.tsx",
+      "sha256": "6e2d58ba3b02c586a5e03b4f4dc4b482e94ea6dd47104f866d9080ef03fef42f"
+    },
+    {
+      "path": "apps/web/src/styles.css",
+      "sha256": "a380b9269ae915ebd0d06ad45d0e038a82668ba85d3d90b4b14df87cd9ff72bc"
+    },
+    {
+      "path": "apps/web/src/visual-repair.css",
+      "sha256": "7fa42419b221cd6395d54b7bfdaea59439b49467cbc59ea79f2e53ee0bc4143c"
+    }
+  ],
+  "hashScope": "These source hashes are current at ledger generation; per-run results record startup manifest hash and BUILD. Do not infer historical source hashes from this final snapshot."
+}

@@ -4,7 +4,7 @@ import { createHash } from 'node:crypto';
 import { fixtures, defaultReply, ids } from '../../apps/web/tests/page-state-fixtures.ts';
 import { BUILD, RULES, canonicalJson, sha256Utf8 } from '../../packages/game-core/src/index.ts';
 const checkpoints=JSON.parse(await readFile('review/checkpoints.json','utf8'));
-const batch=process.argv[2]??'games';const output=`output/visual-repair-v1/${batch}`;
+const batch=process.argv[2]??'games';const output=`output/repair-20261027/${batch}`;
 await mkdir(output,{recursive:true});
 const browser=await chromium.launch({headless:true});const captures:unknown[]=[];
 try{
@@ -24,10 +24,11 @@ try{
    const r=defaultReply(path,f,{});const body={...(r.body as object),server_now:new Date(now).toISOString()};
    await route.fulfill({status:r.status,json:body});
   });
-  await page.goto(`${process.env.REVIEW_ORIGIN??'http://127.0.0.1:5175'}/#/play/${game}`);
-  try{await page.getByRole('button',{name:'恢复原局 / 重试原开局请求'}).waitFor({timeout:1500});}
+  await page.goto(`${process.env.REVIEW_ORIGIN ?? 'http://127.0.0.1:5175'}/#/play/${game}`);
+  try{await page.getByRole('button',{name:'恢复原局 / 重试原开局请求'}).waitFor({timeout:15000});}
   catch(error){await page.screenshot({path:`${output}/fixture-initialization-failure.png`,fullPage:true});await writeFile(`${output}/fixture-initialization-failure.json`,JSON.stringify({body:await page.locator('body').innerText(),requests,errors,error:String(error)},null,2));throw error;}
-  // Let React's lazy import/Suspense mount before freezing fixture time.
+  await page.waitForFunction(() => [...document.querySelectorAll('button')].some(button => button.textContent?.includes('恢复原局 / 重试原开局请求') && !button.disabled));
+  // Prepare first frame must complete before freezing the fixture clock.
   now=await page.evaluate(()=>Date.now())+100;await page.clock.pauseAt(now);
   Object.assign(f.session,{created_at:new Date(now-cp.tick*1000/30-3000).toISOString(),play_started_at:new Date(now-cp.tick*1000/30).toISOString(),play_ends_at:new Date(now-cp.tick*1000/30+45000).toISOString(),submit_deadline:new Date(now-cp.tick*1000/30+60000).toISOString()});
   const record={version:1,start:{idempotency_key:ids.instance,game_id:game,client_instance_id:ids.instance,controller_secret:'s'.repeat(43),build:BUILD},session:f.session,inputs:cp.inputs,processedTick:cp.tick,logDigest:await sha256Utf8(canonicalJson({inputs:cp.inputs,tick:cp.tick})),sealed:null};
@@ -35,8 +36,10 @@ try{
    await new Promise<void>((resolve,reject)=>{const open=indexedDB.open('sheep-onsite-v2.1',1);open.onupgradeneeded=()=>open.result.createObjectStore('records');open.onerror=()=>reject(open.error);open.onsuccess=()=>{const db=open.result;const tx=db.transaction('records','readwrite');tx.objectStore('records').put(record,key);tx.oncomplete=()=>{db.close();resolve();};tx.onerror=()=>reject(tx.error);};});
   },{record,key:`run:${ids.participant}`});
   await page.getByRole('button',{name:'恢复原局 / 重试原开局请求'}).click();
-  await page.locator('canvas').waitFor();
+  await page.locator('.game-controls').waitFor();
+  // Phaser removes the previous preview on its next frame; advance before asserting one canvas.
   await page.clock.runFor(Number(process.env.FRAME_MS??165));
+  await page.waitForFunction(() => document.querySelectorAll('.game-stage canvas').length === 1);
   await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.images].map(i=>i.decode().catch(()=>undefined)));scrollTo(0,0);});
   const metrics=await page.evaluate(()=>({dpr:devicePixelRatio,zoom:visualViewport?.scale,fontReady:document.fonts.status,font:getComputedStyle(document.querySelector('.app')!).fontFamily,scrollWidth:document.documentElement.scrollWidth,tick:Number(document.querySelector('.game-stage')?.getAttribute('data-game-tick')),hud:document.querySelector('.hud')?.textContent,feedback:document.querySelector('.game-feedback')?.textContent,canvas:[...document.querySelectorAll('canvas')].map(c=>({width:c.width,height:c.height,cssWidth:c.getBoundingClientRect().width,cssHeight:c.getBoundingClientRect().height})),controls:[...document.querySelectorAll<HTMLElement>('button,.joystick')].filter(e=>e.getBoundingClientRect().width).map(e=>({text:e.textContent,w:e.getBoundingClientRect().width,h:e.getBoundingClientRect().height,font:getComputedStyle(e).fontSize})),smallText:[...document.querySelectorAll<HTMLElement>('p,small,.mode-badge')].filter(e=>e.getBoundingClientRect().width&&parseFloat(getComputedStyle(e).fontSize)<16).map(e=>({text:e.textContent,font:getComputedStyle(e).fontSize}))}));
   Object.assign(metrics,{canvasLayout:await page.locator('canvas').evaluate(c=>({style:c.getAttribute('style'),rect:c.getBoundingClientRect().toJSON(),parent:c.parentElement?.getBoundingClientRect().toJSON()}))});

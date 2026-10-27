@@ -1,5 +1,11 @@
 # 美术来源记录
 
+## 2026-10-27 审查修复 v4
+
+`repaired_native_v4_20261027`：沿已有 v2 羊、犬、牧场 `.blend` 和 v3 三背景源另存到 `art-source/v4/`，修改原生几何、材质、控制器姿态并由 Blender 4.5.9 LTS/Cycles CUDA 导出。保留原文件、原动作键和历史候选；没有购买服务、导入外部模型/纹理或使用图像 API。角色、6新道具、三背景及6个母源的原始文件哈希在 `art-source/v4/manifest-update-records.json`，来源与制作命令见 `art-source/v4/README.md` 及 `output/repair-20261027/art/V4_HANDOFF.md`。下面的原始基底表作为历史来源保留。
+
+视觉目标继续是 `visual-repair-v1/references/` 四原型与角色板。已提供的 WebP 大厅主视觉/三封面保留原字节；它们不替代实际准备、教程和运行场景。v4 没有将原型整页切图当作游戏，全部状态、按钮和业务数据仍为真实组件。全部新素材均为待签认候选，不把技术哈希/图集检查作为美术或真人/真机 PASS。
+
 ## 2026-10-27 实际制作增补
 
 `original_blender_20261027`：`art-source/render_assets.py`、`render_hero.py`、三份 `*_master.blend`，为本项目原创几何、曲线、材质节点、对象控制器动作、固定灯光与相机。使用 Blender 4.5.9 LTS 便携版从官方 download.blender.org 下载，ZIP 399051129 bytes，SHA256 `41da973b9bf95bb312cbeff4d1982feb13259b43c821686b9bafea4dfe5477cf` 与官方校验表一致。未引入外部模型、贴图库、字体或插件素材；Blender 是制作工具，其软件许可不等于对本项目资产另行指定开源许可。参考图仅用于目视风格核对，未切片或嵌入运行资产。

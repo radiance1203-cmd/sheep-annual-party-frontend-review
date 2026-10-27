@@ -1,0 +1,98 @@
+{
+  "status": "C1_SAMPLES_REVIEW_PENDING",
+  "production_art_accepted": false,
+  "seed": 5012026,
+  "actors": [
+    {
+      "actor": "sheep",
+      "source": "art-source/v2/sheep_master_v2.blend",
+      "source_sha256": "584a438a314099fd216d37d09dd523a4b44452f136fc479550e0457a1d1afa01",
+      "mother": "art-source/v4/sheep_master_v4.blend",
+      "mother_sha256": "7765ce56713b562be5003fa7bdad78feb073f1c49d9ec485b4f33825095aa325",
+      "changes": {
+        "large_body_lobes": 62,
+        "body_small_lobes_hidden": 190,
+        "head_lobes": 27,
+        "horn_bevel": 0.086,
+        "retained_identity": [
+          "light face",
+          "red scarf",
+          "single gold bell"
+        ],
+        "stack_pose": "same mother, compact controller preset, no bitmap squash"
+      },
+      "renderer": "GPU",
+      "devices": [
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "CUDA",
+          "use": true
+        },
+        {
+          "name": "13th Gen Intel Core i5-13600KF",
+          "type": "CPU",
+          "use": false
+        },
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "OPTIX",
+          "use": false
+        }
+      ],
+      "samples": [
+        {
+          "path": "art-source/v4/samples/sheep_front_512.png",
+          "seconds": 4.414
+        },
+        {
+          "path": "art-source/v4/samples/sheep_side_512.png",
+          "seconds": 4.148
+        },
+        {
+          "path": "art-source/v4/samples/sheep_back_512.png",
+          "seconds": 3.937
+        },
+        {
+          "path": "art-source/v4/samples/sheep_diagonal_512.png",
+          "seconds": 3.971
+        },
+        {
+          "path": "art-source/v4/samples/sheep_production_idle_e_512.png",
+          "seconds": 3.138
+        },
+        {
+          "path": "art-source/v4/samples/sheep_production_iso_idle_n_512.png",
+          "seconds": 2.99
+        },
+        {
+          "path": "art-source/v4/samples/sheep_production_iso_idle_s_512.png",
+          "seconds": 3.055
+        },
+        {
+          "path": "art-source/v4/samples/sheep_production_iso_idle_se_512.png",
+          "seconds": 3.066
+        },
+        {
+          "path": "art-source/v4/samples/sheep_stack_idle_f000_512.png",
+          "seconds": 3.038
+        },
+        {
+          "path": "art-source/v4/samples/sheep_stack_steady_f001_512.png",
+          "seconds": 3.174
+        },
+        {
+          "path": "art-source/v4/samples/sheep_stack_air_f000_512.png",
+          "seconds": 3.142
+        },
+        {
+          "path": "art-source/v4/samples/sheep_stack_air_f001_512.png",
+          "seconds": 2.91
+        },
+        {
+          "path": "art-source/v4/samples/sheep_stack_celebrate_f002_512.png",
+          "seconds": 3.042
+        }
+      ]
+    }
+  ]
+}

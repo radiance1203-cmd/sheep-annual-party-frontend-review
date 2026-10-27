@@ -1,0 +1,1556 @@
+[
+  {
+    "sheet": "output\\repair-20261027\\audit\\art-runtime\\v4-final\\contact-sheets\\stack-1-all-phase-every-tick-390.png",
+    "cases": [
+      {
+        "case": "stack-1-SWING-t0",
+        "tick": 0,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t0-390x844.png",
+        "viewHash": "d29154da2b16646c81e578de40acf5b0fdb7b901cd17c39b07cc53b7abe43473"
+      },
+      {
+        "case": "stack-1-SWING-t1",
+        "tick": 1,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t1-390x844.png",
+        "viewHash": "5fe643190c9b1fab589168962b48662d970545aa59d5587f0e505cbbcbf7e2a4"
+      },
+      {
+        "case": "stack-1-SWING-t2",
+        "tick": 2,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t2-390x844.png",
+        "viewHash": "777a94dc084a7d635d8181ffce46889b5631dbc3bf79eb5e65d147a6e9f0c995"
+      },
+      {
+        "case": "stack-1-SWING-t3",
+        "tick": 3,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t3-390x844.png",
+        "viewHash": "283287c95e966fa73d3c9b2d7c60dacb41d2cc715aacdd31fe903bd0446f2b74"
+      },
+      {
+        "case": "stack-1-SWING-t4",
+        "tick": 4,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t4-390x844.png",
+        "viewHash": "b815acc50b16f9a98e5277710409c1ee4ee5cb1b9fda3b585179b6a781ee45c1"
+      },
+      {
+        "case": "stack-1-SWING-t5",
+        "tick": 5,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t5-390x844.png",
+        "viewHash": "e1fc497011c53a03e122a5ed17cb1c8c4a316d3833a812d19b7e70193daffa15"
+      },
+      {
+        "case": "stack-1-SWING-t6",
+        "tick": 6,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t6-390x844.png",
+        "viewHash": "3c7472e7d3d77f4d72e64cd75f0f9c4f629874d49ef09cd3663f06b29e7412d9"
+      },
+      {
+        "case": "stack-1-SWING-t7",
+        "tick": 7,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t7-390x844.png",
+        "viewHash": "8703030d32b88849e90dcad982622b5e511fc37f393a69a2ce5e7f2a376033cd"
+      },
+      {
+        "case": "stack-1-SWING-t8",
+        "tick": 8,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t8-390x844.png",
+        "viewHash": "795708a25073ca38d16f23ffe4a8f25c2f205e1365a26a2dd16fa2b2df8e20a6"
+      },
+      {
+        "case": "stack-1-SWING-t9",
+        "tick": 9,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t9-390x844.png",
+        "viewHash": "6d664b51be662478c98db3a3f4d2cf5ed6f332de5e9f431bea4c9293a786e0b2"
+      },
+      {
+        "case": "stack-1-SWING-t10",
+        "tick": 10,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t10-390x844.png",
+        "viewHash": "dbb46895b8750e2592d0322624b4fef50a02d4c4d69bf972868e2cae5b57a31a"
+      },
+      {
+        "case": "stack-1-SWING-t11",
+        "tick": 11,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t11-390x844.png",
+        "viewHash": "6ab1e7d8e4efc9a86e288d85655e5e58c099214d13e847ea4cd6ef962f615170"
+      },
+      {
+        "case": "stack-1-SWING-t12",
+        "tick": 12,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t12-390x844.png",
+        "viewHash": "5cd8ac8c4c3ff22c9cc70570e6813c20c5541c223dd38b6bc6017d953a631590"
+      },
+      {
+        "case": "stack-1-SWING-t13",
+        "tick": 13,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t13-390x844.png",
+        "viewHash": "39fdcf57f2ee9b0f3225f876670aad12d0a4c0dcd6fdd236e02bba841f300d91"
+      },
+      {
+        "case": "stack-1-SWING-t14",
+        "tick": 14,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t14-390x844.png",
+        "viewHash": "43ede1fc8b824ab4c37de6903841ebab9f80e1624ff4c7a33e13aa27734fe9ab"
+      },
+      {
+        "case": "stack-1-SWING-t15",
+        "tick": 15,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t15-390x844.png",
+        "viewHash": "0de87cae32ffc7e17dccda25d5e5874eee746811ecd684fe34f91a13b2799cf2"
+      },
+      {
+        "case": "stack-1-SWING-t16",
+        "tick": 16,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t16-390x844.png",
+        "viewHash": "f1cace78cde57c0ee41f4f00369ba9d4ec54718d7a69eb1e1cdbb6617bd30761"
+      },
+      {
+        "case": "stack-1-SWING-t17",
+        "tick": 17,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t17-390x844.png",
+        "viewHash": "39c355cf3a464ecc22660a00287d74bfd269406ce6cf0c815a3d4dc7420a4da4"
+      },
+      {
+        "case": "stack-1-SWING-t18",
+        "tick": 18,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t18-390x844.png",
+        "viewHash": "b2c00109ac7e7a571c79f9e6b937a7cd66ea053af7a05a6f6c15942e52bf107b"
+      },
+      {
+        "case": "stack-1-SWING-t19",
+        "tick": 19,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t19-390x844.png",
+        "viewHash": "acc87c917a5662eb6475842b23b1e609ac6d4a2eb4728052349cf7b17982175a"
+      },
+      {
+        "case": "stack-1-SWING-t20",
+        "tick": 20,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t20-390x844.png",
+        "viewHash": "67ad8b295f3e452d28c416761e74e4e3c62638b5d21b69473e868fb952a72954"
+      },
+      {
+        "case": "stack-1-SWING-t21",
+        "tick": 21,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t21-390x844.png",
+        "viewHash": "3254c195b30b53c5d3d031f336b3fb47e18a62dd5b97178cf4f33605323a6874"
+      },
+      {
+        "case": "stack-1-SWING-t22",
+        "tick": 22,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t22-390x844.png",
+        "viewHash": "eef33121715b659d9165420e560eb87e7765e40627bc4fa9e6ae71b358da2c3e"
+      },
+      {
+        "case": "stack-1-SWING-t23",
+        "tick": 23,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t23-390x844.png",
+        "viewHash": "62a4d89f68956dd536daa547b98f0ce8c3ace4c5544473a731b9bf105cabfbf7"
+      },
+      {
+        "case": "stack-1-SWING-t24",
+        "tick": 24,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t24-390x844.png",
+        "viewHash": "d438e6a11fb6dea87b86f4bbcb65406ed0ce31864930d4b177250237440dea8b"
+      },
+      {
+        "case": "stack-1-SWING-t25",
+        "tick": 25,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t25-390x844.png",
+        "viewHash": "428647d97d6ff2da06f6f76be9847f147a73edf1481b55a571e0245f8af0ee22"
+      },
+      {
+        "case": "stack-1-SWING-t26",
+        "tick": 26,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t26-390x844.png",
+        "viewHash": "a46f2a9df3d0b017a7ef10605064e62f369a3dd7cee19da1cc98a8db7c734094"
+      },
+      {
+        "case": "stack-1-SWING-t27",
+        "tick": 27,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t27-390x844.png",
+        "viewHash": "f6b5cd5e240de81b327575638b35787c1b3e6001ceaa3ddd65720b92269905d8"
+      },
+      {
+        "case": "stack-1-SWING-t28",
+        "tick": 28,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t28-390x844.png",
+        "viewHash": "67608b254e3c8bf508d18e1fb9a6b1b4c59ff2b55583ba18e7a23801c03cdbb5"
+      },
+      {
+        "case": "stack-1-SWING-t29",
+        "tick": 29,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t29-390x844.png",
+        "viewHash": "027b2027b53db91a0785dd28359ad03912a1b90cd8834b0744d3f8a4ae07c847"
+      },
+      {
+        "case": "stack-1-SWING-t30",
+        "tick": 30,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t30-390x844.png",
+        "viewHash": "1ac9364d6f97ef2f732a114c2291280f66877baafacfccfe0a1f76c11cf17bd4"
+      },
+      {
+        "case": "stack-1-SWING-t31",
+        "tick": 31,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t31-390x844.png",
+        "viewHash": "85f65fd3d581e8443c0a3e01a9ecd918f8ec5f1a3f294f88deb57515a0734dd4"
+      },
+      {
+        "case": "stack-1-SWING-t32",
+        "tick": 32,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t32-390x844.png",
+        "viewHash": "f08833649ecef115ee9d5ca09cd6d9d1b25d2dfe2d5f52f02586d1dee6ab98d4"
+      },
+      {
+        "case": "stack-1-SWING-t33",
+        "tick": 33,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t33-390x844.png",
+        "viewHash": "e2c3afc42d9554eae2071db79e0f29146b4950807a3075fbb21a0f1438d48ac7"
+      },
+      {
+        "case": "stack-1-SWING-t34",
+        "tick": 34,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SWING-t34-390x844.png",
+        "viewHash": "e057ce04414bb267226c2049e0ff8b7f32e20030cc4ec731611d31ced12199a5"
+      },
+      {
+        "case": "stack-1-FALL-t35",
+        "tick": 35,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-FALL-t35-390x844.png",
+        "viewHash": "cb27c35ab24b3048813c5ba4606048e3d8269ef1e868cf7d6af9609b4c18ca72"
+      },
+      {
+        "case": "stack-1-FALL-t36",
+        "tick": 36,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-FALL-t36-390x844.png",
+        "viewHash": "2de7ecd51defb3912789a3cf14e263816c7b3466425ae126363f47ac2d44e165"
+      },
+      {
+        "case": "stack-1-FALL-t37",
+        "tick": 37,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-FALL-t37-390x844.png",
+        "viewHash": "0faa3c33a8821adfc7640a4674b8732b23f4e00d963efc5778bb736c36c54275"
+      },
+      {
+        "case": "stack-1-FALL-t38",
+        "tick": 38,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-FALL-t38-390x844.png",
+        "viewHash": "04442f5230131180334cfabe83cc45b8b0fb78c1ab397b100837a16d36208c8e"
+      },
+      {
+        "case": "stack-1-FALL-t39",
+        "tick": 39,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-FALL-t39-390x844.png",
+        "viewHash": "609cff64b637a70e911a8640a96eb5b6701456ea3df317b02d40b66cc8e7bd2b"
+      },
+      {
+        "case": "stack-1-FALL-t40",
+        "tick": 40,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-FALL-t40-390x844.png",
+        "viewHash": "0cf1fed44608b315bfd83470aa76f83d3aad029aea50dd7df79a250c4cebb10d"
+      },
+      {
+        "case": "stack-1-FALL-t41",
+        "tick": 41,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-FALL-t41-390x844.png",
+        "viewHash": "92c1a398b3867ef95b2846235afff0f741eb0bb49c93a845f45a2feb4011bcd6"
+      },
+      {
+        "case": "stack-1-FALL-t42",
+        "tick": 42,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-FALL-t42-390x844.png",
+        "viewHash": "1c437040d80b73cc6503e68caee423b2caf0b1966a133668497bc0ac75388d4a"
+      },
+      {
+        "case": "stack-1-FALL-t43",
+        "tick": 43,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-FALL-t43-390x844.png",
+        "viewHash": "15d4ae8fd9dd8174515848d64da2710f04ecbd9d1e63e1cc3da6e5e8dbfc8760"
+      },
+      {
+        "case": "stack-1-FALL-t44",
+        "tick": 44,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-FALL-t44-390x844.png",
+        "viewHash": "14d93093897d0cc54a22cc7ed7619c8f4670b3143aedb6026fc48f3327ecd357"
+      },
+      {
+        "case": "stack-1-FALL-t45",
+        "tick": 45,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-FALL-t45-390x844.png",
+        "viewHash": "05c37f85cb837723c6e63454f0c660df63767d9b4f6179c6d8182f8cbe073060"
+      },
+      {
+        "case": "stack-1-FALL-t46",
+        "tick": 46,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-FALL-t46-390x844.png",
+        "viewHash": "3a8c2487fd696d89e8ee39b4e9becfd9e1bc28b5a09ac724f6196de7e9848266"
+      },
+      {
+        "case": "stack-1-SETTLE-t47",
+        "tick": 47,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SETTLE-t47-390x844.png",
+        "viewHash": "82e6256f7284fbf9a4bba57ecb2729ac72c24a57a425dbaf273b7e99414e6b08"
+      },
+      {
+        "case": "stack-1-SETTLE-t48",
+        "tick": 48,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SETTLE-t48-390x844.png",
+        "viewHash": "be2bc0f986cc944b8d6aefd2fe61a7a0834539573213319ad2f3b2103579ada9"
+      },
+      {
+        "case": "stack-1-SETTLE-t49",
+        "tick": 49,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SETTLE-t49-390x844.png",
+        "viewHash": "c3a5b90dcc4e7c8edc06ba4a564bbe9eb086b80fb98fc54c75dec91570a71089"
+      },
+      {
+        "case": "stack-1-SETTLE-t50",
+        "tick": 50,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SETTLE-t50-390x844.png",
+        "viewHash": "c7b2d336cd34969632a4ce79c8e4325e02e5a7b305aa756ce5002b5fd71862aa"
+      },
+      {
+        "case": "stack-1-SETTLE-t51",
+        "tick": 51,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SETTLE-t51-390x844.png",
+        "viewHash": "7e32a08bb52fed9827c32fe0407b67454f97524f2bfd22b4d8c8fb5d7a43f144"
+      },
+      {
+        "case": "stack-1-SETTLE-t52",
+        "tick": 52,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-SETTLE-t52-390x844.png",
+        "viewHash": "5637a76567b437d5d600935387781cfe8d216ba95a9deb15b442df68df5fda5c"
+      }
+    ],
+    "note": "Contact layout only. No redrawing/retouching or change to game content."
+  },
+  {
+    "sheet": "output\\repair-20261027\\audit\\art-runtime\\v4-final\\contact-sheets\\stack-4-all-phase-every-tick-390.png",
+    "cases": [
+      {
+        "case": "stack-4-SWING-t161",
+        "tick": 161,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t161-390x844.png",
+        "viewHash": "eb8f29cf55936008fab76a50dd237dd230b73d5abd4ad5f739e77b68f610a35d"
+      },
+      {
+        "case": "stack-4-SWING-t162",
+        "tick": 162,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t162-390x844.png",
+        "viewHash": "5e5956e0de0c80d11f037a640fe1a140895f0c0540d3d0d3f898e80fcfccfddf"
+      },
+      {
+        "case": "stack-4-SWING-t163",
+        "tick": 163,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t163-390x844.png",
+        "viewHash": "b31665017fca63422d3825173ccb65e6a2d88edd058cf86a3dd91c2866724739"
+      },
+      {
+        "case": "stack-4-SWING-t164",
+        "tick": 164,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t164-390x844.png",
+        "viewHash": "619c2e8145a0050b424f8590c97613f2e05d24abafe2cb41aa62999fb67b2631"
+      },
+      {
+        "case": "stack-4-SWING-t165",
+        "tick": 165,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t165-390x844.png",
+        "viewHash": "5760604aff740f40f83bd46d7267127c321c39b7a768c012bac14b36e7f9b540"
+      },
+      {
+        "case": "stack-4-SWING-t166",
+        "tick": 166,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t166-390x844.png",
+        "viewHash": "e411900d4c6df0a1f5be09496c27436cd2527cc4e83dc7ab9e49067221ba29c6"
+      },
+      {
+        "case": "stack-4-SWING-t167",
+        "tick": 167,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t167-390x844.png",
+        "viewHash": "b934aa616cd084481d4f727f3df35d54c46d983343ce720eb1bd86d2b5eeee05"
+      },
+      {
+        "case": "stack-4-SWING-t168",
+        "tick": 168,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t168-390x844.png",
+        "viewHash": "60abb2790671bc3a14536c76808ee4323647f362bfe3e634b31453608ce0757b"
+      },
+      {
+        "case": "stack-4-SWING-t169",
+        "tick": 169,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t169-390x844.png",
+        "viewHash": "e28be9f57f1c62b0d39dcf0ad853798cca67a8016e3fe8a9f1e21ad1fd8c1f2d"
+      },
+      {
+        "case": "stack-4-SWING-t170",
+        "tick": 170,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t170-390x844.png",
+        "viewHash": "bab4116fa19fd48ba4274bea3d270311194b1b124d5f5a6f06a8f49ed9d01adb"
+      },
+      {
+        "case": "stack-4-SWING-t171",
+        "tick": 171,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t171-390x844.png",
+        "viewHash": "4f3a5646b7426f67f8fe7290fba293fadd4483ac2df859f8f26068d72aef5ecb"
+      },
+      {
+        "case": "stack-4-SWING-t172",
+        "tick": 172,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t172-390x844.png",
+        "viewHash": "dfb72c3d06cd5fcbeeeb601f352f32a317197089bf949ac6c37f2843ca37f89c"
+      },
+      {
+        "case": "stack-4-SWING-t173",
+        "tick": 173,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t173-390x844.png",
+        "viewHash": "e0052a64be683eb197b4f72aead888d142cad66c6feb7254ebcca750036311cc"
+      },
+      {
+        "case": "stack-4-SWING-t174",
+        "tick": 174,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t174-390x844.png",
+        "viewHash": "831154a967567f6bd9d533ee5e60570539eaeda4e273a602367091dbae82a195"
+      },
+      {
+        "case": "stack-4-SWING-t175",
+        "tick": 175,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t175-390x844.png",
+        "viewHash": "2c6510de38b8e95a1c233b03bbf421915b7c66cbbc3d114f7cf94595db357f1b"
+      },
+      {
+        "case": "stack-4-SWING-t176",
+        "tick": 176,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t176-390x844.png",
+        "viewHash": "e26dbf8d190dda0ca3921c60c26617fd069cceff783a35235c5cf5005ef9e1a4"
+      },
+      {
+        "case": "stack-4-SWING-t177",
+        "tick": 177,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t177-390x844.png",
+        "viewHash": "d79616046fac40c03b9bc691f0844105505e0f80055b4ad83582d38c0a46a14a"
+      },
+      {
+        "case": "stack-4-SWING-t178",
+        "tick": 178,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t178-390x844.png",
+        "viewHash": "8bce0b81adf73ce07409f93b10e7d8a6d6b5b08dea7382a7a8e569fe28857327"
+      },
+      {
+        "case": "stack-4-SWING-t179",
+        "tick": 179,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t179-390x844.png",
+        "viewHash": "bd1822f2243df5d51a4c45a3c935ac3622648a7dc2dbe28c940cea751685c079"
+      },
+      {
+        "case": "stack-4-SWING-t180",
+        "tick": 180,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t180-390x844.png",
+        "viewHash": "9773a455cd2c0d5bd492eb42fd38db202ce722aaf046a4548182cdc86201b81b"
+      },
+      {
+        "case": "stack-4-SWING-t181",
+        "tick": 181,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t181-390x844.png",
+        "viewHash": "b3b4cef64150d3d429c3bae207751b1b2ce9706586e939546d4dea924b800de9"
+      },
+      {
+        "case": "stack-4-SWING-t182",
+        "tick": 182,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t182-390x844.png",
+        "viewHash": "3bf8dd5ee173a5a21aeb2b2810f2253c7257b7b7d4fa104c04783a348467be77"
+      },
+      {
+        "case": "stack-4-SWING-t183",
+        "tick": 183,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t183-390x844.png",
+        "viewHash": "e3d887fadc0bb6ca25d81a5e393c467aedcd1310627bed13129f34532592345e"
+      },
+      {
+        "case": "stack-4-SWING-t184",
+        "tick": 184,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t184-390x844.png",
+        "viewHash": "b06be2e4e5ec0bcabdbccfeb01bcb21ddfbbdae5c7bd67f3f9be82131867b8ae"
+      },
+      {
+        "case": "stack-4-SWING-t185",
+        "tick": 185,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t185-390x844.png",
+        "viewHash": "5ecee1449a0e9550ba561b012c7d8c8e890a6912218035327fff1e00efec6286"
+      },
+      {
+        "case": "stack-4-SWING-t186",
+        "tick": 186,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t186-390x844.png",
+        "viewHash": "47f3e6c59ebb75f88ba8ee38889531a184e8f07eee47399765b7a16e5ce4abfa"
+      },
+      {
+        "case": "stack-4-SWING-t187",
+        "tick": 187,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t187-390x844.png",
+        "viewHash": "1fb537e90ba54760c3206b536b6729648d047675a59420565becd28e07b50304"
+      },
+      {
+        "case": "stack-4-SWING-t188",
+        "tick": 188,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t188-390x844.png",
+        "viewHash": "05ec9bf26f24c6e62a854e7c21311a5dd6059d9a72701e3dfc34ad8db8d2322d"
+      },
+      {
+        "case": "stack-4-SWING-t189",
+        "tick": 189,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t189-390x844.png",
+        "viewHash": "2134965715d3f6f063c65af23a1167d71052d7f2aa290958266f3d5c991a41e2"
+      },
+      {
+        "case": "stack-4-SWING-t190",
+        "tick": 190,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t190-390x844.png",
+        "viewHash": "fd4fdc23b0125a372325d29183eabbcf5fe3bc46f01d708471ba586d01ed0482"
+      },
+      {
+        "case": "stack-4-SWING-t191",
+        "tick": 191,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t191-390x844.png",
+        "viewHash": "297fe0f2e0c75e5a1d95202198b6966fe89d0e10cba55d5b7f69ee90da9df974"
+      },
+      {
+        "case": "stack-4-SWING-t192",
+        "tick": 192,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t192-390x844.png",
+        "viewHash": "bf7e9ab6f40283e1d8b9720d4236763105515948f9de02cb89d9cb97e1241609"
+      },
+      {
+        "case": "stack-4-SWING-t193",
+        "tick": 193,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t193-390x844.png",
+        "viewHash": "86798837b832123428464b6ad6a26d3005109e260fae7885bf3755c5bc1205d8"
+      },
+      {
+        "case": "stack-4-SWING-t194",
+        "tick": 194,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t194-390x844.png",
+        "viewHash": "07a847c7d7975269369923c160c105066b47aeb6b33eeb791d3cbb3ef18d5723"
+      },
+      {
+        "case": "stack-4-SWING-t195",
+        "tick": 195,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t195-390x844.png",
+        "viewHash": "64aa38dbe534696d584578b219202bedd4e6b49b5b5bcfeeb9fd50824f84743c"
+      },
+      {
+        "case": "stack-4-SWING-t196",
+        "tick": 196,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t196-390x844.png",
+        "viewHash": "0176914ab18f86c40fa74d33770d90e92b6e46f45bfd0e6720fdbad951f0707c"
+      },
+      {
+        "case": "stack-4-SWING-t197",
+        "tick": 197,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SWING-t197-390x844.png",
+        "viewHash": "b4f51ca263c97f5ca2d5d404cf2b8da15f16f1e06bff721386340a9dd8b2c361"
+      },
+      {
+        "case": "stack-4-FALL-t198",
+        "tick": 198,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-FALL-t198-390x844.png",
+        "viewHash": "e9b7bdd0eb59e54953f06030bd868401f42d161c9bfef4912ddcbf29cadb065b"
+      },
+      {
+        "case": "stack-4-FALL-t199",
+        "tick": 199,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-FALL-t199-390x844.png",
+        "viewHash": "a2ade07bf36f36d359dbacda8b81cf491ab8259ddc5cc10edca44c36d660171d"
+      },
+      {
+        "case": "stack-4-FALL-t200",
+        "tick": 200,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-FALL-t200-390x844.png",
+        "viewHash": "885700e79ae0bfd3ecfc0ca333e84467753cca95fb1f455f54ea2a89ea32b417"
+      },
+      {
+        "case": "stack-4-FALL-t201",
+        "tick": 201,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-FALL-t201-390x844.png",
+        "viewHash": "d122caf795071bdc7053368d23e327c300a859117993f55fe8f1ea8033cdd2ab"
+      },
+      {
+        "case": "stack-4-FALL-t202",
+        "tick": 202,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-FALL-t202-390x844.png",
+        "viewHash": "2524c7be37757427f7f5331a2561135abdb0a283ec1aa5397fb6318e94f37cd4"
+      },
+      {
+        "case": "stack-4-FALL-t203",
+        "tick": 203,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-FALL-t203-390x844.png",
+        "viewHash": "c38241af7ae9d7d2f0e95ed55ea8e4870075c6d429f9618fc7f9848d15acbb92"
+      },
+      {
+        "case": "stack-4-FALL-t204",
+        "tick": 204,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-FALL-t204-390x844.png",
+        "viewHash": "9a5f8dd9e1e1dc44b29e1af784394bb462ea85443639a7473d2473b8250fad8f"
+      },
+      {
+        "case": "stack-4-FALL-t205",
+        "tick": 205,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-FALL-t205-390x844.png",
+        "viewHash": "cdd9f20278a69d644ea865c3e086e9a70a71fca55cf8a0a1b00ebd8a7c3cd18f"
+      },
+      {
+        "case": "stack-4-FALL-t206",
+        "tick": 206,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-FALL-t206-390x844.png",
+        "viewHash": "40f6d335f7c6eb05d59b1bd55a8caca3a59225a11bd28c3784dfcf6384446a21"
+      },
+      {
+        "case": "stack-4-FALL-t207",
+        "tick": 207,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-FALL-t207-390x844.png",
+        "viewHash": "60756370edff92894786d90a07d9a5010d4715e4e595b08fd1713901f3c76920"
+      },
+      {
+        "case": "stack-4-FALL-t208",
+        "tick": 208,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-FALL-t208-390x844.png",
+        "viewHash": "00f46e7f32505d7c4ad5c38ad1cfb150e4477b52f8c355dec745f4e1b8109731"
+      },
+      {
+        "case": "stack-4-FALL-t209",
+        "tick": 209,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-FALL-t209-390x844.png",
+        "viewHash": "00141e9f028629e88e81711157fcdf1efd75270df5184ff0cb1ca112a7632c58"
+      },
+      {
+        "case": "stack-4-SETTLE-t210",
+        "tick": 210,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SETTLE-t210-390x844.png",
+        "viewHash": "1c6916c8814a3abb8a3a9c7a0e39b87015c580ff4b711b742932f146cb526a3a"
+      },
+      {
+        "case": "stack-4-SETTLE-t211",
+        "tick": 211,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SETTLE-t211-390x844.png",
+        "viewHash": "713ae80b59d263d843e46e5b13d37d699e2ef414a8d3dddb72da94f23c27426f"
+      },
+      {
+        "case": "stack-4-SETTLE-t212",
+        "tick": 212,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SETTLE-t212-390x844.png",
+        "viewHash": "8457087af525409d1a9e2a8b9212360d821e7eca7ad4bc7e7c9e0f35309ac04f"
+      },
+      {
+        "case": "stack-4-SETTLE-t213",
+        "tick": 213,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SETTLE-t213-390x844.png",
+        "viewHash": "dac16cd2f95ebd09a8edbc0bd88cd931f2298f4ad420399c12271ac57c9d3eb1"
+      },
+      {
+        "case": "stack-4-SETTLE-t214",
+        "tick": 214,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SETTLE-t214-390x844.png",
+        "viewHash": "7654f7fccc0ac569d95bd445af84af6682be636f82c62597e8a1d12d0935d600"
+      },
+      {
+        "case": "stack-4-SETTLE-t215",
+        "tick": 215,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-SETTLE-t215-390x844.png",
+        "viewHash": "3885f70a32cfcf9e80e03bf8e0132bad828e4c0b3447f2d4ac08b291c4919359"
+      }
+    ],
+    "note": "Contact layout only. No redrawing/retouching or change to game content."
+  },
+  {
+    "sheet": "output\\repair-20261027\\audit\\art-runtime\\v4-final\\contact-sheets\\stack-8-all-phase-every-tick-390.png",
+    "cases": [
+      {
+        "case": "stack-8-SWING-t367",
+        "tick": 367,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t367-390x844.png",
+        "viewHash": "10bd4c3da3f182ab858b4b281192226c6f725c81b9be33032291f3206263c7dc"
+      },
+      {
+        "case": "stack-8-SWING-t368",
+        "tick": 368,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t368-390x844.png",
+        "viewHash": "2d5d9675e2df69f3f61c87bc878e0d27ac5d48ab2515f4557f9f4da46b97f282"
+      },
+      {
+        "case": "stack-8-SWING-t369",
+        "tick": 369,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t369-390x844.png",
+        "viewHash": "7d4fceb6eac89fb79ae981904b0b46d95d8383e2f51769d5c5886d4aca77fa2d"
+      },
+      {
+        "case": "stack-8-SWING-t370",
+        "tick": 370,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t370-390x844.png",
+        "viewHash": "685429d1352b73a3984ebaefb5dcf53e8666b48389afe3fc560a8c98b6169922"
+      },
+      {
+        "case": "stack-8-SWING-t371",
+        "tick": 371,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t371-390x844.png",
+        "viewHash": "cc52b4dd7dbe6cf14b2b42e6391c106fe400e2285eca93e3297369c7306019e1"
+      },
+      {
+        "case": "stack-8-SWING-t372",
+        "tick": 372,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t372-390x844.png",
+        "viewHash": "f3281c4769676e71c460a8c01f7d60f6ec5df11509d8734a525153c73b3620ac"
+      },
+      {
+        "case": "stack-8-SWING-t373",
+        "tick": 373,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t373-390x844.png",
+        "viewHash": "c4147bc4dbd1637c45bb6b3f28aff595318e04ecf8bc3958094144df4b60eccd"
+      },
+      {
+        "case": "stack-8-SWING-t374",
+        "tick": 374,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t374-390x844.png",
+        "viewHash": "159a5fa733977526f5146c253a9c7ab9ad0da6960ed18d013e6db41e5d42c5d6"
+      },
+      {
+        "case": "stack-8-SWING-t375",
+        "tick": 375,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t375-390x844.png",
+        "viewHash": "9661dc3e35dab6649da5ff26f1c62b3b8b193dbccc581f60285a9872c0425ca6"
+      },
+      {
+        "case": "stack-8-SWING-t376",
+        "tick": 376,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t376-390x844.png",
+        "viewHash": "3a90377a4e642aacce2b0be7314c2782cf54f5375ff6dcbe954c695769184500"
+      },
+      {
+        "case": "stack-8-SWING-t377",
+        "tick": 377,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t377-390x844.png",
+        "viewHash": "f1cd27ed00126009bfbcd0530772725574e61de0f6ffe1bc8fb5c4756e0d285e"
+      },
+      {
+        "case": "stack-8-SWING-t378",
+        "tick": 378,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t378-390x844.png",
+        "viewHash": "879071bd38366a174c4f1cf6cb87e4efeedae84da62282bf895aa2d3a16cc002"
+      },
+      {
+        "case": "stack-8-SWING-t379",
+        "tick": 379,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t379-390x844.png",
+        "viewHash": "9fba7ab2d0f27c3c90b1c12cfae469b4adeab0d53fda15c28b48adc5a1e01a7d"
+      },
+      {
+        "case": "stack-8-SWING-t380",
+        "tick": 380,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t380-390x844.png",
+        "viewHash": "25b41ac0f0d62f50b2b75cac9b49353428fe43a0b0eb2ea81b0c7cee27ecf7f2"
+      },
+      {
+        "case": "stack-8-SWING-t381",
+        "tick": 381,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t381-390x844.png",
+        "viewHash": "e6220603599cead6208d733d008c20b40885813233c29b2b52e4fc4d87837411"
+      },
+      {
+        "case": "stack-8-SWING-t382",
+        "tick": 382,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t382-390x844.png",
+        "viewHash": "3cb8ee3e94ac840152f9a64964407b1c1f6839472fad1866efeafed69dd7aa77"
+      },
+      {
+        "case": "stack-8-SWING-t383",
+        "tick": 383,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t383-390x844.png",
+        "viewHash": "e9f6709dc23218b0ba4ccd86b4429374a33f9d60cf581608664c6154ffe31351"
+      },
+      {
+        "case": "stack-8-SWING-t384",
+        "tick": 384,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t384-390x844.png",
+        "viewHash": "bab9b26ba1ee43851e5410461238110577cf2b84a011f60debd31c9d34cfb6e9"
+      },
+      {
+        "case": "stack-8-SWING-t385",
+        "tick": 385,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t385-390x844.png",
+        "viewHash": "989111761be096bed8529856507c162cc4d4c7423124589e7690509da4c2cdcb"
+      },
+      {
+        "case": "stack-8-SWING-t386",
+        "tick": 386,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t386-390x844.png",
+        "viewHash": "ed7c537b729d7be44f4887d765f0b4ccd6c8496f5538675fe0ba833f9f8c73ad"
+      },
+      {
+        "case": "stack-8-SWING-t387",
+        "tick": 387,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t387-390x844.png",
+        "viewHash": "f864f072f62bf5e451d01cac03c2d459b33c40b38c76b7c44729c84a3271a5f8"
+      },
+      {
+        "case": "stack-8-SWING-t388",
+        "tick": 388,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t388-390x844.png",
+        "viewHash": "6bfd554bdb87e461e14db0cbb8a201307bc9f243f5309c0c4606568e19f111a1"
+      },
+      {
+        "case": "stack-8-SWING-t389",
+        "tick": 389,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t389-390x844.png",
+        "viewHash": "417d9d9e09fab47b4752283925b2bcfed35eea403dd001d2602c9c2e7dac24eb"
+      },
+      {
+        "case": "stack-8-SWING-t390",
+        "tick": 390,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t390-390x844.png",
+        "viewHash": "f3924bc1efd7712297f045225a6ae0c4476d8ccc5ac002c6b4c046e1577ae28b"
+      },
+      {
+        "case": "stack-8-SWING-t391",
+        "tick": 391,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t391-390x844.png",
+        "viewHash": "b05da74e74d67f39f5cd3a8b8a20d5f3e676216c9f3e73f127ce1d59a350f800"
+      },
+      {
+        "case": "stack-8-SWING-t392",
+        "tick": 392,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t392-390x844.png",
+        "viewHash": "26c6af92c0aacd3c8120b14b107af5d3e362675172c22e23a7c084bcca23f118"
+      },
+      {
+        "case": "stack-8-SWING-t393",
+        "tick": 393,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t393-390x844.png",
+        "viewHash": "f7fd1ee4c3248bf443b32ba864b7cd074c418e564b139c6bb7d58c64db2ef6ab"
+      },
+      {
+        "case": "stack-8-SWING-t394",
+        "tick": 394,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t394-390x844.png",
+        "viewHash": "72adf892dcfc97cf90c781fa2cf883a36d9795f05610840d06b986dbc74d54f4"
+      },
+      {
+        "case": "stack-8-SWING-t395",
+        "tick": 395,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t395-390x844.png",
+        "viewHash": "7b1fb31e749a67339cc73dd8a1f9737ff67275bb8b998c8dc59708e791756cec"
+      },
+      {
+        "case": "stack-8-SWING-t396",
+        "tick": 396,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t396-390x844.png",
+        "viewHash": "1d3f5cce414b5675d359d4c143845739e1fd589d2d38fabd93b2c32c00810c79"
+      },
+      {
+        "case": "stack-8-SWING-t397",
+        "tick": 397,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t397-390x844.png",
+        "viewHash": "ba34125712c7355d0eea6670764e5df97c26e47d804b423386c28611457988c3"
+      },
+      {
+        "case": "stack-8-SWING-t398",
+        "tick": 398,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t398-390x844.png",
+        "viewHash": "70573e78c2e1ea895c374542c47e973e7cc7b177e27f2d7f14e917bf69f88967"
+      },
+      {
+        "case": "stack-8-SWING-t399",
+        "tick": 399,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SWING-t399-390x844.png",
+        "viewHash": "326d89a43e4140be5d23252b74f509ae2f4c100fb38b16db08e9aff1d7a70742"
+      },
+      {
+        "case": "stack-8-FALL-t400",
+        "tick": 400,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-FALL-t400-390x844.png",
+        "viewHash": "9739b7dc557ccf8517b883b638b1ca590eda80275807e0c833f0babc6f84ef3a"
+      },
+      {
+        "case": "stack-8-FALL-t401",
+        "tick": 401,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-FALL-t401-390x844.png",
+        "viewHash": "b2ed64fbeb3d0c263410ab32fd6fb441e42cf7fae0ddd1dfc9b5b3fdcec39440"
+      },
+      {
+        "case": "stack-8-FALL-t402",
+        "tick": 402,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-FALL-t402-390x844.png",
+        "viewHash": "c1fc242dabbdb11819f9c7c0c0053970569941c6ab94d598d3cd8d332cd4fe95"
+      },
+      {
+        "case": "stack-8-FALL-t403",
+        "tick": 403,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-FALL-t403-390x844.png",
+        "viewHash": "28433f268bb7e8262cca932bdfa0da252bec9ca804feb13d76a84d70d0a68148"
+      },
+      {
+        "case": "stack-8-FALL-t404",
+        "tick": 404,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-FALL-t404-390x844.png",
+        "viewHash": "140627b6b09dc369c20145d8673d67d22f04353ae6e66848395a70d6f0e31ac3"
+      },
+      {
+        "case": "stack-8-FALL-t405",
+        "tick": 405,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-FALL-t405-390x844.png",
+        "viewHash": "8f74a1d3aa68cb53a2c6ac65fe40fb801eb53720f5743d249df1ba8582ef7d3c"
+      },
+      {
+        "case": "stack-8-FALL-t406",
+        "tick": 406,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-FALL-t406-390x844.png",
+        "viewHash": "ffa91006ff1f29d09346771cfa38cce140c1b600c16bcf44e5170ea8eb1b9ded"
+      },
+      {
+        "case": "stack-8-FALL-t407",
+        "tick": 407,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-FALL-t407-390x844.png",
+        "viewHash": "4196efaf2dbfa28cdadfcb853687855406f31da003be3c27afdf0e3cec7c3d92"
+      },
+      {
+        "case": "stack-8-FALL-t408",
+        "tick": 408,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-FALL-t408-390x844.png",
+        "viewHash": "1998d0fe97ccf4ae2fdebc0a20d6e29373c3e0d304350d86282282ba016d0ff6"
+      },
+      {
+        "case": "stack-8-FALL-t409",
+        "tick": 409,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-FALL-t409-390x844.png",
+        "viewHash": "afb58e17d481de3c1d9d881a1aa62c735315553c0db4563a3480dd98e80f640f"
+      },
+      {
+        "case": "stack-8-FALL-t410",
+        "tick": 410,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-FALL-t410-390x844.png",
+        "viewHash": "ee30fb5f3511b0768bf9870e6cbe966671a3f0d205f50d9211539b3c8282b061"
+      },
+      {
+        "case": "stack-8-FALL-t411",
+        "tick": 411,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-FALL-t411-390x844.png",
+        "viewHash": "19d245d9bbb3eb4bc80c83a907027058d9b47cbb7b23a6bb0a97ef8b3acb42aa"
+      },
+      {
+        "case": "stack-8-SETTLE-t412",
+        "tick": 412,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SETTLE-t412-390x844.png",
+        "viewHash": "0f171efdecd50dc3ebe293fed5db90e2aeb9815c88b7526acebb1b64261d2c65"
+      },
+      {
+        "case": "stack-8-SETTLE-t413",
+        "tick": 413,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SETTLE-t413-390x844.png",
+        "viewHash": "ae6b9403de2c2b974edbca5169551a4a1e0f83a9a071b8fc4fc26870da1e290e"
+      },
+      {
+        "case": "stack-8-SETTLE-t414",
+        "tick": 414,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SETTLE-t414-390x844.png",
+        "viewHash": "cf70c510bc577b4a54aa892961ccde090ee9046f4f553b0ea5f0ec814697547c"
+      },
+      {
+        "case": "stack-8-SETTLE-t415",
+        "tick": 415,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SETTLE-t415-390x844.png",
+        "viewHash": "9dd217f2cb4d882bfbf9173c7d68acadcf3124442031c75b0ac31c68e98d6043"
+      },
+      {
+        "case": "stack-8-SETTLE-t416",
+        "tick": 416,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SETTLE-t416-390x844.png",
+        "viewHash": "0fcd96ccaf46a29f8cbebdd5cdda5bf5741e9a5666b2a3c01559314a18c152b2"
+      },
+      {
+        "case": "stack-8-SETTLE-t417",
+        "tick": 417,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-SETTLE-t417-390x844.png",
+        "viewHash": "54534c569ee7afbaaa8d015be97fbbc481ae1d37ff9ff8acbee406e2926152b9"
+      }
+    ],
+    "note": "Contact layout only. No redrawing/retouching or change to game content."
+  },
+  {
+    "sheet": "output\\repair-20261027\\audit\\art-runtime\\v4-final\\contact-sheets\\stack-20-all-phase-every-tick-390.png",
+    "cases": [
+      {
+        "case": "stack-20-SWING-t917",
+        "tick": 917,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t917-390x844.png",
+        "viewHash": "646f56431b4771c1da93f136b9bd8beffc391b1b4248ab615c3ccbd2bc2441c0"
+      },
+      {
+        "case": "stack-20-SWING-t918",
+        "tick": 918,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t918-390x844.png",
+        "viewHash": "85b5ed31d4fabbf9077c2bf9de80a9f47986b8eb0f0ff895ddf14a65c89010d4"
+      },
+      {
+        "case": "stack-20-SWING-t919",
+        "tick": 919,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t919-390x844.png",
+        "viewHash": "cbdfb3e5631a0bde3d4386f11b0bc105a0265929edaf8e389f9f7153a07abd3f"
+      },
+      {
+        "case": "stack-20-SWING-t920",
+        "tick": 920,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t920-390x844.png",
+        "viewHash": "61a263e800790bb6223e75c21699ccc38c6266b554f383f379a935bd447fbad3"
+      },
+      {
+        "case": "stack-20-SWING-t921",
+        "tick": 921,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t921-390x844.png",
+        "viewHash": "15de192e3d732cda7933d71ff5bb234d1dc8a7b58f73f52e2d45b5412ba61703"
+      },
+      {
+        "case": "stack-20-SWING-t922",
+        "tick": 922,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t922-390x844.png",
+        "viewHash": "c9231574bd553b981373b6bcdeea04c06f98996ed30a32af6e30dcd7b793472d"
+      },
+      {
+        "case": "stack-20-SWING-t923",
+        "tick": 923,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t923-390x844.png",
+        "viewHash": "0617b667f2b29d5d9b0bf2ef0bf8ed34c2040be28a046048200f0cd100134651"
+      },
+      {
+        "case": "stack-20-SWING-t924",
+        "tick": 924,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t924-390x844.png",
+        "viewHash": "1488680be68871cbb8fa2806430b19f9a6b70d33a0cdb1c5b1af48be7663acb1"
+      },
+      {
+        "case": "stack-20-SWING-t925",
+        "tick": 925,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t925-390x844.png",
+        "viewHash": "b874860720138db5291be2b37888fdfa7c3230e0d1dd33e209b7166e1b2c0322"
+      },
+      {
+        "case": "stack-20-SWING-t926",
+        "tick": 926,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t926-390x844.png",
+        "viewHash": "efa5d440046909cec6aea2102212e947eb98d3a157cd04ce5fafb596a19b27ff"
+      },
+      {
+        "case": "stack-20-SWING-t927",
+        "tick": 927,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t927-390x844.png",
+        "viewHash": "0720770546da45e157f3fef02df74e5b012b315fdd5536b1027af18afd194ed9"
+      },
+      {
+        "case": "stack-20-SWING-t928",
+        "tick": 928,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t928-390x844.png",
+        "viewHash": "b8b740d12c57dddbcf62c57c361af0b31da53179ac713e36fb1cfff09ffb7a33"
+      },
+      {
+        "case": "stack-20-SWING-t929",
+        "tick": 929,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t929-390x844.png",
+        "viewHash": "bec8d7d0210c72301869df93cd95dfbf535f94b1696217165f20b533b440fcf4"
+      },
+      {
+        "case": "stack-20-SWING-t930",
+        "tick": 930,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t930-390x844.png",
+        "viewHash": "19ef8b3fb93d582d8c640e1bde22d14cd89184a3c83e246d102c104f6f4ceea1"
+      },
+      {
+        "case": "stack-20-SWING-t931",
+        "tick": 931,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t931-390x844.png",
+        "viewHash": "58ae31e93b04d62f6c3237c6e1e0f7693d4678e0c5f35c5590d41723d5fd822e"
+      },
+      {
+        "case": "stack-20-SWING-t932",
+        "tick": 932,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t932-390x844.png",
+        "viewHash": "15c9cc2b4330837e92699e350f5e4e5e11983d62fc7bf1d17e8135696db92952"
+      },
+      {
+        "case": "stack-20-SWING-t933",
+        "tick": 933,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t933-390x844.png",
+        "viewHash": "6d91a26ed01da617741a7add3fff1519bfeb30ad7d1e38da53ee77e262a3e67d"
+      },
+      {
+        "case": "stack-20-SWING-t934",
+        "tick": 934,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t934-390x844.png",
+        "viewHash": "fb637df21a6e2c97920a57393227dec265ed4ea1fcd645f060a9e7cc392fc39a"
+      },
+      {
+        "case": "stack-20-SWING-t935",
+        "tick": 935,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t935-390x844.png",
+        "viewHash": "83b04aebe0e5a73290027c97478a71d50a2ac0fa012d426a8ae513e7812831d6"
+      },
+      {
+        "case": "stack-20-SWING-t936",
+        "tick": 936,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t936-390x844.png",
+        "viewHash": "c4e58fd1d18e32c209993480a536c451b3c2d6065008c36f1d7492504ab08e44"
+      },
+      {
+        "case": "stack-20-SWING-t937",
+        "tick": 937,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t937-390x844.png",
+        "viewHash": "b74bb58cd7cda95017dcf7a8c77a71537620f4b616d6f3e837216481e5a6a164"
+      },
+      {
+        "case": "stack-20-SWING-t938",
+        "tick": 938,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t938-390x844.png",
+        "viewHash": "d7384890a9eb6fcb63fff80ef4c4ce458c0b215c341eda7c1cac9c1946a9c283"
+      },
+      {
+        "case": "stack-20-SWING-t939",
+        "tick": 939,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t939-390x844.png",
+        "viewHash": "7e9969630c9b0391e4bb3fea15e19e5a792c2279a6eca59511a8cbdee33a9938"
+      },
+      {
+        "case": "stack-20-SWING-t940",
+        "tick": 940,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t940-390x844.png",
+        "viewHash": "5f0a6d5847b1c5c927e6c4b3e52d45f186ea8cd58b7cda25ed2268f57eff40dc"
+      },
+      {
+        "case": "stack-20-SWING-t941",
+        "tick": 941,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-SWING-t941-390x844.png",
+        "viewHash": "457474f6626558ed0aad0d01bbe03b1ea43dbc90c80893da8e3d17692bab81a8"
+      },
+      {
+        "case": "stack-20-FALL-t942",
+        "tick": 942,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-FALL-t942-390x844.png",
+        "viewHash": "c65b1c2fa5f72333b50fbf84bda2f5db3e0946d9e740bfdf8a25b8264e2fa383"
+      },
+      {
+        "case": "stack-20-FALL-t943",
+        "tick": 943,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-FALL-t943-390x844.png",
+        "viewHash": "113630239b01b0f2a5638dba74d0c4fde5b9d0f220e7000f04ddad43a1c17549"
+      },
+      {
+        "case": "stack-20-FALL-t944",
+        "tick": 944,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-FALL-t944-390x844.png",
+        "viewHash": "a35f9d1de9ed8f3239f575052ec3569f9c7f9cd2235c5b259505b971872a0369"
+      },
+      {
+        "case": "stack-20-FALL-t945",
+        "tick": 945,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-FALL-t945-390x844.png",
+        "viewHash": "948962cc7f5ae6f1806e45b209a502c9433c9f0c3189179d96ea0ee122ed77d8"
+      },
+      {
+        "case": "stack-20-FALL-t946",
+        "tick": 946,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-FALL-t946-390x844.png",
+        "viewHash": "03f12b9c0bc6c4f505ba36fca1670300ea6cdb128f5a2a87285791357eb18e49"
+      },
+      {
+        "case": "stack-20-FALL-t947",
+        "tick": 947,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-FALL-t947-390x844.png",
+        "viewHash": "90bad45cf8fe0ca8456d2ca678b45a44f85c7b378e63d8bba08d14d31ab4a2d9"
+      },
+      {
+        "case": "stack-20-FALL-t948",
+        "tick": 948,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-FALL-t948-390x844.png",
+        "viewHash": "4045911e6fa50d30f3d6e1bc340cffd31e0a4dcbcb117e4b8418466514efbaf4"
+      },
+      {
+        "case": "stack-20-FALL-t949",
+        "tick": 949,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-FALL-t949-390x844.png",
+        "viewHash": "d641e889719aec60196f13f0824444da164aea805030b1f2a1bfb9897705dbe2"
+      },
+      {
+        "case": "stack-20-FALL-t950",
+        "tick": 950,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-FALL-t950-390x844.png",
+        "viewHash": "673aeba22ab1f844d95d10e90afefe5c5bd8a247f54b514a2b899d76f30fe448"
+      },
+      {
+        "case": "stack-20-FALL-t951",
+        "tick": 951,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-FALL-t951-390x844.png",
+        "viewHash": "a3ad73b8fe4eb853cf8cf8f21c153bd445e3f69e3aaf5ab4550585d78775fe13"
+      },
+      {
+        "case": "stack-20-FALL-t952",
+        "tick": 952,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-FALL-t952-390x844.png",
+        "viewHash": "4032538ef1011b27d37e444fb8d58c7d63fcab187fc1525d7efa49476d28a525"
+      },
+      {
+        "case": "stack-20-FALL-t953",
+        "tick": 953,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-FALL-t953-390x844.png",
+        "viewHash": "ac6daf6878b13605467dc0c05cd22594dc87ed07dcbc1c3a7335da31fc700e96"
+      },
+      {
+        "case": "stack-20-END-t954",
+        "tick": 954,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-END-t954-390x844.png",
+        "viewHash": "a044f62b1a1e56e8665b25d674ba8da672b160f7df4f887ae5c62be663f52386"
+      }
+    ],
+    "note": "Contact layout only. No redrawing/retouching or change to game content."
+  },
+  {
+    "sheet": "output\\repair-20261027\\audit\\art-runtime\\v4-final\\contact-sheets\\stack-1-4-8-20-plate-contacts-390.png",
+    "cases": [
+      {
+        "case": "stack-1-layers",
+        "tick": 47,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-1-layers-390x844.png",
+        "viewHash": "82e6256f7284fbf9a4bba57ecb2729ac72c24a57a425dbaf273b7e99414e6b08"
+      },
+      {
+        "case": "stack-4-layers",
+        "tick": 210,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-4-layers-390x844.png",
+        "viewHash": "1c6916c8814a3abb8a3a9c7a0e39b87015c580ff4b711b742932f146cb526a3a"
+      },
+      {
+        "case": "stack-8-layers",
+        "tick": 412,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-8-layers-390x844.png",
+        "viewHash": "0f171efdecd50dc3ebe293fed5db90e2aeb9815c88b7526acebb1b64261d2c65"
+      },
+      {
+        "case": "stack-20-layers",
+        "tick": 954,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/stack-20-layers-390x844.png",
+        "viewHash": "a044f62b1a1e56e8665b25d674ba8da672b160f7df4f887ae5c62be663f52386"
+      }
+    ],
+    "note": "Contact layout only. No redrawing/retouching or change to game content."
+  },
+  {
+    "sheet": "output\\repair-20261027\\audit\\art-runtime\\v4-final\\contact-sheets\\runner-real-props-and-three-grass-states-390.png",
+    "cases": [
+      {
+        "case": "runner-hurdle-width-8",
+        "tick": 91,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-hurdle-width-8-390x844.png",
+        "viewHash": "ea2c726a664337bf2945396e9515dfa0301500b856db402f75788267318cd30d"
+      },
+      {
+        "case": "runner-grass-uncollected",
+        "tick": 239,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-grass-uncollected-390x844.png",
+        "viewHash": "5b16f6e1d813b23b5a0d6a30b57d51a92dc1918c95a7735a3ed572da8ddc28db"
+      },
+      {
+        "case": "runner-grass-outer-only",
+        "tick": 240,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-grass-outer-only-390x844.png",
+        "viewHash": "79cc310ded8b9f51faebf19c2d33058a94be36c03ed6af2ca4af66aec41313b1"
+      },
+      {
+        "case": "runner-grass-both",
+        "tick": 241,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-grass-both-390x844.png",
+        "viewHash": "7b14363d686a1c2ee8073ccc241353a248ee9cdcfcfc983077271f4c90967a29"
+      },
+      {
+        "case": "runner-hurdle-width-18",
+        "tick": 436,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-hurdle-width-18-390x844.png",
+        "viewHash": "20ba12272c040f1c1c34c2af1100b65337feab8c4f996fc6e1560272e3f96525"
+      },
+      {
+        "case": "runner-hurdle-width-28",
+        "tick": 852,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-hurdle-width-28-390x844.png",
+        "viewHash": "2bfc09deb31a2650ee46564550217ba3b8318f315944d83360fee3ecfde25ce5"
+      }
+    ],
+    "note": "Contact layout only. No redrawing/retouching or change to game content."
+  },
+  {
+    "sheet": "output\\repair-20261027\\audit\\art-runtime\\v4-final\\contact-sheets\\runner-props-core-AABB-radius-overlay-390.png",
+    "cases": [
+      {
+        "case": "runner-hurdle-width-8",
+        "tick": 91,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-hurdle-width-8-390x844-geometry.png",
+        "viewHash": "ea2c726a664337bf2945396e9515dfa0301500b856db402f75788267318cd30d"
+      },
+      {
+        "case": "runner-grass-uncollected",
+        "tick": 239,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-grass-uncollected-390x844-geometry.png",
+        "viewHash": "5b16f6e1d813b23b5a0d6a30b57d51a92dc1918c95a7735a3ed572da8ddc28db"
+      },
+      {
+        "case": "runner-grass-outer-only",
+        "tick": 240,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-grass-outer-only-390x844-geometry.png",
+        "viewHash": "79cc310ded8b9f51faebf19c2d33058a94be36c03ed6af2ca4af66aec41313b1"
+      },
+      {
+        "case": "runner-grass-both",
+        "tick": 241,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-grass-both-390x844-geometry.png",
+        "viewHash": "7b14363d686a1c2ee8073ccc241353a248ee9cdcfcfc983077271f4c90967a29"
+      },
+      {
+        "case": "runner-hurdle-width-18",
+        "tick": 436,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-hurdle-width-18-390x844-geometry.png",
+        "viewHash": "20ba12272c040f1c1c34c2af1100b65337feab8c4f996fc6e1560272e3f96525"
+      },
+      {
+        "case": "runner-hurdle-width-28",
+        "tick": 852,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-hurdle-width-28-390x844-geometry.png",
+        "viewHash": "2bfc09deb31a2650ee46564550217ba3b8318f315944d83360fee3ecfde25ce5"
+      }
+    ],
+    "note": "Contact layout only. No redrawing/retouching or change to game content."
+  },
+  {
+    "sheet": "output\\repair-20261027\\audit\\art-runtime\\v4-final\\contact-sheets\\herd-eight-directions-walk-dog-crops-390.png",
+    "cases": [
+      {
+        "case": "herd-direction-e-walk",
+        "tick": 2,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-e-walk-390x844.png",
+        "viewHash": "4ede562a276a3cbc54c22a04a22f13e7d5ecb6e4e78ec52009880689b7d2fc85"
+      },
+      {
+        "case": "herd-direction-se-walk",
+        "tick": 2,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-se-walk-390x844.png",
+        "viewHash": "6479ee15226822b56be3c71dbd44fcb5b82f0dd845b662a807ebcd7fe2c513ed"
+      },
+      {
+        "case": "herd-direction-s-walk",
+        "tick": 2,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-s-walk-390x844.png",
+        "viewHash": "d79619c1ef0973781fdcd0a5b705cfcf8e30369c05f9821b3ca6fb0a519c24ef"
+      },
+      {
+        "case": "herd-direction-sw-walk",
+        "tick": 2,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-sw-walk-390x844.png",
+        "viewHash": "e23bed85c4d654cc72f1dd89a0168ce05e528f37c5c7f0bb6b01a68b79124b9b"
+      },
+      {
+        "case": "herd-direction-w-walk",
+        "tick": 2,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-w-walk-390x844.png",
+        "viewHash": "08800d34919f04573e42026f3899e7606e4477f7f4cae07de4bbfb5ff6cb0ef4"
+      },
+      {
+        "case": "herd-direction-nw-walk",
+        "tick": 2,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-nw-walk-390x844.png",
+        "viewHash": "41726423721feb89eb7c010bab58e3eeb62c59d2bd0cbdacc220a7f7fa3c11a9"
+      },
+      {
+        "case": "herd-direction-n-walk",
+        "tick": 2,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-n-walk-390x844.png",
+        "viewHash": "18666c8e38847f2917390db4a2aecea08609d643c6edaefe5f46aace4bbc4834"
+      },
+      {
+        "case": "herd-direction-ne-walk",
+        "tick": 2,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-ne-walk-390x844.png",
+        "viewHash": "e350766fd05055416719c359e4eda9868bdfca3c2167480a650c96f47c76aea3"
+      }
+    ],
+    "note": "Contact layout only. No redrawing/retouching or change to game content."
+  },
+  {
+    "sheet": "output\\repair-20261027\\audit\\art-runtime\\v4-final\\contact-sheets\\herd-eight-directions-bark-dog-crops-390.png",
+    "cases": [
+      {
+        "case": "herd-direction-e-bark",
+        "tick": 3,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-e-bark-390x844.png",
+        "viewHash": "9d3609c27e1b362f048cea78cdb417a51505e9f836d5e93f412a7b293542ce4f"
+      },
+      {
+        "case": "herd-direction-se-bark",
+        "tick": 3,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-se-bark-390x844.png",
+        "viewHash": "12475eefdd50e726fe292b3003eb3bd190dccfb0f9719ff0cfdcae187b1d1b0a"
+      },
+      {
+        "case": "herd-direction-s-bark",
+        "tick": 3,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-s-bark-390x844.png",
+        "viewHash": "9393943791b733863fa85f2c58c4fe2ec309659e8d2023e437d028eb722f2610"
+      },
+      {
+        "case": "herd-direction-sw-bark",
+        "tick": 3,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-sw-bark-390x844.png",
+        "viewHash": "70b9dab3a92e24e85bdec9e68447abc3201970d0a0e29daf9d330f460d1ce850"
+      },
+      {
+        "case": "herd-direction-w-bark",
+        "tick": 3,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-w-bark-390x844.png",
+        "viewHash": "0b7c9f2239d4f549c7149a8ed8f8d170c8ae65091173a161a3962122b78ac3e5"
+      },
+      {
+        "case": "herd-direction-nw-bark",
+        "tick": 3,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-nw-bark-390x844.png",
+        "viewHash": "88bcae2d2a4112567ab16e0d49ee94498f6967a8220ba2dd08939a8a9e868bed"
+      },
+      {
+        "case": "herd-direction-n-bark",
+        "tick": 3,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-n-bark-390x844.png",
+        "viewHash": "614ff954db0f1b5d8ce2067b6b5092471e2bec4199be5fbaa904bb3edcc57036"
+      },
+      {
+        "case": "herd-direction-ne-bark",
+        "tick": 3,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-direction-ne-bark-390x844.png",
+        "viewHash": "da99f2c517c824c8b10c0527cb47490086de7eef0eaab43d443186222b68fce0"
+      }
+    ],
+    "note": "Contact layout only. No redrawing/retouching or change to game content."
+  },
+  {
+    "sheet": "output\\repair-20261027\\audit\\art-runtime\\v4-final\\contact-sheets\\herd-eight-directions-bark-active-frame-390.png",
+    "cases": [
+      {
+        "case": "herd-direction-e-bark-active",
+        "tick": 7,
+        "source": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-e-bark-active-390x844.png",
+        "viewHash": "18fb4aa13eaec73dd93d2181200eb2e51ccb9e137dddaa10546a54603fca3285"
+      },
+      {
+        "case": "herd-direction-se-bark-active",
+        "tick": 7,
+        "source": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-se-bark-active-390x844.png",
+        "viewHash": "372ecd2b4c05ec6b95170bf87f326c7420c341f189febacb67530d19499e6b24"
+      },
+      {
+        "case": "herd-direction-s-bark-active",
+        "tick": 7,
+        "source": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-s-bark-active-390x844.png",
+        "viewHash": "83effb0e243f8a17ba702d58c19683522bcb0f9da09d06b7e7636ac2c74575ae"
+      },
+      {
+        "case": "herd-direction-sw-bark-active",
+        "tick": 7,
+        "source": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-sw-bark-active-390x844.png",
+        "viewHash": "771fcb07a8095ff8d5e0efa0e0150f73e88b47a156938eddd1adaf35db42a28f"
+      },
+      {
+        "case": "herd-direction-w-bark-active",
+        "tick": 7,
+        "source": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-w-bark-active-390x844.png",
+        "viewHash": "21f665ce0e0ef900e9c45ce501285020f2f696225ebaefc525c1f5d559a87de0"
+      },
+      {
+        "case": "herd-direction-nw-bark-active",
+        "tick": 7,
+        "source": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-nw-bark-active-390x844.png",
+        "viewHash": "6def2d802298a8aa5f42daa25cb76b07ddde94d0d469161fc9a7bee388975434"
+      },
+      {
+        "case": "herd-direction-n-bark-active",
+        "tick": 7,
+        "source": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-n-bark-active-390x844.png",
+        "viewHash": "58dba714e07dec4bad488018088f92d6b1ba111745d772690c1b0a70f311b600"
+      },
+      {
+        "case": "herd-direction-ne-bark-active",
+        "tick": 7,
+        "source": "output/repair-20261027/audit/art-runtime/v4-bark-active/herd-direction-ne-bark-active-390x844.png",
+        "viewHash": "eb27b38988f1b41c7b58751bfbd607fbc33584ea54fb8ef981eac42362063fdc"
+      }
+    ],
+    "note": "Contact layout only. No redrawing/retouching or change to game content."
+  },
+  {
+    "sheet": "output\\repair-20261027\\audit\\art-runtime\\v4-final\\contact-sheets\\herd-eight-sheep-crowd-entry-terminal-390.png",
+    "cases": [
+      {
+        "case": "herd-eight-initial",
+        "tick": 0,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-eight-initial-390x844.png",
+        "viewHash": "3f41de6f2643c32c919da0b10437320bfd213f7242f0564b2513d71f8ac125c8"
+      },
+      {
+        "case": "herd-gate-most-crowded",
+        "tick": 78,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-gate-most-crowded-390x844.png",
+        "viewHash": "c8d73c64c86f018e40df844309f3ce7fed0e9c60421eb1122e488ac62371234a"
+      },
+      {
+        "case": "herd-entry-1-before",
+        "tick": 135,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-entry-1-before-390x844.png",
+        "viewHash": "3cf5451f3e12ddce8788227f5a70ba01bee4032807c7b40b6844d40477b41bfb"
+      },
+      {
+        "case": "herd-entry-1-after",
+        "tick": 136,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-entry-1-after-390x844.png",
+        "viewHash": "0bb84d14e07a6a626b7bf3a2da39f959deddf28ae36cc7fdd6df71b175aac98b"
+      },
+      {
+        "case": "herd-golden-terminal",
+        "tick": 225,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/herd-golden-terminal-390x844.png",
+        "viewHash": "b7cba6a9ae8cd4985d87d4babfd4ee4a905a9c445331782b0208cae12221a360"
+      }
+    ],
+    "note": "Contact layout only. No redrawing/retouching or change to game content."
+  },
+  {
+    "sheet": "output\\repair-20261027\\audit\\art-runtime\\v4-final\\contact-sheets\\runner-jump-landing-collision-390.png",
+    "cases": [
+      {
+        "case": "runner-takeoff",
+        "tick": 159,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-takeoff-390x844.png",
+        "viewHash": "f6519fcb08bd62545984aaeebf6ff7d24ffbe26076e7c9619927d62dee83bb44"
+      },
+      {
+        "case": "runner-air-apex",
+        "tick": 174,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-air-apex-390x844.png",
+        "viewHash": "895e32d4bd8a858334abb1ee18028980c7e05dc5691f97301f01b2748e954771"
+      },
+      {
+        "case": "runner-landing",
+        "tick": 189,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-landing-390x844.png",
+        "viewHash": "1e8e8eb83d8870e7465cba004d8db3bb40001ee8422a436409957682ce432394"
+      },
+      {
+        "case": "runner-collision-before",
+        "tick": 165,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-collision-before-390x844.png",
+        "viewHash": "30d3a0e41abe5e9c157185b47fa207a37c75626cf0a3ce755c49be8f75dacb89"
+      },
+      {
+        "case": "runner-collision-on",
+        "tick": 166,
+        "source": "output/repair-20261027/audit/art-runtime/v4-final/runner-collision-on-390x844.png",
+        "viewHash": "526b56783917295d4d5e662e8358b9d628d8bfea36505209ffea5b07dc7cff7f"
+      }
+    ],
+    "note": "Contact layout only. No redrawing/retouching or change to game content."
+  }
+]

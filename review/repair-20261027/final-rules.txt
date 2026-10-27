@@ -1,0 +1,5 @@
+
+> sheep-annual-party@2.2.0 rules:check
+> node --import tsx scripts/rules.mjs --check
+
+{"source_sha256":"ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83","rule_version":"onsite-v2.1-candidate","rules_hash":"9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40","simulator_version":"sheep-core-2.2.0","client_version":"sheep-web-2.2.0"}

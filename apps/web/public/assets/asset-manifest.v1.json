@@ -1,6 +1,6 @@
 {
   "schema_version": "sheep-asset-manifest-1.0",
-  "art_version": "art-1.3.0-visual-repair",
+  "art_version": "art-1.4.0-visual-repair",
   "game_rule_version": "onsite-v2.1-candidate",
   "path_base": "package root containing design/; all existing paths are relative to this root",
   "status_definitions": {
@@ -17,7 +17,7 @@
     "planned": 0,
     "new_svg_assets": 41,
     "delivered_3d_master_files": 6,
-    "delivered_production_animation_frames": 254,
+    "delivered_production_animation_frames": 273,
     "delivered_production_atlases": 9,
     "rendered_candidate": 29,
     "delivered_button_state_variants": 12,
@@ -1400,8 +1400,8 @@
     {
       "asset_id": "master.sheep",
       "status": "rendered_candidate",
-      "path": "art-source/v2/sheep_master_v2.blend",
-      "expected_future_path": "art-source/v2/sheep_master_v2.blend",
+      "path": "art-source/v4/sheep_master_v4.blend",
+      "expected_future_path": "art-source/v4/sheep_master_v4.blend",
       "kind": "blend_source",
       "camera_id": null,
       "shared_games": [
@@ -1409,39 +1409,41 @@
         "runner",
         "herd"
       ],
-      "source_id": "repaired_original_blender_20261027",
+      "source_id": "repaired_native_v4_20261027",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/BLENDER_MASTER_SOURCE_TASK.md",
-      "note": "Original mother source repaired non-destructively; direction sample review permitted production export; final game/device review remains separate",
-      "bytes": 11087302,
-      "sha256": "584a438a314099fd216d37d09dd523a4b44452f136fc479550e0457a1d1afa01",
-      "version": "2.0.0",
-      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated"
+      "note": "Existing native v2/v3 repaired into separately versioned v4, original sources retained",
+      "bytes": 14454447,
+      "sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "version": "4.0.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "source_path": "art-source/v4/sheep_master_v4.blend"
     },
     {
       "asset_id": "master.dog",
       "status": "rendered_candidate",
-      "path": "art-source/v2/dog_master_v2.blend",
-      "expected_future_path": "art-source/v2/dog_master_v2.blend",
+      "path": "art-source/v4/dog_master_v4.blend",
+      "expected_future_path": "art-source/v4/dog_master_v4.blend",
       "kind": "blend_source",
       "camera_id": null,
       "shared_games": [
         "herd"
       ],
-      "source_id": "repaired_original_blender_20261027",
+      "source_id": "repaired_native_v4_20261027",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/BLENDER_MASTER_SOURCE_TASK.md",
-      "note": "Original mother source repaired non-destructively; direction sample review permitted production export; final game/device review remains separate",
-      "bytes": 4763131,
-      "sha256": "11599aa7bd750d5c6a0f48b49e68244af437db550b9c223f6c1ef04c2b2787f4",
-      "version": "2.0.0",
-      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated"
+      "note": "Existing native v2/v3 repaired into separately versioned v4, original sources retained",
+      "bytes": 5430065,
+      "sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "version": "4.0.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "source_path": "art-source/v4/dog_master_v4.blend"
     },
     {
       "asset_id": "master.farm",
       "status": "rendered_candidate",
-      "path": "art-source/v2/farm_master_v2.blend",
-      "expected_future_path": "art-source/v2/farm_master_v2.blend",
+      "path": "art-source/v4/farm_master_v4.blend",
+      "expected_future_path": "art-source/v4/farm_master_v4.blend",
       "kind": "blend_source",
       "camera_id": null,
       "shared_games": [
@@ -1449,39 +1451,40 @@
         "runner",
         "herd"
       ],
-      "source_id": "repaired_original_blender_20261027",
+      "source_id": "repaired_native_v4_20261027",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/BLENDER_MASTER_SOURCE_TASK.md",
-      "note": "Original mother source repaired non-destructively; direction sample review permitted production export; final game/device review remains separate",
-      "bytes": 5664198,
-      "sha256": "fac58d96901764596905690c39939b8c1bdedd04d061973a144bdd8a6b65b3e8",
-      "version": "2.0.0",
-      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated"
+      "note": "Existing native v2/v3 repaired into separately versioned v4, original sources retained",
+      "bytes": 6613631,
+      "sha256": "fddbe3f193cc136f151b178c940ce6025b01a84b6bea387c0c76c5e7627c3c93",
+      "version": "4.0.0",
+      "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
+      "source_path": "art-source/v4/farm_master_v4.blend"
     },
     {
       "asset_id": "character.sheep.side",
       "status": "rendered_candidate",
-      "path": "apps/web/public/assets/characters/sheep_side_v2.png",
-      "expected_future_path": "assets/characters/sheep_side_v2.png",
+      "path": "apps/web/public/assets/characters/sheep_side_v4.png",
+      "expected_future_path": "assets/characters/sheep_side_v4.png",
       "kind": "atlas_image",
       "camera_id": "side_v1",
       "shared_games": [
         "stack",
         "runner"
       ],
-      "source_id": "repaired_original_blender_20261027",
+      "source_id": "repaired_native_v4_20261027",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
-      "note": "Repaired original source; technical atlas checks passed; final game visual/device acceptance tracked separately",
-      "bytes": 426456,
-      "sha256": "d4aa52f7886ba56d37f2b8a1e8c3f71e118d55f0206970d457e357cd90211df1",
-      "version": "2.0.0",
+      "note": "Native v4 rendered candidate; technical validation separate from human visual acceptance",
+      "bytes": 513702,
+      "sha256": "471fdb76dff1e962a095c4aa7725649c84d49828f0b554dccc0d89994661a936",
+      "version": "4.0.0",
       "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
       "canvas_px": [
         1024,
-        1024
+        1280
       ],
-      "frame_count": 38,
+      "frame_count": 57,
       "pivot_px": [
         64,
         112
@@ -1572,57 +1575,233 @@
           ],
           "fps": 12,
           "loop": true
+        },
+        "stack_idle.e": {
+          "frames": [
+            "sheep_side__stack_idle__e__f000",
+            "sheep_side__stack_idle__e__f001",
+            "sheep_side__stack_idle__e__f002",
+            "sheep_side__stack_idle__e__f003",
+            "sheep_side__stack_idle__e__f004",
+            "sheep_side__stack_idle__e__f005"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "stack_air.e": {
+          "frames": [
+            "sheep_side__stack_air__e__f000",
+            "sheep_side__stack_air__e__f001"
+          ],
+          "fps": 6,
+          "loop": true
+        },
+        "stack_steady.e": {
+          "frames": [
+            "sheep_side__stack_steady__e__f000",
+            "sheep_side__stack_steady__e__f001",
+            "sheep_side__stack_steady__e__f002"
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "stack_celebrate.e": {
+          "frames": [
+            "sheep_side__stack_celebrate__e__f000",
+            "sheep_side__stack_celebrate__e__f001",
+            "sheep_side__stack_celebrate__e__f002",
+            "sheep_side__stack_celebrate__e__f003",
+            "sheep_side__stack_celebrate__e__f004",
+            "sheep_side__stack_celebrate__e__f005",
+            "sheep_side__stack_celebrate__e__f006",
+            "sheep_side__stack_celebrate__e__f007"
+          ],
+          "fps": 12,
+          "loop": true
         }
       },
-      "runtime_path": "/assets/characters/sheep_side_v2.png"
+      "runtime_path": "/assets/characters/sheep_side_v4.png",
+      "source_path": "art-source/v4/sheep_master_v4.blend"
     },
     {
       "asset_id": "character.sheep.side.metadata",
       "status": "rendered_candidate",
-      "path": "apps/web/public/assets/characters/sheep_side_v2.atlas.json",
-      "expected_future_path": "assets/characters/sheep_side_v2.atlas.json",
+      "path": "apps/web/public/assets/characters/sheep_side_v4.atlas.json",
+      "expected_future_path": "assets/characters/sheep_side_v4.atlas.json",
       "kind": "atlas_metadata",
       "camera_id": "side_v1",
       "shared_games": [
         "stack",
         "runner"
       ],
-      "source_id": "repaired_original_blender_20261027",
+      "source_id": "repaired_native_v4_20261027",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
-      "note": "Repaired original source; technical atlas checks passed; final game visual/device acceptance tracked separately",
-      "bytes": 18338,
-      "sha256": "6a7fb0ec41879b732425cac263bf2b776dc85b3000e44fbb7c706ac599255df8",
-      "version": "2.0.0",
+      "note": "Native v4 rendered candidate; technical validation separate from human visual acceptance",
+      "bytes": 27520,
+      "sha256": "bc2e925c9c285ff29e4aadf325fc91ba01cd095a10432800bec240af0d05de44",
+      "version": "4.0.0",
       "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
       "canvas_px": [
         1024,
-        1024
+        1280
       ],
-      "frame_count": 38,
+      "frame_count": 57,
       "pivot_px": [
         64,
         112
       ],
-      "runtime_path": "/assets/characters/sheep_side_v2.atlas.json"
+      "runtime_path": "/assets/characters/sheep_side_v4.atlas.json",
+      "source_path": "art-source/v4/sheep_master_v4.blend",
+      "animations": {
+        "idle.e": {
+          "frames": [
+            "sheep_side__idle__e__f000",
+            "sheep_side__idle__e__f001",
+            "sheep_side__idle__e__f002",
+            "sheep_side__idle__e__f003",
+            "sheep_side__idle__e__f004",
+            "sheep_side__idle__e__f005"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "run.e": {
+          "frames": [
+            "sheep_side__run__e__f000",
+            "sheep_side__run__e__f001",
+            "sheep_side__run__e__f002",
+            "sheep_side__run__e__f003",
+            "sheep_side__run__e__f004",
+            "sheep_side__run__e__f005",
+            "sheep_side__run__e__f006",
+            "sheep_side__run__e__f007"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "takeoff.e": {
+          "frames": [
+            "sheep_side__takeoff__e__f000",
+            "sheep_side__takeoff__e__f001",
+            "sheep_side__takeoff__e__f002"
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "air.e": {
+          "frames": [
+            "sheep_side__air__e__f000",
+            "sheep_side__air__e__f001"
+          ],
+          "fps": 6,
+          "loop": true
+        },
+        "land.e": {
+          "frames": [
+            "sheep_side__land__e__f000",
+            "sheep_side__land__e__f001",
+            "sheep_side__land__e__f002",
+            "sheep_side__land__e__f003"
+          ],
+          "fps": 20,
+          "loop": false
+        },
+        "steady.e": {
+          "frames": [
+            "sheep_side__steady__e__f000",
+            "sheep_side__steady__e__f001",
+            "sheep_side__steady__e__f002"
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "bump.e": {
+          "frames": [
+            "sheep_side__bump__e__f000",
+            "sheep_side__bump__e__f001",
+            "sheep_side__bump__e__f002",
+            "sheep_side__bump__e__f003"
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "celebrate.e": {
+          "frames": [
+            "sheep_side__celebrate__e__f000",
+            "sheep_side__celebrate__e__f001",
+            "sheep_side__celebrate__e__f002",
+            "sheep_side__celebrate__e__f003",
+            "sheep_side__celebrate__e__f004",
+            "sheep_side__celebrate__e__f005",
+            "sheep_side__celebrate__e__f006",
+            "sheep_side__celebrate__e__f007"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "stack_idle.e": {
+          "frames": [
+            "sheep_side__stack_idle__e__f000",
+            "sheep_side__stack_idle__e__f001",
+            "sheep_side__stack_idle__e__f002",
+            "sheep_side__stack_idle__e__f003",
+            "sheep_side__stack_idle__e__f004",
+            "sheep_side__stack_idle__e__f005"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "stack_air.e": {
+          "frames": [
+            "sheep_side__stack_air__e__f000",
+            "sheep_side__stack_air__e__f001"
+          ],
+          "fps": 6,
+          "loop": true
+        },
+        "stack_steady.e": {
+          "frames": [
+            "sheep_side__stack_steady__e__f000",
+            "sheep_side__stack_steady__e__f001",
+            "sheep_side__stack_steady__e__f002"
+          ],
+          "fps": 15,
+          "loop": false
+        },
+        "stack_celebrate.e": {
+          "frames": [
+            "sheep_side__stack_celebrate__e__f000",
+            "sheep_side__stack_celebrate__e__f001",
+            "sheep_side__stack_celebrate__e__f002",
+            "sheep_side__stack_celebrate__e__f003",
+            "sheep_side__stack_celebrate__e__f004",
+            "sheep_side__stack_celebrate__e__f005",
+            "sheep_side__stack_celebrate__e__f006",
+            "sheep_side__stack_celebrate__e__f007"
+          ],
+          "fps": 12,
+          "loop": true
+        }
+      }
     },
     {
       "asset_id": "character.sheep.iso8",
       "status": "rendered_candidate",
-      "path": "apps/web/public/assets/characters/sheep_iso8_v2.png",
-      "expected_future_path": "assets/characters/sheep_iso8_v2.png",
+      "path": "apps/web/public/assets/characters/sheep_iso8_v4.png",
+      "expected_future_path": "assets/characters/sheep_iso8_v4.png",
       "kind": "atlas_image",
       "camera_id": "iso8_v1",
       "shared_games": [
         "herd"
       ],
-      "source_id": "repaired_original_blender_20261027",
+      "source_id": "repaired_native_v4_20261027",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
-      "note": "Repaired original source; technical atlas checks passed; final game visual/device acceptance tracked separately",
-      "bytes": 834727,
-      "sha256": "31473ce0025af7cbd4d278928a8b745111dc76bd3b5b1efd8fbf5b0e40792568",
-      "version": "2.0.0",
+      "note": "Native v4 rendered candidate; technical validation separate from human visual acceptance",
+      "bytes": 765070,
+      "sha256": "d95a076b4ecda1cef07ab0df0bd809ae972e5e32157f64f39dd29c004913cb3b",
+      "version": "4.0.0",
       "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
       "canvas_px": [
         2048,
@@ -1883,25 +2062,26 @@
           "loop": false
         }
       },
-      "runtime_path": "/assets/characters/sheep_iso8_v2.png"
+      "runtime_path": "/assets/characters/sheep_iso8_v4.png",
+      "source_path": "art-source/v4/sheep_master_v4.blend"
     },
     {
       "asset_id": "character.sheep.iso8.metadata",
       "status": "rendered_candidate",
-      "path": "apps/web/public/assets/characters/sheep_iso8_v2.atlas.json",
-      "expected_future_path": "assets/characters/sheep_iso8_v2.atlas.json",
+      "path": "apps/web/public/assets/characters/sheep_iso8_v4.atlas.json",
+      "expected_future_path": "assets/characters/sheep_iso8_v4.atlas.json",
       "kind": "atlas_metadata",
       "camera_id": "iso8_v1",
       "shared_games": [
         "herd"
       ],
-      "source_id": "repaired_original_blender_20261027",
+      "source_id": "repaired_native_v4_20261027",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
-      "note": "Repaired original source; technical atlas checks passed; final game visual/device acceptance tracked separately",
-      "bytes": 49228,
-      "sha256": "0559f8feed1d1a31681d1154c31603fe34df9e288141ca0a29d04394da7496a4",
-      "version": "2.0.0",
+      "note": "Native v4 rendered candidate; technical validation separate from human visual acceptance",
+      "bytes": 49232,
+      "sha256": "b9477d7628306b6942231df257224779c3e4904b63af8a6571f1ba6eea855e08",
+      "version": "4.0.0",
       "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
       "canvas_px": [
         2048,
@@ -1912,25 +2092,276 @@
         64,
         98
       ],
-      "runtime_path": "/assets/characters/sheep_iso8_v2.atlas.json"
+      "runtime_path": "/assets/characters/sheep_iso8_v4.atlas.json",
+      "source_path": "art-source/v4/sheep_master_v4.blend",
+      "animations": {
+        "idle.e": {
+          "frames": [
+            "sheep_iso8__idle__e__f000",
+            "sheep_iso8__idle__e__f001",
+            "sheep_iso8__idle__e__f002",
+            "sheep_iso8__idle__e__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.se": {
+          "frames": [
+            "sheep_iso8__idle__se__f000",
+            "sheep_iso8__idle__se__f001",
+            "sheep_iso8__idle__se__f002",
+            "sheep_iso8__idle__se__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.s": {
+          "frames": [
+            "sheep_iso8__idle__s__f000",
+            "sheep_iso8__idle__s__f001",
+            "sheep_iso8__idle__s__f002",
+            "sheep_iso8__idle__s__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.sw": {
+          "frames": [
+            "sheep_iso8__idle__sw__f000",
+            "sheep_iso8__idle__sw__f001",
+            "sheep_iso8__idle__sw__f002",
+            "sheep_iso8__idle__sw__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.w": {
+          "frames": [
+            "sheep_iso8__idle__w__f000",
+            "sheep_iso8__idle__w__f001",
+            "sheep_iso8__idle__w__f002",
+            "sheep_iso8__idle__w__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.nw": {
+          "frames": [
+            "sheep_iso8__idle__nw__f000",
+            "sheep_iso8__idle__nw__f001",
+            "sheep_iso8__idle__nw__f002",
+            "sheep_iso8__idle__nw__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.n": {
+          "frames": [
+            "sheep_iso8__idle__n__f000",
+            "sheep_iso8__idle__n__f001",
+            "sheep_iso8__idle__n__f002",
+            "sheep_iso8__idle__n__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.ne": {
+          "frames": [
+            "sheep_iso8__idle__ne__f000",
+            "sheep_iso8__idle__ne__f001",
+            "sheep_iso8__idle__ne__f002",
+            "sheep_iso8__idle__ne__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "walk.e": {
+          "frames": [
+            "sheep_iso8__walk__e__f000",
+            "sheep_iso8__walk__e__f001",
+            "sheep_iso8__walk__e__f002",
+            "sheep_iso8__walk__e__f003",
+            "sheep_iso8__walk__e__f004",
+            "sheep_iso8__walk__e__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.se": {
+          "frames": [
+            "sheep_iso8__walk__se__f000",
+            "sheep_iso8__walk__se__f001",
+            "sheep_iso8__walk__se__f002",
+            "sheep_iso8__walk__se__f003",
+            "sheep_iso8__walk__se__f004",
+            "sheep_iso8__walk__se__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.s": {
+          "frames": [
+            "sheep_iso8__walk__s__f000",
+            "sheep_iso8__walk__s__f001",
+            "sheep_iso8__walk__s__f002",
+            "sheep_iso8__walk__s__f003",
+            "sheep_iso8__walk__s__f004",
+            "sheep_iso8__walk__s__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.sw": {
+          "frames": [
+            "sheep_iso8__walk__sw__f000",
+            "sheep_iso8__walk__sw__f001",
+            "sheep_iso8__walk__sw__f002",
+            "sheep_iso8__walk__sw__f003",
+            "sheep_iso8__walk__sw__f004",
+            "sheep_iso8__walk__sw__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.w": {
+          "frames": [
+            "sheep_iso8__walk__w__f000",
+            "sheep_iso8__walk__w__f001",
+            "sheep_iso8__walk__w__f002",
+            "sheep_iso8__walk__w__f003",
+            "sheep_iso8__walk__w__f004",
+            "sheep_iso8__walk__w__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.nw": {
+          "frames": [
+            "sheep_iso8__walk__nw__f000",
+            "sheep_iso8__walk__nw__f001",
+            "sheep_iso8__walk__nw__f002",
+            "sheep_iso8__walk__nw__f003",
+            "sheep_iso8__walk__nw__f004",
+            "sheep_iso8__walk__nw__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.n": {
+          "frames": [
+            "sheep_iso8__walk__n__f000",
+            "sheep_iso8__walk__n__f001",
+            "sheep_iso8__walk__n__f002",
+            "sheep_iso8__walk__n__f003",
+            "sheep_iso8__walk__n__f004",
+            "sheep_iso8__walk__n__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.ne": {
+          "frames": [
+            "sheep_iso8__walk__ne__f000",
+            "sheep_iso8__walk__ne__f001",
+            "sheep_iso8__walk__ne__f002",
+            "sheep_iso8__walk__ne__f003",
+            "sheep_iso8__walk__ne__f004",
+            "sheep_iso8__walk__ne__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "enter.e": {
+          "frames": [
+            "sheep_iso8__enter__e__f000",
+            "sheep_iso8__enter__e__f001",
+            "sheep_iso8__enter__e__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "enter.se": {
+          "frames": [
+            "sheep_iso8__enter__se__f000",
+            "sheep_iso8__enter__se__f001",
+            "sheep_iso8__enter__se__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "enter.s": {
+          "frames": [
+            "sheep_iso8__enter__s__f000",
+            "sheep_iso8__enter__s__f001",
+            "sheep_iso8__enter__s__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "enter.sw": {
+          "frames": [
+            "sheep_iso8__enter__sw__f000",
+            "sheep_iso8__enter__sw__f001",
+            "sheep_iso8__enter__sw__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "enter.w": {
+          "frames": [
+            "sheep_iso8__enter__w__f000",
+            "sheep_iso8__enter__w__f001",
+            "sheep_iso8__enter__w__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "enter.nw": {
+          "frames": [
+            "sheep_iso8__enter__nw__f000",
+            "sheep_iso8__enter__nw__f001",
+            "sheep_iso8__enter__nw__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "enter.n": {
+          "frames": [
+            "sheep_iso8__enter__n__f000",
+            "sheep_iso8__enter__n__f001",
+            "sheep_iso8__enter__n__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "enter.ne": {
+          "frames": [
+            "sheep_iso8__enter__ne__f000",
+            "sheep_iso8__enter__ne__f001",
+            "sheep_iso8__enter__ne__f002"
+          ],
+          "fps": 12,
+          "loop": false
+        }
+      }
     },
     {
       "asset_id": "character.dog.iso8",
       "status": "rendered_candidate",
-      "path": "apps/web/public/assets/characters/dog_iso8_v2.png",
-      "expected_future_path": "assets/characters/dog_iso8_v2.png",
+      "path": "apps/web/public/assets/characters/dog_iso8_v4.png",
+      "expected_future_path": "assets/characters/dog_iso8_v4.png",
       "kind": "atlas_image",
       "camera_id": "iso8_v1",
       "shared_games": [
         "herd"
       ],
-      "source_id": "repaired_original_blender_20261027",
+      "source_id": "repaired_native_v4_20261027",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
-      "note": "Repaired original source; technical atlas checks passed; final game visual/device acceptance tracked separately",
-      "bytes": 638999,
-      "sha256": "62baf9d0029ebca7bfe5fe90fcae2aa26a0c499fac553365a9d49255ea0396d0",
-      "version": "2.0.0",
+      "note": "Native v4 rendered candidate; technical validation separate from human visual acceptance",
+      "bytes": 628236,
+      "sha256": "e10f8275bf0cbc6d7f15374d255a6422bab7f71748b055066e6b8ccdb3f3c242",
+      "version": "4.0.0",
       "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
       "canvas_px": [
         2048,
@@ -2199,25 +2630,26 @@
           "loop": false
         }
       },
-      "runtime_path": "/assets/characters/dog_iso8_v2.png"
+      "runtime_path": "/assets/characters/dog_iso8_v4.png",
+      "source_path": "art-source/v4/dog_master_v4.blend"
     },
     {
       "asset_id": "character.dog.iso8.metadata",
       "status": "rendered_candidate",
-      "path": "apps/web/public/assets/characters/dog_iso8_v2.atlas.json",
-      "expected_future_path": "assets/characters/dog_iso8_v2.atlas.json",
+      "path": "apps/web/public/assets/characters/dog_iso8_v4.atlas.json",
+      "expected_future_path": "assets/characters/dog_iso8_v4.atlas.json",
       "kind": "atlas_metadata",
       "camera_id": "iso8_v1",
       "shared_games": [
         "herd"
       ],
-      "source_id": "repaired_original_blender_20261027",
+      "source_id": "repaired_native_v4_20261027",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
-      "note": "Repaired original source; technical atlas checks passed; final game visual/device acceptance tracked separately",
-      "bytes": 52287,
-      "sha256": "dac32ba9606d774b07e74b7cfd5062274c76c4579aab1125e1be3acec4ee93f5",
-      "version": "2.0.0",
+      "note": "Native v4 rendered candidate; technical validation separate from human visual acceptance",
+      "bytes": 52289,
+      "sha256": "9fa371c22bc1694f12115595689188f8a39488287a2ec0716f3c5240ec335e82",
+      "version": "4.0.0",
       "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
       "canvas_px": [
         2048,
@@ -2228,68 +2660,330 @@
         64,
         98
       ],
-      "runtime_path": "/assets/characters/dog_iso8_v2.atlas.json"
+      "runtime_path": "/assets/characters/dog_iso8_v4.atlas.json",
+      "source_path": "art-source/v4/dog_master_v4.blend",
+      "animations": {
+        "idle.e": {
+          "frames": [
+            "dog_iso8__idle__e__f000",
+            "dog_iso8__idle__e__f001",
+            "dog_iso8__idle__e__f002",
+            "dog_iso8__idle__e__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.se": {
+          "frames": [
+            "dog_iso8__idle__se__f000",
+            "dog_iso8__idle__se__f001",
+            "dog_iso8__idle__se__f002",
+            "dog_iso8__idle__se__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.s": {
+          "frames": [
+            "dog_iso8__idle__s__f000",
+            "dog_iso8__idle__s__f001",
+            "dog_iso8__idle__s__f002",
+            "dog_iso8__idle__s__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.sw": {
+          "frames": [
+            "dog_iso8__idle__sw__f000",
+            "dog_iso8__idle__sw__f001",
+            "dog_iso8__idle__sw__f002",
+            "dog_iso8__idle__sw__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.w": {
+          "frames": [
+            "dog_iso8__idle__w__f000",
+            "dog_iso8__idle__w__f001",
+            "dog_iso8__idle__w__f002",
+            "dog_iso8__idle__w__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.nw": {
+          "frames": [
+            "dog_iso8__idle__nw__f000",
+            "dog_iso8__idle__nw__f001",
+            "dog_iso8__idle__nw__f002",
+            "dog_iso8__idle__nw__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.n": {
+          "frames": [
+            "dog_iso8__idle__n__f000",
+            "dog_iso8__idle__n__f001",
+            "dog_iso8__idle__n__f002",
+            "dog_iso8__idle__n__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "idle.ne": {
+          "frames": [
+            "dog_iso8__idle__ne__f000",
+            "dog_iso8__idle__ne__f001",
+            "dog_iso8__idle__ne__f002",
+            "dog_iso8__idle__ne__f003"
+          ],
+          "fps": 8,
+          "loop": true
+        },
+        "walk.e": {
+          "frames": [
+            "dog_iso8__walk__e__f000",
+            "dog_iso8__walk__e__f001",
+            "dog_iso8__walk__e__f002",
+            "dog_iso8__walk__e__f003",
+            "dog_iso8__walk__e__f004",
+            "dog_iso8__walk__e__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.se": {
+          "frames": [
+            "dog_iso8__walk__se__f000",
+            "dog_iso8__walk__se__f001",
+            "dog_iso8__walk__se__f002",
+            "dog_iso8__walk__se__f003",
+            "dog_iso8__walk__se__f004",
+            "dog_iso8__walk__se__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.s": {
+          "frames": [
+            "dog_iso8__walk__s__f000",
+            "dog_iso8__walk__s__f001",
+            "dog_iso8__walk__s__f002",
+            "dog_iso8__walk__s__f003",
+            "dog_iso8__walk__s__f004",
+            "dog_iso8__walk__s__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.sw": {
+          "frames": [
+            "dog_iso8__walk__sw__f000",
+            "dog_iso8__walk__sw__f001",
+            "dog_iso8__walk__sw__f002",
+            "dog_iso8__walk__sw__f003",
+            "dog_iso8__walk__sw__f004",
+            "dog_iso8__walk__sw__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.w": {
+          "frames": [
+            "dog_iso8__walk__w__f000",
+            "dog_iso8__walk__w__f001",
+            "dog_iso8__walk__w__f002",
+            "dog_iso8__walk__w__f003",
+            "dog_iso8__walk__w__f004",
+            "dog_iso8__walk__w__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.nw": {
+          "frames": [
+            "dog_iso8__walk__nw__f000",
+            "dog_iso8__walk__nw__f001",
+            "dog_iso8__walk__nw__f002",
+            "dog_iso8__walk__nw__f003",
+            "dog_iso8__walk__nw__f004",
+            "dog_iso8__walk__nw__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.n": {
+          "frames": [
+            "dog_iso8__walk__n__f000",
+            "dog_iso8__walk__n__f001",
+            "dog_iso8__walk__n__f002",
+            "dog_iso8__walk__n__f003",
+            "dog_iso8__walk__n__f004",
+            "dog_iso8__walk__n__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "walk.ne": {
+          "frames": [
+            "dog_iso8__walk__ne__f000",
+            "dog_iso8__walk__ne__f001",
+            "dog_iso8__walk__ne__f002",
+            "dog_iso8__walk__ne__f003",
+            "dog_iso8__walk__ne__f004",
+            "dog_iso8__walk__ne__f005"
+          ],
+          "fps": 12,
+          "loop": true
+        },
+        "bark.e": {
+          "frames": [
+            "dog_iso8__bark__e__f000",
+            "dog_iso8__bark__e__f001",
+            "dog_iso8__bark__e__f002",
+            "dog_iso8__bark__e__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "bark.se": {
+          "frames": [
+            "dog_iso8__bark__se__f000",
+            "dog_iso8__bark__se__f001",
+            "dog_iso8__bark__se__f002",
+            "dog_iso8__bark__se__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "bark.s": {
+          "frames": [
+            "dog_iso8__bark__s__f000",
+            "dog_iso8__bark__s__f001",
+            "dog_iso8__bark__s__f002",
+            "dog_iso8__bark__s__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "bark.sw": {
+          "frames": [
+            "dog_iso8__bark__sw__f000",
+            "dog_iso8__bark__sw__f001",
+            "dog_iso8__bark__sw__f002",
+            "dog_iso8__bark__sw__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "bark.w": {
+          "frames": [
+            "dog_iso8__bark__w__f000",
+            "dog_iso8__bark__w__f001",
+            "dog_iso8__bark__w__f002",
+            "dog_iso8__bark__w__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "bark.nw": {
+          "frames": [
+            "dog_iso8__bark__nw__f000",
+            "dog_iso8__bark__nw__f001",
+            "dog_iso8__bark__nw__f002",
+            "dog_iso8__bark__nw__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "bark.n": {
+          "frames": [
+            "dog_iso8__bark__n__f000",
+            "dog_iso8__bark__n__f001",
+            "dog_iso8__bark__n__f002",
+            "dog_iso8__bark__n__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        },
+        "bark.ne": {
+          "frames": [
+            "dog_iso8__bark__ne__f000",
+            "dog_iso8__bark__ne__f001",
+            "dog_iso8__bark__ne__f002",
+            "dog_iso8__bark__ne__f003"
+          ],
+          "fps": 12,
+          "loop": false
+        }
+      }
     },
     {
       "asset_id": "environment.side",
       "status": "rendered_candidate",
-      "path": "apps/web/public/assets/environment/farm_side_v2.png",
-      "expected_future_path": "assets/environment/farm_side_v2.png",
+      "path": "apps/web/public/assets/environment/farm_side_v4.png",
+      "expected_future_path": "assets/environment/farm_side_v4.png",
       "kind": "atlas_image",
       "camera_id": "side_v1",
       "shared_games": [
         "stack",
         "runner"
       ],
-      "source_id": "repaired_original_blender_20261027",
+      "source_id": "repaired_native_v4_20261027",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
-      "note": "Repaired original source; technical atlas checks passed; final game visual/device acceptance tracked separately",
-      "bytes": 61716,
-      "sha256": "db95fa16c9bc7a2d11f224a27d919554af2d3ffa71ec99ca78009e26315f0d13",
-      "version": "2.0.0",
+      "note": "Native v4 rendered candidate; technical validation separate from human visual acceptance",
+      "bytes": 162108,
+      "sha256": "8050325f15eda07f946fa311679ad908642e11f430ebbd7bbc28e6d54a9ecc49",
+      "version": "4.0.0",
       "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
       "canvas_px": [
         1024,
         1024
       ],
-      "frame_count": 14,
+      "frame_count": 20,
       "pivot_px": [
         64,
         112
       ],
       "animations": {},
-      "runtime_path": "/assets/environment/farm_side_v2.png"
+      "runtime_path": "/assets/environment/farm_side_v4.png",
+      "source_path": "art-source/v4/farm_master_v4.blend"
     },
     {
       "asset_id": "environment.side.metadata",
       "status": "rendered_candidate",
-      "path": "apps/web/public/assets/environment/farm_side_v2.atlas.json",
-      "expected_future_path": "assets/environment/farm_side_v2.atlas.json",
+      "path": "apps/web/public/assets/environment/farm_side_v4.atlas.json",
+      "expected_future_path": "assets/environment/farm_side_v4.atlas.json",
       "kind": "atlas_metadata",
       "camera_id": "side_v1",
       "shared_games": [
         "stack",
         "runner"
       ],
-      "source_id": "repaired_original_blender_20261027",
+      "source_id": "repaired_native_v4_20261027",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/ATLAS_CONTRACT.md",
-      "note": "Repaired original source; technical atlas checks passed; final game visual/device acceptance tracked separately",
-      "bytes": 6082,
-      "sha256": "6af8d9dbe72d09636a9d55f0c4f3089f7bd3b6c258bf6317297e8107d359861f",
-      "version": "2.0.0",
+      "note": "Native v4 rendered candidate; technical validation separate from human visual acceptance",
+      "bytes": 8651,
+      "sha256": "672bc5f13f8f216ec6e9c8ece4e1418b471a6cfdf2e378e119a9193061ba2acd",
+      "version": "4.0.0",
       "license_note": "Original project geometry/materials/animation and synthesis; Blender 4.5.9 GPL software is a tool, no third-party assets incorporated",
       "canvas_px": [
         1024,
         1024
       ],
-      "frame_count": 14,
+      "frame_count": 20,
       "pivot_px": [
         64,
         112
       ],
-      "runtime_path": "/assets/environment/farm_side_v2.atlas.json"
+      "runtime_path": "/assets/environment/farm_side_v4.atlas.json",
+      "source_path": "art-source/v4/farm_master_v4.blend",
+      "animations": {}
     },
     {
       "asset_id": "environment.iso",
@@ -2582,23 +3276,23 @@
     {
       "asset_id": "environment.backdrop.stack",
       "status": "rendered_candidate",
-      "path": "apps/web/public/assets/environment/backdrop_stack_v3.png",
-      "expected_future_path": "assets/environment/backdrop_stack_v3.png",
+      "path": "apps/web/public/assets/environment/backdrop_stack_v4.png",
+      "expected_future_path": "assets/environment/backdrop_stack_v4.png",
       "kind": "atlas_image",
-      "camera_id": "backdrop_stack_v3",
+      "camera_id": "backdrop_stack_v4",
       "shared_games": [
         "stack"
       ],
-      "source_id": "original_blender_scenery_20261027",
-      "source_path": "art-source/v3/backdrop_stack_v3.blend",
+      "source_id": "repaired_native_v4_20261027",
+      "source_path": "art-source/v4/backdrop_stack_v4.blend",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/VISUAL_REPAIR_V1_SOURCE.md",
-      "note": "Root opened 360px scenery preview and allowed production export; final integrated visual review remains separate",
-      "bytes": 651458,
-      "sha256": "8a0a8746437b74f392ebc234bc3c4f101fc1639696e4a254533c597d2dc14b33",
-      "version": "3.0.0",
+      "note": "Native v4 rendered candidate; technical validation separate from human visual acceptance",
+      "bytes": 659466,
+      "sha256": "8c76340eb055578e241ad7913a048d75fdd6fe436c35f5b9af6483974443d3aa",
+      "version": "4.0.0",
       "license_note": "Original project Blender geometry/materials; no external media incorporated",
-      "runtime_path": "/assets/environment/backdrop_stack_v3.png",
+      "runtime_path": "/assets/environment/backdrop_stack_v4.png",
       "canvas_px": [
         720,
         960
@@ -2617,23 +3311,23 @@
     {
       "asset_id": "environment.backdrop.stack.metadata",
       "status": "rendered_candidate",
-      "path": "apps/web/public/assets/environment/backdrop_stack_v3.atlas.json",
-      "expected_future_path": "assets/environment/backdrop_stack_v3.atlas.json",
+      "path": "apps/web/public/assets/environment/backdrop_stack_v4.atlas.json",
+      "expected_future_path": "assets/environment/backdrop_stack_v4.atlas.json",
       "kind": "atlas_metadata",
-      "camera_id": "backdrop_stack_v3",
+      "camera_id": "backdrop_stack_v4",
       "shared_games": [
         "stack"
       ],
-      "source_id": "original_blender_scenery_20261027",
-      "source_path": "art-source/v3/backdrop_stack_v3.blend",
+      "source_id": "repaired_native_v4_20261027",
+      "source_path": "art-source/v4/backdrop_stack_v4.blend",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/VISUAL_REPAIR_V1_SOURCE.md",
-      "note": "Root opened 360px scenery preview and allowed production export; final integrated visual review remains separate",
+      "note": "Native v4 rendered candidate; technical validation separate from human visual acceptance",
       "bytes": 1171,
-      "sha256": "dfb54a38a612653ace0753d5f40f47badc315aa1f02b433efa49ab6cb84307f5",
-      "version": "3.0.0",
+      "sha256": "ed198e13c4662d92a8a561fbf948f4c8a29b1bcad6ef362d666016828a8d32f5",
+      "version": "4.0.0",
       "license_note": "Original project Blender geometry/materials; no external media incorporated",
-      "runtime_path": "/assets/environment/backdrop_stack_v3.atlas.json",
+      "runtime_path": "/assets/environment/backdrop_stack_v4.atlas.json",
       "canvas_px": [
         720,
         960
@@ -2652,43 +3346,43 @@
     {
       "asset_id": "master.backdrop.stack",
       "status": "rendered_candidate",
-      "path": "art-source/v3/backdrop_stack_v3.blend",
-      "expected_future_path": "art-source/v3/backdrop_stack_v3.blend",
+      "path": "art-source/v4/backdrop_stack_v4.blend",
+      "expected_future_path": "art-source/v4/backdrop_stack_v4.blend",
       "kind": "blend_source",
-      "camera_id": "backdrop_stack_v3",
+      "camera_id": "backdrop_stack_v4",
       "shared_games": [
         "stack"
       ],
-      "source_id": "original_blender_scenery_20261027",
-      "source_path": "art-source/v3/backdrop_stack_v3.blend",
+      "source_id": "repaired_native_v4_20261027",
+      "source_path": "art-source/v4/backdrop_stack_v4.blend",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/VISUAL_REPAIR_V1_SOURCE.md",
-      "note": "Root opened 360px scenery preview and allowed production export; final integrated visual review remains separate",
-      "bytes": 23281276,
-      "sha256": "57bf194920dad0d93afc24a6d5f8382ceadc4290e6b8ce728603cd6c6bec1539",
-      "version": "3.0.0",
+      "note": "Existing native v2/v3 repaired into separately versioned v4, original sources retained",
+      "bytes": 35366330,
+      "sha256": "117713a1c68e6196f164c761f0826e0763bb9bf3bf9b1fae598f4ba9f8495ff7",
+      "version": "4.0.0",
       "license_note": "Original project Blender geometry/materials; no external media incorporated"
     },
     {
       "asset_id": "environment.backdrop.runner",
       "status": "rendered_candidate",
-      "path": "apps/web/public/assets/environment/backdrop_runner_v3.png",
-      "expected_future_path": "assets/environment/backdrop_runner_v3.png",
+      "path": "apps/web/public/assets/environment/backdrop_runner_v4.png",
+      "expected_future_path": "assets/environment/backdrop_runner_v4.png",
       "kind": "atlas_image",
-      "camera_id": "backdrop_runner_v3",
+      "camera_id": "backdrop_runner_v4",
       "shared_games": [
         "runner"
       ],
-      "source_id": "original_blender_scenery_20261027",
-      "source_path": "art-source/v3/backdrop_runner_v3.blend",
+      "source_id": "repaired_native_v4_20261027",
+      "source_path": "art-source/v4/backdrop_runner_v4.blend",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/VISUAL_REPAIR_V1_SOURCE.md",
-      "note": "Root opened 360px scenery preview and allowed production export; final integrated visual review remains separate",
-      "bytes": 332225,
-      "sha256": "38c630bb91cc6ab358df79115296971e83ee1b94ef3cde1c2812f44b2b6eb727",
-      "version": "3.0.0",
+      "note": "Native v4 rendered candidate; technical validation separate from human visual acceptance",
+      "bytes": 320643,
+      "sha256": "0b9bb3a31246d254c99c3a39ec50e360133ff7287b30d3b9ea00be1b99a2e64a",
+      "version": "4.0.0",
       "license_note": "Original project Blender geometry/materials; no external media incorporated",
-      "runtime_path": "/assets/environment/backdrop_runner_v3.png",
+      "runtime_path": "/assets/environment/backdrop_runner_v4.png",
       "canvas_px": [
         720,
         440
@@ -2707,23 +3401,23 @@
     {
       "asset_id": "environment.backdrop.runner.metadata",
       "status": "rendered_candidate",
-      "path": "apps/web/public/assets/environment/backdrop_runner_v3.atlas.json",
-      "expected_future_path": "assets/environment/backdrop_runner_v3.atlas.json",
+      "path": "apps/web/public/assets/environment/backdrop_runner_v4.atlas.json",
+      "expected_future_path": "assets/environment/backdrop_runner_v4.atlas.json",
       "kind": "atlas_metadata",
-      "camera_id": "backdrop_runner_v3",
+      "camera_id": "backdrop_runner_v4",
       "shared_games": [
         "runner"
       ],
-      "source_id": "original_blender_scenery_20261027",
-      "source_path": "art-source/v3/backdrop_runner_v3.blend",
+      "source_id": "repaired_native_v4_20261027",
+      "source_path": "art-source/v4/backdrop_runner_v4.blend",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/VISUAL_REPAIR_V1_SOURCE.md",
-      "note": "Root opened 360px scenery preview and allowed production export; final integrated visual review remains separate",
+      "note": "Native v4 rendered candidate; technical validation separate from human visual acceptance",
       "bytes": 1176,
-      "sha256": "f574957814dc5a2e62589859d1600cc14fe0963e46381379070fe65dc89fe6c5",
-      "version": "3.0.0",
+      "sha256": "1122a5352e45c1e60d0855c97fe5bf8e6a1c7fee72ed8f32bd82eb704f5d550e",
+      "version": "4.0.0",
       "license_note": "Original project Blender geometry/materials; no external media incorporated",
-      "runtime_path": "/assets/environment/backdrop_runner_v3.atlas.json",
+      "runtime_path": "/assets/environment/backdrop_runner_v4.atlas.json",
       "canvas_px": [
         720,
         440
@@ -2742,43 +3436,43 @@
     {
       "asset_id": "master.backdrop.runner",
       "status": "rendered_candidate",
-      "path": "art-source/v3/backdrop_runner_v3.blend",
-      "expected_future_path": "art-source/v3/backdrop_runner_v3.blend",
+      "path": "art-source/v4/backdrop_runner_v4.blend",
+      "expected_future_path": "art-source/v4/backdrop_runner_v4.blend",
       "kind": "blend_source",
-      "camera_id": "backdrop_runner_v3",
+      "camera_id": "backdrop_runner_v4",
       "shared_games": [
         "runner"
       ],
-      "source_id": "original_blender_scenery_20261027",
-      "source_path": "art-source/v3/backdrop_runner_v3.blend",
+      "source_id": "repaired_native_v4_20261027",
+      "source_path": "art-source/v4/backdrop_runner_v4.blend",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/VISUAL_REPAIR_V1_SOURCE.md",
-      "note": "Root opened 360px scenery preview and allowed production export; final integrated visual review remains separate",
-      "bytes": 22102879,
-      "sha256": "efdd472c0853b968c04b336285a007daa15841a9bd4c6f1f70c6182c625c5191",
-      "version": "3.0.0",
+      "note": "Existing native v2/v3 repaired into separately versioned v4, original sources retained",
+      "bytes": 30030853,
+      "sha256": "857160639dfb3145a74c822b06238eef0a865dbdbd035b85adf16678b3db7e8f",
+      "version": "4.0.0",
       "license_note": "Original project Blender geometry/materials; no external media incorporated"
     },
     {
       "asset_id": "environment.backdrop.herd",
       "status": "rendered_candidate",
-      "path": "apps/web/public/assets/environment/backdrop_herd_v3.png",
-      "expected_future_path": "assets/environment/backdrop_herd_v3.png",
+      "path": "apps/web/public/assets/environment/backdrop_herd_v4.png",
+      "expected_future_path": "assets/environment/backdrop_herd_v4.png",
       "kind": "atlas_image",
-      "camera_id": "backdrop_herd_v3",
+      "camera_id": "backdrop_herd_v4",
       "shared_games": [
         "herd"
       ],
-      "source_id": "original_blender_scenery_20261027",
-      "source_path": "art-source/v3/backdrop_herd_v3.blend",
+      "source_id": "repaired_native_v4_20261027",
+      "source_path": "art-source/v4/backdrop_herd_v4.blend",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/VISUAL_REPAIR_V1_SOURCE.md",
-      "note": "Root opened 360px scenery preview and allowed production export; final integrated visual review remains separate",
-      "bytes": 557231,
-      "sha256": "ddf5012f78b7be433bdaea1f702a680fcd67e62b82d6153964bc377eba479835",
-      "version": "3.0.0",
+      "note": "Native v4 rendered candidate; technical validation separate from human visual acceptance",
+      "bytes": 651849,
+      "sha256": "fc5f19e59edfb1aed4c45b00882c2c5d800b083be1e867f5dc3650fba29aa7ec",
+      "version": "4.0.0",
       "license_note": "Original project Blender geometry/materials; no external media incorporated",
-      "runtime_path": "/assets/environment/backdrop_herd_v3.png",
+      "runtime_path": "/assets/environment/backdrop_herd_v4.png",
       "canvas_px": [
         720,
         840
@@ -2797,23 +3491,23 @@
     {
       "asset_id": "environment.backdrop.herd.metadata",
       "status": "rendered_candidate",
-      "path": "apps/web/public/assets/environment/backdrop_herd_v3.atlas.json",
-      "expected_future_path": "assets/environment/backdrop_herd_v3.atlas.json",
+      "path": "apps/web/public/assets/environment/backdrop_herd_v4.atlas.json",
+      "expected_future_path": "assets/environment/backdrop_herd_v4.atlas.json",
       "kind": "atlas_metadata",
-      "camera_id": "backdrop_herd_v3",
+      "camera_id": "backdrop_herd_v4",
       "shared_games": [
         "herd"
       ],
-      "source_id": "original_blender_scenery_20261027",
-      "source_path": "art-source/v3/backdrop_herd_v3.blend",
+      "source_id": "repaired_native_v4_20261027",
+      "source_path": "art-source/v4/backdrop_herd_v4.blend",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/VISUAL_REPAIR_V1_SOURCE.md",
-      "note": "Root opened 360px scenery preview and allowed production export; final integrated visual review remains separate",
+      "note": "Native v4 rendered candidate; technical validation separate from human visual acceptance",
       "bytes": 1166,
-      "sha256": "f8e78cf78383fa2e062f2b1d0d56ef6dc62f800fbb7ee62dc22b41d6ed6e5d11",
-      "version": "3.0.0",
+      "sha256": "2d6c897f18207d74dae46a9275a676b0a03431c81bee517f6c4b1bb8631549b1",
+      "version": "4.0.0",
       "license_note": "Original project Blender geometry/materials; no external media incorporated",
-      "runtime_path": "/assets/environment/backdrop_herd_v3.atlas.json",
+      "runtime_path": "/assets/environment/backdrop_herd_v4.atlas.json",
       "canvas_px": [
         720,
         840
@@ -2832,30 +3526,30 @@
     {
       "asset_id": "master.backdrop.herd",
       "status": "rendered_candidate",
-      "path": "art-source/v3/backdrop_herd_v3.blend",
-      "expected_future_path": "art-source/v3/backdrop_herd_v3.blend",
+      "path": "art-source/v4/backdrop_herd_v4.blend",
+      "expected_future_path": "art-source/v4/backdrop_herd_v4.blend",
       "kind": "blend_source",
-      "camera_id": "backdrop_herd_v3",
+      "camera_id": "backdrop_herd_v4",
       "shared_games": [
         "herd"
       ],
-      "source_id": "original_blender_scenery_20261027",
-      "source_path": "art-source/v3/backdrop_herd_v3.blend",
+      "source_id": "repaired_native_v4_20261027",
+      "source_path": "art-source/v4/backdrop_herd_v4.blend",
       "production_art_accepted": false,
       "spec_ref": "design/asset_specs/VISUAL_REPAIR_V1_SOURCE.md",
-      "note": "Root opened 360px scenery preview and allowed production export; final integrated visual review remains separate",
-      "bytes": 24660194,
-      "sha256": "e35e0d7a065e6651a1f8bf3c7cde04781d53e24dfaaa4b1eb62e54c2323eafaa",
-      "version": "3.0.0",
+      "note": "Existing native v2/v3 repaired into separately versioned v4, original sources retained",
+      "bytes": 34616211,
+      "sha256": "d27e6f27a8e0cdea1ca68370d546574c5fa6a9483b83885b608a6344d60994aa",
+      "version": "4.0.0",
       "license_note": "Original project Blender geometry/materials; no external media incorporated"
     }
   ],
-  "runtime_budget_report": "art-source/v2/atlas-validation-v2.json",
+  "runtime_budget_report": "art-source/v4/atlas-validation-v4.json",
   "ui_state_manifest": "design/ui_kit/button-states.json",
   "runtime_ui_state_manifest": "/assets/ui/button-states.json",
   "historical_manifest": {
-    "sha256": "c94d522416e41bc9eddf937563bda44bf28d4e217c956bbb030980eba3ff35b7",
-    "runtime_path": "/assets/releases/c94d522416e41bc9eddf937563bda44bf28d4e217c956bbb030980eba3ff35b7/asset-manifest.v1.json",
+    "sha256": "bdf93f4c26c9ed6e108f5af5a718edd7997a86936da85404485a68e1eeb8d234",
+    "runtime_path": "/assets/releases/bdf93f4c26c9ed6e108f5af5a718edd7997a86936da85404485a68e1eeb8d234/asset-manifest.v1.json",
     "immutable": true
   },
   "required_atlases_by_game": {
@@ -2878,5 +3572,6 @@
       "effects.shared",
       "environment.backdrop.herd"
     ]
-  }
+  },
+  "production_art_accepted": false
 }

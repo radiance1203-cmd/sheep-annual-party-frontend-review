@@ -1,0 +1,15 @@
+{
+  "environment": "real App + API transport, all API intercepted as isolated fixture, invalid A/B tokens only; no actual business POST",
+  "results": [
+    {
+      "id": "accepted-csrf-and-401",
+      "pass": true,
+      "csrfProbe": ""
+    },
+    {
+      "id": "accepted-csrf-and-503",
+      "pass": true,
+      "csrfProbe": "BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB"
+    }
+  ]
+}

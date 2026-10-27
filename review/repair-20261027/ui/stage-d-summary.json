@@ -1,0 +1,21 @@
+{
+  "stage": "D-F17",
+  "product_files": ["apps/web/src/pages/ParticipantPages.tsx", "apps/web/src/repair-state/result-presentation.ts"],
+  "test_files": ["apps/web/tests/repair-state/stage-d.mts", "apps/web/tests/repair-state/result-presentation.test.ts"],
+  "red": "d-red/results.json: original 11 targets, 9 expected failures / 2 existing pending passes before F17 changes",
+  "green": "d-green/results.json: original 11 targets passed, plus unknown-session-state target for 12 total",
+  "unit": "node node_modules/vitest/vitest.mjs run apps/web/tests/repair-state: 3 files / 26 tests passed",
+  "typecheck": "npm run typecheck passed",
+  "behavior": [
+    "Display each game's verified conclusion.stats as short participant-readable counters without calculating score",
+    "Translate the four defined eligibility reasons; show neutral fallback and inspectable server record for unknown reason or session state",
+    "Only report current success for current binding, eligible verified settlement and matching verified game conclusion",
+    "Historical replacement and VOIDED keep original award visibly separate from current contribution and spendable balance",
+    "Pending/review/zero/void branches do not show a new participation award",
+    "Results own identity read failure has retry and suppresses stale honor/wallet/remaining-slot values"
+  ],
+  "visual_inspection": ["d-green/F17-stack-statistics.png", "d-green/F17-historical-replaced.png", "d-green/F17-independent-identity-503.png"],
+  "preserved": ["game-core", "score algorithms", "contracts", "App/ui/GamePage/CSS during stage D", "art1.4 assets and current C screenshots"],
+  "environment": "Real Results/component rendering in isolated Chromium; schema-checked fixture data except explicitly forward-unknown malformed transport cases. No actual business POST, PostgreSQL result, phone or human evidence.",
+  "onsite_gates": "unchanged"
+}

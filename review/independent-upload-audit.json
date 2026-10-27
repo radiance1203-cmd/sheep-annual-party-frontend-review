@@ -1,0 +1,98 @@
+{
+  "task": "UPLOAD-AUDIT",
+  "candidate_count": 1574,
+  "candidate_bytes": 161618275,
+  "forbidden_paths": [],
+  "source_snapshot_export_mismatches": [],
+  "source_snapshot_source_mismatches": [],
+  "runtime_missing": [],
+  "runtime_hash_mismatches": [],
+  "missing_main_links": [],
+  "tests": "NOT_RUN by audit agent; root running separate snapshot verification",
+  "receipt_initially_stale": "Resolved: root replaced the old receipt; fresh receipt inspected at final audit",
+  "verified_at": "2026-10-27T10:55:31.000201+00:00",
+  "checks": {
+    "snapshot_export_integrity": {
+      "status": "PASS",
+      "original_records": 1559,
+      "unexpected_mismatch": 0
+    },
+    "selected_repair_evidence": {
+      "status": "PASS",
+      "files": 763,
+      "bytes": 94113443,
+      "extra_source_mapped_helpers": 2,
+      "omissions_indexed": 1091
+    },
+    "runtime_assets": {
+      "status": "PASS",
+      "current_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+      "current_runtime_paths": 53,
+      "historic_releases": 3,
+      "historic_asset_sha_mismatches": 0
+    },
+    "main_entry_links": {
+      "status": "PASS",
+      "documents_checked": 6,
+      "missing": 0
+    },
+    "png_format": {
+      "status": "PASS",
+      "verified": 457,
+      "corrupt": 0
+    },
+    "private_candidate_files": {
+      "status": "PASS",
+      "forbidden_paths": 0,
+      "high_confidence_secret_patterns": 0
+    },
+    "fixture_secret_review": {
+      "status": "PASS",
+      "pattern_hits": 477,
+      "opaque_secret_hits": 476,
+      "opaque_value_is_single_character_repeated_43": true,
+      "source_provenance": "apps/web/tests/page-states.mts; fixture controller secret, invalid for real sessions",
+      "remaining_one_hit": "fixture token sample documentation"
+    },
+    "real_evidence_sanitization": {
+      "status": "PASS",
+      "real_game_json_results": 3,
+      "real_claim_json_results": 1,
+      "secret_keys_only_policies": true,
+      "claim_terminal_screenshots_actually_opened": 2,
+      "live_QR_visible": false
+    },
+    "status_honesty": {
+      "status": "PASS",
+      "main_352_tests_separate": true,
+      "real_game36_separate": true,
+      "real_claim15_separate": true,
+      "games_art": "REVIEW",
+      "G5": "REVIEW",
+      "G6": "BLOCKED"
+    },
+    "source_lock_sha": {
+      "status": "PASS",
+      "reason": "Fresh source SHA/bytes rechecked after root correction; all original source entries match"
+    },
+    "snapshot_run_receipt": {
+      "status": "PASS_RECEIPT_INSPECTED",
+      "test_result": {
+        "passed": 252,
+        "failed": 0,
+        "test_files": 12,
+        "core": 196,
+        "web": 56,
+        "backend": 0
+      },
+      "reason": "Fresh receipt states independently executed snapshot verification; audit agent did not rerun tests"
+    }
+  },
+  "limitations": [
+    "No install, build, tests or browser recapture run by audit agent; root owns those checks.",
+    "No final visual-art acceptance performed; only two claim terminal screenshots inspected and PNG structural verification.",
+    "Omitted 1091 intermediate/original evidence files were declared rather than treated as missing implementation.",
+    "Source/export may change while root continues; audit applies to read snapshot at timestamp."
+  ],
+  "secret_pattern_hits_paths_only_count": 477
+}

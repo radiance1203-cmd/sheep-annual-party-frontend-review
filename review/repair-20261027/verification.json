@@ -1,0 +1,190 @@
+{
+  "at": "2026-10-27T10:10:48.035780+00:00",
+  "commands": [
+    {
+      "command": "npm run typecheck",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "output/repair-20261027/final-typecheck.txt"
+    },
+    {
+      "command": "npm run build",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "output/repair-20261027/final-build.txt"
+    },
+    {
+      "command": "npm test",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "output/repair-20261027/final-tests.txt"
+    },
+    {
+      "command": "npm run contracts:check",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "output/repair-20261027/final-contracts.txt"
+    },
+    {
+      "command": "npm run rules:check",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "output/repair-20261027/final-rules.txt"
+    },
+    {
+      "command": "python art-source/register_repair_v4.py --check",
+      "status": "PASS",
+      "exit_code": 0,
+      "log": "output/repair-20261027/final-assets.txt"
+    }
+  ],
+  "test_files": 19,
+  "tests_passed": 352,
+  "source_sha256": [
+    {
+      "path": "apps/web/src/api.ts",
+      "sha256": "916568ee63fc62d43274dfeb676fa86efdfe4f2b7a54a6992ad3db529ec865f3"
+    },
+    {
+      "path": "apps/web/src/App.tsx",
+      "sha256": "8798a83688c9876d7649de457e1d7b32015c796a3773d596075ddb4a5ee6339f"
+    },
+    {
+      "path": "apps/web/src/game/assets.test.ts",
+      "sha256": "23302c49adfe86307e5c02cd05df0288f2d961e16f79d264427d81ac983abb63"
+    },
+    {
+      "path": "apps/web/src/game/assets.ts",
+      "sha256": "a007d29770408f03562a6b6fff189deb376d0078351c32de6142fa17e5c6879a"
+    },
+    {
+      "path": "apps/web/src/game/GamePage.tsx",
+      "sha256": "4406990ce17784f448eae9dd003eba1cb0383b3e9784025360a74bacc12277bb"
+    },
+    {
+      "path": "apps/web/src/game/keyboard.ts",
+      "sha256": "62d91939374a970eb2eaafc73bedb88e4d5facb02d96e5e30ed4468b38ed437a"
+    },
+    {
+      "path": "apps/web/src/game/presentation.test.ts",
+      "sha256": "47b3e7b77e93ed1b014324d1b873e4f6f09af8b6d7f38d42a9d0b550dc606709"
+    },
+    {
+      "path": "apps/web/src/game/presentation.ts",
+      "sha256": "35a026ac74d28f7d7fe457c85f9b23c38ffad584836d181dd394f51b789a3262"
+    },
+    {
+      "path": "apps/web/src/game/renderer.ts",
+      "sha256": "3e2dfd47c41964170ed4b9dee46700878a2d08e40dafb7e10a7cacba2cb3e5c7"
+    },
+    {
+      "path": "apps/web/src/game/storage.ts",
+      "sha256": "a89eb0b95f335eb7cc1fe64340d01020017b09e2936593d8203731a192c519c7"
+    },
+    {
+      "path": "apps/web/src/game/timeline.ts",
+      "sha256": "52c1921e94170ed58908208a47a38c107283b65eee4040301a8a42ab2c8f802d"
+    },
+    {
+      "path": "apps/web/src/game/TutorialScene.tsx",
+      "sha256": "6e2d58ba3b02c586a5e03b4f4dc4b482e94ea6dd47104f866d9080ef03fef42f"
+    },
+    {
+      "path": "apps/web/src/LobbyIllustration.tsx",
+      "sha256": "61adc6bf7c8befc2342e6807318b6ee0925059a310d8f58ea43df6557cd296ba"
+    },
+    {
+      "path": "apps/web/src/main.tsx",
+      "sha256": "d6410d6ec676de8b4d3032d3cdfd5d7bc1641803f158547072b34e51b664beca"
+    },
+    {
+      "path": "apps/web/src/pages/admin-requests.ts",
+      "sha256": "215b8ad0411b059108397a06df2a7f9e6d53121f61c28bee4d6a16851ca9ebb3"
+    },
+    {
+      "path": "apps/web/src/pages/AdminPage.tsx",
+      "sha256": "2986154b9a159bcb1939519a0edf5106d5a75e415d52acdb4d8031878b1f1f18"
+    },
+    {
+      "path": "apps/web/src/pages/operations-model.ts",
+      "sha256": "d10fccb91693ae17dc87e60ac68797f25758353ef897e8d9fe7218c9e384ccdb"
+    },
+    {
+      "path": "apps/web/src/pages/OperationsPanels.tsx",
+      "sha256": "3937331b657d81af892d20e87a1cb87fd58a2c1f1c98fe7aeeac034df1365d4d"
+    },
+    {
+      "path": "apps/web/src/pages/ParticipantPages.tsx",
+      "sha256": "58ef8a2bc337f538fa995c42e84139b3bbd446dfb3546a2488b199479998292c"
+    },
+    {
+      "path": "apps/web/src/pages/playtest-json.ts",
+      "sha256": "9f630b20f14141299b04b1c4cd660fcbf57103e0a7ed4cc3a0a04e691cdfc061"
+    },
+    {
+      "path": "apps/web/src/repair-state/admission.ts",
+      "sha256": "6646aac32305074bdd17db2fa1a8f215a548010936de34d6d89f2b16637166e7"
+    },
+    {
+      "path": "apps/web/src/repair-state/redemption.ts",
+      "sha256": "4fd5fff61400f9d4a97bd24df70e0071ab4f9989f2c0b2fc5f12430e8e618d03"
+    },
+    {
+      "path": "apps/web/src/repair-state/result-presentation.ts",
+      "sha256": "a8321195f1af27020f31ad16681e94db18efe37dbec5e2da2d53ac9cd0904749"
+    },
+    {
+      "path": "apps/web/src/repair-state/VoucherScanner.tsx",
+      "sha256": "a08b4623a2b04c0c5fa915721ac9bd1d350d58743b8485325b38d422e4e90a76"
+    },
+    {
+      "path": "apps/web/src/styles.css",
+      "sha256": "a380b9269ae915ebd0d06ad45d0e038a82668ba85d3d90b4b14df87cd9ff72bc"
+    },
+    {
+      "path": "apps/web/src/ui.tsx",
+      "sha256": "9e00776ef7a2390aa6de65f57ae993b7f42f9c9afd06b06e5c151e9c1160dce6"
+    },
+    {
+      "path": "apps/web/src/visual-repair.css",
+      "sha256": "172fabf75eb8164aaeb91ead71a19fdd9d0da310f75f609637e3e907e839a3a7"
+    },
+    {
+      "path": "apps/web/package.json",
+      "sha256": "8019cacaceedb84ebba8bd12236c86fea678ad6a2cdbb6b72d1d965a23d70066"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "8153a55cf49dae3c114ac28def76d0c308795b0b99572de3469b3e23a7226f46"
+    }
+  ],
+  "gates": {
+    "G5": "REVIEW",
+    "G6": "BLOCKED",
+    "production_art_accepted": false,
+    "human_24_people_216_runs": "NOT_RUN",
+    "physical_device": "NOT_RUN",
+    "venue_network": "NOT_RUN"
+  },
+  "real_game_ui": {
+    "status": "PASS",
+    "checks": 36,
+    "evidence": "real-game-ui/cdc866b1-2c1e-485b-a012-2ec82db9f9cc/result.json"
+  },
+  "real_claim": {
+    "status": "PASS",
+    "checks": 15,
+    "evidence": "real-claim/REAL_CLAIM_REPORT.md"
+  },
+  "gallery": {
+    "status": "PASS",
+    "html_status": 200,
+    "image_status": 200,
+    "url": "http://127.0.0.1:5175/@fs/D:/%E7%BE%8A%E5%B9%B4%E5%B9%B4%E4%BC%9A%E7%8E%B0%E5%9C%BA%E6%B8%B8%E6%88%8F_Codex%E5%BC%80%E5%8F%91%E4%BA%A4%E4%BB%98%E5%8C%85_V2.2/sheep-annual-party-v2.2/output/repair-20261027/index.html"
+  },
+  "delivery_manifest": {
+    "status": "PASS",
+    "file_count": 5202,
+    "digest_file": "docs/delivery-manifest.json"
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "status": "TECHNICAL_CANDIDATE",
+  "checks": [
+    {
+      "check": "clover_all_alpha_in_circle:clover_outer_round",
+      "status": "PASS"
+    },
+    {
+      "check": "clover_all_alpha_in_circle:clover_core_round",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_frame_metadata_exact:hay_tray",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_pixels_exact:hay_tray",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_frame_metadata_exact:fence_segment",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_pixels_exact:fence_segment",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_frame_metadata_exact:hurdle",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_pixels_exact:hurdle",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_frame_metadata_exact:clover_outer",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_pixels_exact:clover_outer",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_frame_metadata_exact:clover_core",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_pixels_exact:clover_core",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_frame_metadata_exact:grass_tile",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_pixels_exact:grass_tile",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_frame_metadata_exact:dirt_tile",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_pixels_exact:dirt_tile",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_frame_metadata_exact:barn",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_pixels_exact:barn",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_frame_metadata_exact:gate_marker",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_pixels_exact:gate_marker",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_frame_metadata_exact:flower",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_pixels_exact:flower",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_frame_metadata_exact:shadow_contact",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_pixels_exact:shadow_contact",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_frame_metadata_exact:bush",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_pixels_exact:bush",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_frame_metadata_exact:tree",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_pixels_exact:tree",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_frame_metadata_exact:lantern",
+      "status": "PASS"
+    },
+    {
+      "check": "old_prop_pixels_exact:lantern",
+      "status": "PASS"
+    }
+  ],
+  "atlases": [
+    {
+      "asset_id": "environment.side",
+      "candidate": "art-source/v4/runtime-candidates/environment/farm_side_v4.png",
+      "size_px": [
+        1024,
+        1024
+      ],
+      "frames": 20,
+      "decoded_bytes": 4194304,
+      "png_bytes": 162108,
+      "metadata_bytes": 8651,
+      "sha256": "8050325f15eda07f946fa311679ad908642e11f430ebbd7bbc28e6d54a9ecc49"
+    }
+  ]
+}

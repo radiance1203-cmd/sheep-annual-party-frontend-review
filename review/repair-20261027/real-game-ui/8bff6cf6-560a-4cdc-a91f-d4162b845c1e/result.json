@@ -1,0 +1,284 @@
+{
+  "started_at": "2026-10-27T10:10:19.752Z",
+  "event_id": "8bff6cf6-560a-4cdc-a91f-d4162b845c1e",
+  "build": {
+    "rule_version": "onsite-v2.1-candidate",
+    "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+    "simulator_version": "sheep-core-2.2.0",
+    "client_version": "sheep-web-2.2.0"
+  },
+  "manifest_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "scope": "Real actual GamePage start/input/IDB/finish + isolated loopback HTTP/PostgreSQL + actual JobRunner/shared core + actual Results. Synthetic timed browser interaction; not human, physical device or venue acceptance.",
+  "guard": {
+    "database": "sheep_test",
+    "host": "127.0.0.1",
+    "new_uuid_event": true,
+    "server": "127.0.0.1 port0",
+    "default_activity_used": false,
+    "server3100_used": false
+  },
+  "clock_method": "Browser page.clock is installed before navigation, allowed to draw preparation, then paused. Each fastForward delta is first applied to the isolated service clock offset. Real HTTP server clock continues elapsed wall time, keeping finish before original play_start+60s deadline. No frontend/core clock or rule source edits.",
+  "server_port": 54395,
+  "pass": false,
+  "failure": {
+    "stage": "runner-prepare",
+    "message": "Actual GamePage decoded preparation before starting"
+  },
+  "finished_at": "2026-10-27T10:10:38.760Z",
+  "stage": "runner-prepare",
+  "runs": [
+    {
+      "game": "stack",
+      "session_id": "1f55b394-4f32-44e1-8253-19143de598ee",
+      "slot_no": 1,
+      "seed": 1,
+      "timeline": {
+        "created_at": "2026-10-27T10:10:22.692Z",
+        "play_started_at": "2026-10-27T10:10:25.692Z",
+        "play_ends_at": "2026-10-27T10:11:10.692Z",
+        "submit_deadline": "2026-10-27T10:11:25.692Z",
+        "first_received_at": "2026-10-27T10:11:11.069Z"
+      },
+      "controlled": {
+        "countdown_fast_forward_ms": 3300,
+        "input_progress_ms": 250,
+        "natural_end_fast_forward_ms": 44526,
+        "service_offset_ms": 48261,
+        "clock_before_end": {
+          "browserDate": 1793095826168,
+          "serverClock": 1793095826266,
+          "tick": "17"
+        }
+      },
+      "points": 20,
+      "state": "SETTLED",
+      "validation": "VERIFIED",
+      "eligibility_reason": "VERIFIED",
+      "conclusion": {
+        "end_tick": 1350,
+        "end_reason": "TIME_LIMIT",
+        "accepted_actions_count": 1,
+        "performance_points": 0,
+        "stats": {
+          "success_layers": 0,
+          "perfect_layers": 0,
+          "misses": 1
+        }
+      },
+      "idb_meta": {
+        "processedTick": 1350,
+        "inputCount": 1,
+        "types": {
+          "DROP": 1
+        },
+        "sealed": true,
+        "sessionId": "1f55b394-4f32-44e1-8253-19143de598ee"
+      },
+      "visible_statistics": "本局核验统计\n叠稳 0 层\n完美 0 次\n失误 1 次",
+      "page_errors": []
+    }
+  ],
+  "checks": [
+    {
+      "name": "database guard matches actual database",
+      "passed": true
+    },
+    {
+      "name": "server is isolated ephemeral loopback",
+      "passed": true
+    },
+    {
+      "name": "stack prepared core stays tick0",
+      "passed": true
+    },
+    {
+      "name": "stack UI starts actual seeded formal session",
+      "passed": true
+    },
+    {
+      "name": "stack original 3/45/60 timeline",
+      "passed": true
+    },
+    {
+      "name": "stack actual UI emits exactly one intended action",
+      "passed": true,
+      "details": {
+        "tick": 17,
+        "inputCount": 1,
+        "types": {
+          "DROP": 1
+        }
+      }
+    },
+    {
+      "name": "stack preparation and formal runtime retain same canvas",
+      "passed": true
+    },
+    {
+      "name": "stack worker processes actual UI-generated sealed log",
+      "passed": true
+    },
+    {
+      "name": "stack actual shared-core validation and effective operation",
+      "passed": true,
+      "details": {
+        "state": "SETTLED",
+        "accepted": 1,
+        "points": 20
+      }
+    },
+    {
+      "name": "stack finish respects original complete-submit deadline",
+      "passed": true
+    },
+    {
+      "name": "stack Results shows verified server stats and Chinese state",
+      "passed": true
+    },
+    {
+      "name": "stack no uncaught browser error",
+      "passed": true
+    }
+  ],
+  "http": [
+    {
+      "source": "organizer",
+      "path": "/api/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "source": "organizer",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant",
+      "path": "/api/auth/login",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "source": "participant",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "organizer",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "organizer",
+      "path": "/api/admin/event/phase",
+      "method": "POST",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/sessions/start",
+      "method": "POST",
+      "status": 201
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/sessions/1f55b394-4f32-44e1-8253-19143de598ee/finish",
+      "method": "POST",
+      "status": 202
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/sessions/1f55b394-4f32-44e1-8253-19143de598ee",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "participant-check",
+      "path": "/api/sessions/1f55b394-4f32-44e1-8253-19143de598ee",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/sessions/1f55b394-4f32-44e1-8253-19143de598ee",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "stack-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/event",
+      "method": "GET",
+      "status": 200
+    },
+    {
+      "source": "runner-ui",
+      "path": "/api/me",
+      "method": "GET",
+      "status": 200
+    }
+  ],
+  "resources_closed": {
+    "browser": true,
+    "http": true,
+    "pool": true,
+    "worker": true
+  },
+  "secret_policy": "Invites/cookies/auth keyrings/controller secrets/session nonce/full inputs/full IndexedDB records remain memory-only. Only terminal verified Results screenshots are saved. Database persists real required sealed processes in the isolated test event by product contract."
+}

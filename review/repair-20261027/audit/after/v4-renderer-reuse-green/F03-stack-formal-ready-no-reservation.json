@@ -1,0 +1,120 @@
+{
+  "id": "F03-stack-formal-ready-no-reservation",
+  "pass": true,
+  "error": null,
+  "requests": [
+    {
+      "path": "/api/display",
+      "method": "GET"
+    },
+    {
+      "path": "/api/me",
+      "method": "GET"
+    }
+  ],
+  "assets": [
+    "/assets/ui/ui_banner_wood.svg",
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_side_v4.atlas.json",
+    "/assets/characters/sheep_side_v4.png",
+    "/assets/environment/farm_side_v4.atlas.json",
+    "/assets/environment/farm_side_v4.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_stack_v4.atlas.json",
+    "/assets/environment/backdrop_stack_v4.png"
+  ],
+  "pageErrors": [],
+  "metrics": {
+    "tick": "0",
+    "acceptedActions": "0",
+    "decode": {
+      "started": 4,
+      "succeeded": 4,
+      "images": [
+        {
+          "width": 1024,
+          "height": 1280,
+          "source": "blob:http://127.0.0.1:5175/9b391395-4a11-4b92-8a8e-5e3cd67ba8be"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/44aaefcb-23e7-44fa-b500-8e50a1d8849f"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/38c29f79-2e06-470b-bc2c-0107388db95b"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "source": "blob:http://127.0.0.1:5175/c73fd387-18bc-44d4-911e-88f630cfa55c"
+        }
+      ],
+      "hold": false
+    },
+    "eventTrace": [],
+    "hidden": false,
+    "focused": true,
+    "canvas": [
+      {
+        "width": 360,
+        "height": 480,
+        "rect": {
+          "x": 9,
+          "y": 180.890625,
+          "width": 373.984375,
+          "height": 498.65625,
+          "top": 180.890625,
+          "right": 382.984375,
+          "bottom": 679.546875,
+          "left": 9
+        }
+      }
+    ],
+    "body": "‹\n羊羊叠高高\n正式挑战\n静音\n剩余时间\n45秒\n局内表现\n0 /80\n失误\n0/3\n已叠稳 0 层 · 完美 0 层\n场景已就绪；预检并预约成功即使用 1 次正式机会。\n预检并预约 · 使用 1 次机会\n恢复原局 / 重试原开局请求",
+    "dpr": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    }
+  },
+  "extra": {
+    "decoded": {
+      "started": 4,
+      "succeeded": 4,
+      "images": [
+        {
+          "width": 1024,
+          "height": 1280,
+          "source": "blob:http://127.0.0.1:5175/9b391395-4a11-4b92-8a8e-5e3cd67ba8be"
+        },
+        {
+          "width": 1024,
+          "height": 1024,
+          "source": "blob:http://127.0.0.1:5175/44aaefcb-23e7-44fa-b500-8e50a1d8849f"
+        },
+        {
+          "width": 512,
+          "height": 512,
+          "source": "blob:http://127.0.0.1:5175/38c29f79-2e06-470b-bc2c-0107388db95b"
+        },
+        {
+          "width": 720,
+          "height": 960,
+          "source": "blob:http://127.0.0.1:5175/c73fd387-18bc-44d4-911e-88f630cfa55c"
+        }
+      ],
+      "hold": false
+    },
+    "pixels": {
+      "size": [
+        374,
+        500
+      ],
+      "colors": 1662
+    }
+  }
+}

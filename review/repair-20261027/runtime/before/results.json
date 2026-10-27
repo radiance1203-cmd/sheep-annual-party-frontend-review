@@ -1,0 +1,26 @@
+{
+  "scope": "real browser / real components / isolated API fixtures, not real device or server business acceptance",
+  "results": [
+    {
+      "id": "F03",
+      "game": "stack",
+      "status": "FAIL",
+      "error": "AssertionError [ERR_ASSERTION]: preparation must draw the decoded tick-zero scene\n\n0 !== 1\n",
+      "writes": []
+    },
+    {
+      "id": "F03",
+      "game": "runner",
+      "status": "FAIL",
+      "error": "AssertionError [ERR_ASSERTION]: preparation must draw the decoded tick-zero scene\n\n0 !== 1\n",
+      "writes": []
+    },
+    {
+      "id": "F03",
+      "game": "herd",
+      "status": "FAIL",
+      "error": "AssertionError [ERR_ASSERTION]: preparation must draw the decoded tick-zero scene\n\n0 !== 1\n",
+      "writes": []
+    }
+  ]
+}

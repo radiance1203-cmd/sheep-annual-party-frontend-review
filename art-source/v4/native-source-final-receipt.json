@@ -1,0 +1,165 @@
+{
+  "status": "NATIVE_EDITABLE_TECHNICAL_RECEIPT",
+  "blender": "4.5.9 LTS",
+  "read_only": true,
+  "records": [
+    {
+      "mother": "art-source/v4/sheep_master_v4.blend",
+      "sha256": "86e897945da3a63b5e921f1a093cc18bd8e7a4f056c403893931bda3029ca9fe",
+      "collections": [
+        "CAMERAS",
+        "CHAR_DOG",
+        "CHAR_SHEEP",
+        "Collection",
+        "ENV_FARM",
+        "LIGHTS",
+        "RIGS"
+      ],
+      "objects": 421,
+      "object_types": {
+        "MESH": 396,
+        "CURVE": 7,
+        "EMPTY": 13,
+        "LIGHT": 3,
+        "CAMERA": 2
+      },
+      "actions": 171,
+      "materials": 11,
+      "native_meshes": 396,
+      "native_curves": 7,
+      "scenery_only": false,
+      "scenery_excluded_live_geometry": [],
+      "camera": "side_v1",
+      "production_art_accepted": false
+    },
+    {
+      "mother": "art-source/v4/dog_master_v4.blend",
+      "sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "collections": [
+        "CAMERAS",
+        "CHAR_DOG",
+        "CHAR_SHEEP",
+        "Collection",
+        "ENV_FARM",
+        "LIGHTS",
+        "RIGS"
+      ],
+      "objects": 163,
+      "object_types": {
+        "MESH": 138,
+        "CURVE": 7,
+        "EMPTY": 13,
+        "LIGHT": 3,
+        "CAMERA": 2
+      },
+      "actions": 105,
+      "materials": 10,
+      "native_meshes": 138,
+      "native_curves": 7,
+      "scenery_only": false,
+      "scenery_excluded_live_geometry": [],
+      "camera": "iso8_v1",
+      "production_art_accepted": false
+    },
+    {
+      "mother": "art-source/v4/farm_master_v4.blend",
+      "sha256": "fddbe3f193cc136f151b178c940ce6025b01a84b6bea387c0c76c5e7627c3c93",
+      "collections": [
+        "CAMERAS",
+        "CHAR_DOG",
+        "CHAR_SHEEP",
+        "Collection",
+        "ENV_FARM",
+        "LIGHTS",
+        "RIGS",
+        "V4_PROPS"
+      ],
+      "objects": 406,
+      "object_types": {
+        "CURVE": 147,
+        "MESH": 220,
+        "EMPTY": 33,
+        "LIGHT": 3,
+        "CAMERA": 3
+      },
+      "actions": 84,
+      "materials": 16,
+      "native_meshes": 220,
+      "native_curves": 147,
+      "scenery_only": false,
+      "scenery_excluded_live_geometry": [],
+      "camera": "prop_front_v4",
+      "production_art_accepted": false
+    },
+    {
+      "mother": "art-source/v4/backdrop_stack_v4.blend",
+      "sha256": "117713a1c68e6196f164c761f0826e0763bb9bf3bf9b1fae598f4ba9f8495ff7",
+      "collections": [
+        "SCENERY_STACK"
+      ],
+      "objects": 9772,
+      "object_types": {
+        "CURVE": 182,
+        "MESH": 9502,
+        "EMPTY": 85,
+        "CAMERA": 1,
+        "LIGHT": 2
+      },
+      "actions": 0,
+      "materials": 24,
+      "native_meshes": 876,
+      "native_curves": 182,
+      "scenery_only": true,
+      "scenery_excluded_live_geometry": [],
+      "camera": "scenery_camera",
+      "production_art_accepted": false
+    },
+    {
+      "mother": "art-source/v4/backdrop_runner_v4.blend",
+      "sha256": "857160639dfb3145a74c822b06238eef0a865dbdbd035b85adf16678b3db7e8f",
+      "collections": [
+        "SCENERY_RUNNER"
+      ],
+      "objects": 6682,
+      "object_types": {
+        "CURVE": 182,
+        "MESH": 6415,
+        "EMPTY": 82,
+        "CAMERA": 1,
+        "LIGHT": 2
+      },
+      "actions": 0,
+      "materials": 25,
+      "native_meshes": 825,
+      "native_curves": 182,
+      "scenery_only": true,
+      "scenery_excluded_live_geometry": [],
+      "camera": "scenery_camera",
+      "production_art_accepted": false
+    },
+    {
+      "mother": "art-source/v4/backdrop_herd_v4.blend",
+      "sha256": "d27e6f27a8e0cdea1ca68370d546574c5fa6a9483b83885b608a6344d60994aa",
+      "collections": [
+        "SCENERY_HERD"
+      ],
+      "objects": 8256,
+      "object_types": {
+        "CURVE": 136,
+        "MESH": 8043,
+        "EMPTY": 74,
+        "CAMERA": 1,
+        "LIGHT": 2
+      },
+      "actions": 0,
+      "materials": 19,
+      "native_meshes": 881,
+      "native_curves": 136,
+      "scenery_only": true,
+      "scenery_excluded_live_geometry": [],
+      "camera": "scenery_camera",
+      "production_art_accepted": false
+    }
+  ],
+  "production_art_accepted": false
+}

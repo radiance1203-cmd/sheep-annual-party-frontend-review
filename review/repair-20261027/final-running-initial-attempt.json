@@ -1,0 +1,8 @@
+{
+  "command": "node --import tsx output/repair-20261027/capture-running.mts final-running",
+  "exit_code": 1,
+  "failure": "restore button remained disabled after test clock was paused before preparation first-frame readiness",
+  "classification": "capture orchestration error; preparation now intentionally gates start/restore until decoded first render",
+  "source_sha256": "c3d1fdcb5a215bff2f318af3a1a3aa9357e401cccf70c056aa00f5c4655eaa78",
+  "product_fix_made": false
+}

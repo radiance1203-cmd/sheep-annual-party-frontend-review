@@ -1,0 +1,10 @@
+{
+  "selected_files": 763,
+  "selected_bytes": 94113443,
+  "source_total_files": 1854,
+  "source_total_bytes": 254178153,
+  "omitted_files": 1091,
+  "all_omissions_index": "SOURCE_SNAPSHOT.json#omitted_repair_evidence",
+  "only_backend_implementation_and_private_files_omitted": false,
+  "full_intermediate_frames_local_not_missing_implementation": true
+}

@@ -1,0 +1,17 @@
+{
+  "environment": "real App + API transport, all API intercepted as isolated fixture, invalid A/B tokens only; no actual business POST",
+  "results": [
+    {
+      "id": "accepted-csrf-and-401",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: late discarded identity A cannot overwrite accepted B CSRF header\n+ actual - expected\n\n+ 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'\n- 'BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB'\n",
+      "csrfProbe": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    },
+    {
+      "id": "accepted-csrf-and-503",
+      "pass": false,
+      "error": "AssertionError [ERR_ASSERTION]: late discarded identity A cannot overwrite accepted B CSRF header\n+ actual - expected\n\n+ 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'\n- 'BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB'\n",
+      "csrfProbe": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    }
+  ]
+}

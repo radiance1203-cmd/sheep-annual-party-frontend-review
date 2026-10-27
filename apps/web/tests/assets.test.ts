@@ -17,3 +17,10 @@ it('rejects missing required direction/action and decoded size mismatch', () => 
   expect(() => validateGameAtlas('sheep_side_v1', broken, 1024, 1024)).toThrow();
   expect(() => validateGameAtlas('sheep_side_v1', atlas, 1024, 1024)).not.toThrow();
 });
+it('requires dedicated compact poses and bounded props for the new art profile while retaining old releases', () => {
+  const old = parseAtlas(JSON.parse(readFileSync('apps/web/public/assets/characters/sheep_side_v1.atlas.json', 'utf8')));
+  expect(() => validateGameAtlas('sheep_side_v1', old, 1024, 1024, true)).toThrow('叠层');
+  expect(() => validateGameAtlas('sheep_side_v1', old, 1024, 1024)).not.toThrow();
+  const farm = parseAtlas(JSON.parse(readFileSync('apps/web/public/assets/environment/farm_side_v1.atlas.json', 'utf8')));
+  expect(() => validateGameAtlas('farm_side_v1', farm, farm.size_px[0], farm.size_px[1], true)).toThrow('道具');
+});

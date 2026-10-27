@@ -1,0 +1,225 @@
+{
+  "scope": "Actual registered v4 cropped prop frames, production fitFrame uniform-fit arithmetic. Alpha>=1 box bounds and circular pixel-center containment; does not enlarge collider or pickup radius.",
+  "manifestHash": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "atlasSHA256": "672bc5f13f8f216ec6e9c8ece4e1418b471a6cfdf2e378e119a9193061ba2acd",
+  "pngSHA256": "8050325f15eda07f946fa311679ad908642e11f430ebbd7bbc28e6d54a9ecc49",
+  "props": [
+    {
+      "frame": "hay_tray_thin",
+      "source_rect": [
+        19,
+        281,
+        194,
+        10
+      ],
+      "pivot": [
+        97,
+        5
+      ],
+      "target_box": [
+        112.0,
+        6
+      ],
+      "uniform_scale": 0.5773195876288659,
+      "whole_frame_display": [
+        111.99999999999999,
+        5.773195876288659
+      ],
+      "alpha1_visible_bounds_in_box": [
+        7.105427357601002e-15,
+        0.11340206185567059,
+        112.0,
+        5.886597938144329
+      ],
+      "alpha1_visible_size": [
+        112.0,
+        5.773195876288659
+      ],
+      "inside_frozen_box": true,
+      "authorized_radius": null,
+      "furthest_alpha1_pixel_center_radius": null,
+      "inside_authorized_circle_pixel_centers": null
+    },
+    {
+      "frame": "hurdle_narrow",
+      "source_rect": [
+        236,
+        280,
+        64,
+        240
+      ],
+      "pivot": [
+        32,
+        233
+      ],
+      "target_box": [
+        8,
+        30
+      ],
+      "uniform_scale": 0.125,
+      "whole_frame_display": [
+        8.0,
+        30.0
+      ],
+      "alpha1_visible_bounds_in_box": [
+        0.125,
+        0.75,
+        7.875,
+        29.25
+      ],
+      "alpha1_visible_size": [
+        7.75,
+        28.5
+      ],
+      "inside_frozen_box": true,
+      "authorized_radius": null,
+      "furthest_alpha1_pixel_center_radius": null,
+      "inside_authorized_circle_pixel_centers": null
+    },
+    {
+      "frame": "hurdle_medium",
+      "source_rect": [
+        308,
+        280,
+        144,
+        240
+      ],
+      "pivot": [
+        72,
+        237
+      ],
+      "target_box": [
+        18,
+        30
+      ],
+      "uniform_scale": 0.125,
+      "whole_frame_display": [
+        18.0,
+        30.0
+      ],
+      "alpha1_visible_bounds_in_box": [
+        0.125,
+        0.25,
+        17.875,
+        29.625
+      ],
+      "alpha1_visible_size": [
+        17.75,
+        29.375
+      ],
+      "inside_frozen_box": true,
+      "authorized_radius": null,
+      "furthest_alpha1_pixel_center_radius": null,
+      "inside_authorized_circle_pixel_centers": null
+    },
+    {
+      "frame": "hurdle_wide",
+      "source_rect": [
+        460,
+        280,
+        224,
+        240
+      ],
+      "pivot": [
+        112,
+        238
+      ],
+      "target_box": [
+        28,
+        30
+      ],
+      "uniform_scale": 0.125,
+      "whole_frame_display": [
+        28.0,
+        30.0
+      ],
+      "alpha1_visible_bounds_in_box": [
+        0.125,
+        0.125,
+        27.875,
+        29.75
+      ],
+      "alpha1_visible_size": [
+        27.75,
+        29.625
+      ],
+      "inside_frozen_box": true,
+      "authorized_radius": null,
+      "furthest_alpha1_pixel_center_radius": null,
+      "inside_authorized_circle_pixel_centers": null
+    },
+    {
+      "frame": "clover_outer_round",
+      "source_rect": [
+        692,
+        280,
+        72,
+        72
+      ],
+      "pivot": [
+        36,
+        36
+      ],
+      "target_box": [
+        9,
+        9
+      ],
+      "uniform_scale": 0.125,
+      "whole_frame_display": [
+        9.0,
+        9.0
+      ],
+      "alpha1_visible_bounds_in_box": [
+        0.875,
+        0.875,
+        8.25,
+        8.25
+      ],
+      "alpha1_visible_size": [
+        7.375,
+        7.375
+      ],
+      "inside_frozen_box": true,
+      "authorized_radius": 4.5,
+      "furthest_alpha1_pixel_center_radius": 4.46251750696846,
+      "inside_authorized_circle_pixel_centers": true
+    },
+    {
+      "frame": "clover_core_round",
+      "source_rect": [
+        772,
+        280,
+        24,
+        24
+      ],
+      "pivot": [
+        12,
+        12
+      ],
+      "target_box": [
+        3,
+        3
+      ],
+      "uniform_scale": 0.125,
+      "whole_frame_display": [
+        3.0,
+        3.0
+      ],
+      "alpha1_visible_bounds_in_box": [
+        0.375,
+        0.375,
+        2.625,
+        2.625
+      ],
+      "alpha1_visible_size": [
+        2.25,
+        2.25
+      ],
+      "inside_frozen_box": true,
+      "authorized_radius": 1.5,
+      "furthest_alpha1_pixel_center_radius": 1.3375584099395434,
+      "inside_authorized_circle_pixel_centers": true
+    }
+  ],
+  "pass": true
+}

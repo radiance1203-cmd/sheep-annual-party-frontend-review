@@ -1,0 +1,1127 @@
+{
+  "at": "2026-10-27T09:32:16.832Z",
+  "manifestHash": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "assetVersion": "art-1.4.0-visual-repair",
+  "captures": [
+    {
+      "game": "stack",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "zoom": 1,
+      "browser": "156.0.8078.4",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "scope": "isolated schema response + actual core-derived restored-prefix fixture; no server scoring or real device",
+      "sourceCheckpoint": 407,
+      "prefixDigest": "efe6169ab071aec18cf3cb6040f080b03b53f3ebb1cfa772a6603f853a79975a",
+      "expectedPerformance": 24,
+      "expectedStats": {
+        "success_layers": 8,
+        "perfect_layers": 4,
+        "misses": 0
+      },
+      "apiMutations": 0,
+      "errors": [],
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "\"Microsoft YaHei\", \"PingFang SC\", system-ui, sans-serif",
+        "scrollWidth": 320,
+        "tick": 411,
+        "hud": "剩余时间32秒局内表现24 /80失误0/3",
+        "feedback": "已叠稳 8 层 · 完美 4 层",
+        "canvas": [
+          {
+            "width": 360,
+            "height": 480,
+            "cssWidth": 303.984375,
+            "cssHeight": 405.328125
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "w": 48,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "静音",
+            "w": 50,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "点击放下",
+            "w": 273.59375,
+            "h": 72,
+            "font": "32px"
+          }
+        ],
+        "smallText": [],
+        "canvasLayout": {
+          "style": "width: 303.996px; height: 405.328px; margin-left: 0px; margin-top: 0px;",
+          "rect": {
+            "x": 9,
+            "y": 180.890625,
+            "width": 303.984375,
+            "height": 405.328125,
+            "top": 180.890625,
+            "right": 312.984375,
+            "bottom": 586.21875,
+            "left": 9
+          },
+          "parent": {
+            "x": 8,
+            "y": 179.890625,
+            "width": 304,
+            "height": 405.328125,
+            "top": 179.890625,
+            "right": 312,
+            "bottom": 585.21875,
+            "left": 8
+          }
+        }
+      },
+      "screenshots": [
+        "output/repair-20261027/final-running-reused/GC-01-320-first.png",
+        "output/repair-20261027/final-running-reused/GC-01-320-full.png"
+      ]
+    },
+    {
+      "game": "runner",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "zoom": 1,
+      "browser": "156.0.8078.4",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "scope": "isolated schema response + actual core-derived restored-prefix fixture; no server scoring or real device",
+      "sourceCheckpoint": 583,
+      "prefixDigest": "a835d62bba47a0a7bcd439a596e7cf1cf0892526201287d275002dce9b3b032b",
+      "expectedPerformance": 20,
+      "expectedStats": {
+        "safe_passed": 6,
+        "collision_count": 1,
+        "outer_collected": 1,
+        "inner_collected": 1
+      },
+      "apiMutations": 0,
+      "errors": [],
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "\"Microsoft YaHei\", \"PingFang SC\", system-ui, sans-serif",
+        "scrollWidth": 320,
+        "tick": 587,
+        "hud": "剩余时间26秒局内表现20 /80失误次数1",
+        "feedback": "已越栏 6 · 外圈 1 · 金芯 1",
+        "canvas": [
+          {
+            "width": 360,
+            "height": 220,
+            "cssWidth": 303.96875,
+            "cssHeight": 185.765625
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "w": 48,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "静音",
+            "w": 50,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "点击跳跃",
+            "w": 273.59375,
+            "h": 72,
+            "font": "32px"
+          }
+        ],
+        "smallText": [],
+        "canvasLayout": {
+          "style": "width: 303.98px; height: 185.766px; margin-left: 0px; margin-top: 0px;",
+          "rect": {
+            "x": 9,
+            "y": 180.890625,
+            "width": 303.96875,
+            "height": 185.765625,
+            "top": 180.890625,
+            "right": 312.96875,
+            "bottom": 366.65625,
+            "left": 9
+          },
+          "parent": {
+            "x": 8,
+            "y": 179.890625,
+            "width": 304,
+            "height": 185.765625,
+            "top": 179.890625,
+            "right": 312,
+            "bottom": 365.65625,
+            "left": 8
+          }
+        }
+      },
+      "screenshots": [
+        "output/repair-20261027/final-running-reused/GC-02-320-first.png",
+        "output/repair-20261027/final-running-reused/GC-02-320-full.png"
+      ]
+    },
+    {
+      "game": "herd",
+      "width": 320,
+      "height": 740,
+      "dpr": 1,
+      "zoom": 1,
+      "browser": "156.0.8078.4",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "scope": "isolated schema response + actual core-derived restored-prefix fixture; no server scoring or real device",
+      "sourceCheckpoint": 107,
+      "prefixDigest": "76578218b4578323cd517c2c8405c322495042ec369eef968f6c78d722d7e47f",
+      "expectedPerformance": 24,
+      "expectedStats": {
+        "penned_count": 4,
+        "final_goal_tick": null,
+        "time_bonus_points": 0
+      },
+      "apiMutations": 0,
+      "errors": [],
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "\"Microsoft YaHei\", \"PingFang SC\", system-ui, sans-serif",
+        "scrollWidth": 320,
+        "tick": 111,
+        "hud": "剩余时间42秒局内表现24 /80已入圈4/8",
+        "feedback": "绕到羊后方，赶它们进入上方围栏入口",
+        "canvas": [
+          {
+            "width": 360,
+            "height": 420,
+            "cssWidth": 303.984375,
+            "cssHeight": 354.65625
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "w": 48,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "静音",
+            "w": 50,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "↑← ● →↓",
+            "w": 144,
+            "h": 144,
+            "font": "24px"
+          },
+          {
+            "text": "吠叫冷却 2 秒",
+            "w": 120,
+            "h": 120,
+            "font": "24px"
+          }
+        ],
+        "smallText": [],
+        "canvasLayout": {
+          "style": "width: 303.991px; height: 354.656px; margin-left: 0px; margin-top: 0px;",
+          "rect": {
+            "x": 9,
+            "y": 180.890625,
+            "width": 303.984375,
+            "height": 354.65625,
+            "top": 180.890625,
+            "right": 312.984375,
+            "bottom": 535.546875,
+            "left": 9
+          },
+          "parent": {
+            "x": 8,
+            "y": 179.890625,
+            "width": 304,
+            "height": 354.65625,
+            "top": 179.890625,
+            "right": 312,
+            "bottom": 534.546875,
+            "left": 8
+          }
+        }
+      },
+      "screenshots": [
+        "output/repair-20261027/final-running-reused/GC-03-320-first.png",
+        "output/repair-20261027/final-running-reused/GC-03-320-full.png"
+      ]
+    },
+    {
+      "game": "stack",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "zoom": 1,
+      "browser": "156.0.8078.4",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "scope": "isolated schema response + actual core-derived restored-prefix fixture; no server scoring or real device",
+      "sourceCheckpoint": 407,
+      "prefixDigest": "efe6169ab071aec18cf3cb6040f080b03b53f3ebb1cfa772a6603f853a79975a",
+      "expectedPerformance": 24,
+      "expectedStats": {
+        "success_layers": 8,
+        "perfect_layers": 4,
+        "misses": 0
+      },
+      "apiMutations": 0,
+      "errors": [],
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "\"Microsoft YaHei\", \"PingFang SC\", system-ui, sans-serif",
+        "scrollWidth": 360,
+        "tick": 411,
+        "hud": "剩余时间32秒局内表现24 /80失误0/3",
+        "feedback": "已叠稳 8 层 · 完美 4 层",
+        "canvas": [
+          {
+            "width": 360,
+            "height": 480,
+            "cssWidth": 343.984375,
+            "cssHeight": 458.65625
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "w": 48,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "静音",
+            "w": 50,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "点击放下",
+            "w": 309.59375,
+            "h": 72,
+            "font": "32px"
+          }
+        ],
+        "smallText": [],
+        "canvasLayout": {
+          "style": "width: 343.992px; height: 458.656px; margin-left: 0px; margin-top: 0px;",
+          "rect": {
+            "x": 9,
+            "y": 180.890625,
+            "width": 343.984375,
+            "height": 458.65625,
+            "top": 180.890625,
+            "right": 352.984375,
+            "bottom": 639.546875,
+            "left": 9
+          },
+          "parent": {
+            "x": 8,
+            "y": 179.890625,
+            "width": 344,
+            "height": 458.65625,
+            "top": 179.890625,
+            "right": 352,
+            "bottom": 638.546875,
+            "left": 8
+          }
+        }
+      },
+      "screenshots": [
+        "output/repair-20261027/final-running-reused/GC-01-360-first.png",
+        "output/repair-20261027/final-running-reused/GC-01-360-full.png"
+      ]
+    },
+    {
+      "game": "runner",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "zoom": 1,
+      "browser": "156.0.8078.4",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "scope": "isolated schema response + actual core-derived restored-prefix fixture; no server scoring or real device",
+      "sourceCheckpoint": 583,
+      "prefixDigest": "a835d62bba47a0a7bcd439a596e7cf1cf0892526201287d275002dce9b3b032b",
+      "expectedPerformance": 20,
+      "expectedStats": {
+        "safe_passed": 6,
+        "collision_count": 1,
+        "outer_collected": 1,
+        "inner_collected": 1
+      },
+      "apiMutations": 0,
+      "errors": [],
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "\"Microsoft YaHei\", \"PingFang SC\", system-ui, sans-serif",
+        "scrollWidth": 360,
+        "tick": 587,
+        "hud": "剩余时间26秒局内表现20 /80失误次数1",
+        "feedback": "已越栏 6 · 外圈 1 · 金芯 1",
+        "canvas": [
+          {
+            "width": 360,
+            "height": 220,
+            "cssWidth": 343.984375,
+            "cssHeight": 210.21875
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "w": 48,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "静音",
+            "w": 50,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "点击跳跃",
+            "w": 309.59375,
+            "h": 72,
+            "font": "32px"
+          }
+        ],
+        "smallText": [],
+        "canvasLayout": {
+          "style": "width: 343.994px; height: 210.219px; margin-left: 0px; margin-top: 0px;",
+          "rect": {
+            "x": 9,
+            "y": 180.890625,
+            "width": 343.984375,
+            "height": 210.21875,
+            "top": 180.890625,
+            "right": 352.984375,
+            "bottom": 391.109375,
+            "left": 9
+          },
+          "parent": {
+            "x": 8,
+            "y": 179.890625,
+            "width": 344,
+            "height": 210.21875,
+            "top": 179.890625,
+            "right": 352,
+            "bottom": 390.109375,
+            "left": 8
+          }
+        }
+      },
+      "screenshots": [
+        "output/repair-20261027/final-running-reused/GC-02-360-first.png",
+        "output/repair-20261027/final-running-reused/GC-02-360-full.png"
+      ]
+    },
+    {
+      "game": "herd",
+      "width": 360,
+      "height": 800,
+      "dpr": 1,
+      "zoom": 1,
+      "browser": "156.0.8078.4",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "scope": "isolated schema response + actual core-derived restored-prefix fixture; no server scoring or real device",
+      "sourceCheckpoint": 107,
+      "prefixDigest": "76578218b4578323cd517c2c8405c322495042ec369eef968f6c78d722d7e47f",
+      "expectedPerformance": 24,
+      "expectedStats": {
+        "penned_count": 4,
+        "final_goal_tick": null,
+        "time_bonus_points": 0
+      },
+      "apiMutations": 0,
+      "errors": [],
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "\"Microsoft YaHei\", \"PingFang SC\", system-ui, sans-serif",
+        "scrollWidth": 360,
+        "tick": 111,
+        "hud": "剩余时间42秒局内表现24 /80已入圈4/8",
+        "feedback": "绕到羊后方，赶它们进入上方围栏入口",
+        "canvas": [
+          {
+            "width": 360,
+            "height": 420,
+            "cssWidth": 343.984375,
+            "cssHeight": 401.328125
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "w": 48,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "静音",
+            "w": 50,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "↑← ● →↓",
+            "w": 144,
+            "h": 144,
+            "font": "24px"
+          },
+          {
+            "text": "吠叫冷却 2 秒",
+            "w": 120,
+            "h": 120,
+            "font": "24px"
+          }
+        ],
+        "smallText": [],
+        "canvasLayout": {
+          "style": "width: 343.996px; height: 401.328px; margin-left: 0px; margin-top: 0px;",
+          "rect": {
+            "x": 9,
+            "y": 180.890625,
+            "width": 343.984375,
+            "height": 401.328125,
+            "top": 180.890625,
+            "right": 352.984375,
+            "bottom": 582.21875,
+            "left": 9
+          },
+          "parent": {
+            "x": 8,
+            "y": 179.890625,
+            "width": 344,
+            "height": 401.328125,
+            "top": 179.890625,
+            "right": 352,
+            "bottom": 581.21875,
+            "left": 8
+          }
+        }
+      },
+      "screenshots": [
+        "output/repair-20261027/final-running-reused/GC-03-360-first.png",
+        "output/repair-20261027/final-running-reused/GC-03-360-full.png"
+      ]
+    },
+    {
+      "game": "stack",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "zoom": 1,
+      "browser": "156.0.8078.4",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "scope": "isolated schema response + actual core-derived restored-prefix fixture; no server scoring or real device",
+      "sourceCheckpoint": 407,
+      "prefixDigest": "efe6169ab071aec18cf3cb6040f080b03b53f3ebb1cfa772a6603f853a79975a",
+      "expectedPerformance": 24,
+      "expectedStats": {
+        "success_layers": 8,
+        "perfect_layers": 4,
+        "misses": 0
+      },
+      "apiMutations": 0,
+      "errors": [],
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "\"Microsoft YaHei\", \"PingFang SC\", system-ui, sans-serif",
+        "scrollWidth": 390,
+        "tick": 411,
+        "hud": "剩余时间32秒局内表现24 /80失误0/3",
+        "feedback": "已叠稳 8 层 · 完美 4 层",
+        "canvas": [
+          {
+            "width": 360,
+            "height": 480,
+            "cssWidth": 373.984375,
+            "cssHeight": 498.65625
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "w": 48,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "静音",
+            "w": 50,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "点击放下",
+            "w": 336.59375,
+            "h": 72,
+            "font": "32px"
+          }
+        ],
+        "smallText": [],
+        "canvasLayout": {
+          "style": "width: 373.992px; height: 498.656px; margin-left: 0px; margin-top: 0px;",
+          "rect": {
+            "x": 9,
+            "y": 180.890625,
+            "width": 373.984375,
+            "height": 498.65625,
+            "top": 180.890625,
+            "right": 382.984375,
+            "bottom": 679.546875,
+            "left": 9
+          },
+          "parent": {
+            "x": 8,
+            "y": 179.890625,
+            "width": 374,
+            "height": 498.65625,
+            "top": 179.890625,
+            "right": 382,
+            "bottom": 678.546875,
+            "left": 8
+          }
+        }
+      },
+      "screenshots": [
+        "output/repair-20261027/final-running-reused/GC-01-390-first.png",
+        "output/repair-20261027/final-running-reused/GC-01-390-full.png"
+      ]
+    },
+    {
+      "game": "runner",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "zoom": 1,
+      "browser": "156.0.8078.4",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "scope": "isolated schema response + actual core-derived restored-prefix fixture; no server scoring or real device",
+      "sourceCheckpoint": 583,
+      "prefixDigest": "a835d62bba47a0a7bcd439a596e7cf1cf0892526201287d275002dce9b3b032b",
+      "expectedPerformance": 20,
+      "expectedStats": {
+        "safe_passed": 6,
+        "collision_count": 1,
+        "outer_collected": 1,
+        "inner_collected": 1
+      },
+      "apiMutations": 0,
+      "errors": [],
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "\"Microsoft YaHei\", \"PingFang SC\", system-ui, sans-serif",
+        "scrollWidth": 390,
+        "tick": 587,
+        "hud": "剩余时间26秒局内表现20 /80失误次数1",
+        "feedback": "已越栏 6 · 外圈 1 · 金芯 1",
+        "canvas": [
+          {
+            "width": 360,
+            "height": 220,
+            "cssWidth": 373.984375,
+            "cssHeight": 228.546875
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "w": 48,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "静音",
+            "w": 50,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "点击跳跃",
+            "w": 336.59375,
+            "h": 72,
+            "font": "32px"
+          }
+        ],
+        "smallText": [],
+        "canvasLayout": {
+          "style": "width: 373.986px; height: 228.547px; margin-left: 0px; margin-top: 0px;",
+          "rect": {
+            "x": 9,
+            "y": 180.890625,
+            "width": 373.984375,
+            "height": 228.546875,
+            "top": 180.890625,
+            "right": 382.984375,
+            "bottom": 409.4375,
+            "left": 9
+          },
+          "parent": {
+            "x": 8,
+            "y": 179.890625,
+            "width": 374,
+            "height": 228.546875,
+            "top": 179.890625,
+            "right": 382,
+            "bottom": 408.4375,
+            "left": 8
+          }
+        }
+      },
+      "screenshots": [
+        "output/repair-20261027/final-running-reused/GC-02-390-first.png",
+        "output/repair-20261027/final-running-reused/GC-02-390-full.png"
+      ]
+    },
+    {
+      "game": "herd",
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "zoom": 1,
+      "browser": "156.0.8078.4",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "scope": "isolated schema response + actual core-derived restored-prefix fixture; no server scoring or real device",
+      "sourceCheckpoint": 107,
+      "prefixDigest": "76578218b4578323cd517c2c8405c322495042ec369eef968f6c78d722d7e47f",
+      "expectedPerformance": 24,
+      "expectedStats": {
+        "penned_count": 4,
+        "final_goal_tick": null,
+        "time_bonus_points": 0
+      },
+      "apiMutations": 0,
+      "errors": [],
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "\"Microsoft YaHei\", \"PingFang SC\", system-ui, sans-serif",
+        "scrollWidth": 390,
+        "tick": 111,
+        "hud": "剩余时间42秒局内表现24 /80已入圈4/8",
+        "feedback": "绕到羊后方，赶它们进入上方围栏入口",
+        "canvas": [
+          {
+            "width": 360,
+            "height": 420,
+            "cssWidth": 373.984375,
+            "cssHeight": 436.328125
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "w": 48,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "静音",
+            "w": 50,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "↑← ● →↓",
+            "w": 144,
+            "h": 144,
+            "font": "24px"
+          },
+          {
+            "text": "吠叫冷却 2 秒",
+            "w": 120,
+            "h": 120,
+            "font": "24px"
+          }
+        ],
+        "smallText": [],
+        "canvasLayout": {
+          "style": "width: 373.996px; height: 436.328px; margin-left: 0px; margin-top: 0px;",
+          "rect": {
+            "x": 9,
+            "y": 180.890625,
+            "width": 373.984375,
+            "height": 436.328125,
+            "top": 180.890625,
+            "right": 382.984375,
+            "bottom": 617.21875,
+            "left": 9
+          },
+          "parent": {
+            "x": 8,
+            "y": 179.890625,
+            "width": 374,
+            "height": 436.328125,
+            "top": 179.890625,
+            "right": 382,
+            "bottom": 616.21875,
+            "left": 8
+          }
+        }
+      },
+      "screenshots": [
+        "output/repair-20261027/final-running-reused/GC-03-390-first.png",
+        "output/repair-20261027/final-running-reused/GC-03-390-full.png"
+      ]
+    },
+    {
+      "game": "stack",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "zoom": 1,
+      "browser": "156.0.8078.4",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "scope": "isolated schema response + actual core-derived restored-prefix fixture; no server scoring or real device",
+      "sourceCheckpoint": 407,
+      "prefixDigest": "efe6169ab071aec18cf3cb6040f080b03b53f3ebb1cfa772a6603f853a79975a",
+      "expectedPerformance": 24,
+      "expectedStats": {
+        "success_layers": 8,
+        "perfect_layers": 4,
+        "misses": 0
+      },
+      "apiMutations": 0,
+      "errors": [],
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "\"Microsoft YaHei\", \"PingFang SC\", system-ui, sans-serif",
+        "scrollWidth": 430,
+        "tick": 411,
+        "hud": "剩余时间32秒局内表现24 /80失误0/3",
+        "feedback": "已叠稳 8 层 · 完美 4 层",
+        "canvas": [
+          {
+            "width": 360,
+            "height": 480,
+            "cssWidth": 414,
+            "cssHeight": 552
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "w": 48,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "静音",
+            "w": 50,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "点击放下",
+            "w": 372.59375,
+            "h": 72,
+            "font": "32px"
+          }
+        ],
+        "smallText": [],
+        "canvasLayout": {
+          "style": "width: 414px; height: 552px; margin-left: 0px; margin-top: 0px;",
+          "rect": {
+            "x": 9,
+            "y": 180.890625,
+            "width": 414,
+            "height": 552,
+            "top": 180.890625,
+            "right": 423,
+            "bottom": 732.890625,
+            "left": 9
+          },
+          "parent": {
+            "x": 8,
+            "y": 179.890625,
+            "width": 414,
+            "height": 552,
+            "top": 179.890625,
+            "right": 422,
+            "bottom": 731.890625,
+            "left": 8
+          }
+        }
+      },
+      "screenshots": [
+        "output/repair-20261027/final-running-reused/GC-01-430-first.png",
+        "output/repair-20261027/final-running-reused/GC-01-430-full.png"
+      ]
+    },
+    {
+      "game": "runner",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "zoom": 1,
+      "browser": "156.0.8078.4",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "scope": "isolated schema response + actual core-derived restored-prefix fixture; no server scoring or real device",
+      "sourceCheckpoint": 583,
+      "prefixDigest": "a835d62bba47a0a7bcd439a596e7cf1cf0892526201287d275002dce9b3b032b",
+      "expectedPerformance": 20,
+      "expectedStats": {
+        "safe_passed": 6,
+        "collision_count": 1,
+        "outer_collected": 1,
+        "inner_collected": 1
+      },
+      "apiMutations": 0,
+      "errors": [],
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "\"Microsoft YaHei\", \"PingFang SC\", system-ui, sans-serif",
+        "scrollWidth": 430,
+        "tick": 587,
+        "hud": "剩余时间26秒局内表现20 /80失误次数1",
+        "feedback": "已越栏 6 · 外圈 1 · 金芯 1",
+        "canvas": [
+          {
+            "width": 360,
+            "height": 220,
+            "cssWidth": 414,
+            "cssHeight": 253
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "w": 48,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "静音",
+            "w": 50,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "点击跳跃",
+            "w": 372.59375,
+            "h": 72,
+            "font": "32px"
+          }
+        ],
+        "smallText": [],
+        "canvasLayout": {
+          "style": "width: 414px; height: 253px; margin-left: 0px; margin-top: 0px;",
+          "rect": {
+            "x": 9,
+            "y": 180.890625,
+            "width": 414,
+            "height": 253,
+            "top": 180.890625,
+            "right": 423,
+            "bottom": 433.890625,
+            "left": 9
+          },
+          "parent": {
+            "x": 8,
+            "y": 179.890625,
+            "width": 414,
+            "height": 253,
+            "top": 179.890625,
+            "right": 422,
+            "bottom": 432.890625,
+            "left": 8
+          }
+        }
+      },
+      "screenshots": [
+        "output/repair-20261027/final-running-reused/GC-02-430-first.png",
+        "output/repair-20261027/final-running-reused/GC-02-430-full.png"
+      ]
+    },
+    {
+      "game": "herd",
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "zoom": 1,
+      "browser": "156.0.8078.4",
+      "build": {
+        "rule_version": "onsite-v2.1-candidate",
+        "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+        "simulator_version": "sheep-core-2.2.0",
+        "client_version": "sheep-web-2.2.0"
+      },
+      "scope": "isolated schema response + actual core-derived restored-prefix fixture; no server scoring or real device",
+      "sourceCheckpoint": 107,
+      "prefixDigest": "76578218b4578323cd517c2c8405c322495042ec369eef968f6c78d722d7e47f",
+      "expectedPerformance": 24,
+      "expectedStats": {
+        "penned_count": 4,
+        "final_goal_tick": null,
+        "time_bonus_points": 0
+      },
+      "apiMutations": 0,
+      "errors": [],
+      "metrics": {
+        "dpr": 1,
+        "zoom": 1,
+        "fontReady": "loaded",
+        "font": "\"Microsoft YaHei\", \"PingFang SC\", system-ui, sans-serif",
+        "scrollWidth": 430,
+        "tick": 111,
+        "hud": "剩余时间42秒局内表现24 /80已入圈4/8",
+        "feedback": "绕到羊后方，赶它们进入上方围栏入口",
+        "canvas": [
+          {
+            "width": 360,
+            "height": 420,
+            "cssWidth": 414,
+            "cssHeight": 483
+          }
+        ],
+        "controls": [
+          {
+            "text": "‹",
+            "w": 48,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "静音",
+            "w": 50,
+            "h": 48,
+            "font": "16px"
+          },
+          {
+            "text": "↑← ● →↓",
+            "w": 144,
+            "h": 144,
+            "font": "24px"
+          },
+          {
+            "text": "吠叫冷却 2 秒",
+            "w": 120,
+            "h": 120,
+            "font": "24px"
+          }
+        ],
+        "smallText": [],
+        "canvasLayout": {
+          "style": "width: 414px; height: 483px; margin-left: 0px; margin-top: 0px;",
+          "rect": {
+            "x": 9,
+            "y": 180.890625,
+            "width": 414,
+            "height": 483,
+            "top": 180.890625,
+            "right": 423,
+            "bottom": 663.890625,
+            "left": 9
+          },
+          "parent": {
+            "x": 8,
+            "y": 179.890625,
+            "width": 414,
+            "height": 483,
+            "top": 179.890625,
+            "right": 422,
+            "bottom": 662.890625,
+            "left": 8
+          }
+        }
+      },
+      "screenshots": [
+        "output/repair-20261027/final-running-reused/GC-03-430-first.png",
+        "output/repair-20261027/final-running-reused/GC-03-430-full.png"
+      ]
+    }
+  ]
+}

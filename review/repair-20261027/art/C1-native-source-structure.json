@@ -1,0 +1,475 @@
+{
+  "status": "NATIVE_EDITABLE_C1_PENDING_REVIEW",
+  "blender": "4.5.9 LTS",
+  "production_art_accepted": false,
+  "records": [
+    {
+      "actor": "sheep",
+      "mother": "art-source/v4/sheep_master_v4.blend",
+      "mother_sha256": "7765ce56713b562be5003fa7bdad78feb073f1c49d9ec485b4f33825095aa325",
+      "objects": 429,
+      "actions_retained": 66,
+      "active_collection": "CHAR_SHEEP",
+      "active_body_lobes": 62,
+      "old_body_lobes_retained_hidden": 190,
+      "active_head_lobes": 21,
+      "active_hair_systems": 95,
+      "collections": [
+        "CAMERAS",
+        "CHAR_DOG",
+        "CHAR_SHEEP",
+        "Collection",
+        "ENV_FARM",
+        "LIGHTS",
+        "RIGS"
+      ],
+      "objects_examined": [
+        {
+          "name": "body_wool",
+          "type": "MESH",
+          "parent": "sheep_body_ctrl",
+          "location": [
+            0.0,
+            -0.07999999821186066,
+            0.5699999928474426
+          ],
+          "scale": [
+            0.4399999976158142,
+            0.4050000011920929,
+            0.41999998688697815
+          ],
+          "vertices": 222,
+          "materials": [
+            "wool"
+          ]
+        },
+        {
+          "name": "face",
+          "type": "MESH",
+          "parent": "sheep_head_ctrl",
+          "location": [
+            0.0,
+            0.5350000262260437,
+            0.9399999976158142
+          ],
+          "scale": [
+            0.3400000035762787,
+            0.23499999940395355,
+            0.3100000023841858
+          ],
+          "vertices": 222,
+          "materials": [
+            "face"
+          ]
+        },
+        {
+          "name": "head_wool",
+          "type": "MESH",
+          "parent": "sheep_head_ctrl",
+          "location": [
+            0.0,
+            0.30000001192092896,
+            0.9599999785423279
+          ],
+          "scale": [
+            0.38999998569488525,
+            0.3149999976158142,
+            0.3400000035762787
+          ],
+          "vertices": 222,
+          "materials": [
+            "wool"
+          ]
+        },
+        {
+          "name": "sheep_head_ctrl",
+          "type": "EMPTY",
+          "parent": "sheep_body_ctrl",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "sheep_body_ctrl",
+          "type": "EMPTY",
+          "parent": "sheep_root",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "horn_curl_1",
+          "type": "CURVE",
+          "parent": "sheep_head_ctrl",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "splines": 1,
+          "bevel_depth": 0.0860000029206276,
+          "caps": true,
+          "points": 39
+        },
+        {
+          "name": "dog_body",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.0,
+            -0.10000000149011612,
+            0.5400000214576721
+          ],
+          "scale": [
+            0.25999999046325684,
+            0.47999998927116394,
+            0.28999999165534973
+          ],
+          "vertices": 222,
+          "materials": [
+            "dog_brown"
+          ]
+        },
+        {
+          "name": "dog_head",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.0,
+            0.3499999940395355,
+            0.9100000262260437
+          ],
+          "scale": [
+            0.24500000476837158,
+            0.23999999463558197,
+            0.25
+          ],
+          "vertices": 222,
+          "materials": [
+            "dog_brown"
+          ]
+        },
+        {
+          "name": "dog_chest",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.0,
+            0.2199999988079071,
+            0.5699999928474426
+          ],
+          "scale": [
+            0.2800000011920929,
+            0.2199999988079071,
+            0.33000001311302185
+          ],
+          "vertices": 222,
+          "materials": [
+            "dog_cream"
+          ]
+        },
+        {
+          "name": "dog_body_ctrl",
+          "type": "EMPTY",
+          "parent": "dog_root",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "side_v1",
+          "type": "CAMERA",
+          "parent": null,
+          "location": [
+            0.0,
+            -8.0,
+            1.399999976158142
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "ortho_scale": 4.0
+        },
+        {
+          "name": "iso8_v1",
+          "type": "CAMERA",
+          "parent": null,
+          "location": [
+            0.0,
+            -6.0,
+            6.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "ortho_scale": 4.5714287757873535
+        }
+      ],
+      "stack_pose_source": "art-source/repair_masters_v4.py:pose_v4; controller/head/leg articulation + uniform root scale; new action baking waits production authorization"
+    },
+    {
+      "actor": "dog",
+      "mother": "art-source/v4/dog_master_v4.blend",
+      "mother_sha256": "b962a972c2d348dcd14eb553e93f11678beb11dd6cc294a9b1b8c4fa79ae9583",
+      "objects": 163,
+      "actions_retained": 84,
+      "active_collection": "CHAR_DOG",
+      "active_body_lobes": 0,
+      "old_body_lobes_retained_hidden": 0,
+      "active_head_lobes": 0,
+      "active_hair_systems": 20,
+      "collections": [
+        "CAMERAS",
+        "CHAR_DOG",
+        "CHAR_SHEEP",
+        "Collection",
+        "ENV_FARM",
+        "LIGHTS",
+        "RIGS"
+      ],
+      "objects_examined": [
+        {
+          "name": "body_wool",
+          "type": "MESH",
+          "parent": "sheep_body_ctrl",
+          "location": [
+            0.0,
+            -0.05999999865889549,
+            0.6800000071525574
+          ],
+          "scale": [
+            0.41999998688697815,
+            0.550000011920929,
+            0.4699999988079071
+          ],
+          "vertices": 222,
+          "materials": [
+            "wool"
+          ]
+        },
+        {
+          "name": "face",
+          "type": "MESH",
+          "parent": "sheep_head_ctrl",
+          "location": [
+            0.0,
+            0.546999990940094,
+            1.0199999809265137
+          ],
+          "scale": [
+            0.2840000092983246,
+            0.20499999821186066,
+            0.2849999964237213
+          ],
+          "vertices": 222,
+          "materials": [
+            "face"
+          ]
+        },
+        {
+          "name": "head_wool",
+          "type": "MESH",
+          "parent": "sheep_head_ctrl",
+          "location": [
+            0.0,
+            0.36000001430511475,
+            1.0499999523162842
+          ],
+          "scale": [
+            0.3700000047683716,
+            0.3100000023841858,
+            0.3499999940395355
+          ],
+          "vertices": 222,
+          "materials": [
+            "wool"
+          ]
+        },
+        {
+          "name": "sheep_head_ctrl",
+          "type": "EMPTY",
+          "parent": "sheep_body_ctrl",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "sheep_body_ctrl",
+          "type": "EMPTY",
+          "parent": "sheep_root",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "horn_curl_1",
+          "type": "CURVE",
+          "parent": "sheep_head_ctrl",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "splines": 1,
+          "bevel_depth": 0.061000000685453415,
+          "caps": false,
+          "points": 14
+        },
+        {
+          "name": "dog_body",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.0,
+            -0.09000000357627869,
+            0.5199999809265137
+          ],
+          "scale": [
+            0.30000001192092896,
+            0.4300000071525574,
+            0.30000001192092896
+          ],
+          "vertices": 222,
+          "materials": [
+            "dog_brown"
+          ]
+        },
+        {
+          "name": "dog_head",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.0,
+            0.3400000035762787,
+            0.8700000047683716
+          ],
+          "scale": [
+            0.28999999165534973,
+            0.2549999952316284,
+            0.26499998569488525
+          ],
+          "vertices": 222,
+          "materials": [
+            "dog_brown"
+          ]
+        },
+        {
+          "name": "dog_chest",
+          "type": "MESH",
+          "parent": "dog_body_ctrl",
+          "location": [
+            0.0,
+            0.23000000417232513,
+            0.5600000023841858
+          ],
+          "scale": [
+            0.32499998807907104,
+            0.23999999463558197,
+            0.3199999928474426
+          ],
+          "vertices": 222,
+          "materials": [
+            "dog_cream"
+          ]
+        },
+        {
+          "name": "dog_body_ctrl",
+          "type": "EMPTY",
+          "parent": "dog_root",
+          "location": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "side_v1",
+          "type": "CAMERA",
+          "parent": null,
+          "location": [
+            0.0,
+            -8.0,
+            1.399999976158142
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "ortho_scale": 4.0
+        },
+        {
+          "name": "iso8_v1",
+          "type": "CAMERA",
+          "parent": null,
+          "location": [
+            0.0,
+            -6.0,
+            6.0
+          ],
+          "scale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "ortho_scale": 4.5714287757873535
+        }
+      ],
+      "stack_pose_source": "art-source/repair_masters_v4.py:pose_v4; controller/head/leg articulation + uniform root scale; new action baking waits production authorization"
+    }
+  ]
+}
