@@ -1,0 +1,21 @@
+{
+  "time_utc": "2026-10-28T10:49:59.189511+00:00",
+  "baseline_dirty_count": 5504,
+  "missing": [],
+  "changed_only_snapshotted_stage_docs": [
+    "README.md",
+    "docs/current-handoff.md",
+    "docs/implementation-log.md",
+    "docs/releases/release-notes.md",
+    "docs/test-report.md",
+    "planning/PROJECT_STATE.json"
+  ],
+  "original_49_runtime_fingerprints_unchanged": true,
+  "main_head_unchanged": true,
+  "main_index_unchanged": true,
+  "original_stage_doc_snapshots_exact": true,
+  "prior_project_state_semantics_preserved": true,
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "S3": "NOT_READY"
+}

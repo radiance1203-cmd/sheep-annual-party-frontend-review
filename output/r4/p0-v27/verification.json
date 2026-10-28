@@ -1,0 +1,51 @@
+{
+  "time_utc": "2026-10-28T10:59:10.380455+00:00",
+  "stage": "P0_FINITE_PROGRESS_NOT_ART_ACCEPTANCE",
+  "native_masters_reopened": 3,
+  "original_six_unchanged": true,
+  "protected_face_short_legs_preserved": true,
+  "original_cameras_action_datablocks_preserved": true,
+  "animation_acceptance": false,
+  "original_49_runtime_fingerprints_unchanged": true,
+  "baseline_dirty_count": 5504,
+  "existing_missing": [],
+  "changed_only_snapshotted_stage_docs": [
+    "README.md",
+    "docs/current-handoff.md",
+    "docs/implementation-log.md",
+    "docs/releases/release-notes.md",
+    "docs/test-report.md",
+    "planning/PROJECT_STATE.json"
+  ],
+  "main_head_unchanged": true,
+  "main_index_unchanged": true,
+  "reference_hashes_unchanged": true,
+  "crop_overflow": false,
+  "stack_alpha_world_size": [
+    46.0,
+    36.857142857142854
+  ],
+  "stack_width_to_112_tray": 0.4107142857142857,
+  "original_mapping_coefficient": 0.2857142857142857,
+  "layout": [
+    {
+      "game": "stack",
+      "same_layout_and_world": true
+    },
+    {
+      "game": "runner",
+      "same_layout_and_world": true
+    },
+    {
+      "game": "herd",
+      "same_layout_and_world": true
+    }
+  ],
+  "screens": 6,
+  "api_writes": 0,
+  "mixed_static_provenance": "v27 stack + v24 dog n/se; runner and sheep iso remain v15",
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "S3": "NOT_READY",
+  "B_approved": false
+}

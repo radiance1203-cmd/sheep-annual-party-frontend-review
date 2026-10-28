@@ -1,3 +1,9 @@
+# R4当前继续绑定（非艺术批准）
+
+[当前P0报告](r4-p0-progress.md) · [原会话精简绑定](r4-live-handoff.md)。羊/叠高v27、犬v24；sample/production=false、S3 NOT_READY、B未批准。其他项目保持暂停。
+
+---
+
 # R4 v15进度已保存，继续P0
 
 样张/生产false、S3 NOT_READY；用户未签认，不等待接受失败样板。先读[当前精简绑定](r4-live-handoff.md)、[实际报告](r4-native-shape-report.md)、[量化基线](../review/r4/measurements/SHAPE_BASELINE.md)。安全同步后在本会话继续团坐与犬尾的少量低成本预览，保留脸和短腿。

@@ -1,0 +1,262 @@
+{
+  "scope": "MIXED_FINITE_STATIC_PROBE: v27 stack + v24 dog n/se; v15 runner/sheep iso retained. Single still per key; not new atlas or full animation.",
+  "samples": [
+    {
+      "label": "stack_e",
+      "atlas": "sheep_stack_candidate",
+      "animation_key": "stack_idle.e",
+      "file": "output/r4/p0-v27/static/stack_e.png",
+      "sha256": "111155d44c669885631ac3af9f109e30f1ce70f2e1b0dffc27074135573dcdf9",
+      "source_png": "output/r4/v27-probe/stack_crouch_e.png",
+      "source_sha256": "d74b9739c77730ccc76daa52c8fcdd4ccaf5aa56a25237b037e8faa30f5218c9",
+      "size": [
+        192,
+        136
+      ],
+      "pivot": [
+        88,
+        130
+      ],
+      "static_only": true,
+      "revision": "v27 crouch/cloth"
+    },
+    {
+      "label": "runner_e",
+      "atlas": "r3_sheep_side",
+      "animation_key": "idle.e",
+      "file": "output/r4/p0-v27/static/runner_e.png",
+      "sha256": "e8206dfc48fb18c431f4dbaa2536fd898c1ddadf79cfe3f153f54d88ec81ba4b",
+      "source_png": "output/r4/v15/runner_e.png",
+      "source_sha256": "bc9e5646cf3cdf43735bd4b83d8bb6e15c92dea3495fe82209c7049499fbe17b",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "static_only": true,
+      "revision": "v15 retained baseline"
+    },
+    {
+      "label": "herd_sheep_n",
+      "atlas": "r3_sheep_iso8",
+      "animation_key": "idle.n",
+      "file": "output/r4/p0-v27/static/herd_sheep_n.png",
+      "sha256": "3d5f1efea54377b6daee25d8e4cd8005d658154a806e005ce7c08bb23f18d9d4",
+      "source_png": "output/r4/v15/herd_sheep_n.png",
+      "source_sha256": "2f9354c0f786be16d0b067b4f5046d358a3d774242598b13a482fc2942424f1a",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "static_only": true,
+      "revision": "v15 retained baseline"
+    },
+    {
+      "label": "herd_sheep_se",
+      "atlas": "r3_sheep_iso8",
+      "animation_key": "idle.se",
+      "file": "output/r4/p0-v27/static/herd_sheep_se.png",
+      "sha256": "c17816ece8f3c3e36ef2b1ba83c9a309143d1e75c27e8ab0634b1e663613550c",
+      "source_png": "output/r4/v15/herd_sheep_se.png",
+      "source_sha256": "2cb5d42f2d7659abf52efcb676753ee9a40522a8cd393f9011a5d5b5f3933601",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "static_only": true,
+      "revision": "v15 retained baseline"
+    },
+    {
+      "label": "herd_dog_n",
+      "atlas": "r3_dog_iso8",
+      "animation_key": "idle.n",
+      "file": "output/r4/p0-v27/static/herd_dog_n.png",
+      "sha256": "c93c72e80b9273ace8cffef2eebf23c7e74240d69525be4f97baa8342ab51984",
+      "source_png": "output/r4/v24-probe/dog_tail_n.png",
+      "source_sha256": "af7c1d1b37d489a2ab4a90fb15d58e04d41cebea5fbab53d32a5d165174c6fc2",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "static_only": true,
+      "revision": "v24 tail"
+    },
+    {
+      "label": "herd_dog_se",
+      "atlas": "r3_dog_iso8",
+      "animation_key": "idle.se",
+      "file": "output/r4/p0-v27/static/herd_dog_se.png",
+      "sha256": "067354e6d44788d473eb06f563d7de1ade052a88c4994de6329aa172b35377e9",
+      "source_png": "output/r4/v24-probe/dog_tail_se.png",
+      "source_sha256": "201d8f264e944e45234058dfbc18906f10b6d0368f1e1025cb7e512b34268687",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "static_only": true,
+      "revision": "v24 tail"
+    }
+  ],
+  "measurements": [
+    {
+      "label": "stack_e",
+      "source": "output/r4/v27-probe/stack_crouch_e.png",
+      "source_alpha": [
+        177,
+        132,
+        338,
+        261
+      ],
+      "common_crop": [
+        168,
+        130,
+        360,
+        266
+      ],
+      "crop_overflow": false,
+      "world_scale_per_native_pixel": 0.2857142857142857,
+      "alpha_world_size": [
+        46.0,
+        36.857142857142854
+      ],
+      "mapping_changed": false
+    },
+    {
+      "label": "runner_e",
+      "source": "output/r4/v15/runner_e.png",
+      "source_alpha": [
+        171,
+        74,
+        363,
+        262
+      ],
+      "common_crop": [
+        128,
+        32,
+        384,
+        288
+      ],
+      "crop_overflow": false,
+      "world_scale_per_native_pixel": 0.21875,
+      "alpha_world_size": [
+        42.0,
+        41.125
+      ],
+      "mapping_changed": false
+    },
+    {
+      "label": "herd_sheep_n",
+      "source": "output/r4/v15/herd_sheep_n.png",
+      "source_alpha": [
+        189,
+        89,
+        323,
+        280
+      ],
+      "common_crop": [
+        128,
+        60,
+        384,
+        316
+      ],
+      "crop_overflow": false,
+      "world_scale_per_native_pixel": 0.21484375,
+      "alpha_world_size": [
+        28.7890625,
+        41.03515625
+      ],
+      "mapping_changed": false
+    },
+    {
+      "label": "herd_sheep_se",
+      "source": "output/r4/v15/herd_sheep_se.png",
+      "source_alpha": [
+        191,
+        151,
+        341,
+        283
+      ],
+      "common_crop": [
+        128,
+        60,
+        384,
+        316
+      ],
+      "crop_overflow": false,
+      "world_scale_per_native_pixel": 0.21484375,
+      "alpha_world_size": [
+        32.2265625,
+        28.359375
+      ],
+      "mapping_changed": false
+    },
+    {
+      "label": "herd_dog_n",
+      "source": "output/r4/v24-probe/dog_tail_n.png",
+      "source_alpha": [
+        179,
+        113,
+        289,
+        288
+      ],
+      "common_crop": [
+        128,
+        60,
+        384,
+        316
+      ],
+      "crop_overflow": false,
+      "world_scale_per_native_pixel": 0.28125,
+      "alpha_world_size": [
+        30.9375,
+        49.21875
+      ],
+      "mapping_changed": false
+    },
+    {
+      "label": "herd_dog_se",
+      "source": "output/r4/v24-probe/dog_tail_se.png",
+      "source_alpha": [
+        193,
+        108,
+        336,
+        288
+      ],
+      "common_crop": [
+        128,
+        60,
+        384,
+        316
+      ],
+      "crop_overflow": false,
+      "world_scale_per_native_pixel": 0.28125,
+      "alpha_world_size": [
+        40.21875,
+        50.625
+      ],
+      "mapping_changed": false
+    }
+  ],
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "S3": "NOT_READY"
+}

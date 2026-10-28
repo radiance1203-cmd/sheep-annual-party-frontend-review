@@ -1,0 +1,21 @@
+{
+  "source": "art-source/r4/v27/clear/sheep_probe.blend",
+  "source_sha256": "75abda2069da9561047e33ad0fd50f914f2b5f241cfb6ac638474ddd4f8069d4",
+  "path": "output/r4/p0-v27/cloth-detail-review-only.png",
+  "sha256": "b5837544122f8d74ad69f3cdccc367947a20af23718dd720ea554a7b7b1ee139",
+  "seconds": 29.140137434005737,
+  "review_camera_only": true,
+  "game_camera_changed": false,
+  "source_saved": false,
+  "resolution": [
+    768,
+    768
+  ],
+  "ortho_scale": 0.7,
+  "center": [
+    -0.012491549365222454,
+    -0.2696476876735687,
+    0.7923230528831482
+  ],
+  "art_acceptance": false
+}

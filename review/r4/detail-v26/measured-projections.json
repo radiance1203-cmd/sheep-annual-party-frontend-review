@@ -1,0 +1,713 @@
+[
+  {
+    "version": "target-v26",
+    "actual_revision": "v26",
+    "actor": "sheep",
+    "view": "front",
+    "path": "review/r4/detail-v26/target-v26-front-ids.png",
+    "source": "art-source/r4/v26/sheep_target.blend",
+    "source_sha256": "c825cfcd47c2b5f24d64d09716c8ad2448b3bd9616075d387118d2c509b59577",
+    "seconds": 1.767,
+    "camera": {
+      "location": [
+        0.0,
+        -6.0,
+        2.25
+      ],
+      "rotation": [
+        1.3211174011230469,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.9500000476837158
+    },
+    "landmarks": {
+      "horn_root_-1": [
+        355.518,
+        169.85
+      ],
+      "ear_-1": [
+        351.836,
+        223.332
+      ],
+      "eye_-1": [
+        298.01,
+        235.186
+      ],
+      "horn_root_1": [
+        156.482,
+        169.85
+      ],
+      "ear_1": [
+        160.164,
+        223.332
+      ],
+      "eye_1": [
+        213.99,
+        235.186
+      ],
+      "nose": [
+        256.0,
+        253.733
+      ]
+    },
+    "sole_points": [
+      {
+        "name": "hoof",
+        "screen": [
+          329.518,
+          417.647
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.001",
+        "screen": [
+          311.138,
+          446.842
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.002",
+        "screen": [
+          182.482,
+          417.647
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.003",
+        "screen": [
+          200.862,
+          446.842
+        ],
+        "world_bottom_z": 0.022000011056661606
+      }
+    ],
+    "geometry_edited": false,
+    "preview": "flat object IDs; fine fibers suppressed for shape inspection only",
+    "reference_comparison": "2D projection only; original reference camera/scale/depth unknown",
+    "metrics": {
+      "alpha_bbox": [
+        100,
+        95,
+        412,
+        451
+      ],
+      "H": 356,
+      "parts": {
+        "face": {
+          "bbox": [
+            170,
+            170,
+            342,
+            297
+          ],
+          "width": 172,
+          "height": 127,
+          "area": 15065,
+          "components": []
+        },
+        "body": {
+          "bbox": [
+            121,
+            240,
+            390,
+            414
+          ],
+          "width": 269,
+          "height": 174,
+          "area": 24249,
+          "components": []
+        },
+        "head": {
+          "bbox": [
+            136,
+            97,
+            375,
+            298
+          ],
+          "width": 239,
+          "height": 201,
+          "area": 15993,
+          "components": []
+        },
+        "horn": {
+          "bbox": [
+            101,
+            144,
+            411,
+            237
+          ],
+          "width": 310,
+          "height": 93,
+          "area": 9837,
+          "components": []
+        },
+        "hoof": {
+          "bbox": [
+            163,
+            402,
+            349,
+            450
+          ],
+          "width": 186,
+          "height": 48,
+          "area": 1725,
+          "components": [
+            {
+              "bbox": [
+                182,
+                431,
+                220,
+                450
+              ],
+              "area": 575,
+              "height": 19,
+              "width": 38
+            },
+            {
+              "bbox": [
+                292,
+                431,
+                330,
+                450
+              ],
+              "area": 573,
+              "height": 19,
+              "width": 38
+            },
+            {
+              "bbox": [
+                329,
+                402,
+                349,
+                421
+              ],
+              "area": 289,
+              "height": 19,
+              "width": 20
+            },
+            {
+              "bbox": [
+                163,
+                402,
+                183,
+                421
+              ],
+              "area": 288,
+              "height": 19,
+              "width": 20
+            }
+          ]
+        }
+      },
+      "face_aspect": 1.3543307086614174,
+      "face_width_over_body_width": 0.6394052044609665,
+      "eye_spacing_over_face_width": 0.48848837209302315,
+      "nose_eye_vertical_over_face_height": 0.14603937007874013,
+      "physical_leg_masks": [
+        {
+          "physical_id": 60,
+          "bbox": [
+            335,
+            380,
+            346,
+            404
+          ],
+          "area": 104,
+          "height": 24
+        },
+        {
+          "physical_id": 85,
+          "bbox": [
+            294,
+            410,
+            328,
+            433
+          ],
+          "area": 625,
+          "height": 23
+        },
+        {
+          "physical_id": 103,
+          "bbox": [
+            166,
+            386,
+            178,
+            404
+          ],
+          "area": 83,
+          "height": 18
+        },
+        {
+          "physical_id": 118,
+          "bbox": [
+            184,
+            411,
+            218,
+            433
+          ],
+          "area": 630,
+          "height": 22
+        }
+      ],
+      "max_single_visible_leg_px": 24,
+      "max_single_visible_leg_over_H": 0.06741573033707865,
+      "leg_measurement_method": "physical object IDs; not merged connected silhouettes"
+    }
+  },
+  {
+    "version": "target-v26",
+    "actual_revision": "v26",
+    "actor": "sheep",
+    "view": "quarter",
+    "path": "review/r4/detail-v26/target-v26-quarter-ids.png",
+    "source": "art-source/r4/v26/sheep_target.blend",
+    "source_sha256": "c825cfcd47c2b5f24d64d09716c8ad2448b3bd9616075d387118d2c509b59577",
+    "seconds": 0.466,
+    "camera": {
+      "location": [
+        0.0,
+        -6.0,
+        2.25
+      ],
+      "rotation": [
+        1.3211174011230469,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.9500000476837158
+    },
+    "landmarks": {
+      "horn_root_-1": [
+        431.449,
+        141.707
+      ],
+      "ear_-1": [
+        383.178,
+        200.507
+      ],
+      "eye_-1": [
+        422.723,
+        213.822
+      ],
+      "horn_root_1": [
+        290.71,
+        176.483
+      ],
+      "ear_1": [
+        247.645,
+        233.996
+      ],
+      "eye_1": [
+        363.312,
+        228.502
+      ],
+      "nose": [
+        406.777,
+        238.301
+      ]
+    },
+    "sole_points": [
+      {
+        "name": "hoof",
+        "screen": [
+          262.37,
+          409.471
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.001",
+        "screen": [
+          332.921,
+          433.326
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.002",
+        "screen": [
+          158.4,
+          435.161
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.003",
+        "screen": [
+          254.943,
+          452.594
+        ],
+        "world_bottom_z": 0.022000011056661606
+      }
+    ],
+    "geometry_edited": false,
+    "preview": "flat object IDs; fine fibers suppressed for shape inspection only",
+    "reference_comparison": "2D projection only; original reference camera/scale/depth unknown",
+    "metrics": {
+      "alpha_bbox": [
+        108,
+        81,
+        454,
+        457
+      ],
+      "H": 376,
+      "parts": {
+        "face": {
+          "bbox": [
+            269,
+            160,
+            423,
+            288
+          ],
+          "width": 154,
+          "height": 128,
+          "area": 11406,
+          "components": []
+        },
+        "body": {
+          "bbox": [
+            109,
+            178,
+            366,
+            418
+          ],
+          "width": 257,
+          "height": 240,
+          "area": 32985,
+          "components": []
+        },
+        "head": {
+          "bbox": [
+            218,
+            82,
+            431,
+            290
+          ],
+          "width": 213,
+          "height": 208,
+          "area": 15328,
+          "components": []
+        },
+        "horn": {
+          "bbox": [
+            220,
+            114,
+            453,
+            249
+          ],
+          "width": 233,
+          "height": 135,
+          "area": 8063,
+          "components": []
+        },
+        "hoof": {
+          "bbox": [
+            139,
+            418,
+            352,
+            456
+          ],
+          "width": 213,
+          "height": 38,
+          "area": 1719,
+          "components": [
+            {
+              "bbox": [
+                139,
+                419,
+                178,
+                439
+              ],
+              "area": 575,
+              "height": 20,
+              "width": 39
+            },
+            {
+              "bbox": [
+                314,
+                418,
+                352,
+                437
+              ],
+              "area": 574,
+              "height": 19,
+              "width": 38
+            },
+            {
+              "bbox": [
+                236,
+                437,
+                274,
+                456
+              ],
+              "area": 570,
+              "height": 19,
+              "width": 38
+            }
+          ]
+        }
+      },
+      "face_aspect": 1.203125,
+      "face_width_over_body_width": 0.5992217898832685,
+      "eye_spacing_over_face_width": 0.3857857142857143,
+      "nose_eye_vertical_over_face_height": 0.13389843749999986,
+      "physical_leg_masks": [
+        {
+          "physical_id": 85,
+          "bbox": [
+            315,
+            396,
+            350,
+            420
+          ],
+          "area": 653,
+          "height": 24
+        },
+        {
+          "physical_id": 103,
+          "bbox": [
+            140,
+            397,
+            175,
+            422
+          ],
+          "area": 696,
+          "height": 25
+        },
+        {
+          "physical_id": 118,
+          "bbox": [
+            236,
+            415,
+            272,
+            439
+          ],
+          "area": 657,
+          "height": 24
+        }
+      ],
+      "max_single_visible_leg_px": 25,
+      "max_single_visible_leg_over_H": 0.06648936170212766,
+      "leg_measurement_method": "physical object IDs; not merged connected silhouettes"
+    }
+  },
+  {
+    "version": "target-v26",
+    "actual_revision": "v26",
+    "actor": "stack",
+    "view": "stack",
+    "path": "review/r4/detail-v26/target-v26-stack-ids.png",
+    "source": "art-source/r4/v26/stack_target.blend",
+    "source_sha256": "ff85841efd426efec38e112df4cc255ca9bbc61dc45b5a217b0ed548dbc288bc",
+    "seconds": 0.438,
+    "camera": {
+      "location": [
+        0.0,
+        -8.0,
+        1.399999976158142
+      ],
+      "rotation": [
+        1.3975508213043213,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.0
+    },
+    "landmarks": {
+      "horn_root_-1": [
+        322.214,
+        163.682
+      ],
+      "ear_-1": [
+        306.128,
+        191.458
+      ],
+      "eye_-1": [
+        309.873,
+        193.954
+      ],
+      "horn_root_1": [
+        244.066,
+        171.459
+      ],
+      "ear_1": [
+        230.871,
+        198.948
+      ],
+      "eye_1": [
+        276.884,
+        197.238
+      ],
+      "nose": [
+        297.789,
+        203.245
+      ]
+    },
+    "sole_points": [
+      {
+        "name": "hoof",
+        "screen": [
+          232.11,
+          247.686
+        ],
+        "world_bottom_z": 0.02200000360608101
+      },
+      {
+        "name": "hoof.001",
+        "screen": [
+          279.726,
+          248.917
+        ],
+        "world_bottom_z": 0.021999981254339218
+      },
+      {
+        "name": "hoof.002",
+        "screen": [
+          232.11,
+          258.767
+        ],
+        "world_bottom_z": 0.02200000360608101
+      },
+      {
+        "name": "hoof.003",
+        "screen": [
+          279.726,
+          257.536
+        ],
+        "world_bottom_z": 0.021999981254339218
+      }
+    ],
+    "geometry_edited": false,
+    "preview": "flat object IDs; fine fibers suppressed for shape inspection only",
+    "reference_comparison": "2D projection only; original reference camera/scale/depth unknown",
+    "metrics": {
+      "alpha_bbox": [
+        178,
+        134,
+        338,
+        261
+      ],
+      "H": 127,
+      "parts": {
+        "face": {
+          "bbox": [
+            248,
+            168,
+            315,
+            226
+          ],
+          "width": 67,
+          "height": 58,
+          "area": 2664,
+          "components": []
+        },
+        "body": {
+          "bbox": [
+            194,
+            146,
+            295,
+            253
+          ],
+          "width": 101,
+          "height": 107,
+          "area": 3135,
+          "components": []
+        },
+        "head": {
+          "bbox": [
+            217,
+            135,
+            319,
+            221
+          ],
+          "width": 102,
+          "height": 86,
+          "area": 2774,
+          "components": []
+        },
+        "horn": {
+          "bbox": [
+            213,
+            153,
+            336,
+            204
+          ],
+          "width": 123,
+          "height": 51,
+          "area": 1750,
+          "components": []
+        },
+        "hoof": {
+          "bbox": [
+            224,
+            248,
+            288,
+            259
+          ],
+          "width": 64,
+          "height": 11,
+          "area": 178,
+          "components": [
+            {
+              "bbox": [
+                274,
+                250,
+                288,
+                258
+              ],
+              "area": 90,
+              "height": 8,
+              "width": 14
+            },
+            {
+              "bbox": [
+                224,
+                251,
+                238,
+                259
+              ],
+              "area": 87,
+              "height": 8,
+              "width": 14
+            }
+          ]
+        }
+      },
+      "face_aspect": 1.1551724137931034,
+      "face_width_over_body_width": 0.6633663366336634,
+      "eye_spacing_over_face_width": 0.49237313432835783,
+      "nose_eye_vertical_over_face_height": 0.1318793103448276,
+      "physical_leg_masks": [
+        {
+          "physical_id": 103,
+          "bbox": [
+            234,
+            244,
+            248,
+            259
+          ],
+          "area": 119,
+          "height": 15
+        },
+        {
+          "physical_id": 118,
+          "bbox": [
+            263,
+            245,
+            277,
+            258
+          ],
+          "area": 104,
+          "height": 13
+        }
+      ],
+      "max_single_visible_leg_px": 15,
+      "max_single_visible_leg_over_H": 0.11811023622047244,
+      "leg_measurement_method": "physical object IDs; not merged connected silhouettes"
+    }
+  }
+]

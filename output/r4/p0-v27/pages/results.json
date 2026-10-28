@@ -1,0 +1,966 @@
+{
+  "revision": "p0-v27",
+  "viewport": [
+    390,
+    844
+  ],
+  "dpr": 1,
+  "api_writes": 0,
+  "captures": [
+    {
+      "file": "stack-B5-before-390.png",
+      "game": "stack",
+      "mode": "B5-before",
+      "scope": "Actual App/GamePage at prep tick0; R4 mode replaces only returned decoded character assets in browser memory AFTER original B5 verification. Static one-frame probe, not a production manifest, full-motion integration or physical phone.",
+      "measurement": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 105.796875,
+            "width": 366,
+            "height": 61,
+            "bottom": 166.796875,
+            "right": 378
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 488,
+            "bottom": 659.796875,
+            "right": 378
+          },
+          ".game-cumulative": {
+            "x": 119.234375,
+            "y": 662.796875,
+            "width": 151.53125,
+            "height": 24.1875,
+            "bottom": 686.984375,
+            "right": 270.765625
+          },
+          ".game-feedback": {
+            "x": 103,
+            "y": 691.984375,
+            "width": 184,
+            "height": 28,
+            "bottom": 719.984375,
+            "right": 287
+          },
+          "canvas": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 488,
+            "bottom": 659.796875,
+            "right": 378
+          }
+        },
+        "stage": {
+          "gameTick": "0",
+          "acceptedActions": "0",
+          "candidateManifest": "8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d",
+          "materialBindings": "{\"actor:foundation\":\"sheep_stack_candidate\",\"actor:moving\":\"sheep_stack_candidate\"}",
+          "presentationTime": "116.70",
+          "eventCount": "0",
+          "spriteCount": "4",
+          "effectCount": "0"
+        },
+        "canvas": {
+          "width": 366,
+          "height": 488,
+          "requestedDpr": "1",
+          "effectiveDpr": "1",
+          "worldWidth": "360",
+          "worldHeight": "480",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "1",
+            "requestedDpr": "1",
+            "worldWidth": "360",
+            "worldHeight": "480"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "requestedDpr": 1
+        },
+        "document": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollY": 0,
+        "controls": [
+          {
+            "text": "返回",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 60,
+            "bottom": 63
+          },
+          {
+            "text": "羊羊叠高高",
+            "tag": "H1",
+            "disabled": false,
+            "x": 66,
+            "y": 8,
+            "width": 258,
+            "height": 76,
+            "right": 324,
+            "bottom": 84
+          },
+          {
+            "text": "开启音效",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 330,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 378,
+            "bottom": 63
+          },
+          {
+            "text": "开始不计分练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 755.78125,
+            "width": 366,
+            "height": 56,
+            "right": 378,
+            "bottom": 811.78125
+          }
+        ],
+        "pageScenery": {
+          "image": "url(\"blob:http://127.0.0.1:5175/25918ed4-2e5b-4c35-aa20-ec5e9456c96c\")",
+          "size": "399.54580362040593px 844px",
+          "top": "-83.11645833333318px",
+          "computedImage": "url(\"blob:http://127.0.0.1:5175/25918ed4-2e5b-4c35-aa20-ec5e9456c96c\")",
+          "computedSize": "399.546px 844px",
+          "computedPosition": "50% -83.1165px",
+          "computedRepeat": "no-repeat",
+          "pageX": 0,
+          "pageY": 0,
+          "pageWidth": 390,
+          "pageHeight": 844
+        }
+      },
+      "applied": [],
+      "sha256": "e212f1a8963112e6564d538dc1d307ad03450803ad9680bea7bdf45dbf0d1a04",
+      "errors": []
+    },
+    {
+      "file": "runner-B5-before-390.png",
+      "game": "runner",
+      "mode": "B5-before",
+      "scope": "Actual App/GamePage at prep tick0; R4 mode replaces only returned decoded character assets in browser memory AFTER original B5 verification. Static one-frame probe, not a production manifest, full-motion integration or physical phone.",
+      "measurement": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 105.796875,
+            "width": 366,
+            "height": 61,
+            "bottom": 166.796875,
+            "right": 378
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 263.59375,
+            "width": 366,
+            "height": 223.65625,
+            "bottom": 487.25,
+            "right": 378
+          },
+          ".game-cumulative": {
+            "x": 93.40625,
+            "y": 490.25,
+            "width": 203.171875,
+            "height": 24.1875,
+            "bottom": 514.4375,
+            "right": 296.578125
+          },
+          ".game-feedback": {
+            "x": 103,
+            "y": 519.4375,
+            "width": 184,
+            "height": 28,
+            "bottom": 547.4375,
+            "right": 287
+          },
+          "canvas": {
+            "x": 12,
+            "y": 263.59375,
+            "width": 365.4375,
+            "height": 223.65625,
+            "bottom": 487.25,
+            "right": 377.4375
+          }
+        },
+        "stage": {
+          "gameTick": "0",
+          "acceptedActions": "0",
+          "candidateManifest": "8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d",
+          "materialBindings": "{\"actor:runner\":\"r3_sheep_side\"}",
+          "presentationTime": "50.00",
+          "eventCount": "0",
+          "spriteCount": "1",
+          "effectCount": "0"
+        },
+        "canvas": {
+          "width": 366,
+          "height": 224,
+          "requestedDpr": "1",
+          "effectiveDpr": "1",
+          "worldWidth": "360",
+          "worldHeight": "220",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "1",
+            "requestedDpr": "1",
+            "worldWidth": "360",
+            "worldHeight": "220"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "requestedDpr": 1
+        },
+        "document": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollY": 0,
+        "controls": [
+          {
+            "text": "返回",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 60,
+            "bottom": 63
+          },
+          {
+            "text": "羊羊跨栏",
+            "tag": "H1",
+            "disabled": false,
+            "x": 66,
+            "y": 8,
+            "width": 258,
+            "height": 76,
+            "right": 324,
+            "bottom": 84
+          },
+          {
+            "text": "开启音效",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 330,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 378,
+            "bottom": 63
+          },
+          {
+            "text": "开始不计分练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 583.234375,
+            "width": 366,
+            "height": 56,
+            "right": 378,
+            "bottom": 639.234375
+          }
+        ],
+        "pageScenery": {
+          "image": "url(\"blob:http://127.0.0.1:5175/2ff702e1-243d-48ea-9f04-69748f52b417\")",
+          "size": "399.54580362040593px 844px",
+          "top": "-127.33477272727282px",
+          "computedImage": "url(\"blob:http://127.0.0.1:5175/2ff702e1-243d-48ea-9f04-69748f52b417\")",
+          "computedSize": "399.546px 844px",
+          "computedPosition": "50% -127.335px",
+          "computedRepeat": "no-repeat",
+          "pageX": 0,
+          "pageY": 0,
+          "pageWidth": 390,
+          "pageHeight": 844
+        }
+      },
+      "applied": [],
+      "sha256": "4c796cce41624fb2151fb7234d9cd11a7b736de4fff9f7f83a7a0f383279410d",
+      "errors": []
+    },
+    {
+      "file": "herd-B5-before-390.png",
+      "game": "herd",
+      "mode": "B5-before",
+      "scope": "Actual App/GamePage at prep tick0; R4 mode replaces only returned decoded character assets in browser memory AFTER original B5 verification. Static one-frame probe, not a production manifest, full-motion integration or physical phone.",
+      "measurement": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 105.796875,
+            "width": 366,
+            "height": 61,
+            "bottom": 166.796875,
+            "right": 378
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 427,
+            "bottom": 598.796875,
+            "right": 378
+          },
+          ".game-cumulative": {
+            "x": 103.765625,
+            "y": 601.796875,
+            "width": 182.46875,
+            "height": 24.1875,
+            "bottom": 625.984375,
+            "right": 286.234375
+          },
+          ".game-feedback": {
+            "x": 103,
+            "y": 630.984375,
+            "width": 184,
+            "height": 28,
+            "bottom": 658.984375,
+            "right": 287
+          },
+          "canvas": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 427,
+            "bottom": 598.796875,
+            "right": 378
+          }
+        },
+        "stage": {
+          "gameTick": "0",
+          "acceptedActions": "0",
+          "candidateManifest": "8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d",
+          "materialBindings": "{\"actor:sheep-1\":\"r3_sheep_iso8\",\"actor:sheep-2\":\"r3_sheep_iso8\",\"actor:sheep-3\":\"r3_sheep_iso8\",\"actor:sheep-4\":\"r3_sheep_iso8\",\"actor:sheep-5\":\"r3_sheep_iso8\",\"actor:sheep-6\":\"r3_sheep_iso8\",\"actor:sheep-7\":\"r3_sheep_iso8\",\"actor:sheep-8\":\"r3_sheep_iso8\",\"actor:dog\":\"r3_dog_iso8\"}",
+          "movingBarkSample": "available",
+          "presentationTime": "266.64",
+          "eventCount": "0",
+          "spriteCount": "19",
+          "effectCount": "0"
+        },
+        "canvas": {
+          "width": 366,
+          "height": 427,
+          "requestedDpr": "1",
+          "effectiveDpr": "1",
+          "worldWidth": "360",
+          "worldHeight": "420",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "1",
+            "requestedDpr": "1",
+            "worldWidth": "360",
+            "worldHeight": "420"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "requestedDpr": 1
+        },
+        "document": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollY": 0,
+        "controls": [
+          {
+            "text": "返回",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 60,
+            "bottom": 63
+          },
+          {
+            "text": "赶羊入圈",
+            "tag": "H1",
+            "disabled": false,
+            "x": 66,
+            "y": 8,
+            "width": 258,
+            "height": 76,
+            "right": 324,
+            "bottom": 84
+          },
+          {
+            "text": "开启音效",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 330,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 378,
+            "bottom": 63
+          },
+          {
+            "text": "开始不计分练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 694.78125,
+            "width": 366,
+            "height": 56,
+            "right": 378,
+            "bottom": 750.78125
+          }
+        ],
+        "pageScenery": {
+          "image": "url(\"blob:http://127.0.0.1:5175/c77669fa-dff2-44ae-a2d3-30095674b07c\")",
+          "size": "399.76509330406145px 844px",
+          "top": "-4.1364583333333655px",
+          "computedImage": "url(\"blob:http://127.0.0.1:5175/c77669fa-dff2-44ae-a2d3-30095674b07c\")",
+          "computedSize": "399.765px 844px",
+          "computedPosition": "50% -4.13646px",
+          "computedRepeat": "no-repeat",
+          "pageX": 0,
+          "pageY": 0,
+          "pageWidth": 390,
+          "pageHeight": 844
+        }
+      },
+      "applied": [],
+      "sha256": "0df5587066e0c7119d8c01ef281c8617d33e94055e384a4665664cccc8fd4c48",
+      "errors": []
+    },
+    {
+      "file": "stack-R4-static-390.png",
+      "game": "stack",
+      "mode": "R4-static",
+      "scope": "Actual App/GamePage at prep tick0; R4 mode replaces only returned decoded character assets in browser memory AFTER original B5 verification. Static one-frame probe, not a production manifest, full-motion integration or physical phone.",
+      "measurement": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 105.796875,
+            "width": 366,
+            "height": 61,
+            "bottom": 166.796875,
+            "right": 378
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 488,
+            "bottom": 659.796875,
+            "right": 378
+          },
+          ".game-cumulative": {
+            "x": 119.234375,
+            "y": 662.796875,
+            "width": 151.53125,
+            "height": 24.1875,
+            "bottom": 686.984375,
+            "right": 270.765625
+          },
+          ".game-feedback": {
+            "x": 103,
+            "y": 691.984375,
+            "width": 184,
+            "height": 28,
+            "bottom": 719.984375,
+            "right": 287
+          },
+          "canvas": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 488,
+            "bottom": 659.796875,
+            "right": 378
+          }
+        },
+        "stage": {
+          "gameTick": "0",
+          "acceptedActions": "0",
+          "candidateManifest": "8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d",
+          "materialBindings": "{\"actor:foundation\":\"sheep_stack_candidate\",\"actor:moving\":\"sheep_stack_candidate\"}",
+          "presentationTime": "433.40",
+          "eventCount": "0",
+          "spriteCount": "4",
+          "effectCount": "0"
+        },
+        "canvas": {
+          "width": 366,
+          "height": 488,
+          "requestedDpr": "1",
+          "effectiveDpr": "1",
+          "worldWidth": "360",
+          "worldHeight": "480",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "1",
+            "requestedDpr": "1",
+            "worldWidth": "360",
+            "worldHeight": "480"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "requestedDpr": 1
+        },
+        "document": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollY": 0,
+        "controls": [
+          {
+            "text": "返回",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 60,
+            "bottom": 63
+          },
+          {
+            "text": "羊羊叠高高",
+            "tag": "H1",
+            "disabled": false,
+            "x": 66,
+            "y": 8,
+            "width": 258,
+            "height": 76,
+            "right": 324,
+            "bottom": 84
+          },
+          {
+            "text": "开启音效",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 330,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 378,
+            "bottom": 63
+          },
+          {
+            "text": "开始不计分练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 755.78125,
+            "width": 366,
+            "height": 56,
+            "right": 378,
+            "bottom": 811.78125
+          }
+        ],
+        "pageScenery": {
+          "image": "url(\"blob:http://127.0.0.1:5175/a80ece74-6706-422c-8f86-5064e69b40a3\")",
+          "size": "399.54580362040593px 844px",
+          "top": "-83.11645833333318px",
+          "computedImage": "url(\"blob:http://127.0.0.1:5175/a80ece74-6706-422c-8f86-5064e69b40a3\")",
+          "computedSize": "399.546px 844px",
+          "computedPosition": "50% -83.1165px",
+          "computedRepeat": "no-repeat",
+          "pageX": 0,
+          "pageY": 0,
+          "pageWidth": 390,
+          "pageHeight": 844
+        }
+      },
+      "applied": [
+        {
+          "name": "sheep_stack_candidate",
+          "keys": [
+            "stack_idle.e"
+          ]
+        }
+      ],
+      "sha256": "77db377c52ea5ed98e84b0177e7e1894ba8940bb27af8f86d75f2cd091c90bb2",
+      "errors": []
+    },
+    {
+      "file": "runner-R4-static-390.png",
+      "game": "runner",
+      "mode": "R4-static",
+      "scope": "Actual App/GamePage at prep tick0; R4 mode replaces only returned decoded character assets in browser memory AFTER original B5 verification. Static one-frame probe, not a production manifest, full-motion integration or physical phone.",
+      "measurement": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 105.796875,
+            "width": 366,
+            "height": 61,
+            "bottom": 166.796875,
+            "right": 378
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 263.59375,
+            "width": 366,
+            "height": 223.65625,
+            "bottom": 487.25,
+            "right": 378
+          },
+          ".game-cumulative": {
+            "x": 93.40625,
+            "y": 490.25,
+            "width": 203.171875,
+            "height": 24.1875,
+            "bottom": 514.4375,
+            "right": 296.578125
+          },
+          ".game-feedback": {
+            "x": 103,
+            "y": 519.4375,
+            "width": 184,
+            "height": 28,
+            "bottom": 547.4375,
+            "right": 287
+          },
+          "canvas": {
+            "x": 12,
+            "y": 263.59375,
+            "width": 365.4375,
+            "height": 223.65625,
+            "bottom": 487.25,
+            "right": 377.4375
+          }
+        },
+        "stage": {
+          "gameTick": "0",
+          "acceptedActions": "0",
+          "candidateManifest": "8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d",
+          "materialBindings": "{\"actor:runner\":\"r3_sheep_side\"}",
+          "presentationTime": "50.00",
+          "eventCount": "0",
+          "spriteCount": "1",
+          "effectCount": "0"
+        },
+        "canvas": {
+          "width": 366,
+          "height": 224,
+          "requestedDpr": "1",
+          "effectiveDpr": "1",
+          "worldWidth": "360",
+          "worldHeight": "220",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "1",
+            "requestedDpr": "1",
+            "worldWidth": "360",
+            "worldHeight": "220"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "requestedDpr": 1
+        },
+        "document": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollY": 0,
+        "controls": [
+          {
+            "text": "返回",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 60,
+            "bottom": 63
+          },
+          {
+            "text": "羊羊跨栏",
+            "tag": "H1",
+            "disabled": false,
+            "x": 66,
+            "y": 8,
+            "width": 258,
+            "height": 76,
+            "right": 324,
+            "bottom": 84
+          },
+          {
+            "text": "开启音效",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 330,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 378,
+            "bottom": 63
+          },
+          {
+            "text": "开始不计分练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 583.234375,
+            "width": 366,
+            "height": 56,
+            "right": 378,
+            "bottom": 639.234375
+          }
+        ],
+        "pageScenery": {
+          "image": "url(\"blob:http://127.0.0.1:5175/94df6ce0-4e60-48cc-9f64-5d5b182da0fb\")",
+          "size": "399.54580362040593px 844px",
+          "top": "-127.33477272727282px",
+          "computedImage": "url(\"blob:http://127.0.0.1:5175/94df6ce0-4e60-48cc-9f64-5d5b182da0fb\")",
+          "computedSize": "399.546px 844px",
+          "computedPosition": "50% -127.335px",
+          "computedRepeat": "no-repeat",
+          "pageX": 0,
+          "pageY": 0,
+          "pageWidth": 390,
+          "pageHeight": 844
+        }
+      },
+      "applied": [
+        {
+          "name": "sheep_stack_candidate",
+          "keys": [
+            "stack_idle.e"
+          ]
+        },
+        {
+          "name": "r3_sheep_side",
+          "keys": [
+            "idle.e"
+          ]
+        }
+      ],
+      "sha256": "f0b2a7a4da229e702eeb1668f14fdef907d2b0959e0d5b42c14378b6669bfcc5",
+      "errors": []
+    },
+    {
+      "file": "herd-R4-static-390.png",
+      "game": "herd",
+      "mode": "R4-static",
+      "scope": "Actual App/GamePage at prep tick0; R4 mode replaces only returned decoded character assets in browser memory AFTER original B5 verification. Static one-frame probe, not a production manifest, full-motion integration or physical phone.",
+      "measurement": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 105.796875,
+            "width": 366,
+            "height": 61,
+            "bottom": 166.796875,
+            "right": 378
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 427,
+            "bottom": 598.796875,
+            "right": 378
+          },
+          ".game-cumulative": {
+            "x": 103.765625,
+            "y": 601.796875,
+            "width": 182.46875,
+            "height": 24.1875,
+            "bottom": 625.984375,
+            "right": 286.234375
+          },
+          ".game-feedback": {
+            "x": 103,
+            "y": 630.984375,
+            "width": 184,
+            "height": 28,
+            "bottom": 658.984375,
+            "right": 287
+          },
+          "canvas": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 427,
+            "bottom": 598.796875,
+            "right": 378
+          }
+        },
+        "stage": {
+          "gameTick": "0",
+          "acceptedActions": "0",
+          "candidateManifest": "8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d",
+          "materialBindings": "{\"actor:sheep-1\":\"r3_sheep_iso8\",\"actor:sheep-2\":\"r3_sheep_iso8\",\"actor:sheep-3\":\"r3_sheep_iso8\",\"actor:sheep-4\":\"r3_sheep_iso8\",\"actor:sheep-5\":\"r3_sheep_iso8\",\"actor:sheep-6\":\"r3_sheep_iso8\",\"actor:sheep-7\":\"r3_sheep_iso8\",\"actor:sheep-8\":\"r3_sheep_iso8\",\"actor:dog\":\"r3_dog_iso8\"}",
+          "movingBarkSample": "available",
+          "presentationTime": "233.31",
+          "eventCount": "0",
+          "spriteCount": "19",
+          "effectCount": "0"
+        },
+        "canvas": {
+          "width": 366,
+          "height": 427,
+          "requestedDpr": "1",
+          "effectiveDpr": "1",
+          "worldWidth": "360",
+          "worldHeight": "420",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "1",
+            "requestedDpr": "1",
+            "worldWidth": "360",
+            "worldHeight": "420"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "requestedDpr": 1
+        },
+        "document": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollY": 0,
+        "controls": [
+          {
+            "text": "返回",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 60,
+            "bottom": 63
+          },
+          {
+            "text": "赶羊入圈",
+            "tag": "H1",
+            "disabled": false,
+            "x": 66,
+            "y": 8,
+            "width": 258,
+            "height": 76,
+            "right": 324,
+            "bottom": 84
+          },
+          {
+            "text": "开启音效",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 330,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 378,
+            "bottom": 63
+          },
+          {
+            "text": "开始不计分练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 694.78125,
+            "width": 366,
+            "height": 56,
+            "right": 378,
+            "bottom": 750.78125
+          }
+        ],
+        "pageScenery": {
+          "image": "url(\"blob:http://127.0.0.1:5175/9595f441-5a5d-4dbc-a6e2-a7e459734e0b\")",
+          "size": "399.76509330406145px 844px",
+          "top": "-4.1364583333333655px",
+          "computedImage": "url(\"blob:http://127.0.0.1:5175/9595f441-5a5d-4dbc-a6e2-a7e459734e0b\")",
+          "computedSize": "399.765px 844px",
+          "computedPosition": "50% -4.13646px",
+          "computedRepeat": "no-repeat",
+          "pageX": 0,
+          "pageY": 0,
+          "pageWidth": 390,
+          "pageHeight": 844
+        }
+      },
+      "applied": [
+        {
+          "name": "sheep_stack_candidate",
+          "keys": [
+            "stack_idle.e"
+          ]
+        },
+        {
+          "name": "r3_sheep_side",
+          "keys": [
+            "idle.e"
+          ]
+        },
+        {
+          "name": "r3_sheep_iso8",
+          "keys": [
+            "idle.n",
+            "idle.se"
+          ]
+        },
+        {
+          "name": "r3_dog_iso8",
+          "keys": [
+            "idle.n",
+            "idle.se"
+          ]
+        }
+      ],
+      "sha256": "35ab19734b15d740ab43067e35b602096d99f42169d3dbebed43aab2faae5b8b",
+      "errors": []
+    }
+  ]
+}

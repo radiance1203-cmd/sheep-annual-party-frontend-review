@@ -1,0 +1,65 @@
+{
+  "stage": "CORRECTED_SINGLE_ACTIVE_TAIL_NEUTRAL_RECHECK",
+  "source": "art-source/r4/v23/dog_target.blend",
+  "source_sha256": "c8bd1f05bbd3a38df4d1020e7ba2480d0238e3ec891cc34ee844a0e0e5243ad0",
+  "master": "art-source/r4/v24/dog_target.blend",
+  "master_sha256": "4c4a99bfafb913ee584a50648183a0250cecb27d313cd15327ed1347b7b44414",
+  "centerline_local": [
+    [
+      0.0,
+      -0.4699999988079071,
+      0.6100000143051147
+    ],
+    [
+      -0.09000000357627869,
+      -0.5899999737739563,
+      0.6499999761581421
+    ],
+    [
+      -0.23000000417232513,
+      -0.7300000190734863,
+      0.699999988079071
+    ],
+    [
+      -0.38999998569488525,
+      -0.8199999928474426,
+      0.7099999785423279
+    ],
+    [
+      -0.5299999713897705,
+      -0.800000011920929,
+      0.6700000166893005
+    ],
+    [
+      -0.6200000047683716,
+      -0.7200000286102295,
+      0.6000000238418579
+    ]
+  ],
+  "cross_section_radii": [
+    0.035,
+    0.067,
+    0.095,
+    0.105,
+    0.082,
+    0.008
+  ],
+  "real_tapered_strands": 11000,
+  "body_face_shaders_unchanged": true,
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "S3": "NOT_READY",
+  "hidden_inherited_v21": [
+    "R21 lateral curved plume undercoat",
+    "R21 plume silhouette filaments dog_brown",
+    "R21 plume silhouette filaments dog_cream"
+  ],
+  "active_tail_objects": [
+    "R23 lateral curved plume undercoat",
+    "R23 plume silhouette filaments dog_brown",
+    "R23 plume silhouette filaments dog_cream",
+    "R23 tapered layered tail feather bundles dog_brown",
+    "R23 tapered layered tail feather bundles dog_cream"
+  ],
+  "v23_preview_rejected": "old v21 plume accidentally remained visible; double-tail image is not current evidence"
+}

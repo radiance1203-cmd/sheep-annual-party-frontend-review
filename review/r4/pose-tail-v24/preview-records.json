@@ -1,0 +1,173 @@
+{
+  "stage": "NEUTRAL_P0_CHECK_NOT_ACCEPTED",
+  "views": [
+    {
+      "version": "after",
+      "actor": "dog",
+      "view": "dog-n",
+      "path": "review/r4/pose-tail-v24/after-dog-n.png",
+      "sha256": "f26874968351f30acb2e7348d3e009b66f25c3f20060cfe0abb4de355a757975",
+      "source": "art-source/r4/v24/dog_target.blend",
+      "source_sha256": "4c4a99bfafb913ee584a50648183a0250cecb27d313cd15327ed1347b7b44414",
+      "seconds": 1.915,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 4.5714287757873535
+      },
+      "fine_hair_suppressed_for_shape_check": true,
+      "tail_centerline_2d": [
+        [
+          256.0,
+          244.91250610351562
+        ],
+        [
+          245.9199981689453,
+          251.24819946289062
+        ],
+        [
+          230.24000549316406,
+          258.37583923339844
+        ],
+        [
+          212.32000732421875,
+          264.7115173339844
+        ],
+        [
+          196.63999938964844,
+          266.29542541503906
+        ],
+        [
+          186.55999755859375,
+          265.50347900390625
+        ]
+      ],
+      "projected_chord_px": 72.42860085408034,
+      "max_projected_bend_px": 6.564117449441565,
+      "projected_bend_over_chord": 0.09062880370512871,
+      "projected_arc_over_chord": 1.0218014236304076
+    },
+    {
+      "version": "after",
+      "actor": "dog",
+      "view": "dog-se",
+      "path": "review/r4/pose-tail-v24/after-dog-se.png",
+      "sha256": "25d98e3928ba84812bc6b5e83d22f5dd3557ccf5bf28c7e523beac2494be4197",
+      "source": "art-source/r4/v24/dog_target.blend",
+      "source_sha256": "4c4a99bfafb913ee584a50648183a0250cecb27d313cd15327ed1347b7b44414",
+      "seconds": 0.457,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 4.5714287757873535
+      },
+      "fine_hair_suppressed_for_shape_check": true,
+      "tail_centerline_2d": [
+        [
+          218.7779083251953,
+          181.37042236328125
+        ],
+        [
+          216.4020233154297,
+          166.44259643554688
+        ],
+        [
+          216.4020233154297,
+          146.80276489257812
+        ],
+        [
+          221.94573974609375,
+          132.01083374023438
+        ],
+        [
+          234.61708068847656,
+          128.45864868164062
+        ],
+        [
+          248.0803985595703,
+          133.44235229492188
+        ]
+      ],
+      "projected_chord_px": 56.17593594065517,
+      "max_projected_bend_px": 23.04422339596768,
+      "projected_bend_over_chord": 0.410215210660875,
+      "projected_arc_over_chord": 1.3897077677038
+    },
+    {
+      "version": "after",
+      "actor": "dog",
+      "view": "dog-e",
+      "path": "review/r4/pose-tail-v24/after-dog-e.png",
+      "sha256": "2c7f2afab6bcc143c3abbc3c97d2075d552ced1b1b3ce0da93f7f4ebdda9c669",
+      "source": "art-source/r4/v24/dog_target.blend",
+      "source_sha256": "4c4a99bfafb913ee584a50648183a0250cecb27d313cd15327ed1347b7b44414",
+      "seconds": 0.377,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 4.5714287757873535
+      },
+      "fine_hair_suppressed_for_shape_check": true,
+      "tail_centerline_2d": [
+        [
+          203.36000061035156,
+          207.6904296875
+        ],
+        [
+          189.92001342773438,
+          197.39492797851562
+        ],
+        [
+          174.24000549316406,
+          182.34771728515625
+        ],
+        [
+          164.16000366210938,
+          168.8843994140625
+        ],
+        [
+          166.40000915527344,
+          160.96481323242188
+        ],
+        [
+          175.36000061035156,
+          159.38088989257812
+        ]
+      ],
+      "projected_chord_px": 55.837366730868496,
+      "max_projected_bend_px": 14.455641663156156,
+      "projected_bend_over_chord": 0.2588883127822119,
+      "projected_arc_over_chord": 1.3039664784947387
+    }
+  ],
+  "render_seconds": 2.7489999999999997,
+  "sample_art_accepted": false,
+  "production_art_accepted": false
+}

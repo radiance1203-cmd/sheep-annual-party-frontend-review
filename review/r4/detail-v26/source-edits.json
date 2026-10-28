@@ -1,0 +1,70 @@
+{
+  "stage": "SOFT_SECTIONS_AND_NATIVE_FABRIC_RECHECK",
+  "masters": [
+    {
+      "actor": "sheep",
+      "source": "art-source/r4/v25/sheep_target.blend",
+      "source_sha256": "b97b0a848783cd252ac39116888cbf3f4ce3340e3128af363a8d49daeaa00cdb",
+      "master": "art-source/r4/v26/sheep_target.blend",
+      "master_sha256": "c825cfcd47c2b5f24d64d09716c8ad2448b3bd9616075d387118d2c509b59577",
+      "protected_face_leg_hoof_cages": {
+        "hoof": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "hoof.001": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "hoof.002": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "hoof.003": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "leg": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "leg.001": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "leg.002": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "leg.003": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "R2d_face_control_surface": "c162a5d502a26f51bf9280b1f48672b34f302eb2ff38375bf4931870fc78e8ef"
+      },
+      "horn_radial_groove_fraction": 0.04,
+      "horn_sections": [
+        0.15,
+        0.32,
+        0.49,
+        0.66,
+        0.83
+      ],
+      "crown_before_sha256": "3a1d835c4aa332b9e09f78c94d01b20f7b9fd64783291f10092633ac6b65485c",
+      "crown_after_sha256": "cdff3cc857c1dec95f43f8cf5cbd1631c57c324761a0520f9517d0ba0e157900",
+      "crown": "continuous smooth 6-9mm asymmetric envelope folds, no added separate beads",
+      "cloth": "v22 broad folds and v25 physical yarn retained; yarn-only darker red rough material",
+      "seated_articulation_preserved": false
+    },
+    {
+      "actor": "stack",
+      "source": "art-source/r4/v25/stack_target.blend",
+      "source_sha256": "7cb5f6b50d5d544a25ffd676d6f40a803573704abe56f9c28eb9ff78f2f78543",
+      "master": "art-source/r4/v26/stack_target.blend",
+      "master_sha256": "ff85841efd426efec38e112df4cc255ca9bbc61dc45b5a217b0ed548dbc288bc",
+      "protected_face_leg_hoof_cages": {
+        "hoof": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "hoof.001": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "hoof.002": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "hoof.003": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "leg": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "leg.001": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "leg.002": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "leg.003": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "R2d_face_control_surface": "c162a5d502a26f51bf9280b1f48672b34f302eb2ff38375bf4931870fc78e8ef"
+      },
+      "horn_radial_groove_fraction": 0.04,
+      "horn_sections": [
+        0.15,
+        0.32,
+        0.49,
+        0.66,
+        0.83
+      ],
+      "crown_before_sha256": "381ef9154d8ba2599cf2fa6b20e97b3ff635f2463468aa5dfc9dc728afec4141",
+      "crown_after_sha256": "dc449071b3dff66186aaee59d3d88b40810f82e776008e05cddf7176f3dbfa16",
+      "crown": "continuous smooth 6-9mm asymmetric envelope folds, no added separate beads",
+      "cloth": "v22 broad folds and v25 physical yarn retained; yarn-only darker red rough material",
+      "seated_articulation_preserved": true
+    }
+  ],
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "S3": "NOT_READY"
+}

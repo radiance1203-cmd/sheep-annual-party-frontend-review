@@ -1,0 +1,182 @@
+[
+  {
+    "version": "target-v27",
+    "actual_revision": "v27",
+    "actor": "sheep",
+    "view": "front",
+    "path": "review/r4/detail-v27/target-v27-front-clay.png",
+    "source": "art-source/r4/v27/sheep_target.blend",
+    "source_sha256": "42f83a216a00f9a3fe248b22d23789610d9dba96754d001d79a61f0e07b3acea",
+    "seconds": 2.412,
+    "camera": {
+      "location": [
+        0.0,
+        -6.0,
+        2.25
+      ],
+      "rotation": [
+        1.3211174011230469,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.9500000476837158
+    },
+    "landmarks": {
+      "horn_root_-1": [
+        355.518,
+        169.85
+      ],
+      "ear_-1": [
+        351.836,
+        223.332
+      ],
+      "eye_-1": [
+        298.01,
+        235.186
+      ],
+      "horn_root_1": [
+        156.482,
+        169.85
+      ],
+      "ear_1": [
+        160.164,
+        223.332
+      ],
+      "eye_1": [
+        213.99,
+        235.186
+      ],
+      "nose": [
+        256.0,
+        253.733
+      ]
+    },
+    "sole_points": [
+      {
+        "name": "hoof",
+        "screen": [
+          329.518,
+          417.647
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.001",
+        "screen": [
+          311.138,
+          446.842
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.002",
+        "screen": [
+          182.482,
+          417.647
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.003",
+        "screen": [
+          200.862,
+          446.842
+        ],
+        "world_bottom_z": 0.022000011056661606
+      }
+    ],
+    "geometry_edited": false,
+    "preview": "flat object IDs; fine fibers suppressed for shape inspection only",
+    "reference_comparison": "2D projection only; original reference camera/scale/depth unknown"
+  },
+  {
+    "version": "target-v27",
+    "actual_revision": "v27",
+    "actor": "stack",
+    "view": "stack",
+    "path": "review/r4/detail-v27/target-v27-stack-clay.png",
+    "source": "art-source/r4/v27/stack_target.blend",
+    "source_sha256": "daec8125dce2f897d1f494919d105bacfa14b303f83dee654b1b4496664786f9",
+    "seconds": 0.958,
+    "camera": {
+      "location": [
+        0.0,
+        -8.0,
+        1.399999976158142
+      ],
+      "rotation": [
+        1.3975508213043213,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.0
+    },
+    "landmarks": {
+      "horn_root_-1": [
+        322.214,
+        163.682
+      ],
+      "ear_-1": [
+        306.128,
+        191.458
+      ],
+      "eye_-1": [
+        309.873,
+        193.954
+      ],
+      "horn_root_1": [
+        244.066,
+        171.459
+      ],
+      "ear_1": [
+        230.871,
+        198.948
+      ],
+      "eye_1": [
+        276.884,
+        197.238
+      ],
+      "nose": [
+        297.789,
+        203.245
+      ]
+    },
+    "sole_points": [
+      {
+        "name": "hoof",
+        "screen": [
+          232.11,
+          247.686
+        ],
+        "world_bottom_z": 0.02200000360608101
+      },
+      {
+        "name": "hoof.001",
+        "screen": [
+          279.726,
+          248.917
+        ],
+        "world_bottom_z": 0.021999981254339218
+      },
+      {
+        "name": "hoof.002",
+        "screen": [
+          232.11,
+          258.767
+        ],
+        "world_bottom_z": 0.02200000360608101
+      },
+      {
+        "name": "hoof.003",
+        "screen": [
+          279.726,
+          257.536
+        ],
+        "world_bottom_z": 0.021999981254339218
+      }
+    ],
+    "geometry_edited": false,
+    "preview": "flat object IDs; fine fibers suppressed for shape inspection only",
+    "reference_comparison": "2D projection only; original reference camera/scale/depth unknown"
+  }
+]

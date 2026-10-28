@@ -1,0 +1,37 @@
+{
+  "current_clear_images": [
+    {
+      "label": "sheep_front",
+      "source": "output/r4/v27-probe/sheep_front.png",
+      "sha256": "067547ca7752078171cc09a7d5bea87c9c0dafd958717c13bcb09f2c25ea7f07"
+    },
+    {
+      "label": "stack_e",
+      "source": "output/r4/v27-probe/stack_crouch_e.png",
+      "sha256": "d74b9739c77730ccc76daa52c8fcdd4ccaf5aa56a25237b037e8faa30f5218c9"
+    },
+    {
+      "label": "herd_dog_n",
+      "source": "output/r4/v24-probe/dog_tail_n.png",
+      "sha256": "af7c1d1b37d489a2ab4a90fb15d58e04d41cebea5fbab53d32a5d165174c6fc2"
+    },
+    {
+      "label": "herd_dog_se",
+      "source": "output/r4/v24-probe/dog_tail_se.png",
+      "sha256": "201d8f264e944e45234058dfbc18906f10b6d0368f1e1025cb7e512b34268687"
+    },
+    {
+      "label": "dog_tail_e",
+      "source": "output/r4/v24-probe/dog_tail_e.png",
+      "sha256": "f0208a22c597fa438d13f097c77d33ed89ed8336b6a5fcf3bd6e7eabdc6acfe3"
+    }
+  ],
+  "retained_v15": [
+    "runner_e",
+    "herd_sheep_n",
+    "herd_sheep_se"
+  ],
+  "reference_comparison_private": true,
+  "sample_art_accepted": false,
+  "production_art_accepted": false
+}

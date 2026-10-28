@@ -1,0 +1,126 @@
+{
+  "stage": "NATIVE_TECHNICAL_PRESERVATION_ONLY",
+  "blender": "4.5.9 LTS",
+  "masters": [
+    {
+      "actor": "sheep",
+      "baseline": "art-source/r4/v15/clear/sheep_clear.blend",
+      "baseline_sha256": "06120f8f4a76d013b176b5632c9553fd252b51e1d1d50cac91723c6f9401c0c6",
+      "master": "art-source/r4/v27/clear/sheep_probe.blend",
+      "master_sha256": "75abda2069da9561047e33ad0fd50f914f2b5f241cfb6ac638474ddd4f8069d4",
+      "cameras_and_action_datablocks_preserved": true,
+      "protected_cages": {
+        "hoof": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "hoof.001": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "hoof.002": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "hoof.003": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "leg": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "leg.001": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "leg.002": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "leg.003": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "R2d_face_control_surface": "c162a5d502a26f51bf9280b1f48672b34f302eb2ff38375bf4931870fc78e8ef"
+      },
+      "root_head_transform_preserved": true,
+      "soles": [],
+      "missing_images": [],
+      "static_pose_only": true
+    },
+    {
+      "actor": "stack",
+      "baseline": "art-source/r4/v15/clear/stack_clear.blend",
+      "baseline_sha256": "87bdd690d0fc30bec7363eb95664e81e6c762d4fd1b6971383293f4fdbf16f1a",
+      "master": "art-source/r4/v27/clear/stack_probe.blend",
+      "master_sha256": "bbc7f095cf8e4260fd7c8666b3f42cd1c7697a6bebe07591e0471bcc54d4d991",
+      "cameras_and_action_datablocks_preserved": true,
+      "protected_cages": {
+        "hoof": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "hoof.001": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "hoof.002": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "hoof.003": "632664cf61d2fca0afd9a6043ac4e57bd61981eabaf9a65ed6750eb85b70cc74",
+        "leg": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "leg.001": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "leg.002": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "leg.003": "d86c55756e53252b3c67b22aba0ae66078df7f6cf688f648e29c572c220f4a04",
+        "R2d_face_control_surface": "c162a5d502a26f51bf9280b1f48672b34f302eb2ff38375bf4931870fc78e8ef"
+      },
+      "root_head_transform_preserved": true,
+      "soles": [
+        {
+          "name": "hoof",
+          "z": 0.02200000360608101
+        },
+        {
+          "name": "hoof.001",
+          "z": 0.021999981254339218
+        },
+        {
+          "name": "hoof.002",
+          "z": 0.02200000360608101
+        },
+        {
+          "name": "hoof.003",
+          "z": 0.021999981254339218
+        }
+      ],
+      "missing_images": [],
+      "static_pose_only": true
+    },
+    {
+      "actor": "dog",
+      "baseline": "art-source/r4/v15/clear/dog_clear.blend",
+      "baseline_sha256": "75fb4b08a85b22302a7becc2f13cb5ae26c080b1739cf4cb51d0bbd1dfc2639f",
+      "master": "art-source/r4/v24/clear/dog_probe.blend",
+      "master_sha256": "5b366d8200e91856dc178457c7958a26cadecc17f258e14a56906adf3311fa34",
+      "cameras_and_action_datablocks_preserved": true,
+      "protected_cages": {
+        "dog_body": "2f6f20be04cfa1b3537c3e5092a45f1d4924bbceed2e2af166f6016acf95934d",
+        "dog_chest": "2f6f20be04cfa1b3537c3e5092a45f1d4924bbceed2e2af166f6016acf95934d",
+        "dog_head": "2f6f20be04cfa1b3537c3e5092a45f1d4924bbceed2e2af166f6016acf95934d",
+        "dog_muzzle": "2f6f20be04cfa1b3537c3e5092a45f1d4924bbceed2e2af166f6016acf95934d",
+        "hoof": "2f6f20be04cfa1b3537c3e5092a45f1d4924bbceed2e2af166f6016acf95934d",
+        "hoof.001": "2f6f20be04cfa1b3537c3e5092a45f1d4924bbceed2e2af166f6016acf95934d",
+        "hoof.002": "2f6f20be04cfa1b3537c3e5092a45f1d4924bbceed2e2af166f6016acf95934d",
+        "hoof.003": "2f6f20be04cfa1b3537c3e5092a45f1d4924bbceed2e2af166f6016acf95934d",
+        "leg": "2f6f20be04cfa1b3537c3e5092a45f1d4924bbceed2e2af166f6016acf95934d",
+        "leg.001": "2f6f20be04cfa1b3537c3e5092a45f1d4924bbceed2e2af166f6016acf95934d",
+        "leg.002": "2f6f20be04cfa1b3537c3e5092a45f1d4924bbceed2e2af166f6016acf95934d",
+        "leg.003": "2f6f20be04cfa1b3537c3e5092a45f1d4924bbceed2e2af166f6016acf95934d"
+      },
+      "root_head_transform_preserved": true,
+      "soles": [],
+      "missing_images": [],
+      "static_pose_only": true
+    }
+  ],
+  "original_six": [
+    {
+      "path": "art-source/r3/stack-sample/sheep_stack_A_motion_sample.blend",
+      "unchanged": true
+    },
+    {
+      "path": "art-source/r3/a-window-20261028/stack_materials_A.blend",
+      "unchanged": true
+    },
+    {
+      "path": "art-source/r2/r2g/sheep_master_r2g.blend",
+      "unchanged": true
+    },
+    {
+      "path": "art-source/r3/a-window-20261028/sheep_materials_A.blend",
+      "unchanged": true
+    },
+    {
+      "path": "art-source/v4/dog_master_v4.blend",
+      "unchanged": true
+    },
+    {
+      "path": "art-source/r3/a-window-20261028/dog_materials_A.blend",
+      "unchanged": true
+    }
+  ],
+  "animation_acceptance": false,
+  "art_acceptance": false,
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "S3": "NOT_READY"
+}
