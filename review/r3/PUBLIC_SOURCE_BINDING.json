@@ -765,7 +765,12 @@
     }
   ],
   "source_snapshot_prefix": "review/r3/history/B4-source/",
-  "candidate_manifest_path": "review/r3/history/B4-source/apps/web/public/assets/candidates/r3/manifest.json",
+  "candidate_manifest_path": "apps/web/public/assets/candidates/r3/releases/68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb/manifest.json",
   "asset_directory": "apps/web/public/assets/candidates/r3/releases/68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
-  "historical_scope": "B4 source snapshot and B4 videos only; current product source/candidate belongs to finite A B5"
+  "historical_scope": "B4 source snapshot and B4 videos only; current product source/candidate belongs to finite A B5",
+  "source_file_overrides": {
+    "apps/web/public/assets/asset-manifest.v1.json": "apps/web/public/assets/asset-manifest.v1.json",
+    "apps/web/public/assets/candidates/r3/manifest.json": "apps/web/public/assets/candidates/r3/releases/68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb/manifest.json"
+  },
+  "archived_manifest_note": "Git text rules normalize the duplicate review/history manifest files; capture binding uses exact immutable binary-treated asset release manifests instead. Archived source metadata retains its recorded export/Git hashes."
 }

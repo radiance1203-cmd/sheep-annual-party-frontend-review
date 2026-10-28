@@ -20,7 +20,7 @@ def check(path, expected):
     normalized.append(path)
 
 for path, row in binding['capture_source'].items():
-    data = (R / binding.get('source_snapshot_prefix', '') / path).read_bytes()
+    data = (R / binding.get('source_file_overrides', {}).get(path, binding.get('source_snapshot_prefix', '') + path)).read_bytes()
     assert sha(data) in {row['export_worktree_sha256'], row['git_blob_sha256']}, path
     assert row['captured_original_sha256'] == row['export_worktree_sha256'], path
 
