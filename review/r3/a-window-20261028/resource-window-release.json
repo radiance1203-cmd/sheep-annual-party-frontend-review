@@ -1,0 +1,20 @@
+{
+  "status": "RELEASED",
+  "released_at_utc": "2026-10-28T05:20:24.854581+00:00",
+  "released_at_asia_shanghai": "2026-10-28T13:20:24.854581+08:00",
+  "released_by": "root",
+  "next_heavy_window": "video exact300-frame encoding may take over per coordinator/user scheduling",
+  "candidate_manifest_sha256": "8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d",
+  "scope": "This project finite A production/capture/build/runtime and independent review finished; no further Blender/render/recording/browser capture scheduled in this batch. Light documentation/Git export may continue.",
+  "production_art_accepted": false,
+  "sample_art_accepted": false,
+  "S3": "NOT_READY",
+  "overall_art_status": "FAIL",
+  "review": "review/r3/a-window-20261028/independent-review.md",
+  "final_captures": 27,
+  "runtime_records": 49,
+  "api_write_attempts": 0,
+  "B_options_implemented": false,
+  "new_full_videos": 0,
+  "blender_process_check": "Root process listing returned no blender process after art worker completed; all own browser scripts completed with close() finally blocks"
+}

@@ -1,0 +1,89 @@
+--- RED/r3-ui.css
++++ GREEN/r3-ui.css
+@@ -28,7 +28,16 @@
+   display: flex;
+   flex-direction: column;
+   color: var(--r3-ink);
+-  background: linear-gradient(var(--r3-scenery-sky) 0 20%, var(--r3-scenery-edge) 75%);
++  /* Low-detail soil/grass continues beneath the anchored portrait. Only the
++     fine grain tiles; landmarks and the portrait itself never repeat. */
++  background-color: var(--r3-scenery-edge);
++  background-image:
++    radial-gradient(ellipse at 8% 100%, #9eae6b40, transparent 44%),
++    radial-gradient(ellipse at 87% 92%, #c5985d38, transparent 42%),
++    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='128'%3E%3Cfilter id='grain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.64' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%237d633c' opacity='.09' filter='url(%23grain)' d='M0 0h128v128H0z'/%3E%3C/svg%3E"),
++    linear-gradient(var(--r3-scenery-sky) 0 20%, var(--r3-scenery-edge) 72%, #e9cc9b 100%);
++  background-size: 100% 100%, 100% 100%, 128px 128px, 100% 100%;
++  background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+ }
+ .game-page[data-art-candidate='r3']::before {
+   content: '';
+@@ -37,15 +46,27 @@
+   z-index: -1;
+   pointer-events: none;
+   background-color: transparent;
+-  background-image: linear-gradient(transparent 85%, var(--r3-scenery-edge) 100%), var(--r3-page-scenery-image, none);
++  background-image: var(--r3-page-scenery-image, none);
+   background-position: center var(--r3-page-scenery-top, 0px);
+   background-size: var(--r3-page-scenery-size, cover);
+   background-repeat: no-repeat;
++  /* The alpha ramp shares the original image's anchor and ratio, not the
++     page's gradient size. It reaches zero before the image ends, so the
++     remaining page can continue without a last-row seam. */
++  mask-image: linear-gradient(#000 0 calc(100% - 110px), transparent 100%);
++  mask-position: center var(--r3-page-scenery-top, 0px);
++  mask-size: var(--r3-page-scenery-size, cover);
++  mask-repeat: no-repeat;
+   filter: none;
+ }
+ .game-page[data-art-candidate='r3'][data-game='herd'] {
+   --r3-scenery-edge: #b6cc78;
+   --r3-scenery-sky: #b5dbcb;
++  background-image:
++    radial-gradient(ellipse at 12% 100%, #89a65c4d, transparent 50%),
++    radial-gradient(ellipse at 84% 94%, #dce8a647, transparent 45%),
++    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='128'%3E%3Cfilter id='grain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.64' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23577331' opacity='.09' filter='url(%23grain)' d='M0 0h128v128H0z'/%3E%3C/svg%3E"),
++    linear-gradient(var(--r3-scenery-sky), var(--r3-scenery-edge) 68%, #adc571);
+ }
+ .game-page[data-art-candidate='r3'] > * {
+   flex-shrink: 0;
+@@ -175,6 +196,7 @@
+   font-size: 13px;
+ }
+ .game-page[data-art-candidate='r3'] .game-stage {
++  position: relative;
+   flex-shrink: 0;
+   width: 100%;
+   height: max(180px, calc(100dvh - var(--r3-scene-space)));
+@@ -185,6 +207,31 @@
+   background: transparent;
+   box-shadow: none;
+   overflow: hidden;
++}
++/* Passive atmospheric depth only. This layer precedes the transparent canvas,
++   so no sheep, real tray, pickup, obstacle or gate pixels are veiled. */
++.game-page[data-art-candidate='r3'] .game-stage::before {
++  content: '';
++  position: absolute;
++  inset: 0;
++  pointer-events: none;
++  background: #d9e8ba45;
++  backdrop-filter: blur(1.5px) saturate(.8);
++  mask-image: linear-gradient(90deg, transparent, #000 12% 88%, transparent), radial-gradient(ellipse 82% 78% at 50% 55%, #0008, transparent);
++  mask-composite: intersect;
++}
++.game-page[data-art-candidate='r3'] .game-stage canvas {
++  position: relative;
++}
++.game-page[data-art-candidate='r3'][data-game='runner'] .game-stage::before {
++  background: #e1e8bc4d;
++  /* y69/220 and the y150..180/220 obstacle corridor; soft edges avoid
++     drawing a second field boundary. Actors remain above this background. */
++  mask-image: linear-gradient(90deg, transparent, #000 12% 88%, transparent), linear-gradient(transparent 16%, #000 25% 38%, transparent 48% 53%, #000b 66% 82%, transparent 93%);
++}
++.game-page[data-art-candidate='r3'][data-game='herd'] .game-stage::before {
++  background: linear-gradient(#e2ebbb9c, #d4e4a947 24%, transparent 48%);
++  mask-image: linear-gradient(90deg, transparent, #000 12% 88%, transparent), linear-gradient(#000a, #000 19%, transparent 43%);
+ }
+ .game-page[data-art-candidate='r3'] .game-stage:focus {
+   outline: none; /* Programmatic play focus; action controls retain visible focus. */

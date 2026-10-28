@@ -1,0 +1,86 @@
+{
+  "image": "props-materials-a.png",
+  "size_px": [
+    1024,
+    512
+  ],
+  "frames": {
+    "hay_tray_thin": {
+      "rect": [
+        0,
+        0,
+        896,
+        48
+      ],
+      "pivot_px": [
+        448.0,
+        24.0
+      ]
+    },
+    "hurdle_narrow": {
+      "rect": [
+        0,
+        64,
+        64,
+        240
+      ],
+      "pivot_px": [
+        32.0,
+        120.0
+      ]
+    },
+    "hurdle_medium": {
+      "rect": [
+        80,
+        64,
+        144,
+        240
+      ],
+      "pivot_px": [
+        72.0,
+        120.0
+      ]
+    },
+    "hurdle_wide": {
+      "rect": [
+        240,
+        64,
+        224,
+        240
+      ],
+      "pivot_px": [
+        112.0,
+        120.0
+      ]
+    },
+    "clover_outer_round": {
+      "rect": [
+        480,
+        64,
+        144,
+        144
+      ],
+      "pivot_px": [
+        72.0,
+        72.0
+      ]
+    },
+    "clover_core_round": {
+      "rect": [
+        640,
+        64,
+        48,
+        48
+      ],
+      "pivot_px": [
+        24.0,
+        24.0
+      ]
+    }
+  },
+  "animations": {},
+  "source": "art-source/r3/a-window-props-20261028/props-materials-a.svg",
+  "scope": "bounded material/contrast sample; no change to tray112x6, hurdles8/18/28x30 or clover9/3; SVG source is editable, not a 3D master",
+  "sample_art_accepted": false,
+  "production_art_accepted": false
+}

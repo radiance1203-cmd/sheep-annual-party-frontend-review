@@ -1,3 +1,7 @@
+# 最新B5有限A样板：PARTIAL/整体FAIL
+
+当前候选8f30e374…c98d；完整差异与最终原生对照见docs/r3-a-window-20261028-report.md及review/r3/a-window-20261028/independent-review.md。旧硬底缝已改善；长低细节尾区、羊团块毛感/犬背光滑、比例与有限key混用仍未过。未接受差异/新golden/S3；下文B4属于历史。
+
 # 当前R3-B4差异（2026-10-28）
 
 当前有效候选68a94f88…871a5cb，27图/49运行/三原速录像同版本。三款已完成整屏候选输出，艺术九格PARTIAL、独立整体FAIL，sample/production仍false。实际原型/当前/几何对照见review/r3/evidence/comparisons/，独立剩余问题见review/r3/audit/B4/pixel-review.md。以下原始参考契约与冲突保留；末尾“当前没有候选”等属于早期历史，不再作为当前进度。无新golden、无用户接受差异。

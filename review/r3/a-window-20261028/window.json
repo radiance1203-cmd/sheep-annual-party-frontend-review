@@ -1,0 +1,28 @@
+{
+  "opened_at_utc": "2026-10-28T04:56:39.238890+00:00",
+  "window": "FINITE_A_SAMPLE_RELEASED",
+  "authority": "User reply: four projects heavy load idle; finite A sample window; release after sample and review for video exact300-frame encoding",
+  "baseline_head": "9d652fb3fef2ede55ebc462d46445cc855b98dd1",
+  "old_candidate_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+  "rules_mapping_changes_permitted": false,
+  "B_options_approved": [],
+  "writers": {
+    "root": [
+      "candidate runtime asset integration",
+      "apps/web/src/game/assets.ts",
+      "apps/web/src/game/renderer.ts",
+      "integration evidence and state"
+    ],
+    "a_materials": [
+      "art-source/r3/a-window-20261028/**",
+      "review/r3/a-window-20261028/materials/**"
+    ],
+    "a_frontend": [
+      "apps/web/src/r3-ui.css",
+      "apps/web/tests/r3-a-scenery.mts"
+    ]
+  },
+  "no_concurrent_git_or_dependency_operations": true,
+  "backup_files": 207,
+  "release": "review/r3/a-window-20261028/resource-window-release.json"
+}

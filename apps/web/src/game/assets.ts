@@ -105,12 +105,13 @@ export async function preloadAssets(game: GameId, baseUrl = '/assets/', expected
     return result;
   } catch (error) { releaseAssets(result); throw error; }
 }
-const r3ManifestHash = '68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb';
+const r3ManifestHash = '8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d';
 const r3BaseHash = '49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c';
 const r3File = z.object({ image: z.string().regex(/^(stack|runner|herd)\.png$/u), image_sha256: z.string().regex(/^[a-f0-9]{64}$/u), metadata: z.string().regex(/^(stack|runner|herd)\.atlas\.json$/u), metadata_sha256: z.string().regex(/^[a-f0-9]{64}$/u) });
 const hash = z.string().regex(/^[a-f0-9]{64}$/u);
 const r3Page = z.object({ image: z.string().regex(/^page-(stack|runner|herd)-b2\.png$/u), sha256: hash, size_px: dimensions, anchor_fraction: z.number().min(0).max(1) });
-const r3Schema = z.object({ candidate_id: z.literal('R3-B4-C-sample-a'), source_manifest_sha256: z.literal(r3BaseHash), backgrounds: z.object({ stack: r3File, runner: r3File, herd: r3File }), page_backgrounds: z.object({ stack: r3Page, runner: r3Page, herd: r3Page }), fence: z.object({ image: z.literal('fence-panel-b3.png'), image_sha256: hash, metadata: z.literal('fence-panel-b4.atlas.json'), metadata_sha256: hash }), stack_sample: z.object({ image: z.literal('stack-motion-a.png'), image_sha256: hash, metadata: z.literal('stack-motion-a.atlas.json'), metadata_sha256: hash, native_alpha_height: z.literal(126) }), ui: z.object({ title: z.object({ image: z.literal('title-plaque-a.png'), sha256: hash, size_px: dimensions }) }), sample_art_accepted: z.literal(false), production_art_accepted: z.literal(false) });
+const r3MaterialFile = z.object({ image: z.string().regex(/^(?:stack|sheep-side|sheep-iso8|dog-iso8|props)-materials?-a\.png$/u), image_sha256: hash, metadata: z.string().regex(/^(?:stack|sheep-side|sheep-iso8|dog-iso8|props)-materials?-a\.atlas\.json$/u), metadata_sha256: hash });
+const r3Schema = z.object({ candidate_id: z.literal('R3-B5-A-finite-materials'), source_manifest_sha256: z.literal(r3BaseHash), backgrounds: z.object({ stack: r3File, runner: r3File, herd: r3File }), page_backgrounds: z.object({ stack: r3Page, runner: r3Page, herd: r3Page }), fence: z.object({ image: z.literal('fence-panel-b3.png'), image_sha256: hash, metadata: z.literal('fence-panel-b4.atlas.json'), metadata_sha256: hash }), stack_sample: z.object({ image: z.literal('stack-material-a.png'), image_sha256: hash, metadata: z.literal('stack-material-a.atlas.json'), metadata_sha256: hash, native_alpha_height: z.literal(126) }), character_samples: z.object({ sheep_side: r3MaterialFile, sheep_iso8: r3MaterialFile, dog_iso8: r3MaterialFile }), props_sample: r3MaterialFile, ui: z.object({ title: z.object({ image: z.literal('title-plaque-a.png'), sha256: hash, size_px: dimensions }) }), sample_art_accepted: z.literal(false), production_art_accepted: z.literal(false) });
 async function loadR3Backgrounds(game: GameId, sourceHash: string, result: Record<string, Atlas>): Promise<void> {
   if (sourceHash !== r3BaseHash) throw new Error('本地候选仅适用于登记的原资源基线，旧局不会换用候选。');
   const base = new URL('/assets/candidates/r3/', window.location.origin);
@@ -170,6 +171,25 @@ async function loadR3Backgrounds(game: GameId, sourceHash: string, result: Recor
     result.sheep_stack_candidate = { ...atlas, decodedImage: sampleImage, objectUrl: sampleUrl };
     await sampleImage.decode();
     validateGameAtlas('r3_stack_sample', atlas, sampleImage.naturalWidth, sampleImage.naturalHeight);
+  }
+  async function loadMaterial(name: string, entry: z.infer<typeof r3MaterialFile>): Promise<void> {
+    const atlas = parseAtlas(JSON.parse(new TextDecoder().decode(await verifiedBytes(entry.metadata, entry.metadata_sha256))));
+    if (atlas.image !== entry.image || atlas.size_px.some(value => value > 2048)) throw new Error('有限材质样板映射或预算不符。');
+    const objectUrl = URL.createObjectURL(new Blob([await verifiedBytes(entry.image, entry.image_sha256)], { type: 'image/png' }));
+    const decodedImage = new Image(); decodedImage.src = objectUrl;
+    result[name] = { ...atlas, decodedImage, objectUrl };
+    await decodedImage.decode();
+    validateGameAtlas('r3_material_sample', atlas, decodedImage.naturalWidth, decodedImage.naturalHeight);
+    if (name !== 'r3_props') {
+      const pivot = name === 'r3_sheep_side' ? [64, 112] : [64, 98];
+      if (Object.values(atlas.frames).some(frame => frame.rect[2] !== 128 || frame.rect[3] !== 128 || frame.pivot_px.some((value, index) => value !== pivot[index]))) throw new Error('有限角色样板必须保留原128帧与足点。');
+    } else if (['hay_tray_thin', 'hurdle_narrow', 'hurdle_medium', 'hurdle_wide', 'clover_outer_round', 'clover_core_round'].some(frame => !atlas.frames[frame])) throw new Error('有界道具样板缺少帧。');
+  }
+  await loadMaterial('r3_props', manifest.props_sample);
+  if (game === 'runner') await loadMaterial('r3_sheep_side', manifest.character_samples.sheep_side);
+  if (game === 'herd') {
+    await loadMaterial('r3_sheep_iso8', manifest.character_samples.sheep_iso8);
+    await loadMaterial('r3_dog_iso8', manifest.character_samples.dog_iso8);
   }
   if (game === 'herd') {
     const fence = manifest.fence;

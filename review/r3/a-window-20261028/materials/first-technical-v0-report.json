@@ -1,0 +1,317 @@
+{
+  "status": "LIMITED_MATERIAL_CANDIDATE_NOT_ACCEPTED",
+  "geometry_changes": false,
+  "camera_changes": false,
+  "animation_changes": false,
+  "particle_count_changes": false,
+  "masters": [
+    {
+      "actor": "stack",
+      "source": "art-source/r3/stack-sample/sheep_stack_A_motion_sample.blend",
+      "source_sha256": "5276dbced072e3a18b1b56b1ecfdb4ddea0569baa9d2f7743841ea204d052a9e",
+      "master": "art-source/r3/a-window-20261028/stack_materials_A.blend",
+      "master_sha256": "7bcd803450ffed4a7ca26c822c1b2bef13782e42186b7cf0d2c3fd22d7de7917",
+      "devices": [
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "CUDA",
+          "use": true
+        },
+        {
+          "name": "13th Gen Intel Core i5-13600KF",
+          "type": "CPU",
+          "use": false
+        },
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "OPTIX",
+          "use": false
+        }
+      ],
+      "samples": 64
+    },
+    {
+      "actor": "sheep",
+      "source": "art-source/r2/r2g/sheep_master_r2g.blend",
+      "source_sha256": "e6875118a2cca427b380bf40838d679ac9b742d80ab7fff2e117058cb058feff",
+      "master": "art-source/r3/a-window-20261028/sheep_materials_A.blend",
+      "master_sha256": "bc40ef8209763f21d7712dc011d0f428155f2280f6ca0617f6f27e7e26b7c9a7",
+      "devices": [
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "CUDA",
+          "use": true
+        },
+        {
+          "name": "13th Gen Intel Core i5-13600KF",
+          "type": "CPU",
+          "use": false
+        },
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "OPTIX",
+          "use": false
+        }
+      ],
+      "samples": 64
+    },
+    {
+      "actor": "dog",
+      "source": "art-source/v4/dog_master_v4.blend",
+      "source_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+      "master": "art-source/r3/a-window-20261028/dog_materials_A.blend",
+      "master_sha256": "4a3d25ddd37c3cb3c862c00db09ea46bb6e9d59e6076633c55fa9b441e8bceeb",
+      "devices": [
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "CUDA",
+          "use": true
+        },
+        {
+          "name": "13th Gen Intel Core i5-13600KF",
+          "type": "CPU",
+          "use": false
+        },
+        {
+          "name": "NVIDIA GeForce GTX 1060 6GB",
+          "type": "OPTIX",
+          "use": false
+        }
+      ],
+      "samples": 64
+    }
+  ],
+  "frames": [
+    {
+      "actor": "stack",
+      "plan": "sheep_stack",
+      "clip": "stack_idle",
+      "direction": "e",
+      "index": 0,
+      "path": "review/r3/a-window-20261028/materials/first/sheep_stack__stack_idle__e__f000_512.png",
+      "sha256": "d2f3d7304dd21c2941bb945abdd6e90de930093146ff4acd60df90ef0724b307",
+      "seconds": 3.062,
+      "camera": {
+        "name": "side_v1",
+        "location": [
+          0.0,
+          -8.0,
+          1.399999976158142
+        ],
+        "rotation": [
+          1.3975508213043213,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 4.0
+      },
+      "floor_origin_native512": [
+        256.0,
+        256.0001525878906
+      ],
+      "root_scale": [
+        0.9300000071525574,
+        0.9300000071525574,
+        0.9300000071525574
+      ],
+      "body_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "actor": "sheep",
+      "plan": "sheep_side",
+      "clip": "idle",
+      "direction": "e",
+      "index": 0,
+      "path": "review/r3/a-window-20261028/materials/first/sheep_side__idle__e__f000_512.png",
+      "sha256": "06b456b512e722d3ed0faca37bbac8f4b9ae229f6694fe0b2376dd55cbddd094",
+      "seconds": 2.697,
+      "camera": {
+        "name": "side_v1",
+        "location": [
+          0.0,
+          -8.0,
+          1.399999976158142
+        ],
+        "rotation": [
+          1.3975508213043213,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 4.0
+      },
+      "floor_origin_native512": [
+        256.0,
+        256.0001525878906
+      ],
+      "root_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "body_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "actor": "sheep",
+      "plan": "sheep_iso8",
+      "clip": "idle",
+      "direction": "n",
+      "index": 0,
+      "path": "review/r3/a-window-20261028/materials/first/sheep_iso8__idle__n__f000_512.png",
+      "sha256": "6edfc28f62c0c537df3273dd3b62e78df34e070ab81093414436e0e84f2aac87",
+      "seconds": 2.631,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 4.5714287757873535
+      },
+      "floor_origin_native512": [
+        256.0,
+        255.99993896484375
+      ],
+      "root_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "body_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "actor": "sheep",
+      "plan": "sheep_iso8",
+      "clip": "idle",
+      "direction": "se",
+      "index": 0,
+      "path": "review/r3/a-window-20261028/materials/first/sheep_iso8__idle__se__f000_512.png",
+      "sha256": "2c3e52dfa996910f1bde1c51b9c6390481f798b33d541da9156dad7d3cdc0322",
+      "seconds": 2.389,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 4.5714287757873535
+      },
+      "floor_origin_native512": [
+        256.0,
+        255.99993896484375
+      ],
+      "root_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "body_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "actor": "dog",
+      "plan": "dog_iso8",
+      "clip": "idle",
+      "direction": "n",
+      "index": 0,
+      "path": "review/r3/a-window-20261028/materials/first/dog_iso8__idle__n__f000_512.png",
+      "sha256": "9abe1acf4001a219851857cd3aed69d843ad68d901d6e4ceb1576df9d3ace3f5",
+      "seconds": 1.481,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 4.5714287757873535
+      },
+      "floor_origin_native512": [
+        256.0,
+        255.99993896484375
+      ],
+      "root_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "body_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "actor": "dog",
+      "plan": "dog_iso8",
+      "clip": "idle",
+      "direction": "se",
+      "index": 0,
+      "path": "review/r3/a-window-20261028/materials/first/dog_iso8__idle__se__f000_512.png",
+      "sha256": "d76b53dc036723d27bee873755d74f4051294fc0e205798387a064420046176e",
+      "seconds": 1.554,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 4.5714287757873535
+      },
+      "floor_origin_native512": [
+        256.0,
+        255.99993896484375
+      ],
+      "root_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "body_scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "explicit_remaining": "All other animation keys and directions retain v4; this is not full coverage. Existing inherited scale curves unchanged; enumerate per-frame scale in report.",
+  "sample_art_accepted": false,
+  "production_art_accepted": false
+}

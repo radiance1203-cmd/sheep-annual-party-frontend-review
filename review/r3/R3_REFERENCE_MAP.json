@@ -129,6 +129,6 @@
     "review/r3/ASSET_MOTION_COVERAGE.json"
   ],
   "user_signoff": null,
-  "current_candidate": "R3-B4-C-sample-a",
-  "current_candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb"
+  "current_candidate": "R3-B5-A-finite-materials",
+  "current_candidate_manifest_sha256": "8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d"
 }

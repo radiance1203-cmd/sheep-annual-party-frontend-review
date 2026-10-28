@@ -1,0 +1,503 @@
+{
+  "schema_version": "sheep-atlas-1.0",
+  "asset_id": "dog_iso8.materials.A.finite",
+  "image": "dog_iso8_materials_A.png",
+  "size_px": [
+    1024,
+    512
+  ],
+  "color_space": "srgb",
+  "alpha_mode": "straight",
+  "camera_id": "iso8_v1",
+  "source_frame_px": [
+    512,
+    512
+  ],
+  "runtime_frame_px": [
+    128,
+    128
+  ],
+  "common_trim": [
+    128,
+    60,
+    384,
+    316
+  ],
+  "pivot_px": [
+    64,
+    98
+  ],
+  "frames": {
+    "dog_iso8__idle__n__f000": {
+      "rect": [
+        4,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "source_png": "review/r3/a-window-20261028/materials/frames/dog_iso8__idle__n__f000_512.png",
+      "source_sha256": "76d2b9d17aa3cde8eeff53721059b2ee6c8e6f67aec64ac15e6f5fc5d868d308",
+      "alpha_bbox_source": [
+        213,
+        120,
+        299,
+        288
+      ],
+      "alpha_bbox_frame": [
+        40,
+        28,
+        88,
+        116
+      ],
+      "native_frame_index": 0
+    },
+    "dog_iso8__walk__n__f000": {
+      "rect": [
+        140,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "source_png": "review/r3/a-window-20261028/materials/frames/dog_iso8__walk__n__f000_512.png",
+      "source_sha256": "3e41cd55cf34163c6b9f62a088d8b526184b675ec9cd0983a8867f46f859bee7",
+      "alpha_bbox_source": [
+        213,
+        120,
+        299,
+        288
+      ],
+      "alpha_bbox_frame": [
+        40,
+        28,
+        88,
+        116
+      ],
+      "native_frame_index": 0
+    },
+    "dog_iso8__walk__n__f002": {
+      "rect": [
+        276,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "source_png": "review/r3/a-window-20261028/materials/frames/dog_iso8__walk__n__f002_512.png",
+      "source_sha256": "51473f01fac1111bdb8706cf8f28dd7de6a5e8918a1d0e9fa34d55e01132559d",
+      "alpha_bbox_source": [
+        215,
+        118,
+        301,
+        296
+      ],
+      "alpha_bbox_frame": [
+        42,
+        27,
+        89,
+        120
+      ],
+      "native_frame_index": 2
+    },
+    "dog_iso8__bark__n__f001": {
+      "rect": [
+        412,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "source_png": "review/r3/a-window-20261028/materials/frames/dog_iso8__bark__n__f001_512.png",
+      "source_sha256": "4c8996df95bbf6af8798c80caa3084cae87414eee6074cb45ccccd5dea23d08c",
+      "alpha_bbox_source": [
+        213,
+        113,
+        299,
+        288
+      ],
+      "alpha_bbox_frame": [
+        40,
+        25,
+        88,
+        116
+      ],
+      "native_frame_index": 1
+    },
+    "dog_iso8__idle__se__f000": {
+      "rect": [
+        4,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "source_png": "review/r3/a-window-20261028/materials/frames/dog_iso8__idle__se__f000_512.png",
+      "source_sha256": "365d30ecbe768ffce687797d148620f15a62462ff4e77aae23fe2286ab9039a0",
+      "alpha_bbox_source": [
+        189,
+        139,
+        323,
+        288
+      ],
+      "alpha_bbox_frame": [
+        29,
+        38,
+        100,
+        116
+      ],
+      "native_frame_index": 0
+    },
+    "dog_iso8__walk__se__f000": {
+      "rect": [
+        140,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "source_png": "review/r3/a-window-20261028/materials/frames/dog_iso8__walk__se__f000_512.png",
+      "source_sha256": "afccea92fdc19e119deb126e299b27f6d15b00bb335ce65d7fe8de8e44228bfd",
+      "alpha_bbox_source": [
+        189,
+        139,
+        323,
+        288
+      ],
+      "alpha_bbox_frame": [
+        29,
+        38,
+        100,
+        116
+      ],
+      "native_frame_index": 0
+    },
+    "dog_iso8__walk__se__f002": {
+      "rect": [
+        276,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "source_png": "review/r3/a-window-20261028/materials/frames/dog_iso8__walk__se__f002_512.png",
+      "source_sha256": "f65bafa3a01c89b1ec2e3cd43717327e5d5d3736a2d3bf7c69a05e01610bbd52",
+      "alpha_bbox_source": [
+        186,
+        140,
+        321,
+        280
+      ],
+      "alpha_bbox_frame": [
+        27,
+        38,
+        99,
+        112
+      ],
+      "native_frame_index": 2
+    },
+    "dog_iso8__bark__se__f001": {
+      "rect": [
+        412,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "source_png": "review/r3/a-window-20261028/materials/frames/dog_iso8__bark__se__f001_512.png",
+      "source_sha256": "cf64fcee04ca9575e94c0623515d82166a02fe5b7382f99c931a3ff62f87295a",
+      "alpha_bbox_source": [
+        191,
+        138,
+        330,
+        288
+      ],
+      "alpha_bbox_frame": [
+        30,
+        37,
+        103,
+        116
+      ],
+      "native_frame_index": 1
+    }
+  },
+  "animations": {
+    "idle.n": {
+      "frames": [
+        "dog_iso8__idle__n__f000",
+        "dog_iso8__idle__n__f000",
+        "dog_iso8__idle__n__f000",
+        "dog_iso8__idle__n__f000"
+      ],
+      "fps": 8,
+      "loop": true,
+      "limited_sample": true,
+      "source_sample_refs": [
+        "dog_iso8__idle__n__f000"
+      ],
+      "legacy_slot_count": 4,
+      "legacy_cycle_ms": 500.0,
+      "limited_pose_only": false,
+      "motion_coverage": "finite key poses held across original timing slots; not full original motion"
+    },
+    "walk.n": {
+      "frames": [
+        "dog_iso8__walk__n__f000",
+        "dog_iso8__walk__n__f000",
+        "dog_iso8__walk__n__f000",
+        "dog_iso8__walk__n__f002",
+        "dog_iso8__walk__n__f002",
+        "dog_iso8__walk__n__f002"
+      ],
+      "fps": 12,
+      "loop": true,
+      "limited_sample": true,
+      "source_sample_refs": [
+        "dog_iso8__walk__n__f000",
+        "dog_iso8__walk__n__f002"
+      ],
+      "legacy_slot_count": 6,
+      "legacy_cycle_ms": 500.0,
+      "limited_pose_only": false,
+      "motion_coverage": "finite key poses held across original timing slots; not full original motion"
+    },
+    "bark.n": {
+      "frames": [
+        "dog_iso8__bark__n__f001",
+        "dog_iso8__bark__n__f001",
+        "dog_iso8__bark__n__f001",
+        "dog_iso8__bark__n__f001"
+      ],
+      "fps": 12,
+      "loop": false,
+      "limited_sample": true,
+      "source_sample_refs": [
+        "dog_iso8__bark__n__f001"
+      ],
+      "legacy_slot_count": 4,
+      "legacy_cycle_ms": 333.3333333333333,
+      "limited_pose_only": true,
+      "motion_coverage": "finite key poses held across original timing slots; not full original motion"
+    },
+    "idle.se": {
+      "frames": [
+        "dog_iso8__idle__se__f000",
+        "dog_iso8__idle__se__f000",
+        "dog_iso8__idle__se__f000",
+        "dog_iso8__idle__se__f000"
+      ],
+      "fps": 8,
+      "loop": true,
+      "limited_sample": true,
+      "source_sample_refs": [
+        "dog_iso8__idle__se__f000"
+      ],
+      "legacy_slot_count": 4,
+      "legacy_cycle_ms": 500.0,
+      "limited_pose_only": false,
+      "motion_coverage": "finite key poses held across original timing slots; not full original motion"
+    },
+    "walk.se": {
+      "frames": [
+        "dog_iso8__walk__se__f000",
+        "dog_iso8__walk__se__f000",
+        "dog_iso8__walk__se__f000",
+        "dog_iso8__walk__se__f002",
+        "dog_iso8__walk__se__f002",
+        "dog_iso8__walk__se__f002"
+      ],
+      "fps": 12,
+      "loop": true,
+      "limited_sample": true,
+      "source_sample_refs": [
+        "dog_iso8__walk__se__f000",
+        "dog_iso8__walk__se__f002"
+      ],
+      "legacy_slot_count": 6,
+      "legacy_cycle_ms": 500.0,
+      "limited_pose_only": false,
+      "motion_coverage": "finite key poses held across original timing slots; not full original motion"
+    },
+    "bark.se": {
+      "frames": [
+        "dog_iso8__bark__se__f001",
+        "dog_iso8__bark__se__f001",
+        "dog_iso8__bark__se__f001",
+        "dog_iso8__bark__se__f001"
+      ],
+      "fps": 12,
+      "loop": false,
+      "limited_sample": true,
+      "source_sample_refs": [
+        "dog_iso8__bark__se__f001"
+      ],
+      "legacy_slot_count": 4,
+      "legacy_cycle_ms": 333.3333333333333,
+      "limited_pose_only": true,
+      "motion_coverage": "finite key poses held across original timing slots; not full original motion"
+    }
+  },
+  "source_union_alpha": [
+    186,
+    113,
+    330,
+    296
+  ],
+  "source_union_size": [
+    144,
+    183
+  ],
+  "crop_overflow": false,
+  "native_pngs_preserved": true,
+  "stack_pixels_lossless": false,
+  "nonstack_resample": "existing 256 crop to128 LANCZOS",
+  "foot_note": "legacy render_plan pivot and crop retained; source floor projection recorded per frame in render-report.json",
+  "production_art_accepted": false,
+  "sample_art_accepted": false,
+  "coverage": "Only listed animation keys and enumerated frame indices. Other actions/directions remain old v4; finite samples are not full animation production.",
+  "master": {
+    "actor": "dog",
+    "source": "art-source/v4/dog_master_v4.blend",
+    "source_sha256": "2fbc631f67327c9a9eeed9c44421515706db1cecc89f00ceb8b877cdf102ca0d",
+    "master": "art-source/r3/a-window-20261028/dog_materials_A.blend",
+    "master_sha256": "cee93a352c932ff8282250b4dc736d5858adf9089733ab4a73823e48f1dd8839",
+    "devices": [
+      {
+        "name": "NVIDIA GeForce GTX 1060 6GB",
+        "type": "CUDA",
+        "use": true
+      },
+      {
+        "name": "13th Gen Intel Core i5-13600KF",
+        "type": "CPU",
+        "use": false
+      },
+      {
+        "name": "NVIDIA GeForce GTX 1060 6GB",
+        "type": "OPTIX",
+        "use": false
+      }
+    ],
+    "samples": 64
+  }
+}

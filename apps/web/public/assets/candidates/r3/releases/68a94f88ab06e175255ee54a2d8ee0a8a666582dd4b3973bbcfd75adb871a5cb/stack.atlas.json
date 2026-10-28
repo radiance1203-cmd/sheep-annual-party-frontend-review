@@ -1,0 +1,26 @@
+{
+  "image": "stack.png",
+  "size_px": [
+    1086,
+    1448
+  ],
+  "scene_size_px": [
+    360,
+    480
+  ],
+  "frames": {
+    "backdrop_stack": {
+      "rect": [
+        0,
+        0,
+        1086,
+        1448
+      ],
+      "pivot_px": [
+        0,
+        0
+      ]
+    }
+  },
+  "animations": {}
+}

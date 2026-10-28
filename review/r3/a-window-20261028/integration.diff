@@ -1,0 +1,199 @@
+--- B4/apps/web/src/r3-ui.css
++++ A-finite/apps/web/src/r3-ui.css
+@@ -28,7 +28,16 @@
+   display: flex;
+   flex-direction: column;
+   color: var(--r3-ink);
+-  background: linear-gradient(var(--r3-scenery-sky) 0 20%, var(--r3-scenery-edge) 75%);
++  /* Low-detail soil/grass continues beneath the anchored portrait. Only the
++     fine grain tiles; landmarks and the portrait itself never repeat. */
++  background-color: var(--r3-scenery-edge);
++  background-image:
++    radial-gradient(ellipse at 8% 100%, #9eae6b40, transparent 44%),
++    radial-gradient(ellipse at 87% 92%, #c5985d38, transparent 42%),
++    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='128'%3E%3Cfilter id='grain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.64' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%237d633c' opacity='.09' filter='url(%23grain)' d='M0 0h128v128H0z'/%3E%3C/svg%3E"),
++    linear-gradient(var(--r3-scenery-sky) 0 20%, var(--r3-scenery-edge) 72%, #e9cc9b 100%);
++  background-size: 100% 100%, 100% 100%, 128px 128px, 100% 100%;
++  background-repeat: no-repeat, no-repeat, repeat, no-repeat;
+ }
+ .game-page[data-art-candidate='r3']::before {
+   content: '';
+@@ -37,15 +46,27 @@
+   z-index: -1;
+   pointer-events: none;
+   background-color: transparent;
+-  background-image: linear-gradient(transparent 85%, var(--r3-scenery-edge) 100%), var(--r3-page-scenery-image, none);
++  background-image: var(--r3-page-scenery-image, none);
+   background-position: center var(--r3-page-scenery-top, 0px);
+   background-size: var(--r3-page-scenery-size, cover);
+   background-repeat: no-repeat;
++  /* The alpha ramp shares the original image's anchor and ratio, not the
++     page's gradient size. It reaches zero before the image ends, so the
++     remaining page can continue without a last-row seam. */
++  mask-image: linear-gradient(#000 0 calc(100% - 110px), transparent 100%);
++  mask-position: center var(--r3-page-scenery-top, 0px);
++  mask-size: var(--r3-page-scenery-size, cover);
++  mask-repeat: no-repeat;
+   filter: none;
+ }
+ .game-page[data-art-candidate='r3'][data-game='herd'] {
+   --r3-scenery-edge: #b6cc78;
+   --r3-scenery-sky: #b5dbcb;
++  background-image:
++    radial-gradient(ellipse at 12% 100%, #89a65c4d, transparent 50%),
++    radial-gradient(ellipse at 84% 94%, #dce8a647, transparent 45%),
++    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='128' height='128'%3E%3Cfilter id='grain'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.64' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23577331' opacity='.09' filter='url(%23grain)' d='M0 0h128v128H0z'/%3E%3C/svg%3E"),
++    linear-gradient(var(--r3-scenery-sky), var(--r3-scenery-edge) 68%, #adc571);
+ }
+ .game-page[data-art-candidate='r3'] > * {
+   flex-shrink: 0;
+@@ -175,6 +196,7 @@
+   font-size: 13px;
+ }
+ .game-page[data-art-candidate='r3'] .game-stage {
++  position: relative;
+   flex-shrink: 0;
+   width: 100%;
+   height: max(180px, calc(100dvh - var(--r3-scene-space)));
+@@ -185,6 +207,31 @@
+   background: transparent;
+   box-shadow: none;
+   overflow: hidden;
++}
++/* Passive atmospheric depth only. This layer precedes the transparent canvas,
++   so no sheep, real tray, pickup, obstacle or gate pixels are veiled. */
++.game-page[data-art-candidate='r3'] .game-stage::before {
++  content: '';
++  position: absolute;
++  inset: 0;
++  pointer-events: none;
++  background: #d9e8ba45;
++  backdrop-filter: blur(1.5px) saturate(.8);
++  mask-image: linear-gradient(90deg, transparent, #000 12% 88%, transparent), radial-gradient(ellipse 82% 78% at 50% 55%, #0008, transparent);
++  mask-composite: intersect;
++}
++.game-page[data-art-candidate='r3'] .game-stage canvas {
++  position: relative;
++}
++.game-page[data-art-candidate='r3'][data-game='runner'] .game-stage::before {
++  background: #e1e8bc4d;
++  /* y69/220 and the y150..180/220 obstacle corridor; soft edges avoid
++     drawing a second field boundary. Actors remain above this background. */
++  mask-image: linear-gradient(90deg, transparent, #000 12% 88%, transparent), linear-gradient(transparent 16%, #000 25% 38%, transparent 48% 53%, #000b 66% 82%, transparent 93%);
++}
++.game-page[data-art-candidate='r3'][data-game='herd'] .game-stage::before {
++  background: linear-gradient(#e2ebbb9c, #d4e4a947 24%, transparent 48%);
++  mask-image: linear-gradient(90deg, transparent, #000 12% 88%, transparent), linear-gradient(#000a, #000 19%, transparent 43%);
+ }
+ .game-page[data-art-candidate='r3'] .game-stage:focus {
+   outline: none; /* Programmatic play focus; action controls retain visible focus. */
+--- B4/apps/web/src/game/assets.ts
++++ A-finite/apps/web/src/game/assets.ts
+@@ -105,12 +105,13 @@
+     return result;
+   } catch (error) { releaseAssets(result); throw error; }
+ }
+-const r3ManifestHash = '68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb';
++const r3ManifestHash = '8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d';
+ const r3BaseHash = '49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c';
+ const r3File = z.object({ image: z.string().regex(/^(stack|runner|herd)\.png$/u), image_sha256: z.string().regex(/^[a-f0-9]{64}$/u), metadata: z.string().regex(/^(stack|runner|herd)\.atlas\.json$/u), metadata_sha256: z.string().regex(/^[a-f0-9]{64}$/u) });
+ const hash = z.string().regex(/^[a-f0-9]{64}$/u);
+ const r3Page = z.object({ image: z.string().regex(/^page-(stack|runner|herd)-b2\.png$/u), sha256: hash, size_px: dimensions, anchor_fraction: z.number().min(0).max(1) });
+-const r3Schema = z.object({ candidate_id: z.literal('R3-B4-C-sample-a'), source_manifest_sha256: z.literal(r3BaseHash), backgrounds: z.object({ stack: r3File, runner: r3File, herd: r3File }), page_backgrounds: z.object({ stack: r3Page, runner: r3Page, herd: r3Page }), fence: z.object({ image: z.literal('fence-panel-b3.png'), image_sha256: hash, metadata: z.literal('fence-panel-b4.atlas.json'), metadata_sha256: hash }), stack_sample: z.object({ image: z.literal('stack-motion-a.png'), image_sha256: hash, metadata: z.literal('stack-motion-a.atlas.json'), metadata_sha256: hash, native_alpha_height: z.literal(126) }), ui: z.object({ title: z.object({ image: z.literal('title-plaque-a.png'), sha256: hash, size_px: dimensions }) }), sample_art_accepted: z.literal(false), production_art_accepted: z.literal(false) });
++const r3MaterialFile = z.object({ image: z.string().regex(/^(?:stack|sheep-side|sheep-iso8|dog-iso8|props)-materials?-a\.png$/u), image_sha256: hash, metadata: z.string().regex(/^(?:stack|sheep-side|sheep-iso8|dog-iso8|props)-materials?-a\.atlas\.json$/u), metadata_sha256: hash });
++const r3Schema = z.object({ candidate_id: z.literal('R3-B5-A-finite-materials'), source_manifest_sha256: z.literal(r3BaseHash), backgrounds: z.object({ stack: r3File, runner: r3File, herd: r3File }), page_backgrounds: z.object({ stack: r3Page, runner: r3Page, herd: r3Page }), fence: z.object({ image: z.literal('fence-panel-b3.png'), image_sha256: hash, metadata: z.literal('fence-panel-b4.atlas.json'), metadata_sha256: hash }), stack_sample: z.object({ image: z.literal('stack-material-a.png'), image_sha256: hash, metadata: z.literal('stack-material-a.atlas.json'), metadata_sha256: hash, native_alpha_height: z.literal(126) }), character_samples: z.object({ sheep_side: r3MaterialFile, sheep_iso8: r3MaterialFile, dog_iso8: r3MaterialFile }), props_sample: r3MaterialFile, ui: z.object({ title: z.object({ image: z.literal('title-plaque-a.png'), sha256: hash, size_px: dimensions }) }), sample_art_accepted: z.literal(false), production_art_accepted: z.literal(false) });
+ async function loadR3Backgrounds(game: GameId, sourceHash: string, result: Record<string, Atlas>): Promise<void> {
+   if (sourceHash !== r3BaseHash) throw new Error('本地候选仅适用于登记的原资源基线，旧局不会换用候选。');
+   const base = new URL('/assets/candidates/r3/', window.location.origin);
+@@ -171,6 +172,25 @@
+     await sampleImage.decode();
+     validateGameAtlas('r3_stack_sample', atlas, sampleImage.naturalWidth, sampleImage.naturalHeight);
+   }
++  async function loadMaterial(name: string, entry: z.infer<typeof r3MaterialFile>): Promise<void> {
++    const atlas = parseAtlas(JSON.parse(new TextDecoder().decode(await verifiedBytes(entry.metadata, entry.metadata_sha256))));
++    if (atlas.image !== entry.image || atlas.size_px.some(value => value > 2048)) throw new Error('有限材质样板映射或预算不符。');
++    const objectUrl = URL.createObjectURL(new Blob([await verifiedBytes(entry.image, entry.image_sha256)], { type: 'image/png' }));
++    const decodedImage = new Image(); decodedImage.src = objectUrl;
++    result[name] = { ...atlas, decodedImage, objectUrl };
++    await decodedImage.decode();
++    validateGameAtlas('r3_material_sample', atlas, decodedImage.naturalWidth, decodedImage.naturalHeight);
++    if (name !== 'r3_props') {
++      const pivot = name === 'r3_sheep_side' ? [64, 112] : [64, 98];
++      if (Object.values(atlas.frames).some(frame => frame.rect[2] !== 128 || frame.rect[3] !== 128 || frame.pivot_px.some((value, index) => value !== pivot[index]))) throw new Error('有限角色样板必须保留原128帧与足点。');
++    } else if (['hay_tray_thin', 'hurdle_narrow', 'hurdle_medium', 'hurdle_wide', 'clover_outer_round', 'clover_core_round'].some(frame => !atlas.frames[frame])) throw new Error('有界道具样板缺少帧。');
++  }
++  await loadMaterial('r3_props', manifest.props_sample);
++  if (game === 'runner') await loadMaterial('r3_sheep_side', manifest.character_samples.sheep_side);
++  if (game === 'herd') {
++    await loadMaterial('r3_sheep_iso8', manifest.character_samples.sheep_iso8);
++    await loadMaterial('r3_dog_iso8', manifest.character_samples.dog_iso8);
++  }
+   if (game === 'herd') {
+     const fence = manifest.fence;
+     const atlas = parseAtlas(JSON.parse(new TextDecoder().decode(await verifiedBytes(fence.metadata, fence.metadata_sha256))));
+--- B4/apps/web/src/game/presentation.ts
++++ A-finite/apps/web/src/game/presentation.ts
+@@ -11,3 +11,12 @@
+   const scale = Math.min(box.width / width, box.height / height);
+   return { x: box.x + (box.width - width * scale) / 2 + frame.pivot_px[0] * scale, y: box.y + (box.height - height * scale) / 2 + frame.pivot_px[1] * scale, scale };
+ }
++
++/** A finite material sample must never stand in for a direction/action it did not produce. */
++export function selectMaterialAtlas(base: string, animation: string, atlases: Readonly<Record<string, Pick<Atlas, 'animations'>>>): string {
++  const samples: Readonly<Record<string, string>> = {
++    sheep_side_v1: 'r3_sheep_side', sheep_iso8_v1: 'r3_sheep_iso8', dog_iso8_v1: 'r3_dog_iso8',
++  };
++  const sample = samples[base];
++  return sample && atlases[sample]?.animations[animation] ? sample : base;
++}
+--- B4/apps/web/src/game/renderer.ts
++++ A-finite/apps/web/src/game/renderer.ts
+@@ -3,7 +3,7 @@
+ import type { GameView, SimulationEvent } from '@sheep/game-core';
+ import { releaseAssets } from './assets';
+ import type { Atlas } from './assets';
+-import { animationFrame, fitFrame } from './presentation';
++import { animationFrame, fitFrame, selectMaterialAtlas } from './presentation';
+ import { advanceStride, bufferLayout, clientToWorld, EventJournal, PresentationClock } from './presenter-state';
+ import type { DisplayEvent, PresentationMode } from './presenter-state';
+ import { r3FenceParts } from './r3-scenery';
+@@ -95,7 +95,7 @@
+     }
+ 
+     boundedProp(frameName: string, box: { x: number; y: number; width: number; height: number }, depth: number, tint?: number, id = frameName): boolean {
+-      const texture = frameName.startsWith('r3_fence_') ? 'r3_fence' : farmAtlas;
++      const texture = frameName.startsWith('r3_fence_') ? 'r3_fence' : atlases.r3_props?.frames[frameName] ? 'r3_props' : farmAtlas;
+       const frame = atlases[texture]?.frames[frameName];
+       if (!frame) return false;
+       const placement = fitFrame(frame, box);
+@@ -106,10 +106,11 @@
+     }
+ 
+     actor(actor: Actor) {
+-      const atlas = atlases[actor.atlas];
+-      if (!atlas) return;
+       const facing = actor.facing ?? 'e';
+       const action = `${actor.action}.${facing}`;
++      const atlasName = selectMaterialAtlas(actor.atlas, action, atlases);
++      const atlas = atlases[atlasName];
++      if (!atlas) return;
+       const animation = atlas.animations[action] ?? atlas.animations[`idle.${facing}`];
+       if (!animation) return;
+       let motion = this.motion.get(actor.key);
+@@ -130,11 +131,14 @@
+       if (!frameName) return;
+       const frame = atlas.frames[frameName];
+       if (!frame) return;
+-      const sprite = this.reuse(`actor:${actor.key}`, actor.atlas, frameName).setPosition(actor.x, actor.y).setDisplaySize(actor.size, actor.size)
++      const sprite = this.reuse(`actor:${actor.key}`, atlasName, frameName).setPosition(actor.x, actor.y).setDisplaySize(actor.size, actor.size)
+         .setOrigin(frame.pivot_px[0] / frame.rect[2], frame.pivot_px[1] / frame.rect[3]).setDepth(actor.y);
+       // R3 common trim is rectangular: uniform scale preserves the native body silhouette.
+       if (actor.uniformScale !== undefined) sprite.setScale(actor.uniformScale);
+-      sprite.setData({ action: actor.action, facing, phaseTicks });
++      sprite.setData({ action: actor.action, facing, phaseTicks, materialAtlas: atlasName });
++      // Evidence only: unproduced action/direction keys keep the original atlas explicitly.
++      const materials = Object.fromEntries([...this.sprites].filter(([key]) => key.startsWith('actor:')).map(([key, image]) => [key, image.getData('materialAtlas')]));
++      parent.dataset.materialBindings = JSON.stringify(materials);
+     }
+ 
+     backdrop() {

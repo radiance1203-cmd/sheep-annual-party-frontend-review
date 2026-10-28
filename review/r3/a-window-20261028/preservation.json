@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "protected_baseline_files": 207,
+  "allowed_changed_files": [
+    "apps/web/src/r3-ui.css",
+    "apps/web/src/game/assets.ts",
+    "apps/web/src/game/presentation.ts",
+    "apps/web/src/game/renderer.ts"
+  ],
+  "unexpected_changed_files": [],
+  "rules_core_contracts_root_dependencies_and_formal_manifest_unchanged": true,
+  "B_options_implemented": false
+}

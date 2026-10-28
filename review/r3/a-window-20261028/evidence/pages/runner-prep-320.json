@@ -1,0 +1,422 @@
+{
+  "filename": "runner-prep-320.png",
+  "game": "runner",
+  "state": "prep",
+  "url": "http://127.0.0.1:5175/?artCandidate=r3#/practice/runner",
+  "browser": "156.0.8078.4",
+  "candidate": {
+    "candidateId": "R3-B5-A-finite-materials",
+    "scope": "Finite A sample: unchanged world/FIT/input/geometry; three-page seam/layering; same-master stack14 material frames; sparse side/iso sheep/dog material keys, unproduced actions/directions remain v4; bounded SVG prop contrast sample. Art PARTIAL, not full animation or S3.",
+    "manifestSha256": "8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d",
+    "sampleArtAccepted": false,
+    "productionArtAccepted": false,
+    "stackGeometryConstraint": "36 high sheep +2 clear +6 tray =44 layer; actual sheep width52 not prototype112; unresolved difference, not new golden",
+    "pageAnchors": {
+      "stack": {
+        "image": "page-stack-b2.png",
+        "sha256": "a5b50f5c9051711b29b8fd0fdfc0123d09f88f2bf297d033d44560161fef1329",
+        "size_px": [
+          863,
+          1823
+        ],
+        "anchor_fraction": 0.82
+      },
+      "runner": {
+        "image": "page-runner-b2.png",
+        "sha256": "ed0fcfe5661fa9d4e0511406f000440dabeba8c4096178fdbf3ba66ee889655f",
+        "size_px": [
+          863,
+          1823
+        ],
+        "anchor_fraction": 0.68
+      },
+      "herd": {
+        "image": "page-herd-b2.png",
+        "sha256": "6830f7f2fc71d5e4a4d708476eecbec87496bd76f3302ce8f45abb3618b5521b",
+        "size_px": [
+          863,
+          1822
+        ],
+        "anchor_fraction": 0.3
+      }
+    }
+  },
+  "pageAnchor": {
+    "scope": "configured passive scenery alignment only; not prototype fidelity, visual acceptance, or a change to camera/input/world geometry",
+    "game": "runner",
+    "image": "page-runner-b2.png",
+    "sourceAnchorFraction": 0.68,
+    "actualWorldAnchorCssY": 291.3792613636364,
+    "configuredImageAnchorCssY": 291.3792613636364,
+    "errorCssPx": 0
+  },
+  "scope": "real App route / GamePage or TutorialScene; schema-validated isolated GET fixtures; real core; native screenshot; browser viewport, not physical device",
+  "snapshotScope": "live full-speed snapshot; tick/presentation ranges before and after screenshot below; no core or score patch",
+  "inputs": [],
+  "actualInputPrefixes": {
+    "beforeScreenshot": [],
+    "afterScreenshot": [],
+    "provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos"
+  },
+  "tutorialInputSource": null,
+  "capturedAt": "2026-10-28T05:14:33.874Z",
+  "before": {
+    "rects": {
+      ".hud": {
+        "x": 12,
+        "y": 73.390625,
+        "width": 296,
+        "height": 55,
+        "bottom": 128.390625,
+        "right": 308
+      },
+      ".game-stage": {
+        "x": 12,
+        "y": 143.390625,
+        "width": 296,
+        "height": 180.875,
+        "bottom": 324.265625,
+        "right": 308
+      },
+      ".game-cumulative": {
+        "x": 58.40625,
+        "y": 326.265625,
+        "width": 203.171875,
+        "height": 24.1875,
+        "bottom": 350.453125,
+        "right": 261.578125
+      },
+      ".game-feedback": {
+        "x": 74,
+        "y": 351.453125,
+        "width": 172,
+        "height": 28,
+        "bottom": 379.453125,
+        "right": 246
+      },
+      "canvas": {
+        "x": 12,
+        "y": 143.390625,
+        "width": 295.78125,
+        "height": 180.875,
+        "bottom": 324.265625,
+        "right": 307.78125
+      }
+    },
+    "stage": {
+      "gameTick": "0",
+      "acceptedActions": "0",
+      "candidateManifest": "8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d",
+      "materialBindings": "{\"actor:runner\":\"r3_sheep_side\"}",
+      "presentationTime": "66.67",
+      "eventCount": "0",
+      "spriteCount": "1",
+      "effectCount": "0"
+    },
+    "canvas": {
+      "width": 592,
+      "height": 362,
+      "requestedDpr": "2",
+      "effectiveDpr": "2",
+      "worldWidth": "360",
+      "worldHeight": "220",
+      "attributes": {
+        "phaserVersion": "4.2.1",
+        "scaleMode": "FIT",
+        "renderer": "WEBGL",
+        "effectiveDpr": "2",
+        "requestedDpr": "2",
+        "worldWidth": "360",
+        "worldHeight": "220"
+      }
+    },
+    "teaching": {},
+    "canvasCount": 1,
+    "viewport": {
+      "width": 320,
+      "height": 568,
+      "requestedDpr": 2
+    },
+    "document": {
+      "width": 320,
+      "height": 568
+    },
+    "scrollY": 0,
+    "controls": [
+      {
+        "text": "返回",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 12,
+        "y": 11,
+        "width": 48,
+        "height": 48,
+        "right": 60,
+        "bottom": 59
+      },
+      {
+        "text": "羊羊跨栏",
+        "tag": "H1",
+        "disabled": false,
+        "x": 66,
+        "y": 4,
+        "width": 188,
+        "height": 54,
+        "right": 254,
+        "bottom": 58
+      },
+      {
+        "text": "开启音效",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 260,
+        "y": 11,
+        "width": 48,
+        "height": 48,
+        "right": 308,
+        "bottom": 59
+      },
+      {
+        "text": "开始不计分练习",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 12,
+        "y": 413.25,
+        "width": 296,
+        "height": 56,
+        "right": 308,
+        "bottom": 469.25
+      }
+    ],
+    "pageScenery": {
+      "image": "url(\"blob:http://127.0.0.1:5175/6794b4b1-7a77-4b36-b43b-db31cb546596\")",
+      "size": "320px 675.9675550405562px",
+      "top": "-168.27867606394193px",
+      "computedImage": "url(\"blob:http://127.0.0.1:5175/6794b4b1-7a77-4b36-b43b-db31cb546596\")",
+      "computedSize": "320px 675.968px",
+      "computedPosition": "50% -168.279px",
+      "computedRepeat": "no-repeat",
+      "pageX": 0,
+      "pageY": 0,
+      "pageWidth": 320,
+      "pageHeight": 568
+    }
+  },
+  "after": {
+    "rects": {
+      ".hud": {
+        "x": 12,
+        "y": 73.390625,
+        "width": 296,
+        "height": 55,
+        "bottom": 128.390625,
+        "right": 308
+      },
+      ".game-stage": {
+        "x": 12,
+        "y": 143.390625,
+        "width": 296,
+        "height": 180.875,
+        "bottom": 324.265625,
+        "right": 308
+      },
+      ".game-cumulative": {
+        "x": 58.40625,
+        "y": 326.265625,
+        "width": 203.171875,
+        "height": 24.1875,
+        "bottom": 350.453125,
+        "right": 261.578125
+      },
+      ".game-feedback": {
+        "x": 74,
+        "y": 351.453125,
+        "width": 172,
+        "height": 28,
+        "bottom": 379.453125,
+        "right": 246
+      },
+      "canvas": {
+        "x": 12,
+        "y": 143.390625,
+        "width": 295.78125,
+        "height": 180.875,
+        "bottom": 324.265625,
+        "right": 307.78125
+      }
+    },
+    "stage": {
+      "gameTick": "0",
+      "acceptedActions": "0",
+      "candidateManifest": "8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d",
+      "materialBindings": "{\"actor:runner\":\"r3_sheep_side\"}",
+      "presentationTime": "433.27",
+      "eventCount": "0",
+      "spriteCount": "1",
+      "effectCount": "0"
+    },
+    "canvas": {
+      "width": 592,
+      "height": 362,
+      "requestedDpr": "2",
+      "effectiveDpr": "2",
+      "worldWidth": "360",
+      "worldHeight": "220",
+      "attributes": {
+        "phaserVersion": "4.2.1",
+        "scaleMode": "FIT",
+        "renderer": "WEBGL",
+        "effectiveDpr": "2",
+        "requestedDpr": "2",
+        "worldWidth": "360",
+        "worldHeight": "220"
+      }
+    },
+    "teaching": {},
+    "canvasCount": 1,
+    "viewport": {
+      "width": 320,
+      "height": 568,
+      "requestedDpr": 2
+    },
+    "document": {
+      "width": 320,
+      "height": 568
+    },
+    "scrollY": 0,
+    "controls": [
+      {
+        "text": "返回",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 12,
+        "y": 11,
+        "width": 48,
+        "height": 48,
+        "right": 60,
+        "bottom": 59
+      },
+      {
+        "text": "羊羊跨栏",
+        "tag": "H1",
+        "disabled": false,
+        "x": 66,
+        "y": 4,
+        "width": 188,
+        "height": 54,
+        "right": 254,
+        "bottom": 58
+      },
+      {
+        "text": "开启音效",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 260,
+        "y": 11,
+        "width": 48,
+        "height": 48,
+        "right": 308,
+        "bottom": 59
+      },
+      {
+        "text": "开始不计分练习",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 12,
+        "y": 413.25,
+        "width": 296,
+        "height": 56,
+        "right": 308,
+        "bottom": 469.25
+      }
+    ],
+    "pageScenery": {
+      "image": "url(\"blob:http://127.0.0.1:5175/6794b4b1-7a77-4b36-b43b-db31cb546596\")",
+      "size": "320px 675.9675550405562px",
+      "top": "-168.27867606394193px",
+      "computedImage": "url(\"blob:http://127.0.0.1:5175/6794b4b1-7a77-4b36-b43b-db31cb546596\")",
+      "computedSize": "320px 675.968px",
+      "computedPosition": "50% -168.279px",
+      "computedRepeat": "no-repeat",
+      "pageX": 0,
+      "pageY": 0,
+      "pageWidth": 320,
+      "pageHeight": 568
+    }
+  },
+  "hashes": {
+    "apps/web/src/api.ts": "916568ee63fc62d43274dfeb676fa86efdfe4f2b7a54a6992ad3db529ec865f3",
+    "apps/web/src/App.tsx": "39b8ce1569238d315e8743145b69b84657a9cc0e9c5278dd865827216f2ea034",
+    "apps/web/src/game/assets.test.ts": "0de08bba494fcc7bcb097a4bff2d5cd98d9641e55c2674632d076c7a9bf07cae",
+    "apps/web/src/game/assets.ts": "a65d25f8a56f2651653147d461257e056cd7f3cd83d1ed2fa68c53fa3712f5fc",
+    "apps/web/src/game/GamePage.tsx": "65b046008002133df7864d93b3a1fbe344b2daf98974be99ac770ab93b14ae83",
+    "apps/web/src/game/keyboard.ts": "62d91939374a970eb2eaafc73bedb88e4d5facb02d96e5e30ed4468b38ed437a",
+    "apps/web/src/game/presentation.test.ts": "47b3e7b77e93ed1b014324d1b873e4f6f09af8b6d7f38d42a9d0b550dc606709",
+    "apps/web/src/game/presentation.ts": "a134e00e0ab78ce2aafe71684da86a6c35ccd6e4de8e31d98d9ce8571951a0c8",
+    "apps/web/src/game/presenter-state.test.ts": "6e76f8ed3dbad01b9b6d31511045f78e04a0c453e3cd5ebbfe6bb96512f81ee6",
+    "apps/web/src/game/presenter-state.ts": "b016a2438f4b04e8d63a24ef04d89caa9bdb0b5800932c773ca3e2e7ac1b18bf",
+    "apps/web/src/game/r3-candidate.test.ts": "57f52eaa9d2cb6dfe07dfdfbd542bf02c65d7167ec2883441d552e5f03cb41fa",
+    "apps/web/src/game/r3-candidate.ts": "43eb90f1f7261bc2d6c12724287c7c703c70ac68ed214bae060654a73ea00518",
+    "apps/web/src/game/r3-materials.test.ts": "d5d50dc1cc2ab821e4b937695468b005764c1998170abb31b49d257ebd15ecea",
+    "apps/web/src/game/r3-scenery.test.ts": "d3fa56931b708ac94c0bc0246b7a841fc208afa262356138d9f2fa7c4745ffcf",
+    "apps/web/src/game/r3-scenery.ts": "6b7e48cb102826e65a5a676231764d7c6f6b643585f9df21d3c475e53aa52a41",
+    "apps/web/src/game/renderer.ts": "a77781d4f41c45c9a5654472b742af9b23e2e71f30b51e2575b47a46b52e8448",
+    "apps/web/src/game/storage.ts": "a89eb0b95f335eb7cc1fe64340d01020017b09e2936593d8203731a192c519c7",
+    "apps/web/src/game/timeline.ts": "52c1921e94170ed58908208a47a38c107283b65eee4040301a8a42ab2c8f802d",
+    "apps/web/src/game/tutorial-model.test.ts": "7990de56482d1997aa9b6edd344b759322696022d21a5464dee481aab8afbb0e",
+    "apps/web/src/game/tutorial-model.ts": "ac09fb030da3d22dfefbd20c2148084e1a9fc4dabfd38059e9feb2dac4c67cf1",
+    "apps/web/src/game/TutorialScene.tsx": "4daaeba183bf5f72c26ca501ec8317cd7d638005cabff0c35847338edcd0b85f",
+    "apps/web/src/LobbyIllustration.tsx": "61adc6bf7c8befc2342e6807318b6ee0925059a310d8f58ea43df6557cd296ba",
+    "apps/web/src/main.tsx": "79cf68ed6f0d06abed66a111026a206fba7e43900730df3b01550eb7fdd4596f",
+    "apps/web/src/pages/admin-requests.ts": "215b8ad0411b059108397a06df2a7f9e6d53121f61c28bee4d6a16851ca9ebb3",
+    "apps/web/src/pages/AdminPage.tsx": "2986154b9a159bcb1939519a0edf5106d5a75e415d52acdb4d8031878b1f1f18",
+    "apps/web/src/pages/operations-model.ts": "d10fccb91693ae17dc87e60ac68797f25758353ef897e8d9fe7218c9e384ccdb",
+    "apps/web/src/pages/OperationsPanels.tsx": "3937331b657d81af892d20e87a1cb87fd58a2c1f1c98fe7aeeac034df1365d4d",
+    "apps/web/src/pages/ParticipantPages.tsx": "58ef8a2bc337f538fa995c42e84139b3bbd446dfb3546a2488b199479998292c",
+    "apps/web/src/pages/playtest-json.ts": "9f630b20f14141299b04b1c4cd660fcbf57103e0a7ed4cc3a0a04e691cdfc061",
+    "apps/web/src/r3-ui.css": "6467ea5ff14b6d6faf928d6e7898f1909b53628d19f5ebe606de5e676c60fa20",
+    "apps/web/src/repair-state/admission.ts": "6646aac32305074bdd17db2fa1a8f215a548010936de34d6d89f2b16637166e7",
+    "apps/web/src/repair-state/redemption.ts": "4fd5fff61400f9d4a97bd24df70e0071ab4f9989f2c0b2fc5f12430e8e618d03",
+    "apps/web/src/repair-state/result-presentation.ts": "a8321195f1af27020f31ad16681e94db18efe37dbec5e2da2d53ac9cd0904749",
+    "apps/web/src/repair-state/VoucherScanner.tsx": "a08b4623a2b04c0c5fa915721ac9bd1d350d58743b8485325b38d422e4e90a76",
+    "apps/web/src/styles.css": "a380b9269ae915ebd0d06ad45d0e038a82668ba85d3d90b4b14df87cd9ff72bc",
+    "apps/web/src/ui.tsx": "9e00776ef7a2390aa6de65f57ae993b7f42f9c9afd06b06e5c151e9c1160dce6",
+    "apps/web/src/visual-repair.css": "b77e0b59d50cc6702c22ef5382f7109a567b9a7397982b4b9bf3805767b1ef7c",
+    "packages/game-core/src/build.ts": "92b924da11856d4d46586de8bd16aaa5597aad28a814b8120d3dd124eb0849fb",
+    "packages/game-core/src/common.ts": "d4c757339272c1a77ca9e277a6b1069666f4c9d22c933c6bae5ee3670d22d105",
+    "packages/game-core/src/contracts/adapter.ts": "e27a80cdeb51f5a91b8dfdff36f3857fda4042a61971e50a2ce8d651deab20dd",
+    "packages/game-core/src/contracts/types.ts": "bc7251cbb4f38fbf7d511f3f210f60ea90446826750a3922be43bc1738f0ef58",
+    "packages/game-core/src/games.ts": "b8f1f4cb542a660ecee661929c725693502b10347c441b075567d999e37629f5",
+    "packages/game-core/src/index.ts": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+    "packages/game-core/src/model.ts": "e40ad79a5998873ef437334fac6d7946ba9f076c5b36555c00b37614990e6b4d",
+    "packages/game-core/src/rules.ts": "59d8fa6e607c9b1b35169ee4d79f3f555ed5c027ad7febb34cb460c10fca8f3d",
+    "packages/game-core/src/snapshots.ts": "ce9b8c6fea5a968c2416b59d263790b8cc54d004944b3af502785f7cfcceb81c",
+    "apps/web/public/assets/asset-manifest.v1.json": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+    "apps/web/public/assets/candidates/r3/manifest.json": "8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d",
+    "config/game_rules.v2.1.json": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83"
+  },
+  "productionManifestSha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "candidateManifestSha256": "8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d",
+  "requestedAssets": [
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_side_v4.atlas.json",
+    "/assets/characters/sheep_side_v4.png",
+    "/assets/environment/farm_side_v4.atlas.json",
+    "/assets/environment/farm_side_v4.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_runner_v4.atlas.json",
+    "/assets/environment/backdrop_runner_v4.png",
+    "/assets/candidates/r3/manifest.json",
+    "/assets/candidates/r3/runner.atlas.json",
+    "/assets/candidates/r3/runner.png",
+    "/assets/candidates/r3/page-runner-b2.png",
+    "/assets/candidates/r3/props-materials-a.atlas.json",
+    "/assets/candidates/r3/props-materials-a.png",
+    "/assets/candidates/r3/sheep-side-material-a.atlas.json",
+    "/assets/candidates/r3/sheep-side-material-a.png",
+    "/assets/candidates/r3/title-plaque-a.png"
+  ],
+  "screenshotSha256": "cee684d4f6e78356a1da8a2f621ae5a202af17519851d40333489bdf36ebdd8c",
+  "errors": []
+}

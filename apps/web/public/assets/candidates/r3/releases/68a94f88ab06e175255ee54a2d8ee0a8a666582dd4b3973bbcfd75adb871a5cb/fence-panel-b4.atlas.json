@@ -1,0 +1,47 @@
+{
+  "image": "fence-panel-b3.png",
+  "size_px": [
+    1774,
+    887
+  ],
+  "frames": {
+    "r3_fence_post_left": {
+      "rect": [
+        30,
+        120,
+        234,
+        650
+      ],
+      "pivot_px": [
+        117.0,
+        650
+      ]
+    },
+    "r3_fence_post_right": {
+      "rect": [
+        1508,
+        120,
+        236,
+        650
+      ],
+      "pivot_px": [
+        118.0,
+        650
+      ]
+    },
+    "r3_fence_rails": {
+      "rect": [
+        264,
+        249,
+        1244,
+        462
+      ],
+      "pivot_px": [
+        622.0,
+        462
+      ]
+    }
+  },
+  "animations": {},
+  "note": "same untouched native PNG; atlas windows exclude transparent margin and reuse one post per join; no repaint/rescale of native pixels"
+}

@@ -1,0 +1,260 @@
+[
+  {
+    "actor": "stack",
+    "plan": "sheep_stack",
+    "clip": "stack_idle",
+    "direction": "e",
+    "index": 0,
+    "path": "review/r3/a-window-20261028/materials/first/sheep_stack__stack_idle__e__f000_512.png",
+    "sha256": "56d47bc8ffc9ec222bfab82ce83f85a69c2a2ec912177a9c3cf2422e76abe399",
+    "seconds": 2.891,
+    "camera": {
+      "name": "side_v1",
+      "location": [
+        0.0,
+        -8.0,
+        1.399999976158142
+      ],
+      "rotation": [
+        1.3975508213043213,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.0
+    },
+    "floor_origin_native512": [
+      256.0,
+      256.0001525878906
+    ],
+    "direction_delta_rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "root_scale": [
+      0.9300000071525574,
+      0.9300000071525574,
+      0.9300000071525574
+    ],
+    "body_scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "actor": "sheep",
+    "plan": "sheep_side",
+    "clip": "idle",
+    "direction": "e",
+    "index": 0,
+    "path": "review/r3/a-window-20261028/materials/first/sheep_side__idle__e__f000_512.png",
+    "sha256": "a5194512ea59573a8ebec63695169126c96f86b97219e7497ea9ba69ae457de9",
+    "seconds": 2.744,
+    "camera": {
+      "name": "side_v1",
+      "location": [
+        0.0,
+        -8.0,
+        1.399999976158142
+      ],
+      "rotation": [
+        1.3975508213043213,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.0
+    },
+    "floor_origin_native512": [
+      256.0,
+      256.0001525878906
+    ],
+    "direction_delta_rotation": [
+      0.0,
+      0.0,
+      -1.5707963705062866
+    ],
+    "root_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "body_scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "actor": "sheep",
+    "plan": "sheep_iso8",
+    "clip": "idle",
+    "direction": "n",
+    "index": 0,
+    "path": "review/r3/a-window-20261028/materials/first/sheep_iso8__idle__n__f000_512.png",
+    "sha256": "187fb9928cadfdb26cec132f4e576022c8b560c82cb9b3b6f07decc29ceaad00",
+    "seconds": 2.636,
+    "camera": {
+      "name": "iso8_v1",
+      "location": [
+        0.0,
+        -6.0,
+        6.0
+      ],
+      "rotation": [
+        0.7853980660438538,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.5714287757873535
+    },
+    "floor_origin_native512": [
+      256.0,
+      255.99993896484375
+    ],
+    "direction_delta_rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "root_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "body_scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "actor": "sheep",
+    "plan": "sheep_iso8",
+    "clip": "idle",
+    "direction": "se",
+    "index": 0,
+    "path": "review/r3/a-window-20261028/materials/first/sheep_iso8__idle__se__f000_512.png",
+    "sha256": "d19e377e3ec0df9e53b7b29166cf9f898a250f051eac732e3534f811054203f0",
+    "seconds": 2.653,
+    "camera": {
+      "name": "iso8_v1",
+      "location": [
+        0.0,
+        -6.0,
+        6.0
+      ],
+      "rotation": [
+        0.7853980660438538,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.5714287757873535
+    },
+    "floor_origin_native512": [
+      256.0,
+      255.99993896484375
+    ],
+    "direction_delta_rotation": [
+      0.0,
+      0.0,
+      -2.356194496154785
+    ],
+    "root_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "body_scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "actor": "dog",
+    "plan": "dog_iso8",
+    "clip": "idle",
+    "direction": "n",
+    "index": 0,
+    "path": "review/r3/a-window-20261028/materials/first/dog_iso8__idle__n__f000_512.png",
+    "sha256": "98891de8bc9f81591070699f14a3a17d70fedf921259d3a3d221983cd480c6b0",
+    "seconds": 1.73,
+    "camera": {
+      "name": "iso8_v1",
+      "location": [
+        0.0,
+        -6.0,
+        6.0
+      ],
+      "rotation": [
+        0.7853980660438538,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.5714287757873535
+    },
+    "floor_origin_native512": [
+      256.0,
+      255.99993896484375
+    ],
+    "direction_delta_rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "root_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "body_scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  {
+    "actor": "dog",
+    "plan": "dog_iso8",
+    "clip": "idle",
+    "direction": "se",
+    "index": 0,
+    "path": "review/r3/a-window-20261028/materials/first/dog_iso8__idle__se__f000_512.png",
+    "sha256": "cd50afedd2ee18e39f1dc9a48267e3465d380fd39b4990da178352804f6dd408",
+    "seconds": 1.7,
+    "camera": {
+      "name": "iso8_v1",
+      "location": [
+        0.0,
+        -6.0,
+        6.0
+      ],
+      "rotation": [
+        0.7853980660438538,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.5714287757873535
+    },
+    "floor_origin_native512": [
+      256.0,
+      255.99993896484375
+    ],
+    "direction_delta_rotation": [
+      0.0,
+      0.0,
+      -2.356194496154785
+    ],
+    "root_scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "body_scale": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  }
+]

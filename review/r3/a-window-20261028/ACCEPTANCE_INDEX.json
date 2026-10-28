@@ -1,0 +1,23 @@
+{
+  "candidate_sha256": "8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d",
+  "report": "docs/r3-a-window-20261028-report.md",
+  "evidence": {
+    "candidate_manifest_sha256": "8f30e374087a398da619ad0c62372490f6de19769602b410646202d21079c98d",
+    "pages": "output/r3-a-window-20261028/pages/results.json",
+    "capture_count": 27,
+    "runtime": "output/r3-a-window-20261028/runtime/lifecycle.json",
+    "runtime_records": 49,
+    "gallery": "output/r3-a-window-20261028/index.html",
+    "independent_art_review": "review/r3/a-window-20261028/independent-review.md",
+    "independent_receipt": "review/r3/a-window-20261028/independent-review-receipt.json",
+    "material_frames": 31,
+    "videos": null,
+    "video_count": 0,
+    "video_scope": "No new complete video; B4 videos historical only",
+    "resource_window_release": "review/r3/a-window-20261028/resource-window-release.json"
+  },
+  "art": "PARTIAL/FAIL",
+  "S3": "NOT_READY",
+  "sample_art_accepted": false,
+  "production_art_accepted": false
+}

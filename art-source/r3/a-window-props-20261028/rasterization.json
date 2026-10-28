@@ -1,0 +1,12 @@
+{
+  "method": "native browser SVG rasterization, no post-editing",
+  "browser": "156.0.8078.4",
+  "pngSha256": "308c0da67221b45e0d68940a113ec54dc6e018401cc64fc8fcb153e21238b0d6",
+  "sourceSha256": "eeffa393c2c8629544f88540eb2e11422ee16f505088d82a585662d724b8d928",
+  "size": [
+    1024,
+    512
+  ],
+  "sampleArtAccepted": false,
+  "productionArtAccepted": false
+}

@@ -1,0 +1,106 @@
+{
+  "art_status": "PARTIAL / reference material not passed",
+  "frames": 31,
+  "render_seconds": 74.186,
+  "verified_source_hashes": true,
+  "geometry_animation_camera_changes": false,
+  "particle_counts_unchanged": true,
+  "atlases": [
+    {
+      "plan": "sheep_stack",
+      "frames": 14,
+      "size": [
+        1024,
+        512
+      ],
+      "source_union_alpha": [
+        172,
+        134,
+        354,
+        260
+      ],
+      "source_union_size": [
+        182,
+        126
+      ],
+      "crop_overflow": false,
+      "atlas_sha256": "748dacba53eb8da3b5f31d3d5c3ec50ae10193d3fb4a3c2edc812de27a396182",
+      "metadata_sha256": "d20a3bbd76bca3323ec974b17d8f5336ff193e2c230b8b2677f42fd9d50db181"
+    },
+    {
+      "plan": "sheep_side",
+      "frames": 3,
+      "size": [
+        1024,
+        256
+      ],
+      "source_union_alpha": [
+        169,
+        75,
+        362,
+        262
+      ],
+      "source_union_size": [
+        193,
+        187
+      ],
+      "crop_overflow": false,
+      "atlas_sha256": "e06e035e7ab474a74e77fcfd506aa67f6da3a0684071842143ba704952688f2d",
+      "metadata_sha256": "62bf39afb384409f46ccaa6d1693010717c658830d928fb3dd62e5a3ad2c7ed8"
+    },
+    {
+      "plan": "sheep_iso8",
+      "frames": 6,
+      "size": [
+        1024,
+        512
+      ],
+      "source_union_alpha": [
+        190,
+        97,
+        345,
+        291
+      ],
+      "source_union_size": [
+        155,
+        194
+      ],
+      "crop_overflow": false,
+      "atlas_sha256": "c67b1be86ce0ae01bbf5a416df93f9edb8c4c254b0cd0fa8b24927eb0b8a597b",
+      "metadata_sha256": "4dfc609fa559f833c698e7afeb52124536cc44f2d10ace032b7e8e02d89eb193"
+    },
+    {
+      "plan": "dog_iso8",
+      "frames": 8,
+      "size": [
+        1024,
+        512
+      ],
+      "source_union_alpha": [
+        186,
+        113,
+        330,
+        296
+      ],
+      "source_union_size": [
+        144,
+        183
+      ],
+      "crop_overflow": false,
+      "atlas_sha256": "c39a7d33d0cc393c76f4b997d660535f0af64eef298b0186ca90ff1baf8e6f9d",
+      "metadata_sha256": "02809f932004b5932f4b53f7bc7d7ab7704748b6558165a40b92e3a6896ce1bb"
+    }
+  ],
+  "first_refinement": "reduced sheen on wool/scarf/dog to remove washout; direction override technical correction uses delta rotation with unchanged existing actions",
+  "remaining": [
+    "Wool shape and individual fur bundles still differ from reference; material is not final plush quality.",
+    "Dog remains smooth large surfaces despite short existing fibers/normal texture; brown/cream identity improves only partly.",
+    "No new full8direction production.",
+    "Existing inherited scale curves retained unchanged as instructed; frame scale values are in render report.",
+    "All unlisted action/direction keys remain v4."
+  ],
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "metadata_cycle_verification": "all 12 nonstack finite animation keys retain original frame slot count and fps; stack keeps its exact14 frames; other poses repeated.",
+  "source_script_sha256": "3fc1cd26ff6fbad22fa0da55c9b31b4aba12dd43a3554dba413f5566fb7ace53"
+}

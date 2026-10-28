@@ -1,0 +1,389 @@
+{
+  "schema_version": "sheep-atlas-1.0",
+  "asset_id": "sheep_iso8.materials.A.finite",
+  "image": "sheep_iso8_materials_A.png",
+  "size_px": [
+    1024,
+    512
+  ],
+  "color_space": "srgb",
+  "alpha_mode": "straight",
+  "camera_id": "iso8_v1",
+  "source_frame_px": [
+    512,
+    512
+  ],
+  "runtime_frame_px": [
+    128,
+    128
+  ],
+  "common_trim": [
+    128,
+    60,
+    384,
+    316
+  ],
+  "pivot_px": [
+    64,
+    98
+  ],
+  "frames": {
+    "sheep_iso8__idle__n__f000": {
+      "rect": [
+        4,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "source_png": "review/r3/a-window-20261028/materials/frames/sheep_iso8__idle__n__f000_512.png",
+      "source_sha256": "52e644fa0c0b48f0ab72422c8e4f4b34f6fe6916c3b0aa3e46ce0082d5efbbbd",
+      "alpha_bbox_source": [
+        190,
+        99,
+        322,
+        286
+      ],
+      "alpha_bbox_frame": [
+        29,
+        17,
+        99,
+        115
+      ],
+      "native_frame_index": 0
+    },
+    "sheep_iso8__walk__n__f000": {
+      "rect": [
+        140,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "source_png": "review/r3/a-window-20261028/materials/frames/sheep_iso8__walk__n__f000_512.png",
+      "source_sha256": "b60f091d1481fd2f73a697ff0e20d57b5edfa07c02928f8f0bc46b7436f6d1a9",
+      "alpha_bbox_source": [
+        190,
+        99,
+        322,
+        286
+      ],
+      "alpha_bbox_frame": [
+        29,
+        17,
+        99,
+        115
+      ],
+      "native_frame_index": 0
+    },
+    "sheep_iso8__walk__n__f002": {
+      "rect": [
+        276,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "source_png": "review/r3/a-window-20261028/materials/frames/sheep_iso8__walk__n__f002_512.png",
+      "source_sha256": "fa3ca55718905a037ddfb0976294f9d3a3b5199a0ad743a1fd6eb5ac64006ee2",
+      "alpha_bbox_source": [
+        193,
+        97,
+        324,
+        291
+      ],
+      "alpha_bbox_frame": [
+        30,
+        16,
+        100,
+        118
+      ],
+      "native_frame_index": 2
+    },
+    "sheep_iso8__idle__se__f000": {
+      "rect": [
+        412,
+        4,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "source_png": "review/r3/a-window-20261028/materials/frames/sheep_iso8__idle__se__f000_512.png",
+      "source_sha256": "81426411dfedd10065ac5282de8b0a1b8faccddca9f8c4b07aa0301356f409e4",
+      "alpha_bbox_source": [
+        192,
+        149,
+        345,
+        291
+      ],
+      "alpha_bbox_frame": [
+        30,
+        42,
+        111,
+        118
+      ],
+      "native_frame_index": 0
+    },
+    "sheep_iso8__walk__se__f000": {
+      "rect": [
+        4,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "source_png": "review/r3/a-window-20261028/materials/frames/sheep_iso8__walk__se__f000_512.png",
+      "source_sha256": "e7177d13c7e93a9b79b45964a439697d0571e6e11aecabc85e02d9064b617a90",
+      "alpha_bbox_source": [
+        192,
+        149,
+        345,
+        291
+      ],
+      "alpha_bbox_frame": [
+        30,
+        42,
+        111,
+        118
+      ],
+      "native_frame_index": 0
+    },
+    "sheep_iso8__walk__se__f002": {
+      "rect": [
+        140,
+        140,
+        128,
+        128
+      ],
+      "source_size": [
+        128,
+        128
+      ],
+      "sprite_source_rect": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "trimmed": false,
+      "rotated": false,
+      "pivot_px": [
+        64,
+        98
+      ],
+      "source_png": "review/r3/a-window-20261028/materials/frames/sheep_iso8__walk__se__f002_512.png",
+      "source_sha256": "18d51f6d2c2a1ceab8baa9173c965ab5b49b3eef258ca0679cf80953fecc557d",
+      "alpha_bbox_source": [
+        191,
+        148,
+        343,
+        285
+      ],
+      "alpha_bbox_frame": [
+        29,
+        42,
+        110,
+        115
+      ],
+      "native_frame_index": 2
+    }
+  },
+  "animations": {
+    "idle.n": {
+      "frames": [
+        "sheep_iso8__idle__n__f000",
+        "sheep_iso8__idle__n__f000",
+        "sheep_iso8__idle__n__f000",
+        "sheep_iso8__idle__n__f000"
+      ],
+      "fps": 8,
+      "loop": true,
+      "limited_sample": true,
+      "source_sample_refs": [
+        "sheep_iso8__idle__n__f000"
+      ],
+      "legacy_slot_count": 4,
+      "legacy_cycle_ms": 500.0,
+      "limited_pose_only": false,
+      "motion_coverage": "finite key poses held across original timing slots; not full original motion"
+    },
+    "walk.n": {
+      "frames": [
+        "sheep_iso8__walk__n__f000",
+        "sheep_iso8__walk__n__f000",
+        "sheep_iso8__walk__n__f000",
+        "sheep_iso8__walk__n__f002",
+        "sheep_iso8__walk__n__f002",
+        "sheep_iso8__walk__n__f002"
+      ],
+      "fps": 12,
+      "loop": true,
+      "limited_sample": true,
+      "source_sample_refs": [
+        "sheep_iso8__walk__n__f000",
+        "sheep_iso8__walk__n__f002"
+      ],
+      "legacy_slot_count": 6,
+      "legacy_cycle_ms": 500.0,
+      "limited_pose_only": false,
+      "motion_coverage": "finite key poses held across original timing slots; not full original motion"
+    },
+    "idle.se": {
+      "frames": [
+        "sheep_iso8__idle__se__f000",
+        "sheep_iso8__idle__se__f000",
+        "sheep_iso8__idle__se__f000",
+        "sheep_iso8__idle__se__f000"
+      ],
+      "fps": 8,
+      "loop": true,
+      "limited_sample": true,
+      "source_sample_refs": [
+        "sheep_iso8__idle__se__f000"
+      ],
+      "legacy_slot_count": 4,
+      "legacy_cycle_ms": 500.0,
+      "limited_pose_only": false,
+      "motion_coverage": "finite key poses held across original timing slots; not full original motion"
+    },
+    "walk.se": {
+      "frames": [
+        "sheep_iso8__walk__se__f000",
+        "sheep_iso8__walk__se__f000",
+        "sheep_iso8__walk__se__f000",
+        "sheep_iso8__walk__se__f002",
+        "sheep_iso8__walk__se__f002",
+        "sheep_iso8__walk__se__f002"
+      ],
+      "fps": 12,
+      "loop": true,
+      "limited_sample": true,
+      "source_sample_refs": [
+        "sheep_iso8__walk__se__f000",
+        "sheep_iso8__walk__se__f002"
+      ],
+      "legacy_slot_count": 6,
+      "legacy_cycle_ms": 500.0,
+      "limited_pose_only": false,
+      "motion_coverage": "finite key poses held across original timing slots; not full original motion"
+    }
+  },
+  "source_union_alpha": [
+    190,
+    97,
+    345,
+    291
+  ],
+  "source_union_size": [
+    155,
+    194
+  ],
+  "crop_overflow": false,
+  "native_pngs_preserved": true,
+  "stack_pixels_lossless": false,
+  "nonstack_resample": "existing 256 crop to128 LANCZOS",
+  "foot_note": "legacy render_plan pivot and crop retained; source floor projection recorded per frame in render-report.json",
+  "production_art_accepted": false,
+  "sample_art_accepted": false,
+  "coverage": "Only listed animation keys and enumerated frame indices. Other actions/directions remain old v4; finite samples are not full animation production.",
+  "master": {
+    "actor": "sheep",
+    "source": "art-source/r2/r2g/sheep_master_r2g.blend",
+    "source_sha256": "e6875118a2cca427b380bf40838d679ac9b742d80ab7fff2e117058cb058feff",
+    "master": "art-source/r3/a-window-20261028/sheep_materials_A.blend",
+    "master_sha256": "bf4b7ac890b40fe86f55ecbeceb18d07372d2e951ff61ca81dbed3c224dc0cca",
+    "devices": [
+      {
+        "name": "NVIDIA GeForce GTX 1060 6GB",
+        "type": "CUDA",
+        "use": true
+      },
+      {
+        "name": "13th Gen Intel Core i5-13600KF",
+        "type": "CPU",
+        "use": false
+      },
+      {
+        "name": "NVIDIA GeForce GTX 1060 6GB",
+        "type": "OPTIX",
+        "use": false
+      }
+    ],
+    "samples": 64
+  }
+}

@@ -3,7 +3,7 @@ import { RULES } from '@sheep/game-core';
 import type { GameView, SimulationEvent } from '@sheep/game-core';
 import { releaseAssets } from './assets';
 import type { Atlas } from './assets';
-import { animationFrame, fitFrame } from './presentation';
+import { animationFrame, fitFrame, selectMaterialAtlas } from './presentation';
 import { advanceStride, bufferLayout, clientToWorld, EventJournal, PresentationClock } from './presenter-state';
 import type { DisplayEvent, PresentationMode } from './presenter-state';
 import { r3FenceParts } from './r3-scenery';
@@ -95,7 +95,7 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
     }
 
     boundedProp(frameName: string, box: { x: number; y: number; width: number; height: number }, depth: number, tint?: number, id = frameName): boolean {
-      const texture = frameName.startsWith('r3_fence_') ? 'r3_fence' : farmAtlas;
+      const texture = frameName.startsWith('r3_fence_') ? 'r3_fence' : atlases.r3_props?.frames[frameName] ? 'r3_props' : farmAtlas;
       const frame = atlases[texture]?.frames[frameName];
       if (!frame) return false;
       const placement = fitFrame(frame, box);
@@ -106,10 +106,11 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
     }
 
     actor(actor: Actor) {
-      const atlas = atlases[actor.atlas];
-      if (!atlas) return;
       const facing = actor.facing ?? 'e';
       const action = `${actor.action}.${facing}`;
+      const atlasName = selectMaterialAtlas(actor.atlas, action, atlases);
+      const atlas = atlases[atlasName];
+      if (!atlas) return;
       const animation = atlas.animations[action] ?? atlas.animations[`idle.${facing}`];
       if (!animation) return;
       let motion = this.motion.get(actor.key);
@@ -130,11 +131,14 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
       if (!frameName) return;
       const frame = atlas.frames[frameName];
       if (!frame) return;
-      const sprite = this.reuse(`actor:${actor.key}`, actor.atlas, frameName).setPosition(actor.x, actor.y).setDisplaySize(actor.size, actor.size)
+      const sprite = this.reuse(`actor:${actor.key}`, atlasName, frameName).setPosition(actor.x, actor.y).setDisplaySize(actor.size, actor.size)
         .setOrigin(frame.pivot_px[0] / frame.rect[2], frame.pivot_px[1] / frame.rect[3]).setDepth(actor.y);
       // R3 common trim is rectangular: uniform scale preserves the native body silhouette.
       if (actor.uniformScale !== undefined) sprite.setScale(actor.uniformScale);
-      sprite.setData({ action: actor.action, facing, phaseTicks });
+      sprite.setData({ action: actor.action, facing, phaseTicks, materialAtlas: atlasName });
+      // Evidence only: unproduced action/direction keys keep the original atlas explicitly.
+      const materials = Object.fromEntries([...this.sprites].filter(([key]) => key.startsWith('actor:')).map(([key, image]) => [key, image.getData('materialAtlas')]));
+      parent.dataset.materialBindings = JSON.stringify(materials);
     }
 
     backdrop() {

@@ -1,0 +1,767 @@
+{
+  "candidate_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+  "capture_source": {
+    "apps/web/src/api.ts": {
+      "captured_original_sha256": "916568ee63fc62d43274dfeb676fa86efdfe4f2b7a54a6992ad3db529ec865f3",
+      "export_worktree_sha256": "916568ee63fc62d43274dfeb676fa86efdfe4f2b7a54a6992ad3db529ec865f3",
+      "git_blob_sha256": "916568ee63fc62d43274dfeb676fa86efdfe4f2b7a54a6992ad3db529ec865f3",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/App.tsx": {
+      "captured_original_sha256": "39b8ce1569238d315e8743145b69b84657a9cc0e9c5278dd865827216f2ea034",
+      "export_worktree_sha256": "39b8ce1569238d315e8743145b69b84657a9cc0e9c5278dd865827216f2ea034",
+      "git_blob_sha256": "35d4edc4b0242b9be59872706c25d7503aeda985276a1f5268ea548eaab3a813",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "apps/web/src/game/assets.test.ts": {
+      "captured_original_sha256": "0de08bba494fcc7bcb097a4bff2d5cd98d9641e55c2674632d076c7a9bf07cae",
+      "export_worktree_sha256": "0de08bba494fcc7bcb097a4bff2d5cd98d9641e55c2674632d076c7a9bf07cae",
+      "git_blob_sha256": "d5a25b6e7a2d0efeefd1848c41cd547765a6856dd3e040c1fb2f2963ec2f4681",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "apps/web/src/game/assets.ts": {
+      "captured_original_sha256": "703a8ef041f20802e6fef692d56cb5cb5f6586b4e4e0cde4cec4c44c6f99e9ab",
+      "export_worktree_sha256": "703a8ef041f20802e6fef692d56cb5cb5f6586b4e4e0cde4cec4c44c6f99e9ab",
+      "git_blob_sha256": "a5c8ee330a7562c15f8632117ca0d706174c615135539cd8aed3abf831e7714b",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "apps/web/src/game/GamePage.tsx": {
+      "captured_original_sha256": "65b046008002133df7864d93b3a1fbe344b2daf98974be99ac770ab93b14ae83",
+      "export_worktree_sha256": "65b046008002133df7864d93b3a1fbe344b2daf98974be99ac770ab93b14ae83",
+      "git_blob_sha256": "ae37e3c164ae08dbf17d464fde16f350d1d754ace59b9d61287e8a0f5f92c716",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "apps/web/src/game/keyboard.ts": {
+      "captured_original_sha256": "62d91939374a970eb2eaafc73bedb88e4d5facb02d96e5e30ed4468b38ed437a",
+      "export_worktree_sha256": "62d91939374a970eb2eaafc73bedb88e4d5facb02d96e5e30ed4468b38ed437a",
+      "git_blob_sha256": "62d91939374a970eb2eaafc73bedb88e4d5facb02d96e5e30ed4468b38ed437a",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/game/presentation.test.ts": {
+      "captured_original_sha256": "47b3e7b77e93ed1b014324d1b873e4f6f09af8b6d7f38d42a9d0b550dc606709",
+      "export_worktree_sha256": "47b3e7b77e93ed1b014324d1b873e4f6f09af8b6d7f38d42a9d0b550dc606709",
+      "git_blob_sha256": "ab0160cb9fa2f26d63734d5778e102a101323d950a2aa74f94403b81b7138ddf",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "apps/web/src/game/presentation.ts": {
+      "captured_original_sha256": "35a026ac74d28f7d7fe457c85f9b23c38ffad584836d181dd394f51b789a3262",
+      "export_worktree_sha256": "35a026ac74d28f7d7fe457c85f9b23c38ffad584836d181dd394f51b789a3262",
+      "git_blob_sha256": "35a026ac74d28f7d7fe457c85f9b23c38ffad584836d181dd394f51b789a3262",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/game/presenter-state.test.ts": {
+      "captured_original_sha256": "6e76f8ed3dbad01b9b6d31511045f78e04a0c453e3cd5ebbfe6bb96512f81ee6",
+      "export_worktree_sha256": "6e76f8ed3dbad01b9b6d31511045f78e04a0c453e3cd5ebbfe6bb96512f81ee6",
+      "git_blob_sha256": "6e76f8ed3dbad01b9b6d31511045f78e04a0c453e3cd5ebbfe6bb96512f81ee6",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/game/presenter-state.ts": {
+      "captured_original_sha256": "b016a2438f4b04e8d63a24ef04d89caa9bdb0b5800932c773ca3e2e7ac1b18bf",
+      "export_worktree_sha256": "b016a2438f4b04e8d63a24ef04d89caa9bdb0b5800932c773ca3e2e7ac1b18bf",
+      "git_blob_sha256": "b016a2438f4b04e8d63a24ef04d89caa9bdb0b5800932c773ca3e2e7ac1b18bf",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/game/r3-candidate.test.ts": {
+      "captured_original_sha256": "57f52eaa9d2cb6dfe07dfdfbd542bf02c65d7167ec2883441d552e5f03cb41fa",
+      "export_worktree_sha256": "57f52eaa9d2cb6dfe07dfdfbd542bf02c65d7167ec2883441d552e5f03cb41fa",
+      "git_blob_sha256": "57f52eaa9d2cb6dfe07dfdfbd542bf02c65d7167ec2883441d552e5f03cb41fa",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/game/r3-candidate.ts": {
+      "captured_original_sha256": "43eb90f1f7261bc2d6c12724287c7c703c70ac68ed214bae060654a73ea00518",
+      "export_worktree_sha256": "43eb90f1f7261bc2d6c12724287c7c703c70ac68ed214bae060654a73ea00518",
+      "git_blob_sha256": "43eb90f1f7261bc2d6c12724287c7c703c70ac68ed214bae060654a73ea00518",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/game/r3-scenery.test.ts": {
+      "captured_original_sha256": "d3fa56931b708ac94c0bc0246b7a841fc208afa262356138d9f2fa7c4745ffcf",
+      "export_worktree_sha256": "d3fa56931b708ac94c0bc0246b7a841fc208afa262356138d9f2fa7c4745ffcf",
+      "git_blob_sha256": "d3fa56931b708ac94c0bc0246b7a841fc208afa262356138d9f2fa7c4745ffcf",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/game/r3-scenery.ts": {
+      "captured_original_sha256": "6b7e48cb102826e65a5a676231764d7c6f6b643585f9df21d3c475e53aa52a41",
+      "export_worktree_sha256": "6b7e48cb102826e65a5a676231764d7c6f6b643585f9df21d3c475e53aa52a41",
+      "git_blob_sha256": "6b7e48cb102826e65a5a676231764d7c6f6b643585f9df21d3c475e53aa52a41",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/game/renderer.ts": {
+      "captured_original_sha256": "45270a303a7817d161852c735173785acbfbfb51545c46972ebfdd4e29b742ae",
+      "export_worktree_sha256": "45270a303a7817d161852c735173785acbfbfb51545c46972ebfdd4e29b742ae",
+      "git_blob_sha256": "0c96a5a5ab8eadc1ea9391276c31dd004887eeb17c312e713e0ec5a63334beb9",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "apps/web/src/game/storage.ts": {
+      "captured_original_sha256": "a89eb0b95f335eb7cc1fe64340d01020017b09e2936593d8203731a192c519c7",
+      "export_worktree_sha256": "a89eb0b95f335eb7cc1fe64340d01020017b09e2936593d8203731a192c519c7",
+      "git_blob_sha256": "a89eb0b95f335eb7cc1fe64340d01020017b09e2936593d8203731a192c519c7",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/game/timeline.ts": {
+      "captured_original_sha256": "52c1921e94170ed58908208a47a38c107283b65eee4040301a8a42ab2c8f802d",
+      "export_worktree_sha256": "52c1921e94170ed58908208a47a38c107283b65eee4040301a8a42ab2c8f802d",
+      "git_blob_sha256": "52c1921e94170ed58908208a47a38c107283b65eee4040301a8a42ab2c8f802d",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/game/tutorial-model.test.ts": {
+      "captured_original_sha256": "7990de56482d1997aa9b6edd344b759322696022d21a5464dee481aab8afbb0e",
+      "export_worktree_sha256": "7990de56482d1997aa9b6edd344b759322696022d21a5464dee481aab8afbb0e",
+      "git_blob_sha256": "7990de56482d1997aa9b6edd344b759322696022d21a5464dee481aab8afbb0e",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/game/tutorial-model.ts": {
+      "captured_original_sha256": "ac09fb030da3d22dfefbd20c2148084e1a9fc4dabfd38059e9feb2dac4c67cf1",
+      "export_worktree_sha256": "ac09fb030da3d22dfefbd20c2148084e1a9fc4dabfd38059e9feb2dac4c67cf1",
+      "git_blob_sha256": "ac09fb030da3d22dfefbd20c2148084e1a9fc4dabfd38059e9feb2dac4c67cf1",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/game/TutorialScene.tsx": {
+      "captured_original_sha256": "4daaeba183bf5f72c26ca501ec8317cd7d638005cabff0c35847338edcd0b85f",
+      "export_worktree_sha256": "4daaeba183bf5f72c26ca501ec8317cd7d638005cabff0c35847338edcd0b85f",
+      "git_blob_sha256": "d9db121a033ec301cf9dabc1eee0bf7f807b73f2f4151520ef180f31d442477e",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "apps/web/src/LobbyIllustration.tsx": {
+      "captured_original_sha256": "61adc6bf7c8befc2342e6807318b6ee0925059a310d8f58ea43df6557cd296ba",
+      "export_worktree_sha256": "61adc6bf7c8befc2342e6807318b6ee0925059a310d8f58ea43df6557cd296ba",
+      "git_blob_sha256": "61adc6bf7c8befc2342e6807318b6ee0925059a310d8f58ea43df6557cd296ba",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/main.tsx": {
+      "captured_original_sha256": "79cf68ed6f0d06abed66a111026a206fba7e43900730df3b01550eb7fdd4596f",
+      "export_worktree_sha256": "79cf68ed6f0d06abed66a111026a206fba7e43900730df3b01550eb7fdd4596f",
+      "git_blob_sha256": "b82af35b2ab6e12501eaefa90d0f8e44bdbb5531e35b484f2103d8a7f2aca534",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "apps/web/src/pages/admin-requests.ts": {
+      "captured_original_sha256": "215b8ad0411b059108397a06df2a7f9e6d53121f61c28bee4d6a16851ca9ebb3",
+      "export_worktree_sha256": "215b8ad0411b059108397a06df2a7f9e6d53121f61c28bee4d6a16851ca9ebb3",
+      "git_blob_sha256": "215b8ad0411b059108397a06df2a7f9e6d53121f61c28bee4d6a16851ca9ebb3",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/pages/AdminPage.tsx": {
+      "captured_original_sha256": "2986154b9a159bcb1939519a0edf5106d5a75e415d52acdb4d8031878b1f1f18",
+      "export_worktree_sha256": "2986154b9a159bcb1939519a0edf5106d5a75e415d52acdb4d8031878b1f1f18",
+      "git_blob_sha256": "7a168dbc553d38f41086c18ec2d1ba5a9baa2446c341591da795e3e4377e3e5d",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "apps/web/src/pages/operations-model.ts": {
+      "captured_original_sha256": "d10fccb91693ae17dc87e60ac68797f25758353ef897e8d9fe7218c9e384ccdb",
+      "export_worktree_sha256": "d10fccb91693ae17dc87e60ac68797f25758353ef897e8d9fe7218c9e384ccdb",
+      "git_blob_sha256": "d10fccb91693ae17dc87e60ac68797f25758353ef897e8d9fe7218c9e384ccdb",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/pages/OperationsPanels.tsx": {
+      "captured_original_sha256": "3937331b657d81af892d20e87a1cb87fd58a2c1f1c98fe7aeeac034df1365d4d",
+      "export_worktree_sha256": "3937331b657d81af892d20e87a1cb87fd58a2c1f1c98fe7aeeac034df1365d4d",
+      "git_blob_sha256": "604973c06d127c3883afd0b6531a4d17ef218c85ca0f7a027b5db41751b3d8e5",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "apps/web/src/pages/ParticipantPages.tsx": {
+      "captured_original_sha256": "58ef8a2bc337f538fa995c42e84139b3bbd446dfb3546a2488b199479998292c",
+      "export_worktree_sha256": "58ef8a2bc337f538fa995c42e84139b3bbd446dfb3546a2488b199479998292c",
+      "git_blob_sha256": "1376f27c37e244e12cee8e4f1007ea4393569b96a262d0580ef7cd8bc47a238a",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "apps/web/src/pages/playtest-json.ts": {
+      "captured_original_sha256": "9f630b20f14141299b04b1c4cd660fcbf57103e0a7ed4cc3a0a04e691cdfc061",
+      "export_worktree_sha256": "9f630b20f14141299b04b1c4cd660fcbf57103e0a7ed4cc3a0a04e691cdfc061",
+      "git_blob_sha256": "9f630b20f14141299b04b1c4cd660fcbf57103e0a7ed4cc3a0a04e691cdfc061",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/r3-ui.css": {
+      "captured_original_sha256": "82448631f527bc5803ccd67a33d8fc4d649f99f083f44a66425c8ebb5c7c7951",
+      "export_worktree_sha256": "82448631f527bc5803ccd67a33d8fc4d649f99f083f44a66425c8ebb5c7c7951",
+      "git_blob_sha256": "82448631f527bc5803ccd67a33d8fc4d649f99f083f44a66425c8ebb5c7c7951",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/repair-state/admission.ts": {
+      "captured_original_sha256": "6646aac32305074bdd17db2fa1a8f215a548010936de34d6d89f2b16637166e7",
+      "export_worktree_sha256": "6646aac32305074bdd17db2fa1a8f215a548010936de34d6d89f2b16637166e7",
+      "git_blob_sha256": "6646aac32305074bdd17db2fa1a8f215a548010936de34d6d89f2b16637166e7",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/repair-state/redemption.ts": {
+      "captured_original_sha256": "4fd5fff61400f9d4a97bd24df70e0071ab4f9989f2c0b2fc5f12430e8e618d03",
+      "export_worktree_sha256": "4fd5fff61400f9d4a97bd24df70e0071ab4f9989f2c0b2fc5f12430e8e618d03",
+      "git_blob_sha256": "4fd5fff61400f9d4a97bd24df70e0071ab4f9989f2c0b2fc5f12430e8e618d03",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/repair-state/result-presentation.ts": {
+      "captured_original_sha256": "a8321195f1af27020f31ad16681e94db18efe37dbec5e2da2d53ac9cd0904749",
+      "export_worktree_sha256": "a8321195f1af27020f31ad16681e94db18efe37dbec5e2da2d53ac9cd0904749",
+      "git_blob_sha256": "a8321195f1af27020f31ad16681e94db18efe37dbec5e2da2d53ac9cd0904749",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/repair-state/VoucherScanner.tsx": {
+      "captured_original_sha256": "a08b4623a2b04c0c5fa915721ac9bd1d350d58743b8485325b38d422e4e90a76",
+      "export_worktree_sha256": "a08b4623a2b04c0c5fa915721ac9bd1d350d58743b8485325b38d422e4e90a76",
+      "git_blob_sha256": "a08b4623a2b04c0c5fa915721ac9bd1d350d58743b8485325b38d422e4e90a76",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/styles.css": {
+      "captured_original_sha256": "a380b9269ae915ebd0d06ad45d0e038a82668ba85d3d90b4b14df87cd9ff72bc",
+      "export_worktree_sha256": "a380b9269ae915ebd0d06ad45d0e038a82668ba85d3d90b4b14df87cd9ff72bc",
+      "git_blob_sha256": "a380b9269ae915ebd0d06ad45d0e038a82668ba85d3d90b4b14df87cd9ff72bc",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/ui.tsx": {
+      "captured_original_sha256": "9e00776ef7a2390aa6de65f57ae993b7f42f9c9afd06b06e5c151e9c1160dce6",
+      "export_worktree_sha256": "9e00776ef7a2390aa6de65f57ae993b7f42f9c9afd06b06e5c151e9c1160dce6",
+      "git_blob_sha256": "9e00776ef7a2390aa6de65f57ae993b7f42f9c9afd06b06e5c151e9c1160dce6",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/src/visual-repair.css": {
+      "captured_original_sha256": "b77e0b59d50cc6702c22ef5382f7109a567b9a7397982b4b9bf3805767b1ef7c",
+      "export_worktree_sha256": "b77e0b59d50cc6702c22ef5382f7109a567b9a7397982b4b9bf3805767b1ef7c",
+      "git_blob_sha256": "a9a61f048e90258ba3532aabb4f0a0e07f646ec582e90abeabadd789e17c0215",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "packages/game-core/src/build.ts": {
+      "captured_original_sha256": "92b924da11856d4d46586de8bd16aaa5597aad28a814b8120d3dd124eb0849fb",
+      "export_worktree_sha256": "92b924da11856d4d46586de8bd16aaa5597aad28a814b8120d3dd124eb0849fb",
+      "git_blob_sha256": "92b924da11856d4d46586de8bd16aaa5597aad28a814b8120d3dd124eb0849fb",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "packages/game-core/src/common.ts": {
+      "captured_original_sha256": "d4c757339272c1a77ca9e277a6b1069666f4c9d22c933c6bae5ee3670d22d105",
+      "export_worktree_sha256": "d4c757339272c1a77ca9e277a6b1069666f4c9d22c933c6bae5ee3670d22d105",
+      "git_blob_sha256": "ec7d196a3f0cf097b4d226c9f54d06b98e845d41fe910d224143903dd55b11d4",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "packages/game-core/src/contracts/adapter.ts": {
+      "captured_original_sha256": "e27a80cdeb51f5a91b8dfdff36f3857fda4042a61971e50a2ce8d651deab20dd",
+      "export_worktree_sha256": "e27a80cdeb51f5a91b8dfdff36f3857fda4042a61971e50a2ce8d651deab20dd",
+      "git_blob_sha256": "e27a80cdeb51f5a91b8dfdff36f3857fda4042a61971e50a2ce8d651deab20dd",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "packages/game-core/src/contracts/types.ts": {
+      "captured_original_sha256": "bc7251cbb4f38fbf7d511f3f210f60ea90446826750a3922be43bc1738f0ef58",
+      "export_worktree_sha256": "bc7251cbb4f38fbf7d511f3f210f60ea90446826750a3922be43bc1738f0ef58",
+      "git_blob_sha256": "bc7251cbb4f38fbf7d511f3f210f60ea90446826750a3922be43bc1738f0ef58",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "packages/game-core/src/games.ts": {
+      "captured_original_sha256": "b8f1f4cb542a660ecee661929c725693502b10347c441b075567d999e37629f5",
+      "export_worktree_sha256": "b8f1f4cb542a660ecee661929c725693502b10347c441b075567d999e37629f5",
+      "git_blob_sha256": "b8f1f4cb542a660ecee661929c725693502b10347c441b075567d999e37629f5",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "packages/game-core/src/index.ts": {
+      "captured_original_sha256": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+      "export_worktree_sha256": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+      "git_blob_sha256": "e4693820141e1d931b7af78a3f6148602d28ff976b75bd8a8ba07bce3c1ed416",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "packages/game-core/src/model.ts": {
+      "captured_original_sha256": "e40ad79a5998873ef437334fac6d7946ba9f076c5b36555c00b37614990e6b4d",
+      "export_worktree_sha256": "e40ad79a5998873ef437334fac6d7946ba9f076c5b36555c00b37614990e6b4d",
+      "git_blob_sha256": "581fdc8d2423c798e8ade1fea3a2c598c0f7d9c8e2abe38ab1a58a7838c27739",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "packages/game-core/src/rules.ts": {
+      "captured_original_sha256": "59d8fa6e607c9b1b35169ee4d79f3f555ed5c027ad7febb34cb460c10fca8f3d",
+      "export_worktree_sha256": "59d8fa6e607c9b1b35169ee4d79f3f555ed5c027ad7febb34cb460c10fca8f3d",
+      "git_blob_sha256": "d102b6251d8890a974f815d605ddb250fb8b4b7075335c1ef31b16dbfe5d04b7",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": true
+    },
+    "packages/game-core/src/snapshots.ts": {
+      "captured_original_sha256": "ce9b8c6fea5a968c2416b59d263790b8cc54d004944b3af502785f7cfcceb81c",
+      "export_worktree_sha256": "ce9b8c6fea5a968c2416b59d263790b8cc54d004944b3af502785f7cfcceb81c",
+      "git_blob_sha256": "ce9b8c6fea5a968c2416b59d263790b8cc54d004944b3af502785f7cfcceb81c",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/public/assets/asset-manifest.v1.json": {
+      "captured_original_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+      "export_worktree_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+      "git_blob_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "apps/web/public/assets/candidates/r3/manifest.json": {
+      "captured_original_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "export_worktree_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "git_blob_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    },
+    "config/game_rules.v2.1.json": {
+      "captured_original_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "export_worktree_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "git_blob_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "source_content_unchanged": true,
+      "git_text_normalization_only": false
+    }
+  },
+  "evidence_path_map": {
+    "output/r3-20261028/": "review/r3/evidence/"
+  },
+  "note": "Original captures/receipts retain original source/path/hash claims. Public text reports have path/home sanitization. Use upload scope original/export hash mapping; PNG metadata removal preserves RGBA and IDAT. Git LF source mapping is explicit, not a recapture or new art signoff. Root package/lock are pre-existing frontend-only adaptations and not the main project root. Historical audit scripts target the original local project; public checker is verify-public-export.py.",
+  "png_metadata_only_sanitization": [
+    {
+      "path": "review/r3/stack-sample/A_collar_v1_contact_512.png",
+      "original_sha256": "6d6dc6b5979c48a1987f7d6b2ac58a2ced37fdd2d381f4b38b1e36ae95a0d5ed",
+      "exported_sha256": "3119fd333416eceecd2ea742d2991173e8b38c8e10920c70323370baf94266de",
+      "rgba_sha256": "99c5cf35eae9e1626241c498a2a750884ae5073fbca708030265dc91ef569671",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/A_collar_v1_idle_512.png",
+      "original_sha256": "c0b50e493af240144e85a3822dd02a9804c182963d9d9a226d7da9c13c57ccae",
+      "exported_sha256": "b3b7f8a9f6c9653e1f994c5c316fa7b9e6a7622e9205358d9236c81979ec8e9a",
+      "rgba_sha256": "85eb4c1459d866b03b1384528f673fc884c26971a77816afa9147cf05c250b4e",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/A_collar_v2_contact_512.png",
+      "original_sha256": "8f879061bb364cb96108f9e031f5f82bf70fbda532ae2d57686958ce880e5d12",
+      "exported_sha256": "b9f3d9b0857bf2469569e448cb8153a420808fab939a061973b16225ea7be61d",
+      "rgba_sha256": "793709b477043ed25fd1975dbee6bf2969d2753cdf9b93bb951905cccc319db5",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/A_collar_v2_idle_512.png",
+      "original_sha256": "427dff3e85c4b7cab3aefcc00301f911e39e1a8bc9e43ede6d748151b57df698",
+      "exported_sha256": "1ac44ae70cb5fd9dcf9f2f3a4eb2744aaf71cca750a7a49b398128bf3e707058",
+      "rgba_sha256": "bfe9c6ffbd13558eb915f96e20eac46f4165a22ff6efc7a30c14e2b61945a20e",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/A_folded_loaf_512.png",
+      "original_sha256": "43ce1838026b4903878538cb8842834874756f4ff425cfd456f95e9f7e7d8e63",
+      "exported_sha256": "558b45e634e4cf4a60e653a6fad83e1fb8dc0d9576cd0101bf950747c0524e10",
+      "rgba_sha256": "db6056f0ad1f3e19382d2c81ab7d48634429341a5df14c075769b6571ad96bdb",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/B_deep_crouch_512.png",
+      "original_sha256": "43f9579c2614241b84b9a36e7bfc9eaf0238253861a26d9ff6a3afa20ec6ee5e",
+      "exported_sha256": "d878f12678bbd1a579432fa44738b3a89493ae02947a4e953c2a1c518ca87561",
+      "rgba_sha256": "7141303a9966aa4d378c573d68554ab9ccb06e1844c6f63872708fa08d760d0e",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/frames/stack_air_f000_512.png",
+      "original_sha256": "9befb0c2041db3e0fcb35fc08f39c76f684d36e095b1e8a7ceee7f8e5edd790f",
+      "exported_sha256": "03ac3be56393d72c0890c47c12dc76f0ebe04f952323c9c34172de2f3333d279",
+      "rgba_sha256": "76fbb0d4160e8b4c326bafe83103f5a8a4c60a5655207fde55f311f028f9a9e5",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/frames/stack_air_f001_512.png",
+      "original_sha256": "bd84e3c69e1197d49f3fbbcee5e1388ac7909fde7151644c617b0d1e5208d1bd",
+      "exported_sha256": "a8184107cb544193cd5c83f05a74d3fb64c5464badf0269e33f47512d295a05c",
+      "rgba_sha256": "3f5261ca3468e1ccbb57d3f8e4927cddecbc1a3d8a4966b5302714a37626e34b",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/frames/stack_celebrate_f000_512.png",
+      "original_sha256": "05014acef10bcd051a8a310f9ba8e2fa5e645c0003a556e72d1682b4ff07a786",
+      "exported_sha256": "0b0498d699e01a7bce75a416f997eb35e60b5d670312cb7dbe4d52b00ad8862f",
+      "rgba_sha256": "55af813b5bf2d2e4f8940c202d86d45a5b6f1745980433d12d09bc79545966c8",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/frames/stack_celebrate_f001_512.png",
+      "original_sha256": "a565e517750da05603be6829b90c50846b9bf4fb341a328d262a4e3ca292c77c",
+      "exported_sha256": "3391f84ebe6837aa343b3b96881701b027ca20da50d22319fbf1748ddfc4b68b",
+      "rgba_sha256": "313e224b418d6672d24d07d9d93f857de0d29d6d801ffba03f9247f0caf356a9",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/frames/stack_celebrate_f002_512.png",
+      "original_sha256": "fb29e56f11c833ebff65ab67776a24f29f39c78131231e724d3055d7ffd8a19b",
+      "exported_sha256": "0b0498d699e01a7bce75a416f997eb35e60b5d670312cb7dbe4d52b00ad8862f",
+      "rgba_sha256": "55af813b5bf2d2e4f8940c202d86d45a5b6f1745980433d12d09bc79545966c8",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/frames/stack_celebrate_f003_512.png",
+      "original_sha256": "d519caab70e235d15e19815c0edbba6e71a9d8b57c46eb6b0aae0514b4168a59",
+      "exported_sha256": "131fd0e7c36d36e1b97416bfa3d394cc788e64d548e95a867b890bc6631775a4",
+      "rgba_sha256": "e67b0f748009f012890a9a5b2632ad5ce40ca56ba58e93b52baf6af0ba1862a8",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/frames/stack_idle_f000_512.png",
+      "original_sha256": "ac272a9a718cb71dae42e76b280a5fb52796bf4b7bd9c8c74cdfb3ca6d26d5e5",
+      "exported_sha256": "01d63804feb1555109560725f596d4b870d7c6465e06c03ab3767f11ccbc8ad3",
+      "rgba_sha256": "7ff97245d9bbdc4f80b9d0c1309f53ff564ce153ca60c397f7efaeadc0f2ac17",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/frames/stack_idle_f001_512.png",
+      "original_sha256": "f200faeaa3b7072ac5de5f8485fb0cc69ecbbc8a871fdca1405b581a43813181",
+      "exported_sha256": "e8ebecfb5569c9bdf6b5ed153453d8aba51bcb7e68c7c83b4dbd82fd4224ff0a",
+      "rgba_sha256": "baefbdc8fbbbe2ab9ce3874e590e8eca5f4e3d9c451838b1a3995ca40aec40d6",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/frames/stack_idle_f002_512.png",
+      "original_sha256": "57dd563a98f3b25205ed7f1528fea104a180b5f607596e0839cbc721c8948aef",
+      "exported_sha256": "ddd7f9d6b74e5797036bc5b7d0525f14bc64484fa645705027bd1bc2f0e0003b",
+      "rgba_sha256": "f972b934b449a04d1820b9abd1a4cb815da888fc76b51232813464ba36f337b4",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/frames/stack_idle_f003_512.png",
+      "original_sha256": "46c913ec068ef4f05345a9b63052cfcb2e0f6340cc6f47c0fcf66613277b7606",
+      "exported_sha256": "1c3585bfbc87884105f181813b5cced586685fa9652b5efce804fff8017867a4",
+      "rgba_sha256": "66cfd7b7cbf96c11f9dfba8a7c0e3db827cc910a3586e55b9fa385b1083e3330",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/frames/stack_steady_f000_512.png",
+      "original_sha256": "eecd2edecac36c545c942f3a5f14e06e2eac323c988f83867d00c10616bb8445",
+      "exported_sha256": "ce25c587aa02f3c2252cf285ac570bb4550d94d9b88f8a1508e3603a2a2ee830",
+      "rgba_sha256": "a592194af3d7a01241a239957ba53ab3887b02bea27644e9eb9b4bb1c304f3f6",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/frames/stack_steady_f001_512.png",
+      "original_sha256": "578b3aac41dcde36e289c77f11a1fb056fcb694b1c536ed1bcc37fc7a93f33ee",
+      "exported_sha256": "05f15b14e28c32bc172e4b00f8c9d16467cc82af31bd08f5c416395f3d8a2911",
+      "rgba_sha256": "ecfbf9f3dc0b759af4f4ceb7732cc7beb210427e30cb7ffbaeb77ff635a80639",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/frames/stack_steady_f002_512.png",
+      "original_sha256": "d41865b83c9c2911b760881950182602044fc47dfc48628724772ca05cdcbdb9",
+      "exported_sha256": "ad1a82dc63ca935267a2dd682ecf3698d99e9a1b40f3cf8b549130eb052e2409",
+      "rgba_sha256": "7d951a6244080de8c248f134cfe816543a771004f1c37578985ca1ebed29ad8d",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    },
+    {
+      "path": "review/r3/stack-sample/frames/stack_steady_f003_512.png",
+      "original_sha256": "16b09d1bcf0924e97a072d9937294cc25b7eee470868e329d40f5411be4031a4",
+      "exported_sha256": "01d63804feb1555109560725f596d4b870d7c6465e06c03ab3767f11ccbc8ad3",
+      "rgba_sha256": "7ff97245d9bbdc4f80b9d0c1309f53ff564ce153ca60c397f7efaeadc0f2ac17",
+      "idat_chunks_byte_identical": true,
+      "removed_chunks": [
+        "eXIf",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt",
+        "tEXt"
+      ]
+    }
+  ]
+}

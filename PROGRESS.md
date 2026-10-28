@@ -1,3 +1,13 @@
+# R3有限A实物样板已交付；重负载窗口已释放
+
+2026-10-28：候选B5 `8f30e374…c98d`新增三款底缝/背景层次、同母源31材质帧与有界道具样板，已在真实GamePage输出最终27张同版三态/三屏页面。287项core/web、类型/web构建/规则/契约/数学及49浏览器记录通过；独立最终27图复审为技术绑定PASS、样板PARTIAL、整体艺术FAIL，S3未就绪，sample/production false。
+
+[本批报告](docs/r3-a-window-20261028-report.md) · [原型/B4/新候选画廊](review/r3/a-window-20261028/evidence/index.html) · [独立复审](review/r3/a-window-20261028/independent-review.md) · [释放收据](review/r3/a-window-20261028/resource-window-release.json)。重负载于13:20上海时间释放供视频精确300帧编码；没有新版完整录像，旧B4录像仅历史。未实施B几何/显示选项，未接受比例差异或生产美术。
+
+以下保留历史进度，旧计数不算本批重跑。
+
+---
+
 # R3接续方案已保存，B4产品候选未改
 
 2026-10-28：新增[三款合法样板与具体变更选项](docs/r3-continuation-options-20261028.md)。

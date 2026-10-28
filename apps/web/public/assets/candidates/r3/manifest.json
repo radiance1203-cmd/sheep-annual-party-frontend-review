@@ -1,5 +1,5 @@
 {
-  "candidate_id": "R3-B4-C-sample-a",
+  "candidate_id": "R3-B5-A-finite-materials",
   "source_manifest_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
   "backgrounds": {
     "stack": {
@@ -25,7 +25,7 @@
     }
   },
   "page_background": "stack",
-  "scope": "R3 continuous full-page scenery/live UI; one legal same-master stack motion sample; bounded static fence material sample; runner/herd characters and remaining interactive props still v4 pending replacement",
+  "scope": "Finite A sample: unchanged world/FIT/input/geometry; three-page seam/layering; same-master stack14 material frames; sparse side/iso sheep/dog material keys, unproduced actions/directions remain v4; bounded SVG prop contrast sample. Art PARTIAL, not full animation or S3.",
   "sample_art_accepted": false,
   "production_art_accepted": false,
   "ui": {
@@ -72,13 +72,20 @@
     }
   },
   "stack_sample": {
-    "image": "stack-motion-a.png",
-    "image_sha256": "d1f6650adf600658aaac113f7ff902019b6c7280b520caecb417356cc21b9819",
-    "metadata": "stack-motion-a.atlas.json",
-    "metadata_sha256": "04a7e580c3b37567734670479df0dbce3f19951f03dd198f4c76e3eda22836ef",
+    "image": "stack-material-a.png",
+    "image_sha256": "748dacba53eb8da3b5f31d3d5c3ec50ae10193d3fb4a3c2edc812de27a396182",
+    "metadata": "stack-material-a.atlas.json",
+    "metadata_sha256": "6021e7c56c621cc156132c37d3cab00826208303a4403c68d8483a4238081cb4",
     "native_alpha_height": 126,
     "uniform_world_scale": 0.2857142857142857,
-    "visual_budget": "36 high sheep +2 clear +6 tray =44 layer; actual sheep width52 not prototype112; unresolved difference, not new golden"
+    "visual_budget": "36 high sheep +2 clear +6 tray =44 layer; actual sheep width52 not prototype112; unresolved difference, not new golden",
+    "coverage": [
+      "stack_idle.e",
+      "stack_air.e",
+      "stack_steady.e",
+      "stack_celebrate.e"
+    ],
+    "finite_material_sample": true
   },
   "fence": {
     "image": "fence-panel-b3.png",
@@ -86,5 +93,53 @@
     "metadata": "fence-panel-b4.atlas.json",
     "metadata_sha256": "121f930a0c11c0b7f1452c704ed5fd2508806f1de7b0fb15b819a50ce4580593",
     "role": "native raster material windows with shared individual posts/rails, clipped to unchanged blocked core segments; candidate, not final 3D source"
+  },
+  "character_samples": {
+    "sheep_side": {
+      "image": "sheep-side-material-a.png",
+      "image_sha256": "e06e035e7ab474a74e77fcfd506aa67f6da3a0684071842143ba704952688f2d",
+      "metadata": "sheep-side-material-a.atlas.json",
+      "metadata_sha256": "e757ebe7af83ff1170fb2fdf20928ed8ae839d45c0dde56fe5655a0abedf1712",
+      "coverage": [
+        "idle.e",
+        "run.e"
+      ],
+      "finite_material_sample": true
+    },
+    "sheep_iso8": {
+      "image": "sheep-iso8-material-a.png",
+      "image_sha256": "c67b1be86ce0ae01bbf5a416df93f9edb8c4c254b0cd0fa8b24927eb0b8a597b",
+      "metadata": "sheep-iso8-material-a.atlas.json",
+      "metadata_sha256": "b0dce02ac48f5eb2c74ccf4789ba07d3318c559b72cdb2b86fb15831ae1a2e65",
+      "coverage": [
+        "idle.n",
+        "walk.n",
+        "idle.se",
+        "walk.se"
+      ],
+      "finite_material_sample": true
+    },
+    "dog_iso8": {
+      "image": "dog-iso8-material-a.png",
+      "image_sha256": "c39a7d33d0cc393c76f4b997d660535f0af64eef298b0186ca90ff1baf8e6f9d",
+      "metadata": "dog-iso8-material-a.atlas.json",
+      "metadata_sha256": "0b4db1eea6f4f375a7f02a91f0c8ec06f01a541b55ecd3f04899f7e12e8590df",
+      "coverage": [
+        "idle.n",
+        "walk.n",
+        "bark.n",
+        "idle.se",
+        "walk.se",
+        "bark.se"
+      ],
+      "finite_material_sample": true
+    }
+  },
+  "props_sample": {
+    "image": "props-materials-a.png",
+    "image_sha256": "308c0da67221b45e0d68940a113ec54dc6e018401cc64fc8fcb153e21238b0d6",
+    "metadata": "props-materials-a.atlas.json",
+    "metadata_sha256": "1d54c2f0946c97c495cb3232b90403240d2bc617b0790a7b051441016bc431f2",
+    "scope": "editable SVG bounded material/contrast sample; not final 3D props"
   }
 }

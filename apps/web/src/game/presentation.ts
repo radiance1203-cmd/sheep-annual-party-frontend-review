@@ -11,3 +11,12 @@ export function fitFrame(frame: Atlas['frames'][string], box: { x: number; y: nu
   const scale = Math.min(box.width / width, box.height / height);
   return { x: box.x + (box.width - width * scale) / 2 + frame.pivot_px[0] * scale, y: box.y + (box.height - height * scale) / 2 + frame.pivot_px[1] * scale, scale };
 }
+
+/** A finite material sample must never stand in for a direction/action it did not produce. */
+export function selectMaterialAtlas(base: string, animation: string, atlases: Readonly<Record<string, Pick<Atlas, 'animations'>>>): string {
+  const samples: Readonly<Record<string, string>> = {
+    sheep_side_v1: 'r3_sheep_side', sheep_iso8_v1: 'r3_sheep_iso8', dog_iso8_v1: 'r3_dog_iso8',
+  };
+  const sample = samples[base];
+  return sample && atlases[sample]?.animations[animation] ? sample : base;
+}

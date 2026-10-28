@@ -1,0 +1,100 @@
+[
+  {
+    "file": "herd-running-390.png",
+    "image_bottom_css_y": 839.8635416666666,
+    "scope": "max adjacent-row RGB mean absolute delta within +/-1.5CSSpx of known image end, using outermost 2CSSpx page-edge strips to avoid controls; supporting seam evidence only",
+    "red_maximum_adjacent_row_delta": 22.16667,
+    "green_maximum_adjacent_row_delta": 1.41667
+  },
+  {
+    "file": "herd-running-430.png",
+    "image_bottom_css_y": 909.8778273809523,
+    "scope": "max adjacent-row RGB mean absolute delta within +/-1.5CSSpx of known image end, using outermost 2CSSpx page-edge strips to avoid controls; supporting seam evidence only",
+    "red_maximum_adjacent_row_delta": 19.16667,
+    "green_maximum_adjacent_row_delta": 1.58333
+  },
+  {
+    "file": "runner-prep-320.png",
+    "image_bottom_css_y": 507.6888789766143,
+    "scope": "max adjacent-row RGB mean absolute delta within +/-1.5CSSpx of known image end, using outermost 2CSSpx page-edge strips to avoid controls; supporting seam evidence only",
+    "red_maximum_adjacent_row_delta": 78.375,
+    "green_maximum_adjacent_row_delta": 1.45833
+  },
+  {
+    "file": "runner-prep-390.png",
+    "image_bottom_css_y": 716.5373863636363,
+    "scope": "max adjacent-row RGB mean absolute delta within +/-1.5CSSpx of known image end, using outermost 2CSSpx page-edge strips to avoid controls; supporting seam evidence only",
+    "red_maximum_adjacent_row_delta": 113.45833,
+    "green_maximum_adjacent_row_delta": 1.5
+  },
+  {
+    "file": "runner-prep-430.png",
+    "image_bottom_css_y": 804.3365909090908,
+    "scope": "max adjacent-row RGB mean absolute delta within +/-1.5CSSpx of known image end, using outermost 2CSSpx page-edge strips to avoid controls; supporting seam evidence only",
+    "red_maximum_adjacent_row_delta": 0.66667,
+    "green_maximum_adjacent_row_delta": 1.5
+  },
+  {
+    "file": "runner-running-320.png",
+    "image_bottom_css_y": 507.6888789766143,
+    "scope": "max adjacent-row RGB mean absolute delta within +/-1.5CSSpx of known image end, using outermost 2CSSpx page-edge strips to avoid controls; supporting seam evidence only",
+    "red_maximum_adjacent_row_delta": 78.375,
+    "green_maximum_adjacent_row_delta": 1.45833
+  },
+  {
+    "file": "runner-running-390.png",
+    "image_bottom_css_y": 716.5373863636363,
+    "scope": "max adjacent-row RGB mean absolute delta within +/-1.5CSSpx of known image end, using outermost 2CSSpx page-edge strips to avoid controls; supporting seam evidence only",
+    "red_maximum_adjacent_row_delta": 113.45833,
+    "green_maximum_adjacent_row_delta": 1.5
+  },
+  {
+    "file": "runner-running-430.png",
+    "image_bottom_css_y": 804.3365909090908,
+    "scope": "max adjacent-row RGB mean absolute delta within +/-1.5CSSpx of known image end, using outermost 2CSSpx page-edge strips to avoid controls; supporting seam evidence only",
+    "red_maximum_adjacent_row_delta": 0.66667,
+    "green_maximum_adjacent_row_delta": 1.5
+  },
+  {
+    "file": "runner-tutorial-320.png",
+    "image_bottom_css_y": 498.1732539766143,
+    "scope": "max adjacent-row RGB mean absolute delta within +/-1.5CSSpx of known image end, using outermost 2CSSpx page-edge strips to avoid controls; supporting seam evidence only",
+    "red_maximum_adjacent_row_delta": 0.70833,
+    "green_maximum_adjacent_row_delta": 1.66667
+  },
+  {
+    "file": "runner-tutorial-390.png",
+    "image_bottom_css_y": 707.0217613636363,
+    "scope": "max adjacent-row RGB mean absolute delta within +/-1.5CSSpx of known image end, using outermost 2CSSpx page-edge strips to avoid controls; supporting seam evidence only",
+    "red_maximum_adjacent_row_delta": 0.625,
+    "green_maximum_adjacent_row_delta": 1.58333
+  },
+  {
+    "file": "runner-tutorial-430.png",
+    "image_bottom_css_y": 794.8209659090908,
+    "scope": "max adjacent-row RGB mean absolute delta within +/-1.5CSSpx of known image end, using outermost 2CSSpx page-edge strips to avoid controls; supporting seam evidence only",
+    "red_maximum_adjacent_row_delta": 42.70833,
+    "green_maximum_adjacent_row_delta": 1.70833
+  },
+  {
+    "file": "stack-running-320.png",
+    "image_bottom_css_y": 522.0231182406335,
+    "scope": "max adjacent-row RGB mean absolute delta within +/-1.5CSSpx of known image end, using outermost 2CSSpx page-edge strips to avoid controls; supporting seam evidence only",
+    "red_maximum_adjacent_row_delta": 0.5,
+    "green_maximum_adjacent_row_delta": 1.16667
+  },
+  {
+    "file": "stack-running-390.png",
+    "image_bottom_css_y": 748.3418750000001,
+    "scope": "max adjacent-row RGB mean absolute delta within +/-1.5CSSpx of known image end, using outermost 2CSSpx page-edge strips to avoid controls; supporting seam evidence only",
+    "red_maximum_adjacent_row_delta": 0.58333,
+    "green_maximum_adjacent_row_delta": 1.5
+  },
+  {
+    "file": "stack-running-430.png",
+    "image_bottom_css_y": 824.4966536458334,
+    "scope": "max adjacent-row RGB mean absolute delta within +/-1.5CSSpx of known image end, using outermost 2CSSpx page-edge strips to avoid controls; supporting seam evidence only",
+    "red_maximum_adjacent_row_delta": 43.875,
+    "green_maximum_adjacent_row_delta": 1.45833
+  }
+]
