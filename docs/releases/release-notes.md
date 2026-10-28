@@ -45,4 +45,4 @@
 ### 2026-10-28 R4 P0继续返工
 
 
-R4母型返工进度：羊/叠高v27、犬v24，团坐/羽尾等P0继续实改，有限探针和真实尺寸/页面证据；sample/production=false，S3 NOT_READY，未更换运行素材。 见[进度](r4-p0-progress.md)。
+R4母型返工进度：羊/叠高v27、犬v24，团坐/羽尾等P0继续实改，有限探针和真实尺寸/页面证据；sample/production=false，S3 NOT_READY，未更换运行素材。 见[进度](../r4-p0-progress.md)。
