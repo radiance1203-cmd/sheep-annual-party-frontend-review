@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "recorded_at_utc": "2026-10-28T04:12:36.944135+00:00",
+  "checks": {
+    "protected_existing_files_unchanged": true,
+    "main_head_unchanged": true,
+    "main_index_unchanged": true,
+    "candidate_matches_B4": true,
+    "all_captured_sources_match": true,
+    "all_27_historical_pngs_match": true,
+    "candidate_asset_hashes_match": true,
+    "S3_not_ready": true,
+    "sample_and_production_false": true
+  },
+  "protected_files": 81,
+  "changed_files": [],
+  "permitted_state_records": [
+    "docs/R3_VISUAL_STATUS.md",
+    "planning/PROJECT_STATE.json",
+    "review/r3/CURRENT.json"
+  ],
+  "capture_source_failures": [],
+  "png_failures": [],
+  "asset_failures": [],
+  "candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+  "scope": "File preservation and existing evidence bindings only; no new product tests, captures, recordings or art acceptance",
+  "historical_review_receipt_overwritten": false
+}

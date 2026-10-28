@@ -1,0 +1,79 @@
+{
+  "recorded_at_utc": "2026-10-28T04:10:13.231536+00:00",
+  "method": "root actually viewed original pixels with view_image",
+  "paths": [
+    {
+      "path": "design/prototypes/01_stack.png",
+      "sha256": "94651ed5e2ca9039cc397c11395c31205f3b57ee0bd65858a45093d6ebe57652"
+    },
+    {
+      "path": "design/prototypes/02_runner.png",
+      "sha256": "62358c3c1cf36921266292f9747c514683f994fb1ed7c15254c29b3b98554a85"
+    },
+    {
+      "path": "design/prototypes/03_herd.png",
+      "sha256": "754351c13b62debd71fa342e9e1e366f9b34b0be7e35ae3b0d5af27494d8c50a"
+    },
+    {
+      "path": "design/character_foundation_board.png",
+      "sha256": "836bf1f94e122bd5c98868b02d8577f2e8ea16d8acdce234094969e7510b1539"
+    },
+    {
+      "path": "output/r3-20261028/pages/stack-prep-390.png",
+      "sha256": "4884070ad682ecfb9041d00b542a062c3b028be0dd82318d67684ed19dd2541e"
+    },
+    {
+      "path": "output/r3-20261028/pages/stack-tutorial-390.png",
+      "sha256": "80664c6d8ca7bf7bffc96f865f34ad7306a90e96534101ba806193acf70f7959"
+    },
+    {
+      "path": "output/r3-20261028/pages/stack-running-390.png",
+      "sha256": "a2a7a466d415ce8c3747bd535dd5729d1c168eebc6efe0de54564edcfdc820e5"
+    },
+    {
+      "path": "output/r3-20261028/pages/runner-prep-390.png",
+      "sha256": "17acc385f6205b8c2c4ff497aeeb94b4ece790d69d070871cd59e6ca547ac644"
+    },
+    {
+      "path": "output/r3-20261028/pages/runner-tutorial-390.png",
+      "sha256": "dc2f9bd298c8e4f2ade1ca88bd29db3b3b341f8229d419dce1ed9fcec90901c9"
+    },
+    {
+      "path": "output/r3-20261028/pages/runner-running-390.png",
+      "sha256": "788402e3d0cc57c06bb9bdc727063bbf352e535cb915c98a1ce99cae74305e0e"
+    },
+    {
+      "path": "output/r3-20261028/pages/herd-prep-390.png",
+      "sha256": "eff89a71ce1872aa0e54652b0969f291e2fa3673a981979fd4e993be0b2e155d"
+    },
+    {
+      "path": "output/r3-20261028/pages/herd-tutorial-390.png",
+      "sha256": "a50dc53f51bd2fd5f8c04eb501bef200e707153b0a702fd7b0a864530e6459a0"
+    },
+    {
+      "path": "output/r3-20261028/pages/herd-running-390.png",
+      "sha256": "c20df09210f6960f2f07365fdfca4c0b49a75b33e89842613e58ca37ed009b98"
+    },
+    {
+      "path": "output/r3-20261028/pages/stack-running-320.png",
+      "sha256": "5a9dff72ae55a6b3a441cdb340d14d603a11f586fd6a2ca5c3dfc43affaccc58"
+    },
+    {
+      "path": "output/r3-20261028/pages/runner-running-320.png",
+      "sha256": "85404e9000e4f6be4e667617f1a952c9e31b89044db895fb9160167d3de4c588"
+    },
+    {
+      "path": "output/r3-20261028/pages/herd-running-320.png",
+      "sha256": "76e6a3d69a9459b7840498f1885ffcd6bbf4811366a62fd7155c378e68cdb8ae"
+    },
+    {
+      "path": "output/r3-20261028/pages/runner-tutorial-430.png",
+      "sha256": "f8e79b17371ab4ba3086b308b95f3ac0c772b125f121b568df942bcd13a8864d"
+    }
+  ],
+  "references": 4,
+  "current_native_pages": 13,
+  "all_27_pages_reopened": false,
+  "complete_videos_watched": false,
+  "new_art_acceptance": false
+}

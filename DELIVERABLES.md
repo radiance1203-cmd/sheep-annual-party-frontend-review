@@ -1,3 +1,15 @@
+# R3接续方案已保存，B4产品候选未改
+
+2026-10-28：新增[三款合法样板与具体变更选项](docs/r3-continuation-options-20261028.md)。
+已重新打开4张参考与13张当前页面，复核唯一core与显示约束；独立只读几何复核补齐窗口/快照/参考依赖。
+本次只有方案与记录，未修改游戏、资源、规则、golden或S3。B4仍68a94f88…871a5cb，艺术九格PARTIAL/整体FAIL，sample/production false。
+PPT重负载窗口未明确释放，新渲染/录像未启动；17图开图不冒充重新艺术验收27图或完整录像。
+本地cwd已证实，但新会话移入项目回执与列表回读不一致，项目分组尚未证实。
+[原始图像重开记录](review/r3/continuation-20261028/opened-images.json)、[保留核验](review/r3/continuation-20261028/verification.json)、[几何复核](review/r3/continuation-20261028/independent-geometry-review.md)。
+以下仍保留原B4及更早历史，测试计数不算本次重跑。
+
+---
+
 # R3 三款整屏候选 · 2026-10-28
 
 当前 R3-B4-C-sample-a，候选SHA256 `68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb`。

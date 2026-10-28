@@ -836,10 +836,12 @@
     {
       "source": "review/r3/CURRENT.json",
       "path": "review/r3/CURRENT.json",
-      "original_sha256": "c5ca7370f54e50762a5f49658ea2347f4cb67c3b78593c0b9d24c87babff1072",
-      "exported_sha256": "01724ed6f98064d56433bd2d41a02473563d056456b2bf20e66127face7b85af",
-      "bytes": 3551,
-      "git_blob_sha256": "4d153fe3845ec5e249ecd9fbc56af2e04da6a6a62efe40615856fa21a8ce9829"
+      "sha256": "9898d85de08fa56f9f9f18a9554439a7be1f484d0180bce6a45809251eb6d120",
+      "bytes": 6169,
+      "exported_sha256": "9898d85de08fa56f9f9f18a9554439a7be1f484d0180bce6a45809251eb6d120",
+      "exported_bytes": 6169,
+      "original_sha256": "9898d85de08fa56f9f9f18a9554439a7be1f484d0180bce6a45809251eb6d120",
+      "git_blob_sha256": "e0d27639edcee8936898bb9fc12065ab871c8c194461c157eda9bf9207d71b24"
     },
     {
       "source": "review/r3/DIFFERENCES.md",
@@ -1268,10 +1270,12 @@
     {
       "source": "docs/R3_VISUAL_STATUS.md",
       "path": "docs/R3_VISUAL_STATUS.md",
-      "original_sha256": "bcfd48f767374c7a120b5d3f97efca0b4123fa324db8b7bb6d62d13ae7cbf77a",
-      "exported_sha256": "1e52839deabe91920d93e6ca7235492ac82f50a9a5acfb026ad667120c4cd9de",
-      "bytes": 4616,
-      "git_blob_sha256": "1e52839deabe91920d93e6ca7235492ac82f50a9a5acfb026ad667120c4cd9de"
+      "sha256": "dc23af08ce4dd581272d768e63b1c7d403acb78a11d5edc4de253689aaba7474",
+      "bytes": 5963,
+      "exported_sha256": "406ad2fc6ab4cfcd0e674992765e4b2eb6c78a1256724baf1df92313ed8944c5",
+      "exported_bytes": 5963,
+      "original_sha256": "dc23af08ce4dd581272d768e63b1c7d403acb78a11d5edc4de253689aaba7474",
+      "git_blob_sha256": "479c43144dcf9a6a08fc585829ecadaf4707405e20a7b79a2748564a4addf9ac"
     },
     {
       "source": "docs/r3-20261028-report.md",
@@ -2600,6 +2604,56 @@
       "exported_sha256": "836bf1f94e122bd5c98868b02d8577f2e8ea16d8acdce234094969e7510b1539",
       "git_blob_sha256": "836bf1f94e122bd5c98868b02d8577f2e8ea16d8acdce234094969e7510b1539",
       "bytes": 1543000
+    },
+    {
+      "source": "docs/r3-continuation-options-20261028.md",
+      "path": "docs/r3-continuation-options-20261028.md",
+      "sha256": "7e1d8e4fbcb125e9eb616180269d2cb60d50ba0b8a8521c9581bb884a7ac2de9",
+      "bytes": 18298,
+      "exported_sha256": "c17702ae73900a991235ead557f259ec91275c66e22c85bfce12ad16a73814e6",
+      "exported_bytes": 18298,
+      "original_sha256": "7e1d8e4fbcb125e9eb616180269d2cb60d50ba0b8a8521c9581bb884a7ac2de9",
+      "git_blob_sha256": "c17702ae73900a991235ead557f259ec91275c66e22c85bfce12ad16a73814e6"
+    },
+    {
+      "source": "docs/current-handoff.md",
+      "path": "docs/current-handoff.md",
+      "sha256": "6d3705273d90f8a4370ce7a614ee32b4305673e7888b5a5da087bc0a776a53e9",
+      "bytes": 4565,
+      "exported_sha256": "1ecff1e61f1c337bbe073ba3dfb5b2b155a262a309e774bc0e520bbf1788af6b",
+      "exported_bytes": 4565,
+      "original_sha256": "6d3705273d90f8a4370ce7a614ee32b4305673e7888b5a5da087bc0a776a53e9",
+      "git_blob_sha256": "3302495269e512199db214fba13e6780ed5d555608fecd44af028edefb1d67d0"
+    },
+    {
+      "source": "review/r3/continuation-20261028/opened-images.json",
+      "path": "review/r3/continuation-20261028/opened-images.json",
+      "sha256": "27a3b33ed29a9e268b6db649e5253d6838370093f351f351f185ab94a9f1078b",
+      "bytes": 3033,
+      "exported_sha256": "27a3b33ed29a9e268b6db649e5253d6838370093f351f351f185ab94a9f1078b",
+      "exported_bytes": 3033,
+      "original_sha256": "27a3b33ed29a9e268b6db649e5253d6838370093f351f351f185ab94a9f1078b",
+      "git_blob_sha256": "81f64885b9af968d404b722ca33ded6480dc085b2ab5dc7d4f9315b12998e2c0"
+    },
+    {
+      "source": "review/r3/continuation-20261028/verification.json",
+      "path": "review/r3/continuation-20261028/verification.json",
+      "sha256": "871140bd66af2f05353290ee55b6598f5695b4202da887e60362a80fb8a1cc05",
+      "bytes": 1004,
+      "exported_sha256": "871140bd66af2f05353290ee55b6598f5695b4202da887e60362a80fb8a1cc05",
+      "exported_bytes": 1004,
+      "original_sha256": "871140bd66af2f05353290ee55b6598f5695b4202da887e60362a80fb8a1cc05",
+      "git_blob_sha256": "215fd9b1f25e1427f3f4dabd7f8e11937f4af76b0540a2378e1aa80f4f319af3"
+    },
+    {
+      "source": "review/r3/continuation-20261028/independent-geometry-review.md",
+      "path": "review/r3/continuation-20261028/independent-geometry-review.md",
+      "sha256": "b7ff29abb5d55a2f0de609059f49028eaa48af5775f493037ae934b4918d84db",
+      "bytes": 1655,
+      "exported_sha256": "b7ff29abb5d55a2f0de609059f49028eaa48af5775f493037ae934b4918d84db",
+      "exported_bytes": 1655,
+      "original_sha256": "b7ff29abb5d55a2f0de609059f49028eaa48af5775f493037ae934b4918d84db",
+      "git_blob_sha256": "b7ff29abb5d55a2f0de609059f49028eaa48af5775f493037ae934b4918d84db"
     }
   ],
   "omitted": [
@@ -4649,5 +4703,18 @@
   "production_art_accepted": false,
   "S3": "NOT_READY",
   "website_deployed": false,
-  "png_metadata_receipt": "review/r3/PUBLIC_SOURCE_BINDING.json"
+  "png_metadata_receipt": "review/r3/PUBLIC_SOURCE_BINDING.json",
+  "documentation_continuation": {
+    "base_review_commit": "5a7ee027151b88ff838468e78439dc04ad3ed3f3",
+    "paths": [
+      "docs/r3-continuation-options-20261028.md",
+      "docs/current-handoff.md",
+      "docs/R3_VISUAL_STATUS.md",
+      "review/r3/CURRENT.json",
+      "review/r3/continuation-20261028/opened-images.json",
+      "review/r3/continuation-20261028/verification.json",
+      "review/r3/continuation-20261028/independent-geometry-review.md"
+    ],
+    "product_changed": false
+  }
 }

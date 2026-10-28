@@ -21,8 +21,8 @@
   "blocker": null,
   "sample_art_accepted": false,
   "production_art_accepted": false,
-  "github_r3": "INCLUDED_IN_THIS_REVIEW_SNAPSHOT; see commit and remote verification receipt",
-  "next": "Human review of actual B4 static direction and explicit geometry differences; resolve affected sample/art blockers before complete S3 signoff; no R3-D batch or final acceptance.",
+  "github_r3": "PUSHED_VERIFIED_PUBLIC",
+  "next": "A组有限整屏/身份材质样板按资源窗口推进；B组明确选项待用户逐项决定；新样板须同版真实GamePage与独立复审后再到S3。",
   "entry_evidence": "review/r3/local-entry-checkpoint.json",
   "candidate_manifest": "apps/web/public/assets/candidates/r3/manifest.json",
   "candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
@@ -53,7 +53,7 @@
   "art_status": "PARTIAL_ALL_NINE; overall art acceptance FAIL",
   "rule_conflict": "stack112/44: legal character width52 at36high, not prototype ratio; do not alter core or adopt new golden",
   "S3": "NOT_READY",
-  "updated_at_utc": "2026-10-28T02:40:59.868111+00:00",
+  "updated_at_utc": "2026-10-28T04:10:13.231536+00:00",
   "technical_status": "PASS scoped current candidate",
   "art_blockers": [
     "stack52/112 within44 layer unresolved; no new golden",
@@ -62,5 +62,40 @@
     "background bottom seam and some page-tail plain fill remain",
     "dedicated miss/perfect and remaining new motion/environment layers incomplete"
   ],
-  "public_evidence_root": "review/r3/evidence/"
+  "review_commit": "5a7ee027151b88ff838468e78439dc04ad3ed3f3",
+  "review_repository": "https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review",
+  "review_progress_url": "https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/5a7ee027151b88ff838468e78439dc04ad3ed3f3/PROGRESS.md",
+  "review_deliverables_url": "https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/5a7ee027151b88ff838468e78439dc04ad3ed3f3/DELIVERABLES.md",
+  "review_report_url": "https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/5a7ee027151b88ff838468e78439dc04ad3ed3f3/docs/r3-20261028-report.md",
+  "review_comparison_url": "https://github.com/radiance1203-cmd/sheep-annual-party-frontend-review/blob/5a7ee027151b88ff838468e78439dc04ad3ed3f3/review/r3/evidence/comparisons/overview.png",
+  "github_sync_evidence": "output/r3-20261028/github-sync-verification.json",
+  "round_closeout": {
+    "status": "CURRENT_ROUND_CLOSED_NOT_ART_ACCEPTED",
+    "closed_at_utc": "2026-10-28T03:01:52.623966+00:00",
+    "handoff": "docs/current-handoff.md",
+    "next_session": "USER_OPENS_NEW_SESSION_IN_SAME_LOCAL_PROJECT",
+    "auto_continue_next_round": false,
+    "new_session_created": false,
+    "parallel_writer_created": false,
+    "S3": "NOT_READY"
+  },
+  "continuation_20261028": {
+    "status": "OPTIONS_DELIVERED_B4_UNCHANGED_RESOURCE_QUEUED",
+    "recorded_at_utc": "2026-10-28T04:10:13.231536+00:00",
+    "plan": "docs/r3-continuation-options-20261028.md",
+    "preservation_verification": "review/r3/continuation-20261028/verification.json",
+    "opened_images": "review/r3/continuation-20261028/opened-images.json",
+    "product_code_or_asset_changes_this_continuation": false,
+    "rules_or_display_mapping_changes": false,
+    "B_options_approved": [],
+    "new_golden_accepted": false,
+    "resource_window": "PPT_HEAVY_WINDOW_WAITING_EXPLICIT_RELEASE",
+    "model_configuration": "Explicit gpt-6.1-sol/high spawn and checked agents defaults; tool receipt has task name only, no independent runtime model metadata",
+    "next": "A组有限整屏/身份材质样板按资源窗口推进；B组明确选项待用户逐项决定；新样板须同版真实GamePage与独立复审后再到S3。",
+    "new_thread_project_membership_verified": false,
+    "project_move_receipt": "SUCCESS target projectId returned twice",
+    "project_list_readback": "projectId null after both moves; unresolved application API inconsistency",
+    "native_ui_verification": "Inventory only; target returned as ChatGPT; no window inspection or input performed",
+    "independent_geometry_review": "review/r3/continuation-20261028/independent-geometry-review.md"
+  }
 }
