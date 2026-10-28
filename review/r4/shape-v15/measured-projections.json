@@ -1,0 +1,1631 @@
+[
+  {
+    "version": "target-v15",
+    "actual_revision": "v15",
+    "actor": "sheep",
+    "view": "front",
+    "path": "review/r4/shape-v15/target-v15-front-ids.png",
+    "source": "art-source/r4/v15/sheep_target.blend",
+    "source_sha256": "67b59712f76dd3da1d1d06d67649b0c6bcc30cc7170248838744a0163623d8f1",
+    "seconds": 1.584,
+    "camera": {
+      "location": [
+        0.0,
+        -6.0,
+        2.25
+      ],
+      "rotation": [
+        1.3211174011230469,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.9500000476837158
+    },
+    "landmarks": {
+      "horn_root_-1": [
+        355.518,
+        169.85
+      ],
+      "ear_-1": [
+        351.836,
+        223.332
+      ],
+      "eye_-1": [
+        298.01,
+        235.186
+      ],
+      "horn_root_1": [
+        156.482,
+        169.85
+      ],
+      "ear_1": [
+        160.164,
+        223.332
+      ],
+      "eye_1": [
+        213.99,
+        235.186
+      ],
+      "nose": [
+        256.0,
+        253.733
+      ]
+    },
+    "sole_points": [
+      {
+        "name": "hoof",
+        "screen": [
+          329.518,
+          417.647
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.001",
+        "screen": [
+          311.138,
+          446.842
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.002",
+        "screen": [
+          182.482,
+          417.647
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.003",
+        "screen": [
+          200.862,
+          446.842
+        ],
+        "world_bottom_z": 0.022000011056661606
+      }
+    ],
+    "geometry_edited": false,
+    "preview": "flat object IDs; fine fibers suppressed for shape inspection only",
+    "reference_comparison": "2D projection only; original reference camera/scale/depth unknown",
+    "metrics": {
+      "alpha_bbox": [
+        100,
+        115,
+        412,
+        451
+      ],
+      "H": 336,
+      "parts": {
+        "face": {
+          "bbox": [
+            170,
+            175,
+            342,
+            296
+          ],
+          "width": 172,
+          "height": 121,
+          "area": 14439,
+          "components": []
+        },
+        "body": {
+          "bbox": [
+            121,
+            240,
+            390,
+            414
+          ],
+          "width": 269,
+          "height": 174,
+          "area": 23083,
+          "components": []
+        },
+        "head": {
+          "bbox": [
+            138,
+            116,
+            374,
+            283
+          ],
+          "width": 236,
+          "height": 167,
+          "area": 12006,
+          "components": []
+        },
+        "horn": {
+          "bbox": [
+            101,
+            144,
+            411,
+            237
+          ],
+          "width": 310,
+          "height": 93,
+          "area": 10036,
+          "components": []
+        },
+        "hoof": {
+          "bbox": [
+            163,
+            402,
+            349,
+            450
+          ],
+          "width": 186,
+          "height": 48,
+          "area": 1725,
+          "components": [
+            {
+              "bbox": [
+                182,
+                431,
+                220,
+                450
+              ],
+              "area": 575,
+              "height": 19,
+              "width": 38
+            },
+            {
+              "bbox": [
+                292,
+                431,
+                330,
+                450
+              ],
+              "area": 573,
+              "height": 19,
+              "width": 38
+            },
+            {
+              "bbox": [
+                329,
+                402,
+                349,
+                421
+              ],
+              "area": 289,
+              "height": 19,
+              "width": 20
+            },
+            {
+              "bbox": [
+                163,
+                402,
+                183,
+                421
+              ],
+              "area": 288,
+              "height": 19,
+              "width": 20
+            }
+          ]
+        }
+      },
+      "face_aspect": 1.421487603305785,
+      "face_width_over_body_width": 0.6394052044609665,
+      "eye_spacing_over_face_width": 0.48848837209302315,
+      "nose_eye_vertical_over_face_height": 0.15328099173553716,
+      "physical_leg_masks": [
+        {
+          "physical_id": 60,
+          "bbox": [
+            335,
+            380,
+            346,
+            404
+          ],
+          "area": 104,
+          "height": 24
+        },
+        {
+          "physical_id": 85,
+          "bbox": [
+            294,
+            410,
+            328,
+            433
+          ],
+          "area": 625,
+          "height": 23
+        },
+        {
+          "physical_id": 103,
+          "bbox": [
+            166,
+            386,
+            178,
+            404
+          ],
+          "area": 83,
+          "height": 18
+        },
+        {
+          "physical_id": 118,
+          "bbox": [
+            184,
+            411,
+            218,
+            433
+          ],
+          "area": 630,
+          "height": 22
+        }
+      ],
+      "max_single_visible_leg_px": 24,
+      "max_single_visible_leg_over_H": 0.07142857142857142,
+      "leg_measurement_method": "physical object IDs; not merged connected silhouettes"
+    }
+  },
+  {
+    "version": "target-v15",
+    "actual_revision": "v15",
+    "actor": "sheep",
+    "view": "quarter",
+    "path": "review/r4/shape-v15/target-v15-quarter-ids.png",
+    "source": "art-source/r4/v15/sheep_target.blend",
+    "source_sha256": "67b59712f76dd3da1d1d06d67649b0c6bcc30cc7170248838744a0163623d8f1",
+    "seconds": 0.317,
+    "camera": {
+      "location": [
+        0.0,
+        -6.0,
+        2.25
+      ],
+      "rotation": [
+        1.3211174011230469,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 1.9500000476837158
+    },
+    "landmarks": {
+      "horn_root_-1": [
+        431.449,
+        141.707
+      ],
+      "ear_-1": [
+        383.178,
+        200.507
+      ],
+      "eye_-1": [
+        422.723,
+        213.822
+      ],
+      "horn_root_1": [
+        290.71,
+        176.483
+      ],
+      "ear_1": [
+        247.645,
+        233.996
+      ],
+      "eye_1": [
+        363.312,
+        228.502
+      ],
+      "nose": [
+        406.777,
+        238.301
+      ]
+    },
+    "sole_points": [
+      {
+        "name": "hoof",
+        "screen": [
+          262.37,
+          409.471
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.001",
+        "screen": [
+          332.921,
+          433.326
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.002",
+        "screen": [
+          158.4,
+          435.161
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.003",
+        "screen": [
+          254.943,
+          452.594
+        ],
+        "world_bottom_z": 0.022000011056661606
+      }
+    ],
+    "geometry_edited": false,
+    "preview": "flat object IDs; fine fibers suppressed for shape inspection only",
+    "reference_comparison": "2D projection only; original reference camera/scale/depth unknown",
+    "metrics": {
+      "alpha_bbox": [
+        108,
+        103,
+        454,
+        457
+      ],
+      "H": 354,
+      "parts": {
+        "face": {
+          "bbox": [
+            269,
+            163,
+            423,
+            287
+          ],
+          "width": 154,
+          "height": 124,
+          "area": 10822,
+          "components": []
+        },
+        "body": {
+          "bbox": [
+            109,
+            178,
+            362,
+            418
+          ],
+          "width": 253,
+          "height": 240,
+          "area": 31897,
+          "components": []
+        },
+        "head": {
+          "bbox": [
+            218,
+            104,
+            431,
+            278
+          ],
+          "width": 213,
+          "height": 174,
+          "area": 12160,
+          "components": []
+        },
+        "horn": {
+          "bbox": [
+            220,
+            114,
+            453,
+            249
+          ],
+          "width": 233,
+          "height": 135,
+          "area": 8162,
+          "components": []
+        },
+        "hoof": {
+          "bbox": [
+            139,
+            418,
+            352,
+            456
+          ],
+          "width": 213,
+          "height": 38,
+          "area": 1719,
+          "components": [
+            {
+              "bbox": [
+                139,
+                419,
+                178,
+                439
+              ],
+              "area": 575,
+              "height": 20,
+              "width": 39
+            },
+            {
+              "bbox": [
+                314,
+                418,
+                352,
+                437
+              ],
+              "area": 574,
+              "height": 19,
+              "width": 38
+            },
+            {
+              "bbox": [
+                236,
+                437,
+                274,
+                456
+              ],
+              "area": 570,
+              "height": 19,
+              "width": 38
+            }
+          ]
+        }
+      },
+      "face_aspect": 1.2419354838709677,
+      "face_width_over_body_width": 0.6086956521739131,
+      "eye_spacing_over_face_width": 0.3857857142857143,
+      "nose_eye_vertical_over_face_height": 0.13821774193548372,
+      "physical_leg_masks": [
+        {
+          "physical_id": 85,
+          "bbox": [
+            315,
+            396,
+            350,
+            420
+          ],
+          "area": 653,
+          "height": 24
+        },
+        {
+          "physical_id": 103,
+          "bbox": [
+            140,
+            397,
+            175,
+            422
+          ],
+          "area": 696,
+          "height": 25
+        },
+        {
+          "physical_id": 118,
+          "bbox": [
+            236,
+            415,
+            272,
+            439
+          ],
+          "area": 657,
+          "height": 24
+        }
+      ],
+      "max_single_visible_leg_px": 25,
+      "max_single_visible_leg_over_H": 0.07062146892655367,
+      "leg_measurement_method": "physical object IDs; not merged connected silhouettes"
+    }
+  },
+  {
+    "version": "target-v15",
+    "actual_revision": "v15",
+    "actor": "sheep",
+    "view": "runner",
+    "path": "review/r4/shape-v15/target-v15-runner-ids.png",
+    "source": "art-source/r4/v15/sheep_target.blend",
+    "source_sha256": "67b59712f76dd3da1d1d06d67649b0c6bcc30cc7170248838744a0163623d8f1",
+    "seconds": 0.33,
+    "camera": {
+      "location": [
+        0.0,
+        -8.0,
+        1.399999976158142
+      ],
+      "rotation": [
+        1.3975508213043213,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.0
+    },
+    "landmarks": {
+      "horn_root_-1": [
+        328.445,
+        95.966
+      ],
+      "ear_-1": [
+        296.96,
+        130.689
+      ],
+      "eye_-1": [
+        350.464,
+        127.647
+      ],
+      "horn_root_1": [
+        328.445,
+        112.693
+      ],
+      "ear_1": [
+        296.96,
+        146.796
+      ],
+      "eye_1": [
+        350.464,
+        134.707
+      ],
+      "nose": [
+        359.95,
+        137.986
+      ]
+    },
+    "sole_points": [
+      {
+        "name": "hoof",
+        "screen": [
+          224.552,
+          247.048
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.001",
+        "screen": [
+          282.152,
+          248.593
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.002",
+        "screen": [
+          224.552,
+          259.404
+        ],
+        "world_bottom_z": 0.022000011056661606
+      },
+      {
+        "name": "hoof.003",
+        "screen": [
+          282.152,
+          257.86
+        ],
+        "world_bottom_z": 0.022000011056661606
+      }
+    ],
+    "geometry_edited": false,
+    "preview": "flat object IDs; fine fibers suppressed for shape inspection only",
+    "reference_comparison": "2D projection only; original reference camera/scale/depth unknown",
+    "metrics": {
+      "alpha_bbox": [
+        172,
+        75,
+        363,
+        262
+      ],
+      "H": 187,
+      "parts": {
+        "face": {
+          "bbox": [
+            306,
+            98,
+            356,
+            167
+          ],
+          "width": 50,
+          "height": 69,
+          "area": 915,
+          "components": []
+        },
+        "body": {
+          "bbox": [
+            189,
+            131,
+            302,
+            246
+          ],
+          "width": 113,
+          "height": 115,
+          "area": 9518,
+          "components": []
+        },
+        "head": {
+          "bbox": [
+            254,
+            77,
+            361,
+            164
+          ],
+          "width": 107,
+          "height": 87,
+          "area": 3708,
+          "components": []
+        },
+        "horn": {
+          "bbox": [
+            302,
+            85,
+            336,
+            150
+          ],
+          "width": 34,
+          "height": 65,
+          "area": 1250,
+          "components": []
+        },
+        "hoof": {
+          "bbox": [
+            216,
+            251,
+            291,
+            260
+          ],
+          "width": 75,
+          "height": 9,
+          "area": 232,
+          "components": [
+            {
+              "bbox": [
+                273,
+                251,
+                291,
+                259
+              ],
+              "area": 117,
+              "height": 8,
+              "width": 18
+            },
+            {
+              "bbox": [
+                216,
+                252,
+                233,
+                260
+              ],
+              "area": 115,
+              "height": 8,
+              "width": 17
+            }
+          ]
+        }
+      },
+      "face_aspect": 0.7246376811594203,
+      "face_width_over_body_width": 0.4424778761061947,
+      "eye_spacing_over_face_width": 0.0,
+      "nose_eye_vertical_over_face_height": 0.09868115942028982,
+      "physical_leg_masks": [
+        {
+          "physical_id": 103,
+          "bbox": [
+            215,
+            241,
+            232,
+            252
+          ],
+          "area": 157,
+          "height": 11
+        },
+        {
+          "physical_id": 118,
+          "bbox": [
+            273,
+            240,
+            290,
+            250
+          ],
+          "area": 147,
+          "height": 10
+        }
+      ],
+      "max_single_visible_leg_px": 11,
+      "max_single_visible_leg_over_H": 0.058823529411764705,
+      "leg_measurement_method": "physical object IDs; not merged connected silhouettes"
+    }
+  },
+  {
+    "version": "target-v15",
+    "actual_revision": "v15",
+    "actor": "stack",
+    "view": "stack",
+    "path": "review/r4/shape-v15/target-v15-stack-ids.png",
+    "source": "art-source/r4/v15/stack_target.blend",
+    "source_sha256": "60c9e4aa5130ec51d3899c3cde990ec4a8de945d3cd24336057cd4a4bb3cc808",
+    "seconds": 0.342,
+    "camera": {
+      "location": [
+        0.0,
+        -8.0,
+        1.399999976158142
+      ],
+      "rotation": [
+        1.3975508213043213,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.0
+    },
+    "landmarks": {
+      "horn_root_-1": [
+        329.356,
+        158.779
+      ],
+      "ear_-1": [
+        306.128,
+        187.354
+      ],
+      "eye_-1": [
+        309.873,
+        189.85
+      ],
+      "horn_root_1": [
+        251.208,
+        166.556
+      ],
+      "ear_1": [
+        230.871,
+        194.844
+      ],
+      "eye_1": [
+        276.884,
+        193.133
+      ],
+      "nose": [
+        297.789,
+        199.141
+      ]
+    },
+    "sole_points": [
+      {
+        "name": "hoof",
+        "screen": [
+          226.761,
+          247.812
+        ],
+        "world_bottom_z": 0.017185306176543236
+      },
+      {
+        "name": "hoof.001",
+        "screen": [
+          280.272,
+          249.123
+        ],
+        "world_bottom_z": 0.018104923889040947
+      },
+      {
+        "name": "hoof.002",
+        "screen": [
+          226.761,
+          259.288
+        ],
+        "world_bottom_z": 0.017185306176543236
+      },
+      {
+        "name": "hoof.003",
+        "screen": [
+          280.272,
+          257.782
+        ],
+        "world_bottom_z": 0.018104923889040947
+      }
+    ],
+    "geometry_edited": false,
+    "preview": "flat object IDs; fine fibers suppressed for shape inspection only",
+    "reference_comparison": "2D projection only; original reference camera/scale/depth unknown",
+    "metrics": {
+      "alpha_bbox": [
+        178,
+        137,
+        345,
+        261
+      ],
+      "H": 124,
+      "parts": {
+        "face": {
+          "bbox": [
+            242,
+            166,
+            315,
+            219
+          ],
+          "width": 73,
+          "height": 53,
+          "area": 2382,
+          "components": []
+        },
+        "body": {
+          "bbox": [
+            194,
+            141,
+            292,
+            249
+          ],
+          "width": 98,
+          "height": 108,
+          "area": 3511,
+          "components": []
+        },
+        "head": {
+          "bbox": [
+            217,
+            139,
+            320,
+            212
+          ],
+          "width": 103,
+          "height": 73,
+          "area": 2043,
+          "components": []
+        },
+        "horn": {
+          "bbox": [
+            221,
+            148,
+            343,
+            199
+          ],
+          "width": 122,
+          "height": 51,
+          "area": 1811,
+          "components": []
+        },
+        "hoof": {
+          "bbox": [
+            215,
+            245,
+            292,
+            259
+          ],
+          "width": 77,
+          "height": 14,
+          "area": 184,
+          "components": [
+            {
+              "bbox": [
+                215,
+                252,
+                232,
+                259
+              ],
+              "area": 95,
+              "height": 7,
+              "width": 17
+            },
+            {
+              "bbox": [
+                275,
+                251,
+                291,
+                258
+              ],
+              "area": 88,
+              "height": 7,
+              "width": 16
+            }
+          ]
+        }
+      },
+      "face_aspect": 1.3773584905660377,
+      "face_width_over_body_width": 0.7448979591836735,
+      "eye_spacing_over_face_width": 0.45190410958904076,
+      "nose_eye_vertical_over_face_height": 0.14433018867924508,
+      "physical_leg_masks": [
+        {
+          "physical_id": 103,
+          "bbox": [
+            217,
+            242,
+            232,
+            252
+          ],
+          "area": 125,
+          "height": 10
+        },
+        {
+          "physical_id": 118,
+          "bbox": [
+            286,
+            241,
+            289,
+            249
+          ],
+          "area": 21,
+          "height": 8
+        }
+      ],
+      "max_single_visible_leg_px": 10,
+      "max_single_visible_leg_over_H": 0.08064516129032258,
+      "leg_measurement_method": "physical object IDs; not merged connected silhouettes"
+    }
+  },
+  {
+    "version": "target-v15",
+    "actual_revision": "v15",
+    "actor": "dog",
+    "view": "dog_n",
+    "path": "review/r4/shape-v15/target-v15-dog_n-ids.png",
+    "source": "art-source/r4/v15/dog_target.blend",
+    "source_sha256": "17fbfd734a3ac7b1a01f4ff4cf162c4b3880e912efa1870c9ba04c90c7ca0b5b",
+    "seconds": 0.179,
+    "camera": {
+      "location": [
+        0.0,
+        -6.0,
+        6.0
+      ],
+      "rotation": [
+        0.7853980660438538,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.5714287757873535
+    },
+    "landmarks": {},
+    "sole_points": [
+      {
+        "name": "dog_paw",
+        "screen": [
+          235.84,
+          282.351
+        ],
+        "world_bottom_z": -7.450580596923828e-09
+      },
+      {
+        "name": "dog_paw.001",
+        "screen": [
+          235.84,
+          231.665
+        ],
+        "world_bottom_z": -7.450580596923828e-09
+      },
+      {
+        "name": "dog_paw.002",
+        "screen": [
+          276.16,
+          282.351
+        ],
+        "world_bottom_z": -7.450580596923828e-09
+      },
+      {
+        "name": "dog_paw.003",
+        "screen": [
+          276.16,
+          231.665
+        ],
+        "world_bottom_z": -7.450580596923828e-09
+      }
+    ],
+    "geometry_edited": false,
+    "preview": "flat object IDs; fine fibers suppressed for shape inspection only",
+    "reference_comparison": "2D projection only; original reference camera/scale/depth unknown",
+    "metrics": {
+      "alpha_bbox": [
+        217,
+        114,
+        289,
+        288
+      ],
+      "H": 174,
+      "parts": {
+        "body": {
+          "bbox": [
+            232,
+            193,
+            280,
+            272
+          ],
+          "width": 48,
+          "height": 79,
+          "area": 2617,
+          "components": []
+        },
+        "head": {
+          "bbox": [
+            228,
+            119,
+            284,
+            188
+          ],
+          "width": 56,
+          "height": 69,
+          "area": 2466,
+          "components": []
+        },
+        "leg": {
+          "bbox": [
+            229,
+            208,
+            283,
+            279
+          ],
+          "width": 54,
+          "height": 71,
+          "area": 541,
+          "components": [
+            {
+              "bbox": [
+                270,
+                250,
+                283,
+                279
+              ],
+              "area": 250,
+              "height": 29,
+              "width": 13
+            },
+            {
+              "bbox": [
+                229,
+                254,
+                242,
+                279
+              ],
+              "area": 241,
+              "height": 25,
+              "width": 13
+            },
+            {
+              "bbox": [
+                280,
+                208,
+                283,
+                222
+              ],
+              "area": 26,
+              "height": 14,
+              "width": 3
+            },
+            {
+              "bbox": [
+                229,
+                208,
+                232,
+                221
+              ],
+              "area": 24,
+              "height": 13,
+              "width": 3
+            }
+          ]
+        },
+        "hoof": {
+          "bbox": [
+            227,
+            221,
+            285,
+            287
+          ],
+          "width": 58,
+          "height": 66,
+          "area": 277,
+          "components": [
+            {
+              "bbox": [
+                227,
+                272,
+                244,
+                287
+              ],
+              "area": 117,
+              "height": 15,
+              "width": 17
+            },
+            {
+              "bbox": [
+                268,
+                272,
+                285,
+                287
+              ],
+              "area": 115,
+              "height": 15,
+              "width": 17
+            },
+            {
+              "bbox": [
+                281,
+                221,
+                285,
+                234
+              ],
+              "area": 24,
+              "height": 13,
+              "width": 4
+            },
+            {
+              "bbox": [
+                227,
+                222,
+                231,
+                233
+              ],
+              "area": 21,
+              "height": 11,
+              "width": 4
+            }
+          ]
+        },
+        "tail": {
+          "bbox": [
+            218,
+            232,
+            259,
+            253
+          ],
+          "width": 41,
+          "height": 21,
+          "area": 586,
+          "components": [
+            {
+              "bbox": [
+                218,
+                232,
+                259,
+                253
+              ],
+              "area": 586,
+              "height": 21,
+              "width": 41
+            }
+          ]
+        }
+      },
+      "max_single_visible_leg_px": 29,
+      "max_single_visible_leg_over_H": 0.16666666666666666,
+      "largest_tail_component": {
+        "bbox": [
+          218,
+          232,
+          259,
+          253
+        ],
+        "area": 586,
+        "height": 21,
+        "width": 41
+      },
+      "tail_thickness_bbox_h_over_body_width": 0.4375,
+      "tail_component_area_over_body_visible_area": 0.22392051967902177
+    }
+  },
+  {
+    "version": "target-v15",
+    "actual_revision": "v15",
+    "actor": "dog",
+    "view": "dog_se",
+    "path": "review/r4/shape-v15/target-v15-dog_se-ids.png",
+    "source": "art-source/r4/v15/dog_target.blend",
+    "source_sha256": "17fbfd734a3ac7b1a01f4ff4cf162c4b3880e912efa1870c9ba04c90c7ca0b5b",
+    "seconds": 0.165,
+    "camera": {
+      "location": [
+        0.0,
+        -6.0,
+        6.0
+      ],
+      "rotation": [
+        0.7853980660438538,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.5714287757873535
+    },
+    "landmarks": {},
+    "sole_points": [
+      {
+        "name": "dog_paw",
+        "screen": [
+          243.725,
+          226.98
+        ],
+        "world_bottom_z": -7.450580596923828e-09
+      },
+      {
+        "name": "dog_paw.001",
+        "screen": [
+          294.41,
+          262.82
+        ],
+        "world_bottom_z": -7.450580596923828e-09
+      },
+      {
+        "name": "dog_paw.002",
+        "screen": [
+          215.214,
+          247.14
+        ],
+        "world_bottom_z": -7.450580596923828e-09
+      },
+      {
+        "name": "dog_paw.003",
+        "screen": [
+          265.9,
+          282.98
+        ],
+        "world_bottom_z": -7.450580596923828e-09
+      }
+    ],
+    "geometry_edited": false,
+    "preview": "flat object IDs; fine fibers suppressed for shape inspection only",
+    "reference_comparison": "2D projection only; original reference camera/scale/depth unknown",
+    "metrics": {
+      "alpha_bbox": [
+        200,
+        126,
+        336,
+        288
+      ],
+      "H": 162,
+      "parts": {
+        "body": {
+          "bbox": [
+            202,
+            174,
+            263,
+            241
+          ],
+          "width": 61,
+          "height": 67,
+          "area": 2350,
+          "components": []
+        },
+        "head": {
+          "bbox": [
+            259,
+            181,
+            333,
+            251
+          ],
+          "width": 74,
+          "height": 70,
+          "area": 2759,
+          "components": []
+        },
+        "leg": {
+          "bbox": [
+            206,
+            212,
+            299,
+            275
+          ],
+          "width": 93,
+          "height": 63,
+          "area": 663,
+          "components": [
+            {
+              "bbox": [
+                206,
+                212,
+                220,
+                239
+              ],
+              "area": 282,
+              "height": 27,
+              "width": 14
+            },
+            {
+              "bbox": [
+                257,
+                251,
+                271,
+                275
+              ],
+              "area": 280,
+              "height": 24,
+              "width": 14
+            },
+            {
+              "bbox": [
+                287,
+                242,
+                299,
+                255
+              ],
+              "area": 100,
+              "height": 13,
+              "width": 12
+            }
+          ]
+        },
+        "hoof": {
+          "bbox": [
+            205,
+            236,
+            305,
+            286
+          ],
+          "width": 100,
+          "height": 50,
+          "area": 574,
+          "components": [
+            {
+              "bbox": [
+                284,
+                252,
+                305,
+                266
+              ],
+              "area": 193,
+              "height": 14,
+              "width": 21
+            },
+            {
+              "bbox": [
+                256,
+                271,
+                276,
+                286
+              ],
+              "area": 191,
+              "height": 15,
+              "width": 20
+            },
+            {
+              "bbox": [
+                205,
+                236,
+                225,
+                251
+              ],
+              "area": 190,
+              "height": 15,
+              "width": 20
+            }
+          ]
+        },
+        "tail": {
+          "bbox": [
+            210,
+            127,
+            230,
+            178
+          ],
+          "width": 20,
+          "height": 51,
+          "area": 669,
+          "components": [
+            {
+              "bbox": [
+                210,
+                127,
+                230,
+                178
+              ],
+              "area": 669,
+              "height": 51,
+              "width": 20
+            }
+          ]
+        }
+      },
+      "max_single_visible_leg_px": 27,
+      "max_single_visible_leg_over_H": 0.16666666666666666,
+      "largest_tail_component": {
+        "bbox": [
+          210,
+          127,
+          230,
+          178
+        ],
+        "area": 669,
+        "height": 51,
+        "width": 20
+      },
+      "tail_thickness_bbox_h_over_body_width": 0.8360655737704918,
+      "tail_component_area_over_body_visible_area": 0.2846808510638298
+    }
+  },
+  {
+    "version": "target-v15",
+    "actual_revision": "v15",
+    "actor": "dog",
+    "view": "dog_ref",
+    "path": "review/r4/shape-v15/target-v15-dog_ref-ids.png",
+    "source": "art-source/r4/v15/dog_target.blend",
+    "source_sha256": "17fbfd734a3ac7b1a01f4ff4cf162c4b3880e912efa1870c9ba04c90c7ca0b5b",
+    "seconds": 0.129,
+    "camera": {
+      "location": [
+        0.0,
+        -6.0,
+        6.0
+      ],
+      "rotation": [
+        0.7853980660438538,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.5714287757873535
+    },
+    "landmarks": {},
+    "sole_points": [
+      {
+        "name": "dog_paw",
+        "screen": [
+          249.888,
+          285.626
+        ],
+        "world_bottom_z": -7.450580596923828e-09
+      },
+      {
+        "name": "dog_paw.001",
+        "screen": [
+          225.372,
+          237.998
+        ],
+        "world_bottom_z": -7.450580596923828e-09
+      },
+      {
+        "name": "dog_paw.002",
+        "screen": [
+          287.777,
+          275.875
+        ],
+        "world_bottom_z": -7.450580596923828e-09
+      },
+      {
+        "name": "dog_paw.003",
+        "screen": [
+          263.261,
+          228.246
+        ],
+        "world_bottom_z": -7.450580596923828e-09
+      }
+    ],
+    "geometry_edited": false,
+    "preview": "flat object IDs; fine fibers suppressed for shape inspection only",
+    "reference_comparison": "2D projection only; original reference camera/scale/depth unknown",
+    "metrics": {
+      "alpha_bbox": [
+        212,
+        118,
+        298,
+        291
+      ],
+      "H": 173,
+      "parts": {
+        "body": {
+          "bbox": [
+            231,
+            193,
+            291,
+            269
+          ],
+          "width": 60,
+          "height": 76,
+          "area": 2593,
+          "components": []
+        },
+        "head": {
+          "bbox": [
+            213,
+            122,
+            266,
+            189
+          ],
+          "width": 53,
+          "height": 67,
+          "area": 2505,
+          "components": []
+        },
+        "leg": {
+          "bbox": [
+            220,
+            211,
+            295,
+            282
+          ],
+          "width": 75,
+          "height": 71,
+          "area": 616,
+          "components": [
+            {
+              "bbox": [
+                244,
+                255,
+                258,
+                282
+              ],
+              "area": 273,
+              "height": 27,
+              "width": 14
+            },
+            {
+              "bbox": [
+                220,
+                211,
+                233,
+                234
+              ],
+              "area": 211,
+              "height": 23,
+              "width": 13
+            },
+            {
+              "bbox": [
+                284,
+                246,
+                295,
+                272
+              ],
+              "area": 132,
+              "height": 26,
+              "width": 11
+            }
+          ]
+        },
+        "hoof": {
+          "bbox": [
+            216,
+            226,
+            297,
+            290
+          ],
+          "width": 81,
+          "height": 64,
+          "area": 367,
+          "components": [
+            {
+              "bbox": [
+                216,
+                226,
+                234,
+                242
+              ],
+              "area": 126,
+              "height": 16,
+              "width": 18
+            },
+            {
+              "bbox": [
+                241,
+                274,
+                259,
+                290
+              ],
+              "area": 126,
+              "height": 16,
+              "width": 18
+            },
+            {
+              "bbox": [
+                279,
+                268,
+                297,
+                280
+              ],
+              "area": 115,
+              "height": 12,
+              "width": 18
+            }
+          ]
+        },
+        "tail": {
+          "bbox": [
+            247,
+            233,
+            277,
+            257
+          ],
+          "width": 30,
+          "height": 24,
+          "area": 476,
+          "components": [
+            {
+              "bbox": [
+                247,
+                233,
+                277,
+                257
+              ],
+              "area": 476,
+              "height": 24,
+              "width": 30
+            }
+          ]
+        }
+      },
+      "max_single_visible_leg_px": 27,
+      "max_single_visible_leg_over_H": 0.15606936416184972,
+      "largest_tail_component": {
+        "bbox": [
+          247,
+          233,
+          277,
+          257
+        ],
+        "area": 476,
+        "height": 24,
+        "width": 30
+      },
+      "tail_thickness_bbox_h_over_body_width": 0.4,
+      "tail_component_area_over_body_visible_area": 0.18357115310451214
+    }
+  }
+]

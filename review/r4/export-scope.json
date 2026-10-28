@@ -1,0 +1,324 @@
+{
+  "time_utc": "2026-10-28T09:58:27.468632+00:00",
+  "baseline": "420a5f9095b7443999bba7210387c591df333a8d",
+  "scope": "v15 NOT_ACCEPTED progress only; P0 continues in same chat",
+  "existing_documents": "Only extracted R4 additions applied; prior public baseline retained",
+  "files": [
+    {
+      "path": "R4_REVIEW.md",
+      "sha256": "bd6ef054d0c5607535096062d764f83eaabf6e8ceddc7743e580675cb6b61e85",
+      "bytes": 1146
+    },
+    {
+      "path": "README.md",
+      "sha256": "687cf4f0e1538fd8ea14e13fbe183c7eafd2076325831272401a045b7c7366f0",
+      "bytes": 2751
+    },
+    {
+      "path": "docs/current-handoff.md",
+      "sha256": "b69fb55cd27063b06002cfe0eccc2d11ce6ec0e498722b31bd27404b3538805f",
+      "bytes": 6514
+    },
+    {
+      "path": "docs/implementation-log.md",
+      "sha256": "c1303cf2bc2be50e1bbf74f17010a1bc1c25394f65e02d60ea64b3ad36861edf",
+      "bytes": 657
+    },
+    {
+      "path": "docs/r4-live-handoff.md",
+      "sha256": "207942dd47392395c0d5fa7810e141276c6dd2df5e4c3e839c96a6b8a73c2bb4",
+      "bytes": 2763
+    },
+    {
+      "path": "docs/r4-native-shape-report.md",
+      "sha256": "2f46b85cb348500f23d2578c05ffe02a23b0e1013009cb47cf4f2ac0e12e3477",
+      "bytes": 4188
+    },
+    {
+      "path": "docs/releases/release-notes.md",
+      "sha256": "e7726c8ed791020c0dc643b9a9162bacb9d1b633521fb9440f80cfaaacc1ee6b",
+      "bytes": 2789
+    },
+    {
+      "path": "docs/test-report.md",
+      "sha256": "20d74c712e39f8275bccbd7776773d0b8397b8a657bbaf58123411b7aeca04b6",
+      "bytes": 802
+    },
+    {
+      "path": "output/r4/v15/dog-source.json",
+      "sha256": "299a99e375e3973adcbb705f066aa2f110891ed1dbb78d3e5bf181f7eae13334",
+      "bytes": 1886
+    },
+    {
+      "path": "output/r4/v15/final-verification.json",
+      "sha256": "d5dcb09ee45e1f8656b1644504998161d6ead015169fe119042fe40801aef88b",
+      "bytes": 1635
+    },
+    {
+      "path": "output/r4/v15/fixed-size-contact.png",
+      "sha256": "e0f85963927c97b3ccef15f43de1dfdf24bb0840bd782249e68f011a3878d4d3",
+      "bytes": 41804
+    },
+    {
+      "path": "output/r4/v15/herd_dog_n.png",
+      "sha256": "44c714eac85ed7b9dd13e6d16a108a169e5d123161e15470ca5da9f818f224dd",
+      "bytes": 63749
+    },
+    {
+      "path": "output/r4/v15/herd_dog_se.png",
+      "sha256": "19f5fb1858d567a19f41588cff92c1a92276d601929d506e1513cc4a237faff8",
+      "bytes": 62973
+    },
+    {
+      "path": "output/r4/v15/herd_sheep_n.png",
+      "sha256": "2f9354c0f786be16d0b067b4f5046d358a3d774242598b13a482fc2942424f1a",
+      "bytes": 69838
+    },
+    {
+      "path": "output/r4/v15/herd_sheep_se.png",
+      "sha256": "2cb5d42f2d7659abf52efcb676753ee9a40522a8cd393f9011a5d5b5f3933601",
+      "bytes": 63463
+    },
+    {
+      "path": "output/r4/v15/native-contact.png",
+      "sha256": "ee784a414ad911f354aaed882b1962bc46ace0627a50a727c11f05ade8971da9",
+      "bytes": 379288
+    },
+    {
+      "path": "output/r4/v15/native-verification.json",
+      "sha256": "df6887ef464fd132c9b76a2c20a8e8307ef007b829bc325d21d83284f2f665fc",
+      "bytes": 2567
+    },
+    {
+      "path": "output/r4/v15/pages/herd-B5-before-390.png",
+      "sha256": "0df5587066e0c7119d8c01ef281c8617d33e94055e384a4665664cccc8fd4c48",
+      "bytes": 571783
+    },
+    {
+      "path": "output/r4/v15/pages/herd-R4-static-390.png",
+      "sha256": "2cedb048970343abe88924d822c2716965bf4204e2eec15516c159d06372d549",
+      "bytes": 572394
+    },
+    {
+      "path": "output/r4/v15/pages/results.json",
+      "sha256": "e805c406bab673b98dd6d3d40207988e74d9228ea77ed6d9cdd8fc886fd72b51",
+      "bytes": 27936
+    },
+    {
+      "path": "output/r4/v15/pages/runner-B5-before-390.png",
+      "sha256": "4c796cce41624fb2151fb7234d9cd11a7b736de4fff9f7f83a7a0f383279410d",
+      "bytes": 464889
+    },
+    {
+      "path": "output/r4/v15/pages/runner-R4-static-390.png",
+      "sha256": "f0b2a7a4da229e702eeb1668f14fdef907d2b0959e0d5b42c14378b6669bfcc5",
+      "bytes": 465022
+    },
+    {
+      "path": "output/r4/v15/pages/stack-B5-before-390.png",
+      "sha256": "ba2fc4298877b89f17793d2d3547db301bc100d2e17488154fdfc774d858c269",
+      "bytes": 485890
+    },
+    {
+      "path": "output/r4/v15/pages/stack-R4-static-390.png",
+      "sha256": "b2b66f4972ded973d32c29a1c688482a09d9b27db5cc1abef07fc198631d5a28",
+      "bytes": 485866
+    },
+    {
+      "path": "output/r4/v15/runner_e.png",
+      "sha256": "bc9e5646cf3cdf43735bd4b83d8bb6e15c92dea3495fe82209c7049499fbe17b",
+      "bytes": 75252
+    },
+    {
+      "path": "output/r4/v15/sheep-source.json",
+      "sha256": "5135490bd5e70f4526d96a8f8376361512873814018b2af1fcc8d3f46d16e04f",
+      "bytes": 5412
+    },
+    {
+      "path": "output/r4/v15/sheep_front.png",
+      "sha256": "aec94acc680a7441ab4530f0cc96d7048db34372176ac5d1492014f8b7b89fd0",
+      "bytes": 153140
+    },
+    {
+      "path": "output/r4/v15/sheep_threequarter.png",
+      "sha256": "ce0196e4cf9d44a00c3498d3b261c950682fe2f3e3be366f2d55127a7e874a25",
+      "bytes": 156308
+    },
+    {
+      "path": "output/r4/v15/stack-source.json",
+      "sha256": "eb735a613e7561e59dad17e426584e2962f7869f0b8c1626c95ee0588a5cc80c",
+      "bytes": 1392
+    },
+    {
+      "path": "output/r4/v15/stack_e.png",
+      "sha256": "144fbf798fd56e042438e2bf3f2f011e01bfaa1bdb8bf28a40b5bccad71270c0",
+      "bytes": 65319
+    },
+    {
+      "path": "output/r4/v15/static-samples.json",
+      "sha256": "32c3d714f4390f7cfdf76c9e9f625c6088d3bfa2aafc35f71d41553d3ef1fc7e",
+      "bytes": 6372
+    },
+    {
+      "path": "output/r4/v15/static/herd_dog_n.png",
+      "sha256": "4c921df86b411733a6817b288781b01becac5ddd05820b4d938d4e6f4fbea661",
+      "bytes": 8191
+    },
+    {
+      "path": "output/r4/v15/static/herd_dog_se.png",
+      "sha256": "1b3a8b3a65bf3c10f4544381289e20ee09a50c1981463eece2cc1863e5801b48",
+      "bytes": 9157
+    },
+    {
+      "path": "output/r4/v15/static/herd_sheep_n.png",
+      "sha256": "3d5f1efea54377b6daee25d8e4cd8005d658154a806e005ce7c08bb23f18d9d4",
+      "bytes": 11938
+    },
+    {
+      "path": "output/r4/v15/static/herd_sheep_se.png",
+      "sha256": "c17816ece8f3c3e36ef2b1ba83c9a309143d1e75c27e8ab0634b1e663613550c",
+      "bytes": 9841
+    },
+    {
+      "path": "output/r4/v15/static/runner_e.png",
+      "sha256": "e8206dfc48fb18c431f4dbaa2536fd898c1ddadf79cfe3f153f54d88ec81ba4b",
+      "bytes": 13847
+    },
+    {
+      "path": "output/r4/v15/static/stack_e.png",
+      "sha256": "cf5ac52162cdef1f1e49646d3e86803d16676c5ab8a86ae9680150b840c1220e",
+      "bytes": 30451
+    },
+    {
+      "path": "planning/PROJECT_STATE.json",
+      "sha256": "0dff22e3e724b1ffb8424bdf4225cca4c1f0c667b54996787fc336cf14e808ed",
+      "bytes": 1410
+    },
+    {
+      "path": "review/r4/CURRENT.json",
+      "sha256": "87639c6d2c87bfd678b5a2c0b915207a3e89aca4b42c140de4f2fe8d32c4a364",
+      "bytes": 1194
+    },
+    {
+      "path": "review/r4/WORKING.json",
+      "sha256": "87639c6d2c87bfd678b5a2c0b915207a3e89aca4b42c140de4f2fe8d32c4a364",
+      "bytes": 1194
+    },
+    {
+      "path": "review/r4/measurements/SHAPE_BASELINE.md",
+      "sha256": "c34837934bc8f6a988c4f3a0158712d5638e7e719a277a376675c9792430f377",
+      "bytes": 3920
+    },
+    {
+      "path": "review/r4/measurements/fixed-references.json",
+      "sha256": "dd8345ac095480bf2d353c5c5c04ff45253ea9bb0c6dc29a8f0aea0e136ade55",
+      "bytes": 2042
+    },
+    {
+      "path": "review/r4/measurements/reference-landmarks.json",
+      "sha256": "4c1dc6cf25f5f1c6773e5d6102cc66bbcb1379f4626954b06013f43c6e0c70b1",
+      "bytes": 2571
+    },
+    {
+      "path": "review/r4/shape-v15/SHAPE_RECHECK.md",
+      "sha256": "ad24b5f055aa58dc1ab5027418e08bdeafd50da5ef2e57047c965bbdb1179427",
+      "bytes": 1978
+    },
+    {
+      "path": "review/r4/shape-v15/clay-projection-records.json",
+      "sha256": "e0548e3e6695196b97c31cce14fc581efdf7a5e6cf895c47bde7c20ee655bcd5",
+      "bytes": 12418
+    },
+    {
+      "path": "review/r4/shape-v15/measured-projections.json",
+      "sha256": "2ec95b03408fa7d979360bbdc3aae59b72013bf26fe7c26cba69ba5a905bade0",
+      "bytes": 35745
+    },
+    {
+      "path": "review/r4/shape-v15/native-projection-records.json",
+      "sha256": "d14f163c7baf6284eb46240433c879a79aa1150f110fb49e2e941552dbc56f4c",
+      "bytes": 12410
+    },
+    {
+      "path": "review/r4/shape-v15/source-edits.json",
+      "sha256": "9afaae0b56216d615815b80a3e886eab6fbf8124543328ca700c5e4c038ad488",
+      "bytes": 2169
+    },
+    {
+      "path": "review/r4/shape-v15/target-v15-dog_n-clay.png",
+      "sha256": "0056c1a78ebe9a8969e5ffc1f8db7e3b235936f227a8da3729190b09af072167",
+      "bytes": 57736
+    },
+    {
+      "path": "review/r4/shape-v15/target-v15-dog_n-ids.png",
+      "sha256": "0ad1629b1d865d124be8179319dfa6a102eb0d1c49c279ce2a980a97f7061e10",
+      "bytes": 47128
+    },
+    {
+      "path": "review/r4/shape-v15/target-v15-dog_ref-clay.png",
+      "sha256": "57fa1a85d5c1e4a1acfd623e0fbe50c505b4289bb4308e43992c701fc8563720",
+      "bytes": 57826
+    },
+    {
+      "path": "review/r4/shape-v15/target-v15-dog_ref-ids.png",
+      "sha256": "40eec03c9e962d81a5a4205976da31e77404be52a2b3c3a9d368ac87c753b84f",
+      "bytes": 47468
+    },
+    {
+      "path": "review/r4/shape-v15/target-v15-dog_se-clay.png",
+      "sha256": "9784f5d2fc352327cb4e84ad9b8aac4fddff32c49bc90e4a3e9d234c6b2e7b57",
+      "bytes": 57832
+    },
+    {
+      "path": "review/r4/shape-v15/target-v15-dog_se-ids.png",
+      "sha256": "7fc351639126e41cbd80ed40bd9466e54ef2f6745887680186933b2b85da6a8c",
+      "bytes": 47171
+    },
+    {
+      "path": "review/r4/shape-v15/target-v15-front-clay.png",
+      "sha256": "1682692591759ca2e871ccaadd079f43240aa5c42c0c9c0d123d46cc4605afcd",
+      "bytes": 146575
+    },
+    {
+      "path": "review/r4/shape-v15/target-v15-front-ids.png",
+      "sha256": "280cbe0ac0fcdeb63d963015f992ef3f6cdf0efd219aa92dc82321a8e60031d9",
+      "bytes": 84927
+    },
+    {
+      "path": "review/r4/shape-v15/target-v15-quarter-clay.png",
+      "sha256": "f9a2b13c41dc330ad1e54af3526197658a572f3e142dae653786144958a8a9f0",
+      "bytes": 152788
+    },
+    {
+      "path": "review/r4/shape-v15/target-v15-quarter-ids.png",
+      "sha256": "a5def25a50cdc0123cba7e5da40a66f72f85c54963343e72bf6a5074876b42bc",
+      "bytes": 87515
+    },
+    {
+      "path": "review/r4/shape-v15/target-v15-runner-clay.png",
+      "sha256": "ae5bf90ba8d21d5913a4d72d6b1cc894db8afb8d500e05ce0a4bc5f28a4b21e9",
+      "bytes": 76242
+    },
+    {
+      "path": "review/r4/shape-v15/target-v15-runner-ids.png",
+      "sha256": "ea381e67845fd12aff5f13f848a568d8810f8acfdda4186df76ff7242fa5f92f",
+      "bytes": 53078
+    },
+    {
+      "path": "review/r4/shape-v15/target-v15-stack-clay.png",
+      "sha256": "90ee838c526f946f7d8d1dca53b8f47faab6d575c19170a2bdc70390a5fa87d5",
+      "bytes": 63986
+    },
+    {
+      "path": "review/r4/shape-v15/target-v15-stack-ids.png",
+      "sha256": "714c46b86fc3aaeeed2056bbfbee6625af691ca72941b901aa42fa54d20253f6",
+      "bytes": 49318
+    }
+  ],
+  "secret_scan_hits": [],
+  "originals_or_blends_uploaded": false,
+  "db_cache_credentials_uploaded": false,
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "hash_scope": "Export working-tree bytes before normal Git text line-ending normalization; remote verification will compare committed blobs"
+}

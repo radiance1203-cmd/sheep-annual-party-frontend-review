@@ -1,0 +1,77 @@
+{
+  "source": "art-source/r4/v15/dog_target.blend",
+  "source_sha256": "17fbfd734a3ac7b1a01f4ff4cf162c4b3880e912efa1870c9ba04c90c7ca0b5b",
+  "master": "art-source/r4/v15/clear/dog_clear.blend",
+  "master_sha256": "75fb4b08a85b22302a7becc2f13cb5ae26c080b1739cf4cb51d0bbd1dfc2639f",
+  "changes": {},
+  "frames": [
+    {
+      "actor": "dog",
+      "label": "herd_dog_n",
+      "plan": "dog_iso8",
+      "direction": "n",
+      "path": "output/r4/v15/herd_dog_n.png",
+      "sha256": "44c714eac85ed7b9dd13e6d16a108a169e5d123161e15470ca5da9f818f224dd",
+      "seconds": 2.593,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 4.5714287757873535
+      },
+      "floor_origin": [
+        256.0,
+        255.99993896484375
+      ],
+      "root_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "close_review_only": false
+    },
+    {
+      "actor": "dog",
+      "label": "herd_dog_se",
+      "plan": "dog_iso8",
+      "direction": "se",
+      "path": "output/r4/v15/herd_dog_se.png",
+      "sha256": "19f5fb1858d567a19f41588cff92c1a92276d601929d506e1513cc4a237faff8",
+      "seconds": 2.68,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 4.5714287757873535
+      },
+      "floor_origin": [
+        256.0,
+        255.99993896484375
+      ],
+      "root_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "close_review_only": false
+    }
+  ],
+  "sample_art_accepted": false,
+  "production_art_accepted": false
+}

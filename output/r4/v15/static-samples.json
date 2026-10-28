@@ -1,0 +1,250 @@
+{
+  "scope": "BROWSER_MEMORY_STATIC_STILL_PROBE_ONLY; one real still per key, no repeated slots, no production atlas",
+  "revision": "v15",
+  "samples": [
+    {
+      "label": "stack_e",
+      "atlas": "sheep_stack_candidate",
+      "animation_key": "stack_idle.e",
+      "file": "output/r4/v15/static/stack_e.png",
+      "sha256": "cf5ac52162cdef1f1e49646d3e86803d16676c5ab8a86ae9680150b840c1220e",
+      "source_png": "output/r4/v15/stack_e.png",
+      "source_sha256": "144fbf798fd56e042438e2bf3f2f011e01bfaa1bdb8bf28a40b5bccad71270c0",
+      "size": [
+        192,
+        136
+      ],
+      "pivot": [
+        88,
+        130
+      ],
+      "static_only": true
+    },
+    {
+      "label": "runner_e",
+      "atlas": "r3_sheep_side",
+      "animation_key": "idle.e",
+      "file": "output/r4/v15/static/runner_e.png",
+      "sha256": "e8206dfc48fb18c431f4dbaa2536fd898c1ddadf79cfe3f153f54d88ec81ba4b",
+      "source_png": "output/r4/v15/runner_e.png",
+      "source_sha256": "bc9e5646cf3cdf43735bd4b83d8bb6e15c92dea3495fe82209c7049499fbe17b",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        112
+      ],
+      "static_only": true
+    },
+    {
+      "label": "herd_sheep_n",
+      "atlas": "r3_sheep_iso8",
+      "animation_key": "idle.n",
+      "file": "output/r4/v15/static/herd_sheep_n.png",
+      "sha256": "3d5f1efea54377b6daee25d8e4cd8005d658154a806e005ce7c08bb23f18d9d4",
+      "source_png": "output/r4/v15/herd_sheep_n.png",
+      "source_sha256": "2f9354c0f786be16d0b067b4f5046d358a3d774242598b13a482fc2942424f1a",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "static_only": true
+    },
+    {
+      "label": "herd_sheep_se",
+      "atlas": "r3_sheep_iso8",
+      "animation_key": "idle.se",
+      "file": "output/r4/v15/static/herd_sheep_se.png",
+      "sha256": "c17816ece8f3c3e36ef2b1ba83c9a309143d1e75c27e8ab0634b1e663613550c",
+      "source_png": "output/r4/v15/herd_sheep_se.png",
+      "source_sha256": "2cb5d42f2d7659abf52efcb676753ee9a40522a8cd393f9011a5d5b5f3933601",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "static_only": true
+    },
+    {
+      "label": "herd_dog_n",
+      "atlas": "r3_dog_iso8",
+      "animation_key": "idle.n",
+      "file": "output/r4/v15/static/herd_dog_n.png",
+      "sha256": "4c921df86b411733a6817b288781b01becac5ddd05820b4d938d4e6f4fbea661",
+      "source_png": "output/r4/v15/herd_dog_n.png",
+      "source_sha256": "44c714eac85ed7b9dd13e6d16a108a169e5d123161e15470ca5da9f818f224dd",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "static_only": true
+    },
+    {
+      "label": "herd_dog_se",
+      "atlas": "r3_dog_iso8",
+      "animation_key": "idle.se",
+      "file": "output/r4/v15/static/herd_dog_se.png",
+      "sha256": "1b3a8b3a65bf3c10f4544381289e20ee09a50c1981463eece2cc1863e5801b48",
+      "source_png": "output/r4/v15/herd_dog_se.png",
+      "source_sha256": "19f5fb1858d567a19f41588cff92c1a92276d601929d506e1513cc4a237faff8",
+      "size": [
+        128,
+        128
+      ],
+      "pivot": [
+        64,
+        98
+      ],
+      "static_only": true
+    }
+  ],
+  "measurements": [
+    {
+      "label": "stack_e",
+      "source_alpha": [
+        177,
+        136,
+        338,
+        261
+      ],
+      "common_crop": [
+        168,
+        130,
+        360,
+        266
+      ],
+      "crop_overflow": false,
+      "world_scale_per_native_pixel": 0.2857142857142857,
+      "alpha_world_size": [
+        46.0,
+        35.714285714285715
+      ],
+      "display_mapping": "unchanged 36/126 stack; unchanged native256->128->56/55/72 for other actors"
+    },
+    {
+      "label": "runner_e",
+      "source_alpha": [
+        171,
+        74,
+        363,
+        262
+      ],
+      "common_crop": [
+        128,
+        32,
+        384,
+        288
+      ],
+      "crop_overflow": false,
+      "world_scale_per_native_pixel": 0.21875,
+      "alpha_world_size": [
+        42.0,
+        41.125
+      ],
+      "display_mapping": "unchanged 36/126 stack; unchanged native256->128->56/55/72 for other actors"
+    },
+    {
+      "label": "herd_sheep_n",
+      "source_alpha": [
+        189,
+        89,
+        323,
+        280
+      ],
+      "common_crop": [
+        128,
+        60,
+        384,
+        316
+      ],
+      "crop_overflow": false,
+      "world_scale_per_native_pixel": 0.21484375,
+      "alpha_world_size": [
+        28.7890625,
+        41.03515625
+      ],
+      "display_mapping": "unchanged 36/126 stack; unchanged native256->128->56/55/72 for other actors"
+    },
+    {
+      "label": "herd_sheep_se",
+      "source_alpha": [
+        191,
+        151,
+        341,
+        283
+      ],
+      "common_crop": [
+        128,
+        60,
+        384,
+        316
+      ],
+      "crop_overflow": false,
+      "world_scale_per_native_pixel": 0.21484375,
+      "alpha_world_size": [
+        32.2265625,
+        28.359375
+      ],
+      "display_mapping": "unchanged 36/126 stack; unchanged native256->128->56/55/72 for other actors"
+    },
+    {
+      "label": "herd_dog_n",
+      "source_alpha": [
+        207,
+        113,
+        289,
+        288
+      ],
+      "common_crop": [
+        128,
+        60,
+        384,
+        316
+      ],
+      "crop_overflow": false,
+      "world_scale_per_native_pixel": 0.28125,
+      "alpha_world_size": [
+        23.0625,
+        49.21875
+      ],
+      "display_mapping": "unchanged 36/126 stack; unchanged native256->128->56/55/72 for other actors"
+    },
+    {
+      "label": "herd_dog_se",
+      "source_alpha": [
+        193,
+        122,
+        336,
+        288
+      ],
+      "common_crop": [
+        128,
+        60,
+        384,
+        316
+      ],
+      "crop_overflow": false,
+      "world_scale_per_native_pixel": 0.28125,
+      "alpha_world_size": [
+        40.21875,
+        46.6875
+      ],
+      "display_mapping": "unchanged 36/126 stack; unchanged native256->128->56/55/72 for other actors"
+    }
+  ],
+  "sample_art_accepted": false,
+  "production_art_accepted": false
+}

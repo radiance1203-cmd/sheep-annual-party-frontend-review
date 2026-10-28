@@ -1,0 +1,59 @@
+{
+  "stage": "P0_NEUTRAL_RECHECK",
+  "masters": [
+    {
+      "actor": "sheep",
+      "source": "art-source/r4/v13/sheep_target.blend",
+      "source_sha256": "e1c04e05a0adee7771f85930b1d24ddb3e768d30e0aca7166385165d052440ad",
+      "master": "art-source/r4/v15/sheep_target.blend",
+      "master_sha256": "67b59712f76dd3da1d1d06d67649b0c6bcc30cc7170248838744a0163623d8f1",
+      "changes": {
+        "stretched_haunch_vertices_restored": 55509,
+        "inverse_deformation_max_error": 1.6653345369377348e-16,
+        "round_haunches": 4,
+        "haunch_root_weld": 0.006,
+        "hoof": "unified round low sole with shallow frontal cleft",
+        "sole_nominal_world_z": 0.022,
+        "haunch_radius": [
+          0.115,
+          0.125,
+          0.135
+        ],
+        "nose_and_mouth_seated_on_convex_surface": true
+      }
+    },
+    {
+      "actor": "stack",
+      "source": "art-source/r4/v13/stack_target.blend",
+      "source_sha256": "dd926bbd8249f92d1ffcdd33e1f757ed0a6aa79c1e9e49a3330e2af97ff8aa6f",
+      "master": "art-source/r4/v15/stack_target.blend",
+      "master_sha256": "60c9e4aa5130ec51d3899c3cde990ec4a8de945d3cd24336057cd4a4bb3cc808",
+      "changes": {
+        "stretched_haunch_vertices_restored": 55509,
+        "inverse_deformation_max_error": 1.6653345369377348e-16,
+        "round_haunches": 4,
+        "haunch_root_weld": 0.006,
+        "hoof": "unified round low sole with shallow frontal cleft",
+        "sole_nominal_world_z": 0.022,
+        "haunch_radius": [
+          0.115,
+          0.125,
+          0.135
+        ],
+        "nose_and_mouth_seated_on_convex_surface": true
+      }
+    },
+    {
+      "actor": "dog",
+      "source": "art-source/r4/v13/dog_target.blend",
+      "source_sha256": "7334695e6e98226ba7a9306e33e6c087ba56ca3baf4a29629fa0c8d7153f95f0",
+      "master": "art-source/r4/v15/dog_target.blend",
+      "master_sha256": "17fbfd734a3ac7b1a01f4ff4cf162c4b3880e912efa1870c9ba04c90c7ca0b5b",
+      "changes": {
+        "v12_curved_volumetric_plume_retained": true
+      }
+    }
+  ],
+  "sample_art_accepted": false,
+  "production_art_accepted": false
+}

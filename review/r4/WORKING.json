@@ -1,0 +1,28 @@
+{
+  "stage": "R4_CONTINUING_P0_AFTER_V15_PROGRESS_SYNC",
+  "time_utc": "2026-10-28T09:54:23.663640+00:00",
+  "thread_id": "01a1817b-6b8a-7c13-81d7-0b42184ebeaf",
+  "title": "羊年 R4 角色母型还原",
+  "revision": "v15",
+  "report": "docs/r4-native-shape-report.md",
+  "quantification": "review/r4/measurements/SHAPE_BASELINE.md",
+  "shape_recheck": "review/r4/shape-v15/SHAPE_RECHECK.md",
+  "gallery": "output/r4/index.html",
+  "native_masters": [
+    "art-source/r4/v15/clear/sheep_clear.blend",
+    "art-source/r4/v15/clear/stack_clear.blend",
+    "art-source/r4/v15/clear/dog_clear.blend"
+  ],
+  "native_frames": 8,
+  "page_stills": 6,
+  "art_status": "NOT_ACCEPTED; continue remaining P0, no user sample signoff",
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "S3": "NOT_READY",
+  "B_approved": false,
+  "rules_or_display_mapping_changed": false,
+  "next": "After safe sync: folded seated stack profile and 3D curved feather tail in rear-quarter/side; only a few neutral previews first. Preserve v15 face/short legs; then crown/horn sections/cloth.",
+  "other_projects": "remain paused",
+  "new_agents": 0,
+  "model_changed": false
+}

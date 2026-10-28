@@ -1,0 +1,78 @@
+{
+  "status": "PASS_NATIVE_REOPEN_CAMERAS_ACTIONS_SOURCE_PRESERVATION_ONLY",
+  "revision": "v15",
+  "blender": "4.5.9 LTS",
+  "masters": [
+    {
+      "actor": "sheep",
+      "master": "art-source/r4/v15/clear/sheep_clear.blend",
+      "master_sha256": "06120f8f4a76d013b176b5632c9553fd252b51e1d1d50cac91723c6f9401c0c6",
+      "source_sha256": "67b59712f76dd3da1d1d06d67649b0c6bcc30cc7170248838744a0163623d8f1",
+      "source_unchanged": true,
+      "cameras_and_action_content_equal": true,
+      "action_count": 171,
+      "native_meshes": 700,
+      "native_curves": 274,
+      "missing_images": [],
+      "images": 1,
+      "geometry_study_only": true
+    },
+    {
+      "actor": "stack",
+      "master": "art-source/r4/v15/clear/stack_clear.blend",
+      "master_sha256": "87bdd690d0fc30bec7363eb95664e81e6c762d4fd1b6971383293f4fdbf16f1a",
+      "source_sha256": "60c9e4aa5130ec51d3899c3cde990ec4a8de945d3cd24336057cd4a4bb3cc808",
+      "source_unchanged": true,
+      "cameras_and_action_content_equal": true,
+      "action_count": 247,
+      "native_meshes": 700,
+      "native_curves": 274,
+      "missing_images": [],
+      "images": 1,
+      "geometry_study_only": true
+    },
+    {
+      "actor": "dog",
+      "master": "art-source/r4/v15/clear/dog_clear.blend",
+      "master_sha256": "75fb4b08a85b22302a7becc2f13cb5ae26c080b1739cf4cb51d0bbd1dfc2639f",
+      "source_sha256": "17fbfd734a3ac7b1a01f4ff4cf162c4b3880e912efa1870c9ba04c90c7ca0b5b",
+      "source_unchanged": true,
+      "cameras_and_action_content_equal": true,
+      "action_count": 105,
+      "native_meshes": 378,
+      "native_curves": 255,
+      "missing_images": [],
+      "images": 1,
+      "geometry_study_only": true
+    }
+  ],
+  "original_six": [
+    {
+      "path": "art-source/r3/stack-sample/sheep_stack_A_motion_sample.blend",
+      "unchanged": true
+    },
+    {
+      "path": "art-source/r3/a-window-20261028/stack_materials_A.blend",
+      "unchanged": true
+    },
+    {
+      "path": "art-source/r2/r2g/sheep_master_r2g.blend",
+      "unchanged": true
+    },
+    {
+      "path": "art-source/r3/a-window-20261028/sheep_materials_A.blend",
+      "unchanged": true
+    },
+    {
+      "path": "art-source/v4/dog_master_v4.blend",
+      "unchanged": true
+    },
+    {
+      "path": "art-source/r3/a-window-20261028/dog_materials_A.blend",
+      "unchanged": true
+    }
+  ],
+  "art_acceptance": "NOT_GRANTED_BY_TECHNICAL_VERIFICATION",
+  "sample_art_accepted": false,
+  "production_art_accepted": false
+}

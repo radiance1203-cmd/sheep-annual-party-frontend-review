@@ -1,0 +1,49 @@
+{
+  "source": "art-source/r4/v15/stack_target.blend",
+  "source_sha256": "60c9e4aa5130ec51d3899c3cde990ec4a8de945d3cd24336057cd4a4bb3cc808",
+  "master": "art-source/r4/v15/clear/stack_clear.blend",
+  "master_sha256": "87bdd690d0fc30bec7363eb95664e81e6c762d4fd1b6971383293f4fdbf16f1a",
+  "changes": {
+    "common_sheep_horn_cages_copied_exactly": true,
+    "temple_placement_now_same_as_standing_mother": true,
+    "short_nap_on_quantified_forehead": true,
+    "static_crouch_deltas_retained": true
+  },
+  "frames": [
+    {
+      "actor": "stack",
+      "label": "stack_e",
+      "plan": "sheep_stack",
+      "direction": "e",
+      "path": "output/r4/v15/stack_e.png",
+      "sha256": "144fbf798fd56e042438e2bf3f2f011e01bfaa1bdb8bf28a40b5bccad71270c0",
+      "seconds": 26.168,
+      "camera": {
+        "name": "side_v1",
+        "location": [
+          0.0,
+          -8.0,
+          1.399999976158142
+        ],
+        "rotation": [
+          1.3975508213043213,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 4.0
+      },
+      "floor_origin": [
+        256.0,
+        256.0001525878906
+      ],
+      "root_scale": [
+        0.9300000071525574,
+        0.9300000071525574,
+        0.9300000071525574
+      ],
+      "close_review_only": false
+    }
+  ],
+  "sample_art_accepted": false,
+  "production_art_accepted": false
+}

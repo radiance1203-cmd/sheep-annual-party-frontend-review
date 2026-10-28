@@ -1,0 +1,140 @@
+{
+  "coordinates": "crop x right / y down; source offsets in fixed-references.json; manual 2D visible landmarks, not 3D truth",
+  "front": {
+    "alpha_bbox": [
+      24,
+      12,
+      376,
+      418
+    ],
+    "face_bbox": [
+      107,
+      98,
+      293,
+      233
+    ],
+    "face_bbox_uncertainty_px": 5,
+    "body_bbox": [
+      50,
+      215,
+      326,
+      380
+    ],
+    "body_bbox_uncertainty_px": 20,
+    "head_excluding_horns_bbox": [
+      70,
+      15,
+      317,
+      235
+    ],
+    "head_bbox_uncertainty_px": 15,
+    "eyes": [
+      [
+        151,
+        149
+      ],
+      [
+        247,
+        146
+      ]
+    ],
+    "eyes_uncertainty_px": 3,
+    "nose": [
+      199,
+      166
+    ],
+    "nose_uncertainty_px": 3,
+    "visible_front_leg_length_px": [
+      22,
+      26
+    ],
+    "leg_end_uncertainty_px": 4,
+    "visible_sole_points": [
+      [
+        144,
+        409
+      ],
+      [
+        265,
+        409
+      ],
+      [
+        119,
+        387
+      ],
+      [
+        283,
+        386
+      ]
+    ],
+    "sole_uncertainty_px": 4,
+    "horn_root_vs_ear": "NR: ears and actual roots are hidden by fleece; visible horn joins cannot identify 3D attachment",
+    "forehead": "five dominant unequal overlapping front masses; exact tuft boundaries partially hidden"
+  },
+  "stack": {
+    "face_bbox": [
+      103,
+      42,
+      185,
+      98
+    ],
+    "body_bbox": [
+      7,
+      42,
+      192,
+      146
+    ],
+    "visible_sole_points": [
+      [
+        35,
+        148
+      ],
+      [
+        108,
+        150
+      ],
+      [
+        166,
+        150
+      ]
+    ],
+    "uncertainty_px": 5,
+    "pose": "round crouch; near soles below body, far sole partly hidden; not the same pose/camera as source A"
+  },
+  "dog": {
+    "body_bbox": [
+      44,
+      56,
+      133,
+      157
+    ],
+    "tail_plume_bbox": [
+      2,
+      87,
+      77,
+      133
+    ],
+    "tail_centerline_approx": [
+      [
+        86,
+        116
+      ],
+      [
+        66,
+        111
+      ],
+      [
+        43,
+        112
+      ],
+      [
+        20,
+        101
+      ]
+    ],
+    "uncertainty_px": 6,
+    "view": "reference rear quarter, unknown camera; native dog_ref uses a documented +20deg yaw approximation, not calibrated equivalence",
+    "curvature_3d": "NR from single image; 2D centerline deviation only",
+    "volume_3d": "NR from single image; projected plume thickness/area are proxies"
+  }
+}

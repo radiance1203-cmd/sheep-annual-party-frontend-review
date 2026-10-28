@@ -1,0 +1,82 @@
+[
+  {
+    "name": "reference-front",
+    "source": "design/character_foundation_board.png",
+    "source_sha256": "836bf1f94e122bd5c98868b02d8577f2e8ea16d8acdce234094969e7510b1539",
+    "crop": [
+      65,
+      40,
+      465,
+      475
+    ],
+    "coordinate_system": "crop x right/y down; full-image coordinate = crop coordinate + crop top-left",
+    "pixels": [
+      400,
+      435
+    ]
+  },
+  {
+    "name": "reference-quarter",
+    "source": "design/character_foundation_board.png",
+    "source_sha256": "836bf1f94e122bd5c98868b02d8577f2e8ea16d8acdce234094969e7510b1539",
+    "crop": [
+      70,
+      525,
+      470,
+      960
+    ],
+    "coordinate_system": "crop x right/y down; full-image coordinate = crop coordinate + crop top-left",
+    "pixels": [
+      400,
+      435
+    ]
+  },
+  {
+    "name": "reference-stack",
+    "source": "design/prototypes/01_stack.png",
+    "source_sha256": "94651ed5e2ca9039cc397c11395c31205f3b57ee0bd65858a45093d6ebe57652",
+    "crop": [
+      365,
+      355,
+      585,
+      515
+    ],
+    "coordinate_system": "crop x right/y down; full-image coordinate = crop coordinate + crop top-left",
+    "pixels": [
+      220,
+      160
+    ]
+  },
+  {
+    "name": "reference-runner",
+    "source": "design/prototypes/02_runner.png",
+    "source_sha256": "62358c3c1cf36921266292f9747c514683f994fb1ed7c15254c29b3b98554a85",
+    "crop": [
+      150,
+      730,
+      430,
+      950
+    ],
+    "coordinate_system": "crop x right/y down; full-image coordinate = crop coordinate + crop top-left",
+    "pixels": [
+      280,
+      220
+    ]
+  },
+  {
+    "name": "reference-dog",
+    "source": "design/prototypes/03_herd.png",
+    "source_sha256": "754351c13b62debd71fa342e9e1e366f9b34b0be7e35ae3b0d5af27494d8c50a",
+    "crop": [
+      380,
+      1170,
+      555,
+      1385
+    ],
+    "coordinate_system": "crop x right/y down; full-image coordinate = crop coordinate + crop top-left",
+    "pixels": [
+      175,
+      215
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "time_utc": "2026-10-28T09:54:30.131229+00:00",
+  "stage": "FINITE_STATIC_REVIEW_NOT_ACCEPTED",
+  "native_status": "PASS_NATIVE_REOPEN_CAMERAS_ACTIONS_SOURCE_PRESERVATION_ONLY",
+  "original_six_unchanged": true,
+  "original_49_runtime_fingerprints_unchanged": true,
+  "baseline_dirty_count": 5504,
+  "existing_missing": [],
+  "existing_changed": [
+    "README.md",
+    "docs/current-handoff.md",
+    "docs/implementation-log.md",
+    "docs/releases/release-notes.md",
+    "docs/test-report.md",
+    "planning/PROJECT_STATE.json"
+  ],
+  "changed_only_stage_documents_with_original_snapshots": true,
+  "prior_project_state_semantics_preserved": true,
+  "layout": [
+    {
+      "game": "stack",
+      "same_layout_rects": true,
+      "same_world_dimensions": true,
+      "world": [
+        "360",
+        "480"
+      ]
+    },
+    {
+      "game": "runner",
+      "same_layout_rects": true,
+      "same_world_dimensions": true,
+      "world": [
+        "360",
+        "220"
+      ]
+    },
+    {
+      "game": "herd",
+      "same_layout_rects": true,
+      "same_world_dimensions": true,
+      "world": [
+        "360",
+        "420"
+      ]
+    }
+  ],
+  "native_clear_frames": 8,
+  "static_samples": 6,
+  "crop_overflow": false,
+  "stack_alpha_world_size": [
+    46.0,
+    35.714285714285715
+  ],
+  "stack_within_old_36_height": true,
+  "stack_width_to_112_tray": 0.4107142857142857,
+  "screens": 6,
+  "api_writes": 0,
+  "main_head_unchanged": true,
+  "main_staging_unchanged": true,
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "S3": "NOT_READY"
+}

@@ -1,0 +1,208 @@
+{
+  "source": "art-source/r4/v15/sheep_target.blend",
+  "source_sha256": "67b59712f76dd3da1d1d06d67649b0c6bcc30cc7170248838744a0163623d8f1",
+  "master": "art-source/r4/v15/clear/sheep_clear.blend",
+  "master_sha256": "06120f8f4a76d013b176b5632c9553fd252b51e1d1d50cac91723c6f9401c0c6",
+  "stage": "FINITE_STATIC_GAME_AND_IDENTITY_VIEWS_NOT_ACCEPTED",
+  "short_nap_on_unchanged_quantified_cages": [
+    {
+      "object": "R12 asymmetric forehead mass 00",
+      "cage_sha256": "07ccf8a236ab6c245556668e82b6150f8888fe1bdf0cf69976d85c3f338fde15",
+      "geometry_changed": false,
+      "short_nap_count": 650
+    },
+    {
+      "object": "R12 asymmetric forehead mass 01",
+      "cage_sha256": "f85e5ed036d65983c505bcf7067b1afac65e892c9e87175c8b3bda253a86551a",
+      "geometry_changed": false,
+      "short_nap_count": 650
+    },
+    {
+      "object": "R12 asymmetric forehead mass 02",
+      "cage_sha256": "6465e9517e293d08d184045fe2045c276ac9b409653b2aacfcf2ae9c0ad4e1e9",
+      "geometry_changed": false,
+      "short_nap_count": 650
+    },
+    {
+      "object": "R12 asymmetric forehead mass 03",
+      "cage_sha256": "b9e4b16dce9bbe67df769832118ea3ac4f60298e4e6658bb84295f64a5213d7d",
+      "geometry_changed": false,
+      "short_nap_count": 650
+    },
+    {
+      "object": "R12 asymmetric forehead mass 04",
+      "cage_sha256": "a9f9f26d11b544e558f0de40347cdc3bd968e9b650ac4f633dc250e8868065f0",
+      "geometry_changed": false,
+      "short_nap_count": 650
+    }
+  ],
+  "frames": [
+    {
+      "actor": "sheep",
+      "label": "sheep_front",
+      "plan": "sheep_side",
+      "direction": "s",
+      "path": "output/r4/v15/sheep_front.png",
+      "sha256": "aec94acc680a7441ab4530f0cc96d7048db34372176ac5d1492014f8b7b89fd0",
+      "seconds": 27.284,
+      "camera": {
+        "name": "R4_identity_review_camera",
+        "location": [
+          0.0,
+          -6.0,
+          2.25
+        ],
+        "rotation": [
+          1.3211174011230469,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.9500000476837158
+      },
+      "floor_origin": [
+        256.0,
+        439.1842498779297
+      ],
+      "root_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "close_review_only": true
+    },
+    {
+      "actor": "sheep",
+      "label": "sheep_threequarter",
+      "plan": "sheep_side",
+      "direction": "se",
+      "path": "output/r4/v15/sheep_threequarter.png",
+      "sha256": "ce0196e4cf9d44a00c3498d3b261c950682fe2f3e3be366f2d55127a7e874a25",
+      "seconds": 24.707,
+      "camera": {
+        "name": "R4_identity_review_camera",
+        "location": [
+          0.0,
+          -6.0,
+          2.25
+        ],
+        "rotation": [
+          1.3211174011230469,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 1.9500000476837158
+      },
+      "floor_origin": [
+        256.0,
+        439.1842498779297
+      ],
+      "root_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "close_review_only": true
+    },
+    {
+      "actor": "sheep",
+      "label": "runner_e",
+      "plan": "sheep_side",
+      "direction": "e",
+      "path": "output/r4/v15/runner_e.png",
+      "sha256": "bc9e5646cf3cdf43735bd4b83d8bb6e15c92dea3495fe82209c7049499fbe17b",
+      "seconds": 29.555,
+      "camera": {
+        "name": "side_v1",
+        "location": [
+          0.0,
+          -8.0,
+          1.399999976158142
+        ],
+        "rotation": [
+          1.3975508213043213,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 4.0
+      },
+      "floor_origin": [
+        256.0,
+        256.0001525878906
+      ],
+      "root_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "close_review_only": false
+    },
+    {
+      "actor": "sheep",
+      "label": "herd_sheep_n",
+      "plan": "sheep_iso8",
+      "direction": "n",
+      "path": "output/r4/v15/herd_sheep_n.png",
+      "sha256": "2f9354c0f786be16d0b067b4f5046d358a3d774242598b13a482fc2942424f1a",
+      "seconds": 23.941,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 4.5714287757873535
+      },
+      "floor_origin": [
+        256.0,
+        255.99993896484375
+      ],
+      "root_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "close_review_only": false
+    },
+    {
+      "actor": "sheep",
+      "label": "herd_sheep_se",
+      "plan": "sheep_iso8",
+      "direction": "se",
+      "path": "output/r4/v15/herd_sheep_se.png",
+      "sha256": "2cb5d42f2d7659abf52efcb676753ee9a40522a8cd393f9011a5d5b5f3933601",
+      "seconds": 25.367,
+      "camera": {
+        "name": "iso8_v1",
+        "location": [
+          0.0,
+          -6.0,
+          6.0
+        ],
+        "rotation": [
+          0.7853980660438538,
+          -0.0,
+          0.0
+        ],
+        "ortho_scale": 4.5714287757873535
+      },
+      "floor_origin": [
+        256.0,
+        255.99993896484375
+      ],
+      "root_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "close_review_only": false
+    }
+  ],
+  "sample_art_accepted": false,
+  "production_art_accepted": false
+}

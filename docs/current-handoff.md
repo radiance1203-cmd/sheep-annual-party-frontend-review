@@ -1,3 +1,15 @@
+# R4 v15进度已保存，继续P0
+
+样张/生产false、S3 NOT_READY；用户未签认，不等待接受失败样板。先读[当前精简绑定](r4-live-handoff.md)、[实际报告](r4-native-shape-report.md)、[量化基线](../review/r4/measurements/SHAPE_BASELINE.md)。安全同步后在本会话继续团坐与犬尾的少量低成本预览，保留脸和短腿。
+
+---
+
+# R4 角色母型返工进行中
+
+[当前精简交接](r4-live-handoff.md) · [几何前量化基线](../review/r4/measurements/SHAPE_BASELINE.md)。P0未通过，sample/production=false，S3 NOT_READY；先低成本查形，再做有限清晰图。
+
+---
+
 # R3 A组有限样板已交付 · 2026-10-28
 
 新候选B5 `8f30e374…c98d` 已接入真实GamePage；[本批报告](r3-a-window-20261028-report.md)、[原型/B4/新样板画廊](../review/r3/a-window-20261028/evidence/index.html)。三态三屏27图、49运行、287单测/类型/web构建及规则/契约/数学检查已实际执行；独立最终27图复审：技术绑定PASS、样板效果PARTIAL、整体艺术FAIL。
