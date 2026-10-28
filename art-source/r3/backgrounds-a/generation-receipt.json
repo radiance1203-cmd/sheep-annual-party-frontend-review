@@ -1,0 +1,55 @@
+{
+  "tool": "built-in imagegen via ChatGPT subscription, no API credentials",
+  "receipts": [
+    {
+      "game": "stack",
+      "source_generated_filename": "exec-ead54c43-4d86-428b-929d-45857ce76210.png",
+      "source_sha256": "0b7cfa5e8bf8adb974f7e5886742acde278f021e3105864528a354c36f88208c",
+      "pixels": [
+        1086,
+        1448
+      ],
+      "world": [
+        360,
+        480
+      ],
+      "method": "built-in imagegen reference edit; lossless copies, no processing/cropping",
+      "actual_pixels_opened": true,
+      "art_accepted": false
+    },
+    {
+      "game": "runner",
+      "source_generated_filename": "exec-a6136a46-df3d-43e9-96ad-9d07677d4667.png",
+      "source_sha256": "a951761578fa31923f66efcb526e89ce168badf730dfb17505133a7f71abb9ec",
+      "pixels": [
+        1605,
+        980
+      ],
+      "world": [
+        360,
+        220
+      ],
+      "method": "built-in imagegen reference edit; lossless copies, no processing/cropping",
+      "actual_pixels_opened": true,
+      "art_accepted": false
+    },
+    {
+      "game": "herd",
+      "source_generated_filename": "exec-ab89ae6d-c7ae-46e5-a8da-ebc3c43295e0.png",
+      "source_sha256": "331b313f04b2eb78ddf6dfff69bac67461d325af171c17a9a88f386a12e7fcf5",
+      "pixels": [
+        1161,
+        1355
+      ],
+      "world": [
+        360,
+        420
+      ],
+      "method": "built-in imagegen reference edit; lossless copies, no processing/cropping",
+      "actual_pixels_opened": true,
+      "art_accepted": false
+    }
+  ],
+  "candidate_manifest_sha256": "3082b48b2fec802aa4d894387c5cbe51a9a71d72deb48cae887ce0e5b432589d",
+  "production_manifest_unchanged": true
+}

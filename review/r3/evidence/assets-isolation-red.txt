@@ -1,0 +1,31 @@
+
+ RUN  v5.0.5 <PROJECT_ROOT>
+
+ ❯ apps/web/src/game/assets.test.ts (10 tests | 1 failed) 66ms
+   ❯ bound manifest compatibility (3)
+     × cannot load an unaccepted R3 candidate outside the explicit local preview 36ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  apps/web/src/game/assets.test.ts > bound manifest compatibility > cannot load an unaccepted R3 candidate outside the explicit local preview
+AssertionError: expected [Function] to throw error including '本地候选' but got '必需资源未在清单中声明摘要。'
+
+Expected: "本地候选"
+Received: "必需资源未在清单中声明摘要。"
+
+ ❯ apps/web/src/game/assets.test.ts:14:70
+     12|     browser();
+     13|     vi.stubGlobal('fetch', async () => new Response(json()));
+     14|     await expect(preloadAssets('stack', '/assets/', undefined, 'r3')).…
+       |                                                                      ^
+     15|   });
+     16|   it('loads only the immutable snapshot matching the bound SHA when cu…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  1 failed | 9 passed (10)
+   Start at  08:28:17
+   Duration  454ms (import 47%, tests 27%, transform 24%, worker 2%)
+

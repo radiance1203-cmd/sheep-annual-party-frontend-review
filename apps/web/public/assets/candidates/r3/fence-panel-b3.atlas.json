@@ -1,0 +1,22 @@
+{
+  "image": "fence-panel-b3.png",
+  "size_px": [
+    1774,
+    887
+  ],
+  "frames": {
+    "r3_fence_panel": {
+      "rect": [
+        0,
+        0,
+        1774,
+        887
+      ],
+      "pivot_px": [
+        887.0,
+        887
+      ]
+    }
+  },
+  "animations": {}
+}

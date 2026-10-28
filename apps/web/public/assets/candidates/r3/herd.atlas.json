@@ -1,0 +1,26 @@
+{
+  "image": "herd.png",
+  "size_px": [
+    1161,
+    1355
+  ],
+  "scene_size_px": [
+    360,
+    420
+  ],
+  "frames": {
+    "backdrop_herd": {
+      "rect": [
+        0,
+        0,
+        1161,
+        1355
+      ],
+      "pivot_px": [
+        0,
+        0
+      ]
+    }
+  },
+  "animations": {}
+}

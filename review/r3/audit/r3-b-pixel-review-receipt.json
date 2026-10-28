@@ -1,0 +1,521 @@
+{
+  "task": "R3-AUDIT",
+  "candidate_manifest_sha256": "4e9440c5b86ac35dc756620043b4130ef78da1f885c465dd27e3868b4cdb7cda",
+  "capture_index": "output/r3-20261028/pages/results.json",
+  "capture_index_sha256": "817bb5c18d82b44d6dbcef779f1e58bd3eabf3d6a4d64981d288c2eb86557fec",
+  "capture_count": 27,
+  "all_png_hashes_verified": true,
+  "all_capture_source_hashes_consistent": true,
+  "captured_source_paths": 46,
+  "current_source_drift": {},
+  "pixel_opened_capture_count": 15,
+  "captures": [
+    {
+      "file": "output/r3-20261028/pages/stack-prep-320.png",
+      "sha256": "836d505c51515460c29ddd3de51827574598410084e78e53f245ff62c7df12cb",
+      "png_dimensions": [
+        640,
+        1136
+      ],
+      "actual_pixels_opened_by_this_reviewer": false,
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/stack-tutorial-320.png",
+      "sha256": "650c542742e210697019bc6590cd4b3a52a7b2a7996b7136996d2a9f669b7441",
+      "png_dimensions": [
+        640,
+        1136
+      ],
+      "actual_pixels_opened_by_this_reviewer": false,
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        null,
+        null
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/stack-running-320.png",
+      "sha256": "62d7f63e8842bc12671e29c2ee04872a2d5239f36c92f1c37b2719549417c7af",
+      "png_dimensions": [
+        640,
+        1136
+      ],
+      "actual_pixels_opened_by_this_reviewer": true,
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "30",
+        "36"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/runner-prep-320.png",
+      "sha256": "3b076efe944c649722ed50b305bca65d2dc7e1fdffc9199c41b668639bf13c6a",
+      "png_dimensions": [
+        640,
+        1136
+      ],
+      "actual_pixels_opened_by_this_reviewer": false,
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/runner-tutorial-320.png",
+      "sha256": "73f015cec7699975d43ef9c41cd6c6a91f30fae2749d0ca3921ec359906d4c51",
+      "png_dimensions": [
+        640,
+        1136
+      ],
+      "actual_pixels_opened_by_this_reviewer": false,
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        null,
+        null
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/runner-running-320.png",
+      "sha256": "f8683aaac6d15bbe63b9b6f92a2eaeb712fbe302a12d9560eb8c652c591a8d8b",
+      "png_dimensions": [
+        640,
+        1136
+      ],
+      "actual_pixels_opened_by_this_reviewer": true,
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "180",
+        "187"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/herd-prep-320.png",
+      "sha256": "cb81ba0cd6f78cbcd18d94d44f736b786ed229cbb667b468cbf58a5670df67b3",
+      "png_dimensions": [
+        640,
+        1136
+      ],
+      "actual_pixels_opened_by_this_reviewer": false,
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/herd-tutorial-320.png",
+      "sha256": "64bcd0f9d650567e3f78badffa5b52b5fc8c345fb3705867504290a8464a01ab",
+      "png_dimensions": [
+        640,
+        1136
+      ],
+      "actual_pixels_opened_by_this_reviewer": true,
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        null,
+        null
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/herd-running-320.png",
+      "sha256": "4033f50caea7434c3c8a7f4dabd212a891363578bc315f0af7e51834d2fb25db",
+      "png_dimensions": [
+        640,
+        1136
+      ],
+      "actual_pixels_opened_by_this_reviewer": false,
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "30",
+        "35"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/stack-prep-390.png",
+      "sha256": "07c9f81579d5e24e7c1052695278c08861b74708225927068b3a8f6e50f9b706",
+      "png_dimensions": [
+        780,
+        1688
+      ],
+      "actual_pixels_opened_by_this_reviewer": true,
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/stack-tutorial-390.png",
+      "sha256": "d04529c492be9cd87a96fc02df03cdb7226de0831f8982295df4f4b970d9132e",
+      "png_dimensions": [
+        780,
+        1688
+      ],
+      "actual_pixels_opened_by_this_reviewer": true,
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        null,
+        null
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/stack-running-390.png",
+      "sha256": "56dee5aec6ea0d3b4aa0f6a67b2a37adf62e941efbd6c772ec432ccde95ce742",
+      "png_dimensions": [
+        780,
+        1688
+      ],
+      "actual_pixels_opened_by_this_reviewer": true,
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "30",
+        "43"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/runner-prep-390.png",
+      "sha256": "ed85d66c6797caaff1c8b9603e9702cb5e37448d5ddcb4130f5520671c5b7cc6",
+      "png_dimensions": [
+        780,
+        1688
+      ],
+      "actual_pixels_opened_by_this_reviewer": true,
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/runner-tutorial-390.png",
+      "sha256": "c98c701296f714eed717094b65d12471615aa47addb99e4da23e4ca16668f2c7",
+      "png_dimensions": [
+        780,
+        1688
+      ],
+      "actual_pixels_opened_by_this_reviewer": true,
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        null,
+        null
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/runner-running-390.png",
+      "sha256": "6a01eefeceac0c92b99b386da83b9ac4beca3f3e6dac7ae3dd35154cff4cf3f4",
+      "png_dimensions": [
+        780,
+        1688
+      ],
+      "actual_pixels_opened_by_this_reviewer": true,
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "180",
+        "190"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/herd-prep-390.png",
+      "sha256": "1ff7a210dc5067359ce338958aa09ef715e6047427d3389a11b90999982e2a25",
+      "png_dimensions": [
+        780,
+        1688
+      ],
+      "actual_pixels_opened_by_this_reviewer": true,
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/herd-tutorial-390.png",
+      "sha256": "ae1a020e020f6d7602911a4b417c59c489787edc73607a3cd3f7ad1516f584ad",
+      "png_dimensions": [
+        780,
+        1688
+      ],
+      "actual_pixels_opened_by_this_reviewer": true,
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        null,
+        null
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/herd-running-390.png",
+      "sha256": "ef8c2468b227858b171b1f9b86a3b272f5023077f1535d7f8ab341bfbc5a271d",
+      "png_dimensions": [
+        780,
+        1688
+      ],
+      "actual_pixels_opened_by_this_reviewer": true,
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "30",
+        "44"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/stack-prep-430.png",
+      "sha256": "a5b6a4dc5f986a232c8920e1e5332650b9f5bc1b9736f4ab02f436b85f698fb7",
+      "png_dimensions": [
+        860,
+        1864
+      ],
+      "actual_pixels_opened_by_this_reviewer": false,
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/stack-tutorial-430.png",
+      "sha256": "c67077f865026a8ed05e940ba634a520614a30c778bda3b5ecaf3252eb740957",
+      "png_dimensions": [
+        860,
+        1864
+      ],
+      "actual_pixels_opened_by_this_reviewer": true,
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        null,
+        null
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/stack-running-430.png",
+      "sha256": "e8a6d640b8b8f543ec841734e4d2149123e40e0f7b4f33437f266ca519a5bdea",
+      "png_dimensions": [
+        860,
+        1864
+      ],
+      "actual_pixels_opened_by_this_reviewer": false,
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "30",
+        "48"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/runner-prep-430.png",
+      "sha256": "b774711df708e77f53be554b18121efb8f2d812359b4a10ad32ed632c1ba3fc4",
+      "png_dimensions": [
+        860,
+        1864
+      ],
+      "actual_pixels_opened_by_this_reviewer": true,
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/runner-tutorial-430.png",
+      "sha256": "dd06379f870ea0e31c950b138afcb82eac698194aa22a2dcac2cef4a02ba6361",
+      "png_dimensions": [
+        860,
+        1864
+      ],
+      "actual_pixels_opened_by_this_reviewer": false,
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        null,
+        null
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/runner-running-430.png",
+      "sha256": "20550b1c69949a407af47618dec99d0f11a3827c6da2f0f0e662143ae79e3240",
+      "png_dimensions": [
+        860,
+        1864
+      ],
+      "actual_pixels_opened_by_this_reviewer": false,
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "180",
+        "191"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/herd-prep-430.png",
+      "sha256": "face188bab0ef937437202ea9e86f6b15f2735ae9d7fbcc517419c3586e4d506",
+      "png_dimensions": [
+        860,
+        1864
+      ],
+      "actual_pixels_opened_by_this_reviewer": false,
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/herd-tutorial-430.png",
+      "sha256": "80ded7ee966150e90c5d125725869814849973cfbdc5f4ae9a6a025d28b2c3ae",
+      "png_dimensions": [
+        860,
+        1864
+      ],
+      "actual_pixels_opened_by_this_reviewer": false,
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        null,
+        null
+      ]
+    },
+    {
+      "file": "output/r3-20261028/pages/herd-running-430.png",
+      "sha256": "78fdbc996c31e5e15a3e3c87316b52842f5cd2d6ac7c12cdee6ee5a5c9bb9292",
+      "png_dimensions": [
+        860,
+        1864
+      ],
+      "actual_pixels_opened_by_this_reviewer": true,
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "core_tick_range": [
+        "30",
+        "43"
+      ]
+    }
+  ],
+  "other_opened_image": "review/r3/stack-sample/pose-comparison-board.png",
+  "art_status_by_nine_cells": {
+    "stack/prep": "PARTIAL",
+    "stack/tutorial": "PARTIAL",
+    "stack/running": "PARTIAL",
+    "runner/prep": "PARTIAL",
+    "runner/tutorial": "PARTIAL",
+    "runner/running": "PARTIAL",
+    "herd/prep": "PARTIAL",
+    "herd/tutorial": "PARTIAL",
+    "herd/running": "PARTIAL"
+  },
+  "overall_final_art_gate": "FAIL_PENDING_FIXES_AND_ACCEPTANCE",
+  "technical_metadata_scope": "27 still captures: one canvas/errors empty/DPR2; fit red->green receipt read; no browser tests executed by reviewer",
+  "browser_executed_by_reviewer": false,
+  "formal_recovery_executed_by_reviewer": false,
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "physical_device": "NOT_RUN",
+  "human_playtest": "NOT_RUN",
+  "onsite": "NOT_RUN"
+}

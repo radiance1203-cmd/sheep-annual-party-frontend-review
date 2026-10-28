@@ -4,6 +4,7 @@ import { api, gameNames, phaseNames, secret, setCsrf, unwrap } from './api';
 import type { Schema } from './api';
 import { getRecord, putRecord } from './game/storage';
 import { verifyManifest } from './game/assets';
+import { r3CandidateRequested } from './game/r3-candidate';
 import { LobbyIllustration } from './LobbyIllustration';
 import { gameAdmission } from './repair-state/admission';
 import { Gifts, Leaderboard, Order, PublicDisplay, Records, Results } from './pages/ParticipantPages';
@@ -102,9 +103,19 @@ function Lobby({ event, me, refresh, identityStatus }: { identityStatus: Identit
   </>;
 }
 function Tutorial({ game, event, me, identityStatus }: { identityStatus: IdentityStatus; game: Schema<'GameId'>; event: Schema<'EventPublic'>; me: Schema<'Me'> | Schema<'StaffMe'> | undefined }) {
+  const artCandidate = r3CandidateRequested();
   const [teachingComplete, setTeachingComplete] = useState(false);
   const admission = gameAdmission(event, me);
   useEffect(() => { setTeachingComplete(false); }, [game]);
 
-  return <Panel title={gameNames[game]}><div className={`tutorial-art game-${game}`}><Suspense fallback={<Notice>正在加载玩法场景……</Notice>}><TutorialScene game={game} event={event} onProgress={setTeachingComplete} /></Suspense></div><h3>{game === 'stack' ? '点击放羊，托盘对齐才稳' : game === 'runner' ? '自动向前跑，点击跳跃' : '绕到小羊后面，带它进圈'}</h3><p>{game === 'stack' ? '每叠稳一层 +2，完美再 +2。完整托盘一直保留；20 层、3 次失误或时间到自然结束。' : game === 'runner' ? '安全越栏 +3，草叶外圈 +1、金芯再 +1。碰栏后继续跑，失误不是生命值；完整进行到 45 秒。' : '拖动摇杆移动牧羊犬，接近羊后方驱赶。吠叫有冷却；每只入圈 +6，全齐另有时间奖励。'}</p><Notice>练习不占正式机会，也不会产生正式积分。正式局在预约成功后立即使用 1 次机会，3 秒后开赛；返回或放弃仍消耗本次机会。</Notice><div className="action-stack"><a className={`button ${event.practice_allowed ? '' : 'disabled'}`} aria-disabled={!event.practice_allowed} href={event.practice_allowed ? `#/practice/${game}` : '#/'}>{teachingComplete ? '先练习一次' : '跳过教程，先练习'}</a>{identityStatus === 'loading' || identityStatus === 'failed' ? <button disabled>等待身份确认</button> : admission.kind === 'ordinary' || admission.kind === 'makeup' ? <a className="button primary" href={`#/play/${game}`}>{admission.label}</a> : admission.kind === 'recover' ? <a className="button primary" href={`#/play/${admission.session.game_id}`}>{admission.label}</a> : admission.kind === 'result' ? <a className="button primary" href={`#/result/${admission.session.session_id}`}>{admission.label}</a> : admission.kind === 'login' ? <a className="button primary" href="#/login">{admission.label}</a> : <button disabled>{admission.label}</button>}<a className="button quiet" href="#/">返回大厅</a></div></Panel>;
+  const scene = <div className={`tutorial-art game-${game}`}><Suspense fallback={<Notice>正在加载玩法场景……</Notice>}><TutorialScene game={game} event={event} onProgress={setTeachingComplete} /></Suspense></div>;
+  const rules = <><h3>{game === 'stack' ? '点击放羊，托盘对齐才稳' : game === 'runner' ? '自动向前跑，点击跳跃' : '绕到小羊后面，带它进圈'}</h3><p>{game === 'stack' ? '每叠稳一层 +2，完美再 +2。完整托盘一直保留；20 层、3 次失误或时间到自然结束。' : game === 'runner' ? '安全越栏 +3，草叶外圈 +1、金芯再 +1。碰栏后继续跑，失误不是生命值；完整进行到 45 秒。' : '拖动摇杆移动牧羊犬，接近羊后方驱赶。吠叫有冷却；每只入圈 +6，全齐另有时间奖励。'}</p><Notice>练习不占正式机会，也不会产生正式积分。正式局在预约成功后立即使用 1 次机会，3 秒后开赛；返回或放弃仍消耗本次机会。</Notice></>;
+  const actions = <div className="action-stack"><a className={`button ${event.practice_allowed ? '' : 'disabled'}`} aria-disabled={!event.practice_allowed} href={event.practice_allowed ? `#/practice/${game}` : '#/'}>{teachingComplete ? '先练习一次' : '跳过教程，先练习'}</a>{identityStatus === 'loading' || identityStatus === 'failed' ? <button disabled>等待身份确认</button> : admission.kind === 'ordinary' || admission.kind === 'makeup' ? <a className="button primary" href={`#/play/${game}`}>{admission.label}</a> : admission.kind === 'recover' ? <a className="button primary" href={`#/play/${admission.session.game_id}`}>{admission.label}</a> : admission.kind === 'result' ? <a className="button primary" href={`#/result/${admission.session.session_id}`}>{admission.label}</a> : admission.kind === 'login' ? <a className="button primary" href="#/login">{admission.label}</a> : <button disabled>{admission.label}</button>}<a className="button quiet" href="#/">返回大厅</a></div>;
+  if (!artCandidate) return <Panel title={gameNames[game]}>{scene}{rules}{actions}</Panel>;
+  return <section className="game-page r3-tutorial-page" data-art-candidate="r3" data-game={game} data-play-state="tutorial">
+    <div className="game-top"><a className="button r3-back" href="#/" aria-label="返回大厅"><img src="/assets/ui/icon_back.svg" alt="" /></a><div><h1>{gameNames[game]}</h1><span className="mode-badge">玩法教学 · 不计分</span></div><span className="r3-silent" role="img" aria-label="教学演示静音"><img src="/assets/ui/icon_sound_off.svg" alt="" /></span></div>
+    {scene}
+    <details className="r3-tutorial-rules"><summary>玩法与正式机会说明</summary>{rules}</details>
+    {actions}
+  </section>;
 }

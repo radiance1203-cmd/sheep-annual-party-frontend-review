@@ -1,0 +1,5 @@
+from pathlib import Path
+import json
+O=Path('review/r3/stack-sample');m=json.loads((O/'sheep_stack_A_sample.atlas.json').read_text());maxb=max(v['alpha_bbox_source'][3] for v in m['frames'].values());minb=min(v['alpha_bbox_source'][3] for v in m['frames'].values());m['objectspace_floor_projection_source_px']=m['pivot_source_px'];m['safe_visual_foot_anchor_source_px']=[m['pivot_source_px'][0],maxb];m['safe_visual_foot_anchor_trimmed_px']=[m['pivot_source_px'][0]-m['common_trim'][0],maxb-m['common_trim'][1]];m['alpha_bottom_source_y_range']=[minb,maxb];m['pivot_note']='pivot_px remains projected immutable object-space floor origin. Oblique camera/depth leaves alpha up to4px below that projection. For a screen-space tray safe anchor use the separately provided constant safe_visual_foot_anchor; never scale each frame separately.'
+(O/'sheep_stack_A_sample.atlas.json').write_text(json.dumps(m,indent=2),encoding='utf-8');print(m['alpha_bottom_source_y_range'],m['safe_visual_foot_anchor_trimmed_px'])
+

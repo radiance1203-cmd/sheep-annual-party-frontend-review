@@ -1,0 +1,123 @@
+{
+  "status": "FAIL",
+  "scope": "same real B4 320×568 snapshots; revised geometry accepts horizontal/vertical separation and rejects genuine 2D overlap; no product changes",
+  "rows": [
+    {
+      "game": "stack",
+      "candidateManifestSha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "controls": {
+        "x": 12,
+        "y": 501.609375,
+        "width": 184,
+        "height": 62.390625,
+        "right": 196,
+        "bottom": 564
+      },
+      "toolbar": {
+        "x": 208,
+        "y": 508,
+        "width": 100,
+        "height": 54,
+        "right": 308,
+        "bottom": 562
+      },
+      "stage": {
+        "x": 12,
+        "y": 133.390625,
+        "width": 296,
+        "height": 298,
+        "right": 308,
+        "bottom": 431.390625
+      },
+      "canvas": {
+        "x": 48,
+        "y": 133.390625,
+        "width": 223.5,
+        "height": 298,
+        "right": 271.5,
+        "bottom": 431.390625
+      },
+      "failure": "legacy vertical-only practice controls cannot overlap action"
+    },
+    {
+      "game": "runner",
+      "candidateManifestSha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "controls": {
+        "x": 12,
+        "y": 501.609375,
+        "width": 184,
+        "height": 62.390625,
+        "right": 196,
+        "bottom": 564
+      },
+      "toolbar": {
+        "x": 208,
+        "y": 508,
+        "width": 100,
+        "height": 54,
+        "right": 308,
+        "bottom": 562
+      },
+      "stage": {
+        "x": 12,
+        "y": 143.390625,
+        "width": 296,
+        "height": 180.875,
+        "right": 308,
+        "bottom": 324.265625
+      },
+      "canvas": {
+        "x": 12,
+        "y": 143.390625,
+        "width": 295.78125,
+        "height": 180.875,
+        "right": 307.78125,
+        "bottom": 324.265625
+      },
+      "failure": "legacy vertical-only practice controls cannot overlap action"
+    },
+    {
+      "game": "herd",
+      "candidateManifestSha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "controls": {
+        "x": 12,
+        "y": 480,
+        "width": 184,
+        "height": 84,
+        "right": 196,
+        "bottom": 564
+      },
+      "toolbar": {
+        "x": 208,
+        "y": 508,
+        "width": 100,
+        "height": 54,
+        "right": 308,
+        "bottom": 562
+      },
+      "stage": {
+        "x": 12,
+        "y": 133.390625,
+        "width": 296,
+        "height": 268,
+        "right": 308,
+        "bottom": 401.390625
+      },
+      "canvas": {
+        "x": 45,
+        "y": 133.390625,
+        "width": 229.5,
+        "height": 268,
+        "right": 274.5,
+        "bottom": 401.390625
+      },
+      "failure": "legacy vertical-only practice controls cannot overlap action"
+    }
+  ],
+  "failures": [
+    "stack: legacy vertical-only practice controls cannot overlap action",
+    "runner: legacy vertical-only practice controls cannot overlap action",
+    "herd: legacy vertical-only practice controls cannot overlap action"
+  ],
+  "syntheticNegativeOverlapRejected": false
+}

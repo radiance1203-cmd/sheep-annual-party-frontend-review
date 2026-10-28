@@ -1,0 +1,71 @@
+{
+  "layer44": 44,
+  "tray112": 112,
+  "measurement": "native512 full alpha>0 bounds; exclusive xyxy; uniformly scaled to h44",
+  "candidates": [
+    {
+      "label": "A_folded_loaf",
+      "image": "review/r3/stack-sample/A_folded_loaf_512.png",
+      "sha256": "43ce1838026b4903878538cb8842834874756f4ff425cfd456f95e9f7e7d8e63",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_bbox_xyxy_exclusive": [
+        175,
+        146,
+        341,
+        262
+      ],
+      "alpha_bbox_wh": [
+        166,
+        116
+      ],
+      "max_world_width_at_44_high": 62.966,
+      "world_height_at_112_wide": 78.265,
+      "width_over_tray": 0.5622,
+      "trim_pivot_bottom_center": [
+        0.487952,
+        1.0
+      ],
+      "foot_canvas_px": [
+        258.0,
+        262
+      ],
+      "legal_max_fails_112": true
+    },
+    {
+      "label": "B_deep_crouch",
+      "image": "review/r3/stack-sample/B_deep_crouch_512.png",
+      "sha256": "43f9579c2614241b84b9a36e7bfc9eaf0238253861a26d9ff6a3afa20ec6ee5e",
+      "size": [
+        512,
+        512
+      ],
+      "alpha_bbox_xyxy_exclusive": [
+        175,
+        140,
+        324,
+        277
+      ],
+      "alpha_bbox_wh": [
+        149,
+        137
+      ],
+      "max_world_width_at_44_high": 47.854,
+      "world_height_at_112_wide": 102.98,
+      "width_over_tray": 0.4273,
+      "trim_pivot_bottom_center": [
+        0.543624,
+        1.0
+      ],
+      "foot_canvas_px": [
+        249.5,
+        277
+      ],
+      "legal_max_fails_112": true
+    }
+  ],
+  "sample_art_accepted": false,
+  "production_art_accepted": false
+}

@@ -1,0 +1,73 @@
+{
+  "version": "R3.0",
+  "updated_at_utc": "2026-10-28T02:40:59.868111+00:00",
+  "status": "CANDIDATE_TECHNICAL_PASS_ART_PARTIAL_S3_NOT_READY",
+  "candidate_id": "R3-B4-C-sample-a",
+  "candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+  "production_manifest_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "candidate_assets": "review/r3/ASSET_MOTION_COVERAGE.json",
+  "gamepage_screenshots": "output/r3-20261028/pages/results.json",
+  "geometry_overlays": "output/r3-20261028/comparisons/evidence.json",
+  "realtime_videos": "output/r3-20261028/video/results.json",
+  "technical_evidence": "output/r3-20261028/final-integrity.json",
+  "independent_art_review": "review/r3/audit/B4/pixel-review.md",
+  "accepted_differences": [],
+  "sample_signoff": null,
+  "final_signoff": null,
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "coverage": {
+    "stack": {
+      "ready": "TECHNICAL_PASS_ART_PARTIAL",
+      "tutorial": "TECHNICAL_PASS_ART_PARTIAL",
+      "running": "TECHNICAL_PASS_ART_PARTIAL",
+      "new_full_motion": "PARTIAL_SINGLE_SAMPLE"
+    },
+    "runner": {
+      "ready": "TECHNICAL_PASS_ART_PARTIAL",
+      "tutorial": "TECHNICAL_PASS_ART_PARTIAL",
+      "running": "TECHNICAL_PASS_ART_PARTIAL",
+      "new_full_motion": "NOT_RUN_OLD_V4_REUSED"
+    },
+    "herd": {
+      "ready": "TECHNICAL_PASS_ART_PARTIAL",
+      "tutorial": "TECHNICAL_PASS_ART_PARTIAL",
+      "running": "TECHNICAL_PASS_ART_PARTIAL",
+      "new_full_motion": "NOT_RUN_OLD_V4_REUSED"
+    }
+  },
+  "viewport_targets": [
+    [
+      320,
+      568
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      430,
+      932
+    ]
+  ],
+  "dpr_targets": [
+    1,
+    2,
+    3
+  ],
+  "actual_dpr_cap": 2,
+  "physical_devices": "NOT_RUN",
+  "human24_216": "NOT_RUN",
+  "onsite": "NOT_RUN",
+  "new_technical_test_suite": {
+    "core_web_tests": 283,
+    "test_files": 16,
+    "browser_runtime_records": 49,
+    "shared_fixture_regression": 15,
+    "api_mutations_in_gamepage_evidence": 0,
+    "page_errors": 0
+  },
+  "historical_test_counts_are_not_r3_results": true,
+  "S3": "NOT_READY",
+  "R3_D_E": "NOT_RUN"
+}

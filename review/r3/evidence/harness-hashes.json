@@ -1,0 +1,14 @@
+{
+  "scope": "B4 final capture/runtime/video harness collection",
+  "candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+  "sha256": {
+    "apps/web/tests/r3-anchor-probe.mts": "b5f7fc078ba224aa28459753dddef67cf4a58f6e11d19f48275f2d72440a1463",
+    "apps/web/tests/r3-buffer-probe.mts": "23c041c3b98c0e67fc066c78f3e2bc11f1e01b4dd24e20b8098f6b4abe64a02b",
+    "apps/web/tests/r3-capture.mts": "4f253b85bbcada01ae5b6ab5365ddaeec491dd4be09c362777da4c2ba2626601",
+    "apps/web/tests/r3-evidence-check.mts": "ae5c1bf126870986e61260303d5f15c9729eaf9cd71cfb6422e6e078947ad740",
+    "apps/web/tests/r3-layout-check.mts": "e6a2eb39c0622f4de3ee8d3fa387a31019522bdb87c57e2c7760bfbad26926cf",
+    "apps/web/tests/r3-runtime.mts": "c64f2e0c898df7900fc8956ceddf94f8c25ca244f9483b6d5d162abf202ed11f",
+    "apps/web/tests/r3-support.mts": "350330004c77e18e8627ad5cefeaa7cf0466ed7458c5e0a9c5368e1738d4acc5",
+    "apps/web/tests/r3-video.mts": "f76e19172cfa8dd47b72b4c24f86d89cf32fffbf775df479ebd7b32bb9761ffa"
+  }
+}

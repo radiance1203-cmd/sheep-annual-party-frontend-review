@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "rule_version": "onsite-v2.1-candidate",
+  "python": "3.12.10",
+  "scope": "package integer reference and arithmetic only; no production UI/API/PostgreSQL/device/network/human tests",
+  "rules_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+  "stack_runner": {
+    "status": "PASS",
+    "rule_version": "onsite-v2.1-candidate",
+    "scope": "integer rule math only; not browser, server, network, ledger, or human validation",
+    "stack_full_score": {
+      "success": 20,
+      "perfect": 20,
+      "misses": 0,
+      "performance": 80,
+      "credited": 100,
+      "end_tick": 966,
+      "end_reason": "GOAL_REACHED"
+    },
+    "runner_full_score": {
+      "safe_passed": 20,
+      "mistakes": 0,
+      "outer_collected": 10,
+      "inner_collected": 10,
+      "performance": 80,
+      "credited": 100,
+      "end_tick": 1350,
+      "end_reason": "TIME_LIMIT"
+    },
+    "verified_obstacle_windows": 20,
+    "boundary_replay_cases": 146,
+    "outer_then_later_inner_verified": true
+  },
+  "herd_golden": {
+    "in_pen": 8,
+    "end_tick": 225,
+    "end": "GOAL_REACHED",
+    "base_performance": 48,
+    "time_bonus": 32,
+    "performance": 80,
+    "credit": 100
+  },
+  "herd_fixture_checks": {
+    "unit_1_1": [
+      512,
+      512
+    ],
+    "move_1000_1000": [
+      706,
+      706
+    ],
+    "move_1_1000": [
+      0,
+      999
+    ],
+    "missing_move_stops": true,
+    "wall_cases": 4,
+    "score_cases": [
+      {
+        "sheep": 8,
+        "tick": 240,
+        "expected_credit": 100
+      },
+      {
+        "sheep": 8,
+        "tick": 241,
+        "expected_credit": 99
+      },
+      {
+        "sheep": 8,
+        "tick": 600,
+        "expected_credit": 88
+      },
+      {
+        "sheep": 8,
+        "tick": 900,
+        "expected_credit": 78
+      },
+      {
+        "sheep": 8,
+        "tick": 1200,
+        "expected_credit": 68
+      },
+      {
+        "sheep": 8,
+        "tick": 1350,
+        "expected_credit": 68
+      },
+      {
+        "sheep": 7,
+        "tick": 1350,
+        "expected_credit": 62
+      },
+      {
+        "sheep": 4,
+        "tick": 1350,
+        "expected_credit": 44
+      }
+    ],
+    "speed_limit_asserted_each_simulation_tick": true
+  },
+  "scoring_cases_checked": 20,
+  "timing_arithmetic_checked": true,
+  "rank_arithmetic_checked": true,
+  "ledger_arithmetic_checked": true,
+  "portable_isolated_directory_checks": {
+    "stack_runner": "PASS",
+    "herd": "PASS"
+  },
+  "human_tested": false,
+  "production_runtime_tested": false
+}

@@ -1,0 +1,48 @@
+{
+  "method": "built-in imagegen reference editing; lossless native PNG copies",
+  "references": [
+    "design/prototypes/01_stack.png",
+    "design/prototypes/02_runner.png",
+    "design/prototypes/03_herd.png"
+  ],
+  "generated_files": {
+    "stack": "exec-98a2c0a9-083e-440b-80f0-4c12faf7904a.png",
+    "runner": "exec-8e8f2f4f-8bb0-4ec8-8c33-18e70b20db9e.png",
+    "herd": "exec-ca7c5fa2-3d6d-4e7c-81ea-506ebe3b4545.png"
+  },
+  "page_backgrounds": {
+    "stack": {
+      "image": "page-stack-b2.png",
+      "sha256": "a5b50f5c9051711b29b8fd0fdfc0123d09f88f2bf297d033d44560161fef1329",
+      "size_px": [
+        863,
+        1823
+      ],
+      "anchor_fraction": 0.82,
+      "role": "pure non-interactive portrait page scenery; no canvas projection/input/actor changes"
+    },
+    "runner": {
+      "image": "page-runner-b2.png",
+      "sha256": "ed0fcfe5661fa9d4e0511406f000440dabeba8c4096178fdbf3ba66ee889655f",
+      "size_px": [
+        863,
+        1823
+      ],
+      "anchor_fraction": 0.68,
+      "role": "pure non-interactive portrait page scenery; no canvas projection/input/actor changes"
+    },
+    "herd": {
+      "image": "page-herd-b2.png",
+      "sha256": "6830f7f2fc71d5e4a4d708476eecbec87496bd76f3302ce8f45abb3618b5521b",
+      "size_px": [
+        863,
+        1822
+      ],
+      "anchor_fraction": 0.27,
+      "role": "pure non-interactive portrait page scenery; no canvas projection/input/actor changes"
+    }
+  },
+  "candidate_manifest_sha256": "3f03232b8ffa291d265483497faf65299b804207121c82eb730367726c848741",
+  "production_art_accepted": false,
+  "sample_art_accepted": false
+}

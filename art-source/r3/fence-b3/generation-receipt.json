@@ -1,0 +1,15 @@
+{
+  "tool": "built-in imagegen reference editing",
+  "reference": "design/prototypes/03_herd.png",
+  "generated_filename": "exec-59ac0526-ae17-4fd6-a1c9-09aba7076a04.png",
+  "source_sha256": "ac43358d8de51550c3bfb6257b0c8d31ea9734fc94eba8c5543e6d4d24232e80",
+  "pixels": [
+    1774,
+    887
+  ],
+  "method": "lossless copies only",
+  "role": "static raster material sample, core-segment-bounded panels, no replacement of native 3D masters or collision geometry",
+  "production_art_accepted": false,
+  "sample_art_accepted": false,
+  "candidate_manifest_sha256": "4f0a870f96b8f40f8b2dd11ac4d4ef7f5b4b1c9d9203ecb03812008b057898ba"
+}

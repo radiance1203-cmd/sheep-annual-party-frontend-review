@@ -1,0 +1,963 @@
+{
+  "scope": "Actual pre-screenshot view replayed only through unchanged game-core; screenshot records its before/after tick interval; original prototype is illustrative and never authoritative geometry",
+  "rows": [
+    {
+      "game": "stack",
+      "tick": 30,
+      "after_tick": 46,
+      "view": {
+        "game_id": "stack",
+        "tick": 30,
+        "accepted_actions_count": 0,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 0,
+          "perfect_layers": 0,
+          "misses": 0
+        },
+        "placed_layers": [],
+        "top_support": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 430000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 198000,
+            "y_u": 298000
+          },
+          "width_u": 112000,
+          "phase": "SWING",
+          "phase_ticks_remaining": 0
+        }
+      },
+      "after_view": {
+        "game_id": "stack",
+        "tick": 46,
+        "accepted_actions_count": 0,
+        "conclusion": null,
+        "stats": {
+          "success_layers": 0,
+          "perfect_layers": 0,
+          "misses": 0
+        },
+        "placed_layers": [],
+        "top_support": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 430000
+          },
+          "width_u": 112000
+        },
+        "moving_tray": {
+          "center": {
+            "x_u": 150000,
+            "y_u": 298000
+          },
+          "width_u": 112000,
+          "phase": "SWING",
+          "phase_ticks_remaining": 0
+        }
+      },
+      "screenshot_sha256": "a2a7a466d415ce8c3747bd535dd5729d1c168eebc6efe0de54564edcfdc820e5",
+      "candidate_manifest": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "rules_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "geometry": {
+        "width": 360,
+        "height": 480,
+        "tray_width": 112,
+        "layer_height": 44
+      }
+    },
+    {
+      "game": "runner",
+      "tick": 180,
+      "after_tick": 197,
+      "view": {
+        "game_id": "runner",
+        "tick": 180,
+        "accepted_actions_count": 0,
+        "conclusion": null,
+        "stats": {
+          "safe_passed": 0,
+          "collision_count": 1,
+          "outer_collected": 0,
+          "inner_collected": 0
+        },
+        "distance_u": 432000,
+        "sheep_foot": {
+          "x_u": 88000,
+          "y_u": 180000
+        },
+        "sheep_vy_u_per_tick": 0,
+        "on_ground": true,
+        "obstacles": [
+          {
+            "obstacle_id": 1,
+            "bounds": {
+              "min_x_u": 66000,
+              "max_x_u": 74000,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": true,
+            "passed": true
+          },
+          {
+            "obstacle_id": 2,
+            "bounds": {
+              "min_x_u": 231600,
+              "max_x_u": 239600,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 3,
+            "bounds": {
+              "min_x_u": 397200,
+              "max_x_u": 405200,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 4,
+            "bounds": {
+              "min_x_u": 495600,
+              "max_x_u": 503600,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 5,
+            "bounds": {
+              "min_x_u": 594000,
+              "max_x_u": 602000,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 6,
+            "bounds": {
+              "min_x_u": 702000,
+              "max_x_u": 710000,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 7,
+            "bounds": {
+              "min_x_u": 894400,
+              "max_x_u": 912400,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 8,
+            "bounds": {
+              "min_x_u": 1098800,
+              "max_x_u": 1116800,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 9,
+            "bounds": {
+              "min_x_u": 1294800,
+              "max_x_u": 1312800,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 10,
+            "bounds": {
+              "min_x_u": 1412400,
+              "max_x_u": 1430400,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 11,
+            "bounds": {
+              "min_x_u": 1521600,
+              "max_x_u": 1539600,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 12,
+            "bounds": {
+              "min_x_u": 1642000,
+              "max_x_u": 1660000,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 13,
+            "bounds": {
+              "min_x_u": 1846400,
+              "max_x_u": 1864400,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 14,
+            "bounds": {
+              "min_x_u": 2053200,
+              "max_x_u": 2081200,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 15,
+            "bounds": {
+              "min_x_u": 2280400,
+              "max_x_u": 2308400,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 16,
+            "bounds": {
+              "min_x_u": 2411600,
+              "max_x_u": 2439600,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 17,
+            "bounds": {
+              "min_x_u": 2542800,
+              "max_x_u": 2570800,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 18,
+            "bounds": {
+              "min_x_u": 2680400,
+              "max_x_u": 2708400,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 19,
+            "bounds": {
+              "min_x_u": 2901200,
+              "max_x_u": 2929200,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 20,
+            "bounds": {
+              "min_x_u": 3115600,
+              "max_x_u": 3143600,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          }
+        ],
+        "grass": [
+          {
+            "grass_id": 1,
+            "center": {
+              "x_u": 235600,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 2,
+            "center": {
+              "x_u": 499600,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 3,
+            "center": {
+              "x_u": 706000,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 4,
+            "center": {
+              "x_u": 1107800,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 5,
+            "center": {
+              "x_u": 1421400,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 6,
+            "center": {
+              "x_u": 1651000,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 7,
+            "center": {
+              "x_u": 2067200,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 8,
+            "center": {
+              "x_u": 2425600,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 9,
+            "center": {
+              "x_u": 2694400,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 10,
+            "center": {
+              "x_u": 3129600,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          }
+        ]
+      },
+      "after_view": {
+        "game_id": "runner",
+        "tick": 197,
+        "accepted_actions_count": 0,
+        "conclusion": null,
+        "stats": {
+          "safe_passed": 0,
+          "collision_count": 1,
+          "outer_collected": 0,
+          "inner_collected": 0
+        },
+        "distance_u": 472800,
+        "sheep_foot": {
+          "x_u": 88000,
+          "y_u": 180000
+        },
+        "sheep_vy_u_per_tick": 0,
+        "on_ground": true,
+        "obstacles": [
+          {
+            "obstacle_id": 1,
+            "bounds": {
+              "min_x_u": 25200,
+              "max_x_u": 33200,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": true,
+            "passed": true
+          },
+          {
+            "obstacle_id": 2,
+            "bounds": {
+              "min_x_u": 190800,
+              "max_x_u": 198800,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 3,
+            "bounds": {
+              "min_x_u": 356400,
+              "max_x_u": 364400,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 4,
+            "bounds": {
+              "min_x_u": 454800,
+              "max_x_u": 462800,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 5,
+            "bounds": {
+              "min_x_u": 553200,
+              "max_x_u": 561200,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 6,
+            "bounds": {
+              "min_x_u": 661200,
+              "max_x_u": 669200,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 7,
+            "bounds": {
+              "min_x_u": 853600,
+              "max_x_u": 871600,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 8,
+            "bounds": {
+              "min_x_u": 1058000,
+              "max_x_u": 1076000,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 9,
+            "bounds": {
+              "min_x_u": 1254000,
+              "max_x_u": 1272000,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 10,
+            "bounds": {
+              "min_x_u": 1371600,
+              "max_x_u": 1389600,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 11,
+            "bounds": {
+              "min_x_u": 1480800,
+              "max_x_u": 1498800,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 12,
+            "bounds": {
+              "min_x_u": 1601200,
+              "max_x_u": 1619200,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 13,
+            "bounds": {
+              "min_x_u": 1805600,
+              "max_x_u": 1823600,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 14,
+            "bounds": {
+              "min_x_u": 2012400,
+              "max_x_u": 2040400,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 15,
+            "bounds": {
+              "min_x_u": 2239600,
+              "max_x_u": 2267600,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 16,
+            "bounds": {
+              "min_x_u": 2370800,
+              "max_x_u": 2398800,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 17,
+            "bounds": {
+              "min_x_u": 2502000,
+              "max_x_u": 2530000,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 18,
+            "bounds": {
+              "min_x_u": 2639600,
+              "max_x_u": 2667600,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 19,
+            "bounds": {
+              "min_x_u": 2860400,
+              "max_x_u": 2888400,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          },
+          {
+            "obstacle_id": 20,
+            "bounds": {
+              "min_x_u": 3074800,
+              "max_x_u": 3102800,
+              "min_y_u": 150000,
+              "max_y_u": 180000
+            },
+            "collision_recorded": false,
+            "passed": false
+          }
+        ],
+        "grass": [
+          {
+            "grass_id": 1,
+            "center": {
+              "x_u": 194800,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 2,
+            "center": {
+              "x_u": 458800,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 3,
+            "center": {
+              "x_u": 665200,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 4,
+            "center": {
+              "x_u": 1067000,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 5,
+            "center": {
+              "x_u": 1380600,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 6,
+            "center": {
+              "x_u": 1610200,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 7,
+            "center": {
+              "x_u": 2026400,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 8,
+            "center": {
+              "x_u": 2384800,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 9,
+            "center": {
+              "x_u": 2653600,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          },
+          {
+            "grass_id": 10,
+            "center": {
+              "x_u": 3088800,
+              "y_u": 69000
+            },
+            "outer_collected": false,
+            "inner_collected": false
+          }
+        ]
+      },
+      "screenshot_sha256": "788402e3d0cc57c06bb9bdc727063bbf352e535cb915c98a1ce99cae74305e0e",
+      "candidate_manifest": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "rules_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "geometry": {
+        "width": 360,
+        "height": 220,
+        "ground_y": 180,
+        "outer_radius": 4.5,
+        "inner_radius": 1.5
+      }
+    },
+    {
+      "game": "herd",
+      "tick": 30,
+      "after_tick": 45,
+      "view": {
+        "game_id": "herd",
+        "tick": 30,
+        "accepted_actions_count": 0,
+        "conclusion": null,
+        "stats": {
+          "penned_count": 0,
+          "final_goal_tick": null,
+          "time_bonus_points": 0
+        },
+        "dog": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 350000
+          },
+          "facing_index": 6
+        },
+        "sheep": [
+          {
+            "sheep_id": 1,
+            "center": {
+              "x_u": 128957,
+              "y_u": 225043
+            },
+            "facing_index": 0,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 2,
+            "center": {
+              "x_u": 165640,
+              "y_u": 221965
+            },
+            "facing_index": 1,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 3,
+            "center": {
+              "x_u": 196267,
+              "y_u": 223161
+            },
+            "facing_index": 3,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 4,
+            "center": {
+              "x_u": 232017,
+              "y_u": 229073
+            },
+            "facing_index": 3,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 5,
+            "center": {
+              "x_u": 128820,
+              "y_u": 268413
+            },
+            "facing_index": 0,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 6,
+            "center": {
+              "x_u": 165099,
+              "y_u": 257610
+            },
+            "facing_index": 0,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 7,
+            "center": {
+              "x_u": 194936,
+              "y_u": 257461
+            },
+            "facing_index": 4,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 8,
+            "center": {
+              "x_u": 235473,
+              "y_u": 262297
+            },
+            "facing_index": 5,
+            "in_pen": false
+          }
+        ],
+        "bark_ticks_remaining": 0,
+        "bark_cooldown_ticks_remaining": 0
+      },
+      "after_view": {
+        "game_id": "herd",
+        "tick": 45,
+        "accepted_actions_count": 0,
+        "conclusion": null,
+        "stats": {
+          "penned_count": 0,
+          "final_goal_tick": null,
+          "time_bonus_points": 0
+        },
+        "dog": {
+          "center": {
+            "x_u": 180000,
+            "y_u": 350000
+          },
+          "facing_index": 6
+        },
+        "sheep": [
+          {
+            "sheep_id": 1,
+            "center": {
+              "x_u": 133443,
+              "y_u": 224978
+            },
+            "facing_index": 0,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 2,
+            "center": {
+              "x_u": 166246,
+              "y_u": 224999
+            },
+            "facing_index": 1,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 3,
+            "center": {
+              "x_u": 196258,
+              "y_u": 226549
+            },
+            "facing_index": 3,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 4,
+            "center": {
+              "x_u": 228167,
+              "y_u": 230211
+            },
+            "facing_index": 3,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 5,
+            "center": {
+              "x_u": 133297,
+              "y_u": 268088
+            },
+            "facing_index": 0,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 6,
+            "center": {
+              "x_u": 164760,
+              "y_u": 256704
+            },
+            "facing_index": 4,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 7,
+            "center": {
+              "x_u": 195297,
+              "y_u": 256414
+            },
+            "facing_index": 0,
+            "in_pen": false
+          },
+          {
+            "sheep_id": 8,
+            "center": {
+              "x_u": 232768,
+              "y_u": 259978
+            },
+            "facing_index": 5,
+            "in_pen": false
+          }
+        ],
+        "bark_ticks_remaining": 0,
+        "bark_cooldown_ticks_remaining": 0
+      },
+      "screenshot_sha256": "c20df09210f6960f2f07365fdfca4c0b49a75b33e89842613e58ca37ed009b98",
+      "candidate_manifest": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "rules_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "geometry": {
+        "width": 360,
+        "height": 420,
+        "fence_y": 76,
+        "gate": [
+          144,
+          216
+        ],
+        "sheep_radius": 10,
+        "dog_radius": 9
+      }
+    }
+  ]
+}

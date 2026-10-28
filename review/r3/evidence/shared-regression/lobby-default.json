@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "scope": "actual default App/lobby + isolated GET fixture, no R3 candidate/no business write; browser not physical device",
+  "errors": [],
+  "candidates": [],
+  "writes": 0
+}

@@ -1,0 +1,1403 @@
+{
+  "review": "Archived R3-B3 independent static pixel review; not current B4 evidence or user acceptance",
+  "archived_evidence_directory": "output/r3-20261028/B3-4f0a870f/",
+  "historical_source_snapshot_directory": ".local/r3-B3-4f0a870f-source/",
+  "historical_source_binding_scope": "Compare capture hashes to the verified B3 source snapshot; later current-workspace B4 changes are not old-version binding failures.",
+  "recorded_at_utc": "2026-10-28T01:49:44.319931+00:00",
+  "expected_candidate_sha256": "4f0a870f96b8f40f8b2dd11ac4d4ef7f5b4b1c9d9203ecb03812008b057898ba",
+  "actual_candidate_sha256": "4f0a870f96b8f40f8b2dd11ac4d4ef7f5b4b1c9d9203ecb03812008b057898ba",
+  "capture_count": 27,
+  "recorded_source_hashset_count": 1,
+  "binding_status": "PASS",
+  "binding_failures": [],
+  "captures": [
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/stack-prep-320.png",
+      "sha256": "666aa5d20f93d288a155390c1242cc2134f7bd194f22a9d3a8ba9d735c10ae09",
+      "sidecar_sha256": "e5e0f2493d5335cd2381e9482ec6bb149f03cb95551e2d8b76dbc79270b4d17d",
+      "game": "stack",
+      "state": "prep",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:03.361Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "133.27",
+        "266.67"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/stack-tutorial-320.png",
+      "sha256": "4f71c12ef65fde20f6f10155cc2a59fd37f68cb8ae72222e20568a18657b8673",
+      "sidecar_sha256": "ace6c84aa4353cfa88d0fb64a92fda209f08112018fe63ad42818dbc4898cd38",
+      "game": "stack",
+      "state": "tutorial",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:04.516Z",
+      "tick_range": [
+        "5",
+        "13"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "216.60",
+        "333.20"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/stack-running-320.png",
+      "sha256": "bf87dd80cc940511240ceb2ea376dcb9f93cf46528a12f62776d5604d3ba8ce5",
+      "sidecar_sha256": "47ba96eb555f044c18868d07cdde1e5dcae05ed5ce15e9e12434e06d679f6de3",
+      "game": "stack",
+      "state": "running",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:06.398Z",
+      "tick_range": [
+        "30",
+        "40"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "1016.60",
+        "1349.90"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/runner-prep-320.png",
+      "sha256": "05561a40f9b30fb12439e8a3955f1867c606de35a2b9e8e9b899c5f69df37063",
+      "sidecar_sha256": "f66bf61831e5a7a673f3e648628aeb92b094951e1430c7a420826d77fc629be2",
+      "game": "runner",
+      "state": "prep",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:07.179Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "66.50",
+        "216.60"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/runner-tutorial-320.png",
+      "sha256": "11e94a256694bb0351632c18d6c7ae74232d6719187b141542a4ffc387c02d5f",
+      "sidecar_sha256": "371600aa82b2c513a0e9364796df9b374b0999ac15212af18d663c4cd8000b5e",
+      "game": "runner",
+      "state": "tutorial",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:07.972Z",
+      "tick_range": [
+        "4",
+        "12"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "149.90",
+        "433.30"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/runner-running-320.png",
+      "sha256": "89030ade0759dabb0d70639848223ae36903af1d8f6455bc580cf2e98c1c5b1c",
+      "sidecar_sha256": "87e4917e9cc8342b33416d07f4733ba8ec944987acf5d2966a8288e3d7195fb4",
+      "game": "runner",
+      "state": "running",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:14.846Z",
+      "tick_range": [
+        "180",
+        "190"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "6016.40",
+        "6166.50"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/herd-prep-320.png",
+      "sha256": "91d72b11c716cd230d5f30dfd4a4f4b89361353ec51751cfaca0f05b07428fdc",
+      "sidecar_sha256": "c90042bf9c08961ccb8685d878b2562aee8ecfe081d4b03a2bb8a65cfeef0a58",
+      "game": "herd",
+      "state": "prep",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -2.842170943040401e-14,
+      "captured_at": "2026-10-28T01:30:16.033Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "349.94",
+        "499.94"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/herd-tutorial-320.png",
+      "sha256": "2258d98253b6ad6423adcbd190e82f1fb4b2deca21cad543b67c41bd51c725b5",
+      "sidecar_sha256": "79b9cc8c3a378e21efa4ee476b0d0e792a40d295014d9ecab8c2d63431572604",
+      "game": "herd",
+      "state": "tutorial",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -2.842170943040401e-14,
+      "captured_at": "2026-10-28T01:30:17.230Z",
+      "tick_range": [
+        "10",
+        "19"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 10,
+        "afterScreenshot": 19
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "333.27",
+        "649.87"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/herd-running-320.png",
+      "sha256": "89988b341b414705f4e4a121bf5586cbbc975b7ed66e7eb193fe8b5b7cb6f24c",
+      "sidecar_sha256": "42b286d9c818983cc2c65c1cd9df269aecb8c37e248c09bcde183fa851e9b835",
+      "game": "herd",
+      "state": "running",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -2.842170943040401e-14,
+      "captured_at": "2026-10-28T01:30:19.569Z",
+      "tick_range": [
+        "30",
+        "40"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "1016.60",
+        "1183.30"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/stack-prep-390.png",
+      "sha256": "4884070ad682ecfb9041d00b542a062c3b028be0dd82318d67684ed19dd2541e",
+      "sidecar_sha256": "54873a26dc74e5b0cc6c0580f16b72c7c2d401858e42f1d37fcb1d03b6664f6f",
+      "game": "stack",
+      "state": "prep",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:21.526Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "116.70",
+        "716.70"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/stack-tutorial-390.png",
+      "sha256": "993311982a209c14e6e1f331075bebe1dc697c466cafdddfe7ac7fd975c7845b",
+      "sidecar_sha256": "7de364ad10298ab10f5e64ade04ce645e67e69dcb6451fe4a387547ec9da1b2e",
+      "game": "stack",
+      "state": "tutorial",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:22.933Z",
+      "tick_range": [
+        "4",
+        "19"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "166.67",
+        "333.27"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/stack-running-390.png",
+      "sha256": "27f486b817abbbdceffefab92b65e3e84f8d0795b9ea1bc67f75992655408711",
+      "sidecar_sha256": "199d19d8208ce31834d2ca9223ad4e41879062ce3ddad88a01c8a8ba85676e4f",
+      "game": "stack",
+      "state": "running",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:25.050Z",
+      "tick_range": [
+        "30",
+        "45"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "1000.00",
+        "1166.70"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/runner-prep-390.png",
+      "sha256": "8d17965f67ee68138368564b8f785bf09d1645b04d0e2c6447696ce013dcd0bf",
+      "sidecar_sha256": "f5fc1ccc3193d5c33c38f5b3e5c2b1bb79f70eb97d0610424dd418d1124c80b6",
+      "game": "runner",
+      "state": "prep",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:26.101Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "83.34",
+        "716.74"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/runner-tutorial-390.png",
+      "sha256": "ad0625fa497b5295664ac8d8fc33f740c8db2a5cf87619569e8f2777070dd1ac",
+      "sidecar_sha256": "c68458cbc7e484d53d8d9ad0e03468996236a600dd1ec11235a67f5c31d31bc8",
+      "game": "runner",
+      "state": "tutorial",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:27.068Z",
+      "tick_range": [
+        "4",
+        "18"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "166.64",
+        "333.24"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/runner-running-390.png",
+      "sha256": "a44d8e06b795875e47a5adbe70809fbdb08767272e992f4bea240e68e94da2c8",
+      "sidecar_sha256": "fc31fdb0eb4af7bca59bcc3f2027ede894a2800923806940be6c5fcf0c5a3c3b",
+      "game": "runner",
+      "state": "running",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:34.154Z",
+      "tick_range": [
+        "180",
+        "197"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "6016.40",
+        "6583.10"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/herd-prep-390.png",
+      "sha256": "aba4780928a037d9718ef6a4003e43a6a2a678110a6840495c59d1f80f0e215b",
+      "sidecar_sha256": "e279cccb2209f10594a76d0ff592adcac653af3a88e6d1ab0549d1f73f45d8d7",
+      "game": "herd",
+      "state": "prep",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -2.842170943040401e-14,
+      "captured_at": "2026-10-28T01:30:35.569Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "299.91",
+        "466.61"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/herd-tutorial-390.png",
+      "sha256": "9a7b23f8fd78a4c69a3dbdc2ce3be6eb10f0aee6924a30cc9361dc46dc5c92cb",
+      "sidecar_sha256": "76f559fa80efe56de6f53e9ff6aa4502bdd22e2ea2c12dfe8cc7c4c451b57947",
+      "game": "herd",
+      "state": "tutorial",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -2.842170943040401e-14,
+      "captured_at": "2026-10-28T01:30:37.019Z",
+      "tick_range": [
+        "6",
+        "23"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 6,
+        "afterScreenshot": 23
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "283.17",
+        "466.57"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/herd-running-390.png",
+      "sha256": "b81633905a2f6bbf40fea5035c91e26952c4e89bd8f6858ae85d9571739c26aa",
+      "sidecar_sha256": "33d3af21f06ddc2d7dc9800987b46dd37087d7d6d1b11ac93d9e202f6c2d8651",
+      "game": "herd",
+      "state": "running",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -2.842170943040401e-14,
+      "captured_at": "2026-10-28T01:30:39.599Z",
+      "tick_range": [
+        "30",
+        "47"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "1016.50",
+        "1583.20"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/stack-prep-430.png",
+      "sha256": "83c66fe41adf461a4c43fa658a8beb855859faedd09cfe428f76ad5edc15d96e",
+      "sidecar_sha256": "df227f5718940e196b8fc0c36e86ba35709bf3167d7dbd295e2bad06cd2fe3e0",
+      "game": "stack",
+      "state": "prep",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:41.627Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "133.27",
+        "349.97"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/stack-tutorial-430.png",
+      "sha256": "918a86fbe928002979b985906aa0d453c394fa267ee679715c6de7dd8b3a0ae9",
+      "sidecar_sha256": "6387f1281c78f3bd89d4a8af22688cccbc32120651afac4b78b6b925ea2c1c57",
+      "game": "stack",
+      "state": "tutorial",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:43.200Z",
+      "tick_range": [
+        "4",
+        "21"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "183.30",
+        "333.30"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/stack-running-430.png",
+      "sha256": "8483d7929107a8da0a7bbb3c80eb736b95c30189361eafa301948b1fd98b8b98",
+      "sidecar_sha256": "e8be2078e8ec1062dfac48b73a1e858d431b409c7de332f7c08187f56b553019",
+      "game": "stack",
+      "state": "running",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:45.951Z",
+      "tick_range": [
+        "31",
+        "51"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "1033.30",
+        "1266.60"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/runner-prep-430.png",
+      "sha256": "b3fbbcbc8575d7d60bfdbc1277dfb966a038ed9f70dc7ebfb0d9329b13146f80",
+      "sidecar_sha256": "83b7641f6ab8cc8b74f8dd5fab9063d5dc12f9c1f17eca339a3d1dbcfad62fd3",
+      "game": "runner",
+      "state": "prep",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -1.1368683772161603e-13,
+      "captured_at": "2026-10-28T01:30:47.032Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "100.04",
+        "233.44"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/runner-tutorial-430.png",
+      "sha256": "417a604e6d26101ea73aaaad0fd470646e52b19d12e196cf8cd5862078a3d38a",
+      "sidecar_sha256": "fdf0eb890459deef6017d00cbcd36ef4f57acea7948d4374e3bab6f8b8137069",
+      "game": "runner",
+      "state": "tutorial",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -1.1368683772161603e-13,
+      "captured_at": "2026-10-28T01:30:48.108Z",
+      "tick_range": [
+        "4",
+        "20"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "199.90",
+        "366.70"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/runner-running-430.png",
+      "sha256": "4037ad30a0010fade42e46d93425065304a25a168855413d33c43ff03c8021b3",
+      "sidecar_sha256": "f4a70e79bf71fa38bdd09f2539e5d3eefa1c7319fcb817b76ca2f5eb48c38da7",
+      "game": "runner",
+      "state": "running",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -1.1368683772161603e-13,
+      "captured_at": "2026-10-28T01:30:55.320Z",
+      "tick_range": [
+        "180",
+        "200"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "6016.40",
+        "6683.10"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/herd-prep-430.png",
+      "sha256": "c320bdb6097b3b1ad5873a15d3ada909c59bb0f00aa865293ae393a8a7eba24c",
+      "sidecar_sha256": "d4008d5e12c4e1a737ba4e3706a0abbf59a7d92fe869d63a8807b0772ed311ce",
+      "game": "herd",
+      "state": "prep",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:56.821Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "283.30",
+        "449.90"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/herd-tutorial-430.png",
+      "sha256": "4d68510c050fd35ace4832689365ee6cd463ceaa80cbbf7379e295a5aec8a403",
+      "sidecar_sha256": "2bbca7333f10ce6fd353a6743a49ae88aa389a66ca28640d4241c658f06ba3ed",
+      "game": "herd",
+      "state": "tutorial",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:30:58.354Z",
+      "tick_range": [
+        "8",
+        "28"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 8,
+        "afterScreenshot": 28
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "333.30",
+        "983.20"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/pages/herd-running-430.png",
+      "sha256": "ca3e211d2f680017d4ea57e7855f9a5ef38e8f28c776a6f2e2209c10167c2bc3",
+      "sidecar_sha256": "dd1b5c6ff2f8457995089193a59777c6538100ce4193c958ebb31012444d9796",
+      "game": "herd",
+      "state": "running",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T01:31:01.065Z",
+      "tick_range": [
+        "30",
+        "50"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "1033.30",
+        "1683.20"
+      ],
+      "errors": [],
+      "actual_pixels_opened_by_reviewer": true
+    }
+  ],
+  "references_actually_opened": [
+    {
+      "path": "design/prototypes/01_stack.png",
+      "sha256": "94651ed5e2ca9039cc397c11395c31205f3b57ee0bd65858a45093d6ebe57652",
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "design/prototypes/02_runner.png",
+      "sha256": "62358c3c1cf36921266292f9747c514683f994fb1ed7c15254c29b3b98554a85",
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "design/prototypes/03_herd.png",
+      "sha256": "754351c13b62debd71fa342e9e1e366f9b34b0be7e35ae3b0d5af27494d8c50a",
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "design/character_foundation_board.png",
+      "sha256": "836bf1f94e122bd5c98868b02d8577f2e8ea16d8acdce234094969e7510b1539",
+      "actual_pixels_opened_by_reviewer": true
+    }
+  ],
+  "additional_first_three_actually_opened": [
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/first-three/stack-running-390.png",
+      "sha256": "27f486b817abbbdceffefab92b65e3e84f8d0795b9ea1bc67f75992655408711",
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/first-three/runner-running-390.png",
+      "sha256": "75d34f135b5977759f3c58caa27022a800151f3bfce554635fc4f0f7f00f9a27",
+      "actual_pixels_opened_by_reviewer": true
+    },
+    {
+      "path": "output/r3-20261028/B3-4f0a870f/first-three/herd-running-390.png",
+      "sha256": "d6bbc8293d33b76f9f7ebc0677438d8de04162ed285155e4e6c6ad4d093e3c24",
+      "actual_pixels_opened_by_reviewer": true
+    }
+  ],
+  "source_bindings": {
+    "apps/web/src/api.ts": {
+      "recorded_sha256": "916568ee63fc62d43274dfeb676fa86efdfe4f2b7a54a6992ad3db529ec865f3",
+      "actual_sha256": "916568ee63fc62d43274dfeb676fa86efdfe4f2b7a54a6992ad3db529ec865f3",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/api.ts"
+    },
+    "apps/web/src/App.tsx": {
+      "recorded_sha256": "39b8ce1569238d315e8743145b69b84657a9cc0e9c5278dd865827216f2ea034",
+      "actual_sha256": "39b8ce1569238d315e8743145b69b84657a9cc0e9c5278dd865827216f2ea034",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/App.tsx"
+    },
+    "apps/web/src/game/assets.test.ts": {
+      "recorded_sha256": "0de08bba494fcc7bcb097a4bff2d5cd98d9641e55c2674632d076c7a9bf07cae",
+      "actual_sha256": "0de08bba494fcc7bcb097a4bff2d5cd98d9641e55c2674632d076c7a9bf07cae",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/assets.test.ts"
+    },
+    "apps/web/src/game/assets.ts": {
+      "recorded_sha256": "b9ae8730943814dcd1e20cf0ffb50e76ff7c0f1e6baf304cbb3712a213ba995b",
+      "actual_sha256": "b9ae8730943814dcd1e20cf0ffb50e76ff7c0f1e6baf304cbb3712a213ba995b",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/assets.ts"
+    },
+    "apps/web/src/game/GamePage.tsx": {
+      "recorded_sha256": "d618c0cb46ede75a85460cfd068b71fff7ca4f8ff33be2e5c54c39f982511443",
+      "actual_sha256": "d618c0cb46ede75a85460cfd068b71fff7ca4f8ff33be2e5c54c39f982511443",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/GamePage.tsx"
+    },
+    "apps/web/src/game/keyboard.ts": {
+      "recorded_sha256": "62d91939374a970eb2eaafc73bedb88e4d5facb02d96e5e30ed4468b38ed437a",
+      "actual_sha256": "62d91939374a970eb2eaafc73bedb88e4d5facb02d96e5e30ed4468b38ed437a",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/keyboard.ts"
+    },
+    "apps/web/src/game/presentation.test.ts": {
+      "recorded_sha256": "47b3e7b77e93ed1b014324d1b873e4f6f09af8b6d7f38d42a9d0b550dc606709",
+      "actual_sha256": "47b3e7b77e93ed1b014324d1b873e4f6f09af8b6d7f38d42a9d0b550dc606709",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/presentation.test.ts"
+    },
+    "apps/web/src/game/presentation.ts": {
+      "recorded_sha256": "35a026ac74d28f7d7fe457c85f9b23c38ffad584836d181dd394f51b789a3262",
+      "actual_sha256": "35a026ac74d28f7d7fe457c85f9b23c38ffad584836d181dd394f51b789a3262",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/presentation.ts"
+    },
+    "apps/web/src/game/presenter-state.test.ts": {
+      "recorded_sha256": "6e76f8ed3dbad01b9b6d31511045f78e04a0c453e3cd5ebbfe6bb96512f81ee6",
+      "actual_sha256": "6e76f8ed3dbad01b9b6d31511045f78e04a0c453e3cd5ebbfe6bb96512f81ee6",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/presenter-state.test.ts"
+    },
+    "apps/web/src/game/presenter-state.ts": {
+      "recorded_sha256": "b016a2438f4b04e8d63a24ef04d89caa9bdb0b5800932c773ca3e2e7ac1b18bf",
+      "actual_sha256": "b016a2438f4b04e8d63a24ef04d89caa9bdb0b5800932c773ca3e2e7ac1b18bf",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/presenter-state.ts"
+    },
+    "apps/web/src/game/r3-candidate.test.ts": {
+      "recorded_sha256": "57f52eaa9d2cb6dfe07dfdfbd542bf02c65d7167ec2883441d552e5f03cb41fa",
+      "actual_sha256": "57f52eaa9d2cb6dfe07dfdfbd542bf02c65d7167ec2883441d552e5f03cb41fa",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/r3-candidate.test.ts"
+    },
+    "apps/web/src/game/r3-candidate.ts": {
+      "recorded_sha256": "43eb90f1f7261bc2d6c12724287c7c703c70ac68ed214bae060654a73ea00518",
+      "actual_sha256": "43eb90f1f7261bc2d6c12724287c7c703c70ac68ed214bae060654a73ea00518",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/r3-candidate.ts"
+    },
+    "apps/web/src/game/r3-scenery.test.ts": {
+      "recorded_sha256": "3cdeb73b084f2d833f643dbeee4668d9d564d4249a6e8d9c63424221e03f13f5",
+      "actual_sha256": "3cdeb73b084f2d833f643dbeee4668d9d564d4249a6e8d9c63424221e03f13f5",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/r3-scenery.test.ts"
+    },
+    "apps/web/src/game/r3-scenery.ts": {
+      "recorded_sha256": "13f468a59293eb38008dafa32ce62a13c8028a2a8b289fd81cc7773551ad6f68",
+      "actual_sha256": "13f468a59293eb38008dafa32ce62a13c8028a2a8b289fd81cc7773551ad6f68",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/r3-scenery.ts"
+    },
+    "apps/web/src/game/renderer.ts": {
+      "recorded_sha256": "ff288d5ee93ef0ddf687d337c917cd3df5089033df9cf2e968e3a7aea51aa4b8",
+      "actual_sha256": "ff288d5ee93ef0ddf687d337c917cd3df5089033df9cf2e968e3a7aea51aa4b8",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/renderer.ts"
+    },
+    "apps/web/src/game/storage.ts": {
+      "recorded_sha256": "a89eb0b95f335eb7cc1fe64340d01020017b09e2936593d8203731a192c519c7",
+      "actual_sha256": "a89eb0b95f335eb7cc1fe64340d01020017b09e2936593d8203731a192c519c7",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/storage.ts"
+    },
+    "apps/web/src/game/timeline.ts": {
+      "recorded_sha256": "52c1921e94170ed58908208a47a38c107283b65eee4040301a8a42ab2c8f802d",
+      "actual_sha256": "52c1921e94170ed58908208a47a38c107283b65eee4040301a8a42ab2c8f802d",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/timeline.ts"
+    },
+    "apps/web/src/game/tutorial-model.test.ts": {
+      "recorded_sha256": "7990de56482d1997aa9b6edd344b759322696022d21a5464dee481aab8afbb0e",
+      "actual_sha256": "7990de56482d1997aa9b6edd344b759322696022d21a5464dee481aab8afbb0e",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/tutorial-model.test.ts"
+    },
+    "apps/web/src/game/tutorial-model.ts": {
+      "recorded_sha256": "ac09fb030da3d22dfefbd20c2148084e1a9fc4dabfd38059e9feb2dac4c67cf1",
+      "actual_sha256": "ac09fb030da3d22dfefbd20c2148084e1a9fc4dabfd38059e9feb2dac4c67cf1",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/tutorial-model.ts"
+    },
+    "apps/web/src/game/TutorialScene.tsx": {
+      "recorded_sha256": "4daaeba183bf5f72c26ca501ec8317cd7d638005cabff0c35847338edcd0b85f",
+      "actual_sha256": "4daaeba183bf5f72c26ca501ec8317cd7d638005cabff0c35847338edcd0b85f",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/game/TutorialScene.tsx"
+    },
+    "apps/web/src/LobbyIllustration.tsx": {
+      "recorded_sha256": "61adc6bf7c8befc2342e6807318b6ee0925059a310d8f58ea43df6557cd296ba",
+      "actual_sha256": "61adc6bf7c8befc2342e6807318b6ee0925059a310d8f58ea43df6557cd296ba",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/LobbyIllustration.tsx"
+    },
+    "apps/web/src/main.tsx": {
+      "recorded_sha256": "79cf68ed6f0d06abed66a111026a206fba7e43900730df3b01550eb7fdd4596f",
+      "actual_sha256": "79cf68ed6f0d06abed66a111026a206fba7e43900730df3b01550eb7fdd4596f",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/main.tsx"
+    },
+    "apps/web/src/pages/admin-requests.ts": {
+      "recorded_sha256": "215b8ad0411b059108397a06df2a7f9e6d53121f61c28bee4d6a16851ca9ebb3",
+      "actual_sha256": "215b8ad0411b059108397a06df2a7f9e6d53121f61c28bee4d6a16851ca9ebb3",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/pages/admin-requests.ts"
+    },
+    "apps/web/src/pages/AdminPage.tsx": {
+      "recorded_sha256": "2986154b9a159bcb1939519a0edf5106d5a75e415d52acdb4d8031878b1f1f18",
+      "actual_sha256": "2986154b9a159bcb1939519a0edf5106d5a75e415d52acdb4d8031878b1f1f18",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/pages/AdminPage.tsx"
+    },
+    "apps/web/src/pages/operations-model.ts": {
+      "recorded_sha256": "d10fccb91693ae17dc87e60ac68797f25758353ef897e8d9fe7218c9e384ccdb",
+      "actual_sha256": "d10fccb91693ae17dc87e60ac68797f25758353ef897e8d9fe7218c9e384ccdb",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/pages/operations-model.ts"
+    },
+    "apps/web/src/pages/OperationsPanels.tsx": {
+      "recorded_sha256": "3937331b657d81af892d20e87a1cb87fd58a2c1f1c98fe7aeeac034df1365d4d",
+      "actual_sha256": "3937331b657d81af892d20e87a1cb87fd58a2c1f1c98fe7aeeac034df1365d4d",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/pages/OperationsPanels.tsx"
+    },
+    "apps/web/src/pages/ParticipantPages.tsx": {
+      "recorded_sha256": "58ef8a2bc337f538fa995c42e84139b3bbd446dfb3546a2488b199479998292c",
+      "actual_sha256": "58ef8a2bc337f538fa995c42e84139b3bbd446dfb3546a2488b199479998292c",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/pages/ParticipantPages.tsx"
+    },
+    "apps/web/src/pages/playtest-json.ts": {
+      "recorded_sha256": "9f630b20f14141299b04b1c4cd660fcbf57103e0a7ed4cc3a0a04e691cdfc061",
+      "actual_sha256": "9f630b20f14141299b04b1c4cd660fcbf57103e0a7ed4cc3a0a04e691cdfc061",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/pages/playtest-json.ts"
+    },
+    "apps/web/src/r3-ui.css": {
+      "recorded_sha256": "9e4d9cf2c5d595124958b64e3275f48ad4b0fc67dc2f650c4140160dbde192cd",
+      "actual_sha256": "9e4d9cf2c5d595124958b64e3275f48ad4b0fc67dc2f650c4140160dbde192cd",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/r3-ui.css"
+    },
+    "apps/web/src/repair-state/admission.ts": {
+      "recorded_sha256": "6646aac32305074bdd17db2fa1a8f215a548010936de34d6d89f2b16637166e7",
+      "actual_sha256": "6646aac32305074bdd17db2fa1a8f215a548010936de34d6d89f2b16637166e7",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/repair-state/admission.ts"
+    },
+    "apps/web/src/repair-state/redemption.ts": {
+      "recorded_sha256": "4fd5fff61400f9d4a97bd24df70e0071ab4f9989f2c0b2fc5f12430e8e618d03",
+      "actual_sha256": "4fd5fff61400f9d4a97bd24df70e0071ab4f9989f2c0b2fc5f12430e8e618d03",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/repair-state/redemption.ts"
+    },
+    "apps/web/src/repair-state/result-presentation.ts": {
+      "recorded_sha256": "a8321195f1af27020f31ad16681e94db18efe37dbec5e2da2d53ac9cd0904749",
+      "actual_sha256": "a8321195f1af27020f31ad16681e94db18efe37dbec5e2da2d53ac9cd0904749",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/repair-state/result-presentation.ts"
+    },
+    "apps/web/src/repair-state/VoucherScanner.tsx": {
+      "recorded_sha256": "a08b4623a2b04c0c5fa915721ac9bd1d350d58743b8485325b38d422e4e90a76",
+      "actual_sha256": "a08b4623a2b04c0c5fa915721ac9bd1d350d58743b8485325b38d422e4e90a76",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/repair-state/VoucherScanner.tsx"
+    },
+    "apps/web/src/styles.css": {
+      "recorded_sha256": "a380b9269ae915ebd0d06ad45d0e038a82668ba85d3d90b4b14df87cd9ff72bc",
+      "actual_sha256": "a380b9269ae915ebd0d06ad45d0e038a82668ba85d3d90b4b14df87cd9ff72bc",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/styles.css"
+    },
+    "apps/web/src/ui.tsx": {
+      "recorded_sha256": "9e00776ef7a2390aa6de65f57ae993b7f42f9c9afd06b06e5c151e9c1160dce6",
+      "actual_sha256": "9e00776ef7a2390aa6de65f57ae993b7f42f9c9afd06b06e5c151e9c1160dce6",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/ui.tsx"
+    },
+    "apps/web/src/visual-repair.css": {
+      "recorded_sha256": "b77e0b59d50cc6702c22ef5382f7109a567b9a7397982b4b9bf3805767b1ef7c",
+      "actual_sha256": "b77e0b59d50cc6702c22ef5382f7109a567b9a7397982b4b9bf3805767b1ef7c",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/src/visual-repair.css"
+    },
+    "packages/game-core/src/build.ts": {
+      "recorded_sha256": "92b924da11856d4d46586de8bd16aaa5597aad28a814b8120d3dd124eb0849fb",
+      "actual_sha256": "92b924da11856d4d46586de8bd16aaa5597aad28a814b8120d3dd124eb0849fb",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/packages/game-core/src/build.ts"
+    },
+    "packages/game-core/src/common.ts": {
+      "recorded_sha256": "d4c757339272c1a77ca9e277a6b1069666f4c9d22c933c6bae5ee3670d22d105",
+      "actual_sha256": "d4c757339272c1a77ca9e277a6b1069666f4c9d22c933c6bae5ee3670d22d105",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/packages/game-core/src/common.ts"
+    },
+    "packages/game-core/src/contracts/adapter.ts": {
+      "recorded_sha256": "e27a80cdeb51f5a91b8dfdff36f3857fda4042a61971e50a2ce8d651deab20dd",
+      "actual_sha256": "e27a80cdeb51f5a91b8dfdff36f3857fda4042a61971e50a2ce8d651deab20dd",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/packages/game-core/src/contracts/adapter.ts"
+    },
+    "packages/game-core/src/contracts/types.ts": {
+      "recorded_sha256": "bc7251cbb4f38fbf7d511f3f210f60ea90446826750a3922be43bc1738f0ef58",
+      "actual_sha256": "bc7251cbb4f38fbf7d511f3f210f60ea90446826750a3922be43bc1738f0ef58",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/packages/game-core/src/contracts/types.ts"
+    },
+    "packages/game-core/src/games.ts": {
+      "recorded_sha256": "b8f1f4cb542a660ecee661929c725693502b10347c441b075567d999e37629f5",
+      "actual_sha256": "b8f1f4cb542a660ecee661929c725693502b10347c441b075567d999e37629f5",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/packages/game-core/src/games.ts"
+    },
+    "packages/game-core/src/index.ts": {
+      "recorded_sha256": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+      "actual_sha256": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/packages/game-core/src/index.ts"
+    },
+    "packages/game-core/src/model.ts": {
+      "recorded_sha256": "e40ad79a5998873ef437334fac6d7946ba9f076c5b36555c00b37614990e6b4d",
+      "actual_sha256": "e40ad79a5998873ef437334fac6d7946ba9f076c5b36555c00b37614990e6b4d",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/packages/game-core/src/model.ts"
+    },
+    "packages/game-core/src/rules.ts": {
+      "recorded_sha256": "59d8fa6e607c9b1b35169ee4d79f3f555ed5c027ad7febb34cb460c10fca8f3d",
+      "actual_sha256": "59d8fa6e607c9b1b35169ee4d79f3f555ed5c027ad7febb34cb460c10fca8f3d",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/packages/game-core/src/rules.ts"
+    },
+    "packages/game-core/src/snapshots.ts": {
+      "recorded_sha256": "ce9b8c6fea5a968c2416b59d263790b8cc54d004944b3af502785f7cfcceb81c",
+      "actual_sha256": "ce9b8c6fea5a968c2416b59d263790b8cc54d004944b3af502785f7cfcceb81c",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/packages/game-core/src/snapshots.ts"
+    },
+    "apps/web/public/assets/asset-manifest.v1.json": {
+      "recorded_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+      "actual_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/public/assets/asset-manifest.v1.json"
+    },
+    "apps/web/public/assets/candidates/r3/manifest.json": {
+      "recorded_sha256": "4f0a870f96b8f40f8b2dd11ac4d4ef7f5b4b1c9d9203ecb03812008b057898ba",
+      "actual_sha256": "4f0a870f96b8f40f8b2dd11ac4d4ef7f5b4b1c9d9203ecb03812008b057898ba",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/apps/web/public/assets/candidates/r3/manifest.json"
+    },
+    "config/game_rules.v2.1.json": {
+      "recorded_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "actual_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "historical_snapshot_path": ".local/r3-B3-4f0a870f-source/config/game_rules.v2.1.json"
+    }
+  },
+  "immutable_checkpoint_bindings": [
+    {
+      "path": "apps/web/public/assets/asset-manifest.v1.json",
+      "checkpoint_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+      "actual_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+      "unchanged": true
+    },
+    {
+      "path": "config/game_rules.v2.1.json",
+      "checkpoint_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "actual_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "unchanged": true
+    },
+    {
+      "path": "package-lock.json",
+      "checkpoint_sha256": "8153a55cf49dae3c114ac28def76d0c308795b0b99572de3469b3e23a7226f46",
+      "actual_sha256": "8153a55cf49dae3c114ac28def76d0c308795b0b99572de3469b3e23a7226f46",
+      "unchanged": true
+    },
+    {
+      "path": "package.json",
+      "checkpoint_sha256": "637df202ad0e1083f37a4742527a498369c23a213e41e661f7837892b18b6b9e",
+      "actual_sha256": "637df202ad0e1083f37a4742527a498369c23a213e41e661f7837892b18b6b9e",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/openapi.yaml",
+      "checkpoint_sha256": "76e3f54fcae9f308fc764981096cdb5b99e1864de643a725769847e52bbf6a2f",
+      "actual_sha256": "76e3f54fcae9f308fc764981096cdb5b99e1864de643a725769847e52bbf6a2f",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/package.json",
+      "checkpoint_sha256": "4191ea1dccbb1892dbae369fa611429638862b4441eb42f92e0355767673a9c9",
+      "actual_sha256": "4191ea1dccbb1892dbae369fa611429638862b4441eb42f92e0355767673a9c9",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/src/generated/api-types.ts",
+      "checkpoint_sha256": "8e8b1c4f075be9b563dfa158bda731bfe74fe4e04146d529ac730844e89e0b38",
+      "actual_sha256": "8e8b1c4f075be9b563dfa158bda731bfe74fe4e04146d529ac730844e89e0b38",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/src/generated/schemas.ts",
+      "checkpoint_sha256": "acbaf5d64888ceadb4b0f9cac555ced1dc0d4a5980cef232563e012b7c13d0ef",
+      "actual_sha256": "acbaf5d64888ceadb4b0f9cac555ced1dc0d4a5980cef232563e012b7c13d0ef",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/src/index.ts",
+      "checkpoint_sha256": "c8342bfd4d468d8f919782e7dbd58ce1dd5b8183b5d2a88531fed17626435588",
+      "actual_sha256": "c8342bfd4d468d8f919782e7dbd58ce1dd5b8183b5d2a88531fed17626435588",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/package.json",
+      "checkpoint_sha256": "d1f47c1627f47e057b01e41edc06bb0323ac98bd85921befa5e73e82043d5c28",
+      "actual_sha256": "d1f47c1627f47e057b01e41edc06bb0323ac98bd85921befa5e73e82043d5c28",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/build.ts",
+      "checkpoint_sha256": "92b924da11856d4d46586de8bd16aaa5597aad28a814b8120d3dd124eb0849fb",
+      "actual_sha256": "92b924da11856d4d46586de8bd16aaa5597aad28a814b8120d3dd124eb0849fb",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/common.ts",
+      "checkpoint_sha256": "d4c757339272c1a77ca9e277a6b1069666f4c9d22c933c6bae5ee3670d22d105",
+      "actual_sha256": "d4c757339272c1a77ca9e277a6b1069666f4c9d22c933c6bae5ee3670d22d105",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/contracts/adapter.ts",
+      "checkpoint_sha256": "e27a80cdeb51f5a91b8dfdff36f3857fda4042a61971e50a2ce8d651deab20dd",
+      "actual_sha256": "e27a80cdeb51f5a91b8dfdff36f3857fda4042a61971e50a2ce8d651deab20dd",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/contracts/types.ts",
+      "checkpoint_sha256": "bc7251cbb4f38fbf7d511f3f210f60ea90446826750a3922be43bc1738f0ef58",
+      "actual_sha256": "bc7251cbb4f38fbf7d511f3f210f60ea90446826750a3922be43bc1738f0ef58",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/games.ts",
+      "checkpoint_sha256": "b8f1f4cb542a660ecee661929c725693502b10347c441b075567d999e37629f5",
+      "actual_sha256": "b8f1f4cb542a660ecee661929c725693502b10347c441b075567d999e37629f5",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/index.ts",
+      "checkpoint_sha256": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+      "actual_sha256": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/model.ts",
+      "checkpoint_sha256": "e40ad79a5998873ef437334fac6d7946ba9f076c5b36555c00b37614990e6b4d",
+      "actual_sha256": "e40ad79a5998873ef437334fac6d7946ba9f076c5b36555c00b37614990e6b4d",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/rules.ts",
+      "checkpoint_sha256": "59d8fa6e607c9b1b35169ee4d79f3f555ed5c027ad7febb34cb460c10fca8f3d",
+      "actual_sha256": "59d8fa6e607c9b1b35169ee4d79f3f555ed5c027ad7febb34cb460c10fca8f3d",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/snapshots.ts",
+      "checkpoint_sha256": "ce9b8c6fea5a968c2416b59d263790b8cc54d004944b3af502785f7cfcceb81c",
+      "actual_sha256": "ce9b8c6fea5a968c2416b59d263790b8cc54d004944b3af502785f7cfcceb81c",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/test/core.test.ts",
+      "checkpoint_sha256": "0ac4dd81cb56598fd8ca8f2166e6004552d037613707638d0d20736387608b77",
+      "actual_sha256": "0ac4dd81cb56598fd8ca8f2166e6004552d037613707638d0d20736387608b77",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/test/differential.test.ts",
+      "checkpoint_sha256": "ab68470893e8549574a3970a1471be902f49d9164f1f2783aacc49c0ad761bce",
+      "actual_sha256": "ab68470893e8549574a3970a1471be902f49d9164f1f2783aacc49c0ad761bce",
+      "unchanged": true
+    }
+  ],
+  "product_writes": false,
+  "browser_executed_by_reviewer": false,
+  "git_or_dependency_operations": false,
+  "model_configuration_evidence": "Parent reported inspection of .codex/config.toml model and agents defaults as gpt-6.1-sol / high; reviewer does not claim server-side runtime identity proof.",
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "S3": "NOT_READY; explicit user gate"
+}

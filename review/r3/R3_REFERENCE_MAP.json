@@ -1,0 +1,134 @@
+{
+  "version": "R3.0",
+  "recorded_at_utc": "2026-10-28T00:14:18.237602+00:00",
+  "status": "CURRENT_CANDIDATE_ART_PARTIAL_NO_NEW_GOLDEN",
+  "references": [
+    {
+      "game": "lobby",
+      "path": "design/prototypes/00_lobby.png",
+      "sha256": "ceada23aecff09c5c4e14ebfcf10a2a8cf171c1054ad861b5216d71e74da31f1",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2013462,
+      "reference_version": "original_V2.2_delivery",
+      "purpose": "Default lobby visual regression reference, actual pixels opened by root",
+      "actual_pixels_opened_by_root": true,
+      "actual_pixels_opened_by_independent_reviewer": false,
+      "accepted_new_golden": false
+    },
+    {
+      "game": "stack",
+      "path": "design/prototypes/01_stack.png",
+      "sha256": "94651ed5e2ca9039cc397c11395c31205f3b57ee0bd65858a45093d6ebe57652",
+      "width": 941,
+      "height": 1671,
+      "bytes": 1996208,
+      "reference_version": "original_V2.2_delivery",
+      "purpose": "Original whole-screen stacking art reference",
+      "actual_pixels_opened_by_root": true,
+      "actual_pixels_opened_by_independent_reviewer": true,
+      "accepted_new_golden": false
+    },
+    {
+      "game": "runner",
+      "path": "design/prototypes/02_runner.png",
+      "sha256": "62358c3c1cf36921266292f9747c514683f994fb1ed7c15254c29b3b98554a85",
+      "width": 941,
+      "height": 1672,
+      "bytes": 1979171,
+      "reference_version": "original_V2.2_delivery",
+      "purpose": "Original whole-screen running art reference",
+      "actual_pixels_opened_by_root": true,
+      "actual_pixels_opened_by_independent_reviewer": true,
+      "accepted_new_golden": false
+    },
+    {
+      "game": "herd",
+      "path": "design/prototypes/03_herd.png",
+      "sha256": "754351c13b62debd71fa342e9e1e366f9b34b0be7e35ae3b0d5af27494d8c50a",
+      "width": 941,
+      "height": 1672,
+      "bytes": 2229792,
+      "reference_version": "original_V2.2_delivery",
+      "purpose": "Original whole-screen herding art reference",
+      "actual_pixels_opened_by_root": true,
+      "actual_pixels_opened_by_independent_reviewer": true,
+      "accepted_new_golden": false
+    },
+    {
+      "game": "shared_character",
+      "path": "design/character_foundation_board.png",
+      "sha256": "836bf1f94e122bd5c98868b02d8577f2e8ea16d8acdce234094969e7510b1539",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1543000,
+      "reference_version": "original_V2.2_delivery",
+      "purpose": "Shared sheep identity; six views/poses; not sprite atlas",
+      "actual_pixels_opened_by_root": true,
+      "actual_pixels_opened_by_independent_reviewer": true,
+      "accepted_new_golden": false
+    }
+  ],
+  "verified_geometry": {
+    "unit": "one reference pixel = 1000 U; geometry read from unique config, not derived from artwork",
+    "seeds": {
+      "stack": 1,
+      "runner": 1,
+      "herd": 47
+    },
+    "stack": {
+      "world": [
+        360.0,
+        480.0
+      ],
+      "tray_width": 112.0,
+      "layer_height": 44.0
+    },
+    "runner": {
+      "world": [
+        360.0,
+        220.0
+      ],
+      "ground_y": 180.0,
+      "obstacle_widths": [
+        8.0,
+        18.0,
+        28.0
+      ],
+      "grass_diameters": [
+        9.0,
+        3.0
+      ]
+    },
+    "herd": {
+      "world": [
+        360.0,
+        420.0
+      ],
+      "fence_y": 76.0,
+      "gate_open_x": [
+        144.0,
+        216.0
+      ],
+      "sheep_center_gate_x": [
+        154.0,
+        206.0
+      ],
+      "in_pen_center_y_max": 66.0
+    }
+  },
+  "source_rule_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+  "visual_layers": "review/r3/DIFFERENCES.md",
+  "geometry_overlays": [
+    "output/r3-20261028/comparisons/stack-geometry.png",
+    "output/r3-20261028/comparisons/runner-geometry.png",
+    "output/r3-20261028/comparisons/herd-geometry.png"
+  ],
+  "geometry_overlays_status": "GENERATED_FROM_CURRENT_CAPTURE_AND_SHARED_CORE; explanatory not art acceptance",
+  "new_candidates": [
+    "review/r3/ASSET_MOTION_COVERAGE.json"
+  ],
+  "user_signoff": null,
+  "current_candidate": "R3-B4-C-sample-a",
+  "current_candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb"
+}

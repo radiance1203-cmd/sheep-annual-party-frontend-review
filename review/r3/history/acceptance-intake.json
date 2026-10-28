@@ -1,0 +1,58 @@
+{
+  "version": "R3.0",
+  "status": "INTAKE_ONLY_BLOCKED",
+  "candidate_assets": [],
+  "gamepage_screenshots": [],
+  "geometry_overlays": [],
+  "realtime_videos": [],
+  "accepted_differences": [],
+  "sample_signoff": null,
+  "final_signoff": null,
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "coverage": {
+    "stack": {
+      "ready": "NOT_RUN",
+      "tutorial": "NOT_RUN",
+      "running": "NOT_RUN",
+      "full_motion": "NOT_RUN"
+    },
+    "runner": {
+      "ready": "NOT_RUN",
+      "tutorial": "NOT_RUN",
+      "running": "NOT_RUN",
+      "full_motion": "NOT_RUN"
+    },
+    "herd": {
+      "ready": "NOT_RUN",
+      "tutorial": "NOT_RUN",
+      "running": "NOT_RUN",
+      "full_motion": "NOT_RUN"
+    }
+  },
+  "viewport_targets": [
+    [
+      320,
+      568
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      430,
+      932
+    ]
+  ],
+  "dpr_targets": [
+    1,
+    2,
+    3
+  ],
+  "actual_dpr_cap": null,
+  "physical_devices": "NOT_RUN",
+  "human24_216": "NOT_RUN",
+  "onsite": "NOT_RUN",
+  "new_technical_test_suite": "NOT_RUN",
+  "historical_test_counts_are_not_r3_results": true
+}

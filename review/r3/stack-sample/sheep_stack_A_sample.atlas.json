@@ -1,0 +1,691 @@
+{
+  "schema_version": "atlas-1.0",
+  "asset_id": "r3.sheep.stack.A.feasibility",
+  "image": "sheep_stack_A_sample.atlas.png",
+  "size_px": [
+    1024,
+    512
+  ],
+  "camera_id": "side_v1",
+  "source_frames_native": [
+    512,
+    512
+  ],
+  "common_trim": [
+    168,
+    130,
+    360,
+    266
+  ],
+  "pivot_source_px": [
+    256.0,
+    256.0001525878906
+  ],
+  "frames": {
+    "stack_idle__e__f000": {
+      "rect": [
+        0,
+        0,
+        192,
+        136
+      ],
+      "source_size": [
+        512,
+        512
+      ],
+      "sprite_source_rect": [
+        168,
+        130,
+        192,
+        136
+      ],
+      "trimmed": true,
+      "rotated": false,
+      "pivot_px": [
+        88.0,
+        126.00015258789062
+      ],
+      "alpha_bbox_source": [
+        175,
+        144,
+        341,
+        260
+      ],
+      "alpha_bbox_frame": [
+        7,
+        14,
+        166,
+        116
+      ],
+      "foot_plane_world_z": 0.0,
+      "source_sha256": "ac272a9a718cb71dae42e76b280a5fb52796bf4b7bd9c8c74cdfb3ca6d26d5e5",
+      "world_size_at_shared_fit40": [
+        52.6984,
+        36.8254
+      ]
+    },
+    "stack_idle__e__f001": {
+      "rect": [
+        192,
+        0,
+        192,
+        136
+      ],
+      "source_size": [
+        512,
+        512
+      ],
+      "sprite_source_rect": [
+        168,
+        130,
+        192,
+        136
+      ],
+      "trimmed": true,
+      "rotated": false,
+      "pivot_px": [
+        88.0,
+        126.00015258789062
+      ],
+      "alpha_bbox_source": [
+        174,
+        142,
+        341,
+        260
+      ],
+      "alpha_bbox_frame": [
+        6,
+        12,
+        167,
+        118
+      ],
+      "foot_plane_world_z": 0.0,
+      "source_sha256": "f200faeaa3b7072ac5de5f8485fb0cc69ecbbc8a871fdca1405b581a43813181",
+      "world_size_at_shared_fit40": [
+        53.0159,
+        37.4603
+      ]
+    },
+    "stack_idle__e__f002": {
+      "rect": [
+        384,
+        0,
+        192,
+        136
+      ],
+      "source_size": [
+        512,
+        512
+      ],
+      "sprite_source_rect": [
+        168,
+        130,
+        192,
+        136
+      ],
+      "trimmed": true,
+      "rotated": false,
+      "pivot_px": [
+        88.0,
+        126.00015258789062
+      ],
+      "alpha_bbox_source": [
+        175,
+        144,
+        341,
+        260
+      ],
+      "alpha_bbox_frame": [
+        7,
+        14,
+        166,
+        116
+      ],
+      "foot_plane_world_z": 0.0,
+      "source_sha256": "57dd563a98f3b25205ed7f1528fea104a180b5f607596e0839cbc721c8948aef",
+      "world_size_at_shared_fit40": [
+        52.6984,
+        36.8254
+      ]
+    },
+    "stack_idle__e__f003": {
+      "rect": [
+        576,
+        0,
+        192,
+        136
+      ],
+      "source_size": [
+        512,
+        512
+      ],
+      "sprite_source_rect": [
+        168,
+        130,
+        192,
+        136
+      ],
+      "trimmed": true,
+      "rotated": false,
+      "pivot_px": [
+        88.0,
+        126.00015258789062
+      ],
+      "alpha_bbox_source": [
+        176,
+        146,
+        342,
+        260
+      ],
+      "alpha_bbox_frame": [
+        8,
+        16,
+        166,
+        114
+      ],
+      "foot_plane_world_z": 0.0,
+      "source_sha256": "46c913ec068ef4f05345a9b63052cfcb2e0f6340cc6f47c0fcf66613277b7606",
+      "world_size_at_shared_fit40": [
+        52.6984,
+        36.1905
+      ]
+    },
+    "stack_air__e__f000": {
+      "rect": [
+        768,
+        0,
+        192,
+        136
+      ],
+      "source_size": [
+        512,
+        512
+      ],
+      "sprite_source_rect": [
+        168,
+        130,
+        192,
+        136
+      ],
+      "trimmed": true,
+      "rotated": false,
+      "pivot_px": [
+        88.0,
+        126.00015258789062
+      ],
+      "alpha_bbox_source": [
+        175,
+        134,
+        338,
+        257
+      ],
+      "alpha_bbox_frame": [
+        7,
+        4,
+        163,
+        123
+      ],
+      "foot_plane_world_z": -0.0,
+      "source_sha256": "9befb0c2041db3e0fcb35fc08f39c76f684d36e095b1e8a7ceee7f8e5edd790f",
+      "world_size_at_shared_fit40": [
+        51.746,
+        39.0476
+      ]
+    },
+    "stack_air__e__f001": {
+      "rect": [
+        0,
+        136,
+        192,
+        136
+      ],
+      "source_size": [
+        512,
+        512
+      ],
+      "sprite_source_rect": [
+        168,
+        130,
+        192,
+        136
+      ],
+      "trimmed": true,
+      "rotated": false,
+      "pivot_px": [
+        88.0,
+        126.00015258789062
+      ],
+      "alpha_bbox_source": [
+        175,
+        144,
+        343,
+        259
+      ],
+      "alpha_bbox_frame": [
+        7,
+        14,
+        168,
+        115
+      ],
+      "foot_plane_world_z": -0.0,
+      "source_sha256": "bd84e3c69e1197d49f3fbbcee5e1388ac7909fde7151644c617b0d1e5208d1bd",
+      "world_size_at_shared_fit40": [
+        53.3333,
+        36.5079
+      ]
+    },
+    "stack_steady__e__f000": {
+      "rect": [
+        192,
+        136,
+        192,
+        136
+      ],
+      "source_size": [
+        512,
+        512
+      ],
+      "sprite_source_rect": [
+        168,
+        130,
+        192,
+        136
+      ],
+      "trimmed": true,
+      "rotated": false,
+      "pivot_px": [
+        88.0,
+        126.00015258789062
+      ],
+      "alpha_bbox_source": [
+        172,
+        146,
+        337,
+        258
+      ],
+      "alpha_bbox_frame": [
+        4,
+        16,
+        165,
+        112
+      ],
+      "foot_plane_world_z": 0.0,
+      "source_sha256": "eecd2edecac36c545c942f3a5f14e06e2eac323c988f83867d00c10616bb8445",
+      "world_size_at_shared_fit40": [
+        52.381,
+        35.5556
+      ]
+    },
+    "stack_steady__e__f001": {
+      "rect": [
+        384,
+        136,
+        192,
+        136
+      ],
+      "source_size": [
+        512,
+        512
+      ],
+      "sprite_source_rect": [
+        168,
+        130,
+        192,
+        136
+      ],
+      "trimmed": true,
+      "rotated": false,
+      "pivot_px": [
+        88.0,
+        126.00015258789062
+      ],
+      "alpha_bbox_source": [
+        173,
+        145,
+        340,
+        259
+      ],
+      "alpha_bbox_frame": [
+        5,
+        15,
+        167,
+        114
+      ],
+      "foot_plane_world_z": 0.0,
+      "source_sha256": "578b3aac41dcde36e289c77f11a1fb056fcb694b1c536ed1bcc37fc7a93f33ee",
+      "world_size_at_shared_fit40": [
+        53.0159,
+        36.1905
+      ]
+    },
+    "stack_steady__e__f002": {
+      "rect": [
+        576,
+        136,
+        192,
+        136
+      ],
+      "source_size": [
+        512,
+        512
+      ],
+      "sprite_source_rect": [
+        168,
+        130,
+        192,
+        136
+      ],
+      "trimmed": true,
+      "rotated": false,
+      "pivot_px": [
+        88.0,
+        126.00015258789062
+      ],
+      "alpha_bbox_source": [
+        175,
+        142,
+        342,
+        259
+      ],
+      "alpha_bbox_frame": [
+        7,
+        12,
+        167,
+        117
+      ],
+      "foot_plane_world_z": 0.0,
+      "source_sha256": "d41865b83c9c2911b760881950182602044fc47dfc48628724772ca05cdcbdb9",
+      "world_size_at_shared_fit40": [
+        53.0159,
+        37.1429
+      ]
+    },
+    "stack_steady__e__f003": {
+      "rect": [
+        768,
+        136,
+        192,
+        136
+      ],
+      "source_size": [
+        512,
+        512
+      ],
+      "sprite_source_rect": [
+        168,
+        130,
+        192,
+        136
+      ],
+      "trimmed": true,
+      "rotated": false,
+      "pivot_px": [
+        88.0,
+        126.00015258789062
+      ],
+      "alpha_bbox_source": [
+        175,
+        144,
+        341,
+        260
+      ],
+      "alpha_bbox_frame": [
+        7,
+        14,
+        166,
+        116
+      ],
+      "foot_plane_world_z": 0.0,
+      "source_sha256": "16b09d1bcf0924e97a072d9937294cc25b7eee470868e329d40f5411be4031a4",
+      "world_size_at_shared_fit40": [
+        52.6984,
+        36.8254
+      ]
+    },
+    "stack_celebrate__e__f000": {
+      "rect": [
+        0,
+        272,
+        192,
+        136
+      ],
+      "source_size": [
+        512,
+        512
+      ],
+      "sprite_source_rect": [
+        168,
+        130,
+        192,
+        136
+      ],
+      "trimmed": true,
+      "rotated": false,
+      "pivot_px": [
+        88.0,
+        126.00015258789062
+      ],
+      "alpha_bbox_source": [
+        175,
+        141,
+        341,
+        260
+      ],
+      "alpha_bbox_frame": [
+        7,
+        11,
+        166,
+        119
+      ],
+      "foot_plane_world_z": 0.0,
+      "source_sha256": "05014acef10bcd051a8a310f9ba8e2fa5e645c0003a556e72d1682b4ff07a786",
+      "world_size_at_shared_fit40": [
+        52.6984,
+        37.7778
+      ]
+    },
+    "stack_celebrate__e__f001": {
+      "rect": [
+        192,
+        272,
+        192,
+        136
+      ],
+      "source_size": [
+        512,
+        512
+      ],
+      "sprite_source_rect": [
+        168,
+        130,
+        192,
+        136
+      ],
+      "trimmed": true,
+      "rotated": false,
+      "pivot_px": [
+        88.0,
+        126.00015258789062
+      ],
+      "alpha_bbox_source": [
+        175,
+        140,
+        329,
+        260
+      ],
+      "alpha_bbox_frame": [
+        7,
+        10,
+        154,
+        120
+      ],
+      "foot_plane_world_z": 0.0,
+      "source_sha256": "a565e517750da05603be6829b90c50846b9bf4fb341a328d262a4e3ca292c77c",
+      "world_size_at_shared_fit40": [
+        48.8889,
+        38.0952
+      ]
+    },
+    "stack_celebrate__e__f002": {
+      "rect": [
+        384,
+        272,
+        192,
+        136
+      ],
+      "source_size": [
+        512,
+        512
+      ],
+      "sprite_source_rect": [
+        168,
+        130,
+        192,
+        136
+      ],
+      "trimmed": true,
+      "rotated": false,
+      "pivot_px": [
+        88.0,
+        126.00015258789062
+      ],
+      "alpha_bbox_source": [
+        175,
+        141,
+        341,
+        260
+      ],
+      "alpha_bbox_frame": [
+        7,
+        11,
+        166,
+        119
+      ],
+      "foot_plane_world_z": 0.0,
+      "source_sha256": "fb29e56f11c833ebff65ab67776a24f29f39c78131231e724d3055d7ffd8a19b",
+      "world_size_at_shared_fit40": [
+        52.6984,
+        37.7778
+      ]
+    },
+    "stack_celebrate__e__f003": {
+      "rect": [
+        576,
+        272,
+        192,
+        136
+      ],
+      "source_size": [
+        512,
+        512
+      ],
+      "sprite_source_rect": [
+        168,
+        130,
+        192,
+        136
+      ],
+      "trimmed": true,
+      "rotated": false,
+      "pivot_px": [
+        88.0,
+        126.00015258789062
+      ],
+      "alpha_bbox_source": [
+        175,
+        143,
+        354,
+        259
+      ],
+      "alpha_bbox_frame": [
+        7,
+        13,
+        179,
+        116
+      ],
+      "foot_plane_world_z": -0.0,
+      "source_sha256": "d519caab70e235d15e19815c0edbba6e71a9d8b57c46eb6b0aae0514b4168a59",
+      "world_size_at_shared_fit40": [
+        56.8254,
+        36.8254
+      ]
+    }
+  },
+  "animations": {
+    "stack_idle.e": {
+      "frames": [
+        "stack_idle__e__f000",
+        "stack_idle__e__f001",
+        "stack_idle__e__f002",
+        "stack_idle__e__f003"
+      ],
+      "fps": 8,
+      "loop": true
+    },
+    "stack_air.e": {
+      "frames": [
+        "stack_air__e__f000",
+        "stack_air__e__f001"
+      ],
+      "fps": 6,
+      "loop": true
+    },
+    "stack_steady.e": {
+      "frames": [
+        "stack_steady__e__f000",
+        "stack_steady__e__f001",
+        "stack_steady__e__f002",
+        "stack_steady__e__f003"
+      ],
+      "fps": 15,
+      "loop": false
+    },
+    "stack_celebrate.e": {
+      "frames": [
+        "stack_celebrate__e__f000",
+        "stack_celebrate__e__f001",
+        "stack_celebrate__e__f002",
+        "stack_celebrate__e__f003"
+      ],
+      "fps": 12,
+      "loop": true
+    }
+  },
+  "shared_world_fit": {
+    "max_actor_height": 40,
+    "source_union_alpha_height": 126,
+    "source_union_alpha_width": 182,
+    "world_units_per_source_px": 0.31746031746031744,
+    "layer44_tray112_conflict": true,
+    "prototype_width_accepted": false
+  },
+  "production_art_accepted": false,
+  "sample_art_accepted": false,
+  "master": "art-source/r3/stack-sample/sheep_stack_A_motion_sample.blend",
+  "master_sha256": "5276dbced072e3a18b1b56b1ecfdb4ddea0569baa9d2f7743841ea204d052a9e",
+  "missing": [
+    "dedicated stack_miss animation NOT_DONE",
+    "separate perfect-specific animation NOT_DONE; celebration first beat only limited feasibility reaction",
+    "anatomical sheep-tail motion NOT_DONE",
+    "ear motion implemented in celebration only; idle ear flutter NOT_DONE",
+    "full three-game action production NOT_DONE",
+    "prototype-width geometry acceptance BLOCKED"
+  ],
+  "objectspace_floor_projection_source_px": [
+    256.0,
+    256.0001525878906
+  ],
+  "safe_visual_foot_anchor_source_px": [
+    256.0,
+    260
+  ],
+  "safe_visual_foot_anchor_trimmed_px": [
+    88.0,
+    130
+  ],
+  "alpha_bottom_source_y_range": [
+    257,
+    260
+  ],
+  "pivot_note": "pivot_px remains projected immutable object-space floor origin. Oblique camera/depth leaves alpha up to4px below that projection. For a screen-space tray safe anchor use the separately provided constant safe_visual_foot_anchor; never scale each frame separately."
+}

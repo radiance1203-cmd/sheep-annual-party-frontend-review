@@ -1,0 +1,40 @@
+{
+  "scope": "R3 safe frontend export; not art/physical phone acceptance",
+  "typecheck": {
+    "exit_code": 0
+  },
+  "web_build": {
+    "exit_code": 0,
+    "warning": "Phaser chunk exceeds500kB; no performance claim"
+  },
+  "core_web_tests": {
+    "exit_code": 0,
+    "files": 16,
+    "tests": 283
+  },
+  "contracts_check": {
+    "exit_code": 0
+  },
+  "rules_check": {
+    "exit_code": 0
+  },
+  "current_document_links": {
+    "checked": 112,
+    "missing": []
+  },
+  "candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+  "production_manifest_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "S3": "NOT_READY",
+  "legacy_diagnostic_provenance": "Existing byte mismatch at prior base, not caused only by CRLF; marked adapted. Historical file unchanged.",
+  "staged_blob_verification": {
+    "selected_files": 325,
+    "captured_source_files": 48,
+    "status": "PASS"
+  },
+  "whitespace_check": {
+    "result": "WARN_RECORDED",
+    "details": "Raw verification logs retain trailing/EOF whitespace; three native art recipe exports retain final blank line. No production frontend whitespace error; preserve source/evidence bytes rather than rewrite recorded inputs."
+  }
+}

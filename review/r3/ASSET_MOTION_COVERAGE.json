@@ -1,0 +1,87 @@
+{
+  "candidate_id": "R3-B4-C-sample-a",
+  "candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "backgrounds": {
+    "stack": {
+      "image": "page-stack-b2.png",
+      "sha256": "a5b50f5c9051711b29b8fd0fdfc0123d09f88f2bf297d033d44560161fef1329",
+      "size_px": [
+        863,
+        1823
+      ],
+      "anchor_fraction": 0.82,
+      "role": "pure non-interactive portrait page scenery; no canvas projection/input/actor changes"
+    },
+    "runner": {
+      "image": "page-runner-b2.png",
+      "sha256": "ed0fcfe5661fa9d4e0511406f000440dabeba8c4096178fdbf3ba66ee889655f",
+      "size_px": [
+        863,
+        1823
+      ],
+      "anchor_fraction": 0.68,
+      "role": "pure non-interactive portrait page scenery; no canvas projection/input/actor changes"
+    },
+    "herd": {
+      "image": "page-herd-b2.png",
+      "sha256": "6830f7f2fc71d5e4a4d708476eecbec87496bd76f3302ce8f45abb3618b5521b",
+      "size_px": [
+        863,
+        1822
+      ],
+      "anchor_fraction": 0.3,
+      "role": "pure non-interactive portrait page scenery; no canvas projection/input/actor changes"
+    }
+  },
+  "title": {
+    "title": {
+      "image": "title-plaque-a.png",
+      "sha256": "f03c17db0f82593149f9f4beeee9217f74e44e5ecb0e61b3f9f7e0a77eeb6210",
+      "size_px": [
+        2172,
+        724
+      ],
+      "role": "blank carved wood plaque; semantic titles remain HTML; no gameplay geometry"
+    }
+  },
+  "fence": {
+    "image": "fence-panel-b3.png",
+    "image_sha256": "ac43358d8de51550c3bfb6257b0c8d31ea9734fc94eba8c5543e6d4d24232e80",
+    "metadata": "fence-panel-b4.atlas.json",
+    "metadata_sha256": "121f930a0c11c0b7f1452c704ed5fd2508806f1de7b0fb15b819a50ce4580593",
+    "role": "native raster material windows with shared individual posts/rails, clipped to unchanged blocked core segments; candidate, not final 3D source"
+  },
+  "stack_sample": {
+    "image": "stack-motion-a.png",
+    "image_sha256": "d1f6650adf600658aaac113f7ff902019b6c7280b520caecb417356cc21b9819",
+    "metadata": "stack-motion-a.atlas.json",
+    "metadata_sha256": "04a7e580c3b37567734670479df0dbce3f19951f03dd198f4c76e3eda22836ef",
+    "native_alpha_height": 126,
+    "uniform_world_scale": 0.2857142857142857,
+    "visual_budget": "36 high sheep +2 clear +6 tray =44 layer; actual sheep width52 not prototype112; unresolved difference, not new golden"
+  },
+  "native_master": "art-source/r3/stack-sample/sheep_stack_A_motion_sample.blend",
+  "native_master_sha256": "5276dbced072e3a18b1b56b1ecfdb4ddea0569baa9d2f7743841ea204d052a9e",
+  "native_source_G4_unchanged": true,
+  "new_stack_actions": {
+    "stack_idle": "4 frames: breath/blink",
+    "stack_air": "2 frames",
+    "stack_steady": "4 frames: compression/rebound/settle",
+    "stack_celebrate": "4 frames",
+    "dedicated_perfect": "NOT_DONE",
+    "dedicated_miss": "NOT_DONE",
+    "idle_ear_and_anatomical_tail": "NOT_DONE"
+  },
+  "runner_characters": "OLD_V4_REUSED_PENDING_REPLACEMENT",
+  "herd_sheep_dog": "OLD_V4_REUSED_PENDING_REPLACEMENT",
+  "remaining_interactive_props": "OLD_V4_REUSED_PENDING_REFINEMENT",
+  "environment_dynamic_layers": "NOT_DONE static portrait plates only",
+  "rule_conflicts": [
+    "112/44 stack: maximum implemented character52wide at36high plus2gap+6tray, prototype ratio unresolved",
+    "runner8/18/28 and grass9/3 retained; illustrative prototype larger",
+    "herd y76 and gate144..216 retained; prototype central-perspective gate not adopted"
+  ],
+  "gates": "No bulk actions/mothers or production registration before complete explicit S3 signoff"
+}

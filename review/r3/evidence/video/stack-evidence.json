@@ -1,0 +1,2559 @@
+{
+  "game": "stack",
+  "candidate": {
+    "candidateId": "R3-B4-C-sample-a",
+    "scope": "R3 continuous full-page scenery/live UI; one legal same-master stack motion sample; bounded static fence material sample; runner/herd characters and remaining interactive props still v4 pending replacement",
+    "manifestSha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+    "sampleArtAccepted": false,
+    "productionArtAccepted": false,
+    "stackGeometryConstraint": "36 high sheep +2 clear +6 tray =44 layer; actual sheep width52 not prototype112; unresolved difference, not new golden",
+    "pageAnchors": {
+      "stack": {
+        "image": "page-stack-b2.png",
+        "sha256": "a5b50f5c9051711b29b8fd0fdfc0123d09f88f2bf297d033d44560161fef1329",
+        "size_px": [
+          863,
+          1823
+        ],
+        "anchor_fraction": 0.82
+      },
+      "runner": {
+        "image": "page-runner-b2.png",
+        "sha256": "ed0fcfe5661fa9d4e0511406f000440dabeba8c4096178fdbf3ba66ee889655f",
+        "size_px": [
+          863,
+          1823
+        ],
+        "anchor_fraction": 0.68
+      },
+      "herd": {
+        "image": "page-herd-b2.png",
+        "sha256": "6830f7f2fc71d5e4a4d708476eecbec87496bd76f3302ce8f45abb3618b5521b",
+        "size_px": [
+          863,
+          1822
+        ],
+        "anchor_fraction": 0.3
+      }
+    }
+  },
+  "videoPath": "output/r3-20261028/video/stack-real-gamepage-fullspeed.webm",
+  "videoSha256": "9484357f3e3607202d699aa54854c80ed767728af2bc809f871b2a04b2fb9fe6",
+  "processPath": "output/r3-20261028/video/stack-actual-practice-process.json",
+  "processSha256": "437fa726728d39dd87db1995fd98a4f43cc6e5ec53eb5227ebd2d7991911716f",
+  "hashes": {
+    "apps/web/src/api.ts": "916568ee63fc62d43274dfeb676fa86efdfe4f2b7a54a6992ad3db529ec865f3",
+    "apps/web/src/App.tsx": "39b8ce1569238d315e8743145b69b84657a9cc0e9c5278dd865827216f2ea034",
+    "apps/web/src/game/assets.test.ts": "0de08bba494fcc7bcb097a4bff2d5cd98d9641e55c2674632d076c7a9bf07cae",
+    "apps/web/src/game/assets.ts": "703a8ef041f20802e6fef692d56cb5cb5f6586b4e4e0cde4cec4c44c6f99e9ab",
+    "apps/web/src/game/GamePage.tsx": "65b046008002133df7864d93b3a1fbe344b2daf98974be99ac770ab93b14ae83",
+    "apps/web/src/game/keyboard.ts": "62d91939374a970eb2eaafc73bedb88e4d5facb02d96e5e30ed4468b38ed437a",
+    "apps/web/src/game/presentation.test.ts": "47b3e7b77e93ed1b014324d1b873e4f6f09af8b6d7f38d42a9d0b550dc606709",
+    "apps/web/src/game/presentation.ts": "35a026ac74d28f7d7fe457c85f9b23c38ffad584836d181dd394f51b789a3262",
+    "apps/web/src/game/presenter-state.test.ts": "6e76f8ed3dbad01b9b6d31511045f78e04a0c453e3cd5ebbfe6bb96512f81ee6",
+    "apps/web/src/game/presenter-state.ts": "b016a2438f4b04e8d63a24ef04d89caa9bdb0b5800932c773ca3e2e7ac1b18bf",
+    "apps/web/src/game/r3-candidate.test.ts": "57f52eaa9d2cb6dfe07dfdfbd542bf02c65d7167ec2883441d552e5f03cb41fa",
+    "apps/web/src/game/r3-candidate.ts": "43eb90f1f7261bc2d6c12724287c7c703c70ac68ed214bae060654a73ea00518",
+    "apps/web/src/game/r3-scenery.test.ts": "d3fa56931b708ac94c0bc0246b7a841fc208afa262356138d9f2fa7c4745ffcf",
+    "apps/web/src/game/r3-scenery.ts": "6b7e48cb102826e65a5a676231764d7c6f6b643585f9df21d3c475e53aa52a41",
+    "apps/web/src/game/renderer.ts": "45270a303a7817d161852c735173785acbfbfb51545c46972ebfdd4e29b742ae",
+    "apps/web/src/game/storage.ts": "a89eb0b95f335eb7cc1fe64340d01020017b09e2936593d8203731a192c519c7",
+    "apps/web/src/game/timeline.ts": "52c1921e94170ed58908208a47a38c107283b65eee4040301a8a42ab2c8f802d",
+    "apps/web/src/game/tutorial-model.test.ts": "7990de56482d1997aa9b6edd344b759322696022d21a5464dee481aab8afbb0e",
+    "apps/web/src/game/tutorial-model.ts": "ac09fb030da3d22dfefbd20c2148084e1a9fc4dabfd38059e9feb2dac4c67cf1",
+    "apps/web/src/game/TutorialScene.tsx": "4daaeba183bf5f72c26ca501ec8317cd7d638005cabff0c35847338edcd0b85f",
+    "apps/web/src/LobbyIllustration.tsx": "61adc6bf7c8befc2342e6807318b6ee0925059a310d8f58ea43df6557cd296ba",
+    "apps/web/src/main.tsx": "79cf68ed6f0d06abed66a111026a206fba7e43900730df3b01550eb7fdd4596f",
+    "apps/web/src/pages/admin-requests.ts": "215b8ad0411b059108397a06df2a7f9e6d53121f61c28bee4d6a16851ca9ebb3",
+    "apps/web/src/pages/AdminPage.tsx": "2986154b9a159bcb1939519a0edf5106d5a75e415d52acdb4d8031878b1f1f18",
+    "apps/web/src/pages/operations-model.ts": "d10fccb91693ae17dc87e60ac68797f25758353ef897e8d9fe7218c9e384ccdb",
+    "apps/web/src/pages/OperationsPanels.tsx": "3937331b657d81af892d20e87a1cb87fd58a2c1f1c98fe7aeeac034df1365d4d",
+    "apps/web/src/pages/ParticipantPages.tsx": "58ef8a2bc337f538fa995c42e84139b3bbd446dfb3546a2488b199479998292c",
+    "apps/web/src/pages/playtest-json.ts": "9f630b20f14141299b04b1c4cd660fcbf57103e0a7ed4cc3a0a04e691cdfc061",
+    "apps/web/src/r3-ui.css": "82448631f527bc5803ccd67a33d8fc4d649f99f083f44a66425c8ebb5c7c7951",
+    "apps/web/src/repair-state/admission.ts": "6646aac32305074bdd17db2fa1a8f215a548010936de34d6d89f2b16637166e7",
+    "apps/web/src/repair-state/redemption.ts": "4fd5fff61400f9d4a97bd24df70e0071ab4f9989f2c0b2fc5f12430e8e618d03",
+    "apps/web/src/repair-state/result-presentation.ts": "a8321195f1af27020f31ad16681e94db18efe37dbec5e2da2d53ac9cd0904749",
+    "apps/web/src/repair-state/VoucherScanner.tsx": "a08b4623a2b04c0c5fa915721ac9bd1d350d58743b8485325b38d422e4e90a76",
+    "apps/web/src/styles.css": "a380b9269ae915ebd0d06ad45d0e038a82668ba85d3d90b4b14df87cd9ff72bc",
+    "apps/web/src/ui.tsx": "9e00776ef7a2390aa6de65f57ae993b7f42f9c9afd06b06e5c151e9c1160dce6",
+    "apps/web/src/visual-repair.css": "b77e0b59d50cc6702c22ef5382f7109a567b9a7397982b4b9bf3805767b1ef7c",
+    "packages/game-core/src/build.ts": "92b924da11856d4d46586de8bd16aaa5597aad28a814b8120d3dd124eb0849fb",
+    "packages/game-core/src/common.ts": "d4c757339272c1a77ca9e277a6b1069666f4c9d22c933c6bae5ee3670d22d105",
+    "packages/game-core/src/contracts/adapter.ts": "e27a80cdeb51f5a91b8dfdff36f3857fda4042a61971e50a2ce8d651deab20dd",
+    "packages/game-core/src/contracts/types.ts": "bc7251cbb4f38fbf7d511f3f210f60ea90446826750a3922be43bc1738f0ef58",
+    "packages/game-core/src/games.ts": "b8f1f4cb542a660ecee661929c725693502b10347c441b075567d999e37629f5",
+    "packages/game-core/src/index.ts": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+    "packages/game-core/src/model.ts": "e40ad79a5998873ef437334fac6d7946ba9f076c5b36555c00b37614990e6b4d",
+    "packages/game-core/src/rules.ts": "59d8fa6e607c9b1b35169ee4d79f3f555ed5c027ad7febb34cb460c10fca8f3d",
+    "packages/game-core/src/snapshots.ts": "ce9b8c6fea5a968c2416b59d263790b8cc54d004944b3af502785f7cfcceb81c",
+    "apps/web/public/assets/asset-manifest.v1.json": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+    "apps/web/public/assets/candidates/r3/manifest.json": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+    "config/game_rules.v2.1.json": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83"
+  },
+  "before": {
+    "rects": {
+      ".hud": {
+        "x": 12,
+        "y": 105.796875,
+        "width": 366,
+        "height": 61,
+        "bottom": 166.796875,
+        "right": 378
+      },
+      ".game-stage": {
+        "x": 12,
+        "y": 171.796875,
+        "width": 366,
+        "height": 488,
+        "bottom": 659.796875,
+        "right": 378
+      },
+      ".game-cumulative": {
+        "x": 119.234375,
+        "y": 662.796875,
+        "width": 151.53125,
+        "height": 24.1875,
+        "bottom": 686.984375,
+        "right": 270.765625
+      },
+      ".game-feedback": {
+        "x": 103,
+        "y": 691.984375,
+        "width": 184,
+        "height": 28,
+        "bottom": 719.984375,
+        "right": 287
+      },
+      "canvas": {
+        "x": 12,
+        "y": 171.796875,
+        "width": 366,
+        "height": 488,
+        "bottom": 659.796875,
+        "right": 378
+      }
+    },
+    "stage": {
+      "gameTick": "0",
+      "acceptedActions": "0",
+      "candidateManifest": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "presentationTime": "133.30",
+      "eventCount": "0",
+      "spriteCount": "4",
+      "effectCount": "0"
+    },
+    "canvas": {
+      "width": 732,
+      "height": 976,
+      "requestedDpr": "2",
+      "effectiveDpr": "2",
+      "worldWidth": "360",
+      "worldHeight": "480",
+      "attributes": {
+        "phaserVersion": "4.2.1",
+        "scaleMode": "FIT",
+        "renderer": "WEBGL",
+        "effectiveDpr": "2",
+        "requestedDpr": "2",
+        "worldWidth": "360",
+        "worldHeight": "480"
+      }
+    },
+    "teaching": {},
+    "canvasCount": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "requestedDpr": 2
+    },
+    "document": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 0,
+    "controls": [
+      {
+        "text": "返回",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 12,
+        "y": 15,
+        "width": 48,
+        "height": 48,
+        "right": 60,
+        "bottom": 63
+      },
+      {
+        "text": "羊羊叠高高",
+        "tag": "H1",
+        "disabled": false,
+        "x": 66,
+        "y": 8,
+        "width": 258,
+        "height": 76,
+        "right": 324,
+        "bottom": 84
+      },
+      {
+        "text": "开启音效",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 330,
+        "y": 15,
+        "width": 48,
+        "height": 48,
+        "right": 378,
+        "bottom": 63
+      },
+      {
+        "text": "开始不计分练习",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 12,
+        "y": 755.78125,
+        "width": 366,
+        "height": 56,
+        "right": 378,
+        "bottom": 811.78125
+      }
+    ],
+    "pageScenery": {
+      "image": "url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+      "size": "399.54580362040593px 844px",
+      "top": "-83.11645833333318px",
+      "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+      "computedSize": "399.546px 844px, 399.546px 844px",
+      "computedPosition": "50% -83.1165px, 50% -83.1165px",
+      "computedRepeat": "no-repeat, no-repeat",
+      "pageX": 0,
+      "pageY": 0,
+      "pageWidth": 390,
+      "pageHeight": 844
+    }
+  },
+  "samples": [
+    {
+      "elapsedWallMs": 5174,
+      "metrics": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 105.796875,
+            "width": 366,
+            "height": 61,
+            "bottom": 166.796875,
+            "right": 378
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 474,
+            "bottom": 645.796875,
+            "right": 378
+          },
+          ".game-controls": {
+            "x": 12,
+            "y": 710,
+            "width": 366,
+            "height": 72,
+            "bottom": 782,
+            "right": 378
+          },
+          ".game-controls .primary": {
+            "x": 26.640625,
+            "y": 715,
+            "width": 336.71875,
+            "height": 62,
+            "bottom": 777,
+            "right": 363.359375
+          },
+          ".practice-toolbar": {
+            "x": 12,
+            "y": 782,
+            "width": 366,
+            "height": 52,
+            "bottom": 834,
+            "right": 378
+          },
+          ".game-cumulative": {
+            "x": 119.234375,
+            "y": 648.796875,
+            "width": 151.53125,
+            "height": 24.1875,
+            "bottom": 672.984375,
+            "right": 270.765625
+          },
+          ".game-feedback": {
+            "x": 103,
+            "y": 677.984375,
+            "width": 184,
+            "height": 28,
+            "bottom": 705.984375,
+            "right": 287
+          },
+          "canvas": {
+            "x": 17,
+            "y": 171.796875,
+            "width": 355.5,
+            "height": 474,
+            "bottom": 645.796875,
+            "right": 372.5
+          }
+        },
+        "stage": {
+          "gameTick": "152",
+          "acceptedActions": "3",
+          "candidateManifest": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+          "presentationTime": "5066.40",
+          "eventCount": "5",
+          "spriteCount": "8",
+          "effectCount": "0"
+        },
+        "canvas": {
+          "width": 711,
+          "height": 948,
+          "requestedDpr": "2",
+          "effectiveDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "480",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "2",
+            "requestedDpr": "2",
+            "worldWidth": "360",
+            "worldHeight": "480"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "requestedDpr": 2
+        },
+        "document": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollY": 0,
+        "controls": [
+          {
+            "text": "返回",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 60,
+            "bottom": 63
+          },
+          {
+            "text": "羊羊叠高高",
+            "tag": "H1",
+            "disabled": false,
+            "x": 66,
+            "y": 8,
+            "width": 258,
+            "height": 76,
+            "right": 324,
+            "bottom": 84
+          },
+          {
+            "text": "开启音效",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 330,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 378,
+            "bottom": 63
+          },
+          {
+            "text": "点击放下",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 26.640625,
+            "y": 715,
+            "width": 336.71875,
+            "height": 62,
+            "right": 363.359375,
+            "bottom": 777
+          },
+          {
+            "text": "暂停练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 109,
+            "y": 786,
+            "width": 82,
+            "height": 48,
+            "right": 191,
+            "bottom": 834
+          },
+          {
+            "text": "重新练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 199,
+            "y": 786,
+            "width": 82,
+            "height": 48,
+            "right": 281,
+            "bottom": 834
+          }
+        ],
+        "pageScenery": {
+          "image": "url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "size": "399.54580362040593px 844px",
+          "top": "-95.65812499999993px",
+          "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "computedSize": "399.546px 844px, 399.546px 844px",
+          "computedPosition": "50% -95.6581px, 50% -95.6581px",
+          "computedRepeat": "no-repeat, no-repeat",
+          "pageX": 0,
+          "pageY": 0,
+          "pageWidth": 390,
+          "pageHeight": 844
+        }
+      }
+    },
+    {
+      "elapsedWallMs": 10750,
+      "metrics": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 105.796875,
+            "width": 366,
+            "height": 61,
+            "bottom": 166.796875,
+            "right": 378
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 474,
+            "bottom": 645.796875,
+            "right": 378
+          },
+          ".game-controls": {
+            "x": 12,
+            "y": 710,
+            "width": 366,
+            "height": 72,
+            "bottom": 782,
+            "right": 378
+          },
+          ".game-controls .primary": {
+            "x": 26.640625,
+            "y": 715,
+            "width": 336.71875,
+            "height": 62,
+            "bottom": 777,
+            "right": 363.359375
+          },
+          ".practice-toolbar": {
+            "x": 12,
+            "y": 782,
+            "width": 366,
+            "height": 52,
+            "bottom": 834,
+            "right": 378
+          },
+          ".game-cumulative": {
+            "x": 119.234375,
+            "y": 648.796875,
+            "width": 151.53125,
+            "height": 24.1875,
+            "bottom": 672.984375,
+            "right": 270.765625
+          },
+          ".game-feedback": {
+            "x": 100.484375,
+            "y": 677.984375,
+            "width": 189.03125,
+            "height": 28,
+            "bottom": 705.984375,
+            "right": 289.515625
+          },
+          "canvas": {
+            "x": 17,
+            "y": 171.796875,
+            "width": 355.5,
+            "height": 474,
+            "bottom": 645.796875,
+            "right": 372.5
+          }
+        },
+        "stage": {
+          "gameTick": "319",
+          "acceptedActions": "6",
+          "candidateManifest": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+          "presentationTime": "10649.50",
+          "eventCount": "12",
+          "spriteCount": "14",
+          "effectCount": "1"
+        },
+        "canvas": {
+          "width": 711,
+          "height": 948,
+          "requestedDpr": "2",
+          "effectiveDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "480",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "2",
+            "requestedDpr": "2",
+            "worldWidth": "360",
+            "worldHeight": "480"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "requestedDpr": 2
+        },
+        "document": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollY": 0,
+        "controls": [
+          {
+            "text": "返回",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 60,
+            "bottom": 63
+          },
+          {
+            "text": "羊羊叠高高",
+            "tag": "H1",
+            "disabled": false,
+            "x": 66,
+            "y": 8,
+            "width": 258,
+            "height": 76,
+            "right": 324,
+            "bottom": 84
+          },
+          {
+            "text": "开启音效",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 330,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 378,
+            "bottom": 63
+          },
+          {
+            "text": "点击放下",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 26.640625,
+            "y": 715,
+            "width": 336.71875,
+            "height": 62,
+            "right": 363.359375,
+            "bottom": 777
+          },
+          {
+            "text": "暂停练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 109,
+            "y": 786,
+            "width": 82,
+            "height": 48,
+            "right": 191,
+            "bottom": 834
+          },
+          {
+            "text": "重新练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 199,
+            "y": 786,
+            "width": 82,
+            "height": 48,
+            "right": 281,
+            "bottom": 834
+          }
+        ],
+        "pageScenery": {
+          "image": "url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "size": "399.54580362040593px 844px",
+          "top": "-95.65812499999993px",
+          "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "computedSize": "399.546px 844px, 399.546px 844px",
+          "computedPosition": "50% -95.6581px, 50% -95.6581px",
+          "computedRepeat": "no-repeat, no-repeat",
+          "pageX": 0,
+          "pageY": 0,
+          "pageWidth": 390,
+          "pageHeight": 844
+        }
+      }
+    },
+    {
+      "elapsedWallMs": 15767,
+      "metrics": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 105.796875,
+            "width": 366,
+            "height": 61,
+            "bottom": 166.796875,
+            "right": 378
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 474,
+            "bottom": 645.796875,
+            "right": 378
+          },
+          ".game-controls": {
+            "x": 12,
+            "y": 710,
+            "width": 366,
+            "height": 72,
+            "bottom": 782,
+            "right": 378
+          },
+          ".game-controls .primary": {
+            "x": 26.640625,
+            "y": 715,
+            "width": 336.71875,
+            "height": 62,
+            "bottom": 777,
+            "right": 363.359375
+          },
+          ".practice-toolbar": {
+            "x": 12,
+            "y": 782,
+            "width": 366,
+            "height": 52,
+            "bottom": 834,
+            "right": 378
+          },
+          ".game-cumulative": {
+            "x": 119.234375,
+            "y": 648.796875,
+            "width": 151.53125,
+            "height": 24.1875,
+            "bottom": 672.984375,
+            "right": 270.765625
+          },
+          ".game-feedback": {
+            "x": 100.484375,
+            "y": 677.984375,
+            "width": 189.03125,
+            "height": 28,
+            "bottom": 705.984375,
+            "right": 289.515625
+          },
+          "canvas": {
+            "x": 17,
+            "y": 171.796875,
+            "width": 355.5,
+            "height": 474,
+            "bottom": 645.796875,
+            "right": 372.5
+          }
+        },
+        "stage": {
+          "gameTick": "469",
+          "acceptedActions": "9",
+          "candidateManifest": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+          "presentationTime": "15665.90",
+          "eventCount": "18",
+          "spriteCount": "20",
+          "effectCount": "1"
+        },
+        "canvas": {
+          "width": 711,
+          "height": 948,
+          "requestedDpr": "2",
+          "effectiveDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "480",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "2",
+            "requestedDpr": "2",
+            "worldWidth": "360",
+            "worldHeight": "480"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "requestedDpr": 2
+        },
+        "document": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollY": 0,
+        "controls": [
+          {
+            "text": "返回",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 60,
+            "bottom": 63
+          },
+          {
+            "text": "羊羊叠高高",
+            "tag": "H1",
+            "disabled": false,
+            "x": 66,
+            "y": 8,
+            "width": 258,
+            "height": 76,
+            "right": 324,
+            "bottom": 84
+          },
+          {
+            "text": "开启音效",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 330,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 378,
+            "bottom": 63
+          },
+          {
+            "text": "点击放下",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 26.640625,
+            "y": 715,
+            "width": 336.71875,
+            "height": 62,
+            "right": 363.359375,
+            "bottom": 777
+          },
+          {
+            "text": "暂停练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 109,
+            "y": 786,
+            "width": 82,
+            "height": 48,
+            "right": 191,
+            "bottom": 834
+          },
+          {
+            "text": "重新练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 199,
+            "y": 786,
+            "width": 82,
+            "height": 48,
+            "right": 281,
+            "bottom": 834
+          }
+        ],
+        "pageScenery": {
+          "image": "url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "size": "399.54580362040593px 844px",
+          "top": "-95.65812499999993px",
+          "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "computedSize": "399.546px 844px, 399.546px 844px",
+          "computedPosition": "50% -95.6581px, 50% -95.6581px",
+          "computedRepeat": "no-repeat, no-repeat",
+          "pageX": 0,
+          "pageY": 0,
+          "pageWidth": 390,
+          "pageHeight": 844
+        }
+      }
+    },
+    {
+      "elapsedWallMs": 20786,
+      "metrics": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 105.796875,
+            "width": 366,
+            "height": 61,
+            "bottom": 166.796875,
+            "right": 378
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 474,
+            "bottom": 645.796875,
+            "right": 378
+          },
+          ".game-controls": {
+            "x": 12,
+            "y": 710,
+            "width": 366,
+            "height": 72,
+            "bottom": 782,
+            "right": 378
+          },
+          ".game-controls .primary": {
+            "x": 26.640625,
+            "y": 715,
+            "width": 336.71875,
+            "height": 62,
+            "bottom": 777,
+            "right": 363.359375
+          },
+          ".practice-toolbar": {
+            "x": 12,
+            "y": 782,
+            "width": 366,
+            "height": 52,
+            "bottom": 834,
+            "right": 378
+          },
+          ".game-cumulative": {
+            "x": 111.828125,
+            "y": 648.796875,
+            "width": 166.328125,
+            "height": 24.1875,
+            "bottom": 672.984375,
+            "right": 278.15625
+          },
+          ".game-feedback": {
+            "x": 100.484375,
+            "y": 677.984375,
+            "width": 189.03125,
+            "height": 28,
+            "bottom": 705.984375,
+            "right": 289.515625
+          },
+          "canvas": {
+            "x": 17,
+            "y": 171.796875,
+            "width": 355.5,
+            "height": 474,
+            "bottom": 645.796875,
+            "right": 372.5
+          }
+        },
+        "stage": {
+          "gameTick": "621",
+          "acceptedActions": "12",
+          "candidateManifest": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+          "presentationTime": "20682.40",
+          "eventCount": "24",
+          "spriteCount": "22",
+          "effectCount": "1"
+        },
+        "canvas": {
+          "width": 711,
+          "height": 948,
+          "requestedDpr": "2",
+          "effectiveDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "480",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "2",
+            "requestedDpr": "2",
+            "worldWidth": "360",
+            "worldHeight": "480"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "requestedDpr": 2
+        },
+        "document": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollY": 0,
+        "controls": [
+          {
+            "text": "返回",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 60,
+            "bottom": 63
+          },
+          {
+            "text": "羊羊叠高高",
+            "tag": "H1",
+            "disabled": false,
+            "x": 66,
+            "y": 8,
+            "width": 258,
+            "height": 76,
+            "right": 324,
+            "bottom": 84
+          },
+          {
+            "text": "开启音效",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 330,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 378,
+            "bottom": 63
+          },
+          {
+            "text": "点击放下",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 26.640625,
+            "y": 715,
+            "width": 336.71875,
+            "height": 62,
+            "right": 363.359375,
+            "bottom": 777
+          },
+          {
+            "text": "暂停练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 109,
+            "y": 786,
+            "width": 82,
+            "height": 48,
+            "right": 191,
+            "bottom": 834
+          },
+          {
+            "text": "重新练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 199,
+            "y": 786,
+            "width": 82,
+            "height": 48,
+            "right": 281,
+            "bottom": 834
+          }
+        ],
+        "pageScenery": {
+          "image": "url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "size": "399.54580362040593px 844px",
+          "top": "-95.65812499999993px",
+          "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "computedSize": "399.546px 844px, 399.546px 844px",
+          "computedPosition": "50% -95.6581px, 50% -95.6581px",
+          "computedRepeat": "no-repeat, no-repeat",
+          "pageX": 0,
+          "pageY": 0,
+          "pageWidth": 390,
+          "pageHeight": 844
+        }
+      }
+    },
+    {
+      "elapsedWallMs": 25799,
+      "metrics": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 105.796875,
+            "width": 366,
+            "height": 61,
+            "bottom": 166.796875,
+            "right": 378
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 474,
+            "bottom": 645.796875,
+            "right": 378
+          },
+          ".game-controls": {
+            "x": 12,
+            "y": 710,
+            "width": 366,
+            "height": 72,
+            "bottom": 782,
+            "right": 378
+          },
+          ".game-controls .primary": {
+            "x": 26.640625,
+            "y": 715,
+            "width": 336.71875,
+            "height": 62,
+            "bottom": 777,
+            "right": 363.359375
+          },
+          ".practice-toolbar": {
+            "x": 12,
+            "y": 782,
+            "width": 366,
+            "height": 52,
+            "bottom": 834,
+            "right": 378
+          },
+          ".game-cumulative": {
+            "x": 111.828125,
+            "y": 648.796875,
+            "width": 166.328125,
+            "height": 24.1875,
+            "bottom": 672.984375,
+            "right": 278.15625
+          },
+          ".game-feedback": {
+            "x": 100.484375,
+            "y": 677.984375,
+            "width": 189.03125,
+            "height": 28,
+            "bottom": 705.984375,
+            "right": 289.515625
+          },
+          "canvas": {
+            "x": 17,
+            "y": 171.796875,
+            "width": 355.5,
+            "height": 474,
+            "bottom": 645.796875,
+            "right": 372.5
+          }
+        },
+        "stage": {
+          "gameTick": "770",
+          "acceptedActions": "15",
+          "candidateManifest": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+          "presentationTime": "25698.90",
+          "eventCount": "30",
+          "spriteCount": "22",
+          "effectCount": "0"
+        },
+        "canvas": {
+          "width": 711,
+          "height": 948,
+          "requestedDpr": "2",
+          "effectiveDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "480",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "2",
+            "requestedDpr": "2",
+            "worldWidth": "360",
+            "worldHeight": "480"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "requestedDpr": 2
+        },
+        "document": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollY": 0,
+        "controls": [
+          {
+            "text": "返回",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 60,
+            "bottom": 63
+          },
+          {
+            "text": "羊羊叠高高",
+            "tag": "H1",
+            "disabled": false,
+            "x": 66,
+            "y": 8,
+            "width": 258,
+            "height": 76,
+            "right": 324,
+            "bottom": 84
+          },
+          {
+            "text": "开启音效",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 330,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 378,
+            "bottom": 63
+          },
+          {
+            "text": "点击放下",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 26.640625,
+            "y": 715,
+            "width": 336.71875,
+            "height": 62,
+            "right": 363.359375,
+            "bottom": 777
+          },
+          {
+            "text": "暂停练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 109,
+            "y": 786,
+            "width": 82,
+            "height": 48,
+            "right": 191,
+            "bottom": 834
+          },
+          {
+            "text": "重新练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 199,
+            "y": 786,
+            "width": 82,
+            "height": 48,
+            "right": 281,
+            "bottom": 834
+          }
+        ],
+        "pageScenery": {
+          "image": "url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "size": "399.54580362040593px 844px",
+          "top": "-95.65812499999993px",
+          "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "computedSize": "399.546px 844px, 399.546px 844px",
+          "computedPosition": "50% -95.6581px, 50% -95.6581px",
+          "computedRepeat": "no-repeat, no-repeat",
+          "pageX": 0,
+          "pageY": 0,
+          "pageWidth": 390,
+          "pageHeight": 844
+        }
+      }
+    },
+    {
+      "elapsedWallMs": 31368,
+      "metrics": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 105.796875,
+            "width": 366,
+            "height": 61,
+            "bottom": 166.796875,
+            "right": 378
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 474,
+            "bottom": 645.796875,
+            "right": 378
+          },
+          ".game-controls": {
+            "x": 12,
+            "y": 710,
+            "width": 366,
+            "height": 72,
+            "bottom": 782,
+            "right": 378
+          },
+          ".game-controls .primary": {
+            "x": 26.640625,
+            "y": 715,
+            "width": 336.71875,
+            "height": 62,
+            "bottom": 777,
+            "right": 363.359375
+          },
+          ".practice-toolbar": {
+            "x": 12,
+            "y": 782,
+            "width": 366,
+            "height": 52,
+            "bottom": 834,
+            "right": 378
+          },
+          ".game-cumulative": {
+            "x": 111.828125,
+            "y": 648.796875,
+            "width": 166.328125,
+            "height": 24.1875,
+            "bottom": 672.984375,
+            "right": 278.15625
+          },
+          ".game-feedback": {
+            "x": 100.484375,
+            "y": 677.984375,
+            "width": 189.03125,
+            "height": 28,
+            "bottom": 705.984375,
+            "right": 289.515625
+          },
+          "canvas": {
+            "x": 17,
+            "y": 171.796875,
+            "width": 355.5,
+            "height": 474,
+            "bottom": 645.796875,
+            "right": 372.5
+          }
+        },
+        "stage": {
+          "gameTick": "938",
+          "acceptedActions": "19",
+          "candidateManifest": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+          "presentationTime": "31265.40",
+          "eventCount": "38",
+          "spriteCount": "22",
+          "effectCount": "1"
+        },
+        "canvas": {
+          "width": 711,
+          "height": 948,
+          "requestedDpr": "2",
+          "effectiveDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "480",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "2",
+            "requestedDpr": "2",
+            "worldWidth": "360",
+            "worldHeight": "480"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "requestedDpr": 2
+        },
+        "document": {
+          "width": 390,
+          "height": 844
+        },
+        "scrollY": 0,
+        "controls": [
+          {
+            "text": "返回",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 60,
+            "bottom": 63
+          },
+          {
+            "text": "羊羊叠高高",
+            "tag": "H1",
+            "disabled": false,
+            "x": 66,
+            "y": 8,
+            "width": 258,
+            "height": 76,
+            "right": 324,
+            "bottom": 84
+          },
+          {
+            "text": "开启音效",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 330,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 378,
+            "bottom": 63
+          },
+          {
+            "text": "点击放下",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 26.640625,
+            "y": 715,
+            "width": 336.71875,
+            "height": 62,
+            "right": 363.359375,
+            "bottom": 777
+          },
+          {
+            "text": "暂停练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 109,
+            "y": 786,
+            "width": 82,
+            "height": 48,
+            "right": 191,
+            "bottom": 834
+          },
+          {
+            "text": "重新练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 199,
+            "y": 786,
+            "width": 82,
+            "height": 48,
+            "right": 281,
+            "bottom": 834
+          }
+        ],
+        "pageScenery": {
+          "image": "url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "size": "399.54580362040593px 844px",
+          "top": "-95.65812499999993px",
+          "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "computedSize": "399.546px 844px, 399.546px 844px",
+          "computedPosition": "50% -95.6581px, 50% -95.6581px",
+          "computedRepeat": "no-repeat, no-repeat",
+          "pageX": 0,
+          "pageY": 0,
+          "pageWidth": 390,
+          "pageHeight": 844
+        }
+      }
+    },
+    {
+      "elapsedWallMs": 36383,
+      "metrics": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 105.796875,
+            "width": 366,
+            "height": 61,
+            "bottom": 166.796875,
+            "right": 378
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 488,
+            "bottom": 659.796875,
+            "right": 378
+          },
+          ".practice-toolbar": {
+            "x": 12,
+            "y": 722.984375,
+            "width": 366,
+            "height": 52,
+            "bottom": 774.984375,
+            "right": 378
+          },
+          ".game-cumulative": {
+            "x": 111.828125,
+            "y": 662.796875,
+            "width": 166.328125,
+            "height": 24.1875,
+            "bottom": 686.984375,
+            "right": 278.15625
+          },
+          ".game-feedback": {
+            "x": 103,
+            "y": 691.984375,
+            "width": 184,
+            "height": 28,
+            "bottom": 719.984375,
+            "right": 287
+          },
+          "canvas": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 488,
+            "bottom": 659.796875,
+            "right": 378
+          }
+        },
+        "stage": {
+          "gameTick": "967",
+          "acceptedActions": "20",
+          "candidateManifest": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+          "presentationTime": "36281.80",
+          "eventCount": "41",
+          "spriteCount": "20",
+          "effectCount": "0"
+        },
+        "canvas": {
+          "width": 732,
+          "height": 976,
+          "requestedDpr": "2",
+          "effectiveDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "480",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "2",
+            "requestedDpr": "2",
+            "worldWidth": "360",
+            "worldHeight": "480"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "requestedDpr": 2
+        },
+        "document": {
+          "width": 390,
+          "height": 1082
+        },
+        "scrollY": 0,
+        "controls": [
+          {
+            "text": "返回",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 60,
+            "bottom": 63
+          },
+          {
+            "text": "羊羊叠高高",
+            "tag": "H1",
+            "disabled": false,
+            "x": 66,
+            "y": 8,
+            "width": 258,
+            "height": 76,
+            "right": 324,
+            "bottom": 84
+          },
+          {
+            "text": "开启音效",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 330,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 378,
+            "bottom": 63
+          },
+          {
+            "text": "暂停练习",
+            "tag": "BUTTON",
+            "disabled": true,
+            "x": 109,
+            "y": 726.984375,
+            "width": 82,
+            "height": 48,
+            "right": 191,
+            "bottom": 774.984375
+          },
+          {
+            "text": "重新练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 199,
+            "y": 726.984375,
+            "width": 82,
+            "height": 48,
+            "right": 281,
+            "bottom": 774.984375
+          },
+          {
+            "text": "下载本局完整练习过程（不含分数）",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 28,
+            "y": 875.578125,
+            "width": 294,
+            "height": 56,
+            "right": 322,
+            "bottom": 931.578125
+          },
+          {
+            "text": "回到玩法，准备正式挑战",
+            "tag": "A",
+            "disabled": false,
+            "x": 28,
+            "y": 991.578125,
+            "width": 278,
+            "height": 56,
+            "right": 306,
+            "bottom": 1047.578125
+          }
+        ],
+        "pageScenery": {
+          "image": "url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "size": "512.0142193499726px 1081.578125px",
+          "top": "-277.93052083333316px",
+          "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "computedSize": "512.014px 1081.58px, 512.014px 1081.58px",
+          "computedPosition": "50% -277.931px, 50% -277.931px",
+          "computedRepeat": "no-repeat, no-repeat",
+          "pageX": 0,
+          "pageY": 0,
+          "pageWidth": 390,
+          "pageHeight": 1081.578125
+        }
+      }
+    },
+    {
+      "elapsedWallMs": 41397,
+      "metrics": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 105.796875,
+            "width": 366,
+            "height": 61,
+            "bottom": 166.796875,
+            "right": 378
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 488,
+            "bottom": 659.796875,
+            "right": 378
+          },
+          ".practice-toolbar": {
+            "x": 12,
+            "y": 722.984375,
+            "width": 366,
+            "height": 52,
+            "bottom": 774.984375,
+            "right": 378
+          },
+          ".game-cumulative": {
+            "x": 111.828125,
+            "y": 662.796875,
+            "width": 166.328125,
+            "height": 24.1875,
+            "bottom": 686.984375,
+            "right": 278.15625
+          },
+          ".game-feedback": {
+            "x": 103,
+            "y": 691.984375,
+            "width": 184,
+            "height": 28,
+            "bottom": 719.984375,
+            "right": 287
+          },
+          "canvas": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 488,
+            "bottom": 659.796875,
+            "right": 378
+          }
+        },
+        "stage": {
+          "gameTick": "967",
+          "acceptedActions": "20",
+          "candidateManifest": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+          "presentationTime": "41298.30",
+          "eventCount": "41",
+          "spriteCount": "20",
+          "effectCount": "0"
+        },
+        "canvas": {
+          "width": 732,
+          "height": 976,
+          "requestedDpr": "2",
+          "effectiveDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "480",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "2",
+            "requestedDpr": "2",
+            "worldWidth": "360",
+            "worldHeight": "480"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "requestedDpr": 2
+        },
+        "document": {
+          "width": 390,
+          "height": 1082
+        },
+        "scrollY": 0,
+        "controls": [
+          {
+            "text": "返回",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 60,
+            "bottom": 63
+          },
+          {
+            "text": "羊羊叠高高",
+            "tag": "H1",
+            "disabled": false,
+            "x": 66,
+            "y": 8,
+            "width": 258,
+            "height": 76,
+            "right": 324,
+            "bottom": 84
+          },
+          {
+            "text": "开启音效",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 330,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 378,
+            "bottom": 63
+          },
+          {
+            "text": "暂停练习",
+            "tag": "BUTTON",
+            "disabled": true,
+            "x": 109,
+            "y": 726.984375,
+            "width": 82,
+            "height": 48,
+            "right": 191,
+            "bottom": 774.984375
+          },
+          {
+            "text": "重新练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 199,
+            "y": 726.984375,
+            "width": 82,
+            "height": 48,
+            "right": 281,
+            "bottom": 774.984375
+          },
+          {
+            "text": "下载本局完整练习过程（不含分数）",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 28,
+            "y": 875.578125,
+            "width": 294,
+            "height": 56,
+            "right": 322,
+            "bottom": 931.578125
+          },
+          {
+            "text": "回到玩法，准备正式挑战",
+            "tag": "A",
+            "disabled": false,
+            "x": 28,
+            "y": 991.578125,
+            "width": 278,
+            "height": 56,
+            "right": 306,
+            "bottom": 1047.578125
+          }
+        ],
+        "pageScenery": {
+          "image": "url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "size": "512.0142193499726px 1081.578125px",
+          "top": "-277.93052083333316px",
+          "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "computedSize": "512.014px 1081.58px, 512.014px 1081.58px",
+          "computedPosition": "50% -277.931px, 50% -277.931px",
+          "computedRepeat": "no-repeat, no-repeat",
+          "pageX": 0,
+          "pageY": 0,
+          "pageWidth": 390,
+          "pageHeight": 1081.578125
+        }
+      }
+    },
+    {
+      "elapsedWallMs": 46404,
+      "metrics": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 105.796875,
+            "width": 366,
+            "height": 61,
+            "bottom": 166.796875,
+            "right": 378
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 488,
+            "bottom": 659.796875,
+            "right": 378
+          },
+          ".practice-toolbar": {
+            "x": 12,
+            "y": 722.984375,
+            "width": 366,
+            "height": 52,
+            "bottom": 774.984375,
+            "right": 378
+          },
+          ".game-cumulative": {
+            "x": 111.828125,
+            "y": 662.796875,
+            "width": 166.328125,
+            "height": 24.1875,
+            "bottom": 686.984375,
+            "right": 278.15625
+          },
+          ".game-feedback": {
+            "x": 103,
+            "y": 691.984375,
+            "width": 184,
+            "height": 28,
+            "bottom": 719.984375,
+            "right": 287
+          },
+          "canvas": {
+            "x": 12,
+            "y": 171.796875,
+            "width": 366,
+            "height": 488,
+            "bottom": 659.796875,
+            "right": 378
+          }
+        },
+        "stage": {
+          "gameTick": "967",
+          "acceptedActions": "20",
+          "candidateManifest": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+          "presentationTime": "46298.10",
+          "eventCount": "41",
+          "spriteCount": "20",
+          "effectCount": "0"
+        },
+        "canvas": {
+          "width": 732,
+          "height": 976,
+          "requestedDpr": "2",
+          "effectiveDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "480",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "2",
+            "requestedDpr": "2",
+            "worldWidth": "360",
+            "worldHeight": "480"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 390,
+          "height": 844,
+          "requestedDpr": 2
+        },
+        "document": {
+          "width": 390,
+          "height": 1082
+        },
+        "scrollY": 0,
+        "controls": [
+          {
+            "text": "返回",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 12,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 60,
+            "bottom": 63
+          },
+          {
+            "text": "羊羊叠高高",
+            "tag": "H1",
+            "disabled": false,
+            "x": 66,
+            "y": 8,
+            "width": 258,
+            "height": 76,
+            "right": 324,
+            "bottom": 84
+          },
+          {
+            "text": "开启音效",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 330,
+            "y": 15,
+            "width": 48,
+            "height": 48,
+            "right": 378,
+            "bottom": 63
+          },
+          {
+            "text": "暂停练习",
+            "tag": "BUTTON",
+            "disabled": true,
+            "x": 109,
+            "y": 726.984375,
+            "width": 82,
+            "height": 48,
+            "right": 191,
+            "bottom": 774.984375
+          },
+          {
+            "text": "重新练习",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 199,
+            "y": 726.984375,
+            "width": 82,
+            "height": 48,
+            "right": 281,
+            "bottom": 774.984375
+          },
+          {
+            "text": "下载本局完整练习过程（不含分数）",
+            "tag": "BUTTON",
+            "disabled": false,
+            "x": 28,
+            "y": 875.578125,
+            "width": 294,
+            "height": 56,
+            "right": 322,
+            "bottom": 931.578125
+          },
+          {
+            "text": "回到玩法，准备正式挑战",
+            "tag": "A",
+            "disabled": false,
+            "x": 28,
+            "y": 991.578125,
+            "width": 278,
+            "height": 56,
+            "right": 306,
+            "bottom": 1047.578125
+          }
+        ],
+        "pageScenery": {
+          "image": "url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "size": "512.0142193499726px 1081.578125px",
+          "top": "-277.93052083333316px",
+          "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+          "computedSize": "512.014px 1081.58px, 512.014px 1081.58px",
+          "computedPosition": "50% -277.931px, 50% -277.931px",
+          "computedRepeat": "no-repeat, no-repeat",
+          "pageX": 0,
+          "pageY": 0,
+          "pageWidth": 390,
+          "pageHeight": 1081.578125
+        }
+      }
+    }
+  ],
+  "terminalBefore": {
+    "rects": {
+      ".hud": {
+        "x": 12,
+        "y": 105.796875,
+        "width": 366,
+        "height": 61,
+        "bottom": 166.796875,
+        "right": 378
+      },
+      ".game-stage": {
+        "x": 12,
+        "y": 171.796875,
+        "width": 366,
+        "height": 488,
+        "bottom": 659.796875,
+        "right": 378
+      },
+      ".practice-toolbar": {
+        "x": 12,
+        "y": 722.984375,
+        "width": 366,
+        "height": 52,
+        "bottom": 774.984375,
+        "right": 378
+      },
+      ".game-cumulative": {
+        "x": 111.828125,
+        "y": 662.796875,
+        "width": 166.328125,
+        "height": 24.1875,
+        "bottom": 686.984375,
+        "right": 278.15625
+      },
+      ".game-feedback": {
+        "x": 103,
+        "y": 691.984375,
+        "width": 184,
+        "height": 28,
+        "bottom": 719.984375,
+        "right": 287
+      },
+      "canvas": {
+        "x": 12,
+        "y": 171.796875,
+        "width": 366,
+        "height": 488,
+        "bottom": 659.796875,
+        "right": 378
+      }
+    },
+    "stage": {
+      "gameTick": "967",
+      "acceptedActions": "20",
+      "candidateManifest": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "presentationTime": "46881.40",
+      "eventCount": "41",
+      "spriteCount": "20",
+      "effectCount": "0"
+    },
+    "canvas": {
+      "width": 732,
+      "height": 976,
+      "requestedDpr": "2",
+      "effectiveDpr": "2",
+      "worldWidth": "360",
+      "worldHeight": "480",
+      "attributes": {
+        "phaserVersion": "4.2.1",
+        "scaleMode": "FIT",
+        "renderer": "WEBGL",
+        "effectiveDpr": "2",
+        "requestedDpr": "2",
+        "worldWidth": "360",
+        "worldHeight": "480"
+      }
+    },
+    "teaching": {},
+    "canvasCount": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "requestedDpr": 2
+    },
+    "document": {
+      "width": 390,
+      "height": 1082
+    },
+    "scrollY": 0,
+    "controls": [
+      {
+        "text": "返回",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 12,
+        "y": 15,
+        "width": 48,
+        "height": 48,
+        "right": 60,
+        "bottom": 63
+      },
+      {
+        "text": "羊羊叠高高",
+        "tag": "H1",
+        "disabled": false,
+        "x": 66,
+        "y": 8,
+        "width": 258,
+        "height": 76,
+        "right": 324,
+        "bottom": 84
+      },
+      {
+        "text": "开启音效",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 330,
+        "y": 15,
+        "width": 48,
+        "height": 48,
+        "right": 378,
+        "bottom": 63
+      },
+      {
+        "text": "暂停练习",
+        "tag": "BUTTON",
+        "disabled": true,
+        "x": 109,
+        "y": 726.984375,
+        "width": 82,
+        "height": 48,
+        "right": 191,
+        "bottom": 774.984375
+      },
+      {
+        "text": "重新练习",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 199,
+        "y": 726.984375,
+        "width": 82,
+        "height": 48,
+        "right": 281,
+        "bottom": 774.984375
+      },
+      {
+        "text": "下载本局完整练习过程（不含分数）",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 28,
+        "y": 875.578125,
+        "width": 294,
+        "height": 56,
+        "right": 322,
+        "bottom": 931.578125
+      },
+      {
+        "text": "回到玩法，准备正式挑战",
+        "tag": "A",
+        "disabled": false,
+        "x": 28,
+        "y": 991.578125,
+        "width": 278,
+        "height": 56,
+        "right": 306,
+        "bottom": 1047.578125
+      }
+    ],
+    "pageScenery": {
+      "image": "url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+      "size": "512.0142193499726px 1081.578125px",
+      "top": "-277.93052083333316px",
+      "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+      "computedSize": "512.014px 1081.58px, 512.014px 1081.58px",
+      "computedPosition": "50% -277.931px, 50% -277.931px",
+      "computedRepeat": "no-repeat, no-repeat",
+      "pageX": 0,
+      "pageY": 0,
+      "pageWidth": 390,
+      "pageHeight": 1081.578125
+    }
+  },
+  "terminalAfter": {
+    "rects": {
+      ".hud": {
+        "x": 12,
+        "y": 105.796875,
+        "width": 366,
+        "height": 61,
+        "bottom": 166.796875,
+        "right": 378
+      },
+      ".game-stage": {
+        "x": 12,
+        "y": 171.796875,
+        "width": 366,
+        "height": 488,
+        "bottom": 659.796875,
+        "right": 378
+      },
+      ".practice-toolbar": {
+        "x": 12,
+        "y": 722.984375,
+        "width": 366,
+        "height": 52,
+        "bottom": 774.984375,
+        "right": 378
+      },
+      ".game-cumulative": {
+        "x": 111.828125,
+        "y": 662.796875,
+        "width": 166.328125,
+        "height": 24.1875,
+        "bottom": 686.984375,
+        "right": 278.15625
+      },
+      ".game-feedback": {
+        "x": 103,
+        "y": 691.984375,
+        "width": 184,
+        "height": 28,
+        "bottom": 719.984375,
+        "right": 287
+      },
+      "canvas": {
+        "x": 12,
+        "y": 171.796875,
+        "width": 366,
+        "height": 488,
+        "bottom": 659.796875,
+        "right": 378
+      }
+    },
+    "stage": {
+      "gameTick": "967",
+      "acceptedActions": "20",
+      "candidateManifest": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "presentationTime": "47298.00",
+      "eventCount": "41",
+      "spriteCount": "20",
+      "effectCount": "0"
+    },
+    "canvas": {
+      "width": 732,
+      "height": 976,
+      "requestedDpr": "2",
+      "effectiveDpr": "2",
+      "worldWidth": "360",
+      "worldHeight": "480",
+      "attributes": {
+        "phaserVersion": "4.2.1",
+        "scaleMode": "FIT",
+        "renderer": "WEBGL",
+        "effectiveDpr": "2",
+        "requestedDpr": "2",
+        "worldWidth": "360",
+        "worldHeight": "480"
+      }
+    },
+    "teaching": {},
+    "canvasCount": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "requestedDpr": 2
+    },
+    "document": {
+      "width": 390,
+      "height": 1082
+    },
+    "scrollY": 0,
+    "controls": [
+      {
+        "text": "返回",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 12,
+        "y": 15,
+        "width": 48,
+        "height": 48,
+        "right": 60,
+        "bottom": 63
+      },
+      {
+        "text": "羊羊叠高高",
+        "tag": "H1",
+        "disabled": false,
+        "x": 66,
+        "y": 8,
+        "width": 258,
+        "height": 76,
+        "right": 324,
+        "bottom": 84
+      },
+      {
+        "text": "开启音效",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 330,
+        "y": 15,
+        "width": 48,
+        "height": 48,
+        "right": 378,
+        "bottom": 63
+      },
+      {
+        "text": "暂停练习",
+        "tag": "BUTTON",
+        "disabled": true,
+        "x": 109,
+        "y": 726.984375,
+        "width": 82,
+        "height": 48,
+        "right": 191,
+        "bottom": 774.984375
+      },
+      {
+        "text": "重新练习",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 199,
+        "y": 726.984375,
+        "width": 82,
+        "height": 48,
+        "right": 281,
+        "bottom": 774.984375
+      },
+      {
+        "text": "下载本局完整练习过程（不含分数）",
+        "tag": "BUTTON",
+        "disabled": false,
+        "x": 28,
+        "y": 875.578125,
+        "width": 294,
+        "height": 56,
+        "right": 322,
+        "bottom": 931.578125
+      },
+      {
+        "text": "回到玩法，准备正式挑战",
+        "tag": "A",
+        "disabled": false,
+        "x": 28,
+        "y": 991.578125,
+        "width": 278,
+        "height": 56,
+        "right": 306,
+        "bottom": 1047.578125
+      }
+    ],
+    "pageScenery": {
+      "image": "url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+      "size": "512.0142193499726px 1081.578125px",
+      "top": "-277.93052083333316px",
+      "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/88be624d-a5f6-4c32-a4e4-fc86015242e5\")",
+      "computedSize": "512.014px 1081.58px, 512.014px 1081.58px",
+      "computedPosition": "50% -277.931px, 50% -277.931px",
+      "computedRepeat": "no-repeat, no-repeat",
+      "pageX": 0,
+      "pageY": 0,
+      "pageWidth": 390,
+      "pageHeight": 1081.578125
+    }
+  },
+  "actualConclusion": {
+    "game_id": "stack",
+    "end_tick": 967,
+    "end_reason": "GOAL_REACHED",
+    "accepted_actions_count": 20,
+    "stats": {
+      "success_layers": 20,
+      "perfect_layers": 20,
+      "misses": 0
+    },
+    "performance_points": 80
+  },
+  "events": [
+    {
+      "event_key": "stack:38:DROP_ACCEPTED:0",
+      "tick": 38,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:50:LAYER_LANDED:1",
+      "tick": 50,
+      "type": "LAYER_LANDED",
+      "entity_id": 1
+    },
+    {
+      "event_key": "stack:92:DROP_ACCEPTED:0",
+      "tick": 92,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:104:LAYER_LANDED:2",
+      "tick": 104,
+      "type": "LAYER_LANDED",
+      "entity_id": 2
+    },
+    {
+      "event_key": "stack:147:DROP_ACCEPTED:0",
+      "tick": 147,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:159:LAYER_LANDED:3",
+      "tick": 159,
+      "type": "LAYER_LANDED",
+      "entity_id": 3
+    },
+    {
+      "event_key": "stack:202:DROP_ACCEPTED:0",
+      "tick": 202,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:214:LAYER_LANDED:4",
+      "tick": 214,
+      "type": "LAYER_LANDED",
+      "entity_id": 4
+    },
+    {
+      "event_key": "stack:254:DROP_ACCEPTED:0",
+      "tick": 254,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:266:LAYER_LANDED:5",
+      "tick": 266,
+      "type": "LAYER_LANDED",
+      "entity_id": 5
+    },
+    {
+      "event_key": "stack:304:DROP_ACCEPTED:0",
+      "tick": 304,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:316:LAYER_LANDED:6",
+      "tick": 316,
+      "type": "LAYER_LANDED",
+      "entity_id": 6
+    },
+    {
+      "event_key": "stack:355:DROP_ACCEPTED:0",
+      "tick": 355,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:367:LAYER_LANDED:7",
+      "tick": 367,
+      "type": "LAYER_LANDED",
+      "entity_id": 7
+    },
+    {
+      "event_key": "stack:406:DROP_ACCEPTED:0",
+      "tick": 406,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:418:LAYER_LANDED:8",
+      "tick": 418,
+      "type": "LAYER_LANDED",
+      "entity_id": 8
+    },
+    {
+      "event_key": "stack:454:DROP_ACCEPTED:0",
+      "tick": 454,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:466:LAYER_LANDED:9",
+      "tick": 466,
+      "type": "LAYER_LANDED",
+      "entity_id": 9
+    },
+    {
+      "event_key": "stack:502:DROP_ACCEPTED:0",
+      "tick": 502,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:514:LAYER_LANDED:10",
+      "tick": 514,
+      "type": "LAYER_LANDED",
+      "entity_id": 10
+    },
+    {
+      "event_key": "stack:551:DROP_ACCEPTED:0",
+      "tick": 551,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:563:LAYER_LANDED:11",
+      "tick": 563,
+      "type": "LAYER_LANDED",
+      "entity_id": 11
+    },
+    {
+      "event_key": "stack:598:DROP_ACCEPTED:0",
+      "tick": 598,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:610:LAYER_LANDED:12",
+      "tick": 610,
+      "type": "LAYER_LANDED",
+      "entity_id": 12
+    },
+    {
+      "event_key": "stack:645:DROP_ACCEPTED:0",
+      "tick": 645,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:657:LAYER_LANDED:13",
+      "tick": 657,
+      "type": "LAYER_LANDED",
+      "entity_id": 13
+    },
+    {
+      "event_key": "stack:689:DROP_ACCEPTED:0",
+      "tick": 689,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:701:LAYER_LANDED:14",
+      "tick": 701,
+      "type": "LAYER_LANDED",
+      "entity_id": 14
+    },
+    {
+      "event_key": "stack:735:DROP_ACCEPTED:0",
+      "tick": 735,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:747:LAYER_LANDED:15",
+      "tick": 747,
+      "type": "LAYER_LANDED",
+      "entity_id": 15
+    },
+    {
+      "event_key": "stack:780:DROP_ACCEPTED:0",
+      "tick": 780,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:792:LAYER_LANDED:16",
+      "tick": 792,
+      "type": "LAYER_LANDED",
+      "entity_id": 16
+    },
+    {
+      "event_key": "stack:825:DROP_ACCEPTED:0",
+      "tick": 825,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:837:LAYER_LANDED:17",
+      "tick": 837,
+      "type": "LAYER_LANDED",
+      "entity_id": 17
+    },
+    {
+      "event_key": "stack:867:DROP_ACCEPTED:0",
+      "tick": 867,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:879:LAYER_LANDED:18",
+      "tick": 879,
+      "type": "LAYER_LANDED",
+      "entity_id": 18
+    },
+    {
+      "event_key": "stack:911:DROP_ACCEPTED:0",
+      "tick": 911,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:923:LAYER_LANDED:19",
+      "tick": 923,
+      "type": "LAYER_LANDED",
+      "entity_id": 19
+    },
+    {
+      "event_key": "stack:955:DROP_ACCEPTED:0",
+      "tick": 955,
+      "type": "DROP_ACCEPTED",
+      "entity_id": null
+    },
+    {
+      "event_key": "stack:967:LAYER_LANDED:20",
+      "tick": 967,
+      "type": "LAYER_LANDED",
+      "entity_id": 20
+    },
+    {
+      "event_key": "stack:967:GAME_ENDED:0",
+      "tick": 967,
+      "type": "GAME_ENDED",
+      "entity_id": null
+    }
+  ],
+  "elapsedWallMs": 47971,
+  "actionPlanScope": "synthetic legal teaching controller intent through existing GamePage DOM controls, normal wall clock; actual consumed input prefix is downloaded and replay-validated",
+  "scope": "uncut native Playwright video of real App/GamePage at original speed; isolated schema GET API; no session or score mutation; not physical device/performance/human evidence"
+}

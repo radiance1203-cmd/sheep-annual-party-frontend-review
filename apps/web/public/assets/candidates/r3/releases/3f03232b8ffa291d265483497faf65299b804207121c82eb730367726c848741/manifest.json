@@ -1,0 +1,83 @@
+{
+  "candidate_id": "R3-B2-C-sample-a",
+  "source_manifest_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "backgrounds": {
+    "stack": {
+      "image": "stack.png",
+      "image_sha256": "0b7cfa5e8bf8adb974f7e5886742acde278f021e3105864528a354c36f88208c",
+      "metadata": "stack.atlas.json",
+      "metadata_sha256": "3742fbc16c0a646c40a8b23e43c1c1609bdada74c0a8170c4aff12e6d54a185e",
+      "rgba_bytes": 6290112
+    },
+    "runner": {
+      "image": "runner.png",
+      "image_sha256": "a951761578fa31923f66efcb526e89ce168badf730dfb17505133a7f71abb9ec",
+      "metadata": "runner.atlas.json",
+      "metadata_sha256": "23a1dc526c328f239848c835774c8ee693fa1585635713e521c00d58702d0ee4",
+      "rgba_bytes": 6291600
+    },
+    "herd": {
+      "image": "herd.png",
+      "image_sha256": "331b313f04b2eb78ddf6dfff69bac67461d325af171c17a9a88f386a12e7fcf5",
+      "metadata": "herd.atlas.json",
+      "metadata_sha256": "15dfb3783a002be5ef77278a1ae7de26790e436b4dde018901e91221f8e52b8b",
+      "rgba_bytes": 6292620
+    }
+  },
+  "page_background": "stack",
+  "scope": "R3 full-page non-interactive scenery, live UI and one unaccepted stack motion feasibility sample; runner/herd characters and all interactive props remain v4",
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "ui": {
+    "title": {
+      "image": "title-plaque-a.png",
+      "sha256": "f03c17db0f82593149f9f4beeee9217f74e44e5ecb0e61b3f9f7e0a77eeb6210",
+      "size_px": [
+        2172,
+        724
+      ],
+      "role": "blank carved wood plaque; semantic titles remain HTML; no gameplay geometry"
+    }
+  },
+  "page_backgrounds": {
+    "stack": {
+      "image": "page-stack-b2.png",
+      "sha256": "a5b50f5c9051711b29b8fd0fdfc0123d09f88f2bf297d033d44560161fef1329",
+      "size_px": [
+        863,
+        1823
+      ],
+      "anchor_fraction": 0.82,
+      "role": "pure non-interactive portrait page scenery; no canvas projection/input/actor changes"
+    },
+    "runner": {
+      "image": "page-runner-b2.png",
+      "sha256": "ed0fcfe5661fa9d4e0511406f000440dabeba8c4096178fdbf3ba66ee889655f",
+      "size_px": [
+        863,
+        1823
+      ],
+      "anchor_fraction": 0.68,
+      "role": "pure non-interactive portrait page scenery; no canvas projection/input/actor changes"
+    },
+    "herd": {
+      "image": "page-herd-b2.png",
+      "sha256": "6830f7f2fc71d5e4a4d708476eecbec87496bd76f3302ce8f45abb3618b5521b",
+      "size_px": [
+        863,
+        1822
+      ],
+      "anchor_fraction": 0.27,
+      "role": "pure non-interactive portrait page scenery; no canvas projection/input/actor changes"
+    }
+  },
+  "stack_sample": {
+    "image": "stack-motion-a.png",
+    "image_sha256": "d1f6650adf600658aaac113f7ff902019b6c7280b520caecb417356cc21b9819",
+    "metadata": "stack-motion-a.atlas.json",
+    "metadata_sha256": "04a7e580c3b37567734670479df0dbce3f19951f03dd198f4c76e3eda22836ef",
+    "native_alpha_height": 126,
+    "uniform_world_scale": 0.2857142857142857,
+    "visual_budget": "36 high sheep +2 clear +6 tray =44 layer; actual sheep width52 not prototype112; unresolved difference, not new golden"
+  }
+}

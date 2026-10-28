@@ -1,0 +1,9 @@
+
+ RUN  v5.0.5 <PROJECT_ROOT>
+
+
+ Test Files  1 passed (1)
+      Tests  3 passed (3)
+   Start at  09:54:37
+   Duration  426ms (import 62%, transform 30%, worker 5%, tests 3%)
+

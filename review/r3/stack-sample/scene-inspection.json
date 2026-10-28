@@ -1,0 +1,574 @@
+[
+  {
+    "name": "bell_clapper",
+    "type": "MESH",
+    "parent": "sheep_body_ctrl",
+    "location": [
+      0.0,
+      0.6399999856948853,
+      0.546999990940094
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.023000000044703484,
+      0.023000000044703484,
+      0.027000000700354576
+    ],
+    "visible": true,
+    "vertices": 222
+  },
+  {
+    "name": "bell_rim",
+    "type": "CURVE",
+    "parent": "sheep_body_ctrl",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": null
+  },
+  {
+    "name": "bell_single",
+    "type": "MESH",
+    "parent": "sheep_body_ctrl",
+    "location": [
+      0.0,
+      0.6399999856948853,
+      0.6150000095367432
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": 64
+  },
+  {
+    "name": "dog_body_ctrl",
+    "type": "EMPTY",
+    "parent": "dog_root",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": null
+  },
+  {
+    "name": "dog_leg_-0.18_-0.36",
+    "type": "EMPTY",
+    "parent": "dog_root",
+    "location": [
+      -0.18000000715255737,
+      -0.36000001430511475,
+      0.4000000059604645
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": null
+  },
+  {
+    "name": "dog_leg_-0.18_0.28",
+    "type": "EMPTY",
+    "parent": "dog_root",
+    "location": [
+      -0.18000000715255737,
+      0.2800000011920929,
+      0.4000000059604645
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": null
+  },
+  {
+    "name": "dog_leg_0.18_-0.36",
+    "type": "EMPTY",
+    "parent": "dog_root",
+    "location": [
+      0.18000000715255737,
+      -0.36000001430511475,
+      0.4000000059604645
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": null
+  },
+  {
+    "name": "dog_leg_0.18_0.28",
+    "type": "EMPTY",
+    "parent": "dog_root",
+    "location": [
+      0.18000000715255737,
+      0.2800000011920929,
+      0.4000000059604645
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": null
+  },
+  {
+    "name": "dog_root",
+    "type": "EMPTY",
+    "parent": null,
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": null
+  },
+  {
+    "name": "ear_-1",
+    "type": "MESH",
+    "parent": "sheep_head_ctrl",
+    "location": [
+      -0.36500000953674316,
+      0.3199999928474426,
+      0.9300000071525574
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.12999999523162842,
+      0.09000000357627869,
+      0.08500000089406967
+    ],
+    "visible": true,
+    "vertices": 222
+  },
+  {
+    "name": "ear_1",
+    "type": "MESH",
+    "parent": "sheep_head_ctrl",
+    "location": [
+      0.36500000953674316,
+      0.3199999928474426,
+      0.9300000071525574
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.12999999523162842,
+      0.09000000357627869,
+      0.08500000089406967
+    ],
+    "visible": true,
+    "vertices": 222
+  },
+  {
+    "name": "eye_-1",
+    "type": "MESH",
+    "parent": "sheep_head_ctrl",
+    "location": [
+      -0.1435600072145462,
+      0.7536734938621521,
+      1.0119999647140503
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.0430000014603138,
+      0.027000000700354576,
+      0.052000001072883606
+    ],
+    "visible": true,
+    "vertices": 222
+  },
+  {
+    "name": "eye_1",
+    "type": "MESH",
+    "parent": "sheep_head_ctrl",
+    "location": [
+      0.1435600072145462,
+      0.7536734938621521,
+      1.0119999647140503
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.0430000014603138,
+      0.027000000700354576,
+      0.052000001072883606
+    ],
+    "visible": true,
+    "vertices": 222
+  },
+  {
+    "name": "eye_glint_-1",
+    "type": "MESH",
+    "parent": "sheep_head_ctrl",
+    "location": [
+      -0.1522900015115738,
+      0.7776734828948975,
+      1.0290000438690186
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.008999999612569809,
+      0.006000000052154064,
+      0.012000000104308128
+    ],
+    "visible": true,
+    "vertices": 222
+  },
+  {
+    "name": "eye_glint_1",
+    "type": "MESH",
+    "parent": "sheep_head_ctrl",
+    "location": [
+      0.13482999801635742,
+      0.7776734828948975,
+      1.0290000438690186
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      0.008999999612569809,
+      0.006000000052154064,
+      0.012000000104308128
+    ],
+    "visible": true,
+    "vertices": 222
+  },
+  {
+    "name": "R2d_face_control_surface",
+    "type": "MESH",
+    "parent": "sheep_head_ctrl",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": 640
+  },
+  {
+    "name": "R2g_welded_existing_fleece",
+    "type": "MESH",
+    "parent": "sheep_body_ctrl",
+    "location": [
+      0.0,
+      -0.07999999821186066,
+      0.550000011920929
+    ],
+    "rotation": [
+      0.0,
+      -0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": 49650
+  },
+  {
+    "name": "scarf_neck",
+    "type": "CURVE",
+    "parent": "sheep_body_ctrl",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": null
+  },
+  {
+    "name": "scarf_tail",
+    "type": "MESH",
+    "parent": "sheep_body_ctrl",
+    "location": [
+      0.12999999523162842,
+      0.574999988079071,
+      0.5849999785423279
+    ],
+    "rotation": [
+      0.0,
+      0.25,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      0.8500000238418579
+    ],
+    "visible": true,
+    "vertices": 8
+  },
+  {
+    "name": "sheep_body_ctrl",
+    "type": "EMPTY",
+    "parent": "sheep_root",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": null
+  },
+  {
+    "name": "sheep_head_ctrl",
+    "type": "EMPTY",
+    "parent": "sheep_body_ctrl",
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": null
+  },
+  {
+    "name": "sheep_leg_-0.255_-0.32",
+    "type": "EMPTY",
+    "parent": "sheep_root",
+    "location": [
+      -0.2549999952316284,
+      -0.3199999928474426,
+      0.33000001311302185
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": null
+  },
+  {
+    "name": "sheep_leg_-0.255_0.29",
+    "type": "EMPTY",
+    "parent": "sheep_root",
+    "location": [
+      -0.2549999952316284,
+      0.28999999165534973,
+      0.33000001311302185
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": null
+  },
+  {
+    "name": "sheep_leg_0.255_-0.32",
+    "type": "EMPTY",
+    "parent": "sheep_root",
+    "location": [
+      0.2549999952316284,
+      -0.3199999928474426,
+      0.33000001311302185
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": null
+  },
+  {
+    "name": "sheep_leg_0.255_0.29",
+    "type": "EMPTY",
+    "parent": "sheep_root",
+    "location": [
+      0.2549999952316284,
+      0.28999999165534973,
+      0.33000001311302185
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": null
+  },
+  {
+    "name": "sheep_root",
+    "type": "EMPTY",
+    "parent": null,
+    "location": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "visible": true,
+    "vertices": null
+  }
+]

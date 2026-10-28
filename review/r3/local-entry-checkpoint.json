@@ -1,0 +1,402 @@
+{
+  "recorded_at_utc": "20261028T002136Z",
+  "source_head": "9d652fb3fef2ede55ebc462d46445cc855b98dd1",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "b801f34d50792b68ee133d48e2ccd2f7ab97f87c053c05ae0314420163177a2b",
+      "bytes": 4930
+    },
+    {
+      "path": "apps/server/src/admin.ts",
+      "sha256": "06df77168c0645781c5b8e505c069f45e1647d67e95a7445073affd95dfe9cb5",
+      "bytes": 26967
+    },
+    {
+      "path": "apps/server/src/app.ts",
+      "sha256": "653a107ae36135c8e0df7b652de015599b7d466e03b1158020fa290bf3ec52c2",
+      "bytes": 27465
+    },
+    {
+      "path": "apps/server/src/cli.ts",
+      "sha256": "369f00f801d5cc4b35c1dfe4c8fa50f8e94239d33b8fcbfd84b92d70b647dd4d",
+      "bytes": 3803
+    },
+    {
+      "path": "apps/server/src/db.ts",
+      "sha256": "5930515ec1b920c87f20a14c3ddb7522d04cee9d18713cc7f1a3e627e7a17b19",
+      "bytes": 3408
+    },
+    {
+      "path": "apps/server/src/errors.ts",
+      "sha256": "1965ec3a5e1f6ddf5ab82f02ad9fbf893425edd221589dd15c3f7ed86409a788",
+      "bytes": 1807
+    },
+    {
+      "path": "apps/server/src/jobs.ts",
+      "sha256": "34f526747d5dc87f804a0c240d54468dcf2b5ff2274a8c5e6789c461daae5e56",
+      "bytes": 15184
+    },
+    {
+      "path": "apps/server/src/json.ts",
+      "sha256": "1aa4fd91faaa6f30735260924108cfe2bc9c27e4a541708490724824c1424bd7",
+      "bytes": 3154
+    },
+    {
+      "path": "apps/server/src/login-rate-limit.ts",
+      "sha256": "e296f61f8158d010cb9cbbb4f7302c5dc8b5343f5d4da47db6c8591ff7607a90",
+      "bytes": 3988
+    },
+    {
+      "path": "apps/server/src/main.ts",
+      "sha256": "1e0247389bb9236de30cf493b344f70c65b182f0b8e858e304363b80533a862f",
+      "bytes": 3809
+    },
+    {
+      "path": "apps/server/src/model.ts",
+      "sha256": "f3f359284ff4ea8955a4eb079d136c778134fdb0c02ad2248c1bf5cc2183f365",
+      "bytes": 7967
+    },
+    {
+      "path": "apps/server/src/operations.ts",
+      "sha256": "f0ea9732720474ed32fe3acf1b43ad56c06e18c740d71df0a00c8fa6684aaea4",
+      "bytes": 11375
+    },
+    {
+      "path": "apps/server/src/playtests.ts",
+      "sha256": "b8a207c7388e426ad86dcef11563d4da02a57a12cab127af8c3a08d8e7c9d102",
+      "bytes": 7912
+    },
+    {
+      "path": "apps/server/src/receipt.ts",
+      "sha256": "b9fd29c07eefedff6da9c2a74bcb5f1f19b09d4198397b2739e3513fe5bf7476",
+      "bytes": 1391
+    },
+    {
+      "path": "apps/server/src/replay-worker.ts",
+      "sha256": "c8ad42c899f4082b1982d20eac854d46a08c4edf7b636128fd858d15cf5a0adf",
+      "bytes": 417
+    },
+    {
+      "path": "apps/server/src/seed.ts",
+      "sha256": "c4318ac0bddc9098cd9b007dfe4af40e8fc2711e69170884bfa276a6d2992bc0",
+      "bytes": 5648
+    },
+    {
+      "path": "apps/server/src/service.ts",
+      "sha256": "1c9bc8715309642ed37a36504a21cbb7afccdd7a1720181dcb2fe77e9f6f13aa",
+      "bytes": 50532
+    },
+    {
+      "path": "apps/web/public/assets/asset-manifest.v1.json",
+      "sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+      "bytes": 114244
+    },
+    {
+      "path": "apps/web/src/App.tsx",
+      "sha256": "a422ac1fe6578b94811d8331b9fd6e1c18b9e6b68661360228b713de395b1691",
+      "bytes": 17273
+    },
+    {
+      "path": "apps/web/src/LobbyIllustration.tsx",
+      "sha256": "61adc6bf7c8befc2342e6807318b6ee0925059a310d8f58ea43df6557cd296ba",
+      "bytes": 790
+    },
+    {
+      "path": "apps/web/src/api.ts",
+      "sha256": "916568ee63fc62d43274dfeb676fa86efdfe4f2b7a54a6992ad3db529ec865f3",
+      "bytes": 2646
+    },
+    {
+      "path": "apps/web/src/game/GamePage.tsx",
+      "sha256": "be08d0c2e786770c0ef49ff724007cada86e1431c5fc47be61af4948ee4ee515",
+      "bytes": 29557
+    },
+    {
+      "path": "apps/web/src/game/TutorialScene.tsx",
+      "sha256": "41cc7aea5b83dad7b3528e2a5985c6f3aa79d02e4f2e97422f6c8496e666bccc",
+      "bytes": 4833
+    },
+    {
+      "path": "apps/web/src/game/assets.test.ts",
+      "sha256": "23302c49adfe86307e5c02cd05df0288f2d961e16f79d264427d81ac983abb63",
+      "bytes": 7477
+    },
+    {
+      "path": "apps/web/src/game/assets.ts",
+      "sha256": "a007d29770408f03562a6b6fff189deb376d0078351c32de6142fa17e5c6879a",
+      "bytes": 9857
+    },
+    {
+      "path": "apps/web/src/game/keyboard.ts",
+      "sha256": "62d91939374a970eb2eaafc73bedb88e4d5facb02d96e5e30ed4468b38ed437a",
+      "bytes": 838
+    },
+    {
+      "path": "apps/web/src/game/presentation.test.ts",
+      "sha256": "47b3e7b77e93ed1b014324d1b873e4f6f09af8b6d7f38d42a9d0b550dc606709",
+      "bytes": 1134
+    },
+    {
+      "path": "apps/web/src/game/presentation.ts",
+      "sha256": "35a026ac74d28f7d7fe457c85f9b23c38ffad584836d181dd394f51b789a3262",
+      "bytes": 869
+    },
+    {
+      "path": "apps/web/src/game/presenter-state.test.ts",
+      "sha256": "6e76f8ed3dbad01b9b6d31511045f78e04a0c453e3cd5ebbfe6bb96512f81ee6",
+      "bytes": 3462
+    },
+    {
+      "path": "apps/web/src/game/presenter-state.ts",
+      "sha256": "b016a2438f4b04e8d63a24ef04d89caa9bdb0b5800932c773ca3e2e7ac1b18bf",
+      "bytes": 4582
+    },
+    {
+      "path": "apps/web/src/game/renderer.ts",
+      "sha256": "0190a9f894ab0ef83296bed25f2af6b007c37d81d6f4687deb2b1265c3de72e8",
+      "bytes": 28449
+    },
+    {
+      "path": "apps/web/src/game/storage.ts",
+      "sha256": "a89eb0b95f335eb7cc1fe64340d01020017b09e2936593d8203731a192c519c7",
+      "bytes": 1933
+    },
+    {
+      "path": "apps/web/src/game/timeline.ts",
+      "sha256": "52c1921e94170ed58908208a47a38c107283b65eee4040301a8a42ab2c8f802d",
+      "bytes": 2591
+    },
+    {
+      "path": "apps/web/src/game/tutorial-model.test.ts",
+      "sha256": "7990de56482d1997aa9b6edd344b759322696022d21a5464dee481aab8afbb0e",
+      "bytes": 2557
+    },
+    {
+      "path": "apps/web/src/game/tutorial-model.ts",
+      "sha256": "ac09fb030da3d22dfefbd20c2148084e1a9fc4dabfd38059e9feb2dac4c67cf1",
+      "bytes": 3537
+    },
+    {
+      "path": "apps/web/src/main.tsx",
+      "sha256": "d6410d6ec676de8b4d3032d3cdfd5d7bc1641803f158547072b34e51b664beca",
+      "bytes": 266
+    },
+    {
+      "path": "apps/web/src/pages/AdminPage.tsx",
+      "sha256": "2986154b9a159bcb1939519a0edf5106d5a75e415d52acdb4d8031878b1f1f18",
+      "bytes": 29415
+    },
+    {
+      "path": "apps/web/src/pages/OperationsPanels.tsx",
+      "sha256": "3937331b657d81af892d20e87a1cb87fd58a2c1f1c98fe7aeeac034df1365d4d",
+      "bytes": 20949
+    },
+    {
+      "path": "apps/web/src/pages/ParticipantPages.tsx",
+      "sha256": "58ef8a2bc337f538fa995c42e84139b3bbd446dfb3546a2488b199479998292c",
+      "bytes": 19369
+    },
+    {
+      "path": "apps/web/src/pages/admin-requests.ts",
+      "sha256": "215b8ad0411b059108397a06df2a7f9e6d53121f61c28bee4d6a16851ca9ebb3",
+      "bytes": 589
+    },
+    {
+      "path": "apps/web/src/pages/operations-model.ts",
+      "sha256": "d10fccb91693ae17dc87e60ac68797f25758353ef897e8d9fe7218c9e384ccdb",
+      "bytes": 1333
+    },
+    {
+      "path": "apps/web/src/pages/playtest-json.ts",
+      "sha256": "9f630b20f14141299b04b1c4cd660fcbf57103e0a7ed4cc3a0a04e691cdfc061",
+      "bytes": 2721
+    },
+    {
+      "path": "apps/web/src/repair-state/VoucherScanner.tsx",
+      "sha256": "a08b4623a2b04c0c5fa915721ac9bd1d350d58743b8485325b38d422e4e90a76",
+      "bytes": 5230
+    },
+    {
+      "path": "apps/web/src/repair-state/admission.ts",
+      "sha256": "6646aac32305074bdd17db2fa1a8f215a548010936de34d6d89f2b16637166e7",
+      "bytes": 2572
+    },
+    {
+      "path": "apps/web/src/repair-state/redemption.ts",
+      "sha256": "4fd5fff61400f9d4a97bd24df70e0071ab4f9989f2c0b2fc5f12430e8e618d03",
+      "bytes": 736
+    },
+    {
+      "path": "apps/web/src/repair-state/result-presentation.ts",
+      "sha256": "a8321195f1af27020f31ad16681e94db18efe37dbec5e2da2d53ac9cd0904749",
+      "bytes": 1720
+    },
+    {
+      "path": "apps/web/src/styles.css",
+      "sha256": "a380b9269ae915ebd0d06ad45d0e038a82668ba85d3d90b4b14df87cd9ff72bc",
+      "bytes": 15335
+    },
+    {
+      "path": "apps/web/src/ui.tsx",
+      "sha256": "9e00776ef7a2390aa6de65f57ae993b7f42f9c9afd06b06e5c151e9c1160dce6",
+      "bytes": 6827
+    },
+    {
+      "path": "apps/web/src/visual-repair.css",
+      "sha256": "b77e0b59d50cc6702c22ef5382f7109a567b9a7397982b4b9bf3805767b1ef7c",
+      "bytes": 16947
+    },
+    {
+      "path": "art-source/r2/r2g/sheep_master_r2g.blend",
+      "sha256": "e6875118a2cca427b380bf40838d679ac9b742d80ab7fff2e117058cb058feff",
+      "bytes": 29804455
+    },
+    {
+      "path": "config/game_rules.v2.1.json",
+      "sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "bytes": 42576
+    },
+    {
+      "path": "docs/R3_VISUAL_STATUS.md",
+      "sha256": "8ee1c13e7539551aa0f8043ad19a09c7d4be0638cacd47bda1c6361b5dd76b93",
+      "bytes": 4965
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "8153a55cf49dae3c114ac28def76d0c308795b0b99572de3469b3e23a7226f46",
+      "bytes": 103053
+    },
+    {
+      "path": "package.json",
+      "sha256": "637df202ad0e1083f37a4742527a498369c23a213e41e661f7837892b18b6b9e",
+      "bytes": 1855
+    },
+    {
+      "path": "packages/contracts/openapi.yaml",
+      "sha256": "76e3f54fcae9f308fc764981096cdb5b99e1864de643a725769847e52bbf6a2f",
+      "bytes": 168583
+    },
+    {
+      "path": "packages/contracts/package.json",
+      "sha256": "4191ea1dccbb1892dbae369fa611429638862b4441eb42f92e0355767673a9c9",
+      "bytes": 155
+    },
+    {
+      "path": "packages/contracts/src/generated/api-types.ts",
+      "sha256": "8e8b1c4f075be9b563dfa158bda731bfe74fe4e04146d529ac730844e89e0b38",
+      "bytes": 146580
+    },
+    {
+      "path": "packages/contracts/src/generated/schemas.ts",
+      "sha256": "acbaf5d64888ceadb4b0f9cac555ced1dc0d4a5980cef232563e012b7c13d0ef",
+      "bytes": 132194
+    },
+    {
+      "path": "packages/contracts/src/index.ts",
+      "sha256": "c8342bfd4d468d8f919782e7dbd58ce1dd5b8183b5d2a88531fed17626435588",
+      "bytes": 135
+    },
+    {
+      "path": "packages/game-core/package.json",
+      "sha256": "d1f47c1627f47e057b01e41edc06bb0323ac98bd85921befa5e73e82043d5c28",
+      "bytes": 155
+    },
+    {
+      "path": "packages/game-core/src/build.ts",
+      "sha256": "92b924da11856d4d46586de8bd16aaa5597aad28a814b8120d3dd124eb0849fb",
+      "bytes": 282
+    },
+    {
+      "path": "packages/game-core/src/common.ts",
+      "sha256": "d4c757339272c1a77ca9e277a6b1069666f4c9d22c933c6bae5ee3670d22d105",
+      "bytes": 8002
+    },
+    {
+      "path": "packages/game-core/src/contracts/adapter.ts",
+      "sha256": "e27a80cdeb51f5a91b8dfdff36f3857fda4042a61971e50a2ce8d651deab20dd",
+      "bytes": 5189
+    },
+    {
+      "path": "packages/game-core/src/contracts/types.ts",
+      "sha256": "bc7251cbb4f38fbf7d511f3f210f60ea90446826750a3922be43bc1738f0ef58",
+      "bytes": 10260
+    },
+    {
+      "path": "packages/game-core/src/games.ts",
+      "sha256": "b8f1f4cb542a660ecee661929c725693502b10347c441b075567d999e37629f5",
+      "bytes": 15506
+    },
+    {
+      "path": "packages/game-core/src/index.ts",
+      "sha256": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+      "bytes": 8661
+    },
+    {
+      "path": "packages/game-core/src/model.ts",
+      "sha256": "e40ad79a5998873ef437334fac6d7946ba9f076c5b36555c00b37614990e6b4d",
+      "bytes": 1450
+    },
+    {
+      "path": "packages/game-core/src/rules.ts",
+      "sha256": "59d8fa6e607c9b1b35169ee4d79f3f555ed5c027ad7febb34cb460c10fca8f3d",
+      "bytes": 126
+    },
+    {
+      "path": "packages/game-core/src/snapshots.ts",
+      "sha256": "ce9b8c6fea5a968c2416b59d263790b8cc54d004944b3af502785f7cfcceb81c",
+      "bytes": 5037
+    },
+    {
+      "path": "packages/game-core/test/core.test.ts",
+      "sha256": "0ac4dd81cb56598fd8ca8f2166e6004552d037613707638d0d20736387608b77",
+      "bytes": 5567
+    },
+    {
+      "path": "packages/game-core/test/differential.test.ts",
+      "sha256": "ab68470893e8549574a3970a1471be902f49d9164f1f2783aacc49c0ad761bce",
+      "bytes": 2752
+    },
+    {
+      "path": "planning/PROJECT_STATE.json",
+      "sha256": "03ab63809d933c66133050fe63885c497329b2ad7cef5a4c2c7337ef0dc58509",
+      "bytes": 50034
+    },
+    {
+      "path": "review/r3/CURRENT.json",
+      "sha256": "1160e309c48ff796c3fc40e4a184f2e77ec06952b1c5875ca4ada046ed2e9652",
+      "bytes": 1477
+    }
+  ],
+  "backup_scope": "source/config/manifest/G4 master + selected state, not all historical renders",
+  "backup_local_directory": ".local/r3-worktree-20261028T002136Z",
+  "project_id": "6ed4c556-6be5-4ae6-819d-ee2ca2f7189b",
+  "local_thread_id": "01a17aab-47dd-7480-961e-abfdfa76e7eb",
+  "thread_title": "实现羊年年会游戏平台",
+  "association_evidence": "Codex list_projects + list_threads: exact cwd/projectId/local active thread; current environment visualization thread id matches",
+  "parallel_writer_evidence": "collaboration.list_agents returned only /root; same-project list_threads has only this active Codex task",
+  "entry_blocker_resolved": true,
+  "roles": {
+    "root": [
+      "assets.ts",
+      "renderer.ts",
+      "r3-candidate.ts",
+      "new art-source/r3/",
+      "new candidates/r3/",
+      "review/r3/",
+      "integration/state/Git"
+    ],
+    "R3-UI": [
+      "GamePage.tsx",
+      "TutorialScene.tsx",
+      "App.tsx tutorial markup only",
+      "new r3-ui.css",
+      "main.tsx CSS import only"
+    ],
+    "R3-AUDIT": [
+      "review/r3/audit/ only; product read-only"
+    ]
+  },
+  "sample_art_accepted": false,
+  "production_art_accepted": false
+}

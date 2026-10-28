@@ -1,0 +1,26 @@
+{
+  "image": "runner.png",
+  "size_px": [
+    1605,
+    980
+  ],
+  "scene_size_px": [
+    360,
+    220
+  ],
+  "frames": {
+    "backdrop_runner": {
+      "rect": [
+        0,
+        0,
+        1605,
+        980
+      ],
+      "pivot_px": [
+        0,
+        0
+      ]
+    }
+  },
+  "animations": {}
+}

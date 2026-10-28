@@ -1,0 +1,89 @@
+{
+  "task": "R3-C-SAMPLE",
+  "source": "art-source/r2/r2g/sheep_master_r2g.blend",
+  "source_sha256": "e6875118a2cca427b380bf40838d679ac9b742d80ab7fff2e117058cb058feff",
+  "production_art_accepted": false,
+  "sample_art_accepted": false,
+  "renders": [
+    {
+      "label": "A_folded_loaf",
+      "blend": "art-source/r3/stack-sample/A_folded_loaf.blend",
+      "image": "review/r3/stack-sample/A_folded_loaf_512.png",
+      "seconds": 2.681,
+      "camera": "side_v1",
+      "camera_location": [
+        0.0,
+        -8.0,
+        1.399999976158142
+      ],
+      "camera_rotation": [
+        1.3975508213043213,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.0,
+      "exposure": 0.4000000059604645,
+      "root_scale": [
+        0.9300000071525574,
+        0.9300000071525574,
+        0.9300000071525574
+      ],
+      "body_location": [
+        0.0,
+        0.0,
+        -0.11999999731779099
+      ],
+      "head_location": [
+        0.0,
+        -0.054999999701976776,
+        -0.26499998569488525
+      ],
+      "head_rotation": [
+        0.0,
+        0.0,
+        -1.0471975803375244
+      ],
+      "legal_pose": "existing leg controllers rotated and tucked; existing body/head translated; existing collar group reparented; no anisotropic root scaling; original welded fleece unchanged"
+    },
+    {
+      "label": "B_deep_crouch",
+      "blend": "art-source/r3/stack-sample/B_deep_crouch.blend",
+      "image": "review/r3/stack-sample/B_deep_crouch_512.png",
+      "seconds": 2.37,
+      "camera": "side_v1",
+      "camera_location": [
+        0.0,
+        -8.0,
+        1.399999976158142
+      ],
+      "camera_rotation": [
+        1.3975508213043213,
+        -0.0,
+        0.0
+      ],
+      "ortho_scale": 4.0,
+      "exposure": 0.4000000059604645,
+      "root_scale": [
+        0.9300000071525574,
+        0.9300000071525574,
+        0.9300000071525574
+      ],
+      "body_location": [
+        0.0,
+        0.0,
+        -0.23999999463558197
+      ],
+      "head_location": [
+        0.0,
+        -0.10000000149011612,
+        -0.20000000298023224
+      ],
+      "head_rotation": [
+        0.1745329201221466,
+        0.0,
+        -1.0471975803375244
+      ],
+      "legal_pose": "existing leg controllers rotated and tucked; existing body/head translated; existing collar group reparented; no anisotropic root scaling; original welded fleece unchanged"
+    }
+  ]
+}

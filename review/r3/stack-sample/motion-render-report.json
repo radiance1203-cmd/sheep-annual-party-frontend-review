@@ -1,0 +1,236 @@
+{
+  "task": "R3-C-SAMPLE",
+  "status": "LIMITED_FEASIBILITY_CANDIDATE",
+  "source": "art-source/r3/stack-sample/A_collar_v2.blend",
+  "source_sha256": "bcc1ce8d6513b6713792a4246439504b3aca0b684268f65b312bb65a27562841",
+  "g4_mother_sha256": "e6875118a2cca427b380bf40838d679ac9b742d80ab7fff2e117058cb058feff",
+  "master": "art-source/r3/stack-sample/sheep_stack_A_motion_sample.blend",
+  "master_sha256": "5276dbced072e3a18b1b56b1ecfdb4ddea0569baa9d2f7743841ea204d052a9e",
+  "camera": "side_v1",
+  "pivot_native512": [
+    256.0,
+    256.0001525878906
+  ],
+  "physical_floor_z": 0,
+  "scale_policy": "uniform root only; contact uses local head/limb pose, no global squash",
+  "clips": [
+    {
+      "name": "stack_idle",
+      "fps": 8,
+      "loop": true,
+      "n": 4,
+      "bindings": {
+        "R3_bell_ctrl": "R3_stack_idle__R3_bell_ctrl",
+        "sheep_root": "R3_stack_idle__sheep_root",
+        "sheep_body_ctrl": "R3_stack_idle__sheep_body_ctrl",
+        "sheep_head_ctrl": "R3_stack_idle__sheep_head_ctrl",
+        "scarf_neck": "R3_stack_idle__scarf_neck",
+        "scarf_tail": "R3_stack_idle__scarf_tail",
+        "bell_single": "R3_stack_idle__bell_single",
+        "bell_rim": "R3_stack_idle__bell_rim",
+        "bell_clapper": "R3_stack_idle__bell_clapper",
+        "ear_-1": "R3_stack_idle__ear_-1",
+        "ear_1": "R3_stack_idle__ear_1",
+        "eye_-1": "R3_stack_idle__eye_-1",
+        "eye_1": "R3_stack_idle__eye_1",
+        "eye_glint_-1": "R3_stack_idle__eye_glint_-1",
+        "eye_glint_1": "R3_stack_idle__eye_glint_1",
+        "sheep_leg_-0.255_-0.32": "R3_stack_idle__sheep_leg_-0.255_-0.32",
+        "sheep_leg_-0.255_0.29": "R3_stack_idle__sheep_leg_-0.255_0.29",
+        "sheep_leg_0.255_-0.32": "R3_stack_idle__sheep_leg_0.255_-0.32",
+        "sheep_leg_0.255_0.29": "R3_stack_idle__sheep_leg_0.255_0.29"
+      }
+    },
+    {
+      "name": "stack_air",
+      "fps": 6,
+      "loop": true,
+      "n": 2,
+      "bindings": {
+        "R3_bell_ctrl": "R3_stack_air__R3_bell_ctrl",
+        "sheep_root": "R3_stack_air__sheep_root",
+        "sheep_body_ctrl": "R3_stack_air__sheep_body_ctrl",
+        "sheep_head_ctrl": "R3_stack_air__sheep_head_ctrl",
+        "scarf_neck": "R3_stack_air__scarf_neck",
+        "scarf_tail": "R3_stack_air__scarf_tail",
+        "bell_single": "R3_stack_air__bell_single",
+        "bell_rim": "R3_stack_air__bell_rim",
+        "bell_clapper": "R3_stack_air__bell_clapper",
+        "ear_-1": "R3_stack_air__ear_-1",
+        "ear_1": "R3_stack_air__ear_1",
+        "eye_-1": "R3_stack_air__eye_-1",
+        "eye_1": "R3_stack_air__eye_1",
+        "eye_glint_-1": "R3_stack_air__eye_glint_-1",
+        "eye_glint_1": "R3_stack_air__eye_glint_1",
+        "sheep_leg_-0.255_-0.32": "R3_stack_air__sheep_leg_-0.255_-0.32",
+        "sheep_leg_-0.255_0.29": "R3_stack_air__sheep_leg_-0.255_0.29",
+        "sheep_leg_0.255_-0.32": "R3_stack_air__sheep_leg_0.255_-0.32",
+        "sheep_leg_0.255_0.29": "R3_stack_air__sheep_leg_0.255_0.29"
+      }
+    },
+    {
+      "name": "stack_steady",
+      "fps": 15,
+      "loop": false,
+      "n": 4,
+      "bindings": {
+        "R3_bell_ctrl": "R3_stack_steady__R3_bell_ctrl",
+        "sheep_root": "R3_stack_steady__sheep_root",
+        "sheep_body_ctrl": "R3_stack_steady__sheep_body_ctrl",
+        "sheep_head_ctrl": "R3_stack_steady__sheep_head_ctrl",
+        "scarf_neck": "R3_stack_steady__scarf_neck",
+        "scarf_tail": "R3_stack_steady__scarf_tail",
+        "bell_single": "R3_stack_steady__bell_single",
+        "bell_rim": "R3_stack_steady__bell_rim",
+        "bell_clapper": "R3_stack_steady__bell_clapper",
+        "ear_-1": "R3_stack_steady__ear_-1",
+        "ear_1": "R3_stack_steady__ear_1",
+        "eye_-1": "R3_stack_steady__eye_-1",
+        "eye_1": "R3_stack_steady__eye_1",
+        "eye_glint_-1": "R3_stack_steady__eye_glint_-1",
+        "eye_glint_1": "R3_stack_steady__eye_glint_1",
+        "sheep_leg_-0.255_-0.32": "R3_stack_steady__sheep_leg_-0.255_-0.32",
+        "sheep_leg_-0.255_0.29": "R3_stack_steady__sheep_leg_-0.255_0.29",
+        "sheep_leg_0.255_-0.32": "R3_stack_steady__sheep_leg_0.255_-0.32",
+        "sheep_leg_0.255_0.29": "R3_stack_steady__sheep_leg_0.255_0.29"
+      }
+    },
+    {
+      "name": "stack_celebrate",
+      "fps": 12,
+      "loop": true,
+      "n": 4,
+      "bindings": {
+        "R3_bell_ctrl": "R3_stack_celebrate__R3_bell_ctrl",
+        "sheep_root": "R3_stack_celebrate__sheep_root",
+        "sheep_body_ctrl": "R3_stack_celebrate__sheep_body_ctrl",
+        "sheep_head_ctrl": "R3_stack_celebrate__sheep_head_ctrl",
+        "scarf_neck": "R3_stack_celebrate__scarf_neck",
+        "scarf_tail": "R3_stack_celebrate__scarf_tail",
+        "bell_single": "R3_stack_celebrate__bell_single",
+        "bell_rim": "R3_stack_celebrate__bell_rim",
+        "bell_clapper": "R3_stack_celebrate__bell_clapper",
+        "ear_-1": "R3_stack_celebrate__ear_-1",
+        "ear_1": "R3_stack_celebrate__ear_1",
+        "eye_-1": "R3_stack_celebrate__eye_-1",
+        "eye_1": "R3_stack_celebrate__eye_1",
+        "eye_glint_-1": "R3_stack_celebrate__eye_glint_-1",
+        "eye_glint_1": "R3_stack_celebrate__eye_glint_1",
+        "sheep_leg_-0.255_-0.32": "R3_stack_celebrate__sheep_leg_-0.255_-0.32",
+        "sheep_leg_-0.255_0.29": "R3_stack_celebrate__sheep_leg_-0.255_0.29",
+        "sheep_leg_0.255_-0.32": "R3_stack_celebrate__sheep_leg_0.255_-0.32",
+        "sheep_leg_0.255_0.29": "R3_stack_celebrate__sheep_leg_0.255_0.29"
+      }
+    }
+  ],
+  "frames": [
+    {
+      "action": "stack_idle",
+      "index": 0,
+      "path": "review/r3/stack-sample/frames/stack_idle_f000_512.png",
+      "seconds": 3.721,
+      "foot_world_z": 0.0
+    },
+    {
+      "action": "stack_idle",
+      "index": 1,
+      "path": "review/r3/stack-sample/frames/stack_idle_f001_512.png",
+      "seconds": 3.548,
+      "foot_world_z": 0.0
+    },
+    {
+      "action": "stack_idle",
+      "index": 2,
+      "path": "review/r3/stack-sample/frames/stack_idle_f002_512.png",
+      "seconds": 2.403,
+      "foot_world_z": 0.0
+    },
+    {
+      "action": "stack_idle",
+      "index": 3,
+      "path": "review/r3/stack-sample/frames/stack_idle_f003_512.png",
+      "seconds": 2.272,
+      "foot_world_z": 0.0
+    },
+    {
+      "action": "stack_air",
+      "index": 0,
+      "path": "review/r3/stack-sample/frames/stack_air_f000_512.png",
+      "seconds": 2.322,
+      "foot_world_z": -0.0
+    },
+    {
+      "action": "stack_air",
+      "index": 1,
+      "path": "review/r3/stack-sample/frames/stack_air_f001_512.png",
+      "seconds": 2.277,
+      "foot_world_z": -0.0
+    },
+    {
+      "action": "stack_steady",
+      "index": 0,
+      "path": "review/r3/stack-sample/frames/stack_steady_f000_512.png",
+      "seconds": 2.253,
+      "foot_world_z": 0.0
+    },
+    {
+      "action": "stack_steady",
+      "index": 1,
+      "path": "review/r3/stack-sample/frames/stack_steady_f001_512.png",
+      "seconds": 2.268,
+      "foot_world_z": 0.0
+    },
+    {
+      "action": "stack_steady",
+      "index": 2,
+      "path": "review/r3/stack-sample/frames/stack_steady_f002_512.png",
+      "seconds": 2.297,
+      "foot_world_z": 0.0
+    },
+    {
+      "action": "stack_steady",
+      "index": 3,
+      "path": "review/r3/stack-sample/frames/stack_steady_f003_512.png",
+      "seconds": 2.297,
+      "foot_world_z": 0.0
+    },
+    {
+      "action": "stack_celebrate",
+      "index": 0,
+      "path": "review/r3/stack-sample/frames/stack_celebrate_f000_512.png",
+      "seconds": 2.344,
+      "foot_world_z": 0.0
+    },
+    {
+      "action": "stack_celebrate",
+      "index": 1,
+      "path": "review/r3/stack-sample/frames/stack_celebrate_f001_512.png",
+      "seconds": 2.273,
+      "foot_world_z": 0.0
+    },
+    {
+      "action": "stack_celebrate",
+      "index": 2,
+      "path": "review/r3/stack-sample/frames/stack_celebrate_f002_512.png",
+      "seconds": 2.306,
+      "foot_world_z": 0.0
+    },
+    {
+      "action": "stack_celebrate",
+      "index": 3,
+      "path": "review/r3/stack-sample/frames/stack_celebrate_f003_512.png",
+      "seconds": 2.328,
+      "foot_world_z": -0.0
+    }
+  ],
+  "missing": [
+    "dedicated stack_miss animation NOT_DONE",
+    "separate perfect-specific animation NOT_DONE; celebration first beat only limited feasibility reaction",
+    "anatomical sheep-tail motion NOT_DONE",
+    "ear motion implemented in celebration only; idle ear flutter NOT_DONE",
+    "full three-game action production NOT_DONE",
+    "prototype-width geometry acceptance BLOCKED"
+  ],
+  "sample_art_accepted": false,
+  "production_art_accepted": false
+}

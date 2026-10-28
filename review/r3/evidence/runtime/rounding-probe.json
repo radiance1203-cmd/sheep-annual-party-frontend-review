@@ -1,0 +1,121 @@
+{
+  "scope": "real GamePage rounding diagnosis; pure existing bufferLayout compared against actual DOM and buffer",
+  "actual": {
+    "rects": {
+      ".hud": {
+        "x": 12,
+        "y": 105.796875,
+        "width": 366,
+        "height": 61,
+        "bottom": 166.796875,
+        "right": 378
+      },
+      ".game-stage": {
+        "x": 12,
+        "y": 297.484375,
+        "width": 366,
+        "height": 223.65625,
+        "bottom": 521.140625,
+        "right": 378
+      },
+      ".game-controls": {
+        "x": 12,
+        "y": 710,
+        "width": 366,
+        "height": 72,
+        "bottom": 782,
+        "right": 378
+      },
+      ".game-controls .primary": {
+        "x": 26.640625,
+        "y": 715,
+        "width": 336.71875,
+        "height": 62,
+        "bottom": 777,
+        "right": 363.359375
+      },
+      ".practice-toolbar": {
+        "x": 12,
+        "y": 782,
+        "width": 366,
+        "height": 52,
+        "bottom": 834,
+        "right": 378
+      },
+      ".game-cumulative": {
+        "x": 89.703125,
+        "y": 524.140625,
+        "width": 210.578125,
+        "height": 24.1875,
+        "bottom": 548.328125,
+        "right": 300.28125
+      },
+      ".game-feedback": {
+        "x": 103,
+        "y": 553.328125,
+        "width": 184,
+        "height": 28,
+        "bottom": 581.328125,
+        "right": 287
+      },
+      "canvas": {
+        "x": 12,
+        "y": 297.484375,
+        "width": 365.4375,
+        "height": 223.65625,
+        "bottom": 521.140625,
+        "right": 377.4375
+      }
+    },
+    "stage": {
+      "gameTick": "5",
+      "acceptedActions": "0",
+      "candidateManifest": "4e9440c5b86ac35dc756620043b4130ef78da1f885c465dd27e3868b4cdb7cda",
+      "presentationTime": "200.00",
+      "eventCount": "0",
+      "spriteCount": "1",
+      "effectCount": "0"
+    },
+    "canvas": {
+      "width": 366,
+      "height": 224,
+      "requestedDpr": "1",
+      "effectiveDpr": "1",
+      "worldWidth": "360",
+      "worldHeight": "220",
+      "attributes": {
+        "phaserVersion": "4.2.1",
+        "scaleMode": "FIT",
+        "renderer": "WEBGL",
+        "effectiveDpr": "1",
+        "requestedDpr": "1",
+        "worldWidth": "360",
+        "worldHeight": "220"
+      }
+    },
+    "teaching": {},
+    "canvasCount": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "requestedDpr": 1
+    },
+    "document": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollY": 0
+  },
+  "expected": {
+    "cssWidth": 365.98295454545456,
+    "cssHeight": 223.65625,
+    "bufferWidth": 366,
+    "bufferHeight": 224,
+    "effectiveDpr": 1,
+    "requestedDpr": 1,
+    "zoom": 1.0166666666666666,
+    "offsetX": 0,
+    "offsetY": 0.1666666666666714
+  },
+  "formula": "buffer rounds each world-scaled CSS axis independently; Phaser FIT then contains the integer buffer ratio in the stage. Resulting CSSwidth*DPR can differ from bufferWidth by one pixel."
+}

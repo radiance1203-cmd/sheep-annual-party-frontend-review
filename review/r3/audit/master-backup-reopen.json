@@ -1,0 +1,30 @@
+{
+  "status": "PASS_REOPEN_ONLY",
+  "blender_version": "4.5.9 LTS",
+  "source": "art-source\\r2\\r2g\\sheep_master_r2g.blend",
+  "backup": ".local\\r3-worktree-20261028T002136Z\\art-source\\r2\\r2g\\sheep_master_r2g.blend",
+  "source_sha256": "e6875118a2cca427b380bf40838d679ac9b742d80ab7fff2e117058cb058feff",
+  "backup_sha256": "e6875118a2cca427b380bf40838d679ac9b742d80ab7fff2e117058cb058feff",
+  "source_and_backup_byte_equal": true,
+  "source_and_backup_unchanged_after_reopen": true,
+  "receipt": {
+    "objects": 546,
+    "meshes": 474,
+    "materials": 12,
+    "actions": 171,
+    "scenes": 1,
+    "sheep_root_exists": true,
+    "face_control_exists": true,
+    "horns_exist": true,
+    "side_camera_exists": true,
+    "file_images": 0,
+    "unpacked_file_images": 0,
+    "missing_image_names": [],
+    "missing_library_names": []
+  },
+  "writes": [
+    "review\\r3\\audit\\master-backup-reopen.json"
+  ],
+  "render_test": "NOT_RUN",
+  "art_acceptance": "NOT_EVALUATED_BY_REOPEN"
+}

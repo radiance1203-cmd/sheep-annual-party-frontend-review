@@ -1,0 +1,30 @@
+{
+  "source_immutable": true,
+  "identity_mesh_hashes": {
+    "R2g_welded_existing_fleece": "df173ec239c6447b32ad856386b9274179d2a213f2267ccb7fd6dc20e0e07996",
+    "R2d_face_control_surface": "72c0a78c0f1ddbb0d1dea60938f797e822d0a52b6edbb33643a7f37c88e28f5d",
+    "R2e_horn_-1": "20617b78842cb640952bf2dfeb6b6bc5beda248105ca2d0d5c185d0e0d3cd520",
+    "R2e_horn_1": "9bb4138281f82507dd8bec08c8b51f6f9c7fb26025d595a737064ea214afe828"
+  },
+  "candidates": [
+    {
+      "candidate": "A_folded_loaf",
+      "sha256": "87ccce793870dacbcaf3211cce50f7beaa71167b7f059035fc2182893bad0ea1",
+      "reopen": true,
+      "mesh_hash_equal": true,
+      "lights_equal": true,
+      "camera_equal": true,
+      "uniform_root_scale": true
+    },
+    {
+      "candidate": "B_deep_crouch",
+      "sha256": "98f1f6dce6435fb010f4177c0e1534fb3591f3ec19a022ca4e1e0fb28f7f8924",
+      "reopen": true,
+      "mesh_hash_equal": true,
+      "lights_equal": true,
+      "camera_equal": true,
+      "uniform_root_scale": true
+    }
+  ],
+  "art_pass": false
+}

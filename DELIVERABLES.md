@@ -1,3 +1,20 @@
+# R3 三款整屏候选 · 2026-10-28
+
+当前 R3-B4-C-sample-a，候选SHA256 `68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb`。
+三款准备/教程/运行与320/390/430共27张实际页面，49条运行检查，三段原速自然终局录像已输出。
+技术验证PASS；独立艺术九格PARTIAL／整体FAIL；S3 NOT_READY。候选仅本机开发显式query的练习/教程使用，正式清单未改。
+
+- [当前状态](review/r3/CURRENT.json)、[完整报告](docs/r3-20261028-report.md)、[独立实际开图报告](review/r3/audit/B4/pixel-review.md)
+- [三款整屏总览](review/r3/evidence/comparisons/overview.png)、[27图及sidecar](review/r3/evidence/pages/)、[原型与真实几何对照](review/r3/evidence/comparisons/)
+- [原速录像与实际输入](review/r3/evidence/video/)、[可下载本地打开的画廊](review/r3/evidence/index.html)
+- [资产/动作覆盖](review/r3/ASSET_MOTION_COVERAGE.json)、[公开副本与原始证据映射](review/r3/PUBLIC_SOURCE_BINDING.json)、[审查提示词](review/r3/REVIEW_PROMPT.txt)
+
+叠高52/112比例与毛绒/围巾、跨栏/赶羊旧v4角色和道具、部分背景细缝及动作层仍未通过。不能因截图、录像或测试数量宣称整个项目完成。真机/微信、24人216局与现场NOT_RUN。
+原主工程仍保留用户未提交工作；本仓库为安全前端导出，不包含后台、数据库/账号/员工/兑换数据或大型.blend。旧轮证据保留本地且公开列出hash，不能冒充本轮。
+
+---
+以下为历史进度与产出，旧计数不算本轮重跑。
+
 ## 2026-10-27 R2g 聚焦恢复阶段
 
 仅继续同两视图的直接控制面/接缝雕刻；功能代码与608e2a5的33文件逐项一致。已交F2/G同光同机位、截面/顶点操作、原生64尺寸及真实renderer局部对照。G4目标区域角急折/穿面已修，内卷细化和开环仍有视觉代价，绒毛仍偏泡棉；生产艺术接受保持false，没有扩动作或进入S4。

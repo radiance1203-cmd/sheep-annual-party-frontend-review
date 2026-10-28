@@ -1,0 +1,65 @@
+[
+  {
+    "game": "stack",
+    "path": "output/r3-20261028/video/stack-real-gamepage-fullspeed.webm",
+    "scope": "native uncut browser recording; recording FPS is not measured device performance",
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 390,
+          "height": 844,
+          "avg_frame_rate": "25/1"
+        }
+      ],
+      "format": {
+        "duration": "50.000000"
+      }
+    },
+    "candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb"
+  },
+  {
+    "game": "runner",
+    "path": "output/r3-20261028/video/runner-real-gamepage-fullspeed.webm",
+    "scope": "native uncut browser recording; recording FPS is not measured device performance",
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 390,
+          "height": 844,
+          "avg_frame_rate": "25/1"
+        }
+      ],
+      "format": {
+        "duration": "49.800000"
+      }
+    },
+    "candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb"
+  },
+  {
+    "game": "herd",
+    "path": "output/r3-20261028/video/herd-real-gamepage-fullspeed.webm",
+    "scope": "native uncut browser recording; recording FPS is not measured device performance",
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "vp9",
+          "width": 390,
+          "height": 844,
+          "avg_frame_rate": "25/1"
+        }
+      ],
+      "format": {
+        "duration": "50.040000"
+      }
+    },
+    "candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb"
+  }
+]

@@ -1,0 +1,393 @@
+{
+  "phase": "red",
+  "rows": [
+    {
+      "game": "stack",
+      "before": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 87.390625,
+            "width": 296,
+            "height": 55,
+            "bottom": 142.390625,
+            "right": 308
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 147.390625,
+            "width": 296,
+            "height": 250,
+            "bottom": 397.390625,
+            "right": 308
+          },
+          ".game-cumulative": {
+            "x": 84.234375,
+            "y": 400.390625,
+            "width": 151.53125,
+            "height": 24.1875,
+            "bottom": 424.578125,
+            "right": 235.765625
+          },
+          ".game-feedback": {
+            "x": 74,
+            "y": 427.578125,
+            "width": 172,
+            "height": 28,
+            "bottom": 455.578125,
+            "right": 246
+          },
+          "canvas": {
+            "x": 66,
+            "y": 147.390625,
+            "width": 187.5,
+            "height": 250,
+            "bottom": 397.390625,
+            "right": 253.5
+          }
+        },
+        "stage": {
+          "gameTick": "0",
+          "acceptedActions": "0",
+          "candidateManifest": "3082b48b2fec802aa4d894387c5cbe51a9a71d72deb48cae887ce0e5b432589d",
+          "presentationTime": "166.67",
+          "eventCount": "0",
+          "spriteCount": "4",
+          "effectCount": "0"
+        },
+        "canvas": {
+          "width": 375,
+          "height": 500,
+          "requestedDpr": "2",
+          "effectiveDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "480",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "2",
+            "requestedDpr": "2",
+            "worldWidth": "360",
+            "worldHeight": "480"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 320,
+          "height": 568,
+          "requestedDpr": 2
+        },
+        "document": {
+          "width": 320,
+          "height": 568
+        },
+        "scrollY": 0
+      },
+      "after": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 87.390625,
+            "width": 296,
+            "height": 55,
+            "bottom": 142.390625,
+            "right": 308
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 147.390625,
+            "width": 296,
+            "height": 238,
+            "bottom": 385.390625,
+            "right": 308
+          },
+          ".game-controls": {
+            "x": 12,
+            "y": 446.578125,
+            "width": 296,
+            "height": 68.390625,
+            "bottom": 514.96875,
+            "right": 308
+          },
+          ".game-controls .primary": {
+            "x": 23.84375,
+            "y": 451.578125,
+            "width": 272.3125,
+            "height": 58.390625,
+            "bottom": 509.96875,
+            "right": 296.15625
+          },
+          ".practice-toolbar": {
+            "x": 12,
+            "y": 514.96875,
+            "width": 296,
+            "height": 52,
+            "bottom": 566.96875,
+            "right": 308
+          },
+          ".game-cumulative": {
+            "x": 84.234375,
+            "y": 388.390625,
+            "width": 151.53125,
+            "height": 24.1875,
+            "bottom": 412.578125,
+            "right": 235.765625
+          },
+          ".game-feedback": {
+            "x": 74,
+            "y": 415.578125,
+            "width": 172,
+            "height": 28,
+            "bottom": 443.578125,
+            "right": 246
+          },
+          "canvas": {
+            "x": 66,
+            "y": 141.390625,
+            "width": 187.5,
+            "height": 250,
+            "bottom": 391.390625,
+            "right": 253.5
+          }
+        },
+        "stage": {
+          "gameTick": "10",
+          "acceptedActions": "0",
+          "candidateManifest": "3082b48b2fec802aa4d894387c5cbe51a9a71d72deb48cae887ce0e5b432589d",
+          "presentationTime": "350.00",
+          "eventCount": "0",
+          "spriteCount": "4",
+          "effectCount": "0"
+        },
+        "canvas": {
+          "width": 357,
+          "height": 476,
+          "requestedDpr": "2",
+          "effectiveDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "480",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "2",
+            "requestedDpr": "2",
+            "worldWidth": "360",
+            "worldHeight": "480"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 320,
+          "height": 568,
+          "requestedDpr": 2
+        },
+        "document": {
+          "width": 320,
+          "height": 573
+        },
+        "scrollY": 0
+      },
+      "contained": false
+    },
+    {
+      "game": "herd",
+      "before": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 87.390625,
+            "width": 296,
+            "height": 55,
+            "bottom": 142.390625,
+            "right": 308
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 147.390625,
+            "width": 296,
+            "height": 218,
+            "bottom": 365.390625,
+            "right": 308
+          },
+          ".game-cumulative": {
+            "x": 68.765625,
+            "y": 368.390625,
+            "width": 182.46875,
+            "height": 24.1875,
+            "bottom": 392.578125,
+            "right": 251.234375
+          },
+          ".game-feedback": {
+            "x": 74,
+            "y": 395.578125,
+            "width": 172,
+            "height": 28,
+            "bottom": 423.578125,
+            "right": 246
+          },
+          "canvas": {
+            "x": 66,
+            "y": 147.390625,
+            "width": 187,
+            "height": 218,
+            "bottom": 365.390625,
+            "right": 253
+          }
+        },
+        "stage": {
+          "gameTick": "0",
+          "acceptedActions": "0",
+          "candidateManifest": "3082b48b2fec802aa4d894387c5cbe51a9a71d72deb48cae887ce0e5b432589d",
+          "movingBarkSample": "available",
+          "presentationTime": "216.70",
+          "eventCount": "0",
+          "spriteCount": "15",
+          "effectCount": "0"
+        },
+        "canvas": {
+          "width": 374,
+          "height": 436,
+          "requestedDpr": "2",
+          "effectiveDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "420",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "2",
+            "requestedDpr": "2",
+            "worldWidth": "360",
+            "worldHeight": "420"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 320,
+          "height": 568,
+          "requestedDpr": 2
+        },
+        "document": {
+          "width": 320,
+          "height": 568
+        },
+        "scrollY": 0
+      },
+      "after": {
+        "rects": {
+          ".hud": {
+            "x": 12,
+            "y": 87.390625,
+            "width": 296,
+            "height": 55,
+            "bottom": 142.390625,
+            "right": 308
+          },
+          ".game-stage": {
+            "x": 12,
+            "y": 147.390625,
+            "width": 296,
+            "height": 208,
+            "bottom": 355.390625,
+            "right": 308
+          },
+          ".game-controls": {
+            "x": 12,
+            "y": 420,
+            "width": 296,
+            "height": 90,
+            "bottom": 510,
+            "right": 308
+          },
+          ".game-controls .primary": {
+            "x": 198,
+            "y": 425,
+            "width": 80,
+            "height": 80,
+            "bottom": 505,
+            "right": 278
+          },
+          ".practice-toolbar": {
+            "x": 12,
+            "y": 510,
+            "width": 296,
+            "height": 52,
+            "bottom": 562,
+            "right": 308
+          },
+          ".game-cumulative": {
+            "x": 68.765625,
+            "y": 358.390625,
+            "width": 182.46875,
+            "height": 24.1875,
+            "bottom": 382.578125,
+            "right": 251.234375
+          },
+          ".game-feedback": {
+            "x": 74,
+            "y": 385.578125,
+            "width": 172,
+            "height": 28,
+            "bottom": 413.578125,
+            "right": 246
+          },
+          "canvas": {
+            "x": 66,
+            "y": 142.390625,
+            "width": 187.078125,
+            "height": 218,
+            "bottom": 360.390625,
+            "right": 253.078125
+          }
+        },
+        "stage": {
+          "gameTick": "9",
+          "acceptedActions": "0",
+          "candidateManifest": "3082b48b2fec802aa4d894387c5cbe51a9a71d72deb48cae887ce0e5b432589d",
+          "movingBarkSample": "available",
+          "presentationTime": "333.30",
+          "eventCount": "0",
+          "spriteCount": "15",
+          "effectCount": "0"
+        },
+        "canvas": {
+          "width": 357,
+          "height": 416,
+          "requestedDpr": "2",
+          "effectiveDpr": "2",
+          "worldWidth": "360",
+          "worldHeight": "420",
+          "attributes": {
+            "phaserVersion": "4.2.1",
+            "scaleMode": "FIT",
+            "renderer": "WEBGL",
+            "effectiveDpr": "2",
+            "requestedDpr": "2",
+            "worldWidth": "360",
+            "worldHeight": "420"
+          }
+        },
+        "teaching": {},
+        "canvasCount": 1,
+        "viewport": {
+          "width": 320,
+          "height": 568,
+          "requestedDpr": 2
+        },
+        "document": {
+          "width": 320,
+          "height": 568
+        },
+        "scrollY": 0
+      },
+      "contained": false
+    }
+  ],
+  "writes": 0,
+  "hypothesis": "Phaser setGameSize refresh reads cached parentSize, ResizeObserver changed actual parent but did not update that cache"
+}

@@ -1,0 +1,138 @@
+{
+  "game_id": "stack",
+  "build": {
+    "rule_version": "onsite-v2.1-candidate",
+    "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+    "simulator_version": "sheep-core-2.2.0",
+    "client_version": "sheep-web-2.2.0"
+  },
+  "end_tick": 967,
+  "end_reason": "GOAL_REACHED",
+  "inputs": [
+    {
+      "tick": 38,
+      "seq": 1,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 92,
+      "seq": 2,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 147,
+      "seq": 3,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 202,
+      "seq": 4,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 254,
+      "seq": 5,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 304,
+      "seq": 6,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 355,
+      "seq": 7,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 406,
+      "seq": 8,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 454,
+      "seq": 9,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 502,
+      "seq": 10,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 551,
+      "seq": 11,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 598,
+      "seq": 12,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 645,
+      "seq": 13,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 689,
+      "seq": 14,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 735,
+      "seq": 15,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 780,
+      "seq": 16,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 825,
+      "seq": 17,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 867,
+      "seq": 18,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 911,
+      "seq": 19,
+      "type": "DROP",
+      "value": null
+    },
+    {
+      "tick": 955,
+      "seq": 20,
+      "type": "DROP",
+      "value": null
+    }
+  ],
+  "started_at": "2026-10-28T02:06:02.707Z",
+  "ended_at": "2026-10-28T02:06:34.958Z",
+  "seed": 1,
+  "entry_label": "/#/practice/stack",
+  "browser_label": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+}

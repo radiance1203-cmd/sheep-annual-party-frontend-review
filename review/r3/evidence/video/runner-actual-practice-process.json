@@ -1,0 +1,138 @@
+{
+  "game_id": "runner",
+  "build": {
+    "rule_version": "onsite-v2.1-candidate",
+    "rules_hash": "9ecf6d1d4d88e94114fc6a14bb26263c38006c36caa3e268c7f2cf5427d78a40",
+    "simulator_version": "sheep-core-2.2.0",
+    "client_version": "sheep-web-2.2.0"
+  },
+  "end_tick": 1350,
+  "end_reason": "TIME_LIMIT",
+  "inputs": [
+    {
+      "tick": 159,
+      "seq": 1,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 228,
+      "seq": 2,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 297,
+      "seq": 3,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 337,
+      "seq": 4,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 379,
+      "seq": 5,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 424,
+      "seq": 6,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 496,
+      "seq": 7,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 569,
+      "seq": 8,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 639,
+      "seq": 9,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 681,
+      "seq": 10,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 720,
+      "seq": 11,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 763,
+      "seq": 12,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 836,
+      "seq": 13,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 908,
+      "seq": 14,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 979,
+      "seq": 15,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 1021,
+      "seq": 16,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 1061,
+      "seq": 17,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 1104,
+      "seq": 18,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 1173,
+      "seq": 19,
+      "type": "JUMP",
+      "value": null
+    },
+    {
+      "tick": 1240,
+      "seq": 20,
+      "type": "JUMP",
+      "value": null
+    }
+  ],
+  "started_at": "2026-10-28T02:06:52.014Z",
+  "ended_at": "2026-10-28T02:07:37.036Z",
+  "seed": 1,
+  "entry_label": "/#/practice/runner",
+  "browser_label": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.8078.4 Safari/537.36"
+}

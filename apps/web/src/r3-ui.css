@@ -1,0 +1,545 @@
+/* Unaccepted R3 preview. Every rule requires the explicit candidate marker;
+   the renderer still owns uniform FIT, the world and all input mapping. */
+[data-visual-repair='v1']:has(.game-page[data-art-candidate='r3']) {
+  padding-bottom: 0;
+  background: #c9d58c;
+}
+[data-visual-repair='v1']:has(.game-page[data-art-candidate='r3']) main {
+  padding: 0;
+}
+[data-visual-repair='v1']:has(.game-page[data-art-candidate='r3']) .bottom-nav {
+  display: none;
+}
+.game-page[data-art-candidate='r3'] {
+  --r3-ink: #733917;
+  --r3-gold: #f6ce76;
+  --r3-paper: #fff3d9;
+  --r3-edge: #e5bf78;
+  --r3-red: #e94b34;
+  --r3-scenery-edge: #efd3a1;
+  --r3-scenery-sky: #8dcef3;
+  --r3-scene-space: 330px;
+  position: relative;
+  isolation: isolate;
+  min-height: 100dvh;
+  width: 100%;
+  margin: 0;
+  padding: max(8px, env(safe-area-inset-top)) 12px max(10px, env(safe-area-inset-bottom));
+  display: flex;
+  flex-direction: column;
+  color: var(--r3-ink);
+  background: linear-gradient(var(--r3-scenery-sky) 0 20%, var(--r3-scenery-edge) 75%);
+}
+.game-page[data-art-candidate='r3']::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-color: transparent;
+  background-image: linear-gradient(transparent 85%, var(--r3-scenery-edge) 100%), var(--r3-page-scenery-image, none);
+  background-position: center var(--r3-page-scenery-top, 0px);
+  background-size: var(--r3-page-scenery-size, cover);
+  background-repeat: no-repeat;
+  filter: none;
+}
+.game-page[data-art-candidate='r3'][data-game='herd'] {
+  --r3-scenery-edge: #b6cc78;
+  --r3-scenery-sky: #b5dbcb;
+}
+.game-page[data-art-candidate='r3'] > * {
+  flex-shrink: 0;
+  order: 0;
+}
+.game-page[data-art-candidate='r3'] .game-top {
+  position: relative;
+  gap: 6px;
+  min-height: 88px;
+  padding: 0 0 8px;
+  align-items: flex-start;
+}
+.game-page[data-art-candidate='r3'] .game-top > div {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+}
+.game-page[data-art-candidate='r3'] .game-top h1 {
+  display: grid;
+  place-items: center;
+  min-height: 76px;
+  margin: 0;
+  padding: 13px 4px 14px;
+  color: #ffe6a1;
+  font-size: clamp(24px, 7.4vw, 33px);
+  font-weight: 950;
+  line-height: 1;
+  letter-spacing: .025em;
+  white-space: nowrap;
+  border: 0;
+  background: var(--r3-title-image, url('/assets/ui/ui_banner_wood.svg')) center / 100% 100% no-repeat;
+  text-shadow: 0 1px 0 #fff2bf, 0 3px 0 #ac5e21, 0 4px 2px #54250ac4;
+}
+.game-page[data-art-candidate='r3'] .mode-badge {
+  position: relative;
+  display: table;
+  margin: -12px auto 0;
+  padding: 2px 15px 3px;
+  border: 1.5px solid #ffd978;
+  border-radius: 20px;
+  background: linear-gradient(#f16642, #ce3826);
+  box-shadow: inset 0 1px 0 #ffe7a18c, 0 2px 0 #a64b22;
+  color: #fff8e6;
+  text-shadow: 0 1px #9d3c20;
+  font-size: 12px;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+.game-page[data-art-candidate='r3'] .game-top :is(button, .r3-back, .r3-silent) {
+  flex: 0 0 48px;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+  min-height: 48px;
+  margin-top: 7px;
+  padding: 9px;
+  border: 1px solid #f4d7ae;
+  border-radius: 17px;
+  background: linear-gradient(135deg, #fffdf1, #f8dfb8);
+  box-shadow: inset 0 2px 0 #fffffff5, 0 3px 0 #c9925299, 0 5px 8px #74472029;
+}
+.game-page[data-art-candidate='r3'] .game-top img {
+  display: block;
+  width: 28px;
+  height: 28px;
+}
+.game-page[data-art-candidate='r3'] .hud {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  min-height: 61px;
+  padding: 7px 2px;
+  margin: 2px 0 5px;
+  border: 1px solid #fff6dd;
+  border-radius: 20px;
+  background: linear-gradient(110deg, #fff6e4f5, #ffe8c6f2 60%, #fff5e5f5);
+  box-shadow: inset 0 2px 0 #fffef8, 0 3px 0 #d8a35c75, 0 5px 10px #77471e26;
+}
+.game-page[data-art-candidate='r3'] .hud > div {
+  display: grid;
+  grid-template-columns: 25px minmax(0, 1fr);
+  grid-template-rows: auto auto;
+  align-content: center;
+  align-items: center;
+  column-gap: 2px;
+  padding: 0 4px;
+  text-align: center;
+}
+.game-page[data-art-candidate='r3'] .hud > div + div {
+  border-left: 1px solid #d3a2636b;
+}
+.game-page[data-art-candidate='r3'] .hud > div::before {
+  content: '';
+  grid-column: 1;
+  grid-row: 1 / 3;
+  width: 25px;
+  height: 31px;
+  background: url('/assets/ui/icon_timer.svg') center / contain no-repeat;
+  filter: drop-shadow(0 2px 1px #a65b2933);
+}
+.game-page[data-art-candidate='r3'] .hud > div:nth-child(2)::before {
+  background-image: url('/assets/ui/icon_score_star.svg');
+}
+.game-page[data-art-candidate='r3'] .hud > div:nth-child(3)::before {
+  background-image: url('/assets/ui/icon_mistake.svg');
+}
+.game-page[data-art-candidate='r3'][data-game='herd'] .hud > div:nth-child(3)::before {
+  background-image: url('/assets/ui/icon_sheep.svg');
+}
+.game-page[data-art-candidate='r3'] .hud small {
+  grid-column: 2;
+  font-size: 11px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+.game-page[data-art-candidate='r3'] .hud strong {
+  grid-column: 2;
+  color: #b03f24;
+  font-size: clamp(22px, 6vw, 27px);
+  line-height: 1.15;
+  white-space: nowrap;
+}
+.game-page[data-art-candidate='r3'] .hud strong small {
+  color: #754323;
+  font-size: 13px;
+}
+.game-page[data-art-candidate='r3'] .game-stage {
+  flex-shrink: 0;
+  width: 100%;
+  height: max(180px, calc(100dvh - var(--r3-scene-space)));
+  margin: 0;
+  aspect-ratio: auto;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  overflow: hidden;
+}
+.game-page[data-art-candidate='r3'] .game-stage:focus {
+  outline: none; /* Programmatic play focus; action controls retain visible focus. */
+}
+.game-page[data-art-candidate='r3'] .stage-stack {
+  max-height: calc((min(100vw, 430px) - 24px) * 480 / 360);
+}
+.game-page[data-art-candidate='r3'] .stage-herd {
+  max-height: calc((min(100vw, 430px) - 24px) * 420 / 360);
+}
+.game-page[data-art-candidate='r3'][data-game='herd'] {
+  --r3-scene-space: 364px;
+}
+.game-page[data-art-candidate='r3'][data-play-state='running'] {
+  --r3-scene-space: 370px;
+}
+.game-page[data-art-candidate='r3'][data-game='herd'][data-play-state='running'] {
+  --r3-scene-space: 402px;
+}
+.game-page[data-art-candidate='r3'][data-game='runner'] .game-stage {
+  height: auto;
+  min-height: 0;
+  max-height: none;
+  aspect-ratio: 360 / 220;
+  /* The same field slot in preparation, teaching and running. */
+  margin-top: clamp(10px, calc(45dvh - 288px), 140px);
+}
+.game-page[data-art-candidate='r3'] .game-cumulative {
+  align-self: center;
+  max-width: 100%;
+  min-height: 24px;
+  margin: 3px 0 0;
+  padding: 3px 12px;
+  border: 1px solid #fff1cc;
+  border-radius: 16px;
+  color: #7d421d;
+  background: #fff2d6ed;
+  box-shadow: 0 2px 4px #8c5c2220;
+  font-size: 12px;
+  line-height: 1.35;
+  text-align: center;
+}
+.game-page[data-art-candidate='r3'] .game-feedback {
+  align-self: center;
+  max-width: 100%;
+  min-height: 28px;
+  padding: 4px 13px;
+  margin: 5px 0 3px;
+  border: 1px solid #ffecc5;
+  border-radius: 20px;
+  background: linear-gradient(#fff7e1ee, #ffe7bbef);
+  box-shadow: inset 0 1px #fff9e9, 0 2px 4px #8c5c2220;
+  color: #894b24;
+  font-size: 13px;
+  line-height: 1.35;
+}
+.game-page[data-art-candidate='r3'] .primary {
+  min-height: 56px;
+  padding: 10px 16px;
+  border: 2px solid #ffcf79;
+  border-bottom: 4px solid #d7a15d;
+  border-radius: 36px;
+  color: #fff9e7;
+  background: radial-gradient(ellipse at 50% 0, #ff93736b, transparent 65%), linear-gradient(#ff7055, #ed4c35 55%, #dc3b28);
+  box-shadow: inset 0 2px 0 #ffdfb2, inset 0 -4px 0 #b6281b4d, 0 3px 0 #9b4f2859, 0 5px 9px #994a272e;
+  font-size: 22px;
+  line-height: 1.2;
+  text-shadow: 0 2px 1px #a8321a;
+}
+.game-page[data-art-candidate='r3'] .primary:active:not(:disabled) {
+  box-shadow: inset 0 3px 5px #a32e1d66, 0 1px 0 #9b4f2840;
+  background: linear-gradient(#e74b31, #cf3924);
+}
+.game-page[data-art-candidate='r3'] :is(button, .button):disabled,
+.game-page[data-art-candidate='r3'] .disabled {
+  color: #7e6b51;
+  background: #dfd4b9;
+  border-color: #c6b48e;
+  box-shadow: inset 0 1px 0 #f4ead5;
+  text-shadow: none;
+}
+.game-page[data-art-candidate='r3'] :is(button, .button, summary, .joystick):focus-visible {
+  outline: 3px solid #66371e;
+  outline-offset: 3px;
+}
+.game-page[data-art-candidate='r3'] > .panel {
+  margin: 1px 0 0;
+  padding: 4px 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.game-page[data-art-candidate='r3'] > .panel > .notice:not(.error) {
+  margin: 0 auto 5px;
+  padding: 3px 8px;
+  border: 0;
+  background: #fff6dfd9;
+  box-shadow: none;
+  font-size: 12px;
+  line-height: 1.4;
+  text-align: center;
+}
+.game-page[data-art-candidate='r3'] .notice.error {
+  padding: 10px;
+  margin: 7px 0;
+  color: #8a2f1f;
+  background: #fff2e3;
+  border: 1px solid #cc7352;
+  font-size: 14px;
+}
+.game-page[data-art-candidate='r3'] .action-stack {
+  gap: 7px;
+  margin-top: 2px;
+}
+.game-page[data-art-candidate='r3'] > .game-controls {
+  order: 0;
+  width: 100%;
+  padding: 5px 0;
+  gap: 16px;
+  margin-top: auto;
+}
+.game-page[data-art-candidate='r3'] .gameplay-action {
+  width: min(92%, 350px);
+  min-height: 62px;
+  font-size: 30px;
+}
+.game-page[data-art-candidate='r3'] .joystick {
+  width: 92px;
+  height: 92px;
+  min-width: 92px;
+  border: 2px solid #fff6dc;
+  background: radial-gradient(circle, #fff5d8 0 26%, #edcf9a 28% 32%, #fbefba40 34% 100%);
+  box-shadow: inset 0 0 12px #fff5d899, 0 4px 8px #61532a35;
+  color: #fffbea;
+  font-size: 18px;
+  line-height: 1.15;
+  text-shadow: 0 1px 2px #817441;
+}
+.game-page[data-art-candidate='r3'] .bark {
+  width: 92px;
+  height: 92px;
+  min-width: 92px;
+  padding: 8px;
+  border-radius: 50%;
+  font-size: 24px;
+}
+.game-page[data-art-candidate='r3'] .bark small {
+  font-size: 11px;
+  line-height: 1.3;
+}
+.game-page[data-art-candidate='r3'] > .practice-toolbar {
+  order: 0;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding: 4px 0 0;
+}
+.game-page[data-art-candidate='r3'] .practice-toolbar button {
+  min-height: 48px;
+  padding: 5px 14px;
+  border: 1px solid #edcf98;
+  border-radius: 24px;
+  color: #86502a;
+  background: linear-gradient(#fff7e4ed, #ffe7bef2);
+  box-shadow: inset 0 1px #fffefa, 0 2px 0 #bc8f4b6b;
+  font-size: 13px;
+}
+.game-page[data-art-candidate='r3'] > .game-status {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.game-page[data-art-candidate='r3'] .countdown {
+  z-index: 5;
+  top: 38%;
+  border: 2px solid #f6d08e;
+  background: #fff5dfed;
+  color: #ad4b27;
+  font-size: 64px;
+}
+.game-page[data-art-candidate='r3'][data-play-state='ended'] > .panel {
+  margin: 8px 0;
+  padding: 15px;
+  background: #fff3dcf5;
+  border: 1px solid #edce95;
+  border-radius: 22px;
+}
+.game-page[data-art-candidate='r3'] .modal {
+  border: 2px solid #eac58a;
+  background: linear-gradient(#fff8e6, #ffe9c5);
+  box-shadow: 0 8px 32px #4028154d;
+}
+/* Tutorial is the same real replay, dressed as part of the scene. */
+.game-page[data-art-candidate='r3'].r3-tutorial-page {
+  --r3-scene-space: 368px;
+}
+.game-page[data-art-candidate='r3'] .tutorial-art {
+  display: block;
+  min-width: 0;
+  height: auto;
+  margin: 0;
+  background: transparent;
+  border-radius: 0;
+}
+.game-page[data-art-candidate='r3'] .teaching-scene {
+  width: 100%;
+  min-width: 0;
+}
+.game-page[data-art-candidate='r3'] .tutorial-step {
+  margin: 0 0 3px;
+  padding: 7px 11px;
+  border: 1px solid #fff4d8;
+  border-radius: 19px;
+  background: linear-gradient(110deg, #fff7e7ee, #ffe9c9ed);
+  box-shadow: inset 0 1px #fffff5, 0 3px 0 #c29b5d49;
+  font-size: 13px;
+  line-height: 1.35;
+}
+.game-page[data-art-candidate='r3'] .tutorial-step progress {
+  display: block;
+  width: 100%;
+  height: 5px;
+  margin-bottom: 4px;
+  accent-color: #d68b2b;
+}
+.game-page[data-art-candidate='r3'] .tutorial-step p {
+  margin: 1px 0;
+  color: #93643c;
+  font-size: 11px;
+  line-height: 1.3;
+}
+.game-page[data-art-candidate='r3'] .tutorial-step strong {
+  display: block;
+  font-size: 13px;
+  line-height: 1.4;
+}
+.game-page[data-art-candidate='r3'] .teaching-controls {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+  margin: 3px 0 0;
+}
+.game-page[data-art-candidate='r3'] .teaching-controls :is(button, .button) {
+  flex: 1;
+  min-height: 48px;
+  min-width: 0;
+  padding: 5px;
+  border: 1px solid #e9bd74;
+  border-radius: 22px;
+  background: linear-gradient(#fff8e7, #ffe3af);
+  box-shadow: inset 0 1px #fffdf3, 0 2px 0 #bd8a466e;
+  font-size: 12px;
+  line-height: 1.25;
+}
+.game-page[data-art-candidate='r3'] .teaching-controls .button:last-child {
+  flex-grow: 1.2;
+  border-color: #ffcf79;
+  color: #fff7e2;
+  background: linear-gradient(#fa7954, #dd442d);
+  text-shadow: 0 1px #a43d24;
+}
+.game-page[data-art-candidate='r3'] .teaching-controls .button[aria-disabled='true'] {
+  color: #7e6b51;
+  background: #dfd4b9;
+  border-color: #c6b48e;
+  box-shadow: none;
+  text-shadow: none;
+}
+.game-page[data-art-candidate='r3'] .teaching-caption {
+  margin: 6px 4px 2px;
+  color: #694824;
+  font-size: 11px;
+  line-height: 1.4;
+  text-shadow: 0 1px 2px #fff6d9;
+}
+.game-page[data-art-candidate='r3'] .r3-tutorial-rules {
+  margin: 3px 0;
+  padding: 0 10px;
+  border-radius: 16px;
+  background: #fff4dfdf;
+  color: #734422;
+  font-size: 13px;
+}
+.game-page[data-art-candidate='r3'] .r3-tutorial-rules summary {
+  min-height: 48px;
+  padding: 13px 0;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.4;
+}
+.game-page[data-art-candidate='r3'] .r3-tutorial-rules :is(h3, p, .notice) {
+  font-size: 13px;
+  line-height: 1.5;
+}
+.game-page[data-art-candidate='r3'].r3-tutorial-page > .action-stack {
+  display: flex;
+  align-items: stretch;
+  gap: 6px;
+  margin-top: auto;
+}
+.game-page[data-art-candidate='r3'].r3-tutorial-page > .action-stack > :first-child {
+  display: none; /* The real replay already has the same practice destination. */
+}
+.game-page[data-art-candidate='r3'][data-game='runner'].r3-tutorial-page > .action-stack {
+  margin-top: 8px;
+}
+.game-page[data-art-candidate='r3'].r3-tutorial-page > .action-stack > :not(:first-child) {
+  flex: 1;
+  min-height: 48px;
+  padding: 7px;
+  font-size: 13px;
+}
+.game-page[data-art-candidate='r3'].r3-tutorial-page > .action-stack > .quiet {
+  flex: 0 0 auto;
+  color: #6b4326;
+  background: #fff4dce3;
+  border: 1px solid #e8c993;
+  border-radius: 24px;
+}
+@media (max-height: 680px) {
+  .game-page[data-art-candidate='r3'] {
+    --r3-scene-space: 318px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .game-page[data-art-candidate='r3'][data-game='herd'] { --r3-scene-space: 350px; }
+  .game-page[data-art-candidate='r3'][data-play-state='running'] { --r3-scene-space: 270px; }
+  .game-page[data-art-candidate='r3'][data-game='herd'][data-play-state='running'] { --r3-scene-space: 300px; }
+  .game-page[data-art-candidate='r3'] .game-top { min-height: 62px; padding-bottom: 2px; }
+  .game-page[data-art-candidate='r3'] .game-top h1 { min-height: 54px; font-size: 25px; }
+  .game-page[data-art-candidate='r3'] .mode-badge { font-size: 11px; margin-top: -11px; }
+  .game-page[data-art-candidate='r3'] .hud { min-height: 55px; padding-block: 5px; }
+  .game-page[data-art-candidate='r3'] .hud > div { grid-template-columns: 21px minmax(0, 1fr); padding-inline: 2px; }
+  .game-page[data-art-candidate='r3'] .hud > div::before { width: 21px; height: 27px; }
+  .game-page[data-art-candidate='r3'] .hud strong { font-size: 22px; }
+  .game-page[data-art-candidate='r3'] .game-feedback { margin-block: 1px; padding-block: 3px; font-size: 12px; }
+  .game-page[data-art-candidate='r3'] .game-cumulative { margin-top: 2px; }
+  .game-page[data-art-candidate='r3'] > .game-controls { padding-block: 4px; }
+  .game-page[data-art-candidate='r3'] .gameplay-action { min-height: 54px; font-size: 27px; }
+  .game-page[data-art-candidate='r3'] :is(.joystick, .bark) { width: 80px; height: 80px; min-width: 80px; }
+  .game-page[data-art-candidate='r3'].r3-tutorial-page { --r3-scene-space: 334px; }
+  .game-page[data-art-candidate='r3'] .tutorial-step { padding-block: 5px; margin-bottom: 1px; }
+  .game-page[data-art-candidate='r3'] .tutorial-step progress { margin-bottom: 2px; }
+  .game-page[data-art-candidate='r3'] .teaching-caption { margin-block: 3px 1px; }
+  .game-page[data-art-candidate='r3'] .r3-tutorial-rules { margin-block: 1px; }
+  .game-page[data-art-candidate='r3'] .teaching-controls { margin-top: 2px; }
+  .game-page[data-art-candidate='r3'][data-play-state='running'] > .game-controls { width: calc(100% - 112px); gap: 8px; justify-content: space-between; padding-bottom: 0; }
+  .game-page[data-art-candidate='r3'][data-play-state='running'] .gameplay-action { width: 100%; }
+  .game-page[data-art-candidate='r3'][data-play-state='running'] > .practice-toolbar { position: absolute; inset-inline-end: 12px; bottom: 6px; width: 100px; height: 54px; gap: 4px; padding: 0; }
+  .game-page[data-art-candidate='r3'][data-play-state='running'] > .practice-toolbar button { width: 48px; min-width: 48px; height: 54px; min-height: 48px; padding: 4px 2px; font-size: 0; line-height: 1.2; white-space: normal; }
+  .game-page[data-art-candidate='r3'][data-play-state='running'] > .practice-toolbar button::before { content: attr(data-short-label); font-size: 14px; line-height: 1.2; }
+}

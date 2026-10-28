@@ -1,0 +1,27 @@
+{
+  "source_native_sha256": "ac43358d8de51550c3bfb6257b0c8d31ea9734fc94eba8c5543e6d4d24232e80",
+  "frames": {
+    "r3_fence_post_left": [
+      30,
+      120,
+      234,
+      650
+    ],
+    "r3_fence_post_right": [
+      1508,
+      120,
+      236,
+      650
+    ],
+    "r3_fence_rails": [
+      264,
+      249,
+      1244,
+      462
+    ]
+  },
+  "source_pixels_modified": false,
+  "candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+  "sample_art_accepted": false,
+  "production_art_accepted": false
+}

@@ -1,0 +1,224 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "key": "stack/prep/320",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "stack/tutorial/320",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "stack/running/320",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "runner/prep/320",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "runner/tutorial/320",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "runner/running/320",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "herd/prep/320",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": -2.842170943040401e-14
+    },
+    {
+      "key": "herd/tutorial/320",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": -2.842170943040401e-14
+    },
+    {
+      "key": "herd/running/320",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": -2.842170943040401e-14
+    },
+    {
+      "key": "stack/prep/390",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "stack/tutorial/390",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "stack/running/390",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "runner/prep/390",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "runner/tutorial/390",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "runner/running/390",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "herd/prep/390",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": -2.842170943040401e-14
+    },
+    {
+      "key": "herd/tutorial/390",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": -2.842170943040401e-14
+    },
+    {
+      "key": "herd/running/390",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": -2.842170943040401e-14
+    },
+    {
+      "key": "stack/prep/430",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "stack/tutorial/430",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "stack/running/430",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "runner/prep/430",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": -1.1368683772161603e-13
+    },
+    {
+      "key": "runner/tutorial/430",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": -1.1368683772161603e-13
+    },
+    {
+      "key": "runner/running/430",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": -1.1368683772161603e-13
+    },
+    {
+      "key": "herd/prep/430",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "herd/tutorial/430",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    },
+    {
+      "key": "herd/running/430",
+      "nativePngVerified": true,
+      "sameFrozenVersion": true,
+      "fullWorldContained": true,
+      "exactInputScopeVerified": true,
+      "configuredPageAnchorErrorCssPx": 0
+    }
+  ],
+  "candidateManifestSha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+  "productionManifestSha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "scope": "offline integrity/layout audit of actual browser evidence; no art or physical-device acceptance"
+}

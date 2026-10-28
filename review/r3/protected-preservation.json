@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "checked": 39,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/admin.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/app.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/cli.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/db.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/errors.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/jobs.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/json.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/login-rate-limit.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/main.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/model.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/operations.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/playtests.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/receipt.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/replay-worker.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/seed.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/server/src/service.ts",
+      "unchanged": true
+    },
+    {
+      "path": "apps/web/public/assets/asset-manifest.v1.json",
+      "unchanged": true
+    },
+    {
+      "path": "art-source/r2/r2g/sheep_master_r2g.blend",
+      "unchanged": true
+    },
+    {
+      "path": "config/game_rules.v2.1.json",
+      "unchanged": true
+    },
+    {
+      "path": "package-lock.json",
+      "unchanged": true
+    },
+    {
+      "path": "package.json",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/openapi.yaml",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/package.json",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/src/generated/api-types.ts",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/src/generated/schemas.ts",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/src/index.ts",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/package.json",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/build.ts",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/common.ts",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/contracts/adapter.ts",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/contracts/types.ts",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/games.ts",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/index.ts",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/model.ts",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/rules.ts",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/snapshots.ts",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/test/core.test.ts",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/test/differential.test.ts",
+      "unchanged": true
+    }
+  ],
+  "rules_core_contracts_backend_root_deps_and_registered_manifest_unchanged": true
+}

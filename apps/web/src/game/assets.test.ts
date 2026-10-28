@@ -8,6 +8,11 @@ const json = (assets: unknown[] = []) => JSON.stringify({ game_rule_version: BUI
 function browser(): void { vi.stubGlobal('window', { location: { origin } }); }
 
 describe('bound manifest compatibility', () => {
+  it('cannot load an unaccepted R3 candidate outside the explicit local preview', async () => {
+    browser();
+    vi.stubGlobal('fetch', async () => new Response(json()));
+    await expect(preloadAssets('stack', '/assets/', undefined, 'r3')).rejects.toThrow('本地候选');
+  });
   it('loads only the immutable snapshot matching the bound SHA when current art changes', async () => {
     browser();
     const old = json(); const hash = await sha256Utf8(old);

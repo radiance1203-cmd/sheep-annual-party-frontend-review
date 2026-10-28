@@ -1,0 +1,18 @@
+{
+  "source": "A_folded_loaf.blend",
+  "local_collar_only": true,
+  "source_identity_mesh_preserved": true,
+  "renders": [
+    {
+      "pose": "idle",
+      "path": "review/r3/stack-sample/A_collar_v1_idle_512.png",
+      "seconds": 2.901
+    },
+    {
+      "pose": "contact",
+      "path": "review/r3/stack-sample/A_collar_v1_contact_512.png",
+      "seconds": 2.968
+    }
+  ],
+  "art_accepted": false
+}

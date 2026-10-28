@@ -1,0 +1,42 @@
+{
+  "candidate_id": "R3-B-backgrounds-a",
+  "source_manifest_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "backgrounds": {
+    "stack": {
+      "image": "stack.png",
+      "image_sha256": "0b7cfa5e8bf8adb974f7e5886742acde278f021e3105864528a354c36f88208c",
+      "metadata": "stack.atlas.json",
+      "metadata_sha256": "3742fbc16c0a646c40a8b23e43c1c1609bdada74c0a8170c4aff12e6d54a185e",
+      "rgba_bytes": 6290112
+    },
+    "runner": {
+      "image": "runner.png",
+      "image_sha256": "a951761578fa31923f66efcb526e89ce168badf730dfb17505133a7f71abb9ec",
+      "metadata": "runner.atlas.json",
+      "metadata_sha256": "23a1dc526c328f239848c835774c8ee693fa1585635713e521c00d58702d0ee4",
+      "rgba_bytes": 6291600
+    },
+    "herd": {
+      "image": "herd.png",
+      "image_sha256": "331b313f04b2eb78ddf6dfff69bac67461d325af171c17a9a88f386a12e7fcf5",
+      "metadata": "herd.atlas.json",
+      "metadata_sha256": "15dfb3783a002be5ef77278a1ae7de26790e436b4dde018901e91221f8e52b8b",
+      "rgba_bytes": 6292620
+    }
+  },
+  "page_background": "stack",
+  "scope": "background/UI candidate; original v4 characters/props remain unless separately declared sample; no new golden",
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "ui": {
+    "title": {
+      "image": "title-plaque-a.png",
+      "sha256": "f03c17db0f82593149f9f4beeee9217f74e44e5ecb0e61b3f9f7e0a77eeb6210",
+      "size_px": [
+        2172,
+        724
+      ],
+      "role": "blank carved wood plaque; semantic titles remain HTML; no gameplay geometry"
+    }
+  }
+}

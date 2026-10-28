@@ -7,9 +7,11 @@ import { preloadAssets, releaseAssets } from './assets';
 import { createRenderer } from './renderer';
 import { createTeachingReplay, teachingInstructions } from './tutorial-model';
 import type { TeachingProgress } from './tutorial-model';
+import { r3CandidateRequested } from './r3-candidate';
 
 // A labelled, local teaching replay. It has no session, wallet or submission path.
 export function TutorialScene({ game, event, onProgress }: { game: GameId; event: Schema<'EventPublic'>; onProgress: (complete: boolean) => void }) {
+  const artCandidate = r3CandidateRequested();
   const parent = useRef<HTMLDivElement>(null);
   const [revision, setRevision] = useState(0);
   const [error, setError] = useState('');
@@ -30,7 +32,7 @@ export function TutorialScene({ game, event, onProgress }: { game: GameId; event
     void (async () => {
       let assets: Awaited<ReturnType<typeof preloadAssets>> | undefined;
       try {
-        assets = await preloadAssets(game, event.release?.asset_base_url, event.release?.asset_manifest_hash);
+        assets = await preloadAssets(game, event.release?.asset_base_url, event.release?.asset_manifest_hash, artCandidate ? 'r3' : undefined);
         if (!active || !parent.current) { releaseAssets(assets); return; }
         renderer = createRenderer(parent.current, replay.snapshot(), assets); assets = undefined; presenter.current=renderer;
         renderer.beginSession(`tutorial:${game}`,revision); renderer.setMode('ready');
@@ -47,8 +49,8 @@ export function TutorialScene({ game, event, onProgress }: { game: GameId; event
       } catch (cause) { if (assets) releaseAssets(assets); if (active) setError(message(cause)); }
     })();
     return () => { active = false; if (timer) clearInterval(timer); document.removeEventListener('visibilitychange',visibility); renderer?.destroy(); if(presenter.current===renderer) presenter.current=null; };
-  }, [game, event.release?.asset_base_url, event.release?.asset_manifest_hash, revision]);
-  return <section className="teaching-scene" aria-label="玩法教学演示，不计分" data-lesson={progress.step} data-teaching-tick={progress.tick} data-teaching-complete={progress.complete}>
+  }, [game, event.release?.asset_base_url, event.release?.asset_manifest_hash, revision, artCandidate]);
+  return <section className="teaching-scene" data-art-candidate={artCandidate ? 'r3' : undefined} data-game={game} aria-label="玩法教学演示，不计分" data-lesson={progress.step} data-teaching-tick={progress.tick} data-teaching-complete={progress.complete}>
     <div className="tutorial-step" aria-live="polite"><progress max={3} value={progress.complete?3:progress.step+1}/><p>{progress.complete?'已观察到真实示范事件，可重播或开始练习':`真实操作演示 · 第 ${progress.step+1} 步`}</p><strong>{teachingInstructions[game][progress.step]}</strong></div>
     <div className={`game-stage stage-${game}`} ref={parent} />
     {!ready && !error && <Notice>正在加载本款游戏教学场景……</Notice>}

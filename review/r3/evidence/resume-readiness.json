@@ -1,0 +1,155 @@
+{
+  "production_manifest": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+  "candidate_manifest": "3f03232b8ffa291d265483497faf65299b804207121c82eb730367726c848741",
+  "candidate_id": "R3-B2-C-sample-a",
+  "latest_first_three": {
+    "captures": 3,
+    "unique_source_hashsets": 1,
+    "candidate_hashes": [
+      "3f03232b8ffa291d265483497faf65299b804207121c82eb730367726c848741"
+    ],
+    "mutations": 0,
+    "changed_current_source_files": [],
+    "screenshot_hash_checks": [
+      {
+        "filename": "stack-running-390.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "runner-running-390.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "herd-running-390.png",
+        "hash_matches": true
+      }
+    ]
+  },
+  "pages_27": {
+    "captures": 27,
+    "unique_source_hashsets": 1,
+    "candidate_hashes": [
+      "4e9440c5b86ac35dc756620043b4130ef78da1f885c465dd27e3868b4cdb7cda"
+    ],
+    "mutations": 0,
+    "changed_current_source_files": [
+      "apps/web/src/game/assets.ts",
+      "apps/web/src/game/renderer.ts",
+      "apps/web/src/r3-ui.css",
+      "apps/web/public/assets/candidates/r3/manifest.json"
+    ],
+    "screenshot_hash_checks": [
+      {
+        "filename": "stack-prep-320.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "stack-tutorial-320.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "stack-running-320.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "runner-prep-320.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "runner-tutorial-320.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "runner-running-320.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "herd-prep-320.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "herd-tutorial-320.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "herd-running-320.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "stack-prep-390.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "stack-tutorial-390.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "stack-running-390.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "runner-prep-390.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "runner-tutorial-390.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "runner-running-390.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "herd-prep-390.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "herd-tutorial-390.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "herd-running-390.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "stack-prep-430.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "stack-tutorial-430.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "stack-running-430.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "runner-prep-430.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "runner-tutorial-430.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "runner-running-430.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "herd-prep-430.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "herd-tutorial-430.png",
+        "hash_matches": true
+      },
+      {
+        "filename": "herd-running-430.png",
+        "hash_matches": true
+      }
+    ]
+  },
+  "B1_archive_exists": true,
+  "checked_at_utc": "2026-10-28T01:18:16.558760+00:00",
+  "B2_first_three_preserved": "output/r3-20261028/B2-3f03232b/first-three/"
+}

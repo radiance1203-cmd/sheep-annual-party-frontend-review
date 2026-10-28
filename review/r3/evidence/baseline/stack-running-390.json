@@ -1,0 +1,218 @@
+{
+  "filename": "stack-running-390.png",
+  "game": "stack",
+  "state": "running",
+  "url": "http://127.0.0.1:5175/#/practice/stack",
+  "browser": "156.0.8078.4",
+  "scope": "real App route / GamePage or TutorialScene; schema-validated isolated GET fixtures; real core; native screenshot; browser viewport, not physical device",
+  "snapshotScope": "live full-speed snapshot; tick/presentation ranges before and after screenshot below; no core or score patch",
+  "inputs": [
+    {
+      "method": "real UI button",
+      "type": "DROP",
+      "tickBefore": "9"
+    }
+  ],
+  "tutorialInputSource": null,
+  "capturedAt": "2026-10-28T00:25:50.385Z",
+  "before": {
+    "rects": {
+      ".hud": {
+        "x": 8,
+        "y": 100,
+        "width": 374,
+        "height": 63.890625,
+        "bottom": 163.890625,
+        "right": 382
+      },
+      ".game-stage": {
+        "x": 8,
+        "y": 171.890625,
+        "width": 374,
+        "height": 364,
+        "bottom": 535.890625,
+        "right": 382
+      },
+      ".game-controls": {
+        "x": 8,
+        "y": 612.890625,
+        "width": 374,
+        "height": 92,
+        "bottom": 704.890625,
+        "right": 382
+      },
+      ".practice-toolbar": {
+        "x": 8,
+        "y": 728.890625,
+        "width": 374,
+        "height": 80,
+        "bottom": 808.890625,
+        "right": 382
+      },
+      "canvas": {
+        "x": 59,
+        "y": 172.890625,
+        "width": 273,
+        "height": 364,
+        "bottom": 536.890625,
+        "right": 332
+      }
+    },
+    "stage": {
+      "gameTick": "14",
+      "acceptedActions": "1",
+      "presentationTime": "483.30",
+      "eventCount": "1",
+      "spriteCount": "4",
+      "effectCount": "0"
+    },
+    "canvas": {
+      "width": 546,
+      "height": 728,
+      "phaserVersion": "4.2.1",
+      "scaleMode": "FIT",
+      "renderer": "WEBGL",
+      "effectiveDpr": "2",
+      "requestedDpr": "2",
+      "worldWidth": "360",
+      "worldHeight": "480"
+    },
+    "teaching": {},
+    "canvasCount": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "requestedDpr": 2
+    },
+    "document": {
+      "width": 390,
+      "height": 852
+    },
+    "scrollY": 8
+  },
+  "after": {
+    "rects": {
+      ".hud": {
+        "x": 8,
+        "y": 100,
+        "width": 374,
+        "height": 63.890625,
+        "bottom": 163.890625,
+        "right": 382
+      },
+      ".game-stage": {
+        "x": 8,
+        "y": 171.890625,
+        "width": 374,
+        "height": 364,
+        "bottom": 535.890625,
+        "right": 382
+      },
+      ".game-controls": {
+        "x": 8,
+        "y": 612.890625,
+        "width": 374,
+        "height": 92,
+        "bottom": 704.890625,
+        "right": 382
+      },
+      ".practice-toolbar": {
+        "x": 8,
+        "y": 728.890625,
+        "width": 374,
+        "height": 80,
+        "bottom": 808.890625,
+        "right": 382
+      },
+      "canvas": {
+        "x": 59,
+        "y": 172.890625,
+        "width": 273,
+        "height": 364,
+        "bottom": 536.890625,
+        "right": 332
+      }
+    },
+    "stage": {
+      "gameTick": "25",
+      "acceptedActions": "1",
+      "presentationTime": "683.20",
+      "eventCount": "1",
+      "spriteCount": "4",
+      "effectCount": "0"
+    },
+    "canvas": {
+      "width": 546,
+      "height": 728,
+      "phaserVersion": "4.2.1",
+      "scaleMode": "FIT",
+      "renderer": "WEBGL",
+      "effectiveDpr": "2",
+      "requestedDpr": "2",
+      "worldWidth": "360",
+      "worldHeight": "480"
+    },
+    "teaching": {},
+    "canvasCount": 1,
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "requestedDpr": 2
+    },
+    "document": {
+      "width": 390,
+      "height": 852
+    },
+    "scrollY": 8
+  },
+  "hashes": {
+    "apps/web/src/api.ts": "916568ee63fc62d43274dfeb676fa86efdfe4f2b7a54a6992ad3db529ec865f3",
+    "apps/web/src/App.tsx": "a422ac1fe6578b94811d8331b9fd6e1c18b9e6b68661360228b713de395b1691",
+    "apps/web/src/game/assets.test.ts": "23302c49adfe86307e5c02cd05df0288f2d961e16f79d264427d81ac983abb63",
+    "apps/web/src/game/assets.ts": "a007d29770408f03562a6b6fff189deb376d0078351c32de6142fa17e5c6879a",
+    "apps/web/src/game/GamePage.tsx": "d618c0cb46ede75a85460cfd068b71fff7ca4f8ff33be2e5c54c39f982511443",
+    "apps/web/src/game/keyboard.ts": "62d91939374a970eb2eaafc73bedb88e4d5facb02d96e5e30ed4468b38ed437a",
+    "apps/web/src/game/presentation.test.ts": "47b3e7b77e93ed1b014324d1b873e4f6f09af8b6d7f38d42a9d0b550dc606709",
+    "apps/web/src/game/presentation.ts": "35a026ac74d28f7d7fe457c85f9b23c38ffad584836d181dd394f51b789a3262",
+    "apps/web/src/game/presenter-state.test.ts": "6e76f8ed3dbad01b9b6d31511045f78e04a0c453e3cd5ebbfe6bb96512f81ee6",
+    "apps/web/src/game/presenter-state.ts": "b016a2438f4b04e8d63a24ef04d89caa9bdb0b5800932c773ca3e2e7ac1b18bf",
+    "apps/web/src/game/r3-candidate.ts": "80777037d986c307ac118deed804147b7b33e63bdf78dd0042fb87e188060ac9",
+    "apps/web/src/game/renderer.ts": "0190a9f894ab0ef83296bed25f2af6b007c37d81d6f4687deb2b1265c3de72e8",
+    "apps/web/src/game/storage.ts": "a89eb0b95f335eb7cc1fe64340d01020017b09e2936593d8203731a192c519c7",
+    "apps/web/src/game/timeline.ts": "52c1921e94170ed58908208a47a38c107283b65eee4040301a8a42ab2c8f802d",
+    "apps/web/src/game/tutorial-model.test.ts": "7990de56482d1997aa9b6edd344b759322696022d21a5464dee481aab8afbb0e",
+    "apps/web/src/game/tutorial-model.ts": "ac09fb030da3d22dfefbd20c2148084e1a9fc4dabfd38059e9feb2dac4c67cf1",
+    "apps/web/src/game/TutorialScene.tsx": "4daaeba183bf5f72c26ca501ec8317cd7d638005cabff0c35847338edcd0b85f",
+    "apps/web/src/LobbyIllustration.tsx": "61adc6bf7c8befc2342e6807318b6ee0925059a310d8f58ea43df6557cd296ba",
+    "apps/web/src/main.tsx": "79cf68ed6f0d06abed66a111026a206fba7e43900730df3b01550eb7fdd4596f",
+    "apps/web/src/pages/admin-requests.ts": "215b8ad0411b059108397a06df2a7f9e6d53121f61c28bee4d6a16851ca9ebb3",
+    "apps/web/src/pages/AdminPage.tsx": "2986154b9a159bcb1939519a0edf5106d5a75e415d52acdb4d8031878b1f1f18",
+    "apps/web/src/pages/operations-model.ts": "d10fccb91693ae17dc87e60ac68797f25758353ef897e8d9fe7218c9e384ccdb",
+    "apps/web/src/pages/OperationsPanels.tsx": "3937331b657d81af892d20e87a1cb87fd58a2c1f1c98fe7aeeac034df1365d4d",
+    "apps/web/src/pages/ParticipantPages.tsx": "58ef8a2bc337f538fa995c42e84139b3bbd446dfb3546a2488b199479998292c",
+    "apps/web/src/pages/playtest-json.ts": "9f630b20f14141299b04b1c4cd660fcbf57103e0a7ed4cc3a0a04e691cdfc061",
+    "apps/web/src/r3-ui.css": "d6343975e009ff80a5f91eb75128745b47e866a78ae1d228285446a44e68fff8",
+    "apps/web/src/repair-state/admission.ts": "6646aac32305074bdd17db2fa1a8f215a548010936de34d6d89f2b16637166e7",
+    "apps/web/src/repair-state/redemption.ts": "4fd5fff61400f9d4a97bd24df70e0071ab4f9989f2c0b2fc5f12430e8e618d03",
+    "apps/web/src/repair-state/result-presentation.ts": "a8321195f1af27020f31ad16681e94db18efe37dbec5e2da2d53ac9cd0904749",
+    "apps/web/src/repair-state/VoucherScanner.tsx": "a08b4623a2b04c0c5fa915721ac9bd1d350d58743b8485325b38d422e4e90a76",
+    "apps/web/src/styles.css": "a380b9269ae915ebd0d06ad45d0e038a82668ba85d3d90b4b14df87cd9ff72bc",
+    "apps/web/src/ui.tsx": "9e00776ef7a2390aa6de65f57ae993b7f42f9c9afd06b06e5c151e9c1160dce6",
+    "apps/web/src/visual-repair.css": "b77e0b59d50cc6702c22ef5382f7109a567b9a7397982b4b9bf3805767b1ef7c",
+    "apps/web/public/assets/asset-manifest.v1.json": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+    "config/game_rules.v2.1.json": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83"
+  },
+  "requestedAssets": [
+    "/assets/asset-manifest.v1.json",
+    "/assets/characters/sheep_side_v4.atlas.json",
+    "/assets/characters/sheep_side_v4.png",
+    "/assets/environment/farm_side_v4.atlas.json",
+    "/assets/environment/farm_side_v4.png",
+    "/assets/effects/shared_v1.atlas.json",
+    "/assets/effects/shared_v1.png",
+    "/assets/environment/backdrop_stack_v4.atlas.json",
+    "/assets/environment/backdrop_stack_v4.png"
+  ],
+  "screenshotSha256": "f83cb2f8f738d9fc601628b2647f7d3d206c2110f41c00c55dfc60fa6a6b99ab",
+  "errors": []
+}

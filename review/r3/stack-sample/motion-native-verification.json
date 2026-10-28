@@ -1,0 +1,101 @@
+{
+  "status": "NATIVE_SAMPLE_TECH_VERIFY_PASS",
+  "master_reopened": true,
+  "source_immutable": true,
+  "identity_mesh_hashes": {
+    "R2g_welded_existing_fleece": "df173ec239c6447b32ad856386b9274179d2a213f2267ccb7fd6dc20e0e07996",
+    "R2d_face_control_surface": "72c0a78c0f1ddbb0d1dea60938f797e822d0a52b6edbb33643a7f37c88e28f5d",
+    "R2e_horn_-1": "20617b78842cb640952bf2dfeb6b6bc5beda248105ca2d0d5c185d0e0d3cd520",
+    "R2e_horn_1": "9bb4138281f82507dd8bec08c8b51f6f9c7fb26025d595a737064ea214afe828"
+  },
+  "camera_and_lights_equal": true,
+  "clips_rebound_and_evaluated": [
+    {
+      "action": "stack_idle",
+      "index": 0,
+      "uniform_root": true,
+      "body_uniform": true
+    },
+    {
+      "action": "stack_idle",
+      "index": 1,
+      "uniform_root": true,
+      "body_uniform": true
+    },
+    {
+      "action": "stack_idle",
+      "index": 2,
+      "uniform_root": true,
+      "body_uniform": true
+    },
+    {
+      "action": "stack_idle",
+      "index": 3,
+      "uniform_root": true,
+      "body_uniform": true
+    },
+    {
+      "action": "stack_air",
+      "index": 0,
+      "uniform_root": true,
+      "body_uniform": true
+    },
+    {
+      "action": "stack_air",
+      "index": 1,
+      "uniform_root": true,
+      "body_uniform": true
+    },
+    {
+      "action": "stack_steady",
+      "index": 0,
+      "uniform_root": true,
+      "body_uniform": true
+    },
+    {
+      "action": "stack_steady",
+      "index": 1,
+      "uniform_root": true,
+      "body_uniform": true
+    },
+    {
+      "action": "stack_steady",
+      "index": 2,
+      "uniform_root": true,
+      "body_uniform": true
+    },
+    {
+      "action": "stack_steady",
+      "index": 3,
+      "uniform_root": true,
+      "body_uniform": true
+    },
+    {
+      "action": "stack_celebrate",
+      "index": 0,
+      "uniform_root": true,
+      "body_uniform": true
+    },
+    {
+      "action": "stack_celebrate",
+      "index": 1,
+      "uniform_root": true,
+      "body_uniform": true
+    },
+    {
+      "action": "stack_celebrate",
+      "index": 2,
+      "uniform_root": true,
+      "body_uniform": true
+    },
+    {
+      "action": "stack_celebrate",
+      "index": 3,
+      "uniform_root": true,
+      "body_uniform": true
+    }
+  ],
+  "all_frame_foot_world_z_zero": true,
+  "art_pass": false,
+  "geometry_status": "BLOCKED_PROTOTYPE_WIDTH"
+}

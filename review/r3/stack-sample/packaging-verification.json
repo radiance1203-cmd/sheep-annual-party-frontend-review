@@ -1,0 +1,18 @@
+{
+  "status": "PACKAGING_VERIFY_PASS",
+  "native_frames": 14,
+  "total_rendered_frames": 20,
+  "clips": 4,
+  "atlas_size": [
+    1024,
+    512
+  ],
+  "all_lossless_rects_equal": true,
+  "all_alpha_bounds_measured": true,
+  "all_source_hashes_equal": true,
+  "constant_pivot": true,
+  "source_immutable": true,
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "geometry_status": "BLOCKED"
+}

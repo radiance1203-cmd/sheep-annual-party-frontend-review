@@ -1,0 +1,63 @@
+{
+  "task": "R3-AUDIT",
+  "stage": "FOUNDATION_ONLY",
+  "references": [
+    {
+      "path": "design/prototypes/01_stack.png",
+      "sha256": "94651ed5e2ca9039cc397c11395c31205f3b57ee0bd65858a45093d6ebe57652",
+      "dimensions": [
+        941,
+        1671
+      ],
+      "actual_pixels_opened_by_this_reviewer": true
+    },
+    {
+      "path": "design/prototypes/02_runner.png",
+      "sha256": "62358c3c1cf36921266292f9747c514683f994fb1ed7c15254c29b3b98554a85",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "actual_pixels_opened_by_this_reviewer": true
+    },
+    {
+      "path": "design/prototypes/03_herd.png",
+      "sha256": "754351c13b62debd71fa342e9e1e366f9b34b0be7e35ae3b0d5af27494d8c50a",
+      "dimensions": [
+        941,
+        1672
+      ],
+      "actual_pixels_opened_by_this_reviewer": true
+    },
+    {
+      "path": "design/character_foundation_board.png",
+      "sha256": "836bf1f94e122bd5c98868b02d8577f2e8ea16d8acdce234094969e7510b1539",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "actual_pixels_opened_by_this_reviewer": true
+    }
+  ],
+  "rule_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+  "rule_hash_matches_reference_map": true,
+  "master_backup_reopened": true,
+  "master_backup_receipt": "review/r3/audit/master-backup-reopen.json",
+  "browser_executed": false,
+  "candidate_capture_review": "NOT_RUN_PENDING_ROOT_CAPTURE",
+  "art_status": "REVIEW",
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "physical_device": "NOT_RUN",
+  "human_playtest": "NOT_RUN",
+  "onsite_network": "NOT_RUN",
+  "write_scope": "review/r3/audit only",
+  "model_evidence": {
+    "configured_model": "gpt-6.1-sol",
+    "configured_effort": "high",
+    "agents_default_model": "gpt-6.1-sol",
+    "agents_default_effort": "high",
+    "evidence_source": "Codex config.toml read; parent explicit spawn parameters",
+    "server_receipt": "NOT_AVAILABLE"
+  }
+}

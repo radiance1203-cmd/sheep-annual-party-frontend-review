@@ -1,0 +1,40 @@
+
+ RUN  v5.0.5 <PROJECT_ROOT>
+
+ ❯ apps/web/src/game/r3-scenery.test.ts (2 tests | 2 failed) 8ms
+   ❯ candidate fence art stays on the real core boundary (2)
+     × covers both blocked fence segments, with no wood crossing the real opening 5ms
+     × anchors visible wood at the unchanged fence line without new collision geometry 1ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  apps/web/src/game/r3-scenery.test.ts > candidate fence art stays on the real core boundary > covers both blocked fence segments, with no wood crossing the real opening
+AssertionError: expected 0 to be greater than 0
+ ❯ apps/web/src/game/r3-scenery.test.ts:10:27
+      8|     const [left, right] = RULES.herd.gate_open_x_u.map(value => value …
+      9|     expect(left).toBeDefined(); expect(right).toBeDefined();
+     10|     expect(panels.length).toBeGreaterThan(0);
+       |                           ^
+     11|     expect(panels[0]?.x).toBe(0);
+     12|     const last = panels.at(-1);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  apps/web/src/game/r3-scenery.test.ts > candidate fence art stays on the real core boundary > anchors visible wood at the unchanged fence line without new collision geometry
+AssertionError: expected 0 to be greater than 0
+ ❯ apps/web/src/game/r3-scenery.test.ts:20:59
+     18|   });
+     19|   it('anchors visible wood at the unchanged fence line without new col…
+     20|     const panels = r3FencePanels(); expect(panels.length).toBeGreaterT…
+       |                                                           ^
+     21|     for (const panel of panels) expect(panel.y + panel.height).toBe(RU…
+     22|   });
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  2 failed (2)
+   Start at  09:20:29
+   Duration  384ms (import 62%, transform 30%, tests 4%, worker 3%)
+

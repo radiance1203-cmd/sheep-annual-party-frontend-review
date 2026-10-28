@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "checked_at_utc": "2026-10-28T02:09:04.717847+00:00",
+  "candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+  "same_final_frozen_source_hashes_across_pages_runtime_videos": true,
+  "native_pngs_verified": 27,
+  "runtime_records": 49,
+  "videos": [
+    {
+      "game": "stack",
+      "videoSha256": "9484357f3e3607202d699aa54854c80ed767728af2bc809f871b2a04b2fb9fe6",
+      "processSha256": "437fa726728d39dd87db1995fd98a4f43cc6e5ec53eb5227ebd2d7991911716f",
+      "durationSeconds": 50.0,
+      "conclusion": {
+        "game_id": "stack",
+        "end_tick": 967,
+        "end_reason": "GOAL_REACHED",
+        "accepted_actions_count": 20,
+        "stats": {
+          "success_layers": 20,
+          "perfect_layers": 20,
+          "misses": 0
+        },
+        "performance_points": 80
+      }
+    },
+    {
+      "game": "runner",
+      "videoSha256": "c85e603ca7cfc81c02a9c71a5bdca969c717a901ed664148f8de0210557a3da8",
+      "processSha256": "a05765f30317f222e586a92d319977c8bf5655555daae0d9751aee1154f1ef6f",
+      "durationSeconds": 49.8,
+      "conclusion": {
+        "game_id": "runner",
+        "end_tick": 1350,
+        "end_reason": "TIME_LIMIT",
+        "accepted_actions_count": 20,
+        "stats": {
+          "safe_passed": 20,
+          "collision_count": 0,
+          "outer_collected": 10,
+          "inner_collected": 10
+        },
+        "performance_points": 80
+      }
+    },
+    {
+      "game": "herd",
+      "videoSha256": "3b8220cf272846aebc593915c9a65970489870a6d1688b7443f9bafc396cc01b",
+      "processSha256": "326f38348612690c00e51a4a7273996535f165c0ba129a263f25c326833a53e8",
+      "durationSeconds": 50.04,
+      "conclusion": {
+        "game_id": "herd",
+        "end_tick": 1350,
+        "end_reason": "TIME_LIMIT",
+        "accepted_actions_count": 421,
+        "stats": {
+          "penned_count": 7,
+          "final_goal_tick": null,
+          "time_bonus_points": 0
+        },
+        "performance_points": 42
+      }
+    }
+  ],
+  "api_mutations": 0,
+  "page_errors": 0,
+  "scope": "B4 technical artifact/source consistency only; pre-shortlabel quick views are diagnostic; oldv4 roles pending; stack proportion BLOCKED; S3 false; no art/physical-device/performance acceptance"
+}

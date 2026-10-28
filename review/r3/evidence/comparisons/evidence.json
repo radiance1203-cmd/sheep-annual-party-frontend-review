@@ -1,0 +1,42 @@
+{
+  "candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+  "source_screenshots_unchanged": true,
+  "method": "native screenshots retained; analysis-only labels/composition; no imagegen redraw of evidence",
+  "production_art_accepted": false,
+  "sample_art_accepted": false,
+  "rows": [
+    {
+      "game": "stack",
+      "reference_sha256": "94651ed5e2ca9039cc397c11395c31205f3b57ee0bd65858a45093d6ebe57652",
+      "running_sha256": "a2a7a466d415ce8c3747bd535dd5729d1c168eebc6efe0de54564edcfdc820e5",
+      "overlay_sha256": "10a3629fddcfa9d1146ff7358a6f50ea7370f15c8e35b68952ec31b2f9bba996",
+      "comparison_sha256": "57581f8ad1a66fcc09d1eec77319a5c2a3869c631733c4765a95afe937d3d6e9",
+      "candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "core_before_tick": 30,
+      "screenshot_after_tick": 46,
+      "note": "annotation uses actual current world projection; objects move during native screenshot interval; displayed before-snapshot boxes are not enlarged collision regions; original illustration kept unwarped, not a new golden"
+    },
+    {
+      "game": "runner",
+      "reference_sha256": "62358c3c1cf36921266292f9747c514683f994fb1ed7c15254c29b3b98554a85",
+      "running_sha256": "788402e3d0cc57c06bb9bdc727063bbf352e535cb915c98a1ce99cae74305e0e",
+      "overlay_sha256": "e72bcc1b464b8c4d09390b31606c57152888cf11b47574368bb9bd8eadc418ff",
+      "comparison_sha256": "ee508611dc0695625d320949c1bc8def769ecd04a0a9e27331cd37aa7d61ed8c",
+      "candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "core_before_tick": 180,
+      "screenshot_after_tick": 197,
+      "note": "annotation uses actual current world projection; objects move during native screenshot interval; displayed before-snapshot boxes are not enlarged collision regions; original illustration kept unwarped, not a new golden"
+    },
+    {
+      "game": "herd",
+      "reference_sha256": "754351c13b62debd71fa342e9e1e366f9b34b0be7e35ae3b0d5af27494d8c50a",
+      "running_sha256": "c20df09210f6960f2f07365fdfca4c0b49a75b33e89842613e58ca37ed009b98",
+      "overlay_sha256": "a4b3c5ee7c7ef8815f4bcddd8ac845dc82767533d2939d43dcb1299f7f7233ee",
+      "comparison_sha256": "9e892899d007eb5b4a866b5dd3b524deec23f507506511144e39866752090d5c",
+      "candidate_manifest_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "core_before_tick": 30,
+      "screenshot_after_tick": 45,
+      "note": "annotation uses actual current world projection; objects move during native screenshot interval; displayed before-snapshot boxes are not enlarged collision regions; original illustration kept unwarped, not a new golden"
+    }
+  ]
+}

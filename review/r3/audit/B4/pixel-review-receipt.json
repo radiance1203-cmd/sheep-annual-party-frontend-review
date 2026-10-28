@@ -1,0 +1,2259 @@
+{
+  "review": "R3-B4 independent actual static pixels; not user or production acceptance",
+  "recorded_at_utc": "2026-10-28T02:24:22.460635+00:00",
+  "evidence_directory": "output/r3-20261028/",
+  "source_prefix": "",
+  "expected_candidate_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+  "actual_candidate_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+  "capture_count": 27,
+  "recorded_source_hashset_count": 1,
+  "binding_status": "PASS",
+  "binding_failures": [],
+  "captures": [
+    {
+      "path": "output/r3-20261028/pages/stack-prep-320.png",
+      "sha256": "aef5a0d3e21d12cd304dfc9aabe820130ce61373b2e0e388d5daa20cdbd77465",
+      "sidecar_sha256": "bc0a59e7029fe82fa8a8ad0942aeb36de511c680006a4088a4d1933799a5b91d",
+      "game": "stack",
+      "state": "prep",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:02.517Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "433.30",
+        "716.70"
+      ],
+      "canvas_css_rect": {
+        "x": 66,
+        "y": 133.390625,
+        "width": 187.5,
+        "height": 250,
+        "bottom": 383.390625,
+        "right": 253.5
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "羊羊叠高高",
+        "开启音效",
+        "开始不计分练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/f6d4c55e-f47b-4222-8fb6-7dcdaa6d401d\")",
+        "size": "320px 675.9675550405562px",
+        "top": "-196.94443679992276px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/f6d4c55e-f47b-4222-8fb6-7dcdaa6d401d\")",
+        "computedSize": "320px 675.968px, 320px 675.968px",
+        "computedPosition": "50% -196.944px, 50% -196.944px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 320,
+        "pageHeight": 568
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/stack-tutorial-320.png",
+      "sha256": "5375cc7c72ae4944a6007fa624370fcb2d47e97adff836ca1099e51c3eef825e",
+      "sidecar_sha256": "923708eaa3acae961e28b2e8f661b30c103a6c974254b6729f55d158834e8c76",
+      "game": "stack",
+      "state": "tutorial",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:03.666Z",
+      "tick_range": [
+        "5",
+        "13"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "183.20",
+        "316.60"
+      ],
+      "canvas_css_rect": {
+        "x": 72,
+        "y": 124.875,
+        "width": 175.5,
+        "height": 234,
+        "bottom": 358.875,
+        "right": 247.5
+      },
+      "recorded_control_semantic_names": [
+        "返回大厅",
+        "羊羊叠高高",
+        "暂停演示",
+        "重播演示",
+        "继续到练习",
+        "玩法与正式机会说明",
+        "等待正式挑战开放",
+        "返回大厅"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/360d2087-d6e0-4221-a149-405ced681c1f\")",
+        "size": "320px 675.9675550405562px",
+        "top": "-219.79339513325613px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/360d2087-d6e0-4221-a149-405ced681c1f\")",
+        "computedSize": "320px 675.968px, 320px 675.968px",
+        "computedPosition": "50% -219.793px, 50% -219.793px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 320,
+        "pageHeight": 568
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/stack-running-320.png",
+      "sha256": "5a9dff72ae55a6b3a441cdb340d14d603a11f586fd6a2ca5c3dfc43affaccc58",
+      "sidecar_sha256": "d087af7f9530cb7b4946191337cc8c49f7d5ea05018e3042a6de6f523f3dbb69",
+      "game": "stack",
+      "state": "running",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:05.570Z",
+      "tick_range": [
+        "30",
+        "41"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "1016.60",
+        "1116.60"
+      ],
+      "canvas_css_rect": {
+        "x": 48,
+        "y": 133.390625,
+        "width": 223.5,
+        "height": 298,
+        "bottom": 431.390625,
+        "right": 271.5
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "羊羊叠高高",
+        "开启音效",
+        "点击放下",
+        "暂停练习",
+        "重新练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/2e280d84-ac34-4698-97d2-08e3e9178d34\")",
+        "size": "320px 675.9675550405562px",
+        "top": "-153.94443679992276px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/2e280d84-ac34-4698-97d2-08e3e9178d34\")",
+        "computedSize": "320px 675.968px, 320px 675.968px",
+        "computedPosition": "50% -153.944px, 50% -153.944px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 320,
+        "pageHeight": 568
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/runner-prep-320.png",
+      "sha256": "4ca6c118177c28cbc88abebb59ead30ce1d57c58b37d8ab398758d526fe10120",
+      "sidecar_sha256": "7046573c3e8689ed6e2f1e021474d91a7a05cab52937dda821c05d8fd533349b",
+      "game": "runner",
+      "state": "prep",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:06.258Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "50.00",
+        "166.70"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 143.390625,
+        "width": 295.78125,
+        "height": 180.875,
+        "bottom": 324.265625,
+        "right": 307.78125
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "羊羊跨栏",
+        "开启音效",
+        "开始不计分练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/787ab6de-adf5-47ad-b41b-d62df9e56f25\")",
+        "size": "320px 675.9675550405562px",
+        "top": "-168.27867606394193px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/787ab6de-adf5-47ad-b41b-d62df9e56f25\")",
+        "computedSize": "320px 675.968px, 320px 675.968px",
+        "computedPosition": "50% -168.279px, 50% -168.279px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 320,
+        "pageHeight": 568
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/runner-tutorial-320.png",
+      "sha256": "4182801917543a2888cb2fcd02de3c2922e622725b836ec95b4f2115461004dc",
+      "sidecar_sha256": "ca6157e1092dc6760fcbc32230263fbbef09fcd0a901d96259ec2a69d5bc6630",
+      "game": "runner",
+      "state": "tutorial",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:08.088Z",
+      "tick_range": [
+        "4",
+        "44"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "166.60",
+        "1483.30"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 133.875,
+        "width": 295.78125,
+        "height": 180.875,
+        "bottom": 314.75,
+        "right": 307.78125
+      },
+      "recorded_control_semantic_names": [
+        "返回大厅",
+        "羊羊跨栏",
+        "暂停演示",
+        "重播演示",
+        "继续到练习",
+        "玩法与正式机会说明",
+        "等待正式挑战开放",
+        "返回大厅"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/d78c1b4d-d977-42a1-8486-d78d15f6844a\")",
+        "size": "320px 675.9675550405562px",
+        "top": "-177.79430106394193px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/d78c1b4d-d977-42a1-8486-d78d15f6844a\")",
+        "computedSize": "320px 675.968px, 320px 675.968px",
+        "computedPosition": "50% -177.794px, 50% -177.794px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 320,
+        "pageHeight": 568
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/runner-running-320.png",
+      "sha256": "85404e9000e4f6be4e667617f1a952c9e31b89044db895fb9160167d3de4c588",
+      "sidecar_sha256": "ac2685a4037812794e0e12e7ac28123b235a836fb0ef4ee72fdae02f98b9b76e",
+      "game": "runner",
+      "state": "running",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:14.900Z",
+      "tick_range": [
+        "180",
+        "189"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "6033.00",
+        "6333.10"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 143.390625,
+        "width": 295.78125,
+        "height": 180.875,
+        "bottom": 324.265625,
+        "right": 307.78125
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "羊羊跨栏",
+        "开启音效",
+        "点击跳跃",
+        "暂停练习",
+        "重新练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/ff6134c8-c034-48ca-ac6f-e8959b061dc7\")",
+        "size": "320px 675.9675550405562px",
+        "top": "-168.27867606394193px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/ff6134c8-c034-48ca-ac6f-e8959b061dc7\")",
+        "computedSize": "320px 675.968px, 320px 675.968px",
+        "computedPosition": "50% -168.279px, 50% -168.279px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 320,
+        "pageHeight": 568
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/herd-prep-320.png",
+      "sha256": "86086be826520eb572f27a4c064305a9dbfad90c391c1f9c4c6da79d8d9e28f0",
+      "sidecar_sha256": "da1408bbe38bcf56571434b1b7a3851b45b52db91f5b1a9bab9371a0fb757494",
+      "game": "herd",
+      "state": "prep",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -2.842170943040401e-14,
+      "captured_at": "2026-10-28T02:03:16.058Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "333.31",
+        "449.91"
+      ],
+      "canvas_css_rect": {
+        "x": 66,
+        "y": 133.390625,
+        "width": 187,
+        "height": 218,
+        "bottom": 351.390625,
+        "right": 253
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "赶羊入圈",
+        "开启音效",
+        "开始不计分练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/dea52ad5-5eac-413f-8927-aa4e96b5c442\")",
+        "size": "320px 675.5967555040556px",
+        "top": "-29.84078260359766px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(182, 204, 120) 100%), url(\"blob:http://127.0.0.1:5175/dea52ad5-5eac-413f-8927-aa4e96b5c442\")",
+        "computedSize": "320px 675.597px, 320px 675.597px",
+        "computedPosition": "50% -29.8408px, 50% -29.8408px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 320,
+        "pageHeight": 568
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/herd-tutorial-320.png",
+      "sha256": "d90dcd4fd3b6f9e336e78894412ac0f8dc92e06b76adb2789aaed8b4a2bb4588",
+      "sidecar_sha256": "07fa972b649d4158e855b6da8bbf158caffba42d0c1e727ac569b0661f59ff83",
+      "game": "herd",
+      "state": "tutorial",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -2.842170943040401e-14,
+      "captured_at": "2026-10-28T02:03:17.195Z",
+      "tick_range": [
+        "9",
+        "18"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 9,
+        "afterScreenshot": 18
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "333.27",
+        "466.67"
+      ],
+      "canvas_css_rect": {
+        "x": 59,
+        "y": 143.0625,
+        "width": 200.5,
+        "height": 234,
+        "bottom": 377.0625,
+        "right": 259.5
+      },
+      "recorded_control_semantic_names": [
+        "返回大厅",
+        "赶羊入圈",
+        "暂停演示",
+        "重播演示",
+        "继续到练习",
+        "玩法与正式机会说明",
+        "等待正式挑战开放",
+        "返回大厅"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/7e588df8-9ecd-4223-ba25-23d6072c3dab\")",
+        "size": "320px 675.5967555040556px",
+        "top": "-17.273669508359546px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(182, 204, 120) 100%), url(\"blob:http://127.0.0.1:5175/7e588df8-9ecd-4223-ba25-23d6072c3dab\")",
+        "computedSize": "320px 675.597px, 320px 675.597px",
+        "computedPosition": "50% -17.2737px, 50% -17.2737px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 320,
+        "pageHeight": 568
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/herd-running-320.png",
+      "sha256": "76e6a3d69a9459b7840498f1885ffcd6bbf4811366a62fd7155c378e68cdb8ae",
+      "sidecar_sha256": "d4d6ccc6e910f4c039481e306edaf027e21b3183bca272f51f59c3e4e8cfb875",
+      "game": "herd",
+      "state": "running",
+      "viewport": {
+        "width": 320,
+        "height": 568,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -2.842170943040401e-14,
+      "captured_at": "2026-10-28T02:03:19.403Z",
+      "tick_range": [
+        "30",
+        "38"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "1033.40",
+        "1133.40"
+      ],
+      "canvas_css_rect": {
+        "x": 45,
+        "y": 133.390625,
+        "width": 229.5,
+        "height": 268,
+        "bottom": 401.390625,
+        "right": 274.5
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "赶羊入圈",
+        "开启音效",
+        "吠叫",
+        "暂停练习",
+        "重新练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/81714d6c-e2ab-49e8-bf79-969408e8823c\")",
+        "size": "320px 675.5967555040556px",
+        "top": "-20.793163555978595px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(182, 204, 120) 100%), url(\"blob:http://127.0.0.1:5175/81714d6c-e2ab-49e8-bf79-969408e8823c\")",
+        "computedSize": "320px 675.597px, 320px 675.597px",
+        "computedPosition": "50% -20.7932px, 50% -20.7932px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 320,
+        "pageHeight": 568
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/stack-prep-390.png",
+      "sha256": "4884070ad682ecfb9041d00b542a062c3b028be0dd82318d67684ed19dd2541e",
+      "sidecar_sha256": "24940920fc59914d41fe9ebe30895713c1242440882508c3eda2817f1103d222",
+      "game": "stack",
+      "state": "prep",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:21.320Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "116.74",
+        "283.34"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 171.796875,
+        "width": 366,
+        "height": 488,
+        "bottom": 659.796875,
+        "right": 378
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "羊羊叠高高",
+        "开启音效",
+        "开始不计分练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/ca3ad6cb-b3cb-45f7-b310-1bc1c772ac3c\")",
+        "size": "399.54580362040593px 844px",
+        "top": "-83.11645833333318px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/ca3ad6cb-b3cb-45f7-b310-1bc1c772ac3c\")",
+        "computedSize": "399.546px 844px, 399.546px 844px",
+        "computedPosition": "50% -83.1165px, 50% -83.1165px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 390,
+        "pageHeight": 844
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/stack-tutorial-390.png",
+      "sha256": "80664c6d8ca7bf7bffc96f865f34ad7306a90e96534101ba806193acf70f7959",
+      "sidecar_sha256": "9ca2c717067994c8701ecd17c1c853dee01310c6f55cf5ecc2a5ced7c4c9a231",
+      "game": "stack",
+      "state": "tutorial",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:22.792Z",
+      "tick_range": [
+        "4",
+        "20"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "216.67",
+        "349.97"
+      ],
+      "canvas_css_rect": {
+        "x": 16,
+        "y": 165.28125,
+        "width": 357,
+        "height": 476,
+        "bottom": 641.28125,
+        "right": 373
+      },
+      "recorded_control_semantic_names": [
+        "返回大厅",
+        "羊羊叠高高",
+        "暂停演示",
+        "重播演示",
+        "继续到练习",
+        "玩法与正式机会说明",
+        "等待正式挑战开放",
+        "返回大厅"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/820ab7e9-f952-4545-87a3-4a239d2d64ef\")",
+        "size": "399.54580362040593px 844px",
+        "top": "-100.38208333333318px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/820ab7e9-f952-4545-87a3-4a239d2d64ef\")",
+        "computedSize": "399.546px 844px, 399.546px 844px",
+        "computedPosition": "50% -100.382px, 50% -100.382px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 390,
+        "pageHeight": 844
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/stack-running-390.png",
+      "sha256": "a2a7a466d415ce8c3747bd535dd5729d1c168eebc6efe0de54564edcfdc820e5",
+      "sidecar_sha256": "6215d4819213fc18d18a8d0f937ac47baec65ccc43b2659f311a89e4c84aa697",
+      "game": "stack",
+      "state": "running",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:25.286Z",
+      "tick_range": [
+        "30",
+        "46"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "1016.60",
+        "1549.90"
+      ],
+      "canvas_css_rect": {
+        "x": 17,
+        "y": 171.796875,
+        "width": 355.5,
+        "height": 474,
+        "bottom": 645.796875,
+        "right": 372.5
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "羊羊叠高高",
+        "开启音效",
+        "点击放下",
+        "暂停练习",
+        "重新练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/e8e3e362-d498-41b4-ba34-c4cd09126909\")",
+        "size": "399.54580362040593px 844px",
+        "top": "-95.65812499999993px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/e8e3e362-d498-41b4-ba34-c4cd09126909\")",
+        "computedSize": "399.546px 844px, 399.546px 844px",
+        "computedPosition": "50% -95.6581px, 50% -95.6581px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 390,
+        "pageHeight": 844
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/runner-prep-390.png",
+      "sha256": "17acc385f6205b8c2c4ff497aeeb94b4ece790d69d070871cd59e6ca547ac644",
+      "sidecar_sha256": "acc41811708a2bb8f70c826f662aa642e90e8f8bb5e9c6687a65df91e036e55e",
+      "game": "runner",
+      "state": "prep",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:26.156Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "83.44",
+        "183.44"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 263.59375,
+        "width": 366,
+        "height": 223.5,
+        "bottom": 487.09375,
+        "right": 378
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "羊羊跨栏",
+        "开启音效",
+        "开始不计分练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/84a7fcf5-9a32-48b6-ab99-c1ac774357be\")",
+        "size": "399.54580362040593px 844px",
+        "top": "-127.4626136363637px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/84a7fcf5-9a32-48b6-ab99-c1ac774357be\")",
+        "computedSize": "399.546px 844px, 399.546px 844px",
+        "computedPosition": "50% -127.463px, 50% -127.463px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 390,
+        "pageHeight": 844
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/runner-tutorial-390.png",
+      "sha256": "dc2f9bd298c8e4f2ade1ca88bd29db3b3b341f8229d419dce1ed9fcec90901c9",
+      "sidecar_sha256": "37592ce009886ea7b7695deac43ed27db1d55b40adb28e9e2984129cc28590bf",
+      "game": "runner",
+      "state": "tutorial",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:27.167Z",
+      "tick_range": [
+        "4",
+        "19"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "183.34",
+        "316.64"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 254.078125,
+        "width": 366,
+        "height": 223.5,
+        "bottom": 477.578125,
+        "right": 378
+      },
+      "recorded_control_semantic_names": [
+        "返回大厅",
+        "羊羊跨栏",
+        "暂停演示",
+        "重播演示",
+        "继续到练习",
+        "玩法与正式机会说明",
+        "等待正式挑战开放",
+        "返回大厅"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/3ee4a3b4-32d2-40d6-aae3-65cd8f7d7f80\")",
+        "size": "399.54580362040593px 844px",
+        "top": "-136.9782386363637px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/3ee4a3b4-32d2-40d6-aae3-65cd8f7d7f80\")",
+        "computedSize": "399.546px 844px, 399.546px 844px",
+        "computedPosition": "50% -136.978px, 50% -136.978px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 390,
+        "pageHeight": 844
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/runner-running-390.png",
+      "sha256": "788402e3d0cc57c06bb9bdc727063bbf352e535cb915c98a1ce99cae74305e0e",
+      "sidecar_sha256": "6b39eb473c85bc607cf32b7638081f1753d78ce31283ce4ffb7a6049359b5301",
+      "game": "runner",
+      "state": "running",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:34.217Z",
+      "tick_range": [
+        "180",
+        "197"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "6033.10",
+        "6183.10"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 263.59375,
+        "width": 366,
+        "height": 223.5,
+        "bottom": 487.09375,
+        "right": 378
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "羊羊跨栏",
+        "开启音效",
+        "点击跳跃",
+        "暂停练习",
+        "重新练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/f68e89d2-1ea7-4498-b56d-a96c9845320a\")",
+        "size": "399.54580362040593px 844px",
+        "top": "-127.4626136363637px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/f68e89d2-1ea7-4498-b56d-a96c9845320a\")",
+        "computedSize": "399.546px 844px, 399.546px 844px",
+        "computedPosition": "50% -127.463px, 50% -127.463px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 390,
+        "pageHeight": 844
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/herd-prep-390.png",
+      "sha256": "eff89a71ce1872aa0e54652b0969f291e2fa3673a981979fd4e993be0b2e155d",
+      "sidecar_sha256": "13487ba4a58dc53904f8568e2a209cb1d2cdf9bab56505c2b8e8c05abdd295ab",
+      "game": "herd",
+      "state": "prep",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -2.842170943040401e-14,
+      "captured_at": "2026-10-28T02:03:35.593Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "316.67",
+        "449.87"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 171.796875,
+        "width": 366,
+        "height": 427,
+        "bottom": 598.796875,
+        "right": 378
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "赶羊入圈",
+        "开启音效",
+        "开始不计分练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/92b88a4e-018e-48df-a5e4-39e2d7268f65\")",
+        "size": "399.76509330406145px 844px",
+        "top": "-4.1364583333333655px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(182, 204, 120) 100%), url(\"blob:http://127.0.0.1:5175/92b88a4e-018e-48df-a5e4-39e2d7268f65\")",
+        "computedSize": "399.765px 844px, 399.765px 844px",
+        "computedPosition": "50% -4.13646px, 50% -4.13646px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 390,
+        "pageHeight": 844
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/herd-tutorial-390.png",
+      "sha256": "a50dc53f51bd2fd5f8c04eb501bef200e707153b0a702fd7b0a864530e6459a0",
+      "sidecar_sha256": "e02d53eaa7f8e1e19588018135ecb020b2999ff10e034d161d9ccb05499d8f9b",
+      "game": "herd",
+      "state": "tutorial",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -2.842170943040401e-14,
+      "captured_at": "2026-10-28T02:03:36.944Z",
+      "tick_range": [
+        "8",
+        "23"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 8,
+        "afterScreenshot": 23
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "333.31",
+        "483.21"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 165.28125,
+        "width": 366,
+        "height": 427,
+        "bottom": 592.28125,
+        "right": 378
+      },
+      "recorded_control_semantic_names": [
+        "返回大厅",
+        "赶羊入圈",
+        "暂停演示",
+        "重播演示",
+        "继续到练习",
+        "玩法与正式机会说明",
+        "等待正式挑战开放",
+        "返回大厅"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/980123e8-5494-4e3f-bb0f-17484928b6e7\")",
+        "size": "399.76509330406145px 844px",
+        "top": "-10.652083333333366px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(182, 204, 120) 100%), url(\"blob:http://127.0.0.1:5175/980123e8-5494-4e3f-bb0f-17484928b6e7\")",
+        "computedSize": "399.765px 844px, 399.765px 844px",
+        "computedPosition": "50% -10.6521px, 50% -10.6521px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 390,
+        "pageHeight": 844
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/herd-running-390.png",
+      "sha256": "c20df09210f6960f2f07365fdfca4c0b49a75b33e89842613e58ca37ed009b98",
+      "sidecar_sha256": "a1dee3f9fe1a6fba00337ecc660d8d0599a9440233690d8d9ded9bcba582eda9",
+      "game": "herd",
+      "state": "running",
+      "viewport": {
+        "width": 390,
+        "height": 844,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -2.842170943040401e-14,
+      "captured_at": "2026-10-28T02:03:39.406Z",
+      "tick_range": [
+        "30",
+        "45"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "999.90",
+        "1516.60"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 171.796875,
+        "width": 366,
+        "height": 427,
+        "bottom": 598.796875,
+        "right": 378
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "赶羊入圈",
+        "开启音效",
+        "吠叫",
+        "暂停练习",
+        "重新练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/8f2520c0-8088-4a76-9b93-7619d022d9a5\")",
+        "size": "399.76509330406145px 844px",
+        "top": "-4.1364583333333655px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(182, 204, 120) 100%), url(\"blob:http://127.0.0.1:5175/8f2520c0-8088-4a76-9b93-7619d022d9a5\")",
+        "computedSize": "399.765px 844px, 399.765px 844px",
+        "computedPosition": "50% -4.13646px, 50% -4.13646px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 390,
+        "pageHeight": 844
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/stack-prep-430.png",
+      "sha256": "83c66fe41adf461a4c43fa658a8beb855859faedd09cfe428f76ad5edc15d96e",
+      "sidecar_sha256": "c30731990a739d3bb058445b0bbaea8ee93588ca209bb966a99c12292126e927",
+      "game": "stack",
+      "state": "prep",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:41.415Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "116.67",
+        "283.27"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 171.796875,
+        "width": 405.859375,
+        "height": 541.328125,
+        "bottom": 713.125,
+        "right": 417.859375
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "羊羊叠高高",
+        "开启音效",
+        "开始不计分练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/2bb89c42-9227-4f2a-9403-7b2584ae5690\")",
+        "size": "441.2046077893582px 932px",
+        "top": "-107.50334635416664px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/2bb89c42-9227-4f2a-9403-7b2584ae5690\")",
+        "computedSize": "441.205px 932px, 441.205px 932px",
+        "computedPosition": "50% -107.503px, 50% -107.503px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 430,
+        "pageHeight": 932
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/stack-tutorial-430.png",
+      "sha256": "63d50fc5e80d730d27bd94dff17f0ae612fadb8ae73b0caab10f6a48c6ba6e7b",
+      "sidecar_sha256": "a38cfa8565ba0c94133ef3d7183e83256bc885cab0ef271aa086374b4a9abf2b",
+      "game": "stack",
+      "state": "tutorial",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:42.887Z",
+      "tick_range": [
+        "5",
+        "22"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "199.90",
+        "366.70"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 165.28125,
+        "width": 405.859375,
+        "height": 541.328125,
+        "bottom": 706.609375,
+        "right": 417.859375
+      },
+      "recorded_control_semantic_names": [
+        "返回大厅",
+        "羊羊叠高高",
+        "暂停演示",
+        "重播演示",
+        "继续到练习",
+        "玩法与正式机会说明",
+        "等待正式挑战开放",
+        "返回大厅"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/80247f57-72f5-4086-b390-70b4066975a3\")",
+        "size": "441.2046077893582px 932px",
+        "top": "-114.01897135416664px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/80247f57-72f5-4086-b390-70b4066975a3\")",
+        "computedSize": "441.205px 932px, 441.205px 932px",
+        "computedPosition": "50% -114.019px, 50% -114.019px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 430,
+        "pageHeight": 932
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/stack-running-430.png",
+      "sha256": "d42edca70b1e0dcecf6454ffb889ced63a4e7e02123ff2845b9d2d2c1be11ea5",
+      "sidecar_sha256": "95bb61d520a8a78c9ee4d31d0437366b9ff477fe621029bacdc0d7da7ec0e73c",
+      "game": "stack",
+      "state": "running",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:45.124Z",
+      "tick_range": [
+        "30",
+        "50"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "1016.60",
+        "1666.60"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 171.796875,
+        "width": 405.859375,
+        "height": 541.328125,
+        "bottom": 713.125,
+        "right": 417.859375
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "羊羊叠高高",
+        "开启音效",
+        "点击放下",
+        "暂停练习",
+        "重新练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/54d95c54-d84b-4c62-a428-6d0729ab8f16\")",
+        "size": "441.2046077893582px 932px",
+        "top": "-107.50334635416664px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/54d95c54-d84b-4c62-a428-6d0729ab8f16\")",
+        "computedSize": "441.205px 932px, 441.205px 932px",
+        "computedPosition": "50% -107.503px, 50% -107.503px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 430,
+        "pageHeight": 932
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/runner-prep-430.png",
+      "sha256": "5d07d27430decc976f97db31a0bc6a562cfe131c6574b16ce812e8c7d726dda3",
+      "sidecar_sha256": "0b7b466d19e65ad03572cf2fc125dd2a5bf75f6be66bd93d85ba982797e43706",
+      "game": "runner",
+      "state": "prep",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -1.1368683772161603e-13,
+      "captured_at": "2026-10-28T02:03:46.088Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "66.70",
+        "166.70"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 303.1875,
+        "width": 406,
+        "height": 248,
+        "bottom": 551.1875,
+        "right": 418
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "羊羊跨栏",
+        "开启音效",
+        "开始不计分练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/c5f10a8d-2f6b-4d40-bfbb-bfbb482b7aa8\")",
+        "size": "441.2046077893582px 932px",
+        "top": "-127.66340909090917px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/c5f10a8d-2f6b-4d40-bfbb-bfbb482b7aa8\")",
+        "computedSize": "441.205px 932px, 441.205px 932px",
+        "computedPosition": "50% -127.663px, 50% -127.663px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 430,
+        "pageHeight": 932
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/runner-tutorial-430.png",
+      "sha256": "f8e79b17371ab4ba3086b308b95f3ac0c772b125f121b568df942bcd13a8864d",
+      "sidecar_sha256": "cb3466506dfa0be701e4f551d34841158d1bd309a09164386739422215108f33",
+      "game": "runner",
+      "state": "tutorial",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -1.1368683772161603e-13,
+      "captured_at": "2026-10-28T02:03:47.203Z",
+      "tick_range": [
+        "4",
+        "21"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "166.60",
+        "700.00"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 293.671875,
+        "width": 406,
+        "height": 248,
+        "bottom": 541.671875,
+        "right": 418
+      },
+      "recorded_control_semantic_names": [
+        "返回大厅",
+        "羊羊跨栏",
+        "暂停演示",
+        "重播演示",
+        "继续到练习",
+        "玩法与正式机会说明",
+        "等待正式挑战开放",
+        "返回大厅"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/ca69a171-228e-41aa-845c-0b5db844593b\")",
+        "size": "441.2046077893582px 932px",
+        "top": "-137.17903409090917px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/ca69a171-228e-41aa-845c-0b5db844593b\")",
+        "computedSize": "441.205px 932px, 441.205px 932px",
+        "computedPosition": "50% -137.179px, 50% -137.179px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 430,
+        "pageHeight": 932
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/runner-running-430.png",
+      "sha256": "8b29983dd0c527a230540c4cc8a5898290a8b0c453445f44ef3c40a57907665a",
+      "sidecar_sha256": "da97cd68a18420c10e6438971f2693da582e1ca78d7f4cffc6e6c092cdf59023",
+      "game": "runner",
+      "state": "running",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": -1.1368683772161603e-13,
+      "captured_at": "2026-10-28T02:03:54.394Z",
+      "tick_range": [
+        "180",
+        "201"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "6033.00",
+        "6183.10"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 303.1875,
+        "width": 406,
+        "height": 248,
+        "bottom": 551.1875,
+        "right": 418
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "羊羊跨栏",
+        "开启音效",
+        "点击跳跃",
+        "暂停练习",
+        "重新练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/44fdd610-3324-4079-94cb-6e60e4f234b2\")",
+        "size": "441.2046077893582px 932px",
+        "top": "-127.66340909090917px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(239, 211, 161) 100%), url(\"blob:http://127.0.0.1:5175/44fdd610-3324-4079-94cb-6e60e4f234b2\")",
+        "computedSize": "441.205px 932px, 441.205px 932px",
+        "computedPosition": "50% -127.663px, 50% -127.663px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 430,
+        "pageHeight": 932
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/herd-prep-430.png",
+      "sha256": "1bba7f318acadb56c53c27554ceb549baacad14eead0539d958ebefd460a8b37",
+      "sidecar_sha256": "cb3641d64f9254f8146c496a927828872b743e5ea234bfcd944767c89e500ac3",
+      "game": "herd",
+      "state": "prep",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:55.909Z",
+      "tick_range": [
+        "0",
+        "0"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "333.34",
+        "499.94"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 171.796875,
+        "width": 406,
+        "height": 473.5,
+        "bottom": 645.296875,
+        "right": 418
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "赶羊入圈",
+        "开启音效",
+        "开始不计分练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/96644f93-7e2f-4219-96db-64ab81d3a4ff\")",
+        "size": "441.4467618002195px 931.9999999999999px",
+        "top": "-22.122172619047603px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(182, 204, 120) 100%), url(\"blob:http://127.0.0.1:5175/96644f93-7e2f-4219-96db-64ab81d3a4ff\")",
+        "computedSize": "441.447px 932px, 441.447px 932px",
+        "computedPosition": "50% -22.1222px, 50% -22.1222px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 430,
+        "pageHeight": 932
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/herd-tutorial-430.png",
+      "sha256": "b966af9016c14fd6bcca5ad562386d40a094401cc44918818038a88bb073492a",
+      "sidecar_sha256": "40c6e000ca549128f268e82a6f91f8f781f8eb53194e975bcbf00b9f8c10fadb",
+      "game": "herd",
+      "state": "tutorial",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:03:57.424Z",
+      "tick_range": [
+        "8",
+        "27"
+      ],
+      "tick_source": "teachingTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 8,
+        "afterScreenshot": 27
+      },
+      "input_prefix_provenance": "same deterministic teaching controller and seed bound by source hashes; prefixes correspond to sampled tutorial ticks",
+      "presentation_time_range": [
+        "316.70",
+        "966.60"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 165.28125,
+        "width": 406,
+        "height": 473.5,
+        "bottom": 638.78125,
+        "right": 418
+      },
+      "recorded_control_semantic_names": [
+        "返回大厅",
+        "赶羊入圈",
+        "暂停演示",
+        "重播演示",
+        "继续到练习",
+        "玩法与正式机会说明",
+        "等待正式挑战开放",
+        "返回大厅"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/4806900e-4230-431d-a4bc-878a5f62b94f\")",
+        "size": "441.4467618002195px 931.9999999999999px",
+        "top": "-28.637797619047603px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(182, 204, 120) 100%), url(\"blob:http://127.0.0.1:5175/4806900e-4230-431d-a4bc-878a5f62b94f\")",
+        "computedSize": "441.447px 932px, 441.447px 932px",
+        "computedPosition": "50% -28.6378px, 50% -28.6378px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 430,
+        "pageHeight": 932
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    },
+    {
+      "path": "output/r3-20261028/pages/herd-running-430.png",
+      "sha256": "aba2918a55b1b0f4f1141df4448f4c867b84b7a76e33776e95aceb3b40d61959",
+      "sidecar_sha256": "717c3dead482910580e8f30f17a5834b785e6123fadf8a12c2dc1486c70d4fd9",
+      "game": "herd",
+      "state": "running",
+      "viewport": {
+        "width": 430,
+        "height": 932,
+        "requestedDpr": 2
+      },
+      "candidate_binding_ok": true,
+      "png_binding_ok": true,
+      "sidecar_same_as_index": true,
+      "source_binding_mismatches": [],
+      "page_background_binding_ok": true,
+      "page_background_requested": true,
+      "configured_anchor_error_css_px": 0,
+      "captured_at": "2026-10-28T02:04:00.061Z",
+      "tick_range": [
+        "30",
+        "49"
+      ],
+      "tick_source": "gameTick",
+      "input_prefix_counts": {
+        "beforeScreenshot": 0,
+        "afterScreenshot": 0
+      },
+      "input_prefix_provenance": "exact empty runtime input prefix: no gameplay input dispatched in this still-capture run; representative actions are separately recorded in real-time videos",
+      "presentation_time_range": [
+        "1016.60",
+        "1666.50"
+      ],
+      "canvas_css_rect": {
+        "x": 12,
+        "y": 171.796875,
+        "width": 406,
+        "height": 473.5,
+        "bottom": 645.296875,
+        "right": 418
+      },
+      "recorded_control_semantic_names": [
+        "返回",
+        "赶羊入圈",
+        "开启音效",
+        "吠叫",
+        "暂停练习",
+        "重新练习"
+      ],
+      "page_background_position": {
+        "image": "url(\"blob:http://127.0.0.1:5175/ffbac984-9bf9-493d-97e5-8d21b451e3b2\")",
+        "size": "441.4467618002195px 931.9999999999999px",
+        "top": "-22.122172619047603px",
+        "computedImage": "linear-gradient(rgba(0, 0, 0, 0) 85%, rgb(182, 204, 120) 100%), url(\"blob:http://127.0.0.1:5175/ffbac984-9bf9-493d-97e5-8d21b451e3b2\")",
+        "computedSize": "441.447px 932px, 441.447px 932px",
+        "computedPosition": "50% -22.1222px, 50% -22.1222px",
+        "computedRepeat": "no-repeat, no-repeat",
+        "pageX": 0,
+        "pageY": 0,
+        "pageWidth": 430,
+        "pageHeight": 932
+      },
+      "errors": [],
+      "actual_pixels_opened_by_reviewer_this_B4_stage": true
+    }
+  ],
+  "source_bindings": {
+    "apps/web/src/api.ts": {
+      "recorded_sha256": "916568ee63fc62d43274dfeb676fa86efdfe4f2b7a54a6992ad3db529ec865f3",
+      "actual_sha256": "916568ee63fc62d43274dfeb676fa86efdfe4f2b7a54a6992ad3db529ec865f3",
+      "evidence_path": "apps/web/src/api.ts"
+    },
+    "apps/web/src/App.tsx": {
+      "recorded_sha256": "39b8ce1569238d315e8743145b69b84657a9cc0e9c5278dd865827216f2ea034",
+      "actual_sha256": "39b8ce1569238d315e8743145b69b84657a9cc0e9c5278dd865827216f2ea034",
+      "evidence_path": "apps/web/src/App.tsx"
+    },
+    "apps/web/src/game/assets.test.ts": {
+      "recorded_sha256": "0de08bba494fcc7bcb097a4bff2d5cd98d9641e55c2674632d076c7a9bf07cae",
+      "actual_sha256": "0de08bba494fcc7bcb097a4bff2d5cd98d9641e55c2674632d076c7a9bf07cae",
+      "evidence_path": "apps/web/src/game/assets.test.ts"
+    },
+    "apps/web/src/game/assets.ts": {
+      "recorded_sha256": "703a8ef041f20802e6fef692d56cb5cb5f6586b4e4e0cde4cec4c44c6f99e9ab",
+      "actual_sha256": "703a8ef041f20802e6fef692d56cb5cb5f6586b4e4e0cde4cec4c44c6f99e9ab",
+      "evidence_path": "apps/web/src/game/assets.ts"
+    },
+    "apps/web/src/game/GamePage.tsx": {
+      "recorded_sha256": "65b046008002133df7864d93b3a1fbe344b2daf98974be99ac770ab93b14ae83",
+      "actual_sha256": "65b046008002133df7864d93b3a1fbe344b2daf98974be99ac770ab93b14ae83",
+      "evidence_path": "apps/web/src/game/GamePage.tsx"
+    },
+    "apps/web/src/game/keyboard.ts": {
+      "recorded_sha256": "62d91939374a970eb2eaafc73bedb88e4d5facb02d96e5e30ed4468b38ed437a",
+      "actual_sha256": "62d91939374a970eb2eaafc73bedb88e4d5facb02d96e5e30ed4468b38ed437a",
+      "evidence_path": "apps/web/src/game/keyboard.ts"
+    },
+    "apps/web/src/game/presentation.test.ts": {
+      "recorded_sha256": "47b3e7b77e93ed1b014324d1b873e4f6f09af8b6d7f38d42a9d0b550dc606709",
+      "actual_sha256": "47b3e7b77e93ed1b014324d1b873e4f6f09af8b6d7f38d42a9d0b550dc606709",
+      "evidence_path": "apps/web/src/game/presentation.test.ts"
+    },
+    "apps/web/src/game/presentation.ts": {
+      "recorded_sha256": "35a026ac74d28f7d7fe457c85f9b23c38ffad584836d181dd394f51b789a3262",
+      "actual_sha256": "35a026ac74d28f7d7fe457c85f9b23c38ffad584836d181dd394f51b789a3262",
+      "evidence_path": "apps/web/src/game/presentation.ts"
+    },
+    "apps/web/src/game/presenter-state.test.ts": {
+      "recorded_sha256": "6e76f8ed3dbad01b9b6d31511045f78e04a0c453e3cd5ebbfe6bb96512f81ee6",
+      "actual_sha256": "6e76f8ed3dbad01b9b6d31511045f78e04a0c453e3cd5ebbfe6bb96512f81ee6",
+      "evidence_path": "apps/web/src/game/presenter-state.test.ts"
+    },
+    "apps/web/src/game/presenter-state.ts": {
+      "recorded_sha256": "b016a2438f4b04e8d63a24ef04d89caa9bdb0b5800932c773ca3e2e7ac1b18bf",
+      "actual_sha256": "b016a2438f4b04e8d63a24ef04d89caa9bdb0b5800932c773ca3e2e7ac1b18bf",
+      "evidence_path": "apps/web/src/game/presenter-state.ts"
+    },
+    "apps/web/src/game/r3-candidate.test.ts": {
+      "recorded_sha256": "57f52eaa9d2cb6dfe07dfdfbd542bf02c65d7167ec2883441d552e5f03cb41fa",
+      "actual_sha256": "57f52eaa9d2cb6dfe07dfdfbd542bf02c65d7167ec2883441d552e5f03cb41fa",
+      "evidence_path": "apps/web/src/game/r3-candidate.test.ts"
+    },
+    "apps/web/src/game/r3-candidate.ts": {
+      "recorded_sha256": "43eb90f1f7261bc2d6c12724287c7c703c70ac68ed214bae060654a73ea00518",
+      "actual_sha256": "43eb90f1f7261bc2d6c12724287c7c703c70ac68ed214bae060654a73ea00518",
+      "evidence_path": "apps/web/src/game/r3-candidate.ts"
+    },
+    "apps/web/src/game/r3-scenery.test.ts": {
+      "recorded_sha256": "d3fa56931b708ac94c0bc0246b7a841fc208afa262356138d9f2fa7c4745ffcf",
+      "actual_sha256": "d3fa56931b708ac94c0bc0246b7a841fc208afa262356138d9f2fa7c4745ffcf",
+      "evidence_path": "apps/web/src/game/r3-scenery.test.ts"
+    },
+    "apps/web/src/game/r3-scenery.ts": {
+      "recorded_sha256": "6b7e48cb102826e65a5a676231764d7c6f6b643585f9df21d3c475e53aa52a41",
+      "actual_sha256": "6b7e48cb102826e65a5a676231764d7c6f6b643585f9df21d3c475e53aa52a41",
+      "evidence_path": "apps/web/src/game/r3-scenery.ts"
+    },
+    "apps/web/src/game/renderer.ts": {
+      "recorded_sha256": "45270a303a7817d161852c735173785acbfbfb51545c46972ebfdd4e29b742ae",
+      "actual_sha256": "45270a303a7817d161852c735173785acbfbfb51545c46972ebfdd4e29b742ae",
+      "evidence_path": "apps/web/src/game/renderer.ts"
+    },
+    "apps/web/src/game/storage.ts": {
+      "recorded_sha256": "a89eb0b95f335eb7cc1fe64340d01020017b09e2936593d8203731a192c519c7",
+      "actual_sha256": "a89eb0b95f335eb7cc1fe64340d01020017b09e2936593d8203731a192c519c7",
+      "evidence_path": "apps/web/src/game/storage.ts"
+    },
+    "apps/web/src/game/timeline.ts": {
+      "recorded_sha256": "52c1921e94170ed58908208a47a38c107283b65eee4040301a8a42ab2c8f802d",
+      "actual_sha256": "52c1921e94170ed58908208a47a38c107283b65eee4040301a8a42ab2c8f802d",
+      "evidence_path": "apps/web/src/game/timeline.ts"
+    },
+    "apps/web/src/game/tutorial-model.test.ts": {
+      "recorded_sha256": "7990de56482d1997aa9b6edd344b759322696022d21a5464dee481aab8afbb0e",
+      "actual_sha256": "7990de56482d1997aa9b6edd344b759322696022d21a5464dee481aab8afbb0e",
+      "evidence_path": "apps/web/src/game/tutorial-model.test.ts"
+    },
+    "apps/web/src/game/tutorial-model.ts": {
+      "recorded_sha256": "ac09fb030da3d22dfefbd20c2148084e1a9fc4dabfd38059e9feb2dac4c67cf1",
+      "actual_sha256": "ac09fb030da3d22dfefbd20c2148084e1a9fc4dabfd38059e9feb2dac4c67cf1",
+      "evidence_path": "apps/web/src/game/tutorial-model.ts"
+    },
+    "apps/web/src/game/TutorialScene.tsx": {
+      "recorded_sha256": "4daaeba183bf5f72c26ca501ec8317cd7d638005cabff0c35847338edcd0b85f",
+      "actual_sha256": "4daaeba183bf5f72c26ca501ec8317cd7d638005cabff0c35847338edcd0b85f",
+      "evidence_path": "apps/web/src/game/TutorialScene.tsx"
+    },
+    "apps/web/src/LobbyIllustration.tsx": {
+      "recorded_sha256": "61adc6bf7c8befc2342e6807318b6ee0925059a310d8f58ea43df6557cd296ba",
+      "actual_sha256": "61adc6bf7c8befc2342e6807318b6ee0925059a310d8f58ea43df6557cd296ba",
+      "evidence_path": "apps/web/src/LobbyIllustration.tsx"
+    },
+    "apps/web/src/main.tsx": {
+      "recorded_sha256": "79cf68ed6f0d06abed66a111026a206fba7e43900730df3b01550eb7fdd4596f",
+      "actual_sha256": "79cf68ed6f0d06abed66a111026a206fba7e43900730df3b01550eb7fdd4596f",
+      "evidence_path": "apps/web/src/main.tsx"
+    },
+    "apps/web/src/pages/admin-requests.ts": {
+      "recorded_sha256": "215b8ad0411b059108397a06df2a7f9e6d53121f61c28bee4d6a16851ca9ebb3",
+      "actual_sha256": "215b8ad0411b059108397a06df2a7f9e6d53121f61c28bee4d6a16851ca9ebb3",
+      "evidence_path": "apps/web/src/pages/admin-requests.ts"
+    },
+    "apps/web/src/pages/AdminPage.tsx": {
+      "recorded_sha256": "2986154b9a159bcb1939519a0edf5106d5a75e415d52acdb4d8031878b1f1f18",
+      "actual_sha256": "2986154b9a159bcb1939519a0edf5106d5a75e415d52acdb4d8031878b1f1f18",
+      "evidence_path": "apps/web/src/pages/AdminPage.tsx"
+    },
+    "apps/web/src/pages/operations-model.ts": {
+      "recorded_sha256": "d10fccb91693ae17dc87e60ac68797f25758353ef897e8d9fe7218c9e384ccdb",
+      "actual_sha256": "d10fccb91693ae17dc87e60ac68797f25758353ef897e8d9fe7218c9e384ccdb",
+      "evidence_path": "apps/web/src/pages/operations-model.ts"
+    },
+    "apps/web/src/pages/OperationsPanels.tsx": {
+      "recorded_sha256": "3937331b657d81af892d20e87a1cb87fd58a2c1f1c98fe7aeeac034df1365d4d",
+      "actual_sha256": "3937331b657d81af892d20e87a1cb87fd58a2c1f1c98fe7aeeac034df1365d4d",
+      "evidence_path": "apps/web/src/pages/OperationsPanels.tsx"
+    },
+    "apps/web/src/pages/ParticipantPages.tsx": {
+      "recorded_sha256": "58ef8a2bc337f538fa995c42e84139b3bbd446dfb3546a2488b199479998292c",
+      "actual_sha256": "58ef8a2bc337f538fa995c42e84139b3bbd446dfb3546a2488b199479998292c",
+      "evidence_path": "apps/web/src/pages/ParticipantPages.tsx"
+    },
+    "apps/web/src/pages/playtest-json.ts": {
+      "recorded_sha256": "9f630b20f14141299b04b1c4cd660fcbf57103e0a7ed4cc3a0a04e691cdfc061",
+      "actual_sha256": "9f630b20f14141299b04b1c4cd660fcbf57103e0a7ed4cc3a0a04e691cdfc061",
+      "evidence_path": "apps/web/src/pages/playtest-json.ts"
+    },
+    "apps/web/src/r3-ui.css": {
+      "recorded_sha256": "82448631f527bc5803ccd67a33d8fc4d649f99f083f44a66425c8ebb5c7c7951",
+      "actual_sha256": "82448631f527bc5803ccd67a33d8fc4d649f99f083f44a66425c8ebb5c7c7951",
+      "evidence_path": "apps/web/src/r3-ui.css"
+    },
+    "apps/web/src/repair-state/admission.ts": {
+      "recorded_sha256": "6646aac32305074bdd17db2fa1a8f215a548010936de34d6d89f2b16637166e7",
+      "actual_sha256": "6646aac32305074bdd17db2fa1a8f215a548010936de34d6d89f2b16637166e7",
+      "evidence_path": "apps/web/src/repair-state/admission.ts"
+    },
+    "apps/web/src/repair-state/redemption.ts": {
+      "recorded_sha256": "4fd5fff61400f9d4a97bd24df70e0071ab4f9989f2c0b2fc5f12430e8e618d03",
+      "actual_sha256": "4fd5fff61400f9d4a97bd24df70e0071ab4f9989f2c0b2fc5f12430e8e618d03",
+      "evidence_path": "apps/web/src/repair-state/redemption.ts"
+    },
+    "apps/web/src/repair-state/result-presentation.ts": {
+      "recorded_sha256": "a8321195f1af27020f31ad16681e94db18efe37dbec5e2da2d53ac9cd0904749",
+      "actual_sha256": "a8321195f1af27020f31ad16681e94db18efe37dbec5e2da2d53ac9cd0904749",
+      "evidence_path": "apps/web/src/repair-state/result-presentation.ts"
+    },
+    "apps/web/src/repair-state/VoucherScanner.tsx": {
+      "recorded_sha256": "a08b4623a2b04c0c5fa915721ac9bd1d350d58743b8485325b38d422e4e90a76",
+      "actual_sha256": "a08b4623a2b04c0c5fa915721ac9bd1d350d58743b8485325b38d422e4e90a76",
+      "evidence_path": "apps/web/src/repair-state/VoucherScanner.tsx"
+    },
+    "apps/web/src/styles.css": {
+      "recorded_sha256": "a380b9269ae915ebd0d06ad45d0e038a82668ba85d3d90b4b14df87cd9ff72bc",
+      "actual_sha256": "a380b9269ae915ebd0d06ad45d0e038a82668ba85d3d90b4b14df87cd9ff72bc",
+      "evidence_path": "apps/web/src/styles.css"
+    },
+    "apps/web/src/ui.tsx": {
+      "recorded_sha256": "9e00776ef7a2390aa6de65f57ae993b7f42f9c9afd06b06e5c151e9c1160dce6",
+      "actual_sha256": "9e00776ef7a2390aa6de65f57ae993b7f42f9c9afd06b06e5c151e9c1160dce6",
+      "evidence_path": "apps/web/src/ui.tsx"
+    },
+    "apps/web/src/visual-repair.css": {
+      "recorded_sha256": "b77e0b59d50cc6702c22ef5382f7109a567b9a7397982b4b9bf3805767b1ef7c",
+      "actual_sha256": "b77e0b59d50cc6702c22ef5382f7109a567b9a7397982b4b9bf3805767b1ef7c",
+      "evidence_path": "apps/web/src/visual-repair.css"
+    },
+    "packages/game-core/src/build.ts": {
+      "recorded_sha256": "92b924da11856d4d46586de8bd16aaa5597aad28a814b8120d3dd124eb0849fb",
+      "actual_sha256": "92b924da11856d4d46586de8bd16aaa5597aad28a814b8120d3dd124eb0849fb",
+      "evidence_path": "packages/game-core/src/build.ts"
+    },
+    "packages/game-core/src/common.ts": {
+      "recorded_sha256": "d4c757339272c1a77ca9e277a6b1069666f4c9d22c933c6bae5ee3670d22d105",
+      "actual_sha256": "d4c757339272c1a77ca9e277a6b1069666f4c9d22c933c6bae5ee3670d22d105",
+      "evidence_path": "packages/game-core/src/common.ts"
+    },
+    "packages/game-core/src/contracts/adapter.ts": {
+      "recorded_sha256": "e27a80cdeb51f5a91b8dfdff36f3857fda4042a61971e50a2ce8d651deab20dd",
+      "actual_sha256": "e27a80cdeb51f5a91b8dfdff36f3857fda4042a61971e50a2ce8d651deab20dd",
+      "evidence_path": "packages/game-core/src/contracts/adapter.ts"
+    },
+    "packages/game-core/src/contracts/types.ts": {
+      "recorded_sha256": "bc7251cbb4f38fbf7d511f3f210f60ea90446826750a3922be43bc1738f0ef58",
+      "actual_sha256": "bc7251cbb4f38fbf7d511f3f210f60ea90446826750a3922be43bc1738f0ef58",
+      "evidence_path": "packages/game-core/src/contracts/types.ts"
+    },
+    "packages/game-core/src/games.ts": {
+      "recorded_sha256": "b8f1f4cb542a660ecee661929c725693502b10347c441b075567d999e37629f5",
+      "actual_sha256": "b8f1f4cb542a660ecee661929c725693502b10347c441b075567d999e37629f5",
+      "evidence_path": "packages/game-core/src/games.ts"
+    },
+    "packages/game-core/src/index.ts": {
+      "recorded_sha256": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+      "actual_sha256": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+      "evidence_path": "packages/game-core/src/index.ts"
+    },
+    "packages/game-core/src/model.ts": {
+      "recorded_sha256": "e40ad79a5998873ef437334fac6d7946ba9f076c5b36555c00b37614990e6b4d",
+      "actual_sha256": "e40ad79a5998873ef437334fac6d7946ba9f076c5b36555c00b37614990e6b4d",
+      "evidence_path": "packages/game-core/src/model.ts"
+    },
+    "packages/game-core/src/rules.ts": {
+      "recorded_sha256": "59d8fa6e607c9b1b35169ee4d79f3f555ed5c027ad7febb34cb460c10fca8f3d",
+      "actual_sha256": "59d8fa6e607c9b1b35169ee4d79f3f555ed5c027ad7febb34cb460c10fca8f3d",
+      "evidence_path": "packages/game-core/src/rules.ts"
+    },
+    "packages/game-core/src/snapshots.ts": {
+      "recorded_sha256": "ce9b8c6fea5a968c2416b59d263790b8cc54d004944b3af502785f7cfcceb81c",
+      "actual_sha256": "ce9b8c6fea5a968c2416b59d263790b8cc54d004944b3af502785f7cfcceb81c",
+      "evidence_path": "packages/game-core/src/snapshots.ts"
+    },
+    "apps/web/public/assets/asset-manifest.v1.json": {
+      "recorded_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+      "actual_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+      "evidence_path": "apps/web/public/assets/asset-manifest.v1.json"
+    },
+    "apps/web/public/assets/candidates/r3/manifest.json": {
+      "recorded_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "actual_sha256": "68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb",
+      "evidence_path": "apps/web/public/assets/candidates/r3/manifest.json"
+    },
+    "config/game_rules.v2.1.json": {
+      "recorded_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "actual_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "evidence_path": "config/game_rules.v2.1.json"
+    }
+  },
+  "manifest_asset_bindings": [
+    {
+      "path": "apps/web/public/assets/candidates/r3/stack.png",
+      "recorded_sha256": "0b7cfa5e8bf8adb974f7e5886742acde278f021e3105864528a354c36f88208c",
+      "actual_sha256": "0b7cfa5e8bf8adb974f7e5886742acde278f021e3105864528a354c36f88208c",
+      "matches": true
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r3/stack.atlas.json",
+      "recorded_sha256": "3742fbc16c0a646c40a8b23e43c1c1609bdada74c0a8170c4aff12e6d54a185e",
+      "actual_sha256": "3742fbc16c0a646c40a8b23e43c1c1609bdada74c0a8170c4aff12e6d54a185e",
+      "matches": true
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r3/runner.png",
+      "recorded_sha256": "a951761578fa31923f66efcb526e89ce168badf730dfb17505133a7f71abb9ec",
+      "actual_sha256": "a951761578fa31923f66efcb526e89ce168badf730dfb17505133a7f71abb9ec",
+      "matches": true
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r3/runner.atlas.json",
+      "recorded_sha256": "23a1dc526c328f239848c835774c8ee693fa1585635713e521c00d58702d0ee4",
+      "actual_sha256": "23a1dc526c328f239848c835774c8ee693fa1585635713e521c00d58702d0ee4",
+      "matches": true
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r3/herd.png",
+      "recorded_sha256": "331b313f04b2eb78ddf6dfff69bac67461d325af171c17a9a88f386a12e7fcf5",
+      "actual_sha256": "331b313f04b2eb78ddf6dfff69bac67461d325af171c17a9a88f386a12e7fcf5",
+      "matches": true
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r3/herd.atlas.json",
+      "recorded_sha256": "15dfb3783a002be5ef77278a1ae7de26790e436b4dde018901e91221f8e52b8b",
+      "actual_sha256": "15dfb3783a002be5ef77278a1ae7de26790e436b4dde018901e91221f8e52b8b",
+      "matches": true
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r3/page-stack-b2.png",
+      "recorded_sha256": "a5b50f5c9051711b29b8fd0fdfc0123d09f88f2bf297d033d44560161fef1329",
+      "actual_sha256": "a5b50f5c9051711b29b8fd0fdfc0123d09f88f2bf297d033d44560161fef1329",
+      "matches": true
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r3/page-runner-b2.png",
+      "recorded_sha256": "ed0fcfe5661fa9d4e0511406f000440dabeba8c4096178fdbf3ba66ee889655f",
+      "actual_sha256": "ed0fcfe5661fa9d4e0511406f000440dabeba8c4096178fdbf3ba66ee889655f",
+      "matches": true
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r3/page-herd-b2.png",
+      "recorded_sha256": "6830f7f2fc71d5e4a4d708476eecbec87496bd76f3302ce8f45abb3618b5521b",
+      "actual_sha256": "6830f7f2fc71d5e4a4d708476eecbec87496bd76f3302ce8f45abb3618b5521b",
+      "matches": true
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r3/title-plaque-a.png",
+      "recorded_sha256": "f03c17db0f82593149f9f4beeee9217f74e44e5ecb0e61b3f9f7e0a77eeb6210",
+      "actual_sha256": "f03c17db0f82593149f9f4beeee9217f74e44e5ecb0e61b3f9f7e0a77eeb6210",
+      "matches": true
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r3/stack-motion-a.png",
+      "recorded_sha256": "d1f6650adf600658aaac113f7ff902019b6c7280b520caecb417356cc21b9819",
+      "actual_sha256": "d1f6650adf600658aaac113f7ff902019b6c7280b520caecb417356cc21b9819",
+      "matches": true
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r3/stack-motion-a.atlas.json",
+      "recorded_sha256": "04a7e580c3b37567734670479df0dbce3f19951f03dd198f4c76e3eda22836ef",
+      "actual_sha256": "04a7e580c3b37567734670479df0dbce3f19951f03dd198f4c76e3eda22836ef",
+      "matches": true
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r3/fence-panel-b3.png",
+      "recorded_sha256": "ac43358d8de51550c3bfb6257b0c8d31ea9734fc94eba8c5543e6d4d24232e80",
+      "actual_sha256": "ac43358d8de51550c3bfb6257b0c8d31ea9734fc94eba8c5543e6d4d24232e80",
+      "matches": true
+    },
+    {
+      "path": "apps/web/public/assets/candidates/r3/fence-panel-b4.atlas.json",
+      "recorded_sha256": "121f930a0c11c0b7f1452c704ed5fd2508806f1de7b0fb15b819a50ce4580593",
+      "actual_sha256": "121f930a0c11c0b7f1452c704ed5fd2508806f1de7b0fb15b819a50ce4580593",
+      "matches": true
+    }
+  ],
+  "immutable_checkpoint_bindings": [
+    {
+      "path": "apps/web/public/assets/asset-manifest.v1.json",
+      "checkpoint_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+      "actual_sha256": "49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c",
+      "unchanged": true
+    },
+    {
+      "path": "config/game_rules.v2.1.json",
+      "checkpoint_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "actual_sha256": "ce1dd5de9aca976c16331b27443569dc95f0ed176778c202f88a0da848949a83",
+      "unchanged": true
+    },
+    {
+      "path": "package-lock.json",
+      "checkpoint_sha256": "8153a55cf49dae3c114ac28def76d0c308795b0b99572de3469b3e23a7226f46",
+      "actual_sha256": "8153a55cf49dae3c114ac28def76d0c308795b0b99572de3469b3e23a7226f46",
+      "unchanged": true
+    },
+    {
+      "path": "package.json",
+      "checkpoint_sha256": "637df202ad0e1083f37a4742527a498369c23a213e41e661f7837892b18b6b9e",
+      "actual_sha256": "637df202ad0e1083f37a4742527a498369c23a213e41e661f7837892b18b6b9e",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/openapi.yaml",
+      "checkpoint_sha256": "76e3f54fcae9f308fc764981096cdb5b99e1864de643a725769847e52bbf6a2f",
+      "actual_sha256": "76e3f54fcae9f308fc764981096cdb5b99e1864de643a725769847e52bbf6a2f",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/package.json",
+      "checkpoint_sha256": "4191ea1dccbb1892dbae369fa611429638862b4441eb42f92e0355767673a9c9",
+      "actual_sha256": "4191ea1dccbb1892dbae369fa611429638862b4441eb42f92e0355767673a9c9",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/src/generated/api-types.ts",
+      "checkpoint_sha256": "8e8b1c4f075be9b563dfa158bda731bfe74fe4e04146d529ac730844e89e0b38",
+      "actual_sha256": "8e8b1c4f075be9b563dfa158bda731bfe74fe4e04146d529ac730844e89e0b38",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/src/generated/schemas.ts",
+      "checkpoint_sha256": "acbaf5d64888ceadb4b0f9cac555ced1dc0d4a5980cef232563e012b7c13d0ef",
+      "actual_sha256": "acbaf5d64888ceadb4b0f9cac555ced1dc0d4a5980cef232563e012b7c13d0ef",
+      "unchanged": true
+    },
+    {
+      "path": "packages/contracts/src/index.ts",
+      "checkpoint_sha256": "c8342bfd4d468d8f919782e7dbd58ce1dd5b8183b5d2a88531fed17626435588",
+      "actual_sha256": "c8342bfd4d468d8f919782e7dbd58ce1dd5b8183b5d2a88531fed17626435588",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/package.json",
+      "checkpoint_sha256": "d1f47c1627f47e057b01e41edc06bb0323ac98bd85921befa5e73e82043d5c28",
+      "actual_sha256": "d1f47c1627f47e057b01e41edc06bb0323ac98bd85921befa5e73e82043d5c28",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/build.ts",
+      "checkpoint_sha256": "92b924da11856d4d46586de8bd16aaa5597aad28a814b8120d3dd124eb0849fb",
+      "actual_sha256": "92b924da11856d4d46586de8bd16aaa5597aad28a814b8120d3dd124eb0849fb",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/common.ts",
+      "checkpoint_sha256": "d4c757339272c1a77ca9e277a6b1069666f4c9d22c933c6bae5ee3670d22d105",
+      "actual_sha256": "d4c757339272c1a77ca9e277a6b1069666f4c9d22c933c6bae5ee3670d22d105",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/contracts/adapter.ts",
+      "checkpoint_sha256": "e27a80cdeb51f5a91b8dfdff36f3857fda4042a61971e50a2ce8d651deab20dd",
+      "actual_sha256": "e27a80cdeb51f5a91b8dfdff36f3857fda4042a61971e50a2ce8d651deab20dd",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/contracts/types.ts",
+      "checkpoint_sha256": "bc7251cbb4f38fbf7d511f3f210f60ea90446826750a3922be43bc1738f0ef58",
+      "actual_sha256": "bc7251cbb4f38fbf7d511f3f210f60ea90446826750a3922be43bc1738f0ef58",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/games.ts",
+      "checkpoint_sha256": "b8f1f4cb542a660ecee661929c725693502b10347c441b075567d999e37629f5",
+      "actual_sha256": "b8f1f4cb542a660ecee661929c725693502b10347c441b075567d999e37629f5",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/index.ts",
+      "checkpoint_sha256": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+      "actual_sha256": "5d4f77bb7967fa890c72af97c554e066bb62a53d549a4eddd0ad3c5fc014ffc9",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/model.ts",
+      "checkpoint_sha256": "e40ad79a5998873ef437334fac6d7946ba9f076c5b36555c00b37614990e6b4d",
+      "actual_sha256": "e40ad79a5998873ef437334fac6d7946ba9f076c5b36555c00b37614990e6b4d",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/rules.ts",
+      "checkpoint_sha256": "59d8fa6e607c9b1b35169ee4d79f3f555ed5c027ad7febb34cb460c10fca8f3d",
+      "actual_sha256": "59d8fa6e607c9b1b35169ee4d79f3f555ed5c027ad7febb34cb460c10fca8f3d",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/src/snapshots.ts",
+      "checkpoint_sha256": "ce9b8c6fea5a968c2416b59d263790b8cc54d004944b3af502785f7cfcceb81c",
+      "actual_sha256": "ce9b8c6fea5a968c2416b59d263790b8cc54d004944b3af502785f7cfcceb81c",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/test/core.test.ts",
+      "checkpoint_sha256": "0ac4dd81cb56598fd8ca8f2166e6004552d037613707638d0d20736387608b77",
+      "actual_sha256": "0ac4dd81cb56598fd8ca8f2166e6004552d037613707638d0d20736387608b77",
+      "unchanged": true
+    },
+    {
+      "path": "packages/game-core/test/differential.test.ts",
+      "checkpoint_sha256": "ab68470893e8549574a3970a1471be902f49d9164f1f2783aacc49c0ad761bce",
+      "actual_sha256": "ab68470893e8549574a3970a1471be902f49d9164f1f2783aacc49c0ad761bce",
+      "unchanged": true
+    }
+  ],
+  "references_previously_actually_opened_in_this_same_conversation": [
+    {
+      "path": "design/prototypes/01_stack.png",
+      "sha256": "94651ed5e2ca9039cc397c11395c31205f3b57ee0bd65858a45093d6ebe57652",
+      "pixels_opened": true,
+      "stage": "B3 reference intake; originals reused as permitted; not regenerated or accepted new golden"
+    },
+    {
+      "path": "design/prototypes/02_runner.png",
+      "sha256": "62358c3c1cf36921266292f9747c514683f994fb1ed7c15254c29b3b98554a85",
+      "pixels_opened": true,
+      "stage": "B3 reference intake; originals reused as permitted; not regenerated or accepted new golden"
+    },
+    {
+      "path": "design/prototypes/03_herd.png",
+      "sha256": "754351c13b62debd71fa342e9e1e366f9b34b0be7e35ae3b0d5af27494d8c50a",
+      "pixels_opened": true,
+      "stage": "B3 reference intake; originals reused as permitted; not regenerated or accepted new golden"
+    },
+    {
+      "path": "design/character_foundation_board.png",
+      "sha256": "836bf1f94e122bd5c98868b02d8577f2e8ea16d8acdce234094969e7510b1539",
+      "pixels_opened": true,
+      "stage": "B3 reference intake; originals reused as permitted; not regenerated or accepted new golden"
+    }
+  ],
+  "product_writes": false,
+  "browser_executed_by_reviewer": false,
+  "git_or_dependency_operations": false,
+  "model_configuration_evidence": "Parent inspected user Codex model and agents defaults as gpt-6.1-sol / high; reviewer does not claim server-side runtime identity proof.",
+  "art_status": "PARTIAL_ALL_NINE; overall art acceptance FAIL",
+  "sample_art_accepted": false,
+  "production_art_accepted": false,
+  "S3": "NOT_READY; explicit user gate"
+}

@@ -6,9 +6,10 @@ import type { Atlas } from './assets';
 import { animationFrame, fitFrame } from './presentation';
 import { advanceStride, bufferLayout, clientToWorld, EventJournal, PresentationClock } from './presenter-state';
 import type { DisplayEvent, PresentationMode } from './presenter-state';
+import { r3FenceParts } from './r3-scenery';
 
 type ActorAtlas = 'sheep_side_v1' | 'sheep_iso8_v1' | 'dog_iso8_v1' | 'dog_walk_bark_candidate' | 'sheep_stack_candidate';
-interface Actor { atlas: ActorAtlas; key: string; x: number; y: number; action: string; facing?: string; size: number }
+interface Actor { atlas: ActorAtlas; key: string; x: number; y: number; action: string; facing?: string; size: number; uniformScale?: number }
 interface PropOptions { alpha?: number; depth?: number; container?: Phaser.GameObjects.Container; id?: string }
 const directions = ['e', 'se', 's', 'sw', 'w', 'nw', 'n', 'ne'] as const;
 
@@ -32,6 +33,16 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
   const width = 360;
   const height = gameId === 'stack' ? RULES.stack.reference_view_height_u / 1000 : gameId === 'runner' ? RULES.runner.world_view_height_u / 1000 : RULES.herd.world_height_u / 1000;
   const farmAtlas = gameId === 'herd' ? 'farm_iso_v1' : 'farm_side_v1';
+  const herdFenceParts = gameId === 'herd' ? r3FenceParts() : [];
+  const page = parent.closest<HTMLElement>('.game-page') ?? parent.closest<HTMLElement>('[data-art-candidate="r3"]');
+  const sceneryImage = atlases.farm_backdrop_v3?.objectUrl;
+  const pageImage = atlases.r3_page_backdrop?.objectUrl ?? sceneryImage;
+  const ownedScenery = sceneryImage ? `url("${sceneryImage}")` : '';
+  const ownedPageImage = pageImage ? `url("${pageImage}")` : '';
+  const titleImage = atlases.r3_ui_title?.objectUrl;
+  const ownedTitleImage = titleImage ? `url("${titleImage}")` : '';
+  let ownedSceneryTop = '';
+  let ownedScenerySize = '';
   class FarmScene extends Phaser.Scene {
     private graphics!: Phaser.GameObjects.Graphics;
     private actors!: Phaser.GameObjects.Container;
@@ -49,6 +60,7 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
 
     create() {
       for (const [name, atlas] of Object.entries(atlases)) {
+        if (name === 'r3_page_backdrop' || name.startsWith('r3_ui_') || name === 'farm_backdrop_v3' && atlas.candidateManifestHash) continue; // R3 scenery is one HTML background, not a second canvas plate.
         if (!atlas.decodedImage) throw new Error('预检图片缺失');
         this.textures.addImage(name, atlas.decodedImage);
         const texture = this.textures.get(name);
@@ -83,10 +95,11 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
     }
 
     boundedProp(frameName: string, box: { x: number; y: number; width: number; height: number }, depth: number, tint?: number, id = frameName): boolean {
-      const frame = atlases[farmAtlas]?.frames[frameName];
+      const texture = frameName.startsWith('r3_fence_') ? 'r3_fence' : farmAtlas;
+      const frame = atlases[texture]?.frames[frameName];
       if (!frame) return false;
       const placement = fitFrame(frame, box);
-      const sprite = this.reuse(`bounded:${id}`, farmAtlas, frameName).setPosition(placement.x, placement.y)
+      const sprite = this.reuse(`bounded:${id}`, texture, frameName).setPosition(placement.x, placement.y)
         .setOrigin(frame.pivot_px[0] / frame.rect[2], frame.pivot_px[1] / frame.rect[3]).setScale(placement.scale).setDepth(depth);
       if (tint !== undefined) sprite.setTint(tint);
       return true;
@@ -119,15 +132,23 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
       if (!frame) return;
       const sprite = this.reuse(`actor:${actor.key}`, actor.atlas, frameName).setPosition(actor.x, actor.y).setDisplaySize(actor.size, actor.size)
         .setOrigin(frame.pivot_px[0] / frame.rect[2], frame.pivot_px[1] / frame.rect[3]).setDepth(actor.y);
+      // R3 common trim is rectangular: uniform scale preserves the native body silhouette.
+      if (actor.uniformScale !== undefined) sprite.setScale(actor.uniformScale);
       sprite.setData({ action: actor.action, facing, phaseTicks });
     }
 
     backdrop() {
       if (atlases.farm_backdrop_v3) {
-        this.scenery.add(this.add.image(0, 0, 'farm_backdrop_v3', `backdrop_${gameId}`).setOrigin(0).setDisplaySize(width, height));
         const image = atlases.farm_backdrop_v3.objectUrl;
         // Decorative page extension does not alter the uniformly fitted game world.
-        if (image) parent.closest<HTMLElement>('.game-page')?.style.setProperty('--game-scenery-image', `url("${image}")`);
+        if (image) page?.style.setProperty('--game-scenery-image', ownedScenery);
+        if (atlases.farm_backdrop_v3.candidateManifestHash) {
+          page?.style.setProperty('--r3-page-scenery-image', ownedPageImage);
+          page?.style.setProperty('--r3-title-image', ownedTitleImage);
+          parent.dataset.candidateManifest = atlases.farm_backdrop_v3.candidateManifestHash;
+          return; // The transparent canvas retains every core-owned actor, prop and gate.
+        }
+        this.scenery.add(this.add.image(0, 0, 'farm_backdrop_v3', `backdrop_${gameId}`).setOrigin(0).setDisplaySize(width, height));
         return;
       }
       const grassY = gameId === 'stack' ? 284 : gameId === 'runner' ? 94 : 0;
@@ -187,14 +208,16 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
       const g = this.graphics, camera = Math.max(0, height * .42 + 8 - snapshot.top_support.center.y_u / 1000);
       const layer = (key: string, x: number, y: number, perfect = false, action = 'idle') => {
         const trayWidth = RULES.stack.tray_width_u / 1000;
-        this.shadow(x, y + 5, trayWidth * .9, .12);
+        if (atlases.farm_backdrop_v3?.candidateManifestHash) { g.fillStyle(0x4b5729, .12); g.fillEllipse(x, y + 5, trayWidth * .9, 3); }
+        else this.shadow(x, y + 5, trayWidth * .9, .12);
         if (!this.boundedProp('hay_tray_thin', { x: x - trayWidth / 2, y: y - 1, width: trayWidth, height: 6 }, y, undefined, `tray:${key}`)) {
           // Old immutable releases remain renderable; their large rope prop cannot fit a 44-unit layer.
           g.fillStyle(perfect ? 0xe4b749 : 0xd9ae60); g.fillRoundedRect(x - trayWidth / 2, y - 1, trayWidth, 6, 2);
         }
         const compact = Boolean(atlases.sheep_side_v1?.animations[`stack_${action}.e`]);
-        const candidate = action === 'idle' && Boolean(atlases.sheep_stack_candidate?.animations['stack_idle.e']);
-        this.actor({ atlas: candidate ? 'sheep_stack_candidate' : 'sheep_side_v1', key, x, y: y - 2, action: compact ? `stack_${action}` : action, size: compact ? 64 : 46 });
+        const candidate = Boolean(atlases.sheep_stack_candidate?.animations[`stack_${action}.e`]);
+        const uniform = candidate && atlases.farm_backdrop_v3?.candidateManifestHash ? { uniformScale: (RULES.stack.layer_height_u / 1000 - 8) / 126 } : {};
+        this.actor({ atlas: candidate ? 'sheep_stack_candidate' : 'sheep_side_v1', key, x, y: y - 2, action: compact ? `stack_${action}` : action, size: compact ? 64 : 46, ...uniform });
       };
       layer('foundation', RULES.stack.initial_top_x_u / 1000, RULES.stack.initial_top_y_u / 1000 + camera);
       for (const placed of snapshot.placed_layers.slice(-9)) {
@@ -249,8 +272,18 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
       const [gateStart, gateEnd] = RULES.herd.gate_open_x_u;
       if (gateStart === undefined || gateEnd === undefined) throw new Error('规则中的围栏入口缺失。');
       const gateLeft = gateStart / 1000, gateRight = gateEnd / 1000;
-      g.lineStyle(7, 0xa77a43); g.lineBetween(0, fenceY, gateLeft, fenceY); g.lineBetween(gateRight, fenceY, width, fenceY);
-      for (const [left, right] of [[0, gateLeft], [gateRight, width]] as const) for (let x = left + 24; x < right; x += 48) this.prop('fence_segment', x, fenceY, 60, { depth: fenceY });
+      if (atlases.r3_fence) {
+        // A subtle inner-pen material zone, not a new wall or a painted fake gate.
+        g.fillStyle(0xe4e6ae, .22); g.fillRect(0, 0, width, fenceY);
+        g.fillStyle(0x39502a, .13); g.fillRect(0, fenceY + 1, gateLeft, 2); g.fillRect(gateRight, fenceY + 1, width - gateRight, 2);
+        for (const part of herdFenceParts) {
+          if (part.frame !== 'r3_fence_rails') g.fillEllipse(part.box.x + part.box.width / 2, fenceY + 1, part.box.width, 3);
+          this.boundedProp(part.frame, part.box, fenceY + (part.frame === 'r3_fence_rails' ? 0 : .01), undefined, `fence:${part.frame}:${part.box.x}`);
+        }
+      } else {
+        g.lineStyle(7, 0xa77a43); g.lineBetween(0, fenceY, gateLeft, fenceY); g.lineBetween(gateRight, fenceY, width, fenceY);
+        for (const [left, right] of [[0, gateLeft], [gateRight, width]] as const) for (let x = left + 24; x < right; x += 48) this.prop('fence_segment', x, fenceY, 60, { depth: fenceY });
+      }
       // Gate guidance is ground paint; the opening and actors keep their core coordinates.
       const center = (gateLeft + gateRight) / 2;
       g.lineStyle(3, 0xffedaa, .8);
@@ -327,6 +360,7 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
       parent.dataset.eventCount = String(journal.history.length);
       parent.dataset.spriteCount = String(this.sprites.size);
       parent.dataset.effectCount = String(this.effects.length);
+      alignPageScenery();
     }
     inspect() { return { spriteCreated: this.spriteSerial, sprites: [...this.sprites].map(([id, image]) => ({ id, instance: image.name, frame: image.frame.name, action: image.getData('action'), facing: image.getData('facing'), phaseTicks: image.getData('phaseTicks'), x: image.x, y: image.y })), effects: this.effects.length, pooledEffects: this.effectPool.length }; }
   }
@@ -337,9 +371,28 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
     // FIT in this exact Phaser version uses the parent's DOMRect (including border), not clientWidth.
     const bounds = parent.getBoundingClientRect();
     layout = bufferLayout(bounds.width, bounds.height, width, height, window.devicePixelRatio);
+    // setGameSize refreshes FIT from cached parentSize. A React stage-height
+    // transition must refresh that cache first or the canvas can be clipped.
+    phaser.scale.getParentBounds();
     phaser.scale.setGameSize(layout.bufferWidth, layout.bufferHeight);
     for (const scene of phaser.scene.scenes) scene.cameras?.main?.setViewport(0, 0, layout.bufferWidth, layout.bufferHeight).setZoom(layout.zoom).centerOn(width / 2, height / 2);
     Object.assign(phaser.canvas.dataset, { phaserVersion: Phaser.VERSION, scaleMode: 'FIT', renderer: phaser.renderer.type === Phaser.WEBGL ? 'WEBGL' : 'CANVAS', effectiveDpr: String(layout.effectiveDpr), requestedDpr: String(layout.requestedDpr), worldWidth: String(width), worldHeight: String(height) });
+    alignPageScenery();
+  }
+  function alignPageScenery() {
+    const backdrop = atlases.r3_page_backdrop;
+    if (page && backdrop?.decodedImage && backdrop.sceneryAnchorFraction !== undefined) {
+      const pageRect = page.getBoundingClientRect(), canvasRect = phaser.canvas.getBoundingClientRect();
+      const [imageWidth, imageHeight] = backdrop.size_px;
+      const scale = Math.max(pageRect.width / imageWidth, pageRect.height / imageHeight);
+      const anchorY = gameId === 'runner' ? RULES.runner.ground_y_u / 1000 : gameId === 'stack' ? RULES.stack.initial_top_y_u / 1000 : RULES.herd.fence_y_u / 1000;
+      const nextTop = `${canvasRect.top - pageRect.top + anchorY / height * canvasRect.height - backdrop.sceneryAnchorFraction * imageHeight * scale}px`;
+      const nextSize = `${imageWidth * scale}px ${imageHeight * scale}px`;
+      // Flex layout can move a same-sized canvas without firing ResizeObserver.
+      // Only scenery follows that movement; world camera and input map stay untouched.
+      if (nextTop !== ownedSceneryTop) { ownedSceneryTop = nextTop; page.style.setProperty('--r3-page-scenery-top', nextTop); }
+      if (nextSize !== ownedScenerySize) { ownedScenerySize = nextSize; page.style.setProperty('--r3-page-scenery-size', nextSize); }
+    }
   }
   const observer = new ResizeObserver(resize); observer.observe(parent);
   window.addEventListener('resize', resize);
@@ -362,6 +415,13 @@ export function createRenderer(parent: HTMLElement, initial: GameView, atlases: 
     clientToWorld(x: number, y: number) { return clientToWorld({ x, y }, phaser.canvas.getBoundingClientRect(), layout); },
     cameraToWorld(x: number, y: number) { const camera = phaser.scene.getScenes(true)[0]?.cameras.main; const point = camera?.getWorldPoint(x, y); return point ? { x: point.x, y: point.y } : null; },
     diagnostics() { return { version: Phaser.VERSION, layout, mode: displayClock.mode, displayTime, events: journal.history, decorationOmitted: journal.omitted, textures: phaser.textures.getTextureKeys().length, coreTick: current.tick, scene: (phaser.scene.getScenes(true)[0] as FarmScene | undefined)?.inspect() }; },
-    destroy() { if (destroyed) return; destroyed = true; ready = false; observer.disconnect(); window.removeEventListener('resize', resize); journal.begin('destroyed', 0); firstFrame(false); phaser.destroy(true); releaseAssets(atlases); }
+    destroy() { if (destroyed) return; destroyed = true; ready = false; observer.disconnect(); window.removeEventListener('resize', resize); journal.begin('destroyed', 0); firstFrame(false); phaser.destroy(true);
+      if (page?.style.getPropertyValue('--game-scenery-image') === ownedScenery) page.style.removeProperty('--game-scenery-image');
+      if (page?.style.getPropertyValue('--r3-page-scenery-image') === ownedPageImage) page.style.removeProperty('--r3-page-scenery-image');
+      if (page?.style.getPropertyValue('--r3-title-image') === ownedTitleImage) page.style.removeProperty('--r3-title-image');
+      if (page?.style.getPropertyValue('--r3-page-scenery-top') === ownedSceneryTop) page.style.removeProperty('--r3-page-scenery-top');
+      if (page?.style.getPropertyValue('--r3-page-scenery-size') === ownedScenerySize) page.style.removeProperty('--r3-page-scenery-size');
+      delete parent.dataset.candidateManifest;
+      releaseAssets(atlases); }
   };
 }

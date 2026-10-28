@@ -1,0 +1,9 @@
+
+ RUN  v5.0.5 <PROJECT_ROOT>
+
+
+ Test Files  15 passed (15)
+      Tests  280 passed (280)
+   Start at  08:47:20
+   Duration  12.64s (tests 77%, import 21%, transform 2%, worker 1%)
+

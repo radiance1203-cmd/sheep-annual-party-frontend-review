@@ -1,0 +1,6 @@
+请审查当前仓库R3候选，而非历史G4局部样板。先读PROGRESS.md、docs/R3_VISUAL_EXECUTION.txt、docs/R3_VISUAL_STATUS.md及review/r3/CURRENT.json。
+候选manifest SHA256必须为68a94f88ab06e175255ee54a2d8ee0a8a666582dd4b3973bbcfd75adb871a5cb；正式manifest仍49eba97a27668b9c39366157714714b9d1550054453134867bbbb7e1a05bd24c。
+实际逐张打开review/r3/evidence/pages/的27张PNG，对照visual-repair-v1/references/或design/prototypes/与design/character_foundation_board.png；审查三款准备页、教程、运行页整屏，而非只封面。再查看comparisons中的原型/修复前/当前/真实几何图及video中的三段原速完整过程。
+重点核对叠高小羊长托与材质、跨栏整屏连续性和小物件可辨性、赶羊圈内外层次/门线/围栏/犬羊身份与拥挤、UI一致性及短屏。确认使用真实core和控件、无整页截图伪装、无改规则/seed/碰撞/门线/积分/三槽。
+阅读独立B4报告及PUBLIC_SOURCE_BINDING.json区分本机原始hash、公开脱敏副本与Git换行规范。独立技术PASS不等于艺术通过。逐条输出PASS/PARTIAL/FAIL/NOT_RUN、实际打开图片路径、具体修改建议及冻结规则冲突。未打开图片或不能播放视频请明示，不能猜测通过。
+目前九格艺术PARTIAL、整体FAIL；S3未签认，不接受新golden、不批量扩产、不标生产美术完成。物理手机/微信、真人难度、现场仍待验。
